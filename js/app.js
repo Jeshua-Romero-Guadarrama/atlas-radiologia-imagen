@@ -10,8 +10,10 @@ const IMAGEN_RESERVA =
   encodeURIComponent(
     `<svg xmlns='http://www.w3.org/2000/svg' width='400' height='300'>
       <rect width='400' height='300' fill='#0b1520'/>
-      <text x='200' y='140' text-anchor='middle' font-size='48'>🩻</text>
-      <text x='200' y='185' text-anchor='middle' font-size='16' fill='#8aa0b5'
+      <g fill='none' stroke='#3f5a72' stroke-width='3' stroke-linecap='round' stroke-linejoin='round' transform='translate(176 96) scale(2)'>
+        <path d='M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2M7 12h10M12 7v10'/>
+      </g>
+      <text x='200' y='210' text-anchor='middle' font-size='15' fill='#6f88a0'
         font-family='Segoe UI, sans-serif'>Imagen pendiente</text>
     </svg>`
   );
@@ -117,15 +119,15 @@ function pintarMetricas() {
   if (!cont) return;
   const sistemas = new Set(FICHAS.map((f) => f.sistema)).size;
   const datos = [
-    ["🗂️", FICHAS.length, "fichas"],
-    ["🫀", sistemas, "sistemas"],
-    ["🔬", SIGNOS.length, "signos"],
-    ["📐", CLASIFICACIONES.length, "clasificaciones"],
-    ["🧮", CALCULADORAS.length, "calculadoras"],
-    ["📖", GLOSARIO.length, "términos"],
+    ["catalogo", FICHAS.length, "fichas"],
+    ["corazon", sistemas, "sistemas"],
+    ["signos", SIGNOS.length, "signos"],
+    ["clasificaciones", CLASIFICACIONES.length, "clasificaciones"],
+    ["calculadoras", CALCULADORAS.length, "calculadoras"],
+    ["glosario", GLOSARIO.length, "términos"],
   ];
   cont.innerHTML = datos
-    .map(([ic, n, t]) => `<span class="metrica">${ic} <strong>${n}</strong> ${t}</span>`)
+    .map(([nombre, n, t]) => `<span class="metrica">${ico(nombre)} <strong>${n}</strong> ${t}</span>`)
     .join("");
 }
 
@@ -133,6 +135,80 @@ function pintarMetricas() {
 function claseModalidad(mod) {
   const m = { RX: "mod-rx", TC: "mod-tc", RM: "mod-rm", US: "mod-us" };
   return m[mod] || "";
+}
+
+// Devuelve el marcado de un ícono del sprite SVG
+function ico(nombre) {
+  return `<svg class="ico"><use href="#ico-${nombre}"/></svg>`;
+}
+
+// Convierte un nombre de sistema en una clase de color de acento
+function claseSistema(sistema) {
+  return "sis-" + normalizar(sistema).replace(/[^a-z]+/g, "-");
+}
+
+/* ============================================================
+   Paginación
+   ============================================================
+   Cada sección recorre su lista por páginas en lugar de
+   mostrarlo todo de golpe. Mejora la carga y la lectura.
+   ============================================================ */
+const POR_PAGINA = { catalogo: 24, signos: 24, clasificaciones: 24, calculadoras: 24, glosario: 30 };
+const PAGINA = { catalogo: 1, signos: 1, clasificaciones: 1, calculadoras: 1, glosario: 1 };
+const REPINTAR = {}; // se rellena al final con la función de cada sección
+
+// Devuelve el trozo de la lista que corresponde a la página actual
+function trozoPagina(vista, lista) {
+  const porPag = POR_PAGINA[vista];
+  const paginas = Math.max(1, Math.ceil(lista.length / porPag));
+  if (PAGINA[vista] > paginas) PAGINA[vista] = paginas;
+  const inicio = (PAGINA[vista] - 1) * porPag;
+  return { items: lista.slice(inicio, inicio + porPag), paginas, inicio, total: lista.length };
+}
+
+// Calcula qué números mostrar, con puntos suspensivos si hay muchas páginas
+function numerosVisibles(actual, total) {
+  if (total <= 7) return Array.from({ length: total }, (_, i) => i + 1);
+  const nums = new Set([1, total, actual, actual - 1, actual + 1]);
+  const orden = [...nums].filter((n) => n >= 1 && n <= total).sort((a, b) => a - b);
+  const salida = [];
+  orden.forEach((n, i) => {
+    if (i > 0 && n - orden[i - 1] > 1) salida.push("…");
+    salida.push(n);
+  });
+  return salida;
+}
+
+// Dibuja los controles « ‹ 1 2 … n › » para una sección
+function pintarPaginacion(vista, info) {
+  const nav = document.getElementById("pag-" + vista);
+  if (!nav) return;
+  if (info.paginas <= 1) { nav.innerHTML = ""; return; }
+  const actual = PAGINA[vista];
+  const desde = info.inicio + 1;
+  const hasta = info.inicio + info.items.length;
+
+  let html = `<span class="pag-info">${desde}–${hasta} de ${info.total}</span><div class="pag-botones">`;
+  html += `<button class="pag-btn pag-flecha" data-ir="${actual - 1}" ${actual === 1 ? "disabled" : ""} aria-label="Anterior">${ico("anterior")}</button>`;
+  numerosVisibles(actual, info.paginas).forEach((n) => {
+    if (n === "…") html += `<span class="pag-elipsis">…</span>`;
+    else html += `<button class="pag-btn ${n === actual ? "activo" : ""}" data-ir="${n}">${n}</button>`;
+  });
+  html += `<button class="pag-btn pag-flecha" data-ir="${actual + 1}" ${actual === info.paginas ? "disabled" : ""} aria-label="Siguiente">${ico("siguiente")}</button>`;
+  html += `</div>`;
+  nav.innerHTML = html;
+
+  nav.querySelectorAll("button[data-ir]").forEach((b) => {
+    b.addEventListener("click", () => {
+      const destino = Number(b.dataset.ir);
+      if (destino < 1 || destino > info.paginas) return;
+      PAGINA[vista] = destino;
+      REPINTAR[vista]();
+      const vistaEl = document.getElementById("vista-" + vista);
+      const arriba = vistaEl ? vistaEl.getBoundingClientRect().top + window.scrollY - 80 : 0;
+      window.scrollTo({ top: Math.max(0, arriba), behavior: "smooth" });
+    });
+  });
 }
 
 /* ============================================================
@@ -169,9 +245,9 @@ function crearChips(contenedorId, valores, alHacerClic) {
 
 function iniciarFiltros() {
   crearChips("filtros-sistema", ["Todos", ...new Set(FICHAS.map((f) => f.sistema))],
-    (v) => { sistemaActivo = v; pintarGaleria(); });
+    (v) => { sistemaActivo = v; PAGINA.catalogo = 1; pintarGaleria(); });
   crearChips("filtros-modalidad", ["Todas", ...new Set(FICHAS.map((f) => f.modalidad))],
-    (v) => { modalidadActiva = v; pintarGaleria(); });
+    (v) => { modalidadActiva = v; PAGINA.catalogo = 1; pintarGaleria(); });
 }
 
 function fichasFiltradas() {
@@ -197,14 +273,16 @@ function pintarGaleria() {
   galeria.innerHTML = "";
   if (fichas.length === 0) {
     galeria.innerHTML =
-      `<div class="sin-resultados"><p class="emoji-grande">🔎</p>
+      `<div class="sin-resultados"><p class="emoji-grande">${ico("buscar")}</p>
        <p>No encontré nada con esa búsqueda.<br>Prueba con otra palabra o quita los filtros.</p></div>`;
+    pintarPaginacion("catalogo", { paginas: 1, items: [], inicio: 0, total: 0 });
     return;
   }
 
-  fichas.forEach((ficha) => {
+  const pág = trozoPagina("catalogo", fichas);
+  pág.items.forEach((ficha) => {
     const tarjeta = document.createElement("article");
-    tarjeta.className = "tarjeta";
+    tarjeta.className = "tarjeta " + claseSistema(ficha.sistema);
     tarjeta.innerHTML = `
       <div class="tarjeta-marco">
         <img class="tarjeta-imagen" loading="lazy" alt="${escapar(ficha.titulo)}"
@@ -215,7 +293,7 @@ function pintarGaleria() {
       </div>
       <div class="tarjeta-cuerpo">
         <div class="insignias">
-          <span class="insignia">${escapar(ficha.sistema)}</span>
+          <span class="insignia sistema">${escapar(ficha.sistema)}</span>
           <span class="insignia modalidad ${claseModalidad(ficha.modalidad)}">${escapar(ficha.modalidad)}</span>
           <span class="insignia nivel ${(ficha.dificultad || "").toLowerCase()}">${escapar(ficha.dificultad || "")}</span>
         </div>
@@ -226,6 +304,7 @@ function pintarGaleria() {
     tarjeta.addEventListener("click", () => abrirFicha(ficha));
     galeria.appendChild(tarjeta);
   });
+  pintarPaginacion("catalogo", pág);
 }
 
 /* ============================================================
@@ -365,15 +444,17 @@ function pintarSignos() {
   const contenedor = document.getElementById("lista-signos");
   contenedor.innerHTML = "";
   if (!lista.length) {
-    contenedor.innerHTML = `<div class="sin-resultados"><p class="emoji-grande">🔎</p><p>No encontré ese signo.</p></div>`;
+    contenedor.innerHTML = `<div class="sin-resultados"><p class="emoji-grande">${ico("buscar")}</p><p>No encontré ese signo.</p></div>`;
+    pintarPaginacion("signos", { paginas: 1, items: [], inicio: 0, total: 0 });
     return;
   }
-  lista.forEach((signo) => {
+  const pág = trozoPagina("signos", lista);
+  pág.items.forEach((signo) => {
     const t = document.createElement("article");
-    t.className = "tarjeta-texto";
+    t.className = "tarjeta-texto " + claseSistema(signo.sistema);
     t.innerHTML = `
       <div class="insignias">
-        <span class="insignia">${escapar(signo.sistema)}</span>
+        <span class="insignia sistema">${escapar(signo.sistema)}</span>
         <span class="insignia modalidad ${claseModalidad(signo.modalidad)}">${escapar(signo.modalidad)}</span>
       </div>
       <h3>${escapar(signo.nombre)}</h3>
@@ -381,6 +462,7 @@ function pintarSignos() {
     t.addEventListener("click", () => abrirSigno(signo));
     contenedor.appendChild(t);
   });
+  pintarPaginacion("signos", pág);
 }
 
 function abrirSigno(signo) {
@@ -420,15 +502,17 @@ function pintarClasificaciones() {
   const contenedor = document.getElementById("lista-clasificaciones");
   contenedor.innerHTML = "";
   if (!lista.length) {
-    contenedor.innerHTML = `<div class="sin-resultados"><p class="emoji-grande">🔎</p><p>No encontré esa clasificación.</p></div>`;
+    contenedor.innerHTML = `<div class="sin-resultados"><p class="emoji-grande">${ico("buscar")}</p><p>No encontré esa clasificación.</p></div>`;
+    pintarPaginacion("clasificaciones", { paginas: 1, items: [], inicio: 0, total: 0 });
     return;
   }
-  lista.forEach((clas) => {
+  const pág = trozoPagina("clasificaciones", lista);
+  pág.items.forEach((clas) => {
     const t = document.createElement("article");
-    t.className = "tarjeta-texto";
+    t.className = "tarjeta-texto " + claseSistema(clas.sistema);
     t.innerHTML = `
       <div class="insignias">
-        <span class="insignia">${escapar(clas.sistema)}</span>
+        <span class="insignia sistema">${escapar(clas.sistema)}</span>
         <span class="insignia modalidad ${claseModalidad(clas.modalidad)}">${escapar(clas.modalidad)}</span>
         <span class="insignia nivel">${(clas.grados || []).length} grados</span>
       </div>
@@ -437,6 +521,7 @@ function pintarClasificaciones() {
     t.addEventListener("click", () => abrirClasificacion(clas));
     contenedor.appendChild(t);
   });
+  pintarPaginacion("clasificaciones", pág);
 }
 
 function abrirClasificacion(clas) {
@@ -464,8 +549,8 @@ document.getElementById("cerrar-signo").addEventListener("click", cerrarSigno);
 document.querySelector("[data-cierra-signo]").addEventListener("click", cerrarSigno);
 document.getElementById("cerrar-clasificacion").addEventListener("click", cerrarClasificacion);
 document.querySelector("[data-cierra-clasificacion]").addEventListener("click", cerrarClasificacion);
-document.getElementById("busqueda-signos").addEventListener("input", pintarSignos);
-document.getElementById("busqueda-clasificaciones").addEventListener("input", pintarClasificaciones);
+document.getElementById("busqueda-signos").addEventListener("input", () => { PAGINA.signos = 1; pintarSignos(); });
+document.getElementById("busqueda-clasificaciones").addEventListener("input", () => { PAGINA.clasificaciones = 1; pintarClasificaciones(); });
 
 /* ============================================================
    Calculadoras
@@ -502,15 +587,17 @@ function pintarCalculadoras() {
   const contenedor = document.getElementById("lista-calculadoras");
   contenedor.innerHTML = "";
   if (!lista.length) {
-    contenedor.innerHTML = `<div class="sin-resultados"><p class="emoji-grande">🔎</p><p>No encontré esa calculadora.</p></div>`;
+    contenedor.innerHTML = `<div class="sin-resultados"><p class="emoji-grande">${ico("buscar")}</p><p>No encontré esa calculadora.</p></div>`;
+    pintarPaginacion("calculadoras", { paginas: 1, items: [], inicio: 0, total: 0 });
     return;
   }
-  lista.forEach((calc) => {
+  const pág = trozoPagina("calculadoras", lista);
+  pág.items.forEach((calc) => {
     const t = document.createElement("article");
     t.className = "tarjeta-texto";
     t.innerHTML = `
       <div class="insignias">
-        <span class="insignia">${escapar(calc.categoria)}</span>
+        <span class="insignia categoria">${escapar(calc.categoria)}</span>
         <span class="insignia modalidad ${claseModalidad(calc.modalidad)}">${escapar(calc.modalidad)}</span>
       </div>
       <h3>${escapar(calc.nombre)}</h3>
@@ -518,6 +605,7 @@ function pintarCalculadoras() {
     t.addEventListener("click", () => abrirCalculadora(calc));
     contenedor.appendChild(t);
   });
+  pintarPaginacion("calculadoras", pág);
 }
 
 function abrirCalculadora(calc) {
@@ -631,7 +719,7 @@ function cerrarCalculadora() {
 }
 document.getElementById("cerrar-calculadora").addEventListener("click", cerrarCalculadora);
 document.querySelector("[data-cierra-calculadora]").addEventListener("click", cerrarCalculadora);
-document.getElementById("busqueda-calculadoras").addEventListener("input", pintarCalculadoras);
+document.getElementById("busqueda-calculadoras").addEventListener("input", () => { PAGINA.calculadoras = 1; pintarCalculadoras(); });
 
 /* ============================================================
    Glosario
@@ -642,14 +730,19 @@ function pintarGlosario() {
   const terminos = GLOSARIO.filter((t) =>
     !consulta || normalizar(`${t.termino} ${t.definicion} ${t.categoria || ""}`).includes(consulta)
   );
-  lista.innerHTML = terminos.length
-    ? terminos.map((t) =>
-        `<div class="termino">
-           ${t.categoria ? `<span class="insignia categoria">${escapar(t.categoria)}</span>` : ""}
-           <h3>${escapar(t.termino)}</h3>
-           <p>${escapar(t.definicion)}</p>
-         </div>`).join("")
-    : `<div class="sin-resultados"><p class="emoji-grande">🔎</p><p>No encontré ese término.</p></div>`;
+  if (!terminos.length) {
+    lista.innerHTML = `<div class="sin-resultados"><p class="emoji-grande">${ico("buscar")}</p><p>No encontré ese término.</p></div>`;
+    pintarPaginacion("glosario", { paginas: 1, items: [], inicio: 0, total: 0 });
+    return;
+  }
+  const pág = trozoPagina("glosario", terminos);
+  lista.innerHTML = pág.items.map((t) =>
+    `<div class="termino">
+       ${t.categoria ? `<span class="insignia categoria">${escapar(t.categoria)}</span>` : ""}
+       <h3>${escapar(t.termino)}</h3>
+       <p>${escapar(t.definicion)}</p>
+     </div>`).join("");
+  pintarPaginacion("glosario", pág);
 }
 
 /* ============================================================
@@ -709,11 +802,11 @@ function responder(botonElegido, opcion, correcta) {
   if (opcion.codigo === correcta.codigo) {
     puntos++;
     retro.className = "quiz-retro bien";
-    retro.textContent = "✅ ¡Correcto! " + (correcta.hallazgos || "");
+    retro.innerHTML = `${ico("check")} <span><strong>¡Correcto!</strong> ${escapar(correcta.hallazgos || "")}</span>`;
   } else {
     botonElegido.classList.add("incorrecta");
     retro.className = "quiz-retro mal";
-    retro.textContent = `❌ Era: ${correcta.titulo}. ${correcta.hallazgos || ""}`;
+    retro.innerHTML = `${ico("equis")} <span><strong>Era:</strong> ${escapar(correcta.titulo)}. ${escapar(correcta.hallazgos || "")}</span>`;
   }
   retro.classList.remove("oculta");
   document.getElementById("quiz-puntos").textContent = puntos;
@@ -741,8 +834,8 @@ function siguientePregunta() {
 document.getElementById("boton-empezar").addEventListener("click", empezarQuiz);
 document.getElementById("boton-siguiente").addEventListener("click", siguientePregunta);
 document.getElementById("boton-reiniciar").addEventListener("click", empezarQuiz);
-document.getElementById("campo-busqueda").addEventListener("input", pintarGaleria);
-document.getElementById("busqueda-glosario").addEventListener("input", pintarGlosario);
+document.getElementById("campo-busqueda").addEventListener("input", () => { PAGINA.catalogo = 1; pintarGaleria(); });
+document.getElementById("busqueda-glosario").addEventListener("input", () => { PAGINA.glosario = 1; pintarGlosario(); });
 
 /* ============================================================
    Interacciones de la interfaz
@@ -775,6 +868,14 @@ if (irArriba) irArriba.addEventListener("click", () => window.scrollTo({ top: 0,
 /* ============================================================
    Arranque
    ============================================================ */
+Object.assign(REPINTAR, {
+  catalogo: pintarGaleria,
+  signos: pintarSignos,
+  clasificaciones: pintarClasificaciones,
+  calculadoras: pintarCalculadoras,
+  glosario: pintarGlosario,
+});
+
 (async () => {
   await cargarDatos();
   iniciarFiltros();

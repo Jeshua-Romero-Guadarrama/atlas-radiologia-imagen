@@ -150,13 +150,20 @@ body {
 }
 .marca { display: flex; align-items: center; gap: 0.7rem; text-decoration: none; color: inherit; }
 .marca-icono {
-  font-size: 1.5rem;
   width: 44px; height: 44px;
   display: grid; place-items: center;
   background: var(--marca-grad);
   border-radius: 13px;
   box-shadow: var(--sombra-marca);
-  filter: saturate(1.1);
+}
+.marca-icono .ico-logo { width: 24px; height: 24px; stroke: #fff; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+/* ---------- Íconos SVG ---------- */
+.ico {
+  width: 1.15em; height: 1.15em;
+  stroke: currentColor; fill: none;
+  stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;
+  flex: none; vertical-align: -0.22em;
 }
 .marca-texto { display: flex; flex-direction: column; line-height: 1.15; }
 .marca-texto strong { font-size: 1.08rem; font-weight: 700; letter-spacing: -0.015em; }
@@ -173,10 +180,12 @@ body {
   transition: transform 0.2s var(--paso), border-color 0.2s, background 0.2s;
   position: relative;
 }
-.boton-tema:hover { transform: translateY(-1px) rotate(-8deg); border-color: var(--marca-400); }
+.boton-tema:hover { transform: translateY(-1px) rotate(-8deg); border-color: var(--marca-400); color: var(--marca-500); }
+.boton-tema .ico { width: 20px; height: 20px; }
 .boton-tema .icono-luna { display: none; }
 :root[data-tema="oscuro"] .boton-tema .icono-sol { display: none; }
-:root[data-tema="oscuro"] .boton-tema .icono-luna { display: inline; }
+:root[data-tema="oscuro"] .boton-tema .icono-luna { display: block; }
+.pestana .ico { width: 17px; height: 17px; }
 
 /* Navegación en pestañas */
 .pestanas {
@@ -802,7 +811,139 @@ body {
   .ir-arriba { bottom: 1rem; right: 1rem; }
 }
 
+/* ============================================================
+   Fondo aurora (degradados suaves en movimiento)
+   ============================================================ */
+.aurora { position: fixed; inset: 0; z-index: -1; overflow: hidden; pointer-events: none; }
+.aurora-blob { position: absolute; border-radius: 50%; filter: blur(80px); opacity: 0.5; will-change: transform; }
+.aurora-blob.b1 { width: 46vw; height: 46vw; top: -14vw; right: -10vw; background: radial-gradient(circle, #0891b2, transparent 68%); animation: flotar1 24s ease-in-out infinite; }
+.aurora-blob.b2 { width: 40vw; height: 40vw; bottom: -12vw; left: -12vw; background: radial-gradient(circle, #6d28d9, transparent 68%); opacity: 0.32; animation: flotar2 30s ease-in-out infinite; }
+.aurora-blob.b3 { width: 32vw; height: 32vw; top: 32%; left: 44%; background: radial-gradient(circle, #0e7490, transparent 70%); opacity: 0.28; animation: flotar3 27s ease-in-out infinite; }
+:root[data-tema="oscuro"] .aurora-blob { opacity: 0.35; }
+:root[data-tema="oscuro"] .aurora-blob.b2 { opacity: 0.28; }
+@keyframes flotar1 { 0%, 100% { transform: translate(0, 0) scale(1); } 50% { transform: translate(-4vw, 5vw) scale(1.1); } }
+@keyframes flotar2 { 0%, 100% { transform: translate(0, 0) scale(1); } 50% { transform: translate(5vw, -4vw) scale(1.08); } }
+@keyframes flotar3 { 0%, 100% { transform: translate(0, 0) scale(1); } 50% { transform: translate(-6vw, -3vw) scale(0.92); } }
+
+/* ============================================================
+   Encabezados de modal con ícono
+   ============================================================ */
+.modal-cuerpo > h3,
+.bloque-perla h3, .bloque-error h3, .bloque-clave h3,
+.calc-formula h3 {
+  display: flex; align-items: center; gap: 0.5rem;
+}
+.modal-cuerpo > h3 .ico { color: var(--marca-500); }
+:root[data-tema="oscuro"] .modal-cuerpo > h3 .ico { color: var(--marca-400); }
+.bloque-perla h3 .ico { color: var(--alerta); }
+.bloque-error h3 .ico { color: var(--peligro); }
+.bloque-clave h3 .ico { color: var(--info); }
+.tema-seccion h3 { display: flex; align-items: center; gap: 0.5rem; }
+
+/* Ícono grande del quiz */
+.quiz-hero-icono .ico { width: 40px; height: 40px; color: var(--marca-500); stroke-width: 1.8; }
+:root[data-tema="oscuro"] .quiz-hero-icono .ico { color: var(--marca-400); }
+
+/* Retroalimentación del quiz con ícono */
+.quiz-retro { display: flex; align-items: flex-start; gap: 0.6rem; }
+.quiz-retro .ico { width: 20px; height: 20px; margin-top: 0.1rem; }
+
+/* Métricas con ícono */
+.metrica .ico { width: 15px; height: 15px; color: var(--marca-500); }
+:root[data-tema="oscuro"] .metrica .ico { color: var(--marca-400); }
+
+/* Ícono de estado vacío */
+.emoji-grande .ico { width: 46px; height: 46px; color: var(--tinta-3); stroke-width: 1.6; }
+
+/* ============================================================
+   Color de acento por sistema del cuerpo
+   ============================================================ */
+.sis-oseo { --acento-sis: #d97706; }
+.sis-respiratorio { --acento-sis: #0891b2; }
+.sis-cardiovascular { --acento-sis: #dc2626; }
+.sis-nervioso { --acento-sis: #7c3aed; }
+.sis-digestivo { --acento-sis: #16a34a; }
+.sis-urinario { --acento-sis: #0d9488; }
+.sis-reproductor { --acento-sis: #db2777; }
+.sis-mama { --acento-sis: #e11d48; }
+.sis-endocrino { --acento-sis: #ea580c; }
+.sis-cabeza-y-cuello { --acento-sis: #4f46e5; }
+
+.tarjeta[class*="sis-"] { border-top: 3px solid var(--acento-sis, var(--marca-400)); }
+.insignia.sistema {
+  background: color-mix(in srgb, var(--acento-sis, var(--marca-500)) 15%, transparent);
+  color: var(--acento-sis, var(--marca-500));
+  border: none;
+}
+:root[data-tema="oscuro"] .insignia.sistema {
+  background: color-mix(in srgb, var(--acento-sis, var(--marca-400)) 24%, transparent);
+  color: color-mix(in srgb, var(--acento-sis, var(--marca-400)) 70%, #fff);
+}
+
+/* ============================================================
+   Paginación
+   ============================================================ */
+.paginacion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+.paginacion:empty { display: none; }
+.pag-info { font-size: 0.82rem; color: var(--tinta-3); font-variant-numeric: tabular-nums; }
+.pag-botones { display: flex; align-items: center; gap: 0.3rem; margin-left: auto; }
+.pag-btn {
+  min-width: 38px; height: 38px;
+  padding: 0 0.6rem;
+  border: 1px solid var(--borde);
+  background: var(--superficie);
+  color: var(--tinta-2);
+  border-radius: 10px;
+  font-size: 0.9rem; font-weight: 600; font-family: inherit;
+  cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center;
+  transition: all 0.18s var(--paso);
+}
+.pag-btn:hover:not(:disabled):not(.activo) { border-color: var(--marca-400); color: var(--marca-500); transform: translateY(-1px); }
+.pag-btn.activo { background: var(--marca-grad); border-color: transparent; color: #fff; box-shadow: var(--sombra-marca); cursor: default; }
+.pag-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.pag-flecha .ico { width: 18px; height: 18px; }
+.pag-elipsis { color: var(--tinta-3); padding: 0 0.2rem; align-self: flex-end; }
+
+@media (max-width: 640px) {
+  .paginacion { justify-content: center; }
+  .pag-info { width: 100%; text-align: center; order: 2; }
+  .pag-botones { margin: 0 auto; }
+  .pag-btn { min-width: 34px; height: 34px; }
+}
+
+/* ============================================================
+   Cargadores esqueleto
+   ============================================================ */
+.esqueleto {
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: var(--r-lg);
+  overflow: hidden;
+}
+.esqueleto-img { aspect-ratio: 4 / 3; background: var(--superficie-3); }
+.esqueleto-cuerpo { padding: 0.95rem 1.05rem 1.1rem; display: flex; flex-direction: column; gap: 0.55rem; }
+.esqueleto-linea { height: 12px; border-radius: 6px; background: var(--superficie-3); }
+.esqueleto-linea.corta { width: 45%; }
+.esqueleto-linea.media { width: 75%; }
+.esqueleto::after, .esqueleto-img::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--tinta) 6%, transparent), transparent);
+  transform: translateX(-100%);
+  animation: brillo 1.4s infinite;
+}
+.esqueleto { position: relative; }
+@keyframes brillo { 100% { transform: translateX(100%); } }
+
 /* Respeta la preferencia de menos movimiento */
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+  .aurora { display: none; }
 }
