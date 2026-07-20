@@ -1,0 +1,38 @@
+services:
+  mongo:
+    image: mongo:7
+    container_name: atlas-radiologia-imagen-mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - datos_mongo:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+  app:
+    build: .
+    container_name: atlas-radiologia-imagen-app
+    restart: unless-stopped
+    ports:
+      - "8081:3000"
+    volumes:
+      # El contenido y las imágenes se montan desde el equipo: así, al
+      # editar los JSON o añadir imágenes, basta reiniciar el contenedor
+      # (no hace falta reconstruir la imagen).
+      - ./data:/app/data:ro
+      - ./img:/app/img:ro
+    environment:
+      MONGO_URI: mongodb://mongo:27017
+      MONGO_DB: atlas_radiologia_imagen
+      PORT: 3000
+    depends_on:
+      mongo:
+        condition: service_healthy
+
+volumes:
+  datos_mongo:

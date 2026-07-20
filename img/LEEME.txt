@@ -1,0 +1,9 @@
+Guarda aqui tus propias imagenes (fotos de practicas, capturas de clase).
+
+Luego, en el archivo data/fichas.json, escribe en la ficha correspondiente:
+
+  "imagen": "img/nombre-de-tu-archivo.jpg"
+
+Consejo: usa nombres sin espacios ni acentos, por ejemplo:
+  rx-torax-caso1.jpg
+  us-higado-practica2.png

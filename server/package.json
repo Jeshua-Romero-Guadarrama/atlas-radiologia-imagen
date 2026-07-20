@@ -1,0 +1,14 @@
+{
+  "name": "atlas-radiologia-imagen",
+  "version": "1.0.0",
+  "description": "Catalogo de imagenologia por sistemas del cuerpo, con buscador, glosario y modo estudio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0"
+  }
+}

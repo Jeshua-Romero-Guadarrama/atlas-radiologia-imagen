@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atlas de Radiología e Imagen</title>
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🩻</text></svg>">
+</head>
+<body>
+
+  <header class="cabecera">
+    <div class="cabecera-contenido">
+      <h1>🩻 Atlas de Radiología e Imagen</h1>
+      <p class="lema">Catálogo de imagenología por sistemas del cuerpo</p>
+    </div>
+    <nav class="pestanas">
+      <button class="pestana activa" data-vista="catalogo">📚 Catálogo</button>
+      <button class="pestana" data-vista="signos">🔬 Signos</button>
+      <button class="pestana" data-vista="clasificaciones">📐 Clasificaciones</button>
+      <button class="pestana" data-vista="calculadoras">🧮 Calculadoras</button>
+      <button class="pestana" data-vista="temas">📘 Temas</button>
+      <button class="pestana" data-vista="glosario">📖 Glosario</button>
+      <button class="pestana" data-vista="estudio">🎯 Modo estudio</button>
+    </nav>
+  </header>
+
+  <!-- ============ VISTA: CATÁLOGO ============ -->
+  <main id="vista-catalogo" class="vista">
+    <section class="buscador">
+      <input type="search" id="campo-busqueda" placeholder="Buscar... (ej. fractura, tórax, neumotórax, sombra acústica)" autocomplete="off">
+      <div class="filtros">
+        <div class="grupo-filtro">
+          <span class="etiqueta-filtro">Sistema:</span>
+          <div id="filtros-sistema" class="chips"></div>
+        </div>
+        <div class="grupo-filtro">
+          <span class="etiqueta-filtro">Modalidad:</span>
+          <div id="filtros-modalidad" class="chips"></div>
+        </div>
+      </div>
+      <p id="contador-resultados" class="contador"></p>
+    </section>
+    <section id="galeria" class="galeria"></section>
+  </main>
+
+  <!-- ============ VISTA: SIGNOS RADIOLÓGICOS ============ -->
+  <main id="vista-signos" class="vista oculta">
+    <section class="buscador">
+      <input type="search" id="busqueda-signos" placeholder="Buscar signo... (ej. silueta, broncograma, Hampton)" autocomplete="off">
+      <p id="contador-signos" class="contador"></p>
+    </section>
+    <section id="lista-signos" class="galeria-texto"></section>
+  </main>
+
+  <!-- ============ VISTA: CLASIFICACIONES ============ -->
+  <main id="vista-clasificaciones" class="vista oculta">
+    <section class="buscador">
+      <input type="search" id="busqueda-clasificaciones" placeholder="Buscar clasificación... (ej. Salter-Harris, BI-RADS, Cobb)" autocomplete="off">
+      <p id="contador-clasificaciones" class="contador"></p>
+    </section>
+    <section id="lista-clasificaciones" class="galeria-texto"></section>
+  </main>
+
+  <!-- ============ VISTA: CALCULADORAS ============ -->
+  <main id="vista-calculadoras" class="vista oculta">
+    <section class="buscador">
+      <input type="search" id="busqueda-calculadoras" placeholder="Buscar calculadora... (ej. volumen, bazo, próstata, ASPECTS)" autocomplete="off">
+      <p id="contador-calculadoras" class="contador"></p>
+    </section>
+    <section id="lista-calculadoras" class="galeria-texto"></section>
+  </main>
+
+  <!-- ============ MODAL: CALCULADORA ============ -->
+  <div id="modal-calculadora" class="modal oculta">
+    <div class="modal-fondo" data-cierra-calculadora></div>
+    <article class="modal-tarjeta">
+      <button id="cerrar-calculadora" class="cerrar" aria-label="Cerrar">✕</button>
+      <div class="modal-cuerpo">
+        <div id="calc-insignias" class="insignias"></div>
+        <h2 id="calc-nombre"></h2>
+        <p id="calc-descripcion"></p>
+        <form id="calc-formulario" class="calc-formulario"></form>
+        <div id="calc-salida" class="calc-salida oculta">
+          <div id="calc-resultados"></div>
+          <p id="calc-interpretacion" class="calc-interpretacion"></p>
+        </div>
+        <div id="calc-formula-seccion" class="calc-formula">
+          <h3>📐 Fórmula</h3>
+          <p id="calc-formula"></p>
+        </div>
+        <div id="calc-notas-seccion" class="bloque-error">
+          <h3>⚠️ Ten en cuenta</h3>
+          <p id="calc-notas"></p>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <!-- ============ MODAL: SIGNO ============ -->
+  <div id="modal-signo" class="modal oculta">
+    <div class="modal-fondo" data-cierra-signo></div>
+    <article class="modal-tarjeta">
+      <button id="cerrar-signo" class="cerrar" aria-label="Cerrar">✕</button>
+      <div class="modal-cuerpo">
+        <div id="signo-insignias" class="insignias"></div>
+        <h2 id="signo-nombre"></h2>
+        <h3>👁️ Qué es</h3><p id="signo-quees"></p>
+        <h3>🧠 Por qué ocurre</h3><p id="signo-porque"></p>
+        <h3>🎯 Qué significa</h3><p id="signo-significado"></p>
+        <div id="signo-dif-seccion"><h3>🔀 También puede deberse a</h3><ul id="signo-diferencial"></ul></div>
+        <div class="bloque-perla"><h3>💡 Cómo recordarlo</h3><p id="signo-recordar"></p></div>
+      </div>
+    </article>
+  </div>
+
+  <!-- ============ MODAL: CLASIFICACIÓN ============ -->
+  <div id="modal-clasificacion" class="modal oculta">
+    <div class="modal-fondo" data-cierra-clasificacion></div>
+    <article class="modal-tarjeta">
+      <button id="cerrar-clasificacion" class="cerrar" aria-label="Cerrar">✕</button>
+      <div class="modal-cuerpo">
+        <div id="clas-insignias" class="insignias"></div>
+        <h2 id="clas-nombre"></h2>
+        <h3>🎯 Para qué sirve</h3><p id="clas-paraque"></p>
+        <h3>📊 Grados</h3>
+        <div class="tabla-envoltorio"><table class="tabla-grados">
+          <thead><tr><th>Grado</th><th>Criterio radiológico</th><th>Implicación</th></tr></thead>
+          <tbody id="clas-grados"></tbody>
+        </table></div>
+        <h3>⚙️ Cómo se aplica</h3><p id="clas-comousarla"></p>
+        <div id="clas-lim-seccion"><h3>⚠️ Limitaciones</h3><p id="clas-limitaciones"></p></div>
+      </div>
+    </article>
+  </div>
+
+  <!-- ============ VISTA: TEMAS ============ -->
+  <main id="vista-temas" class="vista oculta">
+    <section id="lista-temas" class="temas"></section>
+  </main>
+
+  <!-- ============ VISTA: GLOSARIO ============ -->
+  <main id="vista-glosario" class="vista oculta">
+    <section class="buscador">
+      <input type="search" id="busqueda-glosario" placeholder="Buscar término... (ej. radiolúcido, hiperdenso, anecoico, ALARA)" autocomplete="off">
+    </section>
+    <section id="lista-glosario" class="glosario"></section>
+  </main>
+
+  <!-- ============ VISTA: MODO ESTUDIO ============ -->
+  <main id="vista-estudio" class="vista oculta">
+    <section class="quiz-panel">
+      <div id="quiz-inicio">
+        <h2>🎯 ¿Qué estás viendo?</h2>
+        <p>Te muestro una imagen del catálogo y tienes que identificar qué estudio o hallazgo es. Ideal para repasar antes de un examen.</p>
+        <button id="boton-empezar" class="boton-primario">Empezar quiz</button>
+      </div>
+      <div id="quiz-pregunta" class="oculta">
+        <p class="quiz-progreso"><span id="quiz-numero"></span> · Aciertos: <span id="quiz-puntos">0</span></p>
+        <div class="quiz-imagen-marco">
+          <img id="quiz-imagen" alt="Imagen del quiz">
+        </div>
+        <p class="quiz-instruccion">¿Qué estás viendo?</p>
+        <div id="quiz-opciones" class="quiz-opciones"></div>
+        <div id="quiz-retro" class="quiz-retro oculta"></div>
+        <button id="boton-siguiente" class="boton-primario oculta">Siguiente →</button>
+      </div>
+      <div id="quiz-final" class="oculta">
+        <h2>🏁 ¡Terminaste!</h2>
+        <p id="quiz-resultado-final" class="quiz-resultado"></p>
+        <button id="boton-reiniciar" class="boton-primario">Jugar otra vez</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ MODAL: FICHA DETALLADA ============ -->
+  <div id="modal" class="modal oculta">
+    <div class="modal-fondo"></div>
+    <article class="modal-tarjeta">
+      <button id="cerrar-modal" class="cerrar" aria-label="Cerrar">✕</button>
+      <div class="modal-imagen-marco">
+        <img id="modal-imagen" alt="">
+      </div>
+      <div class="modal-cuerpo">
+        <div id="modal-insignias" class="insignias"></div>
+        <h2 id="modal-titulo"></h2>
+        <p id="modal-descripcion"></p>
+        <div id="modal-tecnica-seccion">
+          <h3>⚙️ Técnica</h3>
+          <p id="modal-tecnica"></p>
+        </div>
+        <div id="modal-observar-seccion">
+          <h3>👀 Qué observar</h3>
+          <ul id="modal-observar"></ul>
+        </div>
+        <div id="modal-hallazgos-seccion">
+          <h3>🔍 Hallazgos en esta imagen</h3>
+          <p id="modal-hallazgos"></p>
+        </div>
+        <div id="modal-modalidad-seccion">
+          <h3>🔀 Qué aporta cada modalidad</h3>
+          <dl id="modal-modalidad" class="lista-modalidad"></dl>
+        </div>
+        <div id="modal-diferencial-seccion">
+          <h3>🧭 Diagnóstico diferencial</h3>
+          <div class="tabla-envoltorio"><table class="tabla-diferencial">
+            <thead><tr><th>Entidad</th><th>Cómo distinguirla</th></tr></thead>
+            <tbody id="modal-diferencial"></tbody>
+          </table></div>
+        </div>
+        <div id="modal-simuladores-seccion">
+          <h3>🎭 Simuladores</h3>
+          <ul id="modal-simuladores"></ul>
+        </div>
+        <div id="modal-clasificacion-seccion">
+          <h3>📐 Clasificación</h3>
+          <p id="modal-clasificacion"></p>
+        </div>
+        <div id="modal-protocolo-seccion">
+          <h3>📋 Protocolo</h3>
+          <p id="modal-protocolo"></p>
+        </div>
+        <div id="modal-errores-seccion" class="bloque-error">
+          <h3>⚠️ Errores frecuentes</h3>
+          <ul id="modal-errores"></ul>
+        </div>
+        <div id="modal-perlas-seccion" class="bloque-perla">
+          <h3>💡 Perla</h3>
+          <p id="modal-perlas"></p>
+        </div>
+        <div id="modal-tema-seccion">
+          <h3>📘 Tema relacionado</h3>
+          <button id="modal-tema-boton" class="boton-enlace"></button>
+        </div>
+        <p id="modal-credito" class="credito"></p>
+      </div>
+    </article>
+  </div>
+
+  <!-- ============ MODAL: TEMA ============ -->
+  <div id="modal-tema" class="modal oculta">
+    <div class="modal-fondo" data-cierra-tema></div>
+    <article class="modal-tarjeta">
+      <button id="cerrar-tema" class="cerrar" aria-label="Cerrar">✕</button>
+      <div class="modal-cuerpo">
+        <div class="insignias"><span id="tema-sistema" class="insignia"></span></div>
+        <h2 id="tema-titulo"></h2>
+        <p id="tema-resumen" class="tema-resumen"></p>
+        <div id="tema-secciones"></div>
+        <div class="bloque-clave">
+          <h3>🔑 Puntos clave</h3>
+          <ul id="tema-puntos"></ul>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <footer class="pie">
+    <p>Imágenes de Wikimedia Commons con licencia libre, almacenadas localmente en esta aplicación · Material de estudio: no sustituye la formación académica ni la valoración de un profesional.</p>
+    <p id="estado-origen" class="estado-origen"></p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

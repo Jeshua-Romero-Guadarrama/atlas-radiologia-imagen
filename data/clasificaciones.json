@@ -1,0 +1,3715 @@
+[
+  {
+    "codigo": "salter-harris",
+    "nombre": "Clasificación de Salter-Harris",
+    "sistema": "Óseo",
+    "modalidad": "RX",
+    "paraQue": "Describe las fracturas que afectan a la fisis (cartílago de crecimiento) en pacientes pediátricos, según qué estructuras atraviesa el trazo. Se usa en toda fractura de un hueso largo en niños con fisis abierta.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "El trazo recorre únicamente la fisis; puede haber solo ensanchamiento fisario sin línea visible.",
+        "implicacion": "Buen pronóstico de crecimiento; a veces solo se diagnostica por dolor sobre la fisis con radiografía normal."
+      },
+      {
+        "grado": "II",
+        "criterio": "Trazo por la fisis que sale hacia la metáfisis, dejando un fragmento metafisario triangular (signo de Thurston-Holland).",
+        "implicacion": "Es el tipo más frecuente; suele tratarse con reducción cerrada e inmovilización."
+      },
+      {
+        "grado": "III",
+        "criterio": "Trazo por la fisis que sale hacia la epífisis, alcanzando la superficie articular.",
+        "implicacion": "Fractura intraarticular; requiere reducción anatómica para evitar escalón articular."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Trazo vertical que cruza epífisis, fisis y metáfisis.",
+        "implicacion": "Alto riesgo de puente óseo fisario y deformidad angular; suele precisar fijación."
+      },
+      {
+        "grado": "V",
+        "criterio": "Lesión por compresión axial de la fisis, con estrechamiento del espacio fisario y sin trazo evidente.",
+        "implicacion": "El peor pronóstico para el crecimiento; con frecuencia es un diagnóstico retrospectivo."
+      }
+    ],
+    "comoUsarla": "Localizar la fisis en las dos proyecciones y seguir el trazo: comprobar si toca metáfisis, epífisis o ambas, y comparar la anchura fisaria con el lado sano.",
+    "limitaciones": "Los tipos I y V pueden pasar desapercibidos en radiografía simple; no predice por sí sola el cierre fisario prematuro, que exige seguimiento clínico y radiológico.",
+    "etiquetas": [
+      "pediatría",
+      "fisis",
+      "fractura",
+      "crecimiento"
+    ]
+  },
+  {
+    "codigo": "garden",
+    "nombre": "Clasificación de Garden",
+    "sistema": "Óseo",
+    "modalidad": "RX",
+    "paraQue": "Gradúa el desplazamiento de las fracturas subcapitales o del cuello femoral (intracapsulares) para estimar el riesgo de necrosis avascular y decidir entre osteosíntesis y artroplastia.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Fractura incompleta o impactada en valgo; las trabéculas de la cabeza quedan verticalizadas.",
+        "implicacion": "Estable; suele tratarse con fijación con tornillos."
+      },
+      {
+        "grado": "II",
+        "criterio": "Fractura completa sin desplazamiento; las líneas trabeculares mantienen su alineación normal.",
+        "implicacion": "Riesgo bajo de necrosis; osteosíntesis."
+      },
+      {
+        "grado": "III",
+        "criterio": "Fractura completa con desplazamiento parcial; la cabeza rota en varo y las trabéculas quedan desalineadas respecto al acetábulo.",
+        "implicacion": "Riesgo intermedio-alto de necrosis y pseudoartrosis."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Fractura completa con desplazamiento total; la cabeza pierde contacto con el cuello y sus trabéculas vuelven a alinearse con las del acetábulo.",
+        "implicacion": "Máximo riesgo de necrosis; en el anciano se prefiere prótesis."
+      }
+    ],
+    "comoUsarla": "Valorar la proyección anteroposterior de cadera comparando la orientación de las trabéculas de la cabeza femoral con las del acetábulo y del cuello.",
+    "limitaciones": "Presenta variabilidad interobservador notable, por lo que en la práctica muchos equipos la simplifican a fracturas no desplazadas (I-II) frente a desplazadas (III-IV).",
+    "etiquetas": [
+      "cadera",
+      "cuello femoral",
+      "necrosis avascular"
+    ]
+  },
+  {
+    "codigo": "pauwels",
+    "nombre": "Clasificación de Pauwels",
+    "sistema": "Óseo",
+    "modalidad": "RX",
+    "paraQue": "Clasifica las fracturas del cuello femoral según la inclinación del trazo respecto a la horizontal, lo que refleja la proporción de fuerzas de cizallamiento sobre el foco.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Ángulo del trazo menor de 30 grados con la horizontal.",
+        "implicacion": "Predominan fuerzas de compresión; mayor estabilidad tras la fijación."
+      },
+      {
+        "grado": "II",
+        "criterio": "Ángulo entre 30 y 50 grados.",
+        "implicacion": "Estabilidad intermedia."
+      },
+      {
+        "grado": "III",
+        "criterio": "Ángulo mayor de 50 grados.",
+        "implicacion": "Predomina el cizallamiento; mayor riesgo de fallo de la osteosíntesis y pseudoartrosis."
+      }
+    ],
+    "comoUsarla": "En la proyección anteroposterior, trazar la línea del foco de fractura y medir el ángulo que forma con una línea horizontal de referencia.",
+    "limitaciones": "La medida depende de la rotación del miembro y de la posición del paciente; la reproducibilidad es limitada y no valora el desplazamiento.",
+    "etiquetas": [
+      "cadera",
+      "cuello femoral",
+      "biomecánica"
+    ]
+  },
+  {
+    "codigo": "weber-tobillo",
+    "nombre": "Clasificación de Weber (Danis-Weber)",
+    "sistema": "Óseo",
+    "modalidad": "RX",
+    "paraQue": "Clasifica las fracturas del peroné distal según la altura del trazo respecto a la sindesmosis tibioperonea, lo que orienta sobre la estabilidad del tobillo.",
+    "grados": [
+      {
+        "grado": "A",
+        "criterio": "Fractura peronea por debajo de la sindesmosis, habitualmente transversa por avulsión.",
+        "implicacion": "Sindesmosis íntegra; suele ser estable y de tratamiento conservador."
+      },
+      {
+        "grado": "B",
+        "criterio": "Fractura a la altura de la sindesmosis, típicamente espiroidea desde la línea articular hacia proximal.",
+        "implicacion": "Estabilidad variable; hay que valorar lesión medial y ensanchamiento del espacio claro."
+      },
+      {
+        "grado": "C",
+        "criterio": "Fractura por encima de la sindesmosis, que implica su rotura junto con la membrana interósea.",
+        "implicacion": "Inestable; requiere reducción y con frecuencia fijación de la sindesmosis."
+      }
+    ],
+    "comoUsarla": "Localizar el plafón tibial y el nivel superior de la articulación tibioperonea distal, y situar el trazo peroneo respecto a esa referencia; valorar además el espacio claro medial.",
+    "limitaciones": "No describe la lesión medial ni ligamentaria y puede infravalorar fracturas altas de peroné tipo Maisonneuve si no se radiografía toda la pierna.",
+    "etiquetas": [
+      "tobillo",
+      "peroné",
+      "sindesmosis"
+    ]
+  },
+  {
+    "codigo": "schatzker",
+    "nombre": "Clasificación de Schatzker",
+    "sistema": "Óseo",
+    "modalidad": "Varias",
+    "paraQue": "Clasifica las fracturas de la meseta tibial según el compartimento afectado y el tipo de trazo, orientando el abordaje quirúrgico.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Separación pura de la meseta lateral, sin hundimiento.",
+        "implicacion": "Frecuente en hueso joven; se asocia a lesión meniscal."
+      },
+      {
+        "grado": "II",
+        "criterio": "Separación de la meseta lateral con hundimiento articular asociado.",
+        "implicacion": "Suele precisar elevación del fragmento hundido y relleno del defecto."
+      },
+      {
+        "grado": "III",
+        "criterio": "Hundimiento puro de la meseta lateral sin trazo de separación cortical.",
+        "implicacion": "Típica de hueso osteoporótico."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Fractura de la meseta medial, por separación o hundimiento.",
+        "implicacion": "Implica traumatismo de mayor energía y riesgo de lesión neurovascular y ligamentaria."
+      },
+      {
+        "grado": "V",
+        "criterio": "Fractura bicondílea con ambas mesetas afectadas y continuidad metafisodiafisaria conservada.",
+        "implicacion": "Alta energía; osteosíntesis compleja."
+      },
+      {
+        "grado": "VI",
+        "criterio": "Fractura de meseta con disociación metafisodiafisaria.",
+        "implicacion": "La más inestable; riesgo de síndrome compartimental y complicaciones de partes blandas."
+      }
+    ],
+    "comoUsarla": "Valorar radiografías en dos proyecciones y completar con TC con reconstrucciones para cuantificar el hundimiento articular y el número de fragmentos.",
+    "limitaciones": "Fue diseñada para radiografía y describe mal los trazos coronales posteriores, que solo se ven bien en TC.",
+    "etiquetas": [
+      "rodilla",
+      "meseta tibial",
+      "articular"
+    ]
+  },
+  {
+    "codigo": "gustilo-anderson",
+    "nombre": "Clasificación de Gustilo-Anderson",
+    "sistema": "Óseo",
+    "modalidad": "RX",
+    "paraQue": "Gradúa las fracturas abiertas según el tamaño de la herida, el grado de contaminación, la lesión de partes blandas y el estado vascular.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Herida limpia menor de 1 cm, con lesión mínima de partes blandas y fractura de trazo simple.",
+        "implicacion": "Bajo riesgo de infección."
+      },
+      {
+        "grado": "II",
+        "criterio": "Herida mayor de 1 cm sin daño extenso de partes blandas ni conminución importante.",
+        "implicacion": "Riesgo intermedio de infección."
+      },
+      {
+        "grado": "IIIA",
+        "criterio": "Lesión extensa de partes blandas o fractura muy conminuta, pero con cobertura ósea adecuada.",
+        "implicacion": "Requiere desbridamiento amplio; no precisa colgajo."
+      },
+      {
+        "grado": "IIIB",
+        "criterio": "Pérdida de partes blandas con exposición ósea y desperiostización, que impide la cobertura directa.",
+        "implicacion": "Necesita cobertura con colgajo y tiene alto riesgo de infección."
+      },
+      {
+        "grado": "IIIC",
+        "criterio": "Cualquier fractura abierta con lesión arterial que requiere reparación.",
+        "implicacion": "Riesgo de amputación; prioridad de revascularización."
+      }
+    ],
+    "comoUsarla": "Es una clasificación fundamentalmente clínica y quirúrgica; la imagen aporta el patrón de fractura, el gas en partes blandas y los cuerpos extraños.",
+    "limitaciones": "La graduación definitiva solo puede hacerse en quirófano tras el desbridamiento; la concordancia entre observadores es moderada.",
+    "etiquetas": [
+      "fractura abierta",
+      "trauma",
+      "infección"
+    ]
+  },
+  {
+    "codigo": "neer",
+    "nombre": "Clasificación de Neer",
+    "sistema": "Óseo",
+    "modalidad": "Varias",
+    "paraQue": "Clasifica las fracturas del húmero proximal según cuántos de los cuatro segmentos anatómicos (cabeza, troquíter, troquín y diáfisis) están desplazados.",
+    "grados": [
+      {
+        "grado": "Una parte",
+        "criterio": "Ningún fragmento está desplazado más de 1 cm ni angulado más de 45 grados, con independencia del número de trazos.",
+        "implicacion": "Tratamiento habitualmente conservador."
+      },
+      {
+        "grado": "Dos partes",
+        "criterio": "Un segmento cumple criterio de desplazamiento respecto al resto.",
+        "implicacion": "Puede requerir reducción; frecuente en troquíter y cuello quirúrgico."
+      },
+      {
+        "grado": "Tres partes",
+        "criterio": "Dos segmentos desplazados, quedando la cabeza con una tuberosidad unida.",
+        "implicacion": "Suele indicarse osteosíntesis por inestabilidad."
+      },
+      {
+        "grado": "Cuatro partes",
+        "criterio": "Cabeza, ambas tuberosidades y diáfisis desplazadas entre sí.",
+        "implicacion": "Alto riesgo de necrosis de la cabeza humeral; a menudo artroplastia."
+      }
+    ],
+    "comoUsarla": "Contar solo los fragmentos que superan el umbral de desplazamiento o angulación, no el número total de trazos; conviene apoyarse en TC en fracturas complejas.",
+    "limitaciones": "La medición del desplazamiento en radiografía simple es poco fiable y la concordancia entre observadores es baja, sobre todo en fracturas de tres y cuatro partes.",
+    "etiquetas": [
+      "hombro",
+      "húmero proximal",
+      "trauma"
+    ]
+  },
+  {
+    "codigo": "tile-pelvis",
+    "nombre": "Clasificación de Tile",
+    "sistema": "Óseo",
+    "modalidad": "Varias",
+    "paraQue": "Clasifica las fracturas de pelvis según la estabilidad rotacional y vertical del anillo pélvico.",
+    "grados": [
+      {
+        "grado": "A",
+        "criterio": "Anillo pélvico estable: fracturas por avulsión o de ala ilíaca sin afectar la continuidad del anillo.",
+        "implicacion": "Manejo conservador."
+      },
+      {
+        "grado": "B",
+        "criterio": "Inestabilidad rotacional con estabilidad vertical conservada, como el libro abierto o la compresión lateral.",
+        "implicacion": "Puede requerir fijación anterior."
+      },
+      {
+        "grado": "C",
+        "criterio": "Inestabilidad rotacional y vertical, con disrupción completa del complejo posterior.",
+        "implicacion": "Alto riesgo de hemorragia; requiere estabilización anterior y posterior."
+      }
+    ],
+    "comoUsarla": "Valorar en TC la integridad del complejo sacroilíaco posterior y buscar desplazamiento vertical del hemipelvis y diástasis de la sínfisis.",
+    "limitaciones": "No informa directamente del riesgo hemorrágico ni de las lesiones urogenitales asociadas, que deben valorarse aparte.",
+    "etiquetas": [
+      "pelvis",
+      "anillo pélvico",
+      "politrauma"
+    ]
+  },
+  {
+    "codigo": "ao-general",
+    "nombre": "Clasificación AO/OTA de fracturas",
+    "sistema": "Óseo",
+    "modalidad": "Varias",
+    "paraQue": "Sistema alfanumérico universal que codifica cualquier fractura indicando el hueso, el segmento y la complejidad del trazo, para documentación homogénea y comparación entre centros.",
+    "grados": [
+      {
+        "grado": "Tipo A",
+        "criterio": "En segmentos diafisarios, fractura simple con un único trazo; en segmentos articulares, fractura extraarticular.",
+        "implicacion": "Menor complejidad y mejor pronóstico funcional."
+      },
+      {
+        "grado": "Tipo B",
+        "criterio": "En diáfisis, fractura en cuña con contacto entre los fragmentos principales; en segmento articular, fractura articular parcial con parte de la superficie unida a la diáfisis.",
+        "implicacion": "Complejidad intermedia."
+      },
+      {
+        "grado": "Tipo C",
+        "criterio": "En diáfisis, fractura compleja o multifragmentaria sin contacto entre fragmentos principales; en segmento articular, fractura articular completa con separación de la superficie respecto a la diáfisis.",
+        "implicacion": "Mayor complejidad quirúrgica y peor pronóstico."
+      }
+    ],
+    "comoUsarla": "Se asigna primero un número al hueso y otro al segmento (proximal, diafisario o distal) y después la letra del tipo, que puede afinarse con subgrupos numéricos.",
+    "limitaciones": "El sistema completo es muy extenso y poco práctico en el informe rutinario; su reproducibilidad cae al llegar a los subgrupos.",
+    "etiquetas": [
+      "fracturas",
+      "codificación",
+      "traumatología"
+    ]
+  },
+  {
+    "codigo": "cobb",
+    "nombre": "Ángulo de Cobb",
+    "sistema": "Óseo",
+    "modalidad": "RX",
+    "paraQue": "Cuantifica la magnitud de una curva escoliótica o de una cifosis en el plano correspondiente, y es la medida de referencia para indicar observación, corsé o cirugía.",
+    "grados": [
+      {
+        "grado": "Menor de 10 grados",
+        "criterio": "Asimetría raquídea que no alcanza el umbral definitorio.",
+        "implicacion": "No se considera escoliosis; no requiere tratamiento específico."
+      },
+      {
+        "grado": "10 a 24 grados",
+        "criterio": "Curva leve.",
+        "implicacion": "Observación con controles periódicos durante el crecimiento."
+      },
+      {
+        "grado": "25 a 39 grados",
+        "criterio": "Curva moderada.",
+        "implicacion": "Suele indicarse corsé si el paciente conserva potencial de crecimiento."
+      },
+      {
+        "grado": "40 a 49 grados",
+        "criterio": "Curva importante en el límite quirúrgico.",
+        "implicacion": "Valoración individualizada según madurez ósea y progresión."
+      },
+      {
+        "grado": "50 grados o más",
+        "criterio": "Curva grave.",
+        "implicacion": "Suele plantearse artrodesis por riesgo de progresión en la vida adulta."
+      }
+    ],
+    "comoUsarla": "Identificar las vértebras límite superior e inferior más inclinadas de la curva, trazar líneas paralelas a sus platillos y medir el ángulo entre sus perpendiculares en una teleradiografía en bipedestación.",
+    "limitaciones": "Tiene un error de medida de varios grados entre observadores, por lo que solo se consideran progresión los cambios superiores a unos 5 grados; no valora la rotación vertebral.",
+    "etiquetas": [
+      "columna",
+      "escoliosis",
+      "medición"
+    ]
+  },
+  {
+    "codigo": "risser",
+    "nombre": "Signo de Risser",
+    "sistema": "Óseo",
+    "modalidad": "RX",
+    "paraQue": "Estima la madurez esquelética a partir de la osificación progresiva de la apófisis ilíaca, para predecir el potencial de progresión de una escoliosis.",
+    "grados": [
+      {
+        "grado": "0",
+        "criterio": "Ausencia de osificación de la apófisis ilíaca.",
+        "implicacion": "Máximo potencial de crecimiento y de progresión de la curva."
+      },
+      {
+        "grado": "1",
+        "criterio": "Osificación del 25 por ciento de la cresta, desde la espina ilíaca anterosuperior hacia atrás.",
+        "implicacion": "Crecimiento aún muy activo."
+      },
+      {
+        "grado": "2",
+        "criterio": "Osificación de hasta el 50 por ciento de la cresta.",
+        "implicacion": "Cercano al pico de crecimiento puberal."
+      },
+      {
+        "grado": "3",
+        "criterio": "Osificación de hasta el 75 por ciento.",
+        "implicacion": "Desaceleración del crecimiento."
+      },
+      {
+        "grado": "4",
+        "criterio": "Osificación completa de la cresta pero sin fusión con el ala ilíaca.",
+        "implicacion": "Crecimiento casi finalizado."
+      },
+      {
+        "grado": "5",
+        "criterio": "Apófisis totalmente fusionada al hueso ilíaco.",
+        "implicacion": "Madurez esquelética; riesgo bajo de progresión."
+      }
+    ],
+    "comoUsarla": "En la radiografía anteroposterior de columna que incluya las crestas ilíacas, seguir el avance de la línea de osificación de fuera hacia dentro.",
+    "limitaciones": "Existen variantes de graduación distintas según la escuela empleada y la valoración es subjetiva; es menos precisa que otros métodos de edad ósea.",
+    "etiquetas": [
+      "escoliosis",
+      "madurez ósea",
+      "pediatría"
+    ]
+  },
+  {
+    "codigo": "kellgren-lawrence",
+    "nombre": "Clasificación de Kellgren-Lawrence",
+    "sistema": "Óseo",
+    "modalidad": "RX",
+    "paraQue": "Gradúa la artrosis, sobre todo de rodilla, en radiografía simple combinando osteofitos, pinzamiento del espacio articular, esclerosis y deformidad.",
+    "grados": [
+      {
+        "grado": "0",
+        "criterio": "Radiografía normal, sin hallazgos de artrosis.",
+        "implicacion": "Sin artrosis radiológica."
+      },
+      {
+        "grado": "1",
+        "criterio": "Osteofito dudoso y posible pinzamiento mínimo.",
+        "implicacion": "Cambios equívocos; no diagnósticos."
+      },
+      {
+        "grado": "2",
+        "criterio": "Osteofitos definidos con espacio articular conservado o mínimamente reducido.",
+        "implicacion": "Artrosis leve; manejo conservador."
+      },
+      {
+        "grado": "3",
+        "criterio": "Osteofitos múltiples, pinzamiento evidente, esclerosis subcondral y posible deformidad ósea.",
+        "implicacion": "Artrosis moderada con clínica habitualmente presente."
+      },
+      {
+        "grado": "4",
+        "criterio": "Osteofitos grandes, pinzamiento marcado con contacto óseo, esclerosis intensa y deformidad de los extremos óseos.",
+        "implicacion": "Artrosis grave; candidato a artroplastia si hay dolor incapacitante."
+      }
+    ],
+    "comoUsarla": "Emplear radiografías en carga, ya que en decúbito el espacio articular se sobreestima; valorar cada compartimento por separado.",
+    "limitaciones": "La correlación con el dolor del paciente es débil y no detecta lesión condral precoz, que requiere resonancia.",
+    "etiquetas": [
+      "artrosis",
+      "rodilla",
+      "degenerativo"
+    ]
+  },
+  {
+    "codigo": "tonnis-artrosis",
+    "nombre": "Clasificación de Tönnis de artrosis de cadera",
+    "sistema": "Óseo",
+    "modalidad": "RX",
+    "paraQue": "Gradúa la artrosis coxofemoral en radiografía simple, muy usada para decidir si un paciente es candidato a cirugía conservadora de cadera o a prótesis.",
+    "grados": [
+      {
+        "grado": "0",
+        "criterio": "Sin signos de artrosis.",
+        "implicacion": "Cadera radiológicamente normal."
+      },
+      {
+        "grado": "1",
+        "criterio": "Esclerosis leve de la cabeza y el acetábulo, con pinzamiento mínimo y sin pérdida de esfericidad.",
+        "implicacion": "Buen candidato a cirugía preservadora."
+      },
+      {
+        "grado": "2",
+        "criterio": "Quistes pequeños, pinzamiento moderado y pérdida moderada de esfericidad de la cabeza.",
+        "implicacion": "Resultados intermedios con cirugía conservadora."
+      },
+      {
+        "grado": "3",
+        "criterio": "Quistes grandes, pinzamiento grave o desaparición del espacio, deformidad importante de la cabeza y necrosis.",
+        "implicacion": "Indicación de artroplastia; contraindica la cirugía preservadora."
+      }
+    ],
+    "comoUsarla": "Analizar la radiografía anteroposterior de pelvis centrada, midiendo el espacio articular en su punto más estrecho y valorando quistes y esfericidad cefálica.",
+    "limitaciones": "Depende mucho de la técnica y la rotación; existe variabilidad interobservador especialmente entre los grados 1 y 2.",
+    "etiquetas": [
+      "cadera",
+      "artrosis",
+      "preservación"
+    ]
+  },
+  {
+    "codigo": "ficat",
+    "nombre": "Clasificación de Ficat y Arlet",
+    "sistema": "Óseo",
+    "modalidad": "Varias",
+    "paraQue": "Estadifica la necrosis avascular de la cabeza femoral según los hallazgos radiológicos, desde la fase preradiológica hasta la artrosis secundaria.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Radiografía normal con clínica compatible; la resonancia ya muestra alteración de la señal medular.",
+        "implicacion": "Fase reversible; candidato a descompresión."
+      },
+      {
+        "grado": "II",
+        "criterio": "Esclerosis, quistes y osteopenia en la cabeza femoral, que conserva su esfericidad y el espacio articular.",
+        "implicacion": "Aún sin colapso; tratamiento preservador posible."
+      },
+      {
+        "grado": "III",
+        "criterio": "Colapso subcondral con aplanamiento de la cabeza y signo de la semiluna.",
+        "implicacion": "Punto de no retorno; suele evolucionar a prótesis."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Colapso avanzado con pinzamiento articular y cambios degenerativos acetabulares.",
+        "implicacion": "Artrosis secundaria establecida; artroplastia."
+      }
+    ],
+    "comoUsarla": "Buscar en radiografía lateral el signo de la semiluna, que marca el paso a estadio III, y usar resonancia para los estadios iniciales.",
+    "limitaciones": "No cuantifica el volumen de hueso necrótico, que es el principal factor pronóstico; otros sistemas más modernos añaden esa información.",
+    "etiquetas": [
+      "cadera",
+      "necrosis avascular",
+      "isquemia"
+    ]
+  },
+  {
+    "codigo": "meyerding",
+    "nombre": "Clasificación de Meyerding",
+    "sistema": "Óseo",
+    "modalidad": "RX",
+    "paraQue": "Cuantifica el grado de espondilolistesis según el porcentaje de desplazamiento anterior de un cuerpo vertebral sobre el inferior.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Desplazamiento de hasta el 25 por ciento del diámetro anteroposterior del platillo inferior.",
+        "implicacion": "Habitualmente conservador."
+      },
+      {
+        "grado": "II",
+        "criterio": "Desplazamiento entre el 26 y el 50 por ciento.",
+        "implicacion": "Suele seguir siendo conservador salvo clínica marcada."
+      },
+      {
+        "grado": "III",
+        "criterio": "Desplazamiento entre el 51 y el 75 por ciento.",
+        "implicacion": "Mayor probabilidad de cirugía."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Desplazamiento entre el 76 y el 100 por ciento.",
+        "implicacion": "Deformidad importante; suele requerir artrodesis."
+      },
+      {
+        "grado": "V",
+        "criterio": "Espondiloptosis: la vértebra pierde por completo el contacto y desciende por delante de la inferior.",
+        "implicacion": "Deformidad grave con riesgo neurológico."
+      }
+    ],
+    "comoUsarla": "En la radiografía lateral en bipedestación, dividir la distancia de deslizamiento entre la longitud anteroposterior del platillo superior de la vértebra inferior.",
+    "limitaciones": "No informa de la inestabilidad dinámica ni de la compresión radicular; para ello se necesitan proyecciones dinámicas y resonancia.",
+    "etiquetas": [
+      "columna",
+      "espondilolistesis",
+      "lumbar"
+    ]
+  },
+  {
+    "codigo": "modic",
+    "nombre": "Cambios de Modic",
+    "sistema": "Óseo",
+    "modalidad": "RM",
+    "paraQue": "Describe las alteraciones de señal de la médula ósea de los platillos vertebrales adyacentes a un disco degenerado, útiles en el estudio del dolor lumbar.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Hipointensidad en T1 e hiperintensidad en T2, correspondiente a edema y cambios inflamatorios.",
+        "implicacion": "Es el tipo más asociado a dolor lumbar activo; puede confundirse con espondilodiscitis."
+      },
+      {
+        "grado": "II",
+        "criterio": "Hiperintensidad en T1 e iso o hiperintensidad en T2, por sustitución grasa de la médula.",
+        "implicacion": "Considerado más estable en el tiempo."
+      },
+      {
+        "grado": "III",
+        "criterio": "Hipointensidad en T1 y en T2, por esclerosis ósea.",
+        "implicacion": "Fase crónica esclerótica; se correlaciona con esclerosis en radiografía."
+      }
+    ],
+    "comoUsarla": "Comparar de forma sistemática las secuencias sagitales T1 y T2 en los platillos adyacentes al disco, valorando la señal respecto a la médula ósea normal.",
+    "limitaciones": "Los tipos pueden coexistir y evolucionar entre sí; su presencia no demuestra que ese nivel sea el origen del dolor.",
+    "etiquetas": [
+      "columna",
+      "disco",
+      "platillo vertebral"
+    ]
+  },
+  {
+    "codigo": "pfirrmann",
+    "nombre": "Clasificación de Pfirrmann",
+    "sistema": "Óseo",
+    "modalidad": "RM",
+    "paraQue": "Gradúa la degeneración del disco intervertebral lumbar en resonancia según la señal, la estructura y la altura discal.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Disco homogéneo, muy hiperintenso en T2, con distinción clara entre núcleo y anillo y altura normal.",
+        "implicacion": "Disco normal."
+      },
+      {
+        "grado": "II",
+        "criterio": "Disco hiperintenso pero no homogéneo, con posible banda horizontal central; distinción conservada y altura normal.",
+        "implicacion": "Cambios mínimos, considerados normales según la edad."
+      },
+      {
+        "grado": "III",
+        "criterio": "Señal intermedia y grisácea, con límite poco claro entre núcleo y anillo; altura normal o levemente reducida.",
+        "implicacion": "Degeneración moderada."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Disco hipointenso, sin distinción entre núcleo y anillo, con altura normal o moderadamente reducida.",
+        "implicacion": "Degeneración avanzada."
+      },
+      {
+        "grado": "V",
+        "criterio": "Disco negro en T2, colapsado y sin estructura reconocible.",
+        "implicacion": "Degeneración terminal con pérdida de altura."
+      }
+    ],
+    "comoUsarla": "Valorar las secuencias sagitales potenciadas en T2 comparando cada disco con los adyacentes y con el líquido cefalorraquídeo como referencia de señal.",
+    "limitaciones": "Es una escala subjetiva y la degeneración discal es muy prevalente en asintomáticos, por lo que su valor clínico aislado es escaso.",
+    "etiquetas": [
+      "disco",
+      "lumbar",
+      "degeneración"
+    ]
+  },
+  {
+    "codigo": "denis-columna",
+    "nombre": "Teoría de las tres columnas de Denis",
+    "sistema": "Óseo",
+    "modalidad": "Varias",
+    "paraQue": "Valora la estabilidad de las fracturas toracolumbares dividiendo la columna en tres pilares y clasificando los patrones lesionales principales.",
+    "grados": [
+      {
+        "grado": "Acuñamiento por compresión",
+        "criterio": "Fallo de la columna anterior con columna media íntegra y muro posterior conservado.",
+        "implicacion": "Generalmente estable; tratamiento conservador."
+      },
+      {
+        "grado": "Estallido",
+        "criterio": "Fallo de las columnas anterior y media, con retropulsión del muro posterior hacia el canal.",
+        "implicacion": "Puede haber compromiso neurológico; valorar cirugía."
+      },
+      {
+        "grado": "Cinturón de seguridad",
+        "criterio": "Fallo por distracción de las columnas media y posterior, con columna anterior íntegra actuando de bisagra.",
+        "implicacion": "Inestable en flexión; asociada a lesiones abdominales."
+      },
+      {
+        "grado": "Fractura-luxación",
+        "criterio": "Fallo de las tres columnas con desplazamiento o traslación vertebral.",
+        "implicacion": "Muy inestable, con alta frecuencia de lesión medular."
+      }
+    ],
+    "comoUsarla": "Definir en TC si el muro vertebral posterior está íntegro y buscar en radiografía o TC signos de distracción posterior, como el aumento de distancia interespinosa.",
+    "limitaciones": "Infravalora la lesión del complejo ligamentario posterior, que solo se demuestra bien con resonancia; sistemas más recientes puntúan además el estado neurológico.",
+    "etiquetas": [
+      "columna",
+      "trauma",
+      "estabilidad"
+    ]
+  },
+  {
+    "codigo": "anderson-dalonzo",
+    "nombre": "Clasificación de Anderson y D'Alonzo",
+    "sistema": "Óseo",
+    "modalidad": "Varias",
+    "paraQue": "Clasifica las fracturas de la apófisis odontoides del axis según la altura del trazo, lo que determina el riesgo de pseudoartrosis.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Avulsión oblicua de la punta de la odontoides.",
+        "implicacion": "Rara; puede indicar inestabilidad occipitocervical si hay lesión ligamentaria."
+      },
+      {
+        "grado": "II",
+        "criterio": "Trazo en la unión de la odontoides con el cuerpo del axis.",
+        "implicacion": "Es la más frecuente y la que más se asocia a falta de consolidación, sobre todo en ancianos."
+      },
+      {
+        "grado": "III",
+        "criterio": "Trazo que se extiende al cuerpo del axis y afecta a la esponjosa.",
+        "implicacion": "Buen potencial de consolidación con inmovilización."
+      }
+    ],
+    "comoUsarla": "Emplear TC con reconstrucciones sagitales y coronales, ya que la proyección transoral suele ser insuficiente para definir el nivel exacto del trazo.",
+    "limitaciones": "No cuantifica el desplazamiento ni la angulación, que son factores pronósticos relevantes en el tipo II.",
+    "etiquetas": [
+      "cervical",
+      "odontoides",
+      "trauma"
+    ]
+  },
+  {
+    "codigo": "hawkins-astragalo",
+    "nombre": "Clasificación de Hawkins",
+    "sistema": "Óseo",
+    "modalidad": "Varias",
+    "paraQue": "Clasifica las fracturas del cuello del astrágalo según el desplazamiento y la afectación de las articulaciones vecinas, para predecir la necrosis avascular.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Fractura del cuello sin desplazamiento.",
+        "implicacion": "Riesgo bajo de necrosis."
+      },
+      {
+        "grado": "II",
+        "criterio": "Fractura desplazada con subluxación o luxación subastragalina.",
+        "implicacion": "Riesgo intermedio de necrosis."
+      },
+      {
+        "grado": "III",
+        "criterio": "Fractura desplazada con luxación del cuerpo astragalino respecto a la subastragalina y la tibioastragalina.",
+        "implicacion": "Riesgo alto de necrosis; urgencia de reducción."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Además de lo anterior, luxación de la cabeza del astrágalo en la articulación astragaloescafoidea.",
+        "implicacion": "Riesgo de necrosis muy elevado."
+      }
+    ],
+    "comoUsarla": "Confirmar el desplazamiento con TC y valorar en el seguimiento el signo de Hawkins, una banda radiotransparente subcondral que indica vascularización conservada.",
+    "limitaciones": "El desplazamiento mínimo puede pasar desapercibido en radiografía; el riesgo real de necrosis depende también del daño de partes blandas.",
+    "etiquetas": [
+      "astrágalo",
+      "pie",
+      "necrosis avascular"
+    ]
+  },
+  {
+    "codigo": "sanders-calcaneo",
+    "nombre": "Clasificación de Sanders",
+    "sistema": "Óseo",
+    "modalidad": "TC",
+    "paraQue": "Clasifica las fracturas intraarticulares del calcáneo según el número y la localización de los trazos en la faceta articular posterior.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Fractura articular no desplazada, con independencia del número de trazos.",
+        "implicacion": "Tratamiento conservador."
+      },
+      {
+        "grado": "II",
+        "criterio": "Dos fragmentos articulares, es decir un solo trazo desplazado en la faceta posterior.",
+        "implicacion": "Buenos resultados con reducción y osteosíntesis."
+      },
+      {
+        "grado": "III",
+        "criterio": "Tres fragmentos articulares, con un fragmento central habitualmente hundido.",
+        "implicacion": "Resultados funcionales intermedios."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Cuatro o más fragmentos articulares, con conminución grave.",
+        "implicacion": "Mal pronóstico funcional; puede plantearse artrodesis primaria."
+      }
+    ],
+    "comoUsarla": "Se evalúa en el corte coronal de TC que muestra la porción más ancha de la faceta articular posterior, contando los fragmentos generados por los trazos.",
+    "limitaciones": "Solo valora la faceta posterior y no la afectación calcaneocuboidea ni el estado de las partes blandas, decisivo para el momento quirúrgico.",
+    "etiquetas": [
+      "calcáneo",
+      "pie",
+      "articular"
+    ]
+  },
+  {
+    "codigo": "graf-cadera",
+    "nombre": "Método de Graf para displasia de cadera",
+    "sistema": "Óseo",
+    "modalidad": "US",
+    "paraQue": "Clasifica la cadera del lactante en la ecografía según la morfología del techo acetabular y los ángulos alfa y beta, en el cribado de displasia del desarrollo.",
+    "grados": [
+      {
+        "grado": "Tipo I",
+        "criterio": "Ángulo alfa igual o mayor de 60 grados, con techo óseo bien formado y cobertura adecuada de la cabeza.",
+        "implicacion": "Cadera madura y normal."
+      },
+      {
+        "grado": "Tipo II",
+        "criterio": "Ángulo alfa entre 43 y 59 grados, con techo óseo deficiente y techo cartilaginoso que aún cubre la cabeza.",
+        "implicacion": "Cadera inmadura o displásica según la edad; puede requerir control o arnés."
+      },
+      {
+        "grado": "Tipo III",
+        "criterio": "Ángulo alfa menor de 43 grados con cabeza descentrada y techo cartilaginoso desplazado hacia arriba.",
+        "implicacion": "Cadera subluxada; tratamiento ortopédico."
+      },
+      {
+        "grado": "Tipo IV",
+        "criterio": "Cabeza femoral luxada con interposición del labrum entre la cabeza y el acetábulo.",
+        "implicacion": "Luxación establecida; tratamiento inmediato."
+      }
+    ],
+    "comoUsarla": "Obtener un corte coronal estándar con el ilion horizontal y trazar la línea de base, la del techo óseo y la del techo cartilaginoso para medir alfa y beta.",
+    "limitaciones": "Es muy dependiente de la técnica y del plano obtenido; en el recién nacido la inmadurez fisiológica puede simular displasia.",
+    "etiquetas": [
+      "cadera",
+      "lactante",
+      "displasia",
+      "cribado"
+    ]
+  },
+  {
+    "codigo": "vancouver-periprotesica",
+    "nombre": "Clasificación de Vancouver",
+    "sistema": "Óseo",
+    "modalidad": "RX",
+    "paraQue": "Clasifica las fracturas femorales periprotésicas según su localización respecto al vástago, la estabilidad del implante y la calidad del hueso.",
+    "grados": [
+      {
+        "grado": "A",
+        "criterio": "Fractura en la región trocantérea, del trocánter mayor o del menor.",
+        "implicacion": "Suele tratarse de forma conservadora."
+      },
+      {
+        "grado": "B1",
+        "criterio": "Fractura alrededor o justo distal al vástago, con implante bien fijo y buen capital óseo.",
+        "implicacion": "Osteosíntesis conservando la prótesis."
+      },
+      {
+        "grado": "B2",
+        "criterio": "Fractura periprotésica con vástago aflojado pero hueso de buena calidad.",
+        "implicacion": "Recambio del vástago."
+      },
+      {
+        "grado": "B3",
+        "criterio": "Vástago aflojado con pérdida importante de capital óseo.",
+        "implicacion": "Cirugía de revisión compleja con reconstrucción."
+      },
+      {
+        "grado": "C",
+        "criterio": "Fractura claramente distal a la punta del vástago.",
+        "implicacion": "Se trata como una fractura femoral independiente, ignorando la prótesis."
+      }
+    ],
+    "comoUsarla": "Localizar la punta del vástago como referencia y buscar signos de aflojamiento como líneas radiotransparentes progresivas, hundimiento o cambio de posición del implante.",
+    "limitaciones": "La valoración del aflojamiento en radiografía es poco fiable y a menudo solo se confirma en quirófano.",
+    "etiquetas": [
+      "prótesis",
+      "fémur",
+      "revisión"
+    ]
+  },
+  {
+    "codigo": "ottawa-tobillo",
+    "nombre": "Reglas de Ottawa para tobillo y pie",
+    "sistema": "Óseo",
+    "modalidad": "RX",
+    "paraQue": "Regla de decisión clínica que determina si un paciente con esguince o traumatismo de tobillo necesita radiografía, con el fin de evitar exploraciones innecesarias.",
+    "grados": [
+      {
+        "grado": "Maléolo externo",
+        "criterio": "Dolor a la palpación en los 6 cm distales del borde posterior o la punta del peroné.",
+        "implicacion": "Indica radiografía de tobillo."
+      },
+      {
+        "grado": "Maléolo interno",
+        "criterio": "Dolor a la palpación en los 6 cm distales del borde posterior o la punta de la tibia.",
+        "implicacion": "Indica radiografía de tobillo."
+      },
+      {
+        "grado": "Base del quinto metatarsiano",
+        "criterio": "Dolor a la palpación en la base del quinto metatarsiano.",
+        "implicacion": "Indica radiografía de pie."
+      },
+      {
+        "grado": "Escafoides tarsiano",
+        "criterio": "Dolor a la palpación sobre el escafoides.",
+        "implicacion": "Indica radiografía de pie."
+      },
+      {
+        "grado": "Carga",
+        "criterio": "Incapacidad de dar cuatro pasos tanto en el momento de la lesión como en urgencias.",
+        "implicacion": "Indica radiografía de la zona dolorosa."
+      }
+    ],
+    "comoUsarla": "Si no se cumple ninguno de los criterios en la zona correspondiente, la probabilidad de fractura clínicamente relevante es muy baja y puede evitarse la radiografía.",
+    "limitaciones": "Su validación es peor en niños pequeños, pacientes intoxicados, con déficit sensitivo o con lesiones distractoras múltiples.",
+    "etiquetas": [
+      "urgencias",
+      "regla de decisión",
+      "tobillo"
+    ]
+  },
+  {
+    "codigo": "canadian-c-spine",
+    "nombre": "Regla canadiense de columna cervical",
+    "sistema": "Óseo",
+    "modalidad": "Varias",
+    "paraQue": "Determina qué pacientes alerta y estables tras un traumatismo cervical necesitan estudio de imagen de la columna cervical.",
+    "grados": [
+      {
+        "grado": "Alto riesgo",
+        "criterio": "Edad de 65 años o más, mecanismo peligroso o parestesias en las extremidades.",
+        "implicacion": "Estudio de imagen obligado, habitualmente TC."
+      },
+      {
+        "grado": "Bajo riesgo",
+        "criterio": "Ausencia de factores de alto riesgo y presencia de algún factor que permita valorar la movilidad, como colisión trasera simple, posición sentada en urgencias, deambulación, inicio tardío del dolor o ausencia de dolor en línea media.",
+        "implicacion": "Permite pasar a evaluar la rotación cervical."
+      },
+      {
+        "grado": "Rotación",
+        "criterio": "Capacidad de rotar el cuello 45 grados de forma activa hacia ambos lados.",
+        "implicacion": "Si es posible, puede evitarse la imagen; si no lo es, se indica estudio."
+      }
+    ],
+    "comoUsarla": "Se aplica de forma secuencial: primero descartar alto riesgo, después confirmar un factor de bajo riesgo y por último comprobar la rotación activa.",
+    "limitaciones": "No es aplicable en pacientes con alteración del nivel de conciencia, inestabilidad hemodinámica, edad pediátrica pequeña o déficit neurológico establecido.",
+    "etiquetas": [
+      "cervical",
+      "urgencias",
+      "regla de decisión"
+    ]
+  },
+  {
+    "codigo": "le-fort",
+    "nombre": "Clasificación de Le Fort",
+    "sistema": "Óseo",
+    "modalidad": "TC",
+    "paraQue": "Clasifica las fracturas del tercio medio facial que producen disyunción craneofacial, según el plano por el que se separa el maxilar.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Trazo horizontal por encima de los ápices dentarios que separa el paladar del resto del maxilar, con afectación de las paredes del seno maxilar.",
+        "implicacion": "Maxilar flotante; afecta a la oclusión dental."
+      },
+      {
+        "grado": "II",
+        "criterio": "Trazo piramidal que atraviesa los rebordes infraorbitarios y el suelo de la órbita hasta la raíz nasal.",
+        "implicacion": "Puede asociar afectación orbitaria y fístula de líquido cefalorraquídeo."
+      },
+      {
+        "grado": "III",
+        "criterio": "Disyunción craneofacial completa a través de las paredes orbitarias y el arco cigomático, separando la cara del cráneo.",
+        "implicacion": "Traumatismo de alta energía con frecuente lesión intracraneal asociada."
+      }
+    ],
+    "comoUsarla": "En todas ellas se afecta la apófisis pterigoides, dato clave a buscar en TC con reconstrucciones multiplanares y tridimensionales.",
+    "limitaciones": "En la práctica es habitual encontrar patrones mixtos y asimétricos, distintos en cada hemicara, que no encajan en un único tipo puro.",
+    "etiquetas": [
+      "facial",
+      "maxilar",
+      "trauma"
+    ]
+  },
+  {
+    "codigo": "fisher",
+    "nombre": "Escala de Fisher",
+    "sistema": "Nervioso",
+    "modalidad": "TC",
+    "paraQue": "Estima el riesgo de vasoespasmo tras una hemorragia subaracnoidea según la cantidad y distribución de la sangre en la TC craneal sin contraste.",
+    "grados": [
+      {
+        "grado": "1",
+        "criterio": "No se detecta sangre subaracnoidea.",
+        "implicacion": "Riesgo bajo de vasoespasmo."
+      },
+      {
+        "grado": "2",
+        "criterio": "Capa difusa o fina de sangre, con grosor menor de 1 mm en las cisternas verticales.",
+        "implicacion": "Riesgo bajo."
+      },
+      {
+        "grado": "3",
+        "criterio": "Coágulo localizado o capa gruesa de sangre de 1 mm o más de espesor.",
+        "implicacion": "Riesgo alto de vasoespasmo; vigilancia estrecha."
+      },
+      {
+        "grado": "4",
+        "criterio": "Hemorragia intraventricular o intraparenquimatosa, con sangre subaracnoidea escasa o difusa.",
+        "implicacion": "Riesgo variable; peor pronóstico global."
+      }
+    ],
+    "comoUsarla": "Se aplica sobre la TC inicial sin contraste realizada en las primeras horas, midiendo el grosor máximo de sangre en las cisternas.",
+    "limitaciones": "La sangre se reabsorbe con rapidez, por lo que pierde valor en estudios tardíos; la versión modificada, que valora la sangre cisternal y ventricular por separado, predice mejor el vasoespasmo.",
+    "etiquetas": [
+      "hemorragia subaracnoidea",
+      "vasoespasmo",
+      "urgencias"
+    ]
+  },
+  {
+    "codigo": "hunt-hess",
+    "nombre": "Escala de Hunt y Hess",
+    "sistema": "Nervioso",
+    "modalidad": "Varias",
+    "paraQue": "Gradúa la gravedad clínica de la hemorragia subaracnoidea aneurismática para estimar el pronóstico y el riesgo quirúrgico.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Asintomático o cefalea leve con rigidez de nuca discreta.",
+        "implicacion": "Mejor pronóstico."
+      },
+      {
+        "grado": "II",
+        "criterio": "Cefalea intensa y rigidez de nuca, sin déficit neurológico salvo parálisis de pares craneales.",
+        "implicacion": "Buen pronóstico."
+      },
+      {
+        "grado": "III",
+        "criterio": "Somnolencia, confusión o déficit focal leve.",
+        "implicacion": "Pronóstico intermedio."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Estupor, hemiparesia moderada o grave y alteraciones vegetativas.",
+        "implicacion": "Pronóstico desfavorable."
+      },
+      {
+        "grado": "V",
+        "criterio": "Coma profundo con rigidez de descerebración.",
+        "implicacion": "Muy mal pronóstico."
+      }
+    ],
+    "comoUsarla": "Es una escala clínica que se registra junto a los hallazgos de imagen para planificar el momento de la exclusión del aneurisma.",
+    "limitaciones": "Es subjetiva y puede verse alterada por la sedación, la hipertensión intracraneal o causas médicas concurrentes.",
+    "etiquetas": [
+      "aneurisma",
+      "hemorragia subaracnoidea",
+      "pronóstico"
+    ]
+  },
+  {
+    "codigo": "glasgow",
+    "nombre": "Escala de coma de Glasgow",
+    "sistema": "Nervioso",
+    "modalidad": "Varias",
+    "paraQue": "Cuantifica el nivel de conciencia sumando las respuestas ocular, verbal y motora; se usa para clasificar la gravedad del traumatismo craneal y decidir la realización de TC urgente.",
+    "grados": [
+      {
+        "grado": "13 a 15",
+        "criterio": "Traumatismo craneal leve.",
+        "implicacion": "La indicación de TC depende de factores de riesgo añadidos como vómitos, edad, anticoagulación o amnesia."
+      },
+      {
+        "grado": "9 a 12",
+        "criterio": "Traumatismo craneal moderado.",
+        "implicacion": "TC craneal indicada y observación hospitalaria."
+      },
+      {
+        "grado": "3 a 8",
+        "criterio": "Traumatismo craneal grave, con incapacidad de proteger la vía aérea.",
+        "implicacion": "Intubación, TC urgente y manejo en cuidados intensivos."
+      }
+    ],
+    "comoUsarla": "Puntuar por separado apertura ocular de 1 a 4, respuesta verbal de 1 a 5 y respuesta motora de 1 a 6, registrando siempre los tres componentes además del total.",
+    "limitaciones": "El componente verbal no es valorable en pacientes intubados o afásicos, y en niños pequeños debe usarse la versión pediátrica adaptada.",
+    "etiquetas": [
+      "traumatismo craneal",
+      "conciencia",
+      "urgencias"
+    ]
+  },
+  {
+    "codigo": "marshall",
+    "nombre": "Clasificación de Marshall",
+    "sistema": "Nervioso",
+    "modalidad": "TC",
+    "paraQue": "Clasifica el traumatismo craneoencefálico según los hallazgos de la TC, atendiendo a las cisternas basales, la desviación de la línea media y la presencia de lesiones ocupantes de espacio.",
+    "grados": [
+      {
+        "grado": "Lesión difusa I",
+        "criterio": "TC sin lesión intracraneal visible.",
+        "implicacion": "Mortalidad baja."
+      },
+      {
+        "grado": "Lesión difusa II",
+        "criterio": "Cisternas presentes, desviación de línea media menor de 5 mm y ausencia de lesiones hiperdensas mayores de 25 mL.",
+        "implicacion": "Pronóstico relativamente favorable."
+      },
+      {
+        "grado": "Lesión difusa III",
+        "criterio": "Cisternas comprimidas o ausentes con desviación menor de 5 mm, es decir edema difuso.",
+        "implicacion": "Riesgo alto de hipertensión intracraneal."
+      },
+      {
+        "grado": "Lesión difusa IV",
+        "criterio": "Desviación de la línea media mayor de 5 mm sin lesión hiperdensa significativa.",
+        "implicacion": "Mal pronóstico."
+      },
+      {
+        "grado": "Lesión focal evacuada",
+        "criterio": "Cualquier lesión tratada quirúrgicamente mediante evacuación.",
+        "implicacion": "Depende del tipo de lesión y del momento de la cirugía."
+      },
+      {
+        "grado": "Lesión focal no evacuada",
+        "criterio": "Lesión hiperdensa o mixta mayor de 25 mL no intervenida.",
+        "implicacion": "Requiere vigilancia estrecha por riesgo de deterioro."
+      }
+    ],
+    "comoUsarla": "Valorar la TC inicial midiendo la desviación septal a la altura del agujero de Monro y comprobando el estado de las cisternas perimesencefálicas.",
+    "limitaciones": "No distingue entre tipos de hemorragia ni valora la hemorragia subaracnoidea traumática, un factor pronóstico importante.",
+    "etiquetas": [
+      "traumatismo craneal",
+      "TC",
+      "pronóstico"
+    ]
+  },
+  {
+    "codigo": "rotterdam",
+    "nombre": "Puntuación de Rotterdam",
+    "sistema": "Nervioso",
+    "modalidad": "TC",
+    "paraQue": "Sistema de puntuación de la TC en el traumatismo craneal grave que suma varios hallazgos para estimar la mortalidad a seis meses.",
+    "grados": [
+      {
+        "grado": "1",
+        "criterio": "Cisternas basales normales, sin desviación significativa de la línea media, sin hemorragia subaracnoidea ni intraventricular y sin lesión epidural.",
+        "implicacion": "Mortalidad muy baja."
+      },
+      {
+        "grado": "2 a 3",
+        "criterio": "Presencia aislada de alguno de los factores adversos, como compresión cisternal leve o hemorragia subaracnoidea traumática.",
+        "implicacion": "Mortalidad baja o intermedia."
+      },
+      {
+        "grado": "4",
+        "criterio": "Combinación de varios factores adversos, como cisternas comprimidas junto a hemorragia subaracnoidea.",
+        "implicacion": "Mortalidad intermedia-alta."
+      },
+      {
+        "grado": "5 a 6",
+        "criterio": "Cisternas ausentes, desviación de la línea media mayor de 5 mm, hemorragia subaracnoidea o intraventricular y ausencia de hematoma epidural.",
+        "implicacion": "Mortalidad elevada."
+      }
+    ],
+    "comoUsarla": "Se puntúan por separado el estado de las cisternas, la desviación de la línea media, la presencia de hemorragia subaracnoidea o intraventricular y la existencia de lesión epidural, que resta riesgo por ser potencialmente evacuable.",
+    "limitaciones": "Es una herramienta poblacional de pronóstico y no debe usarse para decidir el tratamiento de un paciente concreto.",
+    "etiquetas": [
+      "traumatismo craneal",
+      "pronóstico",
+      "TC"
+    ]
+  },
+  {
+    "codigo": "aspects",
+    "nombre": "Escala ASPECTS",
+    "sistema": "Nervioso",
+    "modalidad": "Varias",
+    "paraQue": "Cuantifica de forma topográfica la extensión de la isquemia precoz en el territorio de la arteria cerebral media, para seleccionar candidatos a tratamiento de reperfusión en el ictus agudo.",
+    "grados": [
+      {
+        "grado": "10",
+        "criterio": "Ninguna de las diez regiones evaluadas muestra hipodensidad isquémica.",
+        "implicacion": "TC normal; mejor perfil para reperfusión."
+      },
+      {
+        "grado": "8 a 9",
+        "criterio": "Una o dos regiones afectadas.",
+        "implicacion": "Núcleo isquémico pequeño; buen candidato a trombectomía."
+      },
+      {
+        "grado": "6 a 7",
+        "criterio": "Tres o cuatro regiones afectadas.",
+        "implicacion": "Infarto moderado; decisión individualizada."
+      },
+      {
+        "grado": "0 a 5",
+        "criterio": "Cinco o más regiones afectadas, con isquemia extensa establecida.",
+        "implicacion": "Peor pronóstico y mayor riesgo de transformación hemorrágica."
+      }
+    ],
+    "comoUsarla": "Se parte de 10 puntos y se resta uno por cada una de las diez regiones con hipodensidad precoz, valoradas en dos cortes axiales: el de los ganglios basales y el supraganglionar.",
+    "limitaciones": "Solo es aplicable al territorio de la arteria cerebral media y su concordancia entre observadores es limitada en las fases muy precoces.",
+    "etiquetas": [
+      "ictus",
+      "isquemia",
+      "reperfusión"
+    ]
+  },
+  {
+    "codigo": "tici",
+    "nombre": "Escala TICI de reperfusión",
+    "sistema": "Nervioso",
+    "modalidad": "Varias",
+    "paraQue": "Gradúa el resultado angiográfico tras un tratamiento endovascular del ictus isquémico, describiendo cuánto territorio distal se ha reperfundido.",
+    "grados": [
+      {
+        "grado": "0",
+        "criterio": "Ausencia total de perfusión distal a la oclusión.",
+        "implicacion": "Procedimiento fallido."
+      },
+      {
+        "grado": "1",
+        "criterio": "Paso mínimo de contraste más allá de la oclusión, sin opacificar el lecho distal.",
+        "implicacion": "Reperfusión insuficiente."
+      },
+      {
+        "grado": "2a",
+        "criterio": "Reperfusión de menos de la mitad del territorio distal.",
+        "implicacion": "Resultado parcial subóptimo."
+      },
+      {
+        "grado": "2b",
+        "criterio": "Reperfusión de más de la mitad del territorio, aunque más lenta de lo normal.",
+        "implicacion": "Se considera reperfusión satisfactoria."
+      },
+      {
+        "grado": "3",
+        "criterio": "Reperfusión completa del territorio distal con relleno normal.",
+        "implicacion": "Resultado óptimo, asociado al mejor pronóstico funcional."
+      }
+    ],
+    "comoUsarla": "Se valora en la angiografía final, comparando el relleno del territorio afectado con el esperado y con el hemisferio contralateral.",
+    "limitaciones": "Existen variantes de la escala con puntos de corte distintos, lo que dificulta comparar estudios; la valoración del grado 2 es subjetiva.",
+    "etiquetas": [
+      "ictus",
+      "trombectomía",
+      "angiografía"
+    ]
+  },
+  {
+    "codigo": "fazekas",
+    "nombre": "Escala de Fazekas",
+    "sistema": "Nervioso",
+    "modalidad": "RM",
+    "paraQue": "Gradúa la carga de lesiones de sustancia blanca de probable origen vascular en la resonancia craneal, habitualmente en el estudio del deterioro cognitivo y del envejecimiento.",
+    "grados": [
+      {
+        "grado": "0",
+        "criterio": "Ausencia de lesiones o alguna lesión puntiforme aislada.",
+        "implicacion": "Normal para la edad."
+      },
+      {
+        "grado": "1",
+        "criterio": "Focos puntiformes múltiples en sustancia blanca profunda y casquetes o líneas periventriculares finas.",
+        "implicacion": "Cambios leves, frecuentes con la edad."
+      },
+      {
+        "grado": "2",
+        "criterio": "Lesiones que comienzan a confluir en sustancia blanca profunda y halo periventricular liso.",
+        "implicacion": "Enfermedad de pequeño vaso moderada."
+      },
+      {
+        "grado": "3",
+        "criterio": "Lesiones ampliamente confluentes en sustancia blanca profunda y extensión periventricular irregular hacia la sustancia blanca.",
+        "implicacion": "Enfermedad de pequeño vaso grave, asociada a deterioro cognitivo y riesgo de ictus."
+      }
+    ],
+    "comoUsarla": "Valorar secuencias FLAIR o T2 puntuando por separado la sustancia blanca periventricular y la profunda.",
+    "limitaciones": "Es una escala visual y poco sensible a cambios pequeños; no distingue el origen vascular de otras causas de hiperintensidad como desmielinización o migraña.",
+    "etiquetas": [
+      "sustancia blanca",
+      "pequeño vaso",
+      "cognitivo"
+    ]
+  },
+  {
+    "codigo": "papile",
+    "nombre": "Clasificación de Papile",
+    "sistema": "Nervioso",
+    "modalidad": "US",
+    "paraQue": "Gradúa la hemorragia de la matriz germinal y intraventricular del recién nacido prematuro, valorada mediante ecografía transfontanelar.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Hemorragia limitada a la matriz germinal subependimaria.",
+        "implicacion": "Buen pronóstico neurológico en la mayoría de casos."
+      },
+      {
+        "grado": "II",
+        "criterio": "Hemorragia intraventricular sin dilatación ventricular.",
+        "implicacion": "Pronóstico generalmente favorable."
+      },
+      {
+        "grado": "III",
+        "criterio": "Hemorragia intraventricular con dilatación ventricular.",
+        "implicacion": "Riesgo de hidrocefalia posthemorrágica y de secuelas."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Hemorragia con afectación del parénquima periventricular, actualmente interpretada como infarto hemorrágico venoso.",
+        "implicacion": "Peor pronóstico, con riesgo alto de déficit motor."
+      }
+    ],
+    "comoUsarla": "Explorar mediante fontanela anterior en planos coronales y sagitales, valorando el surco caudotalámico, el contenido ventricular y el parénquima adyacente.",
+    "limitaciones": "El grado IV no es una simple extensión de la hemorragia sino una lesión de mecanismo distinto, por lo que muchos centros prefieren describirlo aparte.",
+    "etiquetas": [
+      "neonatal",
+      "prematuro",
+      "ecografía transfontanelar"
+    ]
+  },
+  {
+    "codigo": "sarnat",
+    "nombre": "Estadios de Sarnat",
+    "sistema": "Nervioso",
+    "modalidad": "Varias",
+    "paraQue": "Gradúa la gravedad de la encefalopatía hipóxico-isquémica del recién nacido a término, y sirve para seleccionar candidatos a hipotermia terapéutica.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Encefalopatía leve: hiperalerta, tono normal o levemente aumentado, reflejos vivos y sin convulsiones.",
+        "implicacion": "Suele recuperarse sin secuelas."
+      },
+      {
+        "grado": "II",
+        "criterio": "Encefalopatía moderada: letargia, hipotonía, reflejos débiles y convulsiones frecuentes.",
+        "implicacion": "Indicación de hipotermia; riesgo intermedio de secuelas."
+      },
+      {
+        "grado": "III",
+        "criterio": "Encefalopatía grave: estupor o coma, flacidez, ausencia de reflejos primitivos y trazado electroencefalográfico muy alterado.",
+        "implicacion": "Alto riesgo de muerte o de discapacidad grave."
+      }
+    ],
+    "comoUsarla": "Es una valoración clínica y electroencefalográfica seriada; la resonancia realizada en los primeros días complementa el pronóstico mostrando el patrón de lesión.",
+    "limitaciones": "Puede modificarse por sedación o anticonvulsivantes y el estadio puede variar en las primeras horas de vida.",
+    "etiquetas": [
+      "neonatal",
+      "hipoxia",
+      "encefalopatía"
+    ]
+  },
+  {
+    "codigo": "spetzler-martin",
+    "nombre": "Escala de Spetzler-Martin",
+    "sistema": "Nervioso",
+    "modalidad": "Varias",
+    "paraQue": "Estima el riesgo quirúrgico de una malformación arteriovenosa cerebral sumando puntos por tamaño, localización y drenaje venoso.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Un punto en total, típicamente nido menor de 3 cm, en zona no elocuente y con drenaje superficial.",
+        "implicacion": "Riesgo quirúrgico bajo."
+      },
+      {
+        "grado": "II",
+        "criterio": "Dos puntos.",
+        "implicacion": "Riesgo quirúrgico bajo o moderado."
+      },
+      {
+        "grado": "III",
+        "criterio": "Tres puntos.",
+        "implicacion": "Riesgo intermedio; suele individualizarse el tratamiento."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Cuatro puntos.",
+        "implicacion": "Riesgo quirúrgico alto."
+      },
+      {
+        "grado": "V",
+        "criterio": "Cinco puntos, es decir nido mayor de 6 cm, en zona elocuente y con drenaje venoso profundo.",
+        "implicacion": "Riesgo muy alto; habitualmente se prefiere tratamiento conservador o multimodal."
+      }
+    ],
+    "comoUsarla": "Se asignan 1, 2 o 3 puntos según el tamaño del nido (menor de 3 cm, de 3 a 6 cm o mayor de 6 cm), 1 punto si está en área elocuente y 1 punto si existe drenaje venoso profundo.",
+    "limitaciones": "No incluye la forma de presentación ni la angioarquitectura, y no está pensada para predecir el resultado de la radiocirugía o la embolización.",
+    "etiquetas": [
+      "malformación arteriovenosa",
+      "cerebro",
+      "cirugía"
+    ]
+  },
+  {
+    "codigo": "chiari",
+    "nombre": "Clasificación de las malformaciones de Chiari",
+    "sistema": "Nervioso",
+    "modalidad": "RM",
+    "paraQue": "Agrupa las anomalías de la unión craneocervical según el grado de descenso de las estructuras de la fosa posterior a través del agujero magno.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Descenso de las amígdalas cerebelosas de al menos 5 mm por debajo del agujero magno, con morfología puntiaguda.",
+        "implicacion": "Puede ser asintomática; se asocia a siringomielia cervical."
+      },
+      {
+        "grado": "II",
+        "criterio": "Descenso de amígdalas, vermis, bulbo y cuarto ventrículo, asociado siempre a mielomeningocele.",
+        "implicacion": "Manifestación neonatal con hidrocefalia frecuente."
+      },
+      {
+        "grado": "III",
+        "criterio": "Herniación del contenido de la fosa posterior en un encefalocele occipital o cervical alto.",
+        "implicacion": "Muy rara y de mal pronóstico."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Hipoplasia o aplasia cerebelosa sin herniación.",
+        "implicacion": "Considerada hoy más una malformación cerebelosa que una verdadera Chiari."
+      }
+    ],
+    "comoUsarla": "Medir en el plano sagital medio de resonancia la distancia desde la línea que une el basion con el opistion hasta la punta de las amígdalas, y buscar siringomielia asociada.",
+    "limitaciones": "El umbral de 5 mm es orientativo y varía con la edad; el descenso amigdalar aislado no explica necesariamente los síntomas del paciente.",
+    "etiquetas": [
+      "fosa posterior",
+      "amígdalas cerebelosas",
+      "malformación"
+    ]
+  },
+  {
+    "codigo": "denver-bcvi",
+    "nombre": "Escala de Denver para lesión cerebrovascular contusa",
+    "sistema": "Nervioso",
+    "modalidad": "Varias",
+    "paraQue": "Gradúa las lesiones traumáticas de las arterias carótidas y vertebrales detectadas por angio-TC o angiografía tras un traumatismo cerrado.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Irregularidad de la pared o disección con estenosis menor del 25 por ciento.",
+        "implicacion": "Suele tratarse con antiagregación o anticoagulación."
+      },
+      {
+        "grado": "II",
+        "criterio": "Disección o hematoma intramural con estenosis del 25 por ciento o mayor, o trombo intraluminal.",
+        "implicacion": "Mayor riesgo de progresión y de ictus."
+      },
+      {
+        "grado": "III",
+        "criterio": "Pseudoaneurisma.",
+        "implicacion": "Puede requerir tratamiento endovascular."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Oclusión completa del vaso.",
+        "implicacion": "Riesgo elevado de infarto según la circulación colateral."
+      },
+      {
+        "grado": "V",
+        "criterio": "Sección o transección vascular con extravasación activa.",
+        "implicacion": "Urgencia hemorrágica; tratamiento inmediato."
+      }
+    ],
+    "comoUsarla": "Se aplica sobre angio-TC de troncos supraaórticos solicitada por criterios de cribado, como fracturas de la base del cráneo, del canal carotídeo o cervicales con afectación del agujero transverso.",
+    "limitaciones": "La angio-TC puede infraestimar las lesiones de bajo grado y el cribado depende de aplicar correctamente los criterios clínicos y radiológicos de riesgo.",
+    "etiquetas": [
+      "trauma",
+      "carótida",
+      "disección"
+    ]
+  },
+  {
+    "codigo": "rankin-modificada",
+    "nombre": "Escala de Rankin modificada",
+    "sistema": "Nervioso",
+    "modalidad": "Varias",
+    "paraQue": "Mide el grado de discapacidad funcional tras un ictus y es la variable de resultado más usada en los ensayos de reperfusión.",
+    "grados": [
+      {
+        "grado": "0",
+        "criterio": "Sin síntomas.",
+        "implicacion": "Resultado excelente."
+      },
+      {
+        "grado": "1",
+        "criterio": "Síntomas sin limitación de las actividades habituales.",
+        "implicacion": "Independencia total."
+      },
+      {
+        "grado": "2",
+        "criterio": "Incapacidad para algunas actividades previas pero autonomía sin ayuda.",
+        "implicacion": "Independencia funcional; suele definirse como buen resultado junto con 0 y 1."
+      },
+      {
+        "grado": "3",
+        "criterio": "Discapacidad moderada, requiere alguna ayuda pero camina sin asistencia.",
+        "implicacion": "Dependencia parcial."
+      },
+      {
+        "grado": "4",
+        "criterio": "Discapacidad moderadamente grave, no camina ni se atiende sin ayuda.",
+        "implicacion": "Dependencia importante."
+      },
+      {
+        "grado": "5",
+        "criterio": "Discapacidad grave, encamado e incontinente, con necesidad de cuidados constantes.",
+        "implicacion": "Dependencia total."
+      },
+      {
+        "grado": "6",
+        "criterio": "Fallecimiento.",
+        "implicacion": "Se registra como resultado desfavorable."
+      }
+    ],
+    "comoUsarla": "Se recoge mediante entrevista estructurada, habitualmente a los tres meses del evento, valorando la situación funcional real del paciente.",
+    "limitaciones": "Tiene variabilidad entre entrevistadores y refleja mal las secuelas cognitivas, del lenguaje o del ánimo.",
+    "etiquetas": [
+      "ictus",
+      "funcionalidad",
+      "pronóstico"
+    ]
+  },
+  {
+    "codigo": "nihss",
+    "nombre": "Escala NIHSS",
+    "sistema": "Nervioso",
+    "modalidad": "Varias",
+    "paraQue": "Cuantifica la gravedad del déficit neurológico en el ictus agudo mediante una exploración estructurada, y orienta la sospecha de oclusión de gran vaso.",
+    "grados": [
+      {
+        "grado": "0",
+        "criterio": "Exploración neurológica normal.",
+        "implicacion": "Sin déficit medible."
+      },
+      {
+        "grado": "1 a 4",
+        "criterio": "Ictus leve.",
+        "implicacion": "Suele tener buen pronóstico funcional."
+      },
+      {
+        "grado": "5 a 15",
+        "criterio": "Ictus moderado.",
+        "implicacion": "Candidato habitual a tratamiento de reperfusión."
+      },
+      {
+        "grado": "16 a 20",
+        "criterio": "Ictus moderado a grave.",
+        "implicacion": "Alta probabilidad de oclusión de gran vaso."
+      },
+      {
+        "grado": "21 a 42",
+        "criterio": "Ictus grave.",
+        "implicacion": "Mayor mortalidad y riesgo de complicaciones."
+      }
+    ],
+    "comoUsarla": "Se puntúan de forma ordenada nivel de conciencia, mirada, campos visuales, paresia facial, fuerza en las cuatro extremidades, ataxia, sensibilidad, lenguaje, disartria y extinción.",
+    "limitaciones": "Puntúa más los infartos del hemisferio izquierdo por el peso del lenguaje y valora mal los ictus de circulación posterior.",
+    "etiquetas": [
+      "ictus",
+      "gravedad",
+      "urgencias"
+    ]
+  },
+  {
+    "codigo": "nascet",
+    "nombre": "Método NASCET de medición de estenosis carotídea",
+    "sistema": "Cardiovascular",
+    "modalidad": "Varias",
+    "paraQue": "Cuantifica el porcentaje de estenosis de la carótida interna para decidir la indicación de endarterectomía o tratamiento endovascular.",
+    "grados": [
+      {
+        "grado": "Menor del 50 por ciento",
+        "criterio": "Estenosis leve.",
+        "implicacion": "Tratamiento médico; no se beneficia de la cirugía."
+      },
+      {
+        "grado": "50 a 69 por ciento",
+        "criterio": "Estenosis moderada.",
+        "implicacion": "Beneficio quirúrgico modesto, mayor en varones sintomáticos."
+      },
+      {
+        "grado": "70 a 99 por ciento",
+        "criterio": "Estenosis grave con luz residual visible.",
+        "implicacion": "Máximo beneficio de la revascularización en pacientes sintomáticos."
+      },
+      {
+        "grado": "Oclusión",
+        "criterio": "Ausencia total de luz y de flujo distal.",
+        "implicacion": "No es subsidiaria de revascularización."
+      }
+    ],
+    "comoUsarla": "Se calcula restando el diámetro mínimo de la luz al diámetro de la carótida interna distal normal, y dividiendo el resultado entre ese diámetro distal.",
+    "limitaciones": "Infravalora la estenosis respecto a otros métodos que usan el bulbo como referencia, y pierde fiabilidad ante estenosis subtotales con colapso distal.",
+    "etiquetas": [
+      "carótida",
+      "estenosis",
+      "ictus"
+    ]
+  },
+  {
+    "codigo": "fontaine",
+    "nombre": "Clasificación de Fontaine",
+    "sistema": "Cardiovascular",
+    "modalidad": "Varias",
+    "paraQue": "Gradúa la enfermedad arterial periférica de los miembros inferiores según los síntomas, y orienta la necesidad de estudio vascular con imagen.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Enfermedad arterial asintomática.",
+        "implicacion": "Control de factores de riesgo."
+      },
+      {
+        "grado": "IIa",
+        "criterio": "Claudicación intermitente no limitante, a más de 200 metros.",
+        "implicacion": "Tratamiento médico y ejercicio supervisado."
+      },
+      {
+        "grado": "IIb",
+        "criterio": "Claudicación limitante, a menos de 200 metros.",
+        "implicacion": "Valorar revascularización si afecta a la calidad de vida."
+      },
+      {
+        "grado": "III",
+        "criterio": "Dolor isquémico en reposo.",
+        "implicacion": "Isquemia crítica; requiere estudio angiográfico y revascularización."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Úlcera isquémica o gangrena.",
+        "implicacion": "Riesgo de pérdida de la extremidad."
+      }
+    ],
+    "comoUsarla": "Se combina con el índice tobillo-brazo y con la angio-TC o angio-RM para localizar el nivel de la lesión antes de plantear tratamiento.",
+    "limitaciones": "Es puramente clínica y puede estar enmascarada en pacientes diabéticos con neuropatía o con movilidad reducida.",
+    "etiquetas": [
+      "arteriopatía periférica",
+      "claudicación",
+      "isquemia"
+    ]
+  },
+  {
+    "codigo": "rutherford",
+    "nombre": "Clasificación de Rutherford",
+    "sistema": "Cardiovascular",
+    "modalidad": "Varias",
+    "paraQue": "Gradúa la isquemia crónica de miembros inferiores con más detalle que otras escalas, incorporando el estado clínico y el grado de pérdida tisular.",
+    "grados": [
+      {
+        "grado": "0",
+        "criterio": "Asintomático.",
+        "implicacion": "Sin repercusión funcional."
+      },
+      {
+        "grado": "1",
+        "criterio": "Claudicación leve.",
+        "implicacion": "Tratamiento médico."
+      },
+      {
+        "grado": "2",
+        "criterio": "Claudicación moderada.",
+        "implicacion": "Programa de ejercicio y control de factores de riesgo."
+      },
+      {
+        "grado": "3",
+        "criterio": "Claudicación grave.",
+        "implicacion": "Valorar revascularización."
+      },
+      {
+        "grado": "4",
+        "criterio": "Dolor isquémico en reposo.",
+        "implicacion": "Isquemia crítica."
+      },
+      {
+        "grado": "5",
+        "criterio": "Pérdida tisular menor, con úlcera o necrosis focal.",
+        "implicacion": "Requiere revascularización para la cicatrización."
+      },
+      {
+        "grado": "6",
+        "criterio": "Pérdida tisular mayor, con gangrena extensa que sobrepasa el nivel transmetatarsiano.",
+        "implicacion": "Riesgo alto de amputación mayor."
+      }
+    ],
+    "comoUsarla": "Se registra el grado clínico junto con las presiones distales y el mapa arterial obtenido por eco-Doppler o angiografía.",
+    "limitaciones": "No incorpora la infección ni la extensión anatómica de la enfermedad, factores que sí valoran sistemas más recientes de estadificación de la extremidad amenazada.",
+    "etiquetas": [
+      "arteriopatía periférica",
+      "isquemia crítica",
+      "amputación"
+    ]
+  },
+  {
+    "codigo": "stanford-diseccion",
+    "nombre": "Clasificación de Stanford de la disección aórtica",
+    "sistema": "Cardiovascular",
+    "modalidad": "TC",
+    "paraQue": "Divide la disección de aorta según afecte o no a la aorta ascendente, lo que determina de forma directa si el tratamiento es quirúrgico o médico.",
+    "grados": [
+      {
+        "grado": "A",
+        "criterio": "La disección afecta a la aorta ascendente, con independencia del punto de entrada y de la extensión distal.",
+        "implicacion": "Urgencia quirúrgica por riesgo de taponamiento, insuficiencia aórtica y afectación coronaria."
+      },
+      {
+        "grado": "B",
+        "criterio": "La disección respeta la aorta ascendente y se limita a la aorta descendente a partir de la subclavia izquierda.",
+        "implicacion": "Tratamiento médico con control de la presión, salvo complicaciones que obliguen a tratamiento endovascular."
+      }
+    ],
+    "comoUsarla": "Se valora en angio-TC con sincronización cardiaca, siguiendo el flap intimal desde la raíz aórtica y describiendo la extensión y la afectación de ramas.",
+    "limitaciones": "No describe la localización exacta de la puerta de entrada ni la afectación de ramas viscerales, información necesaria para planificar el tratamiento endovascular.",
+    "etiquetas": [
+      "aorta",
+      "disección",
+      "urgencia"
+    ]
+  },
+  {
+    "codigo": "cad-rads",
+    "nombre": "Sistema CAD-RADS",
+    "sistema": "Cardiovascular",
+    "modalidad": "TC",
+    "paraQue": "Estandariza el informe de la angio-TC coronaria clasificando el grado máximo de estenosis y proponiendo una conducta en cada categoría.",
+    "grados": [
+      {
+        "grado": "0",
+        "criterio": "Ausencia de placa y de estenosis.",
+        "implicacion": "Se descarta enfermedad coronaria; buscar causas no coronarias del dolor."
+      },
+      {
+        "grado": "1",
+        "criterio": "Estenosis mínima, del 1 al 24 por ciento.",
+        "implicacion": "Prevención y control de factores de riesgo."
+      },
+      {
+        "grado": "2",
+        "criterio": "Estenosis leve, del 25 al 49 por ciento.",
+        "implicacion": "Tratamiento médico preventivo."
+      },
+      {
+        "grado": "3",
+        "criterio": "Estenosis moderada, del 50 al 69 por ciento.",
+        "implicacion": "Valorar isquemia mediante pruebas funcionales."
+      },
+      {
+        "grado": "4",
+        "criterio": "Estenosis grave, del 70 al 99 por ciento, o afectación significativa del tronco común o de tres vasos.",
+        "implicacion": "Valoración invasiva y posible revascularización."
+      },
+      {
+        "grado": "5",
+        "criterio": "Oclusión total del vaso.",
+        "implicacion": "Estudio de viabilidad y valoración de revascularización."
+      }
+    ],
+    "comoUsarla": "Se informa el grado más alto de estenosis encontrado en cualquier segmento, añadiendo modificadores sobre calidad de imagen, stents, derivaciones y placa vulnerable.",
+    "limitaciones": "La calcificación intensa y los artefactos de movimiento pueden sobreestimar la estenosis y obligar a declarar el estudio como no valorable.",
+    "etiquetas": [
+      "coronarias",
+      "angio-TC",
+      "informe estructurado"
+    ]
+  },
+  {
+    "codigo": "chapel-hill",
+    "nombre": "Nomenclatura de Chapel Hill de las vasculitis",
+    "sistema": "Cardiovascular",
+    "modalidad": "Varias",
+    "paraQue": "Ordena las vasculitis según el calibre del vaso predominantemente afectado, lo que orienta qué técnica de imagen es más adecuada en cada caso.",
+    "grados": [
+      {
+        "grado": "Gran vaso",
+        "criterio": "Afectación de la aorta y sus ramas principales, como en la arteritis de células gigantes y la arteritis de Takayasu.",
+        "implicacion": "Se estudian con angio-TC, angio-RM, ecografía de arterias temporales y tomografía por emisión de positrones."
+      },
+      {
+        "grado": "Mediano vaso",
+        "criterio": "Afectación de arterias viscerales principales y sus ramas, como en la panarteritis nodosa y la enfermedad de Kawasaki.",
+        "implicacion": "Se buscan microaneurismas y estenosis mediante angiografía o angio-TC; en Kawasaki se estudian las coronarias por ecocardiografía."
+      },
+      {
+        "grado": "Pequeño vaso",
+        "criterio": "Afectación de arteriolas, capilares y vénulas, con o sin anticuerpos anticitoplasma de neutrófilo.",
+        "implicacion": "La imagen valora sobre todo la afectación pulmonar, con nódulos cavitados o hemorragia alveolar, y la sinusal."
+      },
+      {
+        "grado": "Vaso variable",
+        "criterio": "Vasculitis que pueden afectar a vasos de cualquier calibre, como la enfermedad de Behçet.",
+        "implicacion": "Requiere estudio arterial y venoso, incluyendo la búsqueda de trombosis y aneurismas pulmonares."
+      }
+    ],
+    "comoUsarla": "Sirve para orientar la técnica de imagen y el diagnóstico diferencial una vez planteada la sospecha clínica y analítica de vasculitis.",
+    "limitaciones": "Es una nomenclatura descriptiva y no un sistema diagnóstico; los solapamientos entre categorías son frecuentes.",
+    "etiquetas": [
+      "vasculitis",
+      "arterias",
+      "sistémico"
+    ]
+  },
+  {
+    "codigo": "wells-tep",
+    "nombre": "Escala de Wells para tromboembolia pulmonar",
+    "sistema": "Cardiovascular",
+    "modalidad": "TC",
+    "paraQue": "Estima la probabilidad clínica de embolia pulmonar antes de la prueba de imagen, para decidir entre dímero D y angio-TC pulmonar.",
+    "grados": [
+      {
+        "grado": "0 a 1",
+        "criterio": "Probabilidad clínica baja.",
+        "implicacion": "Un dímero D negativo permite descartar la enfermedad sin imagen."
+      },
+      {
+        "grado": "2 a 6",
+        "criterio": "Probabilidad clínica intermedia.",
+        "implicacion": "Se solicita dímero D y, si es positivo, angio-TC pulmonar."
+      },
+      {
+        "grado": "7 o más",
+        "criterio": "Probabilidad clínica alta.",
+        "implicacion": "Se indica directamente angio-TC pulmonar sin esperar al dímero D."
+      }
+    ],
+    "comoUsarla": "Se suman puntos por signos de trombosis venosa profunda, diagnóstico alternativo menos probable, taquicardia, inmovilización o cirugía reciente, antecedente de enfermedad tromboembólica, hemoptisis y cáncer activo.",
+    "limitaciones": "Incluye un criterio subjetivo sobre la probabilidad de diagnósticos alternativos y su rendimiento es menor en el embarazo, donde se emplean algoritmos adaptados.",
+    "etiquetas": [
+      "embolia pulmonar",
+      "probabilidad clínica",
+      "urgencias"
+    ]
+  },
+  {
+    "codigo": "aast-bazo",
+    "nombre": "Escala AAST de lesión esplénica",
+    "sistema": "Cardiovascular",
+    "modalidad": "TC",
+    "paraQue": "Gradúa la lesión traumática del bazo en la TC con contraste, para decidir entre manejo conservador, embolización o esplenectomía.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Hematoma subcapsular menor del 10 por ciento de la superficie o laceración de menos de 1 cm de profundidad.",
+        "implicacion": "Manejo conservador."
+      },
+      {
+        "grado": "II",
+        "criterio": "Hematoma subcapsular del 10 al 50 por ciento, hematoma intraparenquimatoso menor de 5 cm o laceración de 1 a 3 cm.",
+        "implicacion": "Manejo conservador con vigilancia."
+      },
+      {
+        "grado": "III",
+        "criterio": "Hematoma subcapsular mayor del 50 por ciento o roto, hematoma intraparenquimatoso de 5 cm o más, o laceración de más de 3 cm.",
+        "implicacion": "Vigilancia estrecha; valorar embolización."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Laceración con desvascularización de más del 25 por ciento del bazo o lesión vascular contenida en el parénquima.",
+        "implicacion": "Frecuente indicación de embolización arterial."
+      },
+      {
+        "grado": "V",
+        "criterio": "Estallido esplénico o lesión vascular hiliar con desvascularización completa, o sangrado activo hacia el peritoneo.",
+        "implicacion": "Habitualmente esplenectomía urgente."
+      }
+    ],
+    "comoUsarla": "Se valora en fase portal y, ante sospecha de sangrado activo o pseudoaneurisma, se añade fase arterial y tardía para diferenciar extravasación de lesión contenida.",
+    "limitaciones": "La decisión terapéutica depende sobre todo de la estabilidad hemodinámica y no solo del grado; los grados bajos pueden sangrar de forma diferida.",
+    "etiquetas": [
+      "trauma",
+      "bazo",
+      "abdomen"
+    ]
+  },
+  {
+    "codigo": "aast-higado",
+    "nombre": "Escala AAST de lesión hepática",
+    "sistema": "Digestivo",
+    "modalidad": "TC",
+    "paraQue": "Gradúa las lesiones traumáticas del hígado en la TC con contraste para guiar el manejo del paciente politraumatizado.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Hematoma subcapsular menor del 10 por ciento de la superficie o laceración de menos de 1 cm de profundidad.",
+        "implicacion": "Manejo conservador."
+      },
+      {
+        "grado": "II",
+        "criterio": "Hematoma subcapsular del 10 al 50 por ciento o intraparenquimatoso menor de 10 cm, o laceración de 1 a 3 cm.",
+        "implicacion": "Manejo conservador."
+      },
+      {
+        "grado": "III",
+        "criterio": "Hematoma subcapsular mayor del 50 por ciento o roto, hematoma intraparenquimatoso de 10 cm o más, o laceración de más de 3 cm; también cualquier lesión con sangrado vascular contenido.",
+        "implicacion": "Vigilancia y posible embolización."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Destrucción del parénquima que afecta del 25 al 75 por ciento de un lóbulo hepático, o sangrado activo intraperitoneal.",
+        "implicacion": "Angioembolización o cirugía según la estabilidad."
+      },
+      {
+        "grado": "V",
+        "criterio": "Destrucción de más del 75 por ciento de un lóbulo o lesión de las venas yuxtahepáticas o de la cava retrohepática.",
+        "implicacion": "Alta mortalidad; cirugía de control de daños."
+      }
+    ],
+    "comoUsarla": "Analizar el parénquima en fase portal describiendo profundidad de la laceración, segmentos afectados y presencia de extravasación de contraste.",
+    "limitaciones": "No valora las lesiones biliares, que pueden manifestarse de forma diferida como bilomas, ni la repercusión clínica inmediata.",
+    "etiquetas": [
+      "trauma",
+      "hígado",
+      "abdomen"
+    ]
+  },
+  {
+    "codigo": "bi-rads",
+    "nombre": "Sistema BI-RADS",
+    "sistema": "Mama",
+    "modalidad": "Varias",
+    "paraQue": "Estandariza el informe de mamografía, ecografía y resonancia mamaria, asignando una categoría final que expresa la sospecha de malignidad y la conducta recomendada.",
+    "grados": [
+      {
+        "grado": "0",
+        "criterio": "Estudio incompleto que necesita proyecciones adicionales o comparación con estudios previos.",
+        "implicacion": "Se completa el estudio antes de emitir categoría definitiva."
+      },
+      {
+        "grado": "1",
+        "criterio": "Estudio negativo, sin hallazgos.",
+        "implicacion": "Cribado habitual."
+      },
+      {
+        "grado": "2",
+        "criterio": "Hallazgos benignos característicos, como quistes simples, fibroadenomas calcificados o ganglios intramamarios.",
+        "implicacion": "Cribado habitual."
+      },
+      {
+        "grado": "3",
+        "criterio": "Hallazgo probablemente benigno, con probabilidad de malignidad igual o inferior al 2 por ciento.",
+        "implicacion": "Seguimiento a corto plazo, habitualmente a los seis meses."
+      },
+      {
+        "grado": "4",
+        "criterio": "Hallazgo sospechoso, con probabilidad de malignidad entre el 2 y el 95 por ciento; se subdivide en 4A baja, 4B intermedia y 4C alta sospecha.",
+        "implicacion": "Indicación de biopsia."
+      },
+      {
+        "grado": "5",
+        "criterio": "Hallazgo altamente sugestivo de malignidad, con probabilidad superior al 95 por ciento.",
+        "implicacion": "Biopsia y planificación terapéutica."
+      },
+      {
+        "grado": "6",
+        "criterio": "Malignidad ya confirmada histológicamente y pendiente de tratamiento definitivo.",
+        "implicacion": "Seguimiento de la respuesta o planificación quirúrgica."
+      }
+    ],
+    "comoUsarla": "Describir primero el hallazgo con el léxico estandarizado, morfología y márgenes, y asignar después la categoría que corresponda al hallazgo de mayor sospecha.",
+    "limitaciones": "La categoría 4 abarca un rango de probabilidad muy amplio y la asignación de subcategorías es variable entre lectores; la categoría 3 no debe emplearse en estudios de cribado inicial sin valoración diagnóstica completa.",
+    "etiquetas": [
+      "mama",
+      "cribado",
+      "informe estructurado"
+    ]
+  },
+  {
+    "codigo": "birads-densidad",
+    "nombre": "Categorías de densidad mamaria BI-RADS",
+    "sistema": "Mama",
+    "modalidad": "RX",
+    "paraQue": "Clasifica la composición de la mama en la mamografía, ya que la densidad reduce la sensibilidad de la prueba y es un factor de riesgo independiente de cáncer.",
+    "grados": [
+      {
+        "grado": "A",
+        "criterio": "Mama casi totalmente grasa.",
+        "implicacion": "Sensibilidad mamográfica alta."
+      },
+      {
+        "grado": "B",
+        "criterio": "Áreas dispersas de densidad fibroglandular.",
+        "implicacion": "Sensibilidad buena."
+      },
+      {
+        "grado": "C",
+        "criterio": "Mama heterogéneamente densa, que puede ocultar lesiones pequeñas.",
+        "implicacion": "Puede valorarse estudio complementario con ecografía."
+      },
+      {
+        "grado": "D",
+        "criterio": "Mama extremadamente densa, con marcada disminución de la sensibilidad.",
+        "implicacion": "Mayor riesgo de cáncer de intervalo; considerar técnicas adicionales."
+      }
+    ],
+    "comoUsarla": "Se valora de forma visual y global en las proyecciones craneocaudal y oblicua, atendiendo a la posibilidad de que el tejido denso enmascare una lesión.",
+    "limitaciones": "La asignación visual es subjetiva y varía entre lectores y entre estudios sucesivos de la misma paciente.",
+    "etiquetas": [
+      "mama",
+      "densidad",
+      "mamografía"
+    ]
+  },
+  {
+    "codigo": "acr-tirads",
+    "nombre": "Sistema ACR TI-RADS",
+    "sistema": "Endocrino",
+    "modalidad": "US",
+    "paraQue": "Estratifica el riesgo de malignidad de los nódulos tiroideos en ecografía mediante un sistema de puntos, para decidir qué nódulos requieren punción según su tamaño.",
+    "grados": [
+      {
+        "grado": "TR1",
+        "criterio": "Cero puntos; nódulo benigno, como el quístico puro o el espongiforme.",
+        "implicacion": "No requiere punción ni seguimiento."
+      },
+      {
+        "grado": "TR2",
+        "criterio": "Dos puntos; nódulo con sospecha mínima.",
+        "implicacion": "No requiere punción."
+      },
+      {
+        "grado": "TR3",
+        "criterio": "Tres puntos; sospecha leve.",
+        "implicacion": "Punción si mide 25 mm o más; seguimiento desde 15 mm."
+      },
+      {
+        "grado": "TR4",
+        "criterio": "De cuatro a seis puntos; sospecha moderada.",
+        "implicacion": "Punción si mide 15 mm o más; seguimiento desde 10 mm."
+      },
+      {
+        "grado": "TR5",
+        "criterio": "Siete puntos o más; sospecha alta.",
+        "implicacion": "Punción si mide 10 mm o más; seguimiento desde 5 mm."
+      }
+    ],
+    "comoUsarla": "Se suman puntos en cinco categorías: composición, ecogenicidad, forma, márgenes y focos ecogénicos; solo la última permite sumar varios descriptores.",
+    "limitaciones": "Los nódulos foliculares pueden mostrar rasgos ecográficos tranquilizadores pese a ser malignos, y la valoración de márgenes y focos ecogénicos es dependiente del explorador.",
+    "etiquetas": [
+      "tiroides",
+      "nódulo",
+      "ecografía"
+    ]
+  },
+  {
+    "codigo": "bethesda-tiroides",
+    "nombre": "Sistema Bethesda para citología tiroidea",
+    "sistema": "Endocrino",
+    "modalidad": "US",
+    "paraQue": "Clasifica el resultado de la punción aspirativa con aguja fina de un nódulo tiroideo guiada por ecografía, con una categoría diagnóstica y un riesgo estimado de malignidad.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Muestra no diagnóstica o insatisfactoria por celularidad insuficiente o mala conservación.",
+        "implicacion": "Repetir la punción guiada por ecografía."
+      },
+      {
+        "grado": "II",
+        "criterio": "Benigno, como el nódulo folicular benigno o la tiroiditis linfocítica.",
+        "implicacion": "Seguimiento clínico y ecográfico."
+      },
+      {
+        "grado": "III",
+        "criterio": "Atipia de significado indeterminado o lesión folicular de significado indeterminado.",
+        "implicacion": "Repetir punción, estudio molecular o seguimiento."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Neoplasia folicular o sospecha de neoplasia folicular.",
+        "implicacion": "Suele requerir lobectomía diagnóstica."
+      },
+      {
+        "grado": "V",
+        "criterio": "Sospechoso de malignidad.",
+        "implicacion": "Cirugía, habitualmente con intención terapéutica."
+      },
+      {
+        "grado": "VI",
+        "criterio": "Maligno.",
+        "implicacion": "Tratamiento quirúrgico según el tipo tumoral."
+      }
+    ],
+    "comoUsarla": "El radiólogo selecciona el nódulo a puncionar según su riesgo ecográfico y documenta cuál fue puncionado, ya que la correlación entre imagen y citología es imprescindible.",
+    "limitaciones": "Las categorías indeterminadas III y IV suponen una proporción importante de casos y no permiten decidir por sí solas; el rendimiento depende de la calidad de la toma.",
+    "etiquetas": [
+      "tiroides",
+      "citología",
+      "punción"
+    ]
+  },
+  {
+    "codigo": "li-rads",
+    "nombre": "Sistema LI-RADS",
+    "sistema": "Digestivo",
+    "modalidad": "Varias",
+    "paraQue": "Estandariza la interpretación de la TC y la resonancia con contraste en pacientes con riesgo de carcinoma hepatocelular, asignando a cada observación una probabilidad de ser hepatocarcinoma.",
+    "grados": [
+      {
+        "grado": "LR-1",
+        "criterio": "Observación con certeza benigna, como un quiste simple o un hemangioma típico.",
+        "implicacion": "No requiere seguimiento específico."
+      },
+      {
+        "grado": "LR-2",
+        "criterio": "Observación probablemente benigna.",
+        "implicacion": "Seguimiento con el cribado habitual."
+      },
+      {
+        "grado": "LR-3",
+        "criterio": "Probabilidad intermedia de malignidad.",
+        "implicacion": "Seguimiento a corto plazo."
+      },
+      {
+        "grado": "LR-4",
+        "criterio": "Probablemente carcinoma hepatocelular, sin cumplir todos los criterios.",
+        "implicacion": "Valoración multidisciplinar; puede requerir biopsia o control estrecho."
+      },
+      {
+        "grado": "LR-5",
+        "criterio": "Definitivamente carcinoma hepatocelular por criterios de imagen.",
+        "implicacion": "Permite diagnosticar y tratar sin necesidad de biopsia."
+      },
+      {
+        "grado": "LR-M",
+        "criterio": "Maligna pero con rasgos no específicos de hepatocarcinoma, sugestiva de colangiocarcinoma u otra estirpe.",
+        "implicacion": "Suele requerir biopsia."
+      },
+      {
+        "grado": "LR-TIV",
+        "criterio": "Tumor en vena, con trombo que realza y expande la luz vascular.",
+        "implicacion": "Enfermedad avanzada; condiciona el tratamiento."
+      },
+      {
+        "grado": "LR-NC",
+        "criterio": "Observación no categorizable por calidad insuficiente del estudio u omisión de fases.",
+        "implicacion": "Repetir la exploración."
+      }
+    ],
+    "comoUsarla": "Se valoran los rasgos mayores: tamaño, realce arterial no periférico, lavado en fase portal o tardía, cápsula y crecimiento umbral; su combinación determina la categoría.",
+    "limitaciones": "Solo se aplica a población de riesgo, es decir cirrosis, hepatitis B crónica o antecedente de hepatocarcinoma, y no debe usarse en hígado sano ni en cirrosis de causa vascular congénita.",
+    "etiquetas": [
+      "hígado",
+      "hepatocarcinoma",
+      "cirrosis"
+    ]
+  },
+  {
+    "codigo": "pi-rads",
+    "nombre": "Sistema PI-RADS",
+    "sistema": "Reproductor",
+    "modalidad": "RM",
+    "paraQue": "Estandariza la resonancia multiparamétrica de próstata clasificando la probabilidad de cáncer clínicamente significativo de una lesión.",
+    "grados": [
+      {
+        "grado": "1",
+        "criterio": "Probabilidad muy baja de cáncer clínicamente significativo.",
+        "implicacion": "Puede evitarse la biopsia según el contexto clínico."
+      },
+      {
+        "grado": "2",
+        "criterio": "Probabilidad baja.",
+        "implicacion": "Habitualmente no se biopsia dirigidamente."
+      },
+      {
+        "grado": "3",
+        "criterio": "Probabilidad intermedia o hallazgo equívoco.",
+        "implicacion": "Decisión individualizada según antígeno prostático y densidad del mismo."
+      },
+      {
+        "grado": "4",
+        "criterio": "Probabilidad alta.",
+        "implicacion": "Indicación de biopsia dirigida."
+      },
+      {
+        "grado": "5",
+        "criterio": "Probabilidad muy alta, con lesión de 15 mm o más o con extensión extraprostática.",
+        "implicacion": "Biopsia dirigida y estadificación."
+      }
+    ],
+    "comoUsarla": "En la zona periférica domina la difusión y en la zona transicional domina la secuencia T2; el realce dinámico solo sirve para elevar de 3 a 4 las lesiones de la zona periférica.",
+    "limitaciones": "Exige buena calidad técnica y experiencia del lector; la categoría 3 sigue siendo un problema práctico y la prostatitis crónica genera falsos positivos.",
+    "etiquetas": [
+      "próstata",
+      "resonancia",
+      "cáncer"
+    ]
+  },
+  {
+    "codigo": "o-rads-us",
+    "nombre": "Sistema O-RADS para ecografía",
+    "sistema": "Reproductor",
+    "modalidad": "US",
+    "paraQue": "Clasifica el riesgo de malignidad de las lesiones anexiales en ecografía y propone la conducta adecuada, desde el alta hasta la derivación a oncología ginecológica.",
+    "grados": [
+      {
+        "grado": "0",
+        "criterio": "Estudio incompleto o técnicamente insuficiente.",
+        "implicacion": "Repetir o completar la exploración."
+      },
+      {
+        "grado": "1",
+        "criterio": "Ovario normal en mujer premenopáusica, incluyendo folículos y cuerpo lúteo.",
+        "implicacion": "No requiere seguimiento."
+      },
+      {
+        "grado": "2",
+        "criterio": "Lesión casi con certeza benigna, con riesgo inferior al 1 por ciento, como un quiste simple o hallazgos clásicos de endometrioma o teratoma.",
+        "implicacion": "Seguimiento o alta según tamaño y estado menopáusico."
+      },
+      {
+        "grado": "3",
+        "criterio": "Riesgo bajo, entre el 1 y el 10 por ciento.",
+        "implicacion": "Valoración por ecografista experto o resonancia."
+      },
+      {
+        "grado": "4",
+        "criterio": "Riesgo intermedio, entre el 10 y el 50 por ciento.",
+        "implicacion": "Resonancia o derivación a ginecología oncológica."
+      },
+      {
+        "grado": "5",
+        "criterio": "Riesgo alto, del 50 por ciento o superior; lesión con múltiples proyecciones papilares, componente sólido con vascularización intensa o ascitis y carcinomatosis.",
+        "implicacion": "Derivación directa a ginecología oncológica."
+      }
+    ],
+    "comoUsarla": "Se describe la lesión con el léxico estandarizado, valorando si es uniloculada o multiloculada, la presencia de componente sólido y proyecciones papilares y el grado de vascularización.",
+    "limitaciones": "Requiere ecografía transvaginal de calidad y experiencia; las lesiones de aspecto atípico y la torsión pueden escapar al esquema.",
+    "etiquetas": [
+      "ovario",
+      "anexos",
+      "riesgo de malignidad"
+    ]
+  },
+  {
+    "codigo": "vi-rads",
+    "nombre": "Sistema VI-RADS",
+    "sistema": "Urinario",
+    "modalidad": "RM",
+    "paraQue": "Valora en resonancia multiparamétrica la probabilidad de que un tumor vesical invada la capa muscular, dato clave para el tratamiento.",
+    "grados": [
+      {
+        "grado": "1",
+        "criterio": "Lesión de menos de 1 cm con tallo o engrosamiento de la capa interna, con capa muscular íntegra.",
+        "implicacion": "Invasión muscular muy improbable."
+      },
+      {
+        "grado": "2",
+        "criterio": "Lesión exofítica con tallo o engrosamiento de la capa interna, sin interrupción de la línea muscular hipointensa.",
+        "implicacion": "Invasión muscular improbable."
+      },
+      {
+        "grado": "3",
+        "criterio": "Lesión sin tallo ni engrosamiento claro de la capa interna, pero sin signos definidos de rotura muscular.",
+        "implicacion": "Hallazgo equívoco; decisión individualizada."
+      },
+      {
+        "grado": "4",
+        "criterio": "Interrupción evidente de la capa muscular hipointensa por el tejido tumoral.",
+        "implicacion": "Invasión muscular probable."
+      },
+      {
+        "grado": "5",
+        "criterio": "Extensión del tumor más allá de la pared, hacia la grasa perivesical o los órganos vecinos.",
+        "implicacion": "Invasión establecida; estadificación completa."
+      }
+    ],
+    "comoUsarla": "Se combinan la secuencia T2, la difusión y el estudio dinámico con contraste, valorando la continuidad de la línea hipointensa que representa la muscular propia.",
+    "limitaciones": "Su rendimiento cae si la resonancia se realiza poco después de una resección transuretral por los cambios inflamatorios, y en tumores de gran tamaño o de localización difícil.",
+    "etiquetas": [
+      "vejiga",
+      "tumor",
+      "estadificación"
+    ]
+  },
+  {
+    "codigo": "bosniak",
+    "nombre": "Clasificación de Bosniak",
+    "sistema": "Urinario",
+    "modalidad": "Varias",
+    "paraQue": "Estratifica el riesgo de malignidad de las lesiones quísticas renales según sus tabiques, calcificaciones, engrosamiento parietal y realce.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Quiste simple de pared fina, contenido homogéneo de densidad líquida y sin tabiques ni realce.",
+        "implicacion": "Benigno; no requiere seguimiento."
+      },
+      {
+        "grado": "II",
+        "criterio": "Quiste con pocos tabiques finos, calcificaciones finas o lesión hiperdensa homogénea pequeña, sin realce medible.",
+        "implicacion": "Benigno; no requiere seguimiento."
+      },
+      {
+        "grado": "IIF",
+        "criterio": "Múltiples tabiques finos o mínimo engrosamiento liso de pared o tabiques, con posible realce mínimo.",
+        "implicacion": "Requiere seguimiento por imagen para detectar progresión."
+      },
+      {
+        "grado": "III",
+        "criterio": "Paredes o tabiques engrosados de forma irregular con realce evidente.",
+        "implicacion": "Riesgo intermedio de malignidad; suele plantearse cirugía o vigilancia activa."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Presencia de componente sólido con realce, independiente de la pared o los tabiques.",
+        "implicacion": "Alta probabilidad de carcinoma renal quístico; tratamiento quirúrgico."
+      }
+    ],
+    "comoUsarla": "Se requiere un estudio con fases sin contraste y con contraste, comparando densidades para demostrar realce real, definido por un aumento significativo de atenuación.",
+    "limitaciones": "El seudorrealce por endurecimiento del haz en lesiones pequeñas y la calidad del estudio pueden inducir error; la clasificación de la lesión IIF depende mucho del observador.",
+    "etiquetas": [
+      "riñón",
+      "quiste",
+      "carcinoma renal"
+    ]
+  },
+  {
+    "codigo": "reflujo-vesicoureteral",
+    "nombre": "Clasificación internacional del reflujo vesicoureteral",
+    "sistema": "Urinario",
+    "modalidad": "Varias",
+    "paraQue": "Gradúa el reflujo vesicoureteral demostrado en la cistouretrografía miccional seriada, según hasta dónde asciende el contraste y el grado de dilatación.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "El contraste alcanza solo el uréter, sin llegar a la pelvis renal.",
+        "implicacion": "Alta tasa de resolución espontánea."
+      },
+      {
+        "grado": "II",
+        "criterio": "El contraste llega a la pelvis y los cálices sin dilatarlos.",
+        "implicacion": "Manejo conservador."
+      },
+      {
+        "grado": "III",
+        "criterio": "Dilatación leve o moderada del uréter y la pelvis, con cálices que mantienen o pierden poco su fondo de saco.",
+        "implicacion": "Seguimiento y valoración de profilaxis."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Dilatación moderada con uréter tortuoso y pérdida evidente de la morfología de los fórnices.",
+        "implicacion": "Mayor riesgo de daño renal; puede requerir cirugía."
+      },
+      {
+        "grado": "V",
+        "criterio": "Dilatación grave con uréter muy tortuoso y pérdida completa de la impresión papilar.",
+        "implicacion": "Alto riesgo de cicatrices renales; tratamiento quirúrgico frecuente."
+      }
+    ],
+    "comoUsarla": "Se valora durante la fase miccional del estudio, documentando si el reflujo es uni o bilateral y si aparece a baja o alta presión.",
+    "limitaciones": "El reflujo es intermitente y puede no demostrarse en un único estudio; la técnica implica irradiación y sondaje vesical.",
+    "etiquetas": [
+      "reflujo",
+      "pediatría",
+      "cistografía"
+    ]
+  },
+  {
+    "codigo": "fleischner",
+    "nombre": "Recomendaciones de Fleischner para nódulos pulmonares",
+    "sistema": "Respiratorio",
+    "modalidad": "TC",
+    "paraQue": "Guía el seguimiento de los nódulos pulmonares hallados de forma incidental en TC en adultos, según su tamaño, número y densidad.",
+    "grados": [
+      {
+        "grado": "Sólido menor de 6 mm",
+        "criterio": "Nódulo sólido con volumen equivalente a menos de 6 mm de diámetro medio.",
+        "implicacion": "En riesgo bajo no precisa seguimiento; en riesgo alto puede plantearse control opcional a los 12 meses."
+      },
+      {
+        "grado": "Sólido de 6 a 8 mm",
+        "criterio": "Nódulo sólido único de tamaño intermedio.",
+        "implicacion": "Seguimiento con TC entre los 6 y 12 meses, y control posterior según evolución."
+      },
+      {
+        "grado": "Sólido mayor de 8 mm",
+        "criterio": "Nódulo sólido único de mayor tamaño.",
+        "implicacion": "Valorar TC a los 3 meses, tomografía por emisión de positrones o biopsia."
+      },
+      {
+        "grado": "Vidrio deslustrado puro",
+        "criterio": "Nódulo subsólido sin componente sólido.",
+        "implicacion": "Si es menor de 6 mm no requiere seguimiento; si es mayor se controla de forma prolongada por su crecimiento lento."
+      },
+      {
+        "grado": "Parcialmente sólido",
+        "criterio": "Nódulo con componente en vidrio deslustrado y componente sólido central.",
+        "implicacion": "El tamaño del componente sólido determina el riesgo; a partir de 6 mm requiere seguimiento estrecho o estudio invasivo."
+      },
+      {
+        "grado": "Nódulos múltiples",
+        "criterio": "Presencia de varios nódulos, con frecuencia de origen infeccioso o inflamatorio.",
+        "implicacion": "El manejo se basa en el nódulo de mayor riesgo."
+      }
+    ],
+    "comoUsarla": "Medir el diámetro medio entre eje mayor y menor en ventana de pulmón, y clasificar al paciente en riesgo bajo o alto según tabaquismo, edad y otros factores.",
+    "limitaciones": "No se aplican a pacientes con cáncer conocido, inmunodeprimidos, menores de 35 años ni a los nódulos detectados en programas de cribado, que siguen otro sistema.",
+    "etiquetas": [
+      "nódulo pulmonar",
+      "seguimiento",
+      "incidental"
+    ]
+  },
+  {
+    "codigo": "lung-rads",
+    "nombre": "Sistema Lung-RADS",
+    "sistema": "Respiratorio",
+    "modalidad": "TC",
+    "paraQue": "Estandariza el informe y el manejo de los hallazgos en los programas de cribado de cáncer de pulmón con TC de baja dosis.",
+    "grados": [
+      {
+        "grado": "0",
+        "criterio": "Estudio incompleto o que requiere comparación con exploraciones previas.",
+        "implicacion": "Completar la evaluación antes de asignar categoría."
+      },
+      {
+        "grado": "1",
+        "criterio": "Estudio negativo, sin nódulos o con nódulos claramente benignos por calcificación.",
+        "implicacion": "Continuar el cribado anual."
+      },
+      {
+        "grado": "2",
+        "criterio": "Hallazgos benignos con probabilidad de malignidad inferior al 1 por ciento.",
+        "implicacion": "Cribado anual."
+      },
+      {
+        "grado": "3",
+        "criterio": "Hallazgos probablemente benignos, con riesgo entre el 1 y el 2 por ciento.",
+        "implicacion": "TC de baja dosis de control a los 6 meses."
+      },
+      {
+        "grado": "4A",
+        "criterio": "Hallazgos sospechosos con riesgo entre el 5 y el 15 por ciento.",
+        "implicacion": "TC de control a los 3 meses o estudio metabólico."
+      },
+      {
+        "grado": "4B",
+        "criterio": "Hallazgos con riesgo superior al 15 por ciento.",
+        "implicacion": "Estudio diagnóstico con TC con contraste, tomografía por emisión de positrones o biopsia."
+      },
+      {
+        "grado": "4X",
+        "criterio": "Nódulo de categoría 3 o 4 con rasgos adicionales de sospecha, como espiculación o linfangitis.",
+        "implicacion": "Manejo como categoría de alto riesgo."
+      }
+    ],
+    "comoUsarla": "Se asigna la categoría del nódulo más sospechoso, midiendo el diámetro medio y valorando el crecimiento respecto al estudio previo.",
+    "limitaciones": "Solo es aplicable a la población de cribado que cumple criterios de edad y tabaquismo, y no sustituye a las recomendaciones para nódulos incidentales.",
+    "etiquetas": [
+      "cribado",
+      "pulmón",
+      "TC baja dosis"
+    ]
+  },
+  {
+    "codigo": "balthazar",
+    "nombre": "Clasificación de Balthazar",
+    "sistema": "Digestivo",
+    "modalidad": "TC",
+    "paraQue": "Gradúa los hallazgos de la TC en la pancreatitis aguda, valorando la inflamación peripancreática y las colecciones líquidas.",
+    "grados": [
+      {
+        "grado": "A",
+        "criterio": "Páncreas de aspecto normal.",
+        "implicacion": "Sin repercusión morfológica."
+      },
+      {
+        "grado": "B",
+        "criterio": "Aumento de tamaño focal o difuso del páncreas, sin afectación de la grasa peripancreática.",
+        "implicacion": "Pancreatitis leve."
+      },
+      {
+        "grado": "C",
+        "criterio": "Alteraciones pancreáticas junto a inflamación de la grasa peripancreática.",
+        "implicacion": "Gravedad intermedia."
+      },
+      {
+        "grado": "D",
+        "criterio": "Presencia de una única colección líquida.",
+        "implicacion": "Mayor riesgo de complicaciones."
+      },
+      {
+        "grado": "E",
+        "criterio": "Dos o más colecciones líquidas o presencia de gas en el páncreas o su vecindad.",
+        "implicacion": "Riesgo elevado de infección y complicaciones locales."
+      }
+    ],
+    "comoUsarla": "Suele combinarse con el porcentaje de necrosis glandular para obtener el índice de gravedad por TC, que puntúa de 0 a 10.",
+    "limitaciones": "La TC precoz infravalora la necrosis, por lo que conviene realizarla pasadas las primeras 72 horas si se busca estadificar la gravedad.",
+    "etiquetas": [
+      "páncreas",
+      "pancreatitis",
+      "TC"
+    ]
+  },
+  {
+    "codigo": "atlanta-pancreatitis",
+    "nombre": "Clasificación de Atlanta revisada de la pancreatitis aguda",
+    "sistema": "Digestivo",
+    "modalidad": "TC",
+    "paraQue": "Define la gravedad de la pancreatitis aguda según la presencia de fallo orgánico y complicaciones locales, y unifica la terminología de las colecciones.",
+    "grados": [
+      {
+        "grado": "Leve",
+        "criterio": "Ausencia de fallo orgánico y de complicaciones locales o sistémicas.",
+        "implicacion": "No suele requerir TC; buena evolución."
+      },
+      {
+        "grado": "Moderadamente grave",
+        "criterio": "Fallo orgánico transitorio de menos de 48 horas o presencia de complicaciones locales o exacerbación de comorbilidad.",
+        "implicacion": "Requiere estudio de imagen y vigilancia."
+      },
+      {
+        "grado": "Grave",
+        "criterio": "Fallo orgánico persistente de más de 48 horas, único o múltiple.",
+        "implicacion": "Alta mortalidad; manejo en cuidados intensivos."
+      },
+      {
+        "grado": "Colección líquida peripancreática aguda",
+        "criterio": "Colección homogénea sin pared definida en las primeras cuatro semanas de una pancreatitis intersticial edematosa.",
+        "implicacion": "Suele reabsorberse sin tratamiento."
+      },
+      {
+        "grado": "Pseudoquiste",
+        "criterio": "Colección líquida homogénea con pared bien definida, después de cuatro semanas.",
+        "implicacion": "Drenaje solo si es sintomático."
+      },
+      {
+        "grado": "Colección necrótica aguda",
+        "criterio": "Colección heterogénea con contenido líquido y sólido, sin pared, en las primeras cuatro semanas de una pancreatitis necrotizante.",
+        "implicacion": "Riesgo de infección."
+      },
+      {
+        "grado": "Necrosis encapsulada",
+        "criterio": "Colección heterogénea con pared definida, a partir de las cuatro semanas.",
+        "implicacion": "Puede requerir desbridamiento o drenaje escalonado."
+      }
+    ],
+    "comoUsarla": "Diferenciar primero pancreatitis edematosa de necrotizante mediante el realce del parénquima, y después datar la colección según el tiempo de evolución y la presencia de pared.",
+    "limitaciones": "La distinción entre contenido líquido puro y necrótico puede ser difícil en TC, y a veces requiere resonancia o ecografía para valorar el componente sólido.",
+    "etiquetas": [
+      "páncreas",
+      "colecciones",
+      "gravedad"
+    ]
+  },
+  {
+    "codigo": "hinchey",
+    "nombre": "Clasificación de Hinchey",
+    "sistema": "Digestivo",
+    "modalidad": "TC",
+    "paraQue": "Gradúa la diverticulitis aguda complicada según la extensión del proceso inflamatorio y la presencia de absceso o peritonitis.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Flemón o absceso pericólico localizado.",
+        "implicacion": "Tratamiento médico; drenaje solo si el absceso es grande."
+      },
+      {
+        "grado": "II",
+        "criterio": "Absceso a distancia, pélvico, retroperitoneal o intraabdominal.",
+        "implicacion": "Suele requerir drenaje percutáneo."
+      },
+      {
+        "grado": "III",
+        "criterio": "Peritonitis purulenta generalizada por rotura de un absceso, sin comunicación con la luz.",
+        "implicacion": "Cirugía urgente."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Peritonitis fecaloidea por perforación libre del colon.",
+        "implicacion": "Cirugía urgente con alta mortalidad."
+      }
+    ],
+    "comoUsarla": "Valorar en TC con contraste el engrosamiento parietal, la afectación de la grasa, la presencia y localización de gas extraluminal y el tamaño de los abscesos.",
+    "limitaciones": "Fue descrita para hallazgos quirúrgicos y su traslado a la imagen ha generado modificaciones; el gas extraluminal pequeño y localizado no siempre implica peritonitis.",
+    "etiquetas": [
+      "colon",
+      "diverticulitis",
+      "abdomen agudo"
+    ]
+  },
+  {
+    "codigo": "forrest",
+    "nombre": "Clasificación de Forrest",
+    "sistema": "Digestivo",
+    "modalidad": "Varias",
+    "paraQue": "Describe el aspecto endoscópico de una úlcera péptica sangrante para estimar el riesgo de resangrado y decidir el tratamiento hemostático.",
+    "grados": [
+      {
+        "grado": "Ia",
+        "criterio": "Sangrado activo en chorro, de origen arterial.",
+        "implicacion": "Riesgo muy alto de resangrado; tratamiento endoscópico inmediato."
+      },
+      {
+        "grado": "Ib",
+        "criterio": "Sangrado activo en sábana o babeante.",
+        "implicacion": "Riesgo alto; tratamiento endoscópico."
+      },
+      {
+        "grado": "IIa",
+        "criterio": "Vaso visible no sangrante en el fondo de la úlcera.",
+        "implicacion": "Riesgo alto de recidiva; tratamiento endoscópico."
+      },
+      {
+        "grado": "IIb",
+        "criterio": "Coágulo adherido al lecho ulceroso.",
+        "implicacion": "Riesgo intermedio; se valora retirar el coágulo y tratar."
+      },
+      {
+        "grado": "IIc",
+        "criterio": "Fondo de úlcera con manchas planas pigmentadas de hematina.",
+        "implicacion": "Riesgo bajo; tratamiento médico."
+      },
+      {
+        "grado": "III",
+        "criterio": "Úlcera con base limpia de fibrina.",
+        "implicacion": "Riesgo muy bajo; alta precoz posible."
+      }
+    ],
+    "comoUsarla": "Es una clasificación endoscópica; el radiólogo interviene cuando la endoscopia fracasa, mediante angio-TC para localizar el punto de sangrado y embolización arterial.",
+    "limitaciones": "La valoración del coágulo adherido y del vaso visible tiene variabilidad entre endoscopistas y depende del lavado del lecho ulceroso.",
+    "etiquetas": [
+      "hemorragia digestiva",
+      "úlcera",
+      "endoscopia"
+    ]
+  },
+  {
+    "codigo": "child-pugh",
+    "nombre": "Clasificación de Child-Pugh",
+    "sistema": "Digestivo",
+    "modalidad": "Varias",
+    "paraQue": "Estima la reserva funcional hepática en el paciente cirrótico y ayuda a decidir la tolerancia a procedimientos como resección, quimioembolización o derivación portosistémica.",
+    "grados": [
+      {
+        "grado": "A",
+        "criterio": "Puntuación total de 5 a 6 puntos.",
+        "implicacion": "Enfermedad hepática compensada; buena supervivencia y tolerancia a intervenciones."
+      },
+      {
+        "grado": "B",
+        "criterio": "Puntuación de 7 a 9 puntos.",
+        "implicacion": "Función hepática comprometida; se limitan las terapias agresivas."
+      },
+      {
+        "grado": "C",
+        "criterio": "Puntuación de 10 a 15 puntos.",
+        "implicacion": "Enfermedad descompensada; alta mortalidad y contraindicación de muchos procedimientos."
+      }
+    ],
+    "comoUsarla": "Se puntúan de 1 a 3 los valores de bilirrubina, albúmina y tiempo de protrombina, junto con el grado de ascitis y de encefalopatía; la imagen contribuye documentando la ascitis.",
+    "limitaciones": "Dos de sus cinco componentes son subjetivos y su valoración varía; además puede modificarse artificialmente con diuréticos o albúmina.",
+    "etiquetas": [
+      "cirrosis",
+      "hígado",
+      "función hepática"
+    ]
+  },
+  {
+    "codigo": "meld",
+    "nombre": "Puntuación MELD",
+    "sistema": "Digestivo",
+    "modalidad": "Varias",
+    "paraQue": "Predice la mortalidad a corto plazo en la hepatopatía crónica avanzada y se emplea para priorizar el acceso al trasplante hepático.",
+    "grados": [
+      {
+        "grado": "Menor de 10",
+        "criterio": "Enfermedad hepática con riesgo bajo a corto plazo.",
+        "implicacion": "Mortalidad a tres meses baja."
+      },
+      {
+        "grado": "10 a 19",
+        "criterio": "Riesgo intermedio.",
+        "implicacion": "Seguimiento estrecho y valoración de trasplante."
+      },
+      {
+        "grado": "20 a 29",
+        "criterio": "Riesgo elevado.",
+        "implicacion": "Prioridad creciente en lista de trasplante."
+      },
+      {
+        "grado": "30 o más",
+        "criterio": "Riesgo muy elevado.",
+        "implicacion": "Mortalidad a tres meses muy alta sin trasplante."
+      }
+    ],
+    "comoUsarla": "Se calcula a partir de la bilirrubina, la creatinina y el cociente internacional normalizado de la coagulación; las versiones actuales incorporan además el sodio.",
+    "limitaciones": "No refleja las complicaciones locales de la cirrosis, como el hepatocarcinoma o la ascitis refractaria, que requieren puntos adicionales de excepción.",
+    "etiquetas": [
+      "cirrosis",
+      "trasplante",
+      "pronóstico"
+    ]
+  },
+  {
+    "codigo": "bclc",
+    "nombre": "Estadificación BCLC del carcinoma hepatocelular",
+    "sistema": "Digestivo",
+    "modalidad": "Varias",
+    "paraQue": "Combina la extensión tumoral, la función hepática y el estado general del paciente para asignar un tratamiento en el carcinoma hepatocelular.",
+    "grados": [
+      {
+        "grado": "0",
+        "criterio": "Estadio muy precoz, con nódulo único menor de 2 cm, función hepática conservada y buen estado general.",
+        "implicacion": "Resección o ablación con intención curativa."
+      },
+      {
+        "grado": "A",
+        "criterio": "Estadio precoz, con nódulo único o hasta tres nódulos menores de 3 cm.",
+        "implicacion": "Tratamiento curativo mediante resección, ablación o trasplante."
+      },
+      {
+        "grado": "B",
+        "criterio": "Estadio intermedio, con enfermedad multinodular sin invasión vascular ni diseminación extrahepática.",
+        "implicacion": "Quimioembolización transarterial."
+      },
+      {
+        "grado": "C",
+        "criterio": "Estadio avanzado, con invasión vascular, diseminación extrahepática o deterioro del estado general.",
+        "implicacion": "Tratamiento sistémico."
+      },
+      {
+        "grado": "D",
+        "criterio": "Estadio terminal, con función hepática muy deteriorada o estado general muy comprometido.",
+        "implicacion": "Tratamiento sintomático."
+      }
+    ],
+    "comoUsarla": "El papel de la imagen es definir el número y tamaño de los nódulos, la invasión vascular macroscópica y la enfermedad extrahepática.",
+    "limitaciones": "Es un esquema orientativo que en la práctica se individualiza en comités multidisciplinares, con frecuentes migraciones de tratamiento entre estadios.",
+    "etiquetas": [
+      "hepatocarcinoma",
+      "estadificación",
+      "tratamiento"
+    ]
+  },
+  {
+    "codigo": "bismuth-corlette",
+    "nombre": "Clasificación de Bismuth-Corlette",
+    "sistema": "Digestivo",
+    "modalidad": "Varias",
+    "paraQue": "Clasifica el colangiocarcinoma hiliar según la extensión de la afectación de la confluencia biliar, lo que determina la resecabilidad y el tipo de hepatectomía.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Tumor limitado al conducto hepático común, por debajo de la confluencia.",
+        "implicacion": "Resección de la vía biliar extrahepática."
+      },
+      {
+        "grado": "II",
+        "criterio": "Tumor que alcanza la confluencia de los conductos hepáticos sin invadir los conductos derecho e izquierdo.",
+        "implicacion": "Resección de la confluencia."
+      },
+      {
+        "grado": "IIIa",
+        "criterio": "Extensión a los conductos sectoriales del lado derecho.",
+        "implicacion": "Hepatectomía derecha."
+      },
+      {
+        "grado": "IIIb",
+        "criterio": "Extensión a los conductos sectoriales del lado izquierdo.",
+        "implicacion": "Hepatectomía izquierda."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Afectación bilateral de los conductos sectoriales o tumor multifocal.",
+        "implicacion": "Habitualmente irresecable; drenaje paliativo."
+      }
+    ],
+    "comoUsarla": "Se valora con colangiorresonancia y TC, siguiendo la extensión longitudinal del tumor por los conductos y valorando la relación con la vena porta y la arteria hepática.",
+    "limitaciones": "Solo describe la extensión biliar y no la afectación vascular, la atrofia lobar ni la reserva funcional, todos ellos decisivos para la resecabilidad.",
+    "etiquetas": [
+      "vía biliar",
+      "colangiocarcinoma",
+      "hilio hepático"
+    ]
+  },
+  {
+    "codigo": "todani",
+    "nombre": "Clasificación de Todani de los quistes de colédoco",
+    "sistema": "Digestivo",
+    "modalidad": "Varias",
+    "paraQue": "Agrupa las dilataciones quísticas congénitas de la vía biliar según su localización y morfología, lo que orienta el tratamiento quirúrgico.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Dilatación fusiforme o quística de la vía biliar extrahepática; es el tipo más frecuente.",
+        "implicacion": "Resección del quiste y derivación biliodigestiva."
+      },
+      {
+        "grado": "II",
+        "criterio": "Divertículo verdadero que nace del colédoco.",
+        "implicacion": "Resección del divertículo."
+      },
+      {
+        "grado": "III",
+        "criterio": "Coledococele, dilatación de la porción intraduodenal del colédoco.",
+        "implicacion": "Tratamiento endoscópico en muchos casos."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Quistes múltiples, con afectación extrahepática e intrahepática o solo extrahepática múltiple.",
+        "implicacion": "Puede requerir resección hepática asociada."
+      },
+      {
+        "grado": "V",
+        "criterio": "Dilataciones quísticas intrahepáticas múltiples, conocidas como enfermedad de Caroli.",
+        "implicacion": "Riesgo de colangitis de repetición; puede requerir trasplante."
+      }
+    ],
+    "comoUsarla": "La colangiorresonancia es la técnica de elección para definir el tipo y buscar una unión pancreatobiliar anómala asociada.",
+    "limitaciones": "Existe solapamiento entre tipos y todos comportan riesgo de degeneración maligna, lo que justifica la resección con independencia del tipo.",
+    "etiquetas": [
+      "vía biliar",
+      "congénito",
+      "colangiorresonancia"
+    ]
+  },
+  {
+    "codigo": "borrmann",
+    "nombre": "Clasificación de Borrmann",
+    "sistema": "Digestivo",
+    "modalidad": "Varias",
+    "paraQue": "Describe el aspecto macroscópico del cáncer gástrico avanzado, reconocible tanto en endoscopia como en estudios baritados y en TC.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Tumor polipoideo o vegetante, bien delimitado y sin ulceración importante.",
+        "implicacion": "Suele estar mejor delimitado y ser más resecable."
+      },
+      {
+        "grado": "II",
+        "criterio": "Tumor ulcerado con bordes elevados y márgenes bien definidos.",
+        "implicacion": "Comportamiento localizado."
+      },
+      {
+        "grado": "III",
+        "criterio": "Tumor ulcerado e infiltrante, con bordes mal definidos.",
+        "implicacion": "Mayor tendencia a la infiltración parietal."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Tumor infiltrante difuso que engruesa y rigidiza la pared, conocido como linitis plástica.",
+        "implicacion": "Peor pronóstico y mayor dificultad diagnóstica."
+      }
+    ],
+    "comoUsarla": "En la TC con distensión gástrica se valora el patrón de engrosamiento parietal, su extensión y la afectación de la grasa perigástrica.",
+    "limitaciones": "Es una descripción morfológica sin valor de estadificación; el tipo IV puede pasar desapercibido si el estómago no está bien distendido.",
+    "etiquetas": [
+      "estómago",
+      "cáncer gástrico",
+      "morfología"
+    ]
+  },
+  {
+    "codigo": "lauren",
+    "nombre": "Clasificación de Lauren",
+    "sistema": "Digestivo",
+    "modalidad": "Varias",
+    "paraQue": "Divide el adenocarcinoma gástrico en dos tipos histológicos principales con comportamiento clínico, epidemiológico y radiológico distinto.",
+    "grados": [
+      {
+        "grado": "Intestinal",
+        "criterio": "Células que forman estructuras glandulares, sobre gastritis crónica y metaplasia intestinal.",
+        "implicacion": "Más frecuente en varones y edades avanzadas; suele formar masas y diseminar por vía hematógena al hígado."
+      },
+      {
+        "grado": "Difuso",
+        "criterio": "Células poco cohesivas, con frecuencia en anillo de sello, que infiltran la pared sin formar glándulas.",
+        "implicacion": "Aparece en pacientes más jóvenes, produce linitis plástica y disemina por vía peritoneal."
+      },
+      {
+        "grado": "Mixto o indeterminado",
+        "criterio": "Tumores con componentes de ambos tipos o que no encajan en ninguno.",
+        "implicacion": "Comportamiento intermedio."
+      }
+    ],
+    "comoUsarla": "Aunque es histológica, orienta la búsqueda radiológica: en el tipo difuso hay que valorar cuidadosamente el peritoneo y la ascitis, y en el intestinal el hígado.",
+    "limitaciones": "No sustituye a la estadificación TNM ni a los marcadores moleculares actuales, que guían el tratamiento sistémico.",
+    "etiquetas": [
+      "estómago",
+      "histología",
+      "diseminación"
+    ]
+  },
+  {
+    "codigo": "ranson",
+    "nombre": "Criterios de Ranson",
+    "sistema": "Digestivo",
+    "modalidad": "Varias",
+    "paraQue": "Estima la gravedad y la mortalidad de la pancreatitis aguda combinando parámetros al ingreso y a las 48 horas.",
+    "grados": [
+      {
+        "grado": "0 a 2",
+        "criterio": "Pocos criterios positivos.",
+        "implicacion": "Pancreatitis leve, con mortalidad baja."
+      },
+      {
+        "grado": "3 a 4",
+        "criterio": "Número intermedio de criterios.",
+        "implicacion": "Gravedad moderada; vigilancia estrecha."
+      },
+      {
+        "grado": "5 a 6",
+        "criterio": "Criterios múltiples positivos.",
+        "implicacion": "Mortalidad elevada."
+      },
+      {
+        "grado": "7 a 11",
+        "criterio": "Prácticamente todos los criterios positivos.",
+        "implicacion": "Mortalidad muy alta; cuidados intensivos."
+      }
+    ],
+    "comoUsarla": "Se recogen al ingreso parámetros como edad, leucocitos, glucemia y enzimas, y a las 48 horas la caída del hematocrito, el ascenso de la urea, la calcemia, la oxigenación, el déficit de bases y el secuestro de líquidos.",
+    "limitaciones": "Obliga a esperar 48 horas para completarse, lo que limita su utilidad inicial, y ha sido sustituida en muchos centros por escalas más ágiles.",
+    "etiquetas": [
+      "pancreatitis",
+      "gravedad",
+      "pronóstico"
+    ]
+  },
+  {
+    "codigo": "duke",
+    "nombre": "Criterios de Duke para endocarditis infecciosa",
+    "sistema": "Cardiovascular",
+    "modalidad": "Varias",
+    "paraQue": "Establece el diagnóstico de endocarditis infecciosa combinando datos microbiológicos, de imagen y clínicos.",
+    "grados": [
+      {
+        "grado": "Definitiva",
+        "criterio": "Confirmación anatomopatológica, o bien dos criterios mayores, uno mayor y tres menores, o cinco menores.",
+        "implicacion": "Se inicia tratamiento completo y se valora cirugía."
+      },
+      {
+        "grado": "Posible",
+        "criterio": "Un criterio mayor y uno menor, o tres criterios menores.",
+        "implicacion": "Requiere ampliar el estudio y repetir la imagen."
+      },
+      {
+        "grado": "Rechazada",
+        "criterio": "Diagnóstico alternativo firme, resolución con menos de cuatro días de antibiótico o ausencia de criterios suficientes.",
+        "implicacion": "Se descarta la endocarditis."
+      }
+    ],
+    "comoUsarla": "Los criterios mayores incluyen hemocultivos positivos para microorganismos típicos y hallazgos de imagen como vegetación, absceso o dehiscencia protésica en ecocardiografía, y en versiones actuales también captación anómala en tomografía por emisión de positrones o lesiones paravalvulares en TC.",
+    "limitaciones": "Su sensibilidad es menor en la endocarditis sobre válvula protésica y sobre dispositivos, y en pacientes que ya han recibido antibióticos.",
+    "etiquetas": [
+      "endocarditis",
+      "ecocardiografía",
+      "diagnóstico"
+    ]
+  },
+  {
+    "codigo": "recist",
+    "nombre": "Criterios RECIST",
+    "sistema": "General",
+    "modalidad": "TC",
+    "paraQue": "Estandariza la medición de la respuesta tumoral al tratamiento en imagen, comparando la suma de diámetros de las lesiones diana entre estudios.",
+    "grados": [
+      {
+        "grado": "Respuesta completa",
+        "criterio": "Desaparición de todas las lesiones diana y reducción de los ganglios patológicos por debajo de 10 mm en su eje corto.",
+        "implicacion": "Respuesta máxima; se confirma en un estudio posterior."
+      },
+      {
+        "grado": "Respuesta parcial",
+        "criterio": "Disminución de al menos el 30 por ciento en la suma de diámetros respecto al estudio basal.",
+        "implicacion": "Tratamiento eficaz; se mantiene."
+      },
+      {
+        "grado": "Enfermedad estable",
+        "criterio": "Cambios que no alcanzan criterios de respuesta parcial ni de progresión.",
+        "implicacion": "Se continúa el tratamiento con vigilancia."
+      },
+      {
+        "grado": "Progresión",
+        "criterio": "Aumento de al menos el 20 por ciento respecto a la suma más baja registrada, con un incremento absoluto mínimo de 5 mm, o aparición de lesiones nuevas.",
+        "implicacion": "Cambio de línea terapéutica."
+      }
+    ],
+    "comoUsarla": "Se seleccionan hasta cinco lesiones diana medibles, con un máximo de dos por órgano, midiendo el diámetro mayor salvo en ganglios, donde se mide el eje corto.",
+    "limitaciones": "Valora solo el tamaño y no refleja bien la respuesta a inmunoterapia o a tratamientos antiangiogénicos, para los que existen criterios específicos.",
+    "etiquetas": [
+      "oncología",
+      "respuesta",
+      "seguimiento"
+    ]
+  },
+  {
+    "codigo": "deauville",
+    "nombre": "Escala de Deauville",
+    "sistema": "General",
+    "modalidad": "Varias",
+    "paraQue": "Valora la respuesta metabólica en los linfomas mediante tomografía por emisión de positrones, comparando la captación tumoral con referencias fisiológicas.",
+    "grados": [
+      {
+        "grado": "1",
+        "criterio": "Ausencia de captación residual.",
+        "implicacion": "Respuesta metabólica completa."
+      },
+      {
+        "grado": "2",
+        "criterio": "Captación igual o inferior a la del mediastino.",
+        "implicacion": "Respuesta metabólica completa."
+      },
+      {
+        "grado": "3",
+        "criterio": "Captación superior a la del mediastino pero igual o inferior a la del hígado.",
+        "implicacion": "Habitualmente se considera respuesta adecuada, aunque depende del ensayo y del contexto."
+      },
+      {
+        "grado": "4",
+        "criterio": "Captación moderadamente superior a la del hígado.",
+        "implicacion": "Respuesta parcial; puede requerir intensificar tratamiento."
+      },
+      {
+        "grado": "5",
+        "criterio": "Captación muy superior a la hepática o aparición de nuevas lesiones tumorales.",
+        "implicacion": "Respuesta insuficiente o progresión."
+      }
+    ],
+    "comoUsarla": "Se compara la lesión de mayor captación con dos referencias internas, la actividad del mediastino y la del hígado, en estudios interinos o finales.",
+    "limitaciones": "La inflamación, la infección y el efecto del factor estimulante de colonias pueden producir falsos positivos; requiere protocolos de adquisición homogéneos.",
+    "etiquetas": [
+      "linfoma",
+      "PET",
+      "respuesta"
+    ]
+  },
+  {
+    "codigo": "tnm",
+    "nombre": "Sistema TNM",
+    "sistema": "General",
+    "modalidad": "Varias",
+    "paraQue": "Sistema universal de estadificación oncológica que describe la extensión local del tumor, la afectación ganglionar y la presencia de metástasis a distancia.",
+    "grados": [
+      {
+        "grado": "T",
+        "criterio": "Tamaño y grado de invasión local del tumor primario, de T1 a T4, con Tis para el carcinoma in situ y T0 cuando no hay tumor evidente.",
+        "implicacion": "Determina la resecabilidad y el tipo de cirugía."
+      },
+      {
+        "grado": "N",
+        "criterio": "Afectación de los ganglios linfáticos regionales, de N0 a N3 según número y localización.",
+        "implicacion": "Condiciona la indicación de tratamiento adyuvante."
+      },
+      {
+        "grado": "M",
+        "criterio": "Presencia o ausencia de metástasis a distancia, como M0 o M1.",
+        "implicacion": "La presencia de metástasis suele excluir el tratamiento con intención curativa."
+      },
+      {
+        "grado": "Estadio agrupado",
+        "criterio": "Combinación de las categorías anteriores en estadios de I a IV, con criterios propios de cada tumor.",
+        "implicacion": "Es la base del pronóstico y de la elección terapéutica."
+      }
+    ],
+    "comoUsarla": "El prefijo indica el método de estadificación: c para la clínica y radiológica, p para la patológica e y para la posterior a tratamiento neoadyuvante.",
+    "limitaciones": "Los criterios exactos de cada categoría cambian según la localización tumoral y la edición vigente, por lo que siempre debe indicarse la versión utilizada.",
+    "etiquetas": [
+      "oncología",
+      "estadificación",
+      "pronóstico"
+    ]
+  },
+  {
+    "codigo": "tanner",
+    "nombre": "Estadios de Tanner",
+    "sistema": "Endocrino",
+    "modalidad": "Varias",
+    "paraQue": "Describe la progresión del desarrollo puberal según los caracteres sexuales secundarios, útil como referencia al valorar la edad ósea y los trastornos del crecimiento.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Estadio prepuberal, sin desarrollo mamario ni testicular puberal ni vello púbico.",
+        "implicacion": "Corresponde a la infancia."
+      },
+      {
+        "grado": "II",
+        "criterio": "Inicio puberal: botón mamario en la niña, aumento del volumen testicular en el niño y vello escaso.",
+        "implicacion": "Marca el comienzo del brote de crecimiento."
+      },
+      {
+        "grado": "III",
+        "criterio": "Crecimiento mamario y del pene sin separación de contornos, con vello más oscuro y rizado.",
+        "implicacion": "Fase de máxima velocidad de crecimiento."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Areola y pezón forman un montículo secundario; genitales casi desarrollados y vello abundante sin extensión a los muslos.",
+        "implicacion": "El crecimiento comienza a desacelerarse."
+      },
+      {
+        "grado": "V",
+        "criterio": "Desarrollo adulto completo, con vello extendido a la cara interna de los muslos.",
+        "implicacion": "Madurez sexual; crecimiento prácticamente finalizado."
+      }
+    ],
+    "comoUsarla": "Es una valoración clínica que se correlaciona con la edad ósea determinada en la radiografía de mano y muñeca izquierdas.",
+    "limitaciones": "Existe amplia variabilidad individual y étnica, y la valoración puede ser incómoda o poco fiable si no la realiza personal entrenado.",
+    "etiquetas": [
+      "pubertad",
+      "crecimiento",
+      "edad ósea"
+    ]
+  },
+  {
+    "codigo": "asia",
+    "nombre": "Escala ASIA de deterioro neurológico",
+    "sistema": "Nervioso",
+    "modalidad": "Varias",
+    "paraQue": "Clasifica el grado de lesión medular según la conservación de la función motora y sensitiva por debajo del nivel lesional.",
+    "grados": [
+      {
+        "grado": "A",
+        "criterio": "Lesión completa, sin función motora ni sensitiva conservada en los segmentos sacros más bajos.",
+        "implicacion": "Peor pronóstico de recuperación."
+      },
+      {
+        "grado": "B",
+        "criterio": "Lesión incompleta con función sensitiva conservada pero no motora por debajo del nivel, incluidos los segmentos sacros.",
+        "implicacion": "Alguna posibilidad de recuperación."
+      },
+      {
+        "grado": "C",
+        "criterio": "Función motora conservada por debajo del nivel, con más de la mitad de los músculos clave con balance inferior a 3.",
+        "implicacion": "Recuperación parcial posible."
+      },
+      {
+        "grado": "D",
+        "criterio": "Función motora conservada con al menos la mitad de los músculos clave con balance de 3 o más.",
+        "implicacion": "Buen pronóstico funcional, con frecuencia deambulación."
+      },
+      {
+        "grado": "E",
+        "criterio": "Función motora y sensitiva normales.",
+        "implicacion": "Sin déficit neurológico medible."
+      }
+    ],
+    "comoUsarla": "Se explora de forma protocolizada la sensibilidad en los dermatomas y la fuerza en los miotomas clave, y se correlaciona con el nivel lesional visto en la resonancia.",
+    "limitaciones": "No es valorable en el paciente sedado, intoxicado o con lesiones asociadas que impidan la exploración, y puede modificarse en la fase de shock medular.",
+    "etiquetas": [
+      "médula espinal",
+      "trauma",
+      "neurológico"
+    ]
+  },
+  {
+    "codigo": "lauge-hansen",
+    "nombre": "Clasificación de Lauge-Hansen",
+    "sistema": "Óseo",
+    "modalidad": "RX",
+    "paraQue": "Agrupa las fracturas de tobillo según el mecanismo lesional, definido por la posición del pie en el momento del traumatismo y la fuerza aplicada.",
+    "grados": [
+      {
+        "grado": "Supinación-aducción",
+        "criterio": "Avulsión transversa del maléolo lateral por debajo de la interlínea y, si progresa, fractura vertical del maléolo medial.",
+        "implicacion": "Suele respetar la sindesmosis; el trazo medial vertical puede requerir fijación específica."
+      },
+      {
+        "grado": "Supinación-rotación externa",
+        "criterio": "Secuencia que comienza en el ligamento tibioperoneo anteroinferior y sigue con fractura espiroidea del peroné a la altura de la sindesmosis y lesión medial.",
+        "implicacion": "Es el patrón más frecuente; la estabilidad depende de la afectación medial."
+      },
+      {
+        "grado": "Pronación-abducción",
+        "criterio": "Lesión medial inicial seguida de fractura peronea transversa u oblicua con conminución lateral por encima de la interlínea.",
+        "implicacion": "Frecuente inestabilidad y lesión sindesmótica."
+      },
+      {
+        "grado": "Pronación-rotación externa",
+        "criterio": "Lesión medial, rotura sindesmótica y fractura peronea alta, a veces proximal (Maisonneuve).",
+        "implicacion": "Muy inestable; obliga a explorar todo el peroné."
+      }
+    ],
+    "comoUsarla": "Reconstruir mentalmente la secuencia lesional identificando el nivel y la morfología del trazo peroneo y la presencia de lesión medial ósea o ligamentaria.",
+    "limitaciones": "Es compleja y con baja reproducibilidad entre observadores; muchas fracturas reales no encajan de forma pura en una sola secuencia.",
+    "etiquetas": [
+      "tobillo",
+      "mecanismo",
+      "sindesmosis"
+    ]
+  },
+  {
+    "codigo": "mason-radio",
+    "nombre": "Clasificación de Mason",
+    "sistema": "Óseo",
+    "modalidad": "RX",
+    "paraQue": "Clasifica las fracturas de la cabeza del radio según el desplazamiento y la conminución, orientando entre tratamiento conservador y quirúrgico.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Fractura sin desplazamiento o con desplazamiento mínimo.",
+        "implicacion": "Movilización precoz y tratamiento conservador."
+      },
+      {
+        "grado": "II",
+        "criterio": "Fractura desplazada de un fragmento, con escalón articular o angulación.",
+        "implicacion": "Puede requerir osteosíntesis, sobre todo si bloquea la pronosupinación."
+      },
+      {
+        "grado": "III",
+        "criterio": "Fractura conminuta de toda la cabeza radial.",
+        "implicacion": "Suele precisar resección o sustitución protésica."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Cualquiera de las anteriores asociada a luxación del codo.",
+        "implicacion": "Implica lesión ligamentaria; hay que valorar la estabilidad tras la reducción."
+      }
+    ],
+    "comoUsarla": "Buscar el signo de la almohadilla grasa posterior en la proyección lateral como indicador indirecto y completar con proyecciones oblicuas o TC si hay duda.",
+    "limitaciones": "Los criterios exactos de desplazamiento no están unificados, lo que genera discrepancias entre observadores en el tipo II.",
+    "etiquetas": [
+      "codo",
+      "radio",
+      "trauma"
+    ]
+  },
+  {
+    "codigo": "rockwood-acromioclavicular",
+    "nombre": "Clasificación de Rockwood",
+    "sistema": "Óseo",
+    "modalidad": "RX",
+    "paraQue": "Gradúa las lesiones de la articulación acromioclavicular según el grado y la dirección del desplazamiento de la clavícula distal.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Esguince acromioclavicular sin desplazamiento radiológico.",
+        "implicacion": "Conservador."
+      },
+      {
+        "grado": "II",
+        "criterio": "Rotura acromioclavicular con ligamentos coracoclaviculares íntegros y subluxación leve.",
+        "implicacion": "Conservador."
+      },
+      {
+        "grado": "III",
+        "criterio": "Rotura de ambos complejos ligamentarios con ascenso clavicular y aumento de la distancia coracoclavicular.",
+        "implicacion": "Tratamiento controvertido, individualizado según demanda funcional."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Desplazamiento posterior de la clavícula hacia el trapecio, visible en proyección axial.",
+        "implicacion": "Indicación quirúrgica."
+      },
+      {
+        "grado": "V",
+        "criterio": "Ascenso clavicular marcado, con aumento muy importante de la distancia coracoclavicular y despegue deltotrapecial.",
+        "implicacion": "Indicación quirúrgica."
+      },
+      {
+        "grado": "VI",
+        "criterio": "Desplazamiento inferior de la clavícula, subacromial o subcoracoideo.",
+        "implicacion": "Muy rara; quirúrgica y con riesgo neurovascular."
+      }
+    ],
+    "comoUsarla": "Comparar la distancia coracoclavicular con el lado contralateral en proyecciones específicas y añadir una axial para detectar el desplazamiento posterior del tipo IV.",
+    "limitaciones": "La diferenciación entre los tipos III y V es subjetiva y las radiografías en carga han caído en desuso por su escaso rendimiento.",
+    "etiquetas": [
+      "hombro",
+      "clavícula",
+      "ligamentos"
+    ]
+  },
+  {
+    "codigo": "outerbridge",
+    "nombre": "Clasificación de Outerbridge",
+    "sistema": "Óseo",
+    "modalidad": "RM",
+    "paraQue": "Gradúa las lesiones del cartílago articular, inicialmente descrita en artroscopia y adaptada a la resonancia magnética.",
+    "grados": [
+      {
+        "grado": "0",
+        "criterio": "Cartílago de grosor y señal normales.",
+        "implicacion": "Sin lesión condral."
+      },
+      {
+        "grado": "I",
+        "criterio": "Reblandecimiento o alteración de señal del cartílago con superficie intacta.",
+        "implicacion": "Lesión incipiente."
+      },
+      {
+        "grado": "II",
+        "criterio": "Fisuras o defectos que afectan a menos de la mitad del espesor cartilaginoso.",
+        "implicacion": "Lesión parcial superficial."
+      },
+      {
+        "grado": "III",
+        "criterio": "Defecto que supera la mitad del espesor sin llegar al hueso subcondral.",
+        "implicacion": "Lesión parcial profunda."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Pérdida completa del cartílago con exposición del hueso subcondral.",
+        "implicacion": "Lesión de espesor completo; puede requerir técnicas de reparación."
+      }
+    ],
+    "comoUsarla": "Valorar secuencias sensibles al cartílago en el plano perpendicular a la superficie articular y estimar el porcentaje de espesor afectado.",
+    "limitaciones": "La resonancia puede infraestimar los grados bajos y la equivalencia con la artroscopia no es exacta; no considera el tamaño del defecto.",
+    "etiquetas": [
+      "cartílago",
+      "rodilla",
+      "condral"
+    ]
+  },
+  {
+    "codigo": "ottawa-rodilla",
+    "nombre": "Reglas de Ottawa para rodilla",
+    "sistema": "Óseo",
+    "modalidad": "RX",
+    "paraQue": "Regla de decisión que selecciona qué traumatismos agudos de rodilla precisan radiografía por riesgo de fractura.",
+    "grados": [
+      {
+        "grado": "Edad",
+        "criterio": "Paciente de 55 años o más.",
+        "implicacion": "Indica radiografía."
+      },
+      {
+        "grado": "Rótula",
+        "criterio": "Dolor a la palpación aislado en la rótula, sin dolor en otra estructura ósea.",
+        "implicacion": "Indica radiografía."
+      },
+      {
+        "grado": "Peroné",
+        "criterio": "Dolor a la palpación en la cabeza del peroné.",
+        "implicacion": "Indica radiografía."
+      },
+      {
+        "grado": "Flexión",
+        "criterio": "Incapacidad para flexionar la rodilla hasta 90 grados.",
+        "implicacion": "Indica radiografía."
+      },
+      {
+        "grado": "Carga",
+        "criterio": "Incapacidad de dar cuatro pasos en el momento de la lesión y en la evaluación.",
+        "implicacion": "Indica radiografía."
+      }
+    ],
+    "comoUsarla": "Aplicar solo en traumatismos agudos; la ausencia de todos los criterios permite descartar fractura con seguridad razonable.",
+    "limitaciones": "No valora lesiones ligamentarias ni meniscales, que son mucho más frecuentes y requieren exploración clínica y eventualmente resonancia.",
+    "etiquetas": [
+      "urgencias",
+      "regla de decisión",
+      "rodilla"
+    ]
+  },
+  {
+    "codigo": "wfns",
+    "nombre": "Escala WFNS de hemorragia subaracnoidea",
+    "sistema": "Nervioso",
+    "modalidad": "Varias",
+    "paraQue": "Gradúa la hemorragia subaracnoidea combinando la puntuación de Glasgow con la presencia de déficit motor, con criterios más objetivos que otras escalas clínicas.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Glasgow de 15 sin déficit motor.",
+        "implicacion": "Mejor pronóstico funcional."
+      },
+      {
+        "grado": "II",
+        "criterio": "Glasgow de 13 o 14 sin déficit motor.",
+        "implicacion": "Pronóstico bueno."
+      },
+      {
+        "grado": "III",
+        "criterio": "Glasgow de 13 o 14 con déficit motor.",
+        "implicacion": "Pronóstico intermedio."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Glasgow entre 7 y 12, con o sin déficit motor.",
+        "implicacion": "Pronóstico desfavorable."
+      },
+      {
+        "grado": "V",
+        "criterio": "Glasgow entre 3 y 6, con o sin déficit motor.",
+        "implicacion": "Muy mal pronóstico."
+      }
+    ],
+    "comoUsarla": "Calcular primero la puntuación de Glasgow y después comprobar si existe déficit motor para diferenciar los grados II y III.",
+    "limitaciones": "Al depender del Glasgow, se distorsiona en pacientes sedados o intubados; no incorpora la carga hemorrágica visible en imagen.",
+    "etiquetas": [
+      "hemorragia subaracnoidea",
+      "glasgow",
+      "pronóstico"
+    ]
+  },
+  {
+    "codigo": "debakey",
+    "nombre": "Clasificación de DeBakey",
+    "sistema": "Cardiovascular",
+    "modalidad": "TC",
+    "paraQue": "Clasifica la disección aórtica según el lugar de origen y la extensión del flap, con más detalle anatómico que la clasificación de Stanford.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Se origina en la aorta ascendente y se extiende al menos hasta el cayado y con frecuencia a la aorta descendente.",
+        "implicacion": "Quirúrgica."
+      },
+      {
+        "grado": "II",
+        "criterio": "Se origina y queda limitada a la aorta ascendente.",
+        "implicacion": "Quirúrgica."
+      },
+      {
+        "grado": "III",
+        "criterio": "Se origina en la aorta descendente, distal a la subclavia izquierda; puede limitarse al tórax o extenderse al abdomen.",
+        "implicacion": "Manejo habitualmente médico o endovascular."
+      }
+    ],
+    "comoUsarla": "Identificar en las reconstrucciones sagitales oblicuas el punto de inicio del flap y seguir su extensión distal en toda la aorta.",
+    "limitaciones": "Es menos práctica que la de Stanford para la decisión terapéutica inmediata y no aporta información sobre la perfusión de ramas.",
+    "etiquetas": [
+      "aorta",
+      "disección",
+      "angio-TC"
+    ]
+  },
+  {
+    "codigo": "timi-flujo",
+    "nombre": "Escala TIMI de flujo coronario",
+    "sistema": "Cardiovascular",
+    "modalidad": "Varias",
+    "paraQue": "Gradúa el flujo anterógrado en una arteria coronaria durante la angiografía, típicamente antes y después de una angioplastia primaria.",
+    "grados": [
+      {
+        "grado": "0",
+        "criterio": "Ausencia de flujo más allá de la oclusión.",
+        "implicacion": "Vaso ocluido."
+      },
+      {
+        "grado": "1",
+        "criterio": "El contraste rebasa la obstrucción pero no llega a opacificar todo el lecho distal.",
+        "implicacion": "Penetración sin perfusión."
+      },
+      {
+        "grado": "2",
+        "criterio": "El contraste opacifica todo el lecho distal pero con relleno y lavado más lentos de lo normal.",
+        "implicacion": "Perfusión parcial."
+      },
+      {
+        "grado": "3",
+        "criterio": "Relleno y lavado del vaso a velocidad normal.",
+        "implicacion": "Perfusión completa; objetivo de la reperfusión."
+      }
+    ],
+    "comoUsarla": "Se compara la velocidad de entrada y aclaramiento del contraste en el vaso afectado con la de una arteria coronaria no comprometida.",
+    "limitaciones": "Valora el flujo epicárdico y no la perfusión miocárdica real, que puede seguir alterada pese a un flujo de grado 3.",
+    "etiquetas": [
+      "coronarias",
+      "reperfusión",
+      "infarto"
+    ]
+  },
+  {
+    "codigo": "killip",
+    "nombre": "Clasificación de Killip",
+    "sistema": "Cardiovascular",
+    "modalidad": "RX",
+    "paraQue": "Estratifica el riesgo de un paciente con infarto agudo de miocardio según los signos de insuficiencia cardiaca, correlacionándose con los hallazgos de la radiografía de tórax.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Sin signos de insuficiencia cardiaca; radiografía de tórax sin congestión.",
+        "implicacion": "Mortalidad baja."
+      },
+      {
+        "grado": "II",
+        "criterio": "Crepitantes en menos de la mitad de los campos, tercer ruido o congestión venosa pulmonar en la radiografía.",
+        "implicacion": "Mortalidad intermedia."
+      },
+      {
+        "grado": "III",
+        "criterio": "Edema agudo de pulmón con crepitantes generalizados y patrón alveolar difuso.",
+        "implicacion": "Mortalidad alta; requiere soporte intensivo."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Shock cardiogénico con hipotensión e hipoperfusión periférica.",
+        "implicacion": "Mortalidad muy elevada."
+      }
+    ],
+    "comoUsarla": "Es una valoración clínica al ingreso; la radiografía de tórax portátil ayuda a confirmar la redistribución vascular, las líneas de Kerley y el edema alveolar.",
+    "limitaciones": "La radiografía en decúbito y la portátil sobreestiman la congestión, y los hallazgos radiológicos pueden retrasarse respecto a la clínica.",
+    "etiquetas": [
+      "infarto",
+      "insuficiencia cardiaca",
+      "pronóstico"
+    ]
+  },
+  {
+    "codigo": "nyha",
+    "nombre": "Clasificación funcional de la NYHA",
+    "sistema": "Cardiovascular",
+    "modalidad": "Varias",
+    "paraQue": "Gradúa la limitación funcional del paciente con insuficiencia cardiaca según los síntomas con la actividad física.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Sin limitación; la actividad física habitual no produce síntomas.",
+        "implicacion": "Buen estado funcional."
+      },
+      {
+        "grado": "II",
+        "criterio": "Ligera limitación; síntomas con la actividad ordinaria.",
+        "implicacion": "Ajuste de tratamiento."
+      },
+      {
+        "grado": "III",
+        "criterio": "Limitación marcada; síntomas con actividad menor de la ordinaria.",
+        "implicacion": "Enfermedad avanzada; valorar dispositivos."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Síntomas en reposo, que aumentan con cualquier actividad.",
+        "implicacion": "Insuficiencia cardiaca terminal o refractaria."
+      }
+    ],
+    "comoUsarla": "Se recoge en la anamnesis y se correlaciona con la fracción de eyección medida por ecocardiografía o resonancia cardiaca.",
+    "limitaciones": "Es subjetiva, poco reproducible y guarda una correlación débil con los parámetros objetivos de función ventricular.",
+    "etiquetas": [
+      "insuficiencia cardiaca",
+      "funcional",
+      "clínica"
+    ]
+  },
+  {
+    "codigo": "sfu-hidronefrosis",
+    "nombre": "Gradación SFU de la hidronefrosis",
+    "sistema": "Urinario",
+    "modalidad": "US",
+    "paraQue": "Gradúa el grado de dilatación de la vía urinaria en la ecografía, especialmente en la población pediátrica con hidronefrosis prenatal o posnatal.",
+    "grados": [
+      {
+        "grado": "0",
+        "criterio": "Sin dilatación de la pelvis renal ni de los cálices.",
+        "implicacion": "Normal."
+      },
+      {
+        "grado": "1",
+        "criterio": "Dilatación aislada de la pelvis renal.",
+        "implicacion": "Habitualmente leve y transitoria."
+      },
+      {
+        "grado": "2",
+        "criterio": "Dilatación de la pelvis con algunos cálices visibles pero no todos.",
+        "implicacion": "Requiere seguimiento ecográfico."
+      },
+      {
+        "grado": "3",
+        "criterio": "Dilatación de la pelvis con todos los cálices visibles y parénquima conservado.",
+        "implicacion": "Se valora estudio funcional y descartar reflujo u obstrucción."
+      },
+      {
+        "grado": "4",
+        "criterio": "Dilatación caliciopiélica con adelgazamiento del parénquima renal.",
+        "implicacion": "Riesgo de daño renal; valoración urológica."
+      }
+    ],
+    "comoUsarla": "Explorar con vejiga en estado adecuado y valorar la dilatación en corte longitudinal, midiendo además el diámetro anteroposterior de la pelvis y el espesor del parénquima.",
+    "limitaciones": "El grado varía con el estado de hidratación y el llenado vesical; existen sistemas alternativos de graduación prenatal y posnatal que dificultan la comparación.",
+    "etiquetas": [
+      "hidronefrosis",
+      "pediatría",
+      "ecografía"
+    ]
+  },
+  {
+    "codigo": "siewert",
+    "nombre": "Clasificación de Siewert",
+    "sistema": "Digestivo",
+    "modalidad": "Varias",
+    "paraQue": "Clasifica los adenocarcinomas de la unión esofagogástrica según la posición del centro del tumor respecto al cardias, lo que determina el abordaje quirúrgico.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Centro tumoral situado entre 1 y 5 cm por encima del cardias.",
+        "implicacion": "Se trata como cáncer de esófago distal; esofaguectomía."
+      },
+      {
+        "grado": "II",
+        "criterio": "Centro tumoral entre 1 cm por encima y 2 cm por debajo del cardias, es decir el cardias verdadero.",
+        "implicacion": "Abordaje variable, esofagogastrectomía o gastrectomía ampliada."
+      },
+      {
+        "grado": "III",
+        "criterio": "Centro tumoral entre 2 y 5 cm por debajo del cardias.",
+        "implicacion": "Se trata como cáncer gástrico subcardial; gastrectomía total."
+      }
+    ],
+    "comoUsarla": "Requiere localizar con precisión el centro del tumor mediante endoscopia y TC con reconstrucciones, tomando el cardias anatómico como referencia.",
+    "limitaciones": "En tumores voluminosos es difícil determinar el epicentro, y la distensión gástrica variable modifica las distancias medidas.",
+    "etiquetas": [
+      "esófago",
+      "unión esofagogástrica",
+      "cirugía"
+    ]
+  },
+  {
+    "codigo": "los-angeles-esofagitis",
+    "nombre": "Clasificación de Los Ángeles de la esofagitis",
+    "sistema": "Digestivo",
+    "modalidad": "Varias",
+    "paraQue": "Gradúa la gravedad de la esofagitis por reflujo según la extensión de las erosiones mucosas observadas en la endoscopia.",
+    "grados": [
+      {
+        "grado": "A",
+        "criterio": "Una o más erosiones de 5 mm o menos, que no se extienden entre dos pliegues.",
+        "implicacion": "Esofagitis leve."
+      },
+      {
+        "grado": "B",
+        "criterio": "Al menos una erosión mayor de 5 mm, sin continuidad entre pliegues.",
+        "implicacion": "Esofagitis leve a moderada."
+      },
+      {
+        "grado": "C",
+        "criterio": "Erosiones que se extienden entre dos o más pliegues pero afectan a menos del 75 por ciento de la circunferencia.",
+        "implicacion": "Esofagitis grave; mayor riesgo de complicaciones."
+      },
+      {
+        "grado": "D",
+        "criterio": "Erosiones que afectan al menos al 75 por ciento de la circunferencia esofágica.",
+        "implicacion": "Esofagitis muy grave; riesgo de estenosis y de esófago de Barrett."
+      }
+    ],
+    "comoUsarla": "Es endoscópica; los estudios baritados solo detectan las formas avanzadas mediante irregularidad mucosa, úlceras o estenosis.",
+    "limitaciones": "No valora los síntomas ni la enfermedad por reflujo no erosiva, que es la forma más frecuente y cursa con endoscopia normal.",
+    "etiquetas": [
+      "esófago",
+      "reflujo",
+      "endoscopia"
+    ]
+  },
+  {
+    "codigo": "alvarado",
+    "nombre": "Escala de Alvarado",
+    "sistema": "Digestivo",
+    "modalidad": "Varias",
+    "paraQue": "Estima la probabilidad de apendicitis aguda a partir de datos clínicos y analíticos, ayudando a decidir si se necesita imagen o cirugía directa.",
+    "grados": [
+      {
+        "grado": "1 a 4",
+        "criterio": "Probabilidad baja de apendicitis.",
+        "implicacion": "Puede plantearse observación y evitar la imagen."
+      },
+      {
+        "grado": "5 a 6",
+        "criterio": "Probabilidad intermedia.",
+        "implicacion": "Indicación de ecografía o TC según edad y hábito corporal."
+      },
+      {
+        "grado": "7 a 10",
+        "criterio": "Probabilidad alta.",
+        "implicacion": "Valoración quirúrgica, con o sin confirmación por imagen."
+      }
+    ],
+    "comoUsarla": "Se suman puntos por migración del dolor, anorexia, náuseas, dolor en fosa ilíaca derecha, defensa, fiebre, leucocitosis y desviación izquierda.",
+    "limitaciones": "Su rendimiento es menor en mujeres en edad fértil, niños y ancianos, y no sustituye a la imagen cuando el diagnóstico es dudoso.",
+    "etiquetas": [
+      "apendicitis",
+      "abdomen agudo",
+      "probabilidad clínica"
+    ]
+  },
+  {
+    "codigo": "ann-arbor",
+    "nombre": "Estadificación de Ann Arbor",
+    "sistema": "General",
+    "modalidad": "Varias",
+    "paraQue": "Estadifica los linfomas según el número y la localización de las regiones ganglionares afectadas y la existencia de enfermedad extraganglionar.",
+    "grados": [
+      {
+        "grado": "I",
+        "criterio": "Afectación de una única región ganglionar o de un solo territorio extraganglionar.",
+        "implicacion": "Enfermedad localizada."
+      },
+      {
+        "grado": "II",
+        "criterio": "Dos o más regiones ganglionares al mismo lado del diafragma.",
+        "implicacion": "Enfermedad localizada extensa."
+      },
+      {
+        "grado": "III",
+        "criterio": "Regiones ganglionares a ambos lados del diafragma.",
+        "implicacion": "Enfermedad avanzada."
+      },
+      {
+        "grado": "IV",
+        "criterio": "Afectación difusa o diseminada de uno o más órganos extraganglionares, con o sin afectación ganglionar.",
+        "implicacion": "Enfermedad diseminada."
+      }
+    ],
+    "comoUsarla": "Se completa con los modificadores A o B según la ausencia o presencia de síntomas generales, y con E para la afectación extraganglionar por contigüidad.",
+    "limitaciones": "El bazo y el anillo de Waldeyer plantean dudas de asignación, y la tomografía por emisión de positrones ha modificado su aplicación al detectar afectación no vista en TC.",
+    "etiquetas": [
+      "linfoma",
+      "estadificación",
+      "ganglios"
+    ]
+  },
+  {
+    "codigo": "lund-mackay",
+    "nombre": "Puntuación de Lund-Mackay",
+    "sistema": "Respiratorio",
+    "modalidad": "TC",
+    "paraQue": "Cuantifica la extensión de la ocupación de los senos paranasales en la TC en la rinosinusitis crónica, para valorar la gravedad y la respuesta al tratamiento.",
+    "grados": [
+      {
+        "grado": "0 por seno",
+        "criterio": "Seno completamente aireado.",
+        "implicacion": "Sin afectación."
+      },
+      {
+        "grado": "1 por seno",
+        "criterio": "Opacificación parcial del seno.",
+        "implicacion": "Afectación parcial."
+      },
+      {
+        "grado": "2 por seno",
+        "criterio": "Opacificación total del seno.",
+        "implicacion": "Afectación completa."
+      },
+      {
+        "grado": "Complejo osteomeatal",
+        "criterio": "Se puntúa 0 si está permeable y 2 si está obstruido, sin valor intermedio.",
+        "implicacion": "Su obstrucción es clave en la fisiopatología y en la planificación quirúrgica."
+      },
+      {
+        "grado": "Total 0 a 24",
+        "criterio": "Suma de los senos maxilar, etmoidal anterior, etmoidal posterior, esfenoidal y frontal más el complejo osteomeatal, en ambos lados.",
+        "implicacion": "Las puntuaciones altas se asocian a enfermedad extensa y suelen apoyar la indicación quirúrgica."
+      }
+    ],
+    "comoUsarla": "Se revisa la TC de senos en plano coronal, puntuando cada seno por separado en cada lado y sumando el total.",
+    "limitaciones": "La correlación con los síntomas del paciente es débil y una puntuación baja no descarta enfermedad sintomática relevante.",
+    "etiquetas": [
+      "senos paranasales",
+      "rinosinusitis",
+      "TC"
+    ]
+  }
+]
