@@ -155,42 +155,42 @@
     "campos": [
       {
         "id": "largoder",
-        "etiqueta": "Lóbulo derecho: longitud (cm)",
+        "etiqueta": "Lóbulo derecho: Longitud (cm)",
         "unidad": "cm",
         "min": 0,
         "paso": 0.1
       },
       {
         "id": "anchoder",
-        "etiqueta": "Lóbulo derecho: anchura (cm)",
+        "etiqueta": "Lóbulo derecho: Anchura (cm)",
         "unidad": "cm",
         "min": 0,
         "paso": 0.1
       },
       {
         "id": "espesorder",
-        "etiqueta": "Lóbulo derecho: espesor (cm)",
+        "etiqueta": "Lóbulo derecho: Espesor (cm)",
         "unidad": "cm",
         "min": 0,
         "paso": 0.1
       },
       {
         "id": "largoizq",
-        "etiqueta": "Lóbulo izquierdo: longitud (cm)",
+        "etiqueta": "Lóbulo izquierdo: Longitud (cm)",
         "unidad": "cm",
         "min": 0,
         "paso": 0.1
       },
       {
         "id": "anchoizq",
-        "etiqueta": "Lóbulo izquierdo: anchura (cm)",
+        "etiqueta": "Lóbulo izquierdo: Anchura (cm)",
         "unidad": "cm",
         "min": 0,
         "paso": 0.1
       },
       {
         "id": "espesorizq",
-        "etiqueta": "Lóbulo izquierdo: espesor (cm)",
+        "etiqueta": "Lóbulo izquierdo: Espesor (cm)",
         "unidad": "cm",
         "min": 0,
         "paso": 0.1
@@ -691,39 +691,39 @@
     "categoria": "Volumetría",
     "modalidad": "RX",
     "tipo": "formula",
-    "descripcion": "Estima el tamaño de un neumotórax en la radiografía de tórax mediante dos aproximaciones clásicas: el método de Collins, basado en distancias interpleurales, y el método de Light, basado en el cociente de los diámetros del hemitórax y del pulmón colapsado. Ayuda a orientar la decisión entre observación y drenaje.",
+    "descripcion": "Estima el tamaño de un neumotórax en la radiografía de tórax mediante dos aproximaciones clásicas: El método de Collins, basado en distancias interpleurales, y el método de Light, basado en el cociente de los diámetros del hemitórax y del pulmón colapsado. Ayuda a orientar la decisión entre observación y drenaje.",
     "campos": [
       {
         "id": "apice",
-        "etiqueta": "Collins: distancia interpleural en el ápice (cm)",
+        "etiqueta": "Collins: Distancia interpleural en el ápice (cm)",
         "unidad": "cm",
         "min": 0,
         "paso": 0.1
       },
       {
         "id": "mitadsuperior",
-        "etiqueta": "Collins: distancia interpleural en el punto medio de la mitad superior (cm)",
+        "etiqueta": "Collins: Distancia interpleural en el punto medio de la mitad superior (cm)",
         "unidad": "cm",
         "min": 0,
         "paso": 0.1
       },
       {
         "id": "mitadinferior",
-        "etiqueta": "Collins: distancia interpleural en el punto medio de la mitad inferior (cm)",
+        "etiqueta": "Collins: Distancia interpleural en el punto medio de la mitad inferior (cm)",
         "unidad": "cm",
         "min": 0,
         "paso": 0.1
       },
       {
         "id": "diametrohemitorax",
-        "etiqueta": "Light: diámetro del hemitórax (cm)",
+        "etiqueta": "Light: Diámetro del hemitórax (cm)",
         "unidad": "cm",
         "min": 0,
         "paso": 0.1
       },
       {
         "id": "diametropulmon",
-        "etiqueta": "Light: diámetro del pulmón colapsado (cm)",
+        "etiqueta": "Light: Diámetro del pulmón colapsado (cm)",
         "unidad": "cm",
         "min": 0,
         "paso": 0.1
@@ -1011,27 +1011,27 @@
     "interpretacion": [
       {
         "si": "total >= 7",
-        "texto": "TR5: altamente sospechoso. Punción si mide 1 cm o más; seguimiento ecográfico si mide 0.5 cm o más.",
+        "texto": "TR5: Altamente sospechoso. Punción si mide 1 cm o más; seguimiento ecográfico si mide 0.5 cm o más.",
         "nivel": "alto"
       },
       {
         "si": "total >= 4",
-        "texto": "TR4: moderadamente sospechoso. Punción si mide 1.5 cm o más; seguimiento si mide 1 cm o más.",
+        "texto": "TR4: Moderadamente sospechoso. Punción si mide 1.5 cm o más; seguimiento si mide 1 cm o más.",
         "nivel": "medio"
       },
       {
         "si": "total >= 3",
-        "texto": "TR3: levemente sospechoso. Punción si mide 2.5 cm o más; seguimiento si mide 1.5 cm o más.",
+        "texto": "TR3: Levemente sospechoso. Punción si mide 2.5 cm o más; seguimiento si mide 1.5 cm o más.",
         "nivel": "medio"
       },
       {
         "si": "total >= 1",
-        "texto": "TR2: no sospechoso. No se recomienda punción ni seguimiento por criterios ecográficos.",
+        "texto": "TR2: No sospechoso. No se recomienda punción ni seguimiento por criterios ecográficos.",
         "nivel": "normal"
       },
       {
         "si": "true",
-        "texto": "TR1: benigno. No requiere punción ni seguimiento.",
+        "texto": "TR1: Benigno. No requiere punción ni seguimiento.",
         "nivel": "normal"
       }
     ],
@@ -1104,7 +1104,7 @@
       },
       {
         "id": "m1",
-        "etiqueta": "M1: corteza frontal anterior (nivel ganglionar)",
+        "etiqueta": "M1: Corteza frontal anterior (nivel ganglionar)",
         "opciones": [
           {
             "texto": "Normal",
@@ -1118,7 +1118,7 @@
       },
       {
         "id": "m2",
-        "etiqueta": "M2: corteza temporal lateral a la ínsula (nivel ganglionar)",
+        "etiqueta": "M2: Corteza temporal lateral a la ínsula (nivel ganglionar)",
         "opciones": [
           {
             "texto": "Normal",
@@ -1132,7 +1132,7 @@
       },
       {
         "id": "m3",
-        "etiqueta": "M3: corteza temporal posterior (nivel ganglionar)",
+        "etiqueta": "M3: Corteza temporal posterior (nivel ganglionar)",
         "opciones": [
           {
             "texto": "Normal",
@@ -1146,7 +1146,7 @@
       },
       {
         "id": "m4",
-        "etiqueta": "M4: corteza anterior superior a M1 (nivel supraganglionar)",
+        "etiqueta": "M4: Corteza anterior superior a M1 (nivel supraganglionar)",
         "opciones": [
           {
             "texto": "Normal",
@@ -1160,7 +1160,7 @@
       },
       {
         "id": "m5",
-        "etiqueta": "M5: corteza lateral superior a M2 (nivel supraganglionar)",
+        "etiqueta": "M5: Corteza lateral superior a M2 (nivel supraganglionar)",
         "opciones": [
           {
             "texto": "Normal",
@@ -1174,7 +1174,7 @@
       },
       {
         "id": "m6",
-        "etiqueta": "M6: corteza posterior superior a M3 (nivel supraganglionar)",
+        "etiqueta": "M6: Corteza posterior superior a M3 (nivel supraganglionar)",
         "opciones": [
           {
             "texto": "Normal",
@@ -1249,27 +1249,27 @@
     "interpretacion": [
       {
         "si": "total >= 4",
-        "texto": "Grado 4: riesgo alto de vasoespasmo e isquemia cerebral tardía.",
+        "texto": "Grado 4: Riesgo alto de vasoespasmo e isquemia cerebral tardía.",
         "nivel": "alto"
       },
       {
         "si": "total >= 3",
-        "texto": "Grado 3: riesgo alto de vasoespasmo.",
+        "texto": "Grado 3: Riesgo alto de vasoespasmo.",
         "nivel": "alto"
       },
       {
         "si": "total >= 2",
-        "texto": "Grado 2: riesgo moderado de vasoespasmo.",
+        "texto": "Grado 2: Riesgo moderado de vasoespasmo.",
         "nivel": "medio"
       },
       {
         "si": "total >= 1",
-        "texto": "Grado 1: riesgo bajo de vasoespasmo.",
+        "texto": "Grado 1: Riesgo bajo de vasoespasmo.",
         "nivel": "medio"
       },
       {
         "si": "true",
-        "texto": "Grado 0: no se identifica hemorragia subaracnoidea ni intraventricular. Riesgo muy bajo de vasoespasmo.",
+        "texto": "Grado 0: No se identifica hemorragia subaracnoidea ni intraventricular. Riesgo muy bajo de vasoespasmo.",
         "nivel": "normal"
       }
     ],
@@ -1632,27 +1632,27 @@
     "interpretacion": [
       {
         "si": "total >= 5",
-        "texto": "Grado V: situación crítica con pronóstico muy desfavorable.",
+        "texto": "Grado V: Situación crítica con pronóstico muy desfavorable.",
         "nivel": "alto"
       },
       {
         "si": "total >= 4",
-        "texto": "Grado IV: alteración grave del nivel de conciencia y pronóstico desfavorable.",
+        "texto": "Grado IV: Alteración grave del nivel de conciencia y pronóstico desfavorable.",
         "nivel": "alto"
       },
       {
         "si": "total >= 3",
-        "texto": "Grado III: afectación neurológica moderada y pronóstico intermedio.",
+        "texto": "Grado III: Afectación neurológica moderada y pronóstico intermedio.",
         "nivel": "medio"
       },
       {
         "si": "total >= 2",
-        "texto": "Grado II: buen pronóstico relativo, con mortalidad baja.",
+        "texto": "Grado II: Buen pronóstico relativo, con mortalidad baja.",
         "nivel": "medio"
       },
       {
         "si": "true",
-        "texto": "Grado I: mejor pronóstico dentro de la hemorragia subaracnoidea aneurismática.",
+        "texto": "Grado I: Mejor pronóstico dentro de la hemorragia subaracnoidea aneurismática.",
         "nivel": "normal"
       }
     ],
@@ -1671,7 +1671,7 @@
         "etiqueta": "Características de la lesión quística",
         "opciones": [
           {
-            "texto": "Quiste simple: contenido homogéneo de densidad líquida, pared imperceptible, sin tabiques, calcificaciones ni realce",
+            "texto": "Quiste simple: Contenido homogéneo de densidad líquida, pared imperceptible, sin tabiques, calcificaciones ni realce",
             "puntos": 1
           },
           {
@@ -1696,27 +1696,27 @@
     "interpretacion": [
       {
         "si": "total >= 5",
-        "texto": "Bosniak IV: lesión quística claramente maligna en la mayoría de los casos. Manejo quirúrgico.",
+        "texto": "Bosniak IV: Lesión quística claramente maligna en la mayoría de los casos. Manejo quirúrgico.",
         "nivel": "alto"
       },
       {
         "si": "total >= 4",
-        "texto": "Bosniak III: lesión indeterminada con riesgo de malignidad en torno a la mitad de los casos. Suele requerir cirugía o, en casos seleccionados, seguimiento estrecho o ablación.",
+        "texto": "Bosniak III: Lesión indeterminada con riesgo de malignidad en torno a la mitad de los casos. Suele requerir cirugía o, en casos seleccionados, seguimiento estrecho o ablación.",
         "nivel": "alto"
       },
       {
         "si": "total >= 3",
-        "texto": "Bosniak IIF: probablemente benigna, pero requiere seguimiento con imagen para confirmar estabilidad.",
+        "texto": "Bosniak IIF: Probablemente benigna, pero requiere seguimiento con imagen para confirmar estabilidad.",
         "nivel": "medio"
       },
       {
         "si": "total >= 2",
-        "texto": "Bosniak II: quiste benigno con rasgos mínimos. No precisa seguimiento.",
+        "texto": "Bosniak II: Quiste benigno con rasgos mínimos. No precisa seguimiento.",
         "nivel": "normal"
       },
       {
         "si": "true",
-        "texto": "Bosniak I: quiste simple benigno. No precisa seguimiento ni tratamiento.",
+        "texto": "Bosniak I: Quiste simple benigno. No precisa seguimiento ni tratamiento.",
         "nivel": "normal"
       }
     ],
@@ -1760,27 +1760,27 @@
     "interpretacion": [
       {
         "si": "total >= 4",
-        "texto": "Grado 4: hidronefrosis grave con adelgazamiento parenquimatoso. Requiere valoración urológica y estudios complementarios.",
+        "texto": "Grado 4: Hidronefrosis grave con adelgazamiento parenquimatoso. Requiere valoración urológica y estudios complementarios.",
         "nivel": "alto"
       },
       {
         "si": "total >= 3",
-        "texto": "Grado 3: hidronefrosis moderada a grave. Precisa seguimiento estrecho y valoración urológica.",
+        "texto": "Grado 3: Hidronefrosis moderada a grave. Precisa seguimiento estrecho y valoración urológica.",
         "nivel": "alto"
       },
       {
         "si": "total >= 2",
-        "texto": "Grado 2: hidronefrosis leve a moderada. Requiere seguimiento ecográfico.",
+        "texto": "Grado 2: Hidronefrosis leve a moderada. Requiere seguimiento ecográfico.",
         "nivel": "medio"
       },
       {
         "si": "total >= 1",
-        "texto": "Grado 1: dilatación leve limitada a la pelvis renal. Suele resolverse; se recomienda control.",
+        "texto": "Grado 1: Dilatación leve limitada a la pelvis renal. Suele resolverse; se recomienda control.",
         "nivel": "medio"
       },
       {
         "si": "true",
-        "texto": "Grado 0: sin dilatación del sistema colector.",
+        "texto": "Grado 0: Sin dilatación del sistema colector.",
         "nivel": "normal"
       }
     ],
@@ -1827,7 +1827,7 @@
     "interpretacion": [
       {
         "si": "r0 >= 30",
-        "texto": "Hematoma voluminoso (30 mL o más): se asocia a peor pronóstico funcional y mayor mortalidad.",
+        "texto": "Hematoma voluminoso (30 mL o más): Se asocia a peor pronóstico funcional y mayor mortalidad.",
         "nivel": "alto"
       },
       {
@@ -1878,7 +1878,7 @@
     "interpretacion": [
       {
         "si": "r0 > 0.5",
-        "texto": "Índice mayor de 0.5: cardiomegalia en la proyección posteroanterior.",
+        "texto": "Índice mayor de 0.5: Cardiomegalia en la proyección posteroanterior.",
         "nivel": "alto"
       },
       {
@@ -1924,7 +1924,7 @@
     "interpretacion": [
       {
         "si": "r0 > 0.3",
-        "texto": "Índice mayor de 0.3: ventriculomegalia. En el contexto clínico adecuado apoya el diagnóstico de hidrocefalia.",
+        "texto": "Índice mayor de 0.3: Ventriculomegalia. En el contexto clínico adecuado apoya el diagnóstico de hidrocefalia.",
         "nivel": "alto"
       },
       {
@@ -1970,27 +1970,27 @@
     "interpretacion": [
       {
         "si": "r0 > 1.4",
-        "texto": "Mayor de 1.4: arterias no compresibles por calcificación de la media. El índice no es valorable; usar otras pruebas.",
+        "texto": "Mayor de 1.4: Arterias no compresibles por calcificación de la media. El índice no es valorable; usar otras pruebas.",
         "nivel": "medio"
       },
       {
         "si": "r0 < 0.4",
-        "texto": "Menor de 0.4: enfermedad arterial periférica grave (isquemia crítica).",
+        "texto": "Menor de 0.4: Enfermedad arterial periférica grave (isquemia crítica).",
         "nivel": "alto"
       },
       {
         "si": "r0 < 0.9",
-        "texto": "Menor de 0.9: enfermedad arterial periférica.",
+        "texto": "Menor de 0.9: Enfermedad arterial periférica.",
         "nivel": "alto"
       },
       {
         "si": "r0 < 1.0",
-        "texto": "Entre 0.9 y 1.0: valor límite, a vigilar.",
+        "texto": "Entre 0.9 y 1.0: Valor límite, a vigilar.",
         "nivel": "medio"
       },
       {
         "si": "true",
-        "texto": "Entre 1.0 y 1.4: índice normal.",
+        "texto": "Entre 1.0 y 1.4: Índice normal.",
         "nivel": "normal"
       }
     ],
@@ -2029,7 +2029,7 @@
     "interpretacion": [
       {
         "si": "higado < 40 || r0 <= -10",
-        "texto": "Sugiere esteatosis hepática: hígado con atenuación menor de 40 UH o al menos 10 UH por debajo del bazo.",
+        "texto": "Sugiere esteatosis hepática: Hígado con atenuación menor de 40 UH o al menos 10 UH por debajo del bazo.",
         "nivel": "alto"
       },
       {
@@ -2163,7 +2163,7 @@
       }
     ],
     "formulaTexto": "Fracción de eyección (%) = (volumen diastólico final - volumen sistólico final) / volumen diastólico final × 100",
-    "notas": "Los volúmenes se obtienen habitualmente por el método de Simpson biplano en ecocardiografía. Los umbrales pueden variar ligeramente entre guías. La fracción de eyección no refleja toda la función cardiaca: puede ser normal en la insuficiencia cardiaca con función conservada."
+    "notas": "Los volúmenes se obtienen habitualmente por el método de Simpson biplano en ecocardiografía. Los umbrales pueden variar ligeramente entre guías. La fracción de eyección no refleja toda la función cardiaca: Puede ser normal en la insuficiencia cardiaca con función conservada."
   },
   {
     "codigo": "superficie-corporal-mosteller",
@@ -2290,7 +2290,7 @@
     "interpretacion": [
       {
         "si": "total >= 10",
-        "texto": "Complejidad alta (10 a 12 puntos): mayor dificultad quirúrgica y más riesgo de complicaciones.",
+        "texto": "Complejidad alta (10 a 12 puntos): Mayor dificultad quirúrgica y más riesgo de complicaciones.",
         "nivel": "alto"
       },
       {
@@ -2300,7 +2300,7 @@
       },
       {
         "si": "true",
-        "texto": "Complejidad baja (4 a 6 puntos): favorable para cirugía conservadora de nefronas.",
+        "texto": "Complejidad baja (4 a 6 puntos): Favorable para cirugía conservadora de nefronas.",
         "nivel": "normal"
       }
     ],
@@ -2348,32 +2348,32 @@
     "interpretacion": [
       {
         "si": "total >= 5",
-        "texto": "CAD-RADS 5: oclusión total de un vaso coronario.",
+        "texto": "CAD-RADS 5: Oclusión total de un vaso coronario.",
         "nivel": "alto"
       },
       {
         "si": "total >= 4",
-        "texto": "CAD-RADS 4: enfermedad grave. Suele requerir valoración funcional o coronariografía invasiva.",
+        "texto": "CAD-RADS 4: Enfermedad grave. Suele requerir valoración funcional o coronariografía invasiva.",
         "nivel": "alto"
       },
       {
         "si": "total >= 3",
-        "texto": "CAD-RADS 3: estenosis moderada. Puede requerir estudio funcional de isquemia.",
+        "texto": "CAD-RADS 3: Estenosis moderada. Puede requerir estudio funcional de isquemia.",
         "nivel": "medio"
       },
       {
         "si": "total >= 2",
-        "texto": "CAD-RADS 2: enfermedad leve, sin estenosis obstructiva.",
+        "texto": "CAD-RADS 2: Enfermedad leve, sin estenosis obstructiva.",
         "nivel": "medio"
       },
       {
         "si": "total >= 1",
-        "texto": "CAD-RADS 1: placa mínima sin estenosis significativa.",
+        "texto": "CAD-RADS 1: Placa mínima sin estenosis significativa.",
         "nivel": "normal"
       },
       {
         "si": "true",
-        "texto": "CAD-RADS 0: ausencia de enfermedad coronaria detectable.",
+        "texto": "CAD-RADS 0: Ausencia de enfermedad coronaria detectable.",
         "nivel": "normal"
       }
     ],
@@ -2419,7 +2419,7 @@
     "categoria": "Volumetría",
     "modalidad": "TC",
     "tipo": "formula",
-    "descripcion": "Alternativa a la estimación por peso: calcula el volumen hepático teórico a partir de la superficie corporal, que puede obtenerse con la calculadora de superficie corporal de esta misma sección.",
+    "descripcion": "Alternativa a la estimación por peso: Calcula el volumen hepático teórico a partir de la superficie corporal, que puede obtenerse con la calculadora de superficie corporal de esta misma sección.",
     "campos": [
       {
         "id": "bsa",
@@ -2481,12 +2481,12 @@
     "interpretacion": [
       {
         "si": "r0 > 3.25",
-        "texto": "Mayor de 3.25: pectus excavatum grave. Suele considerarse criterio para valorar corrección quirúrgica.",
+        "texto": "Mayor de 3.25: Pectus excavatum grave. Suele considerarse criterio para valorar corrección quirúrgica.",
         "nivel": "alto"
       },
       {
         "si": "r0 > 3.2",
-        "texto": "Cercano a 3.25: deformidad moderada a grave, límite quirúrgico.",
+        "texto": "Cercano a 3.25: Deformidad moderada a grave, límite quirúrgico.",
         "nivel": "medio"
       },
       {
@@ -2532,7 +2532,7 @@
     "interpretacion": [
       {
         "si": "r0 > 1",
-        "texto": "Mayor de 1: arteria pulmonar dilatada respecto a la aorta, hallazgo que sugiere hipertensión pulmonar.",
+        "texto": "Mayor de 1: Arteria pulmonar dilatada respecto a la aorta, hallazgo que sugiere hipertensión pulmonar.",
         "nivel": "alto"
       },
       {
@@ -2542,7 +2542,7 @@
       }
     ],
     "formulaTexto": "Relación = diámetro del tronco de la arteria pulmonar / diámetro de la aorta ascendente, en el mismo corte axial",
-    "notas": "Ambos diámetros se miden en el corte axial a la altura de la bifurcación pulmonar. Es un signo indirecto y de apoyo: el diagnóstico de hipertensión pulmonar exige confirmación con ecocardiografía o cateterismo."
+    "notas": "Ambos diámetros se miden en el corte axial a la altura de la bifurcación pulmonar. Es un signo indirecto y de apoyo: El diagnóstico de hipertensión pulmonar exige confirmación con ecocardiografía o cateterismo."
   },
   {
     "codigo": "relacion-vd-vi",
@@ -2578,7 +2578,7 @@
     "interpretacion": [
       {
         "si": "r0 > 1",
-        "texto": "Mayor de 1: dilatación del ventrículo derecho. En la tromboembolia pulmonar indica sobrecarga derecha y se asocia a peor pronóstico.",
+        "texto": "Mayor de 1: Dilatación del ventrículo derecho. En la tromboembolia pulmonar indica sobrecarga derecha y se asocia a peor pronóstico.",
         "nivel": "alto"
       },
       {
@@ -2624,21 +2624,115 @@
     "interpretacion": [
       {
         "si": "r0 >= 4.25",
-        "texto": "4.25 cm/m² o más: riesgo alto de complicaciones (disección o rotura).",
+        "texto": "4.25 cm/m² o más: Riesgo alto de complicaciones (disección o rotura).",
         "nivel": "alto"
       },
       {
         "si": "r0 >= 2.75",
-        "texto": "Entre 2.75 y 4.24 cm/m²: riesgo moderado; vigilancia estrecha.",
+        "texto": "Entre 2.75 y 4.24 cm/m²: Riesgo moderado; vigilancia estrecha.",
         "nivel": "medio"
       },
       {
         "si": "true",
-        "texto": "Menor de 2.75 cm/m²: riesgo bajo.",
+        "texto": "Menor de 2.75 cm/m²: Riesgo bajo.",
         "nivel": "normal"
       }
     ],
     "formulaTexto": "Índice = diámetro aórtico máximo (cm) / superficie corporal (m²)",
     "notas": "Es especialmente útil cuando el diámetro absoluto puede infravalorar el riesgo en personas de talla pequeña. Se emplea sobre todo en válvula aórtica bicúspide y enfermedades del tejido conectivo. La superficie corporal se obtiene con la calculadora de Mosteller de esta sección."
+  },
+  {
+    "codigo": "angulo-calloso",
+    "nombre": "Ángulo calloso (hidrocefalia normotensiva)",
+    "categoria": "Neuro",
+    "modalidad": "RM",
+    "tipo": "formula",
+    "descripcion": "El ángulo calloso ayuda a distinguir la hidrocefalia normotensiva de la atrofia cerebral, dos cuadros que comparten ventriculomegalia pero requieren manejos muy distintos. En la hidrocefalia normotensiva el cuerpo calloso se angula de forma más aguda que en la atrofia.",
+    "campos": [
+      {
+        "id": "angulo",
+        "etiqueta": "Ángulo calloso medido (grados)",
+        "unidad": "grados",
+        "min": 0,
+        "paso": 1
+      }
+    ],
+    "resultados": [
+      {
+        "etiqueta": "Ángulo calloso",
+        "formula": "angulo",
+        "unidad": "grados",
+        "decimales": 0
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "angulo < 90",
+        "texto": "Por debajo de 90 grados, un valor que apoya el diagnóstico de hidrocefalia normotensiva cuando coincide con la clínica compatible.",
+        "nivel": "alto"
+      },
+      {
+        "si": "angulo <= 100",
+        "texto": "Entre 90 y 100 grados, una zona indeterminada que obliga a valorar el resto de los signos de imagen junto con la evolución clínica.",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Por encima de 100 grados, un valor que va en contra de la hidrocefalia normotensiva y orienta más hacia atrofia u otras causas de ventriculomegalia.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Ángulo formado por los bordes internos de ambos ventrículos laterales, medido en un plano coronal perpendicular a la línea que une las comisuras anterior y posterior, a la altura de la comisura posterior",
+    "notas": "La medición debe hacerse siempre en el mismo plano coronal y a la misma altura, porque el ángulo varía mucho según el corte elegido. Es un dato de apoyo que nunca sustituye a la valoración clínica completa ni al resto de los signos de hidrocefalia."
+  },
+  {
+    "codigo": "t2-cardiaco-hierro",
+    "nombre": "T2* cardiaco y sobrecarga de hierro miocárdico",
+    "categoria": "Cardiaco",
+    "modalidad": "RM",
+    "tipo": "formula",
+    "descripcion": "El T2* cardiaco cuantifica el hierro depositado en el miocardio, algo fundamental en pacientes politransfundidos, como los que padecen talasemia mayor. Un T2* bajo refleja mucho hierro y anticipa el riesgo de insuficiencia cardiaca y arritmias, de manera que guía el tratamiento quelante.",
+    "campos": [
+      {
+        "id": "t2",
+        "etiqueta": "T2* cardiaco medido (ms)",
+        "unidad": "ms",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "resultados": [
+      {
+        "etiqueta": "T2* cardiaco",
+        "formula": "t2",
+        "unidad": "ms",
+        "decimales": 1
+      },
+      {
+        "etiqueta": "Hierro miocárdico estimado",
+        "formula": "45 * Math.pow(t2, -1.22)",
+        "unidad": "mg/g",
+        "decimales": 2
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "t2 < 10",
+        "texto": "Por debajo de 10 ms, lo que indica una sobrecarga de hierro miocárdico grave con riesgo alto de insuficiencia cardiaca y arritmias, y aconseja intensificar la quelación.",
+        "nivel": "alto"
+      },
+      {
+        "si": "t2 < 20",
+        "texto": "Entre 10 y 20 ms, un rango que corresponde a sobrecarga de hierro miocárdico de leve a moderada.",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Igual o mayor de 20 ms, un valor que sitúa el depósito de hierro miocárdico dentro de los límites normales.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Hierro miocárdico (mg/g de peso seco) = 45 × T2* elevado a la potencia -1.22",
+    "notas": "El T2* se mide en una región de interés del tabique interventricular medio para evitar los artefactos del pulmón y las venas cardiacas. Complementa la valoración del hierro hepático y la ferritina, ya que el corazón y el hígado acumulan y liberan hierro a ritmos distintos."
   }
 ]

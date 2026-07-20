@@ -10,13 +10,13 @@
     "descripcion": "Proyección básica de la mano en la que el dorso descansa sobre el chasis y el haz incide perpendicular. Es de los primeros estudios que se aprenden porque despliega con claridad falanges, metacarpianos y los ocho huesos del carpo, y porque sirve de referencia para reconocer después cualquier alteración.",
     "tecnica": "Paciente sentado, antebrazo apoyado sobre la mesa, palma en contacto con el receptor y dedos ligeramente separados. Rayo central perpendicular a la cabeza del tercer metacarpiano.",
     "observar": [
-      "Corticales óseas continuas y bien definidas: cualquier escalón o línea radiolúcida obliga a descartar fractura",
+      "Corticales óseas continuas y bien definidas: Cualquier escalón o línea radiolúcida obliga a descartar fractura",
       "Espacios articulares conservados y de amplitud simétrica entre los dedos",
       "Los ocho huesos del carpo en sus dos hileras, sin superposiciones anómalas",
-      "En niños, los cartílagos de crecimiento (fisis) se ven como bandas oscuras regulares: no confundirlos con trazos de fractura",
+      "En niños, los cartílagos de crecimiento (fisis) se ven como bandas oscuras regulares: No confundirlos con trazos de fractura",
       "Partes blandas sin aumento de volumen ni cuerpos extraños radiopacos"
     ],
-    "hallazgos": "Mano radiológicamente normal: alineación conservada, corticales íntegras en todas las falanges y metacarpianos, espacios articulares simétricos y partes blandas sin alteraciones.",
+    "hallazgos": "Mano radiológicamente normal: Alineación conservada, corticales íntegras en todas las falanges y metacarpianos, espacios articulares simétricos y partes blandas sin alteraciones.",
     "perlas": "El escafoides es el hueso del carpo que más se fractura y el que más fracturas oculta en la proyección estándar. Ante dolor en la tabaquera anatómica se pide una proyección específica de escafoides, aunque la radiografía inicial parezca normal.",
     "imagen": "img/rx-mano-normal.jpg",
     "credito": "Mikael Häggström · CC0 · Wikimedia Commons",
@@ -52,13 +52,13 @@
       }
     ],
     "simuladores": [
-      "Los cartílagos de crecimiento en niños se ven como bandas radiolúcidas regulares y simétricas con bordes esclerosos: no confundirlos con trazos de fractura, para lo que ayuda comparar con la mano contralateral.",
+      "Los cartílagos de crecimiento en niños se ven como bandas radiolúcidas regulares y simétricas con bordes esclerosos: No confundirlos con trazos de fractura, para lo que ayuda comparar con la mano contralateral.",
       "Los huesos supernumerarios y sesamoideos del carpo y de la mano son redondeados, corticalizados y de bordes lisos, a diferencia del fragmento agudo, que tiene bordes angulosos y sin cortical.",
       "Las superposiciones entre metacarpianos y entre las hileras del carpo generan líneas oscuras aparentes; si la línea se prolonga más allá del contorno del hueso, es un artificio de proyección y no un trazo.",
       "Un pliegue cutáneo o una banda de partes blandas puede proyectarse como una línea lineal que cruza el hueso; se reconoce porque continúa fuera del contorno óseo."
     ],
     "porModalidad": {
-      "RX": "Estudio inicial y suficiente en la mayoría de los casos: valora alineación, corticales, espacios articulares y calcificaciones de partes blandas con dosis muy baja.",
+      "RX": "Estudio inicial y suficiente en la mayoría de los casos: Valora alineación, corticales, espacios articulares y calcificaciones de partes blandas con dosis muy baja.",
       "TC": "Resuelve fracturas ocultas o complejas, sobre todo del carpo, y permite reconstrucciones multiplanares para ver escalones articulares y consolidación.",
       "RM": "Método más sensible para fractura oculta reciente, edema óseo, necrosis avascular del escafoides o del semilunar y lesiones ligamentarias y tendinosas.",
       "US": "Útil para tendones, poleas, ganglión y cuerpos extraños radiotransparentes, y permite exploración dinámica en tiempo real."
@@ -84,8 +84,8 @@
     "tecnica": "Se estudia con proyecciones posteroanterior y lateral de muñeca. La lateral es la que mejor demuestra el desplazamiento dorsal característico.",
     "observar": [
       "Trazo de fractura transversal en la metáfisis distal del radio, a unos 2-3 cm de la superficie articular",
-      "Desplazamiento dorsal del fragmento distal: en la proyección lateral produce la clásica deformidad 'en dorso de tenedor'",
-      "Acortamiento radial e impactación: comparar la altura del radio con la del cúbito",
+      "Desplazamiento dorsal del fragmento distal: En la proyección lateral produce la clásica deformidad 'en dorso de tenedor'",
+      "Acortamiento radial e impactación: Comparar la altura del radio con la del cúbito",
       "Fractura asociada de la estiloides cubital, presente en más de la mitad de los casos",
       "Extensión del trazo hacia la articulación radiocarpiana o radiocubital distal, dato que cambia el tratamiento",
       "Aumento de volumen de partes blandas alrededor de la muñeca"
@@ -132,16 +132,16 @@
     "simuladores": [
       "Una radiografía con la muñeca mal posicionada puede simular acortamiento radial o desviación; se comprueba la técnica verificando la superposición correcta del cúbito y el radio en la lateral verdadera.",
       "Los canales nutricios y las líneas de crecimiento residuales del radio distal son finos, oblicuos, con bordes esclerosos y no producen escalón cortical.",
-      "En pacientes con antecedente de fractura antigua, la deformidad consolidada puede confundirse con una lesión aguda: el trazo antiguo es esclerótico, remodelado y sin aumento de partes blandas.",
+      "En pacientes con antecedente de fractura antigua, la deformidad consolidada puede confundirse con una lesión aguda: El trazo antiguo es esclerótico, remodelado y sin aumento de partes blandas.",
       "La superposición del estiloides cubital con el piramidal puede simular un fragmento libre; se aclara con la proyección lateral o con una desviación cubital."
     ],
     "porModalidad": {
-      "RX": "Método de diagnóstico y seguimiento: define el trazo, la angulación dorsal, la inclinación radial, la altura radial y la afectación articular, y sirve para controlar la reducción.",
+      "RX": "Método de diagnóstico y seguimiento: Define el trazo, la angulación dorsal, la inclinación radial, la altura radial y la afectación articular, y sirve para controlar la reducción.",
       "TC": "Indicada cuando se sospecha extensión articular, conminución o escalón intraarticular; las reconstrucciones guían la planificación quirúrgica.",
       "RM": "Se reserva para fractura oculta con radiografía normal y dolor persistente, o para valorar el fibrocartílago triangular y los ligamentos escafolunares asociados."
     },
     "protocolo": "Proyección posteroanterior con el codo en flexión de 90°, hombro a la altura de la muñeca y mano en pronación apoyada sobre el receptor, con rayo central perpendicular al carpo medio. La lateral se obtiene con el borde cubital apoyado, el pulgar hacia arriba y comprobando la superposición de radio y cúbito. Tras la reducción se repite el mismo par de proyecciones, idealmente con la misma técnica para poder comparar. Si se solicita tomografía se adquieren cortes finos con reconstrucciones en los tres planos y volumétricas.",
-    "clasificacion": "Se emplean sistemas descriptivos y quirúrgicos. La clasificación AO organiza las fracturas del radio distal en extraarticulares, articulares parciales y articulares completas, con subgrupos según la conminución. También se usan clasificaciones que separan los patrones clásicos con nombre propio, como Colles, Smith y Barton, según el sentido del desplazamiento y la afectación del reborde articular. En la práctica el informe debe cuantificar además los parámetros radiológicos de reducción: inclinación radial, altura radial y angulación palmar.",
+    "clasificacion": "Se emplean sistemas descriptivos y quirúrgicos. La clasificación AO organiza las fracturas del radio distal en extraarticulares, articulares parciales y articulares completas, con subgrupos según la conminución. También se usan clasificaciones que separan los patrones clásicos con nombre propio, como Colles, Smith y Barton, según el sentido del desplazamiento y la afectación del reborde articular. En la práctica el informe debe cuantificar además los parámetros radiológicos de reducción: Inclinación radial, altura radial y angulación palmar.",
     "errores": [
       "Informar solo la fractura del radio y no describir los parámetros de alineación, que son los que deciden si la reducción es aceptable.",
       "Pasar por alto la extensión intraarticular o la lesión de la articulación radiocubital distal, que cambian el tratamiento.",
@@ -160,15 +160,15 @@
     "descripcion": "Radiografía de control de una fractura de radio y cúbito tratada mediante reducción abierta y fijación interna con placas y tornillos. Los controles seriados verifican que la reducción se mantenga y que el hueso consolide sin complicaciones.",
     "tecnica": "Proyecciones anteroposterior y lateral que deben incluir siempre las articulaciones del codo y la muñeca, porque las lesiones del antebrazo suelen asociar luxaciones en un extremo.",
     "observar": [
-      "Integridad del material: tornillos completos, sin roturas ni migración de la placa",
+      "Integridad del material: Tornillos completos, sin roturas ni migración de la placa",
       "Halo radiolúcido alrededor de los tornillos, signo de aflojamiento del material",
       "Alineación de los fragmentos y ausencia de diástasis (separación) entre ellos",
       "Aparición progresiva de callo óseo puenteando el trazo, que confirma consolidación",
-      "Signos de infección: reacción perióstica agresiva, lisis ósea, gas en partes blandas",
+      "Signos de infección: Reacción perióstica agresiva, lisis ósea, gas en partes blandas",
       "Articulaciones radiocubital proximal y distal congruentes"
     ],
     "hallazgos": "Material de fijación interna en radio y cúbito con adecuada alineación de los trazos de fractura y sin datos de aflojamiento.",
-    "perlas": "El antebrazo funciona como un anillo: si un hueso se fractura y se acorta, el otro casi obligatoriamente sufre una fractura o una luxación. Por eso nunca se informa un antebrazo sin ver codo y muñeca.",
+    "perlas": "El antebrazo funciona como un anillo: Si un hueso se fractura y se acorta, el otro casi obligatoriamente sufre una fractura o una luxación. Por eso nunca se informa un antebrazo sin ver codo y muñeca.",
     "imagen": "img/rx-antebrazo-osteosintesis.jpg",
     "credito": "Sjbrown · Dominio público · Wikimedia Commons",
     "etiquetas": [
@@ -214,7 +214,7 @@
       "El callo perióstico normal en fase inicial es de baja densidad y aspecto laminar, y no debe interpretarse como reacción perióstica infecciosa o tumoral."
     ],
     "porModalidad": {
-      "RX": "Método principal de seguimiento por su bajo costo y su capacidad de comparación seriada: valora reducción, consolidación e integridad del material.",
+      "RX": "Método principal de seguimiento por su bajo costo y su capacidad de comparación seriada: Valora reducción, consolidación e integridad del material.",
       "TC": "Aporta la mejor evaluación del puente óseo cuando la radiografía es dudosa y detecta seudoartrosis, pese al artefacto metálico, que se atenúa con algoritmos específicos.",
       "RM": "Se usa ante sospecha de infección o de lesión de partes blandas y nerviosa asociada, con secuencias adaptadas para reducir el artefacto metálico.",
       "US": "Permite ver colecciones superficiales y guiar su punción cuando se sospecha absceso o seroma periimplante."
@@ -230,7 +230,7 @@
   },
   {
     "codigo": "oseo-callo-consolidacion",
-    "titulo": "Callo óseo: consolidación de fractura",
+    "titulo": "Callo óseo: Consolidación de fractura",
     "sistema": "Óseo",
     "modalidad": "RX",
     "region": "Húmero",
@@ -239,14 +239,14 @@
     "descripcion": "Imagen de una fractura diafisaria en fase de consolidación, donde se aprecia el callo óseo formándose alrededor del trazo. Reconocer el callo es fundamental para saber si una fractura está curando en tiempo y forma o si algo va mal.",
     "tecnica": "Radiografías seriadas en dos proyecciones, comparando siempre con los estudios previos del mismo paciente. La comparación es más informativa que cualquier imagen aislada.",
     "observar": [
-      "Callo perióstico: hueso nuevo en forma de manguito que rodea el trazo por fuera de la cortical",
+      "Callo perióstico: Hueso nuevo en forma de manguito que rodea el trazo por fuera de la cortical",
       "Densidad creciente del callo en estudios sucesivos, señal de que se está mineralizando",
-      "Puenteo del trazo: cuando el callo cruza de un fragmento al otro en al menos tres de cuatro corticales, la fractura se considera consolidada",
+      "Puenteo del trazo: Cuando el callo cruza de un fragmento al otro en al menos tres de cuatro corticales, la fractura se considera consolidada",
       "Borramiento progresivo de la línea de fractura, que se va haciendo menos nítida",
-      "Signos de alarma: trazo que sigue nítido y esclerótico a los meses, con extremos redondeados, sugiere seudoartrosis"
+      "Signos de alarma: Trazo que sigue nítido y esclerótico a los meses, con extremos redondeados, sugiere seudoartrosis"
     ],
     "hallazgos": "Fractura diafisaria del húmero rodeada por abundante callo óseo, hallazgo propio de la fase de reparación.",
-    "perlas": "El callo abundante y voluminoso aparece cuando hay algo de movimiento entre los fragmentos (yeso, clavo intramedular). Cuando la fijación es rígida con placas y tornillos, el hueso cura casi sin callo visible: eso no significa que vaya mal.",
+    "perlas": "El callo abundante y voluminoso aparece cuando hay algo de movimiento entre los fragmentos (yeso, clavo intramedular). Cuando la fijación es rígida con placas y tornillos, el hueso cura casi sin callo visible: Eso no significa que vaya mal.",
     "imagen": "img/rx-callo-oseo.jpg",
     "credito": "Bill Rhodes · CC BY 2.0 · Wikimedia Commons",
     "etiquetas": [
@@ -288,7 +288,7 @@
       "El hueso inmaduro del niño remodela con tal rapidez que un trazo antiguo puede desaparecer casi por completo y hacer dudar de si hubo fractura."
     ],
     "porModalidad": {
-      "RX": "Base del seguimiento: muestra la aparición, la densidad y el puenteo del callo, y permite comparar con estudios previos del mismo paciente.",
+      "RX": "Base del seguimiento: Muestra la aparición, la densidad y el puenteo del callo, y permite comparar con estudios previos del mismo paciente.",
       "TC": "Es la técnica más fiable para confirmar puente óseo real cuando la radiografía es equívoca y para distinguir consolidación de seudoartrosis.",
       "RM": "Útil para valorar edema medular, tejido fibroso interfragmentario y complicaciones de partes blandas o infección asociada.",
       "US": "Puede detectar precozmente el callo aún no mineralizado y valorar colecciones vecinas, sobre todo en huesos superficiales."
@@ -313,7 +313,7 @@
     "descripcion": "La clavícula es uno de los huesos que más se fractura, sobre todo en caídas sobre el hombro, accidentes de bicicleta y deportes de contacto. También es la fractura más frecuente del recién nacido durante el parto.",
     "tecnica": "Proyección anteroposterior de clavícula, habitualmente complementada con una proyección con angulación cefálica de 15-30° que separa la clavícula de las costillas y del pulmón.",
     "observar": [
-      "Localización del trazo: el tercio medio concentra alrededor del 80% de los casos",
+      "Localización del trazo: El tercio medio concentra alrededor del 80% de los casos",
       "Grado de desplazamiento y cabalgamiento de los fragmentos",
       "Acortamiento clavicular, dato que influye en la decisión de operar",
       "Fragmentos verticales o conminución, asociados a peor evolución",
@@ -360,13 +360,13 @@
       "Una callosidad de fractura antigua ya remodelada puede confundirse con lesión reciente si no se atiende a la esclerosis y a la ausencia de edema de partes blandas."
     ],
     "porModalidad": {
-      "RX": "Estudio de elección para el diagnóstico y el seguimiento: define localización, desplazamiento, acortamiento y conminución.",
+      "RX": "Estudio de elección para el diagnóstico y el seguimiento: Define localización, desplazamiento, acortamiento y conminución.",
       "TC": "Se reserva para el tercio medial y para la articulación esternoclavicular, para medir con precisión el acortamiento y para planificar cirugía o valorar seudoartrosis.",
       "US": "Muy útil en el recién nacido y en el lactante, ya que evita radiación y muestra bien la discontinuidad cortical y el hematoma.",
       "RM": "Se emplea de forma ocasional para valorar lesiones ligamentarias asociadas, la vascularización de la extremidad o sospecha de lesión tumoral subyacente."
     },
     "protocolo": "Proyección anteroposterior con el paciente de pie o sentado, hombro apoyado contra el receptor y el brazo en posición neutra, con rayo central en el punto medio de la clavícula. Se complementa con una proyección con angulación cefálica de 15 a 30°, que proyecta la clavícula por encima de la parrilla costal y del pulmón. En el trauma de alta energía se añade una radiografía de tórax para descartar neumotórax y lesiones costales. Para la esternoclavicular se prefiere directamente la tomografía con cortes finos y reconstrucciones.",
-    "clasificacion": "La clasificación de Allman divide las fracturas de clavícula por tercios: grupo I para el tercio medio, que es con diferencia el más frecuente; grupo II para el tercio distal o lateral; y grupo III para el tercio medial. Las del tercio distal se subdividen a su vez según la relación del trazo con los ligamentos coracoclaviculares, porque determina si el foco es estable o tiende al desplazamiento y a la seudoartrosis. En la práctica se añade la descripción del desplazamiento, del acortamiento y de la conminución, parámetros que orientan la indicación quirúrgica.",
+    "clasificacion": "La clasificación de Allman divide las fracturas de clavícula por tercios: Grupo I para el tercio medio, que es con diferencia el más frecuente; grupo II para el tercio distal o lateral; y grupo III para el tercio medial. Las del tercio distal se subdividen a su vez según la relación del trazo con los ligamentos coracoclaviculares, porque determina si el foco es estable o tiende al desplazamiento y a la seudoartrosis. En la práctica se añade la descripción del desplazamiento, del acortamiento y de la conminución, parámetros que orientan la indicación quirúrgica.",
     "errores": [
       "Concentrarse en la clavícula y no revisar el resto de la imagen, dejando pasar un neumotórax o una fractura costal alta.",
       "No valorar la articulación acromioclavicular y la distancia coracoclavicular, con lo que se subestiman lesiones ligamentarias asociadas.",
@@ -385,7 +385,7 @@
     "descripcion": "Proyección anteroposterior verdadera de la articulación glenohumeral. A diferencia de la AP simple, el paciente se rota unos 35-45° para que el haz pase paralelo a la superficie de la glenoides, lo que abre el espacio articular y permite valorarlo realmente.",
     "tecnica": "Paciente de pie o sentado, rotado 35-45° hacia el lado que se estudia, de modo que la escápula quede paralela al receptor de imagen.",
     "observar": [
-      "Espacio articular glenohumeral abierto y de amplitud uniforme: es el objetivo de esta proyección",
+      "Espacio articular glenohumeral abierto y de amplitud uniforme: Es el objetivo de esta proyección",
       "Congruencia entre la cabeza humeral y la cavidad glenoidea",
       "Espacio subacromial, normalmente de 7 a 14 mm; si está disminuido sugiere lesión del manguito rotador",
       "Contorno de la cabeza humeral, buscando muescas o irregularidades por luxaciones previas",
@@ -469,7 +469,7 @@
       "Simetría con la cadera contralateral"
     ],
     "hallazgos": "Fragmento óseo avulsionado a nivel del trocánter menor con desplazamiento respecto a su lecho, sin trazo que se extienda al cuello femoral.",
-    "perlas": "Regla clásica: avulsión aislada del trocánter menor en un adulto mayor de 40 años sin traumatismo adecuado equivale a lesión metastásica mientras no se demuestre lo contrario. Es un signo pequeño con implicaciones enormes.",
+    "perlas": "Regla clásica: Avulsión aislada del trocánter menor en un adulto mayor de 40 años sin traumatismo adecuado equivale a lesión metastásica mientras no se demuestre lo contrario. Es un signo pequeño con implicaciones enormes.",
     "imagen": "img/rx-fractura-femur.jpg",
     "credito": "Dr. Pier-Luc Clermont · CC BY 4.0 · Wikimedia Commons",
     "etiquetas": [
@@ -516,7 +516,7 @@
       "US": "Puede valorar el tendón del psoasilíaco y colecciones adyacentes, con la limitación de la profundidad de la región."
     },
     "protocolo": "Proyección anteroposterior de pelvis en decúbito supino con ambos pies rotados internamente unos 15°, lo que despliega el cuello femoral y permite una comparación simétrica entre las dos caderas. Se añade una proyección lateral de la cadera afectada, en posición de rana o con haz horizontal si se sospecha fractura del cuello. Cuando el contexto sugiere causa patológica se completa con tomografía de cortes finos y con resonancia que incluya secuencias sensibles al líquido y estudio de la médula ósea.",
-    "clasificacion": "No existe una escala específica de uso universal para esta lesión. En la práctica se describe según el desplazamiento del fragmento y, sobre todo, según el contexto: avulsión apofisaria en el paciente esqueléticamente inmaduro frente a fractura patológica en el adulto. Cuando se documenta enfermedad metastásica se utilizan escalas de riesgo de fractura inminente en hueso largo, que valoran el tamaño de la lesión, su localización, si es lítica o blástica y la intensidad del dolor, para decidir si procede fijación profiláctica.",
+    "clasificacion": "No existe una escala específica de uso universal para esta lesión. En la práctica se describe según el desplazamiento del fragmento y, sobre todo, según el contexto: Avulsión apofisaria en el paciente esqueléticamente inmaduro frente a fractura patológica en el adulto. Cuando se documenta enfermedad metastásica se utilizan escalas de riesgo de fractura inminente en hueso largo, que valoran el tamaño de la lesión, su localización, si es lítica o blástica y la intensidad del dolor, para decidir si procede fijación profiláctica.",
     "errores": [
       "Informar la avulsión como lesión banal en un adulto sin buscar de forma explícita una lesión ósea subyacente.",
       "No comparar con la cadera contralateral, lo que hace confundir una proyección rotada con un fragmento desplazado.",
@@ -536,9 +536,9 @@
     "tecnica": "Proyección anteroposterior de pelvis en decúbito supino con rotación interna de 15° de ambos pies, que permite comparar las dos caderas en la misma imagen.",
     "observar": [
       "Disminución del espacio articular, habitualmente asimétrica y de predominio superolateral",
-      "Esclerosis subcondral: banda blanca y densa en el hueso que soporta la carga",
+      "Esclerosis subcondral: Banda blanca y densa en el hueso que soporta la carga",
       "Osteofitos en los márgenes de la cabeza femoral y del acetábulo",
-      "Quistes subcondrales o geodas: imágenes redondeadas radiolúcidas bajo la superficie articular",
+      "Quistes subcondrales o geodas: Imágenes redondeadas radiolúcidas bajo la superficie articular",
       "Deformidad progresiva de la cabeza femoral en fases avanzadas",
       "Comparación con la cadera contralateral"
     ],
@@ -582,18 +582,18 @@
     ],
     "simuladores": [
       "Una proyección rotada o mal centrada estrecha aparentemente el espacio articular; conviene verificar la simetría de los agujeros obturadores y de los trocánteres menores antes de informar pinzamiento.",
-      "El estudio en decúbito subestima el pinzamiento real porque no hay carga: en casos dudosos la proyección en bipedestación es más fiel.",
+      "El estudio en decúbito subestima el pinzamiento real porque no hay carga: En casos dudosos la proyección en bipedestación es más fiel.",
       "Las calcificaciones vasculares y los flebolitos pélvicos pueden proyectarse sobre la articulación y confundirse con osteofitos o cuerpos libres.",
       "La superposición del gas intestinal genera zonas oscuras que simulan geodas subcondrales, pero cambian de posición entre proyecciones."
     ],
     "porModalidad": {
-      "RX": "Es el método de referencia para el diagnóstico y la graduación: muestra los cuatro signos clásicos y permite planificar la prótesis.",
+      "RX": "Es el método de referencia para el diagnóstico y la graduación: Muestra los cuatro signos clásicos y permite planificar la prótesis.",
       "TC": "Define mejor la geometría acetabular, los cuerpos libres intraarticulares y el hueso remanente en la planificación quirúrgica.",
       "RM": "Detecta cambios precoces del cartílago, lesiones del labrum, edema óseo y necrosis avascular antes de que se altere la radiografía.",
       "US": "Sirve para valorar derrame articular, bursitis y patología tendinosa periarticular, y para guiar punciones e infiltraciones."
     },
     "protocolo": "Proyección anteroposterior de pelvis con el paciente en decúbito supino, pelvis simétrica y ambos pies en rotación interna de unos 15°, con rayo central dirigido al punto medio entre la sínfisis púbica y una línea que une las espinas ilíacas anterosuperiores. Cuando interesa cuantificar el pinzamiento real se prefiere una anteroposterior en bipedestación con carga. Se completa con una proyección lateral de la cadera sintomática. En estudios prequirúrgicos se incluye un marcador de escala para calibrar el tamaño de los implantes.",
-    "clasificacion": "La escala de Kellgren y Lawrence es la más difundida y gradúa la artrosis de cero a cuatro: sin cambios; dudoso, con osteofito mínimo; leve, con osteofito definido y espacio articular todavía conservado; moderado, con pinzamiento evidente y esclerosis; y grave, con pinzamiento marcado, esclerosis extensa, quistes y deformidad ósea. En la cadera se usa además la clasificación de Tönnis, que se apoya sobre todo en la magnitud del pinzamiento, la esclerosis, los quistes y la deformidad de la cabeza femoral, y resulta práctica para el seguimiento y para la indicación quirúrgica.",
+    "clasificacion": "La escala de Kellgren y Lawrence es la más difundida y gradúa la artrosis de cero a cuatro: Sin cambios; dudoso, con osteofito mínimo; leve, con osteofito definido y espacio articular todavía conservado; moderado, con pinzamiento evidente y esclerosis; y grave, con pinzamiento marcado, esclerosis extensa, quistes y deformidad ósea. En la cadera se usa además la clasificación de Tönnis, que se apoya sobre todo en la magnitud del pinzamiento, la esclerosis, los quistes y la deformidad de la cabeza femoral, y resulta práctica para el seguimiento y para la indicación quirúrgica.",
     "errores": [
       "Graduar la artrosis sobre un estudio en decúbito y sin carga, con lo que se infraestima el pinzamiento.",
       "Atribuir todo el dolor a la artrosis radiológica sin correlacionar con la clínica ni considerar causas extraarticulares como bursitis o dolor lumbar irradiado.",
@@ -614,13 +614,13 @@
     "observar": [
       "Espacios articulares femorotibiales medial y lateral, comparándolos entre sí",
       "Superficies articulares lisas y corticales continuas",
-      "Espinas tibiales bien definidas: su avulsión indica lesión ligamentaria",
+      "Espinas tibiales bien definidas: Su avulsión indica lesión ligamentaria",
       "Alineación del eje femorotibial (varo o valgo)",
       "Ausencia de derrame articular, que en la proyección lateral se ve como distensión del receso suprarrotuliano",
       "Cabeza y cuello del peroné íntegros"
     ],
     "hallazgos": "Rodilla con estructuras óseas de morfología normal, espacios articulares conservados y sin evidencia de fractura ni derrame.",
-    "perlas": "Una radiografía de rodilla normal no descarta lesión de meniscos o ligamentos: esas estructuras simplemente no se ven en radiografía. Si la exploración clínica sugiere lesión interna, el estudio que corresponde es la resonancia magnética.",
+    "perlas": "Una radiografía de rodilla normal no descarta lesión de meniscos o ligamentos: Esas estructuras simplemente no se ven en radiografía. Si la exploración clínica sugiere lesión interna, el estudio que corresponde es la resonancia magnética.",
     "imagen": "img/rx-rodilla-normal.jpg",
     "credito": "Mikael Häggström · CC0 · Wikimedia Commons",
     "etiquetas": [
@@ -664,7 +664,7 @@
       "La superposición del peroné sobre la tibia en una proyección rotada puede simular un trazo o esconder una fractura del platillo lateral."
     ],
     "porModalidad": {
-      "RX": "Primer estudio en trauma y en dolor crónico: valora alineación, fracturas, espacio articular y derrame indirecto, con mejor rendimiento en carga para la artrosis.",
+      "RX": "Primer estudio en trauma y en dolor crónico: Valora alineación, fracturas, espacio articular y derrame indirecto, con mejor rendimiento en carga para la artrosis.",
       "RM": "Estudio de elección para meniscos, ligamentos, cartílago y edema óseo; también detecta fracturas ocultas con radiografía normal.",
       "TC": "Caracteriza fracturas complejas de meseta tibial, mide el hundimiento articular y guía la planificación quirúrgica.",
       "US": "Valora tendones rotuliano y cuadricipital, bursas, quiste de Baker y derrame, con posibilidad de estudio dinámico."
@@ -689,12 +689,12 @@
     "descripcion": "La resonancia magnética es el estudio de elección para las partes blandas de la rodilla. Muestra meniscos, ligamentos cruzados y colaterales, cartílago articular, tendones y el hueso subcondral, ninguno de los cuales se valora en radiografía simple.",
     "tecnica": "Se adquieren cortes en los tres planos (sagital, coronal y axial) con secuencias potenciadas en T1, T2 y densidad protónica con supresión grasa, usando una antena específica de rodilla.",
     "observar": [
-      "Meniscos: estructuras triangulares uniformemente negras (hipointensas); una señal brillante que alcanza la superficie articular indica rotura",
-      "Ligamento cruzado anterior: banda de fibras continuas y tensas dirigidas hacia arriba y atrás",
-      "Ligamento cruzado posterior: banda gruesa, homogénea y curva",
+      "Meniscos: Estructuras triangulares uniformemente negras (hipointensas); una señal brillante que alcanza la superficie articular indica rotura",
+      "Ligamento cruzado anterior: Banda de fibras continuas y tensas dirigidas hacia arriba y atrás",
+      "Ligamento cruzado posterior: Banda gruesa, homogénea y curva",
       "Cartílago articular de grosor uniforme y superficie lisa",
-      "Edema óseo: señal brillante dentro del hueso en secuencias con supresión grasa, marcador de contusión reciente",
-      "Derrame articular: líquido brillante en T2 distendiendo los recesos"
+      "Edema óseo: Señal brillante dentro del hueso en secuencias con supresión grasa, marcador de contusión reciente",
+      "Derrame articular: Líquido brillante en T2 distendiendo los recesos"
     ],
     "hallazgos": "Estudio de rodilla donde se identifican fémur, tibia, rótula, meniscos y ligamentos con señal e integridad conservadas.",
     "perlas": "Los patrones de edema óseo cuentan el mecanismo de la lesión. En la rotura del ligamento cruzado anterior aparece un edema típico en el cóndilo femoral lateral y en la meseta tibial posterolateral, incluso cuando el ligamento se ve difícil de evaluar.",
@@ -743,12 +743,12 @@
     ],
     "porModalidad": {
       "RM": "Estudio de referencia para meniscos, ligamentos, cartílago, tendones y médula ósea, y única técnica que muestra el edema óseo postraumático.",
-      "RX": "Sigue siendo el primer paso: valora alineación, fracturas evidentes, espacio articular y calcificaciones, e interpreta el contexto de la resonancia.",
+      "RX": "Sigue siendo el primer paso: Valora alineación, fracturas evidentes, espacio articular y calcificaciones, e interpreta el contexto de la resonancia.",
       "TC": "Complementa en fracturas complejas y en cuerpos libres osificados, y es alternativa cuando la resonancia está contraindicada, sobre todo con artrografía.",
       "US": "Aporta valoración dinámica y de superficie de tendones y bursas y guía procedimientos, aunque no valora el interior de la articulación."
     },
     "protocolo": "Se emplea una antena específica de rodilla con el paciente en decúbito supino, la rodilla en extensión casi completa y una rotación externa de unos 15° que ayuda a desplegar el ligamento cruzado anterior en el plano sagital. Se adquieren secuencias potenciadas en densidad protónica o T2 con supresión grasa en los tres planos, más una secuencia potenciada en T1 para la médula ósea, con cortes finos y campo de visión reducido. El gadolinio no es necesario de rutina y se reserva para tumores, infección o para diferenciar recidiva de tejido cicatricial; la artrorresonancia con contraste intraarticular se usa en el menisco ya operado.",
-    "clasificacion": "La señal meniscal se gradúa en tres niveles: grado uno cuando es globular y no toca la superficie, grado dos cuando es lineal pero tampoco la alcanza, y grado tres cuando contacta con la superficie articular, que es el único que corresponde a rotura. Las lesiones condrales se describen con escalas tipo Outerbridge, que van desde el reblandecimiento y las fisuras superficiales hasta la pérdida completa del cartílago con hueso subcondral expuesto. Las lesiones ligamentarias se gradúan en tres niveles según haya distensión, rotura parcial o rotura completa.",
+    "clasificacion": "La señal meniscal se gradúa en tres niveles: Grado uno cuando es globular y no toca la superficie, grado dos cuando es lineal pero tampoco la alcanza, y grado tres cuando contacta con la superficie articular, que es el único que corresponde a rotura. Las lesiones condrales se describen con escalas tipo Outerbridge, que van desde el reblandecimiento y las fisuras superficiales hasta la pérdida completa del cartílago con hueso subcondral expuesto. Las lesiones ligamentarias se gradúan en tres niveles según haya distensión, rotura parcial o rotura completa.",
     "errores": [
       "Informar rotura meniscal por una señal que no contacta claramente con la superficie articular o que aparece en un solo corte.",
       "Confundir las variantes normales del hiato poplíteo y del ligamento intermeniscal con roturas del cuerno posterior.",
@@ -775,7 +775,7 @@
       "Aumento de partes blandas perimaleolares"
     ],
     "hallazgos": "Tobillo con mortaja congruente, espacios articulares simétricos y estructuras óseas sin trazos de fractura.",
-    "perlas": "Un ensanchamiento medial de la mortaja mayor de 4 mm significa que el astrágalo se ha desplazado: aunque no se vea trazo de fractura, hay una lesión ligamentaria significativa que requiere tratamiento.",
+    "perlas": "Un ensanchamiento medial de la mortaja mayor de 4 mm significa que el astrágalo se ha desplazado: Aunque no se vea trazo de fractura, hay una lesión ligamentaria significativa que requiere tratamiento.",
     "imagen": "img/rx-tobillo-normal.jpg",
     "credito": "Mikael Häggström · CC0 · Wikimedia Commons",
     "etiquetas": [
@@ -820,13 +820,13 @@
       "El canal vascular del peroné distal es una línea fina, oblicua y esclerosa que no produce escalón cortical."
     ],
     "porModalidad": {
-      "RX": "Estudio inicial guiado por criterios clínicos: valora mortaja, maléolos, sindesmosis y alineación con dosis mínima.",
+      "RX": "Estudio inicial guiado por criterios clínicos: Valora mortaja, maléolos, sindesmosis y alineación con dosis mínima.",
       "TC": "Precisa la extensión articular, el hundimiento del pilón tibial y las fracturas ocultas del retropié, y es esencial en la planificación quirúrgica.",
       "RM": "Estudio de elección para ligamentos, tendones peroneos, lesiones osteocondrales y fracturas ocultas con edema óseo.",
       "US": "Permite valorar de forma dinámica los tendones peroneos, el tendón de Aquiles y los ligamentos superficiales, y detectar luxaciones tendinosas."
     },
     "protocolo": "En la anteroposterior el paciente está en decúbito supino con la pierna extendida, el pie en posición neutra y el rayo central en el punto medio entre ambos maléolos. La proyección de mortaja se obtiene rotando internamente todo el miembro entre 15 y 20°, de forma que ambos maléolos queden equidistantes del receptor y el espacio articular se despliegue en toda su extensión. La lateral incluye la base del quinto metatarsiano y la parte posterior del calcáneo. Ante fractura maleolar se valora incluir la totalidad del peroné para descartar una fractura proximal asociada.",
-    "clasificacion": "La clasificación de Weber ordena las fracturas del tobillo según la altura del trazo peroneo respecto a la sindesmosis: tipo A por debajo, generalmente estable; tipo B a la altura de la sindesmosis, con estabilidad variable; y tipo C por encima, casi siempre inestable y con lesión sindesmótica. La clasificación de Lauge-Hansen describe el mecanismo lesional combinando la posición del pie y la dirección de la fuerza, lo que ayuda a predecir qué estructuras están dañadas. Las reglas clínicas de Ottawa determinan cuándo está indicada la radiografía.",
+    "clasificacion": "La clasificación de Weber ordena las fracturas del tobillo según la altura del trazo peroneo respecto a la sindesmosis: Tipo A por debajo, generalmente estable; tipo B a la altura de la sindesmosis, con estabilidad variable; y tipo C por encima, casi siempre inestable y con lesión sindesmótica. La clasificación de Lauge-Hansen describe el mecanismo lesional combinando la posición del pie y la dirección de la fuerza, lo que ayuda a predecir qué estructuras están dañadas. Las reglas clínicas de Ottawa determinan cuándo está indicada la radiografía.",
     "errores": [
       "Aceptar como normal una mortaja evaluada solo en la anteroposterior sin la proyección de mortaja verdadera.",
       "No palpar ni radiografiar el peroné proximal ante una fractura maleolar medial, con lo que se pasa por alto una lesión alta con inestabilidad.",
@@ -847,9 +847,9 @@
     "observar": [
       "Alineación de los metatarsianos y de las articulaciones metatarsofalángicas",
       "Base del quinto metatarsiano, localización clásica de fracturas por avulsión",
-      "Articulación de Lisfranc: la alineación entre el segundo metatarsiano y la segunda cuña debe ser perfecta",
+      "Articulación de Lisfranc: La alineación entre el segundo metatarsiano y la segunda cuña debe ser perfecta",
       "Huesos sesamoideos bajo la cabeza del primer metatarsiano, que son normales",
-      "Signos de pie diabético: erosiones, destrucción ósea, gas en partes blandas",
+      "Signos de pie diabético: Erosiones, destrucción ósea, gas en partes blandas",
       "Fracturas de estrés en metatarsianos, que al inicio solo se manifiestan por una discreta reacción perióstica"
     ],
     "hallazgos": "Pie con alineación conservada, corticales continuas y espacios articulares normales.",
@@ -903,7 +903,7 @@
       "US": "Valora partes blandas superficiales, neuroma interdigital, fascia plantar, tendones y colecciones, y guía punciones."
     },
     "protocolo": "En la dorsoplantar el paciente se sienta con la rodilla flexionada y la planta apoyada sobre el receptor, con el rayo central angulado entre 10 y 15° hacia el talón y dirigido a la base del tercer metatarsiano, lo que despliega el mediopié. Se completa con una oblicua interna de unos 30 a 45° y con una lateral. Cuando se sospecha lesión de Lisfranc conviene realizar las proyecciones en carga y compararlas con el pie contralateral, ya que la diástasis puede aparecer solo bajo el peso corporal.",
-    "clasificacion": "Las fracturas de la base del quinto metatarsiano se dividen clásicamente en tres zonas: avulsión de la tuberosidad, fractura de Jones en la unión metafisodiafisaria, con peor vascularización y mayor riesgo de seudoartrosis, y fractura diafisaria proximal por estrés. Las lesiones de Lisfranc se clasifican según el patrón de desplazamiento en homolaterales, aisladas o divergentes. En el pie diabético se emplean sistemas clínicos de graduación de la úlcera y de la profundidad, como la clasificación de Wagner, que orientan la búsqueda de osteomielitis.",
+    "clasificacion": "Las fracturas de la base del quinto metatarsiano se dividen clásicamente en tres zonas: Avulsión de la tuberosidad, fractura de Jones en la unión metafisodiafisaria, con peor vascularización y mayor riesgo de seudoartrosis, y fractura diafisaria proximal por estrés. Las lesiones de Lisfranc se clasifican según el patrón de desplazamiento en homolaterales, aisladas o divergentes. En el pie diabético se emplean sistemas clínicos de graduación de la úlcera y de la profundidad, como la clasificación de Wagner, que orientan la búsqueda de osteomielitis.",
     "errores": [
       "Informar como normal un pie con lesión de Lisfranc sutil por no verificar la alineación de la segunda columna ni realizar estudio en carga.",
       "Confundir la apófisis normal del quinto metatarsiano en el niño con una fractura.",
@@ -923,14 +923,14 @@
     "tecnica": "Paciente en decúbito o sentado con el plano sagital medio paralelo al receptor. El rayo central se dirige unos 5 cm por encima del conducto auditivo externo.",
     "observar": [
       "Tablas interna y externa de la bóveda con el diploe entre ambas",
-      "Suturas craneales: bordes finamente dentados, a diferencia de las fracturas que son rectas y de bordes nítidos",
-      "Surcos vasculares, que se ramifican y tienen bordes esclerosos: no son fracturas",
-      "Silla turca: tamaño, morfología y densidad del dorso selar",
+      "Suturas craneales: Bordes finamente dentados, a diferencia de las fracturas que son rectas y de bordes nítidos",
+      "Surcos vasculares, que se ramifican y tienen bordes esclerosos: No son fracturas",
+      "Silla turca: Tamaño, morfología y densidad del dorso selar",
       "Senos paranasales y celdillas mastoideas aireados",
       "Nivel hidroaéreo en el seno esfenoidal, signo indirecto de fractura de base de cráneo"
     ],
     "hallazgos": "Bóveda craneal de espesor y densidad normales, con suturas y surcos vasculares de aspecto habitual y silla turca conservada.",
-    "perlas": "Para diferenciar una fractura de una sutura o de un surco vascular: la fractura es más radiolúcida (más negra), de bordes rectos y afilados, no se ramifica y no sigue el trayecto anatómico esperado de una sutura.",
+    "perlas": "Para diferenciar una fractura de una sutura o de un surco vascular: La fractura es más radiolúcida (más negra), de bordes rectos y afilados, no se ramifica y no sigue el trayecto anatómico esperado de una sutura.",
     "imagen": "img/rx-craneo-lateral.jpg",
     "credito": "Waldir · CC BY-SA 3.0 · Wikimedia Commons",
     "etiquetas": [
@@ -993,14 +993,14 @@
     "dificultad": "Avanzado",
     "esNormal": true,
     "descripcion": "Proyección esencial en el traumatismo cervical, donde una lesión no detectada puede tener consecuencias neurológicas graves. Su lectura sigue un método sistemático de líneas y espacios que conviene aplicar siempre en el mismo orden.",
-    "tecnica": "Paciente en decúbito supino con inmovilización cervical, hombros traccionados hacia abajo. El estudio debe visualizar desde la base del cráneo hasta la unión entre C7 y T1: si no se ve C7, el estudio es insuficiente.",
+    "tecnica": "Paciente en decúbito supino con inmovilización cervical, hombros traccionados hacia abajo. El estudio debe visualizar desde la base del cráneo hasta la unión entre C7 y T1: Si no se ve C7, el estudio es insuficiente.",
     "observar": [
-      "Línea vertebral anterior: une los bordes anteriores de los cuerpos vertebrales en una curva suave",
-      "Línea vertebral posterior: une los bordes posteriores; su interrupción indica desplazamiento hacia el canal",
-      "Línea espinolaminar: marca el límite posterior del canal medular",
+      "Línea vertebral anterior: Une los bordes anteriores de los cuerpos vertebrales en una curva suave",
+      "Línea vertebral posterior: Une los bordes posteriores; su interrupción indica desplazamiento hacia el canal",
+      "Línea espinolaminar: Marca el límite posterior del canal medular",
       "Línea de las apófisis espinosas y separación entre ellas, que debe ser uniforme",
-      "Espacio predental (entre el arco anterior del atlas y la odontoides): hasta 3 mm en adultos, hasta 5 mm en niños",
-      "Partes blandas prevertebrales: su engrosamiento sugiere hematoma por lesión ósea o ligamentaria"
+      "Espacio predental (entre el arco anterior del atlas y la odontoides): Hasta 3 mm en adultos, hasta 5 mm en niños",
+      "Partes blandas prevertebrales: Su engrosamiento sugiere hematoma por lesión ósea o ligamentaria"
     ],
     "hallazgos": "Columna cervical con lordosis conservada, alineación normal de las cuatro líneas de referencia, alturas vertebrales y espacios discales preservados.",
     "perlas": "La causa más frecuente de error en columna cervical es no visualizar la unión C7-T1, donde se concentran muchas lesiones. Si no se logra ver con la proyección lateral, corresponde una proyección del nadador o directamente una tomografía.",
@@ -1054,7 +1054,7 @@
       "US": "Sin papel en la valoración ósea cervical, aunque puede orientar en lesiones vasculares del cuello y en colecciones superficiales."
     },
     "protocolo": "Con el paciente en decúbito supino y collarín cervical colocado, se obtiene una proyección lateral con haz horizontal traccionando suavemente los hombros hacia abajo para descender la cintura escapular, con distancia foco-receptor amplia para reducir la magnificación. El estudio debe abarcar desde la base del cráneo hasta la unión C7-T1; si no se logra, se recurre a la proyección del nadador o directamente a la tomografía. La serie completa incluye además una anteroposterior y una transoral para la odontoides. Las proyecciones dinámicas en flexión y extensión solo se realizan en pacientes conscientes, colaboradores y sin déficit.",
-    "clasificacion": "La clasificación de Anderson y D'Alonzo divide las fracturas de odontoides en tres tipos según el nivel del trazo: por la punta, por la base del cuello de la odontoides, que es la más frecuente y la de peor consolidación, y con extensión al cuerpo de C2. Para la columna cervical subaxial se emplea la escala SLIC, que suma puntos por la morfología de la lesión, la integridad del complejo ligamentario discoligamentario y el estado neurológico, orientando la decisión quirúrgica. Los criterios clínicos NEXUS y la regla canadiense determinan qué pacientes requieren estudio de imagen.",
+    "clasificacion": "La clasificación de Anderson y D'Alonzo divide las fracturas de odontoides en tres tipos según el nivel del trazo: Por la punta, por la base del cuello de la odontoides, que es la más frecuente y la de peor consolidación, y con extensión al cuerpo de C2. Para la columna cervical subaxial se emplea la escala SLIC, que suma puntos por la morfología de la lesión, la integridad del complejo ligamentario discoligamentario y el estado neurológico, orientando la decisión quirúrgica. Los criterios clínicos NEXUS y la regla canadiense determinan qué pacientes requieren estudio de imagen.",
     "errores": [
       "Dar por válido un estudio que no visualiza la unión C7-T1, error clásico y responsable de lesiones no detectadas.",
       "Buscar solo trazos óseos y no aplicar de forma sistemática las cuatro líneas de alineación y la medida del espacio predental.",
@@ -1073,14 +1073,14 @@
     "descripcion": "Estudio inicial del dolor lumbar cuando existen datos de alarma. Permite valorar alineación, altura de los cuerpos vertebrales, espacios discales y cambios degenerativos, que son extraordinariamente frecuentes a partir de la cuarta década.",
     "tecnica": "Paciente en decúbito lateral con las rodillas flexionadas o en bipedestación. Las proyecciones dinámicas en flexión y extensión se reservan para estudiar inestabilidad.",
     "observar": [
-      "Alineación de los cuerpos vertebrales: un escalón indica espondilolistesis",
+      "Alineación de los cuerpos vertebrales: Un escalón indica espondilolistesis",
       "Altura de cada cuerpo vertebral; el acuñamiento anterior sugiere fractura por compresión",
-      "Espacios discales: su disminución con esclerosis de los platillos indica discopatía degenerativa",
+      "Espacios discales: Su disminución con esclerosis de los platillos indica discopatía degenerativa",
       "Osteofitos en los márgenes anteriores y laterales de los cuerpos",
       "Integridad de la pars interarticularis, cuya solución de continuidad define la espondilolisis",
       "Alineación sacra y ángulo lumbosacro"
     ],
-    "hallazgos": "Columna lumbar con cambios degenerativos: reducción de espacios discales, esclerosis de platillos vertebrales y osteofitos marginales.",
+    "hallazgos": "Columna lumbar con cambios degenerativos: Reducción de espacios discales, esclerosis de platillos vertebrales y osteofitos marginales.",
     "perlas": "Los hallazgos degenerativos son tan comunes en personas sin síntomas que casi nunca explican por sí solos el dolor. Hay que correlacionar siempre con la clínica antes de atribuirle al disco la causa del cuadro.",
     "imagen": "img/rx-lumbar-lateral.jpg",
     "credito": "FitBro · CC BY-SA 4.0 · Wikimedia Commons",
@@ -1126,7 +1126,7 @@
       "Una fractura antigua ya consolidada puede parecer aguda si no se compara con estudios previos ni se valora la esclerosis del borde."
     ],
     "porModalidad": {
-      "RX": "Estudio inicial ante datos de alarma: valora alineación, alturas vertebrales, espacios discales y permite proyecciones dinámicas para inestabilidad.",
+      "RX": "Estudio inicial ante datos de alarma: Valora alineación, alturas vertebrales, espacios discales y permite proyecciones dinámicas para inestabilidad.",
       "RM": "Estudio de elección para disco, raíces, médula y edema óseo, y el único que distingue fractura reciente de antigua por la presencia de edema.",
       "TC": "Define con precisión la anatomía ósea, la pars interarticularis, la extensión de los trazos y el compromiso del canal, y guía procedimientos.",
       "US": "Papel muy limitado en el adulto; sirve sobre todo para guiar punciones y bloqueos y para valorar el canal en el lactante."
@@ -1151,7 +1151,7 @@
     "descripcion": "Desviación lateral de la columna en el plano frontal, asociada a rotación de los cuerpos vertebrales. La forma más habitual es la idiopática del adolescente, que aparece durante el estirón puberal y requiere seguimiento radiológico periódico.",
     "tecnica": "Telerradiografía de columna completa en bipedestación, en proyección posteroanterior (que reduce la dosis a mama y tiroides) e incluyendo crestas ilíacas para valorar la madurez esquelética.",
     "observar": [
-      "Curva principal: su vértice, su extensión y su lado de convexidad",
+      "Curva principal: Su vértice, su extensión y su lado de convexidad",
       "Ángulo de Cobb, medido entre las vértebras más inclinadas de cada extremo de la curva",
       "Rotación vertebral, valorada por la posición de los pedículos respecto a la línea media del cuerpo",
       "Curvas compensadoras por encima y por debajo de la principal",
@@ -1159,7 +1159,7 @@
       "Anomalías vertebrales congénitas (hemivértebras, barras) que apuntan a escoliosis no idiopática"
     ],
     "hallazgos": "Desviación lateral de la columna con rotación vertebral asociada y curvas compensadoras.",
-    "perlas": "El ángulo de Cobb marca la conducta: por debajo de 25° se vigila, entre 25 y 45° suele indicarse corsé, y por encima de 45-50° se valora cirugía. Por eso la medición debe hacerse siempre con el mismo método para poder comparar entre estudios.",
+    "perlas": "El ángulo de Cobb marca la conducta: Por debajo de 25° se vigila, entre 25 y 45° suele indicarse corsé, y por encima de 45-50° se valora cirugía. Por eso la medición debe hacerse siempre con el mismo método para poder comparar entre estudios.",
     "imagen": "img/rx-escoliosis.jpg",
     "credito": "Lucien Monfils · CC BY-SA 3.0 · Wikimedia Commons",
     "etiquetas": [
@@ -1227,17 +1227,17 @@
     "dificultad": "Intermedio",
     "esNormal": true,
     "descripcion": "Estudio panorámico que despliega en una sola imagen ambos maxilares, la totalidad de las piezas dentarias, los cóndilos mandibulares y los senos maxilares. El tubo y el receptor giran alrededor de la cabeza describiendo una trayectoria curva.",
-    "tecnica": "Paciente de pie o sentado, mordiendo un dispositivo que fija la posición, con el plano oclusal ligeramente descendente y la columna cervical recta. La colocación es crítica: pequeños errores generan distorsiones importantes.",
+    "tecnica": "Paciente de pie o sentado, mordiendo un dispositivo que fija la posición, con el plano oclusal ligeramente descendente y la columna cervical recta. La colocación es crítica: Pequeños errores generan distorsiones importantes.",
     "observar": [
       "Fórmula dentaria completa, incluyendo piezas retenidas y terceros molares",
       "Caries como zonas radiolúcidas en la corona, y restauraciones como material radiopaco",
       "Nivel del hueso alveolar, cuya pérdida indica enfermedad periodontal",
-      "Lesiones periapicales: imágenes radiolúcidas redondeadas en el ápice de la raíz",
+      "Lesiones periapicales: Imágenes radiolúcidas redondeadas en el ápice de la raíz",
       "Cóndilos mandibulares simétricos y bien posicionados",
       "Senos maxilares aireados y conducto dentario inferior en su trayecto"
     ],
     "hallazgos": "Estudio panorámico con estructuras dentomaxilares simétricas, piezas dentarias y hueso alveolar de aspecto conservado.",
-    "perlas": "La ortopantomografía siempre distorsiona algo: aumenta el tamaño verticalmente y varía la magnificación en distintas zonas. Es excelente como visión general, pero no sirve para medir con precisión ni para valorar detalle fino, y en esos casos se recurre a la tomografía de haz cónico.",
+    "perlas": "La ortopantomografía siempre distorsiona algo: Aumenta el tamaño verticalmente y varía la magnificación en distintas zonas. Es excelente como visión general, pero no sirve para medir con precisión ni para valorar detalle fino, y en esos casos se recurre a la tomografía de haz cónico.",
     "imagen": "img/rx-opg-dental.jpg",
     "credito": "Coronation Dental Specialty Group · CC BY 3.0 · Wikimedia Commons",
     "etiquetas": [
@@ -1276,10 +1276,10 @@
       }
     ],
     "simuladores": [
-      "Las imágenes fantasma son la trampa clásica de la panorámica: estructuras como la rama mandibular contralateral, pendientes o el hueso hioides se proyectan borrosas, aumentadas y en el lado opuesto y a mayor altura.",
+      "Las imágenes fantasma son la trampa clásica de la panorámica: Estructuras como la rama mandibular contralateral, pendientes o el hueso hioides se proyectan borrosas, aumentadas y en el lado opuesto y a mayor altura.",
       "La sombra aérea del paladar blando, de la lengua y de la vía aérea crea bandas radiolúcidas que se confunden con lesiones sobre los ápices maxilares.",
       "La fosa submandibular es una depresión anatómica normal que aparece como radiolucidez bien delimitada por debajo de los molares inferiores.",
-      "Los errores de posicionamiento distorsionan el tamaño de los dientes: si el paciente adelanta el mentón los incisivos se ven estrechos y borrosos, y si lo retrasa se ven anchos."
+      "Los errores de posicionamiento distorsionan el tamaño de los dientes: Si el paciente adelanta el mentón los incisivos se ven estrechos y borrosos, y si lo retrasa se ven anchos."
     ],
     "porModalidad": {
       "RX": "La panorámica ofrece una visión general de ambos maxilares y de toda la dentición en una sola imagen y con baja dosis, y las radiografías periapicales aportan el detalle fino de cada diente.",
@@ -1307,16 +1307,16 @@
     "descripcion": "El estudio radiológico más solicitado del mundo y la base de toda la radiología. Dominar el tórax normal es imprescindible, porque solo se puede reconocer lo patológico cuando se tiene muy claro cómo se ve lo normal.",
     "tecnica": "Paciente de pie, con el pecho contra el receptor y el haz entrando por la espalda (posteroanterior), en inspiración profunda y con una distancia foco-receptor de 1.80 m para minimizar la magnificación del corazón.",
     "observar": [
-      "Calidad técnica: clavículas simétricas respecto a las apófisis espinosas (sin rotación), 9-10 arcos costales posteriores visibles (inspiración adecuada) y vértebras dorsales apenas visibles tras el corazón (penetración correcta)",
-      "Campos pulmonares: comparar simétricamente ambos lados buscando opacidades o zonas hiperlúcidas",
-      "Hilios pulmonares: el izquierdo se sitúa algo más alto que el derecho",
-      "Silueta cardiaca: el índice cardiotorácico debe ser menor de 0.5 en esta proyección",
+      "Calidad técnica: Clavículas simétricas respecto a las apófisis espinosas (sin rotación), 9-10 arcos costales posteriores visibles (inspiración adecuada) y vértebras dorsales apenas visibles tras el corazón (penetración correcta)",
+      "Campos pulmonares: Comparar simétricamente ambos lados buscando opacidades o zonas hiperlúcidas",
+      "Hilios pulmonares: El izquierdo se sitúa algo más alto que el derecho",
+      "Silueta cardiaca: El índice cardiotorácico debe ser menor de 0.5 en esta proyección",
       "Ángulos costofrénicos agudos y libres; si están borrados, sospechar derrame pleural",
       "Hemidiafragmas curvos, con el derecho ligeramente más alto por el hígado",
       "Estructuras óseas, partes blandas y ausencia de aire libre subdiafragmático"
     ],
     "hallazgos": "Radiografía posteroanterior con campos pulmonares limpios, silueta cardiaca de tamaño normal, hilios de aspecto habitual y senos costofrénicos libres.",
-    "perlas": "Conviene tener una rutina fija de lectura y respetarla siempre, por ejemplo de fuera hacia dentro: partes blandas, huesos, diafragmas, pleura, pulmones, hilios, mediastino y corazón. Los hallazgos que se escapan suelen estar en las zonas que se miran al final o nunca, como los vértices y detrás del corazón.",
+    "perlas": "Conviene tener una rutina fija de lectura y respetarla siempre, por ejemplo de fuera hacia dentro: Partes blandas, huesos, diafragmas, pleura, pulmones, hilios, mediastino y corazón. Los hallazgos que se escapan suelen estar en las zonas que se miran al final o nunca, como los vértices y detrás del corazón.",
     "imagen": "img/rx-torax-normal.png",
     "credito": "Stillwaterising · CC0 · Wikimedia Commons",
     "etiquetas": [
@@ -1367,10 +1367,10 @@
       "RM": "Papel limitado en pulmón, pero útil en tumores de la pared torácica, del vértice y del mediastino y en la valoración de estructuras vasculares sin radiación."
     },
     "protocolo": "El paciente se coloca de pie, con la cara anterior del tórax contra el receptor y el haz entrando por la espalda, hombros rotados hacia delante y dorso de las manos en las caderas para desplazar las escápulas fuera de los campos pulmonares. La exposición se realiza en inspiración profunda mantenida, con una distancia foco-receptor de aproximadamente 1.80 metros para minimizar la magnificación cardiaca, alta energía y tiempo corto para reducir el borrado por movimiento. Se complementa con una proyección lateral izquierda con los brazos elevados. Cuando el paciente no puede incorporarse se realiza en decúbito o semisentado, y el informe debe indicarlo.",
-    "clasificacion": "No existe una única escala para el tórax normal, pero sí criterios de calidad técnica que deben verificarse siempre: ausencia de rotación comprobada por la simetría de las clavículas respecto a las apófisis espinosas, inspiración adecuada con nueve o diez arcos costales posteriores visibles, penetración correcta con los cuerpos vertebrales dorsales apenas insinuados tras la silueta cardiaca y ausencia de artefactos. Sobre esa base se aplican después mediciones estandarizadas como el índice cardiotorácico, que en la proyección posteroanterior debe ser inferior a 0.5. En seguimiento de enfermedades difusas se emplean escalas semicuantitativas de extensión por zonas.",
+    "clasificacion": "No existe una única escala para el tórax normal, pero sí criterios de calidad técnica que deben verificarse siempre: Ausencia de rotación comprobada por la simetría de las clavículas respecto a las apófisis espinosas, inspiración adecuada con nueve o diez arcos costales posteriores visibles, penetración correcta con los cuerpos vertebrales dorsales apenas insinuados tras la silueta cardiaca y ausencia de artefactos. Sobre esa base se aplican después mediciones estandarizadas como el índice cardiotorácico, que en la proyección posteroanterior debe ser inferior a 0.5. En seguimiento de enfermedades difusas se emplean escalas semicuantitativas de extensión por zonas.",
     "errores": [
       "Informar sin comprobar antes la calidad técnica, ya que la rotación, la hipoinspiración o la penetración inadecuada crean hallazgos falsos.",
-      "No revisar las zonas ciegas: vértices, región retrocardiaca, senos costofrénicos posteriores, región subdiafragmática y partes blandas del cuello y de los hombros.",
+      "No revisar las zonas ciegas: Vértices, región retrocardiaca, senos costofrénicos posteriores, región subdiafragmática y partes blandas del cuello y de los hombros.",
       "Detenerse tras encontrar la primera anomalía y no completar la lectura sistemática del resto de la imagen.",
       "Comparar una radiografía portátil en decúbito con una posteroanterior en bipedestación y concluir que ha aparecido cardiomegalia o derrame."
     ]
@@ -1386,15 +1386,15 @@
     "descripcion": "Presencia de aire en el espacio pleural que provoca el colapso parcial o total del pulmón. Puede ser espontáneo (típico en varones jóvenes altos y delgados), traumático o iatrogénico tras procedimientos como la colocación de una vía central.",
     "tecnica": "Radiografía de tórax posteroanterior en inspiración. En casos dudosos, la proyección en espiración acentúa el contraste entre el pulmón colapsado y el aire pleural.",
     "observar": [
-      "Línea de la pleura visceral: línea fina y blanca separada de la pared torácica, que es el hallazgo definitorio",
+      "Línea de la pleura visceral: Línea fina y blanca separada de la pared torácica, que es el hallazgo definitorio",
       "Ausencia total de trama vascular pulmonar por fuera de esa línea, donde solo se ve una zona negra homogénea",
       "Grado de colapso pulmonar y distancia entre la pleura visceral y la pared",
-      "Signos de neumotórax a tensión: desplazamiento del mediastino hacia el lado contrario, aplanamiento o inversión del hemidiafragma y ensanchamiento de los espacios intercostales",
-      "Signo del surco profundo: ángulo costofrénico anormalmente profundo y radiolúcido en placas realizadas en decúbito",
+      "Signos de neumotórax a tensión: Desplazamiento del mediastino hacia el lado contrario, aplanamiento o inversión del hemidiafragma y ensanchamiento de los espacios intercostales",
+      "Signo del surco profundo: Ángulo costofrénico anormalmente profundo y radiolúcido en placas realizadas en decúbito",
       "Enfisema subcutáneo o fracturas costales asociadas en el contexto traumático"
     ],
     "hallazgos": "Se identifica la línea pleural con ausencia de trama vascular en la periferia, hallazgo característico de neumotórax.",
-    "perlas": "El neumotórax a tensión es un diagnóstico clínico y una urgencia vital: si el paciente está inestable no se debe esperar a la radiografía, hay que descomprimir de inmediato. La imagen sirve para confirmar después, no para retrasar el tratamiento.",
+    "perlas": "El neumotórax a tensión es un diagnóstico clínico y una urgencia vital: Si el paciente está inestable no se debe esperar a la radiografía, hay que descomprimir de inmediato. La imagen sirve para confirmar después, no para retrasar el tratamiento.",
     "imagen": "img/rx-neumotorax.jpg",
     "credito": "Clinical Cases · CC BY-SA 2.5 · Wikimedia Commons",
     "etiquetas": [
@@ -1441,11 +1441,11 @@
     "porModalidad": {
       "RX": "Estudio inicial y suficiente en la mayoría de los casos, y permite el seguimiento tras el drenaje con dosis baja.",
       "TC": "Es la referencia para detectar neumotórax pequeños u ocultos, sobre todo en el politraumatizado en decúbito, y muestra la causa subyacente.",
-      "US": "Muy útil a pie de cama en el paciente crítico: la ausencia de deslizamiento pleural y la identificación del punto pulmonar permiten un diagnóstico rápido.",
+      "US": "Muy útil a pie de cama en el paciente crítico: La ausencia de deslizamiento pleural y la identificación del punto pulmonar permiten un diagnóstico rápido.",
       "RM": "Sin papel práctico en el diagnóstico del neumotórax."
     },
     "protocolo": "Radiografía de tórax posteroanterior en bipedestación y en inspiración profunda, que es la posición donde el aire asciende al vértice y la línea pleural se hace más evidente. En casos dudosos puede añadirse una proyección en espiración, que reduce el volumen pulmonar y acentúa el contraste entre el pulmón colapsado y el aire pleural. En el paciente que no puede incorporarse se recurre al decúbito lateral con el lado sospechoso hacia arriba, o directamente a la tomografía. Tras la colocación de un drenaje se controla la posición del tubo y la reexpansión pulmonar con proyecciones seriadas.",
-    "clasificacion": "El neumotórax se clasifica por su causa en espontáneo primario, sin enfermedad pulmonar conocida, espontáneo secundario, sobre patología pulmonar previa, y adquirido, ya sea traumático o iatrogénico. Para el tamaño se emplean métodos basados en la distancia entre la línea pleural y la pared torácica: se considera pequeño cuando esa distancia es inferior a aproximadamente dos centímetros medida a la altura del hilio, y grande cuando la supera, criterio que orienta la conducta entre observación y drenaje. El neumotórax a tensión constituye una categoría aparte por ser una urgencia vital de diagnóstico clínico.",
+    "clasificacion": "El neumotórax se clasifica por su causa en espontáneo primario, sin enfermedad pulmonar conocida, espontáneo secundario, sobre patología pulmonar previa, y adquirido, ya sea traumático o iatrogénico. Para el tamaño se emplean métodos basados en la distancia entre la línea pleural y la pared torácica: Se considera pequeño cuando esa distancia es inferior a aproximadamente dos centímetros medida a la altura del hilio, y grande cuando la supera, criterio que orienta la conducta entre observación y drenaje. El neumotórax a tensión constituye una categoría aparte por ser una urgencia vital de diagnóstico clínico.",
     "errores": [
       "Esperar la radiografía en un paciente inestable con sospecha de neumotórax a tensión, cuando el tratamiento debe ser inmediato.",
       "Confundir una bulla enfisematosa con un neumotórax y drenarla.",
@@ -1465,14 +1465,14 @@
     "tecnica": "Radiografía posteroanterior y lateral de tórax. La proyección lateral es muy útil para localizar el lóbulo afectado y para detectar consolidaciones ocultas tras el corazón o los diafragmas.",
     "observar": [
       "Opacidad del espacio aéreo, de bordes mal definidos y distribución no segmentaria en la neumonía típica",
-      "Broncograma aéreo: bronquios visibles como ramificaciones negras dentro de la zona opaca, signo que confirma el origen alveolar",
-      "Signo de la silueta: si la opacidad borra el borde del corazón o del diafragma, la lesión está en contacto anatómico con esa estructura, lo que permite localizarla",
-      "Ausencia de pérdida de volumen: a diferencia de la atelectasia, la neumonía no colapsa el pulmón",
+      "Broncograma aéreo: Bronquios visibles como ramificaciones negras dentro de la zona opaca, signo que confirma el origen alveolar",
+      "Signo de la silueta: Si la opacidad borra el borde del corazón o del diafragma, la lesión está en contacto anatómico con esa estructura, lo que permite localizarla",
+      "Ausencia de pérdida de volumen: A diferencia de la atelectasia, la neumonía no colapsa el pulmón",
       "Derrame pleural acompañante (paraneumónico)",
       "Cavitación dentro de la consolidación, que sugiere absceso"
     ],
     "hallazgos": "Opacidad del espacio aéreo con broncograma aéreo en el parénquima pulmonar, compatible con proceso neumónico.",
-    "perlas": "El signo de la silueta es una de las herramientas más elegantes de la radiología de tórax: si se borra el borde derecho del corazón, la lesión está en el lóbulo medio; si se borra el hemidiafragma, está en el lóbulo inferior. Permite localizar en tres dimensiones con una imagen plana.",
+    "perlas": "El signo de la silueta es una de las herramientas más elegantes de la radiología de tórax: Si se borra el borde derecho del corazón, la lesión está en el lóbulo medio; si se borra el hemidiafragma, está en el lóbulo inferior. Permite localizar en tres dimensiones con una imagen plana.",
     "imagen": "img/rx-neumonia.jpg",
     "credito": "Mikael Häggström · CC0 · Wikimedia Commons",
     "etiquetas": [
@@ -1519,11 +1519,11 @@
     "porModalidad": {
       "RX": "Confirma la sospecha clínica, localiza el lóbulo afectado, valora complicaciones y sirve para el control evolutivo con baja dosis.",
       "TC": "Detecta consolidaciones que la radiografía no muestra, define abscesos, empiema y necrosis, y revela causas subyacentes como una obstrucción bronquial.",
-      "US": "Muy útil a pie de cama en el niño y en el paciente crítico: identifica consolidación subpleural con broncograma y cuantifica el derrame para guiar su punción.",
+      "US": "Muy útil a pie de cama en el niño y en el paciente crítico: Identifica consolidación subpleural con broncograma y cuantifica el derrame para guiar su punción.",
       "RM": "Alternativa sin radiación en poblaciones seleccionadas como embarazadas y niños con estudios repetidos, aunque su uso rutinario es limitado."
     },
     "protocolo": "Radiografía posteroanterior y lateral de tórax en bipedestación e inspiración profunda, con alta energía y tiempo corto. La proyección lateral es imprescindible porque descubre consolidaciones ocultas tras el corazón, en los lóbulos inferiores y en los senos costofrénicos posteriores. En el control evolutivo conviene repetir con la misma técnica para poder comparar, y no antes de que haya transcurrido tiempo suficiente, ya que la resolución radiológica va por detrás de la mejoría clínica. Cuando se realiza tomografía se emplean cortes finos, y el contraste intravenoso se añade si se sospecha empiema o absceso.",
-    "clasificacion": "En la práctica se distinguen tres patrones radiológicos: la neumonía lobar, con consolidación del espacio aéreo y broncograma; la bronconeumonía, con opacidades parcheadas y peribronquiales multifocales; y la neumonía intersticial, con patrón reticular o en vidrio deslustrado. Para valorar la gravedad y decidir el destino del paciente se emplean escalas clínicas como CURB-65, que puntúa confusión, urea elevada, frecuencia respiratoria, presión arterial y edad de 65 años o más. Los derrames paraneumónicos se gradúan en simples, complicados y empiema según sus características, lo que determina si basta con antibiótico o se requiere drenaje.",
+    "clasificacion": "En la práctica se distinguen tres patrones radiológicos: La neumonía lobar, con consolidación del espacio aéreo y broncograma; la bronconeumonía, con opacidades parcheadas y peribronquiales multifocales; y la neumonía intersticial, con patrón reticular o en vidrio deslustrado. Para valorar la gravedad y decidir el destino del paciente se emplean escalas clínicas como CURB-65, que puntúa confusión, urea elevada, frecuencia respiratoria, presión arterial y edad de 65 años o más. Los derrames paraneumónicos se gradúan en simples, complicados y empiema según sus características, lo que determina si basta con antibiótico o se requiere drenaje.",
     "errores": [
       "Descartar neumonía por una radiografía normal en fases muy iniciales o en pacientes deshidratados o inmunodeprimidos.",
       "Repetir el control demasiado pronto y concluir que no hay respuesta, cuando la resolución radiológica tarda semanas.",
@@ -1596,7 +1596,7 @@
     ],
     "porModalidad": {
       "RX": "Detecta el derrame a partir de cierto volumen y permite estimar su magnitud y el seguimiento; la proyección lateral es más sensible que la frontal.",
-      "US": "Es la técnica más sensible y práctica: cuantifica volúmenes pequeños, distingue líquido libre de tabicado y guía la toracocentesis con seguridad.",
+      "US": "Es la técnica más sensible y práctica: Cuantifica volúmenes pequeños, distingue líquido libre de tabicado y guía la toracocentesis con seguridad.",
       "TC": "Caracteriza el líquido, detecta engrosamiento y nodularidad pleural sugestivos de malignidad, diferencia empiema de absceso y descubre la causa.",
       "RM": "Uso puntual para valorar invasión de la pared torácica y del diafragma en tumores pleurales."
     },
@@ -1620,15 +1620,15 @@
     "descripcion": "Infección por Mycobacterium tuberculosis con manifestaciones radiológicas que difieren según se trate de una primoinfección o de una reactivación. Sigue siendo un problema de salud pública mundial y la radiografía de tórax es clave en su detección.",
     "tecnica": "Radiografía posteroanterior de tórax; la tomografía se reserva para casos dudosos, para valorar la extensión y para detectar cavitaciones o diseminación no visibles en la radiografía simple.",
     "observar": [
-      "Tuberculosis posprimaria (reactivación): opacidades en los segmentos apicales y posteriores de los lóbulos superiores y en el segmento superior de los inferiores, que son las zonas mejor oxigenadas",
+      "Tuberculosis posprimaria (reactivación): Opacidades en los segmentos apicales y posteriores de los lóbulos superiores y en el segmento superior de los inferiores, que son las zonas mejor oxigenadas",
       "Cavitaciones de pared gruesa e irregular dentro de las zonas de consolidación",
       "Nódulos y opacidades reticulonodulares por diseminación broncógena",
-      "Tuberculosis primaria: consolidación en cualquier lóbulo acompañada de adenopatías hiliares o mediastínicas, hallazgo especialmente típico en niños",
-      "Patrón miliar: micronódulos de 1-3 mm distribuidos de forma uniforme por ambos campos",
-      "Secuelas: fibrosis, retracción, calcificaciones y bronquiectasias"
+      "Tuberculosis primaria: Consolidación en cualquier lóbulo acompañada de adenopatías hiliares o mediastínicas, hallazgo especialmente típico en niños",
+      "Patrón miliar: Micronódulos de 1-3 mm distribuidos de forma uniforme por ambos campos",
+      "Secuelas: Fibrosis, retracción, calcificaciones y bronquiectasias"
     ],
     "hallazgos": "Opacidades parcheadas de distribución apical con nódulos asociados, patrón sugestivo de tuberculosis pulmonar.",
-    "perlas": "La localización orienta mucho: la reactivación prefiere los vértices, mientras que la primoinfección puede estar en cualquier sitio pero casi siempre asocia adenopatías. Ante una opacidad apical con cavitación en un paciente con tos crónica, la tuberculosis debe encabezar la lista de sospechas.",
+    "perlas": "La localización orienta mucho: La reactivación prefiere los vértices, mientras que la primoinfección puede estar en cualquier sitio pero casi siempre asocia adenopatías. Ante una opacidad apical con cavitación en un paciente con tos crónica, la tuberculosis debe encabezar la lista de sospechas.",
     "imagen": "img/rx-tuberculosis.jpg",
     "credito": "Basem Abbas Al Ubaidi · CC BY 4.0 · Wikimedia Commons",
     "etiquetas": [
@@ -1674,7 +1674,7 @@
     ],
     "porModalidad": {
       "RX": "Herramienta básica de detección y de seguimiento, con buen rendimiento para la distribución apical, las cavidades grandes y el patrón miliar.",
-      "TC": "Mucho más sensible: identifica nódulos centrolobulillares en brote de árbol, que indican diseminación broncógena activa, cavidades pequeñas, adenopatías necróticas y bronquiectasias.",
+      "TC": "Mucho más sensible: Identifica nódulos centrolobulillares en brote de árbol, que indican diseminación broncógena activa, cavidades pequeñas, adenopatías necróticas y bronquiectasias.",
       "US": "Se emplea para valorar el derrame pleural tuberculoso, orientar su punción y estudiar adenopatías periféricas.",
       "RM": "Reservada para la afectación extratorácica, en especial la espinal y la del sistema nervioso central."
     },
@@ -1699,12 +1699,12 @@
     "tecnica": "Radiografía posteroanterior y lateral. Todo hallazgo sospechoso se completa con tomografía con contraste, y en la estadificación se emplea además la tomografía por emisión de positrones.",
     "observar": [
       "Nódulo (menor de 3 cm) o masa (mayor de 3 cm) con bordes espiculados o lobulados, rasgos que sugieren malignidad",
-      "Crecimiento respecto a estudios previos: comparar siempre con radiografías antiguas es el dato más valioso",
+      "Crecimiento respecto a estudios previos: Comparar siempre con radiografías antiguas es el dato más valioso",
       "Atelectasia o consolidación persistente distal a una obstrucción bronquial",
       "Adenopatías hiliares o mediastínicas que ensanchan el mediastino",
       "Derrame pleural asociado, que suele implicar enfermedad avanzada",
       "Lesiones óseas líticas en costillas o vértebras por metástasis",
-      "Zonas ciegas donde se ocultan lesiones: vértices, detrás del corazón, bajo los diafragmas y sobre las costillas posteriores"
+      "Zonas ciegas donde se ocultan lesiones: Vértices, detrás del corazón, bajo los diafragmas y sobre las costillas posteriores"
     ],
     "hallazgos": "Masa pulmonar de contornos irregulares que altera la arquitectura normal del parénquima.",
     "perlas": "Un nódulo con calcificación central, laminar o en palomita de maíz es casi siempre benigno (granuloma o hamartoma). En cambio, la calcificación excéntrica o irregular no descarta malignidad. Aprender los patrones de calcificación evita estudios innecesarios.",
@@ -1754,17 +1754,17 @@
     ],
     "porModalidad": {
       "RX": "Suele dar la primera alerta y permite comparar con estudios antiguos, que es el dato más valioso para valorar el crecimiento, pero tiene baja sensibilidad para nódulos pequeños.",
-      "TC": "Es la técnica de caracterización y de estadificación local: define tamaño, márgenes, densidad, calcificación, relación con la pleura y afectación ganglionar.",
+      "TC": "Es la técnica de caracterización y de estadificación local: Define tamaño, márgenes, densidad, calcificación, relación con la pleura y afectación ganglionar.",
       "RM": "Aporta valor en el tumor del sulcus superior, en la invasión de la pared torácica, del plexo braquial y del mediastino, y en el estudio de metástasis cerebrales.",
       "US": "Guía la punción de lesiones periféricas en contacto con la pleura y de adenopatías supraclaviculares accesibles."
     },
     "protocolo": "Radiografía posteroanterior y lateral en bipedestación e inspiración profunda. Ante un hallazgo sospechoso se realiza tomografía de tórax con contraste yodado intravenoso, con cortes finos y reconstrucciones que permitan medir el nódulo en su diámetro mayor y valorar su volumen, incluyendo suprarrenales para la estadificación. En el tamizaje de personas de alto riesgo se emplean protocolos de baja dosis sin contraste. La estadificación se completa con estudios metabólicos y con resonancia cerebral cuando corresponde, y las biopsias se guían por tomografía o por vía endoscópica.",
-    "clasificacion": "Para el nódulo pulmonar detectado de forma incidental se aplican las recomendaciones de la Sociedad Fleischner, que establecen la conducta según el tamaño, si el nódulo es sólido, subsólido o en vidrio deslustrado, y el riesgo del paciente: los nódulos sólidos muy pequeños en pacientes de bajo riesgo no requieren seguimiento, mientras que a medida que aumenta el tamaño se indican controles a intervalos definidos o estudio adicional. En programas de tamizaje se emplean sistemas estructurados de categorías que asignan un grado de sospecha y una conducta. La extensión tumoral se codifica con el sistema TNM, que valora el tumor, los ganglios y las metástasis y determina el estadio y el tratamiento.",
+    "clasificacion": "Para el nódulo pulmonar detectado de forma incidental se aplican las recomendaciones de la Sociedad Fleischner, que establecen la conducta según el tamaño, si el nódulo es sólido, subsólido o en vidrio deslustrado, y el riesgo del paciente: Los nódulos sólidos muy pequeños en pacientes de bajo riesgo no requieren seguimiento, mientras que a medida que aumenta el tamaño se indican controles a intervalos definidos o estudio adicional. En programas de tamizaje se emplean sistemas estructurados de categorías que asignan un grado de sospecha y una conducta. La extensión tumoral se codifica con el sistema TNM, que valora el tumor, los ganglios y las metástasis y determina el estadio y el tratamiento.",
     "errores": [
       "No buscar estudios previos, ya que la estabilidad prolongada de un nódulo sólido es el argumento más sólido de benignidad.",
       "Aceptar como nódulo lo que es una lesión de la pared torácica o un artefacto externo por no confirmarlo en dos proyecciones.",
       "Aplicar los criterios de seguimiento de nódulo incidental a pacientes con cáncer conocido o con síntomas, situaciones en las que no corresponden.",
-      "Ignorar las zonas ciegas de la radiografía, donde se ocultan muchos tumores: vértices, región retrocardiaca y regiones subdiafragmáticas."
+      "Ignorar las zonas ciegas de la radiografía, donde se ocultan muchos tumores: Vértices, región retrocardiaca y regiones subdiafragmáticas."
     ]
   },
   {
@@ -1778,11 +1778,11 @@
     "descripcion": "Obstrucción de las arterias pulmonares por un trombo que habitualmente procede de las venas profundas de las piernas. Es una urgencia potencialmente mortal y la angiotomografía pulmonar es hoy el estudio de elección para diagnosticarla.",
     "tecnica": "Tomografía con contraste yodado intravenoso administrado a alto flujo y sincronizado para opacificar al máximo las arterias pulmonares en el momento de la adquisición.",
     "observar": [
-      "Defecto de repleción: imagen hipodensa dentro de la luz arterial rodeada por contraste, que es el signo diagnóstico directo",
+      "Defecto de repleción: Imagen hipodensa dentro de la luz arterial rodeada por contraste, que es el signo diagnóstico directo",
       "Trombo en silla de montar cabalgando sobre la bifurcación de la arteria pulmonar principal, forma de máxima gravedad",
-      "Extensión y localización de los defectos: centrales, lobares, segmentarios o subsegmentarios",
-      "Signos de sobrecarga del ventrículo derecho: dilatación ventricular y desviación del tabique interventricular, indicadores de mal pronóstico",
-      "Infarto pulmonar: opacidad periférica de base pleural y forma triangular (joroba de Hampton)",
+      "Extensión y localización de los defectos: Centrales, lobares, segmentarios o subsegmentarios",
+      "Signos de sobrecarga del ventrículo derecho: Dilatación ventricular y desviación del tabique interventricular, indicadores de mal pronóstico",
+      "Infarto pulmonar: Opacidad periférica de base pleural y forma triangular (joroba de Hampton)",
       "Derrame pleural y atelectasias laminares acompañantes"
     ],
     "hallazgos": "Defecto de repleción endoluminal en las arterias pulmonares compatible con material trombótico.",
@@ -1831,13 +1831,13 @@
       "En pacientes con gasto cardiaco alto o con maniobra de Valsalva durante la adquisición entra sangre no opacificada desde la vena cava inferior y genera artefactos de flujo característicos."
     ],
     "porModalidad": {
-      "TC": "La angiotomografía pulmonar es el estudio de elección: visualiza directamente el trombo, define su extensión y valora la repercusión sobre el ventrículo derecho.",
+      "TC": "La angiotomografía pulmonar es el estudio de elección: Visualiza directamente el trombo, define su extensión y valora la repercusión sobre el ventrículo derecho.",
       "RX": "Suele ser normal o casi normal y su valor está en descartar otras causas de disnea aguda; puede mostrar signos indirectos inespecíficos.",
       "US": "El estudio Doppler de las venas de los miembros inferiores demuestra la trombosis de origen, y el ecocardiograma valora la sobrecarga derecha en el paciente inestable.",
       "RM": "Alternativa sin radiación ni contraste yodado en pacientes seleccionados, como embarazadas o alérgicos, aunque su disponibilidad y su rendimiento son menores."
     },
     "protocolo": "Se coloca una vía de buen calibre en la fosa antecubital y se administra contraste yodado a alto flujo seguido de suero fisiológico, con seguimiento del bolo mediante una región de interés situada en el tronco de la arteria pulmonar para disparar la adquisición en el pico de opacificación arterial. Se adquieren cortes finos en apnea inspiratoria suave, desde los vértices hasta las bases, con reconstrucciones en los tres planos. En el mismo estudio se valora la relación entre los diámetros del ventrículo derecho y del izquierdo, indicador pronóstico. En embarazadas se ajusta la dosis y se valora primero el estudio venoso de miembros inferiores.",
-    "clasificacion": "La localización de los defectos se describe en centrales, incluyendo el trombo en silla de montar sobre la bifurcación, lobares, segmentarios y subsegmentarios. La estratificación pronóstica combina la clínica y la imagen: se distingue la tromboembolia de alto riesgo, con inestabilidad hemodinámica, de las de riesgo intermedio y bajo, empleando escalas clínicas como el índice de gravedad de la embolia pulmonar junto con marcadores de disfunción del ventrículo derecho, entre ellos la relación entre ventrículo derecho e izquierdo medida en la tomografía. Antes del estudio se aplican reglas de probabilidad clínica como la escala de Wells, que junto con el dímero D determina la indicación de la angiotomografía.",
+    "clasificacion": "La localización de los defectos se describe en centrales, incluyendo el trombo en silla de montar sobre la bifurcación, lobares, segmentarios y subsegmentarios. La estratificación pronóstica combina la clínica y la imagen: Se distingue la tromboembolia de alto riesgo, con inestabilidad hemodinámica, de las de riesgo intermedio y bajo, empleando escalas clínicas como el índice de gravedad de la embolia pulmonar junto con marcadores de disfunción del ventrículo derecho, entre ellos la relación entre ventrículo derecho e izquierdo medida en la tomografía. Antes del estudio se aplican reglas de probabilidad clínica como la escala de Wells, que junto con el dímero D determina la indicación de la angiotomografía.",
     "errores": [
       "Informar trombos subsegmentarios aislados en estudios con artefactos de movimiento o con mala opacificación, con el riesgo de sobrediagnóstico.",
       "Distinguir mal entre trombo agudo y crónico, lo que cambia por completo el tratamiento.",
@@ -1847,7 +1847,7 @@
   },
   {
     "codigo": "cardio-eco-4camaras",
-    "titulo": "Ecocardiograma: vista apical de 4 cámaras",
+    "titulo": "Ecocardiograma: Vista apical de 4 cámaras",
     "sistema": "Cardiovascular",
     "modalidad": "US",
     "region": "Corazón",
@@ -1856,11 +1856,11 @@
     "descripcion": "El ecocardiograma emplea ultrasonido para ver el corazón latiendo en tiempo real. La vista apical de cuatro cámaras muestra simultáneamente ambas aurículas, ambos ventrículos y las válvulas auriculoventriculares, y es una de las proyecciones más informativas del estudio.",
     "tecnica": "Transductor sectorial de baja frecuencia colocado en el ápex cardiaco, con el paciente en decúbito lateral izquierdo para acercar el corazón a la pared torácica.",
     "observar": [
-      "Las cuatro cavidades: ventrículos en la parte superior de la pantalla y aurículas en la inferior",
+      "Las cuatro cavidades: Ventrículos en la parte superior de la pantalla y aurículas en la inferior",
       "Grosor y contractilidad de las paredes ventriculares, valorando si algún segmento se mueve menos",
       "Válvulas mitral y tricúspide abriendo y cerrando de forma simétrica",
       "Tabiques interventricular e interauricular íntegros, sin soluciones de continuidad",
-      "Tamaño relativo de las cavidades: el ventrículo izquierdo es normalmente mayor que el derecho",
+      "Tamaño relativo de las cavidades: El ventrículo izquierdo es normalmente mayor que el derecho",
       "Presencia de derrame pericárdico como espacio anecoico rodeando el corazón"
     ],
     "hallazgos": "Vista apical de cuatro cámaras con cavidades de tamaño conservado, tabiques íntegros y válvulas auriculoventriculares de aspecto normal.",
@@ -1909,7 +1909,7 @@
       "Los artefactos de reverberación y las sombras acústicas de las costillas y del pulmón generan zonas de aparente pérdida de pared que se resuelven cambiando de ventana."
     ],
     "porModalidad": {
-      "US": "El ecocardiograma es el estudio de primera línea: valora en tiempo real anatomía, función, válvulas y pericardio, sin radiación y a pie de cama.",
+      "US": "El ecocardiograma es el estudio de primera línea: Valora en tiempo real anatomía, función, válvulas y pericardio, sin radiación y a pie de cama.",
       "RM": "Es la referencia para cuantificar volúmenes y función y para caracterizar el tejido miocárdico, incluida la fibrosis con realce tardío.",
       "TC": "Aporta excelente detalle anatómico de coronarias, pericardio y estructuras vecinas, y sirve para planificar procedimientos estructurales.",
       "RX": "La radiografía de tórax ofrece una valoración indirecta del tamaño cardiaco y de la congestión pulmonar, útil como aproximación inicial."
@@ -1934,8 +1934,8 @@
     "descripcion": "Estudio invasivo en el que se inyecta contraste yodado directamente en las arterias coronarias mediante un catéter, obteniendo imágenes en tiempo real por fluoroscopia. Es el patrón de referencia para valorar la enfermedad coronaria y permite tratar en el mismo acto.",
     "tecnica": "Se accede por la arteria radial o femoral y se avanza el catéter hasta el ostium coronario. Se adquieren series en múltiples proyecciones oblicuas para desplegar todos los segmentos arteriales sin superposiciones.",
     "observar": [
-      "Anatomía coronaria: tronco común izquierdo, descendente anterior, circunfleja y coronaria derecha",
-      "Estenosis: estrechamientos de la luz arterial, cuya severidad se expresa en porcentaje respecto al segmento sano vecino",
+      "Anatomía coronaria: Tronco común izquierdo, descendente anterior, circunfleja y coronaria derecha",
+      "Estenosis: Estrechamientos de la luz arterial, cuya severidad se expresa en porcentaje respecto al segmento sano vecino",
       "Oclusiones totales, con ausencia completa de opacificación distal",
       "Circulación colateral que rellena de forma retrógrada territorios ocluidos",
       "Flujo distal y velocidad de progresión del contraste",
@@ -2012,15 +2012,15 @@
     "descripcion": "Estudio no invasivo que valora las arterias carótidas combinando la imagen en escala de grises con el análisis del flujo mediante efecto Doppler. Es fundamental en la prevención del ictus, ya que detecta placas de ateroma y estenosis.",
     "tecnica": "Transductor lineal de alta frecuencia, con el paciente en decúbito supino y la cabeza girada hacia el lado contrario. Se recorren la carótida común, la bifurcación y las ramas interna y externa.",
     "observar": [
-      "Complejo íntima-media: su engrosamiento por encima de 0.9 mm es un marcador precoz de aterosclerosis",
-      "Placas de ateroma: describir su ecogenicidad, superficie (lisa o irregular) y si presentan calcificación con sombra acústica",
+      "Complejo íntima-media: Su engrosamiento por encima de 0.9 mm es un marcador precoz de aterosclerosis",
+      "Placas de ateroma: Describir su ecogenicidad, superficie (lisa o irregular) y si presentan calcificación con sombra acústica",
       "Grado de estenosis, estimado por la reducción del calibre y sobre todo por el aumento de las velocidades de flujo",
-      "Espectro Doppler: la carótida interna muestra flujo de baja resistencia con abundante flujo diastólico, mientras la externa tiene alta resistencia",
+      "Espectro Doppler: La carótida interna muestra flujo de baja resistencia con abundante flujo diastólico, mientras la externa tiene alta resistencia",
       "Dirección del flujo, cuya inversión indica robo vascular",
       "Simetría entre ambos lados"
     ],
     "hallazgos": "Arterias carótidas permeables con pared de grosor conservado y espectro Doppler de morfología normal.",
-    "perlas": "Para distinguir la carótida interna de la externa: la externa da ramas en el cuello y la interna no. Además, golpear suavemente la arteria temporal superficial produce ondulaciones en el espectro de la externa, maniobra sencilla que resuelve la duda a pie de cama.",
+    "perlas": "Para distinguir la carótida interna de la externa: La externa da ramas en el cuello y la interna no. Además, golpear suavemente la arteria temporal superficial produce ondulaciones en el espectro de la externa, maniobra sencilla que resuelve la duda a pie de cama.",
     "imagen": "img/doppler-carotida.jpg",
     "credito": "NHLBI (NIH) · Dominio público · Wikimedia Commons",
     "etiquetas": [
@@ -2065,13 +2065,13 @@
       "Una estenosis grave contralateral aumenta el flujo compensador en el lado estudiado y eleva las velocidades sin que haya lesión propia."
     ],
     "porModalidad": {
-      "US": "Técnica de primera línea: combina la imagen de la pared con la información hemodinámica, no usa radiación y es repetible en el seguimiento.",
+      "US": "Técnica de primera línea: Combina la imagen de la pared con la información hemodinámica, no usa radiación y es repetible en el seguimiento.",
       "TC": "La angiotomografía de troncos supraaórticos ofrece una visión anatómica completa desde el arco hasta el polígono cerebral y valora bien las placas calcificadas.",
       "RM": "La angiorresonancia estudia el vaso sin radiación, caracteriza el hematoma mural de la disección y valora el parénquima cerebral en el mismo estudio.",
       "RX": "La arteriografía por catéter se reserva hoy para casos seleccionados y para el tratamiento endovascular."
     },
     "protocolo": "El paciente se coloca en decúbito supino con el cuello ligeramente extendido y la cabeza girada hacia el lado contrario al explorado. Se emplea un transductor lineal de alta frecuencia y se recorre de forma sistemática la carótida común, el bulbo, la bifurcación y las ramas interna y externa en planos transversal y longitudinal, valorando primero la escala de grises y después el Doppler color y espectral. El ángulo de insonación debe mantenerse en 60° o menos y la ventana de muestreo situarse en el centro del vaso, midiendo la velocidad sistólica máxima y la velocidad al final de la diástole en el punto de mayor estrechamiento y en el segmento distal. Se completa con el estudio de ambas arterias vertebrales y de las subclavias.",
-    "clasificacion": "El grado de estenosis se estima combinando la imagen con criterios de velocidad ampliamente aceptados: se considera estenosis significativa cuando la velocidad sistólica máxima en la carótida interna supera valores establecidos y aumenta la relación entre las velocidades de la interna y la común, junto con la elevación de la velocidad telediastólica en las estenosis más graves. Los porcentajes se expresan siguiendo el método NASCET, que compara el diámetro residual en la estenosis con el de la carótida interna distal normal. El engrosamiento del complejo íntima-media se valora como marcador precoz de ateroesclerosis, y las placas se describen por su ecogenicidad, superficie y presencia de ulceración.",
+    "clasificacion": "El grado de estenosis se estima combinando la imagen con criterios de velocidad ampliamente aceptados: Se considera estenosis significativa cuando la velocidad sistólica máxima en la carótida interna supera valores establecidos y aumenta la relación entre las velocidades de la interna y la común, junto con la elevación de la velocidad telediastólica en las estenosis más graves. Los porcentajes se expresan siguiendo el método NASCET, que compara el diámetro residual en la estenosis con el de la carótida interna distal normal. El engrosamiento del complejo íntima-media se valora como marcador precoz de ateroesclerosis, y las placas se describen por su ecogenicidad, superficie y presencia de ulceración.",
     "errores": [
       "Medir con un ángulo de insonación incorrecto, que es la causa más frecuente de sobrestimar el grado de estenosis.",
       "Confundir la carótida externa con la interna, error que se evita comprobando que la externa da ramas cervicales y con la maniobra de percusión de la arteria temporal.",
@@ -2088,7 +2088,7 @@
     "dificultad": "Básico",
     "esNormal": true,
     "descripcion": "Estudio de urgencia por excelencia en el traumatismo craneoencefálico y en la sospecha de enfermedad vascular cerebral, porque se realiza en pocos minutos y detecta con gran fiabilidad la sangre aguda, que es lo que cambia la conducta inmediata.",
-    "tecnica": "Cortes axiales desde el foramen magno hasta el vértex, sin contraste en el contexto agudo. Se revisa siempre con distintas ventanas: cerebral, ósea y de partes blandas.",
+    "tecnica": "Cortes axiales desde el foramen magno hasta el vértex, sin contraste en el contexto agudo. Se revisa siempre con distintas ventanas: Cerebral, ósea y de partes blandas.",
     "observar": [
       "Sangre aguda, que aparece hiperdensa (blanca) por su alto contenido en hemoglobina",
       "Diferenciación entre sustancia gris y blanca, cuya pérdida es un signo precoz de isquemia",
@@ -2099,7 +2099,7 @@
       "Senos paranasales y celdillas mastoideas, cuya ocupación puede ser signo indirecto de fractura"
     ],
     "hallazgos": "Estudio de cráneo con parénquima cerebral de densidad normal, sistema ventricular conservado, línea media centrada y sin colecciones hemorrágicas.",
-    "perlas": "Los hematomas se distinguen por su forma: el epidural es biconvexo (en lente) porque está limitado por las suturas, mientras el subdural es cóncavo (en semiluna) y puede extenderse más ampliamente porque cruza las suturas pero no los senos durales.",
+    "perlas": "Los hematomas se distinguen por su forma: El epidural es biconvexo (en lente) porque está limitado por las suturas, mientras el subdural es cóncavo (en semiluna) y puede extenderse más ampliamente porque cruza las suturas pero no los senos durales.",
     "imagen": "img/tc-craneo.png",
     "credito": "Departamento de Radiología, Hospital Universitario de Uppsala · CC0 · Wikimedia Commons",
     "etiquetas": [
@@ -2149,7 +2149,7 @@
       "RX": "Papel muy limitado hoy; conserva utilidad en el control de derivaciones ventriculares y de material implantado.",
       "US": "Aplicable en el lactante con fontanela abierta, donde permite valorar hemorragia y ventrículos sin radiación."
     },
-    "protocolo": "Se adquieren cortes axiales desde el foramen magno hasta el vértex, con el plano de referencia paralelo a la línea orbitomeatal para reducir la dosis al cristalino y facilitar la comparación entre estudios. En el contexto agudo no se administra contraste, porque lo que se busca es sangre, que ya es espontáneamente hiperdensa. Se emplean cortes más finos en la fosa posterior y se revisa siempre con al menos tres ventanas: la cerebral para el parénquima, una ventana intermedia que facilita detectar colecciones extraaxiales finas, y la ósea para las fracturas, además de la de partes blandas para el cuero cabelludo. Se añade angiotomografía cuando se sospecha aneurisma o lesión vascular.",
+    "protocolo": "Se adquieren cortes axiales desde el foramen magno hasta el vértex, con el plano de referencia paralelo a la línea orbitomeatal para reducir la dosis al cristalino y facilitar la comparación entre estudios. En el contexto agudo no se administra contraste, porque lo que se busca es sangre, que ya es espontáneamente hiperdensa. Se emplean cortes más finos en la fosa posterior y se revisa siempre con al menos tres ventanas: La cerebral para el parénquima, una ventana intermedia que facilita detectar colecciones extraaxiales finas, y la ósea para las fracturas, además de la de partes blandas para el cuero cabelludo. Se añade angiotomografía cuando se sospecha aneurisma o lesión vascular.",
     "clasificacion": "En el traumatismo craneoencefálico se emplea la escala de coma de Glasgow para graduar la afectación clínica y decidir la indicación del estudio, junto con reglas de decisión que seleccionan qué pacientes requieren tomografía. Los hallazgos se organizan con clasificaciones como la de Marshall, que agrupa los estudios según la presencia de lesiones focales, el estado de las cisternas de la base y la magnitud del desplazamiento de la línea media, con valor pronóstico. Para la hemorragia subaracnoidea se usa la escala de Fisher, que gradúa la cantidad y la distribución de la sangre y estima el riesgo de vasoespasmo.",
     "errores": [
       "Revisar el estudio solo con la ventana cerebral y pasar por alto fracturas o hematomas subdurales finos adyacentes a la tabla interna.",
@@ -2170,14 +2170,14 @@
     "tecnica": "Tomografía de cráneo sin contraste. El estudio con contraste o la angiotomografía se añaden cuando se busca una malformación vascular o un aneurisma como causa.",
     "observar": [
       "Colección hiperdensa (blanca) de bordes definidos dentro del parénquima cerebral",
-      "Localización, que orienta a la causa: los ganglios basales y el tálamo son típicos de la hemorragia hipertensiva, mientras la localización lobar sugiere angiopatía amiloide en pacientes mayores",
+      "Localización, que orienta a la causa: Los ganglios basales y el tálamo son típicos de la hemorragia hipertensiva, mientras la localización lobar sugiere angiopatía amiloide en pacientes mayores",
       "Volumen del hematoma, factor pronóstico determinante",
       "Edema perilesional como halo hipodenso alrededor del sangrado",
-      "Efecto de masa: borramiento de surcos, compresión ventricular y desviación de la línea media",
+      "Efecto de masa: Borramiento de surcos, compresión ventricular y desviación de la línea media",
       "Extensión intraventricular de la sangre, que empeora el pronóstico y puede causar hidrocefalia"
     ],
     "hallazgos": "Colección hiperdensa intraparenquimatosa con edema perilesional y efecto de masa sobre las estructuras vecinas.",
-    "perlas": "La sangre cambia de densidad con el tiempo: es hiperdensa en la fase aguda, se vuelve isodensa con el parénquima entre la primera y la tercera semana, y termina siendo hipodensa. Un hematoma subdural subagudo isodenso es especialmente traicionero, y hay que buscarlo por signos indirectos como el borramiento de los surcos de un lado.",
+    "perlas": "La sangre cambia de densidad con el tiempo: Es hiperdensa en la fase aguda, se vuelve isodensa con el parénquima entre la primera y la tercera semana, y termina siendo hipodensa. Un hematoma subdural subagudo isodenso es especialmente traicionero, y hay que buscarlo por signos indirectos como el borramiento de los surcos de un lado.",
     "imagen": "img/tc-hemorragia.jpg",
     "credito": "Yadav YR y cols. · CC BY 2.0 · Wikimedia Commons",
     "etiquetas": [
@@ -2244,10 +2244,10 @@
     "region": "Cráneo",
     "dificultad": "Avanzado",
     "esNormal": false,
-    "descripcion": "Infarto cerebral por oclusión arterial. Es una urgencia dependiente del tiempo: el tratamiento de reperfusión tiene una ventana estrecha, por lo que la rapidez y la precisión del estudio de imagen influyen directamente en el pronóstico del paciente.",
+    "descripcion": "Infarto cerebral por oclusión arterial. Es una urgencia dependiente del tiempo: El tratamiento de reperfusión tiene una ventana estrecha, por lo que la rapidez y la precisión del estudio de imagen influyen directamente en el pronóstico del paciente.",
     "tecnica": "Tomografía simple inmediata para descartar hemorragia, seguida habitualmente de angiotomografía para localizar la oclusión y estudios de perfusión para valorar el tejido aún recuperable.",
     "observar": [
-      "Signos precoces (primeras horas): pérdida de la diferenciación entre sustancia gris y blanca, borramiento del núcleo lenticular y de la cinta insular",
+      "Signos precoces (primeras horas): Pérdida de la diferenciación entre sustancia gris y blanca, borramiento del núcleo lenticular y de la cinta insular",
       "Signo de la arteria cerebral media hiperdensa, que corresponde al trombo visible dentro del vaso",
       "Borramiento de los surcos corticales por edema citotóxico incipiente",
       "Hipodensidad establecida en un territorio vascular definido, que se hace evidente pasadas varias horas",
@@ -2255,7 +2255,7 @@
       "Efecto de masa progresivo en infartos extensos"
     ],
     "hallazgos": "Área hipodensa en territorio vascular con pérdida de la diferenciación corticosubcortical, compatible con infarto cerebral.",
-    "perlas": "La tomografía inicial del ictus isquémico puede ser prácticamente normal, y eso no descarta nada: su objetivo principal en la urgencia es excluir hemorragia para poder decidir si el paciente es candidato a trombólisis. La resonancia con difusión detecta el infarto en minutos, mucho antes que la tomografía.",
+    "perlas": "La tomografía inicial del ictus isquémico puede ser prácticamente normal, y eso no descarta nada: Su objetivo principal en la urgencia es excluir hemorragia para poder decidir si el paciente es candidato a trombólisis. La resonancia con difusión detecta el infarto en minutos, mucho antes que la tomografía.",
     "imagen": "img/tc-ictus.jpg",
     "credito": "Goleisureintl · CC BY 4.0 · Wikimedia Commons",
     "etiquetas": [
@@ -2325,7 +2325,7 @@
     "descripcion": "La resonancia ofrece el mejor detalle del tejido cerebral y no emplea radiación ionizante. Es el estudio de elección en tumores, enfermedades desmielinizantes, epilepsia, patología de fosa posterior y en todo aquello que la tomografía no resuelve.",
     "tecnica": "Se adquieren múltiples secuencias complementarias (T1, T2, FLAIR, difusión, eco de gradiente) en varios planos, con administración de gadolinio cuando se sospecha ruptura de la barrera hematoencefálica.",
     "observar": [
-      "En T1 la anatomía se ve de forma intuitiva: sustancia blanca más clara que la gris y líquido cefalorraquídeo oscuro",
+      "En T1 la anatomía se ve de forma intuitiva: Sustancia blanca más clara que la gris y líquido cefalorraquídeo oscuro",
       "En T2 el líquido cefalorraquídeo y la mayoría de las lesiones aparecen brillantes",
       "En FLAIR se suprime la señal del líquido, lo que hace resaltar las lesiones periventriculares",
       "En difusión, el infarto agudo brilla intensamente pocos minutos después de instaurarse",
@@ -2333,7 +2333,7 @@
       "Realce tras gadolinio, que indica alteración de la barrera hematoencefálica por tumor, infección o inflamación"
     ],
     "hallazgos": "Estudio cerebral con diferenciación normal entre sustancia gris y blanca, sistema ventricular de tamaño conservado y estructuras de la línea media centradas.",
-    "perlas": "Regla mnemotécnica sencilla para no confundirse: en T2 el agua se ve blanca ('T2 igual a H2O'). Con eso basta para identificar cualquier secuencia mirando el líquido cefalorraquídeo de los ventrículos: si está negro es T1, si está blanco es T2, y si está negro pero hay lesiones blancas alrededor es FLAIR.",
+    "perlas": "Regla mnemotécnica sencilla para no confundirse: En T2 el agua se ve blanca ('T2 igual a H2O'). Con eso basta para identificar cualquier secuencia mirando el líquido cefalorraquídeo de los ventrículos: Si está negro es T1, si está blanco es T2, y si está negro pero hay lesiones blancas alrededor es FLAIR.",
     "imagen": "img/rm-cerebro.jpg",
     "credito": "Asnaebsa · CC BY-SA 4.0 · Wikimedia Commons",
     "etiquetas": [
@@ -2405,14 +2405,14 @@
     "tecnica": "Cortes sagitales y axiales de columna lumbar en secuencias T1 y T2, sin necesidad de contraste salvo en pacientes ya operados, donde el gadolinio ayuda a distinguir fibrosis de hernia recidivante.",
     "observar": [
       "Pérdida de señal del disco en T2 (disco negro), que indica deshidratación degenerativa",
-      "Terminología precisa: protrusión cuando la base es más ancha que el material herniado, y extrusión cuando ocurre lo contrario",
-      "Localización del fragmento: central, subarticular, foraminal o extraforaminal, dato que determina qué raíz se afecta",
+      "Terminología precisa: Protrusión cuando la base es más ancha que el material herniado, y extrusión cuando ocurre lo contrario",
+      "Localización del fragmento: Central, subarticular, foraminal o extraforaminal, dato que determina qué raíz se afecta",
       "Grado de compresión del saco dural y de las raíces nerviosas",
       "Fragmento libre (secuestro) migrado hacia arriba o hacia abajo respecto al disco de origen",
       "Estenosis del canal lumbar asociada, valorando el diámetro anteroposterior"
     ],
     "hallazgos": "Material discal que sobrepasa el margen vertebral con compromiso del espacio epidural y contacto con las estructuras nerviosas adyacentes.",
-    "perlas": "Las hernias discales aparecen en un porcentaje muy alto de personas completamente asintomáticas, y la proporción aumenta con la edad. Por eso el informe debe correlacionarse siempre con la clínica: lo que importa es si la hernia comprime la raíz que corresponde a los síntomas del paciente.",
+    "perlas": "Las hernias discales aparecen en un porcentaje muy alto de personas completamente asintomáticas, y la proporción aumenta con la edad. Por eso el informe debe correlacionarse siempre con la clínica: Lo que importa es si la hernia comprime la raíz que corresponde a los síntomas del paciente.",
     "imagen": "img/rm-hernia-discal.jpg",
     "credito": "Dr. Harry Gouvas · Licencia de atribución · Wikimedia Commons",
     "etiquetas": [
@@ -2457,7 +2457,7 @@
       "Las variantes de transición lumbosacra provocan errores de numeración de niveles, con el consiguiente riesgo de intervenir el segmento equivocado."
     ],
     "porModalidad": {
-      "RM": "Estudio de elección: muestra el disco, el saco dural, las raíces y la médula, y con gadolinio distingue fibrosis de hernia recidivante en el paciente operado.",
+      "RM": "Estudio de elección: Muestra el disco, el saco dural, las raíces y la médula, y con gadolinio distingue fibrosis de hernia recidivante en el paciente operado.",
       "TC": "Alternativa cuando la resonancia está contraindicada; define bien el hueso, la calcificación discal y la estenosis ósea, y guía procedimientos.",
       "RX": "Valora alineación, altura discal e inestabilidad con proyecciones dinámicas, pero no muestra el disco ni las raíces.",
       "US": "Sin papel diagnóstico en el adulto, aunque se emplea para guiar infiltraciones y bloqueos."
@@ -2479,18 +2479,18 @@
     "region": "Abdomen",
     "dificultad": "Básico",
     "esNormal": true,
-    "descripcion": "El ultrasonido es el primer estudio del abdomen superior: no usa radiación, es accesible y permite valorar hígado, vesícula, vía biliar, páncreas, bazo y riñones en la misma exploración.",
+    "descripcion": "El ultrasonido es el primer estudio del abdomen superior: No usa radiación, es accesible y permite valorar hígado, vesícula, vía biliar, páncreas, bazo y riñones en la misma exploración.",
     "tecnica": "Transductor convexo de baja frecuencia, paciente en ayuno de 6-8 horas para que la vesícula esté distendida. Se emplean cortes subcostales e intercostales, pidiendo inspiración profunda para descender el hígado.",
     "observar": [
       "Ecogenicidad del parénquima hepático, que normalmente es ligeramente superior a la de la corteza renal derecha",
       "Textura homogénea, sin nódulos ni áreas focales",
-      "Contorno hepático liso: su irregularidad sugiere cirrosis",
+      "Contorno hepático liso: Su irregularidad sugiere cirrosis",
       "Tamaño hepático, midiendo el lóbulo derecho en la línea medioclavicular (habitualmente menor de 15-16 cm)",
       "Venas suprahepáticas y porta, valorando calibre y permeabilidad",
       "Vía biliar intrahepática no dilatada, que en condiciones normales apenas se identifica"
     ],
     "hallazgos": "Hígado de tamaño normal, ecogenicidad y textura homogéneas, con contornos lisos y sistema vascular de calibre conservado.",
-    "perlas": "La comparación entre hígado y riñón derecho es la maniobra más útil del ultrasonido abdominal: si el hígado se ve claramente más brillante que la corteza renal, se trata de esteatosis (hígado graso). Es una comparación rápida que no requiere medir nada.",
+    "perlas": "La comparación entre hígado y riñón derecho es la maniobra más útil del ultrasonido abdominal: Si el hígado se ve claramente más brillante que la corteza renal, se trata de esteatosis (hígado graso). Es una comparación rápida que no requiere medir nada.",
     "imagen": "img/us-higado.jpg",
     "credito": "Mikael Häggström · CC0 · Wikimedia Commons",
     "etiquetas": [
@@ -2564,11 +2564,11 @@
       "Sombra acústica posterior, que es la banda oscura que se proyecta por detrás del cálculo",
       "Movilidad al cambiar la posición del paciente, dato que diferencia un cálculo de un pólipo (el pólipo no se mueve ni deja sombra)",
       "Grosor de la pared vesicular, normalmente menor de 3 mm; su engrosamiento sugiere colecistitis",
-      "Signo de Murphy ecográfico: dolor selectivo al presionar con el transductor sobre la vesícula",
+      "Signo de Murphy ecográfico: Dolor selectivo al presionar con el transductor sobre la vesícula",
       "Calibre del colédoco, normalmente menor de 6 mm, cuya dilatación indica obstrucción de la vía biliar"
     ],
     "hallazgos": "Imagen ecogénica móvil en el interior de la vesícula biliar con sombra acústica posterior, característica de litiasis.",
-    "perlas": "La tríada del cálculo es: brillante, con sombra y móvil. Si falta la movilidad hay que pensar en pólipo o en un cálculo impactado en el cuello vesicular, y si falta la sombra probablemente sea barro biliar en lugar de un cálculo verdadero.",
+    "perlas": "La tríada del cálculo es: Brillante, con sombra y móvil. Si falta la movilidad hay que pensar en pólipo o en un cálculo impactado en el cuello vesicular, y si falta la sombra probablemente sea barro biliar en lugar de un cálculo verdadero.",
     "imagen": "img/us-vesicula-litiasis.jpg",
     "credito": "Nevit Dilmen · CC BY-SA 3.0 · Wikimedia Commons",
     "etiquetas": [
@@ -2641,9 +2641,9 @@
       "Apéndice dilatado, con diámetro transverso mayor de 6 mm",
       "Engrosamiento y realce de la pared apendicular tras el contraste",
       "Infiltración de la grasa periapendicular, que aparece 'sucia' o con densidad aumentada",
-      "Apendicolito: calcificación densa en la luz del apéndice, presente en una parte de los casos",
+      "Apendicolito: Calcificación densa en la luz del apéndice, presente en una parte de los casos",
       "Líquido libre en la fosa ilíaca derecha",
-      "Signos de perforación: gas extraluminal, absceso o colección organizada",
+      "Signos de perforación: Gas extraluminal, absceso o colección organizada",
       "Diagnósticos alternativos que simulan apendicitis, como diverticulitis, adenitis mesentérica o patología ginecológica"
     ],
     "hallazgos": "Apéndice cecal dilatado con engrosamiento parietal e infiltración de la grasa adyacente, hallazgos compatibles con apendicitis aguda.",
@@ -2692,7 +2692,7 @@
       "El colapso del ciego y el gas intestinal dificultan la visualización del apéndice en ultrasonido, y su no visualización no equivale a normalidad."
     ],
     "porModalidad": {
-      "TC": "Técnica de mayor precisión en el adulto: identifica el apéndice, define complicaciones y ofrece diagnósticos alternativos cuando no hay apendicitis.",
+      "TC": "Técnica de mayor precisión en el adulto: Identifica el apéndice, define complicaciones y ofrece diagnósticos alternativos cuando no hay apendicitis.",
       "US": "Primera opción en niños, jóvenes y embarazadas por la ausencia de radiación; con compresión gradual puede visualizar el apéndice inflamado y no compresible.",
       "RM": "Alternativa sin radiación en la embarazada y en el paciente joven cuando el ultrasonido no es concluyente.",
       "RX": "Aporta muy poco; solo de forma excepcional muestra un apendicolito o signos indirectos de íleo o de perforación."
@@ -2717,15 +2717,15 @@
     "descripcion": "Detención del tránsito intestinal por una causa mecánica, generalmente bridas posquirúrgicas, hernias o tumores. La radiografía simple de abdomen sigue siendo el estudio inicial por su rapidez y disponibilidad.",
     "tecnica": "Radiografía de abdomen en decúbito supino y en bipedestación (o en decúbito lateral izquierdo si el paciente no puede incorporarse), ya que los niveles hidroaéreos solo se demuestran con el haz horizontal.",
     "observar": [
-      "Asas intestinales dilatadas: por encima de 3 cm en intestino delgado y de 6 cm en colon",
+      "Asas intestinales dilatadas: Por encima de 3 cm en intestino delgado y de 6 cm en colon",
       "Niveles hidroaéreos múltiples y escalonados en la proyección en bipedestación",
-      "Distinción entre delgado y colon: el delgado muestra válvulas conniventes que cruzan toda la luz, mientras el colon tiene haustras que no la atraviesan por completo",
+      "Distinción entre delgado y colon: El delgado muestra válvulas conniventes que cruzan toda la luz, mientras el colon tiene haustras que no la atraviesan por completo",
       "Ausencia de gas distal, que indica obstrucción completa",
       "Localización de la transición entre asa dilatada y asa colapsada, que señala el punto de obstrucción",
-      "Signos de alarma: neumoperitoneo, neumatosis intestinal o gas en la vena porta, que sugieren perforación o isquemia"
+      "Signos de alarma: Neumoperitoneo, neumatosis intestinal o gas en la vena porta, que sugieren perforación o isquemia"
     ],
     "hallazgos": "Asas intestinales dilatadas con niveles hidroaéreos, patrón compatible con obstrucción intestinal.",
-    "perlas": "Diferenciar delgado de colon en la radiografía cambia por completo el diagnóstico diferencial. Truco visual: las válvulas conniventes del delgado dibujan líneas finas que cruzan la luz de lado a lado, como los peldaños de una escalera; las haustras del colon son más gruesas y se detienen a mitad de camino.",
+    "perlas": "Diferenciar delgado de colon en la radiografía cambia por completo el diagnóstico diferencial. Truco visual: Las válvulas conniventes del delgado dibujan líneas finas que cruzan la luz de lado a lado, como los peldaños de una escalera; las haustras del colon son más gruesas y se detienen a mitad de camino.",
     "imagen": "img/rx-obstruccion-intestinal.jpg",
     "credito": "Igboeze · CC BY-SA 4.0 · Wikimedia Commons",
     "etiquetas": [
@@ -2770,7 +2770,7 @@
       "Una dilatación gástrica marcada por aerofagia o por sonda mal colocada puede confundirse con obstrucción proximal."
     ],
     "porModalidad": {
-      "RX": "Estudio inicial por su rapidez: confirma la dilatación, orienta si es delgado o colon y detecta neumoperitoneo.",
+      "RX": "Estudio inicial por su rapidez: Confirma la dilatación, orienta si es delgado o colon y detecta neumoperitoneo.",
       "TC": "Técnica de elección para determinar el nivel, la causa y la presencia de complicaciones como isquemia, perforación o estrangulación.",
       "US": "Útil en manos expertas, sobre todo en niños y embarazadas, para ver asas dilatadas, movimiento de vaivén del contenido y líquido libre.",
       "RM": "Uso limitado, reservado a la embarazada y a estudios específicos del intestino delgado en patología inflamatoria crónica."
@@ -2796,14 +2796,14 @@
     "tecnica": "Transductor convexo, explorando ambos riñones en cortes longitudinales y transversales, por vía subcostal e intercostal, con el paciente en decúbito supino y en decúbito lateral.",
     "observar": [
       "Dilatación anecoica (negra) del sistema colector en el seno renal",
-      "Graduación: leve cuando solo se dilata la pelvis, moderada cuando se incluyen los cálices, y grave cuando además hay adelgazamiento del parénquima",
+      "Graduación: Leve cuando solo se dilata la pelvis, moderada cuando se incluyen los cálices, y grave cuando además hay adelgazamiento del parénquima",
       "Grosor del parénquima renal, cuyo adelgazamiento indica obstrucción de larga evolución",
       "Uréter dilatado, que si se identifica ayuda a localizar el nivel de la obstrucción",
-      "Cálculo obstructivo: foco ecogénico con sombra acústica en el riñón o en la unión ureterovesical",
-      "Vejiga: su repleción excesiva puede causar dilatación bilateral que se resuelve tras el vaciamiento"
+      "Cálculo obstructivo: Foco ecogénico con sombra acústica en el riñón o en la unión ureterovesical",
+      "Vejiga: Su repleción excesiva puede causar dilatación bilateral que se resuelve tras el vaciamiento"
     ],
     "hallazgos": "Dilatación del sistema pielocalicial renal con separación de los ecos del seno, compatible con hidronefrosis.",
-    "perlas": "Antes de diagnosticar hidronefrosis conviene comprobar la vejiga: si está muy llena, la dilatación puede ser simplemente funcional. Repetir el estudio tras la micción evita diagnósticos falsos, y es un paso que se olvida con frecuencia.",
+    "perlas": "Antes de diagnosticar hidronefrosis conviene comprobar la vejiga: Si está muy llena, la dilatación puede ser simplemente funcional. Repetir el estudio tras la micción evita diagnósticos falsos, y es un paso que se olvida con frecuencia.",
     "imagen": "img/us-hidronefrosis.jpg",
     "credito": "Cerevisae · CC BY-SA 4.0 · Wikimedia Commons",
     "etiquetas": [
@@ -2848,7 +2848,7 @@
       "Una obstrucción muy reciente o en un paciente deshidratado puede cursar sin dilatación apreciable, lo que da un falso resultado negativo."
     ],
     "porModalidad": {
-      "US": "Técnica de primera línea: detecta y gradúa la dilatación sin radiación, valora el grosor del parénquima y es repetible en el seguimiento.",
+      "US": "Técnica de primera línea: Detecta y gradúa la dilatación sin radiación, valora el grosor del parénquima y es repetible en el seguimiento.",
       "TC": "La tomografía sin contraste es la referencia para identificar litiasis y determinar el nivel de la obstrucción, y con contraste valora la función y la causa.",
       "RM": "Alternativa sin radiación en embarazadas y en niños, con excelente valoración de la vía urinaria mediante secuencias muy potenciadas en T2.",
       "RX": "La radiografía simple puede mostrar litiasis cálcicas y sirve como referencia en el seguimiento de cálculos ya conocidos."
@@ -2950,11 +2950,11 @@
     "dificultad": "Intermedio",
     "esNormal": true,
     "descripcion": "Estudio radiológico de la mama con equipos y dosis específicas, base de los programas de detección precoz del cáncer de mama. La proyección oblicua mediolateral es la más completa porque incluye la cola axilar, donde asientan muchas lesiones.",
-    "tecnica": "Compresión firme de la mama, necesaria para separar los tejidos, reducir la dosis y disminuir el movimiento. Se realizan de rutina dos proyecciones por mama: craneocaudal y oblicua mediolateral.",
+    "tecnica": "Compresión firme de la mama, necesaria para separar los tejidos, reducir la dosis y disminuir el movimiento. Se realizan de rutina dos proyecciones por mama: Craneocaudal y oblicua mediolateral.",
     "observar": [
-      "Densidad mamaria según la clasificación establecida, desde predominantemente grasa hasta extremadamente densa: cuanta mayor densidad, menor sensibilidad del estudio",
-      "Nódulos: valorar forma, márgenes y densidad, ya que los márgenes espiculados son altamente sospechosos",
-      "Microcalcificaciones: su morfología y distribución son claves; las agrupadas, pleomórficas o lineales resultan sospechosas",
+      "Densidad mamaria según la clasificación establecida, desde predominantemente grasa hasta extremadamente densa: Cuanta mayor densidad, menor sensibilidad del estudio",
+      "Nódulos: Valorar forma, márgenes y densidad, ya que los márgenes espiculados son altamente sospechosos",
+      "Microcalcificaciones: Su morfología y distribución son claves; las agrupadas, pleomórficas o lineales resultan sospechosas",
       "Distorsión de la arquitectura del tejido glandular",
       "Asimetrías entre ambas mamas, comparando siempre los estudios en espejo",
       "Ganglios axilares, valorando tamaño y conservación del hilio graso",
@@ -3007,11 +3007,11 @@
     ],
     "porModalidad": {
       "RX": "La mamografía es la base de los programas de detección precoz y la única técnica que muestra con fiabilidad las microcalcificaciones; la tomosíntesis reduce el efecto de la superposición.",
-      "US": "Complemento imprescindible: distingue lesiones sólidas de quísticas, evalúa la axila, es de elección en mamas densas y en mujeres jóvenes, y guía biopsias.",
+      "US": "Complemento imprescindible: Distingue lesiones sólidas de quísticas, evalúa la axila, es de elección en mamas densas y en mujeres jóvenes, y guía biopsias.",
       "RM": "Máxima sensibilidad; se emplea en el cribado de alto riesgo, en la valoración de la extensión tumoral, en la respuesta al tratamiento y en las prótesis.",
       "TC": "No se usa para el estudio local de la mama, aunque interviene en la estadificación a distancia de la enfermedad."
     },
-    "protocolo": "Se realizan de rutina dos proyecciones por mama: la craneocaudal y la oblicua mediolateral. En la oblicua mediolateral el receptor se angula entre cuarenta y cinco y sesenta grados paralelo al borde del músculo pectoral, y se considera técnicamente correcta cuando se ve el pectoral hasta la altura del pezón, el pezón queda de perfil y se incluye el surco inframamario. La compresión firme es esencial porque separa los tejidos, uniformiza el grosor, reduce la dosis y evita el borrado por movimiento. Se emplean equipos dedicados con ánodo y filtro específicos y control automático de exposición. Ante hallazgos dudosos se añaden compresión focalizada, magnificación para caracterizar calcificaciones y proyecciones complementarias.",
+    "protocolo": "Se realizan de rutina dos proyecciones por mama: La craneocaudal y la oblicua mediolateral. En la oblicua mediolateral el receptor se angula entre cuarenta y cinco y sesenta grados paralelo al borde del músculo pectoral, y se considera técnicamente correcta cuando se ve el pectoral hasta la altura del pezón, el pezón queda de perfil y se incluye el surco inframamario. La compresión firme es esencial porque separa los tejidos, uniformiza el grosor, reduce la dosis y evita el borrado por movimiento. Se emplean equipos dedicados con ánodo y filtro específicos y control automático de exposición. Ante hallazgos dudosos se añaden compresión focalizada, magnificación para caracterizar calcificaciones y proyecciones complementarias.",
     "clasificacion": "El sistema BI-RADS estandariza tanto el léxico descriptivo como la conclusión del informe. Sus categorías van de cero, cuando el estudio es incompleto y requiere pruebas adicionales, a seis, reservada a la malignidad ya confirmada por biopsia. La categoría uno indica un estudio negativo y la dos, hallazgos benignos, ambas con seguimiento habitual; la tres corresponde a hallazgos probablemente benignos con un riesgo muy bajo de malignidad y se sigue a corto plazo; la cuatro agrupa los hallazgos sospechosos, con subdivisiones de sospecha creciente, y obliga a biopsia; y la cinco corresponde a hallazgos altamente sugestivos de malignidad. El informe incluye además la categoría de densidad mamaria, de a a d, porque condiciona la sensibilidad del estudio.",
     "errores": [
       "Aceptar un estudio con colocación insuficiente, en el que parte del tejido posterior o de la cola axilar no se ha incluido.",
@@ -3032,8 +3032,8 @@
     "tecnica": "Transductor lineal de alta frecuencia con el paciente en decúbito supino y el cuello en hiperextensión. Se recorren ambos lóbulos y el istmo en cortes longitudinales y transversales.",
     "observar": [
       "Tamaño y ecogenicidad de la glándula, normalmente homogénea y más brillante que la musculatura vecina",
-      "Nódulos: describir composición (sólido o quístico), ecogenicidad, forma, márgenes y presencia de focos ecogénicos",
-      "Rasgos sospechosos: nódulo marcadamente hipoecoico, más alto que ancho, de márgenes irregulares o con microcalcificaciones",
+      "Nódulos: Describir composición (sólido o quístico), ecogenicidad, forma, márgenes y presencia de focos ecogénicos",
+      "Rasgos sospechosos: Nódulo marcadamente hipoecoico, más alto que ancho, de márgenes irregulares o con microcalcificaciones",
       "Vascularización con Doppler, valorando si es periférica o central",
       "Ganglios cervicales, buscando pérdida del hilio graso o calcificaciones que sugieran afectación metastásica",
       "Patrón heterogéneo difuso con hipervascularización, sugestivo de tiroiditis"
@@ -3090,7 +3090,7 @@
       "RX": "La radiografía cervicotorácica solo muestra de forma indirecta desviación traqueal o calcificaciones."
     },
     "protocolo": "El paciente se coloca en decúbito supino con una almohadilla bajo los hombros para hiperextender el cuello y exponer la región tiroidea. Se emplea un transductor lineal de alta frecuencia y se recorren de forma sistemática ambos lóbulos y el istmo en planos longitudinal y transversal, midiendo los tres diámetros de la glándula y de cada nódulo relevante. Cada nódulo se documenta describiendo composición, ecogenicidad, forma, márgenes y focos ecogénicos, y se completa con Doppler color para valorar el patrón de vascularización. Se exploran además los compartimentos ganglionares cervicales. La punción aspirativa se realiza con guía ecográfica en tiempo real cuando el nódulo cumple criterios de riesgo.",
-    "clasificacion": "Los sistemas estructurados de estratificación del riesgo del nódulo tiroideo, conocidos genéricamente como TI-RADS, asignan puntos según cinco características ecográficas: composición, ecogenicidad, forma, márgenes y focos ecogénicos. La suma de puntos sitúa al nódulo en una categoría de riesgo creciente, y la conducta, que puede ser no actuar, seguir o puncionar, depende de la combinación entre esa categoría y el tamaño del nódulo, de modo que a mayor sospecha se punciona a partir de un tamaño menor. Los resultados citológicos de la punción se informan con el sistema de Bethesda, que agrupa las muestras en categorías con un riesgo estimado de malignidad y una recomendación asociada.",
+    "clasificacion": "Los sistemas estructurados de estratificación del riesgo del nódulo tiroideo, conocidos genéricamente como TI-RADS, asignan puntos según cinco características ecográficas: Composición, ecogenicidad, forma, márgenes y focos ecogénicos. La suma de puntos sitúa al nódulo en una categoría de riesgo creciente, y la conducta, que puede ser no actuar, seguir o puncionar, depende de la combinación entre esa categoría y el tamaño del nódulo, de modo que a mayor sospecha se punciona a partir de un tamaño menor. Los resultados citológicos de la punción se informan con el sistema de Bethesda, que agrupa las muestras en categorías con un riesgo estimado de malignidad y una recomendación asociada.",
     "errores": [
       "Recomendar la punción solo por el tamaño del nódulo, sin aplicar los criterios de sospecha ecográfica.",
       "No explorar los compartimentos ganglionares cervicales, donde puede estar el hallazgo más relevante.",

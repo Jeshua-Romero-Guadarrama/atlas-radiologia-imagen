@@ -8,7 +8,7 @@
     "dificultad": "Intermedio",
     "esNormal": false,
     "descripcion": "Es la fractura más frecuente de los huesos del carpo y aparece sobre todo en adultos jóvenes tras una caída sobre la mano extendida. Su importancia clínica es desproporcionada respecto a su tamaño porque la vascularización del escafoides entra por su polo distal, de modo que las fracturas proximales pueden dejar al fragmento sin aporte sanguíneo. Un diagnóstico tardío se asocia a seudoartrosis y a colapso degenerativo de la muñeca.",
-    "tecnica": "Serie de escafoides: posteroanterior con desviación cubital, lateral y dos oblicuas. La desviación cubital elonga el hueso y despliega su cintura, que es donde se localiza la mayoría de los trazos.",
+    "tecnica": "Serie de escafoides: Posteroanterior con desviación cubital, lateral y dos oblicuas. La desviación cubital elonga el hueso y despliega su cintura, que es donde se localiza la mayoría de los trazos.",
     "observar": [
       "Línea radiolúcida transversal en la cintura del escafoides, a menudo muy fina",
       "Pérdida de continuidad de la cortical en cualquiera de las cuatro proyecciones",
@@ -18,7 +18,7 @@
       "Alineación del carpo en la proyección lateral, buscando inestabilidad"
     ],
     "hallazgos": "Trazo de fractura habitualmente en la cintura del escafoides, con desplazamiento mínimo o nulo, acompañado de aumento de volumen de partes blandas de la cara radial de la muñeca.",
-    "perlas": "Una radiografía inicial normal no descarta la fractura: hasta una cuarta parte no se ve el primer día. Ante dolor en la tabaquera anatómica se inmoviliza y se repite el estudio en una o dos semanas, o se completa con tomografía o resonancia.",
+    "perlas": "Una radiografía inicial normal no descarta la fractura: Hasta una cuarta parte no se ve el primer día. Ante dolor en la tabaquera anatómica se inmoviliza y se repite el estudio en una o dos semanas, o se completa con tomografía o resonancia.",
     "diferencial": [
       {
         "entidad": "Esguince de muñeca",
@@ -141,7 +141,7 @@
       "Ruptura de la línea cervicocefálica continua en el borde inferior del cuello",
       "Trazo entre ambos trocánteres en las fracturas pertrocantéreas, a menudo conminuto",
       "Asimetría en la posición del trocánter menor por la rotación del miembro",
-      "Signos indirectos de fractura oculta: engrosamiento trabecular o esclerosis lineal"
+      "Signos indirectos de fractura oculta: Engrosamiento trabecular o esclerosis lineal"
     ],
     "hallazgos": "Solución de continuidad en el cuello femoral o en la región trocantérea, con angulación en varo, acortamiento y pérdida de la alineación trabecular normal.",
     "perlas": "Ante un anciano que no puede apoyar tras una caída y con radiografía normal, hay que descartar fractura oculta con resonancia o tomografía. La resonancia muestra edema medular desde el primer día y evita altas equivocadas.",
@@ -200,14 +200,14 @@
     "tecnica": "Proyecciones anteroposterior, lateral y de mortaja con quince a veinte grados de rotación interna, que despliega el espacio articular de forma uniforme.",
     "observar": [
       "Altura del trazo peroneo respecto a la sindesmosis tibioperonea",
-      "Espacio claro medial: si supera el grosor del espacio superior sugiere lesión del ligamento deltoideo",
+      "Espacio claro medial: Si supera el grosor del espacio superior sugiere lesión del ligamento deltoideo",
       "Congruencia de la mortaja, con espacio articular simétrico en todo su contorno",
       "Fractura del maléolo medial o del margen posterior de la tibia",
       "Diástasis tibioperonea con solapamiento reducido en la proyección frontal",
       "Fractura proximal del peroné, que indica lesión por rotación externa alta"
     ],
     "hallazgos": "Trazo de fractura maleolar con grado variable de desplazamiento y posible pérdida de la congruencia de la mortaja tibioastragalina.",
-    "perlas": "Si hay fractura maleolar medial o ensanchamiento del espacio claro medial sin fractura peronea visible, hay que radiografiar toda la pierna: puede existir una fractura alta del peroné con lesión completa de la sindesmosis.",
+    "perlas": "Si hay fractura maleolar medial o ensanchamiento del espacio claro medial sin fractura peronea visible, hay que radiografiar toda la pierna: Puede existir una fractura alta del peroné con lesión completa de la sindesmosis.",
     "diferencial": [
       {
         "entidad": "Esguince de tobillo",
@@ -233,7 +233,7 @@
       "RM": "Lesiones ligamentarias, osteocondrales y edema óseo"
     },
     "protocolo": "Tres proyecciones estándar. Añadir radiografía de pierna completa si se sospecha lesión sindesmótica alta y tomografía si hay afectación articular compleja.",
-    "clasificacion": "La clasificación de Weber ordena las fracturas del peroné según la altura del trazo respecto a la sindesmosis: por debajo, a su nivel o por encima. Cuanto más alto es el trazo, mayor la probabilidad de inestabilidad.",
+    "clasificacion": "La clasificación de Weber ordena las fracturas del peroné según la altura del trazo respecto a la sindesmosis: Por debajo, a su nivel o por encima. Cuanto más alto es el trazo, mayor la probabilidad de inestabilidad.",
     "errores": [
       "No pedir la proyección de mortaja y sobrestimar la congruencia articular",
       "Ignorar el ensanchamiento del espacio claro medial en ausencia de fractura medial",
@@ -329,7 +329,7 @@
       "Edema medular extenso con hiperseñal en las secuencias sensibles al líquido",
       "Destrucción cortical y trayectos fistulosos hacia la piel",
       "Colecciones subperiósticas o abscesos de partes blandas con realce periférico",
-      "Secuestro: fragmento óseo necrótico rodeado de tejido de granulación",
+      "Secuestro: Fragmento óseo necrótico rodeado de tejido de granulación",
       "Reacción perióstica y en fases crónicas involucro que envuelve el hueso"
     ],
     "hallazgos": "Alteración de la señal medular con pérdida del patrón graso, edema, realce tras contraste y afectación de partes blandas adyacentes con o sin colecciones.",
@@ -459,7 +459,7 @@
       "Deformidades tardías en ráfaga cubital, cuello de cisne y ojal"
     ],
     "hallazgos": "Erosiones marginales simétricas con pinzamiento articular uniforme, osteopenia periarticular y tumefacción de partes blandas, sin formación ósea reactiva significativa.",
-    "perlas": "La regla que la separa de la artrosis es la ausencia de osteofitos y de esclerosis: en la reumatoide predomina la destrucción, en la artrosis la reparación. Y la afectación es de articulaciones proximales, respetando las interfalángicas distales.",
+    "perlas": "La regla que la separa de la artrosis es la ausencia de osteofitos y de esclerosis: En la reumatoide predomina la destrucción, en la artrosis la reparación. Y la afectación es de articulaciones proximales, respetando las interfalángicas distales.",
     "diferencial": [
       {
         "entidad": "Artrosis",
@@ -585,7 +585,7 @@
       "Edema óseo en los ángulos vertebrales en resonancia como signo de actividad"
     ],
     "hallazgos": "Sacroileítis bilateral simétrica con esclerosis y fusión, junto a sindesmofitos verticales y osificación ligamentaria que rigidiza la columna.",
-    "perlas": "La columna anquilosada se comporta como un hueso largo: un traumatismo leve puede producir una fractura transversal inestable con alto riesgo neurológico. Ante cualquier trauma en estos pacientes se hace estudio seccional, nunca solo radiografía.",
+    "perlas": "La columna anquilosada se comporta como un hueso largo: Un traumatismo leve puede producir una fractura transversal inestable con alto riesgo neurológico. Ante cualquier trauma en estos pacientes se hace estudio seccional, nunca solo radiografía.",
     "diferencial": [
       {
         "entidad": "Hiperostosis esquelética idiopática difusa",
@@ -960,10 +960,10 @@
       "Orientación de la lesión apuntando en dirección contraria a la articulación",
       "Base sésil o pediculada según su forma de implantación",
       "Casquete cartilaginoso fino, habitualmente de pocos milímetros en el adulto",
-      "Signos de alarma: crecimiento tras el cierre fisario o casquete grueso"
+      "Signos de alarma: Crecimiento tras el cierre fisario o casquete grueso"
     ],
     "hallazgos": "Excrecencia ósea metafisaria en continuidad medular y cortical con el hueso, orientada en sentido opuesto a la articulación vecina.",
-    "perlas": "El dato clave es la continuidad medular: ninguna otra lesión la presenta. Un casquete cartilaginoso grueso en un adulto o el crecimiento después de cerradas las fisis obligan a descartar transformación a condrosarcoma.",
+    "perlas": "El dato clave es la continuidad medular: Ninguna otra lesión la presenta. Un casquete cartilaginoso grueso en un adulto o el crecimiento después de cerradas las fisis obligan a descartar transformación a condrosarcoma.",
     "diferencial": [
       {
         "entidad": "Condrosarcoma periférico",
@@ -1646,7 +1646,7 @@
       "Contornos bien definidos y ausencia de realce significativo tras contraste",
       "Ausencia o presencia mínima de septos internos, siempre finos",
       "Tamaño estable en el tiempo y localización habitualmente superficial",
-      "Signos de alarma: septos gruesos, nódulos sólidos, tamaño grande o localización profunda",
+      "Signos de alarma: Septos gruesos, nódulos sólidos, tamaño grande o localización profunda",
       "Ausencia de invasión de estructuras vecinas"
     ],
     "hallazgos": "Masa de partes blandas homogénea con señal grasa pura, bien delimitada y sin componentes sólidos ni realce relevante.",
@@ -1775,7 +1775,7 @@
       "Fracturas incompletas transversales en la cortical convexa"
     ],
     "hallazgos": "Hueso aumentado de tamaño con corticales engrosadas, trabéculas groseras y áreas mixtas líticas y escleróticas.",
-    "perlas": "El agrandamiento del hueso es lo que distingue Paget de una metástasis blástica: las metástasis no aumentan el tamaño ni engrosan la cortical. El dolor nuevo y persistente en un hueso pagético obliga a descartar transformación sarcomatosa.",
+    "perlas": "El agrandamiento del hueso es lo que distingue Paget de una metástasis blástica: Las metástasis no aumentan el tamaño ni engrosan la cortical. El dolor nuevo y persistente en un hueso pagético obliga a descartar transformación sarcomatosa.",
     "diferencial": [
       {
         "entidad": "Metástasis blásticas",
@@ -1889,7 +1889,7 @@
     "region": "Tórax",
     "dificultad": "Intermedio",
     "esNormal": false,
-    "descripcion": "La enfermedad pulmonar obstructiva crónica se caracteriza por limitación al flujo aéreo poco reversible, con dos componentes: enfisema, que destruye el parénquima, y bronquitis crónica, que engrosa las paredes bronquiales. El tabaquismo es la causa principal. La tomografía permite cuantificar y tipificar el enfisema, información útil para valorar tratamientos como la reducción de volumen.",
+    "descripcion": "La enfermedad pulmonar obstructiva crónica se caracteriza por limitación al flujo aéreo poco reversible, con dos componentes: Enfisema, que destruye el parénquima, y bronquitis crónica, que engrosa las paredes bronquiales. El tabaquismo es la causa principal. La tomografía permite cuantificar y tipificar el enfisema, información útil para valorar tratamientos como la reducción de volumen.",
     "tecnica": "Tomografía de tórax sin contraste con cortes finos y reconstrucción de alta resolución, adquirida en inspiración máxima y complementada con espiración para valorar atrapamiento aéreo.",
     "observar": [
       "Áreas de baja atenuación sin pared definida distribuidas en los lóbulos superiores",
@@ -1962,7 +1962,7 @@
       "Distribución por lóbulos, que orienta hacia la etiología"
     ],
     "hallazgos": "Bronquios dilatados con paredes engrosadas, pérdida del afilamiento normal y presencia de secreciones intraluminales.",
-    "perlas": "El signo del anillo de sello es el hallazgo definitorio: el bronquio dilatado forma el anillo y la arteria adyacente la piedra. La distribución ayuda, ya que la afectación de lóbulos superiores sugiere fibrosis quística y la de lóbulo medio y língula orienta a infección atípica.",
+    "perlas": "El signo del anillo de sello es el hallazgo definitorio: El bronquio dilatado forma el anillo y la arteria adyacente la piedra. La distribución ayuda, ya que la afectación de lóbulos superiores sugiere fibrosis quística y la de lóbulo medio y língula orienta a infección atípica.",
     "diferencial": [
       {
         "entidad": "Enfisema con quistes",
@@ -2084,7 +2084,7 @@
       "Comparación con series previas para valorar evolución"
     ],
     "hallazgos": "Áreas de mayor atenuación pulmonar con conservación de las estructuras vasculares y bronquiales en su interior, de distribución variable.",
-    "perlas": "La diferencia práctica con la consolidación está en si se siguen viendo los vasos: si se ven, es vidrio deslustrado; si desaparecen y aparece broncograma aéreo, es consolidación. Ese detalle cambia el diagnóstico diferencial por completo.",
+    "perlas": "La diferencia práctica con la consolidación está en si se siguen viendo los vasos: Si se ven, es vidrio deslustrado; si desaparecen y aparece broncograma aéreo, es consolidación. Ese detalle cambia el diagnóstico diferencial por completo.",
     "diferencial": [
       {
         "entidad": "Consolidación",
@@ -2145,7 +2145,7 @@
       "Hiperinsuflación compensadora de los lóbulos vecinos"
     ],
     "hallazgos": "Opacidad con pérdida de volumen y signos de retracción que desplazan cisuras, mediastino y diafragma hacia el lado afectado.",
-    "perlas": "La clave que separa la atelectasia de la neumonía o del derrame es la dirección del desplazamiento: la atelectasia atrae las estructuras hacia sí, mientras que los procesos que ocupan espacio las empujan hacia el lado contrario.",
+    "perlas": "La clave que separa la atelectasia de la neumonía o del derrame es la dirección del desplazamiento: La atelectasia atrae las estructuras hacia sí, mientras que los procesos que ocupan espacio las empujan hacia el lado contrario.",
     "diferencial": [
       {
         "entidad": "Neumonía lobar",
@@ -2206,7 +2206,7 @@
       "Cardiomegalia con índice cardiotorácico aumentado"
     ],
     "hallazgos": "Opacidades intersticiales y alveolares de predominio central y bilateral, con líneas septales, derrame pleural y aumento de la silueta cardiaca.",
-    "perlas": "El edema cardiogénico avanza de forma ordenada: primero redistribución, luego intersticio y por último alvéolo. Su distribución central y simétrica con derrame y cardiomegalia lo separa del edema lesional del síndrome de distrés.",
+    "perlas": "El edema cardiogénico avanza de forma ordenada: Primero redistribución, luego intersticio y por último alvéolo. Su distribución central y simétrica con derrame y cardiomegalia lo separa del edema lesional del síndrome de distrés.",
     "diferencial": [
       {
         "entidad": "Síndrome de distrés respiratorio agudo",
@@ -2265,7 +2265,7 @@
       "Vidrio deslustrado extenso combinado con consolidaciones",
       "Silueta cardiaca normal y escaso o nulo derrame pleural",
       "Broncograma aéreo dentro de las áreas consolidadas",
-      "Barotrauma como complicación: neumotórax, neumomediastino y quistes"
+      "Barotrauma como complicación: Neumotórax, neumomediastino y quistes"
     ],
     "hallazgos": "Afectación pulmonar bilateral heterogénea con vidrio deslustrado y consolidaciones dependientes, sin cardiomegalia ni signos de sobrecarga hidrostática.",
     "perlas": "El pulmón en el distrés no es homogéneo sino que tiene zonas colapsadas dependientes y zonas aireadas ventrales, lo que explica el uso del decúbito prono. La aparición súbita de enfisema intersticial o neumotórax indica barotrauma y es una urgencia.",
@@ -2312,7 +2312,7 @@
   },
   {
     "codigo": "resp-nodulo-pulmonar-solitario",
-    "titulo": "Nódulo pulmonar solitario: caracterización y seguimiento",
+    "titulo": "Nódulo pulmonar solitario: Caracterización y seguimiento",
     "sistema": "Respiratorio",
     "modalidad": "TC",
     "region": "Tórax",
@@ -2322,7 +2322,7 @@
     "tecnica": "Tomografía de tórax con cortes finos sin contraste, con mediciones reproducibles y comparación sistemática con todos los estudios previos disponibles.",
     "observar": [
       "Tamaño medido en el eje mayor con cortes finos y ventana pulmonar",
-      "Densidad: sólido, subsólido con componente sólido o en vidrio deslustrado puro",
+      "Densidad: Sólido, subsólido con componente sólido o en vidrio deslustrado puro",
       "Márgenes lisos, lobulados o espiculados, siendo la espiculación signo de sospecha",
       "Presencia y patrón de calcificación, con patrones benignos definidos",
       "Grasa interna, muy sugestiva de hamartoma",
@@ -2383,8 +2383,8 @@
     "descripcion": "El mediastino alberga estructuras muy diversas y la localización compartimental de una masa es el primer paso para acotar el diagnóstico. Muchas se descubren de forma casual en una radiografía de tórax y se caracterizan después con tomografía o resonancia. La edad del paciente y los marcadores tumorales completan el razonamiento.",
     "tecnica": "Tomografía de tórax con contraste intravenoso en fase venosa, con reconstrucciones multiplanares. La resonancia se reserva para masas de compartimento posterior y para valorar invasión.",
     "observar": [
-      "Compartimento en que asienta la lesión: prevascular, visceral o paravertebral",
-      "Densidad interna: grasa, líquido, calcio o componentes sólidos heterogéneos",
+      "Compartimento en que asienta la lesión: Prevascular, visceral o paravertebral",
+      "Densidad interna: Grasa, líquido, calcio o componentes sólidos heterogéneos",
       "Realce tras contraste y relación con los grandes vasos",
       "Signo de la silueta y del hilio tapado en la radiografía para localizar la masa",
       "Extensión hacia agujeros de conjunción en las lesiones paravertebrales",
@@ -2689,7 +2689,7 @@
     "region": "Tórax",
     "dificultad": "Avanzado",
     "esNormal": false,
-    "descripcion": "El hongo Aspergillus produce cuadros muy distintos según el estado inmunológico del paciente: colonización de cavidades preexistentes, enfermedad alérgica en asmáticos y enfermedad invasiva en pacientes neutropénicos. Reconocer el patrón permite orientar el tratamiento con rapidez, especialmente en la forma invasiva, que tiene alta mortalidad.",
+    "descripcion": "El hongo Aspergillus produce cuadros muy distintos según el estado inmunológico del paciente: Colonización de cavidades preexistentes, enfermedad alérgica en asmáticos y enfermedad invasiva en pacientes neutropénicos. Reconocer el patrón permite orientar el tratamiento con rapidez, especialmente en la forma invasiva, que tiene alta mortalidad.",
     "tecnica": "Tomografía de tórax con cortes finos, sin o con contraste según el escenario clínico, incluyendo estudio en decúbito prono cuando se sospecha aspergiloma móvil.",
     "observar": [
       "Masa redondeada móvil dentro de una cavidad con aire en semiluna alrededor",
@@ -2699,7 +2699,7 @@
       "Bronquiectasias centrales en la forma alérgica broncopulmonar",
       "Consolidaciones con infarto en la enfermedad angioinvasiva"
     ],
-    "hallazgos": "Hallazgos variables según la forma clínica: masa intracavitaria móvil, nódulos con halo periférico o impactación mucoide bronquial central.",
+    "hallazgos": "Hallazgos variables según la forma clínica: Masa intracavitaria móvil, nódulos con halo periférico o impactación mucoide bronquial central.",
     "perlas": "El signo del halo en un paciente neutropénico febril sugiere aspergilosis angioinvasiva y justifica tratamiento precoz. El aspergiloma, en cambio, se mueve con los cambios de postura, y esa movilidad lo confirma.",
     "diferencial": [
       {
@@ -2761,7 +2761,7 @@
       "Evolución rápida hacia la resolución en las series de control"
     ],
     "hallazgos": "Áreas de consolidación y vidrio deslustrado de límites imprecisos y distribución no segmentaria en el territorio del impacto, con lesiones óseas y pleurales asociadas.",
-    "perlas": "El tiempo de evolución diferencia contusión de infección: la contusión aparece de inmediato y mejora en dos o tres días, mientras que un infiltrado que aparece o empeora después del segundo día sugiere neumonía o aspiración.",
+    "perlas": "El tiempo de evolución diferencia contusión de infección: La contusión aparece de inmediato y mejora en dos o tres días, mientras que un infiltrado que aparece o empeora después del segundo día sugiere neumonía o aspiración.",
     "diferencial": [
       {
         "entidad": "Neumonía por aspiración",
@@ -2822,7 +2822,7 @@
       "Signos de hipoplasia del pulmón del lado afectado"
     ],
     "hallazgos": "Contenido intestinal en el hemitórax con desplazamiento mediastínico contralateral, pérdida del contorno diafragmático y abdomen con poco gas.",
-    "perlas": "El recorrido de la sonda nasogástrica es la pista más rápida y fiable: si asciende hacia el tórax, el estómago está herniado. Este dato también evita confundir la hernia con una malformación quística pulmonar.",
+    "perlas": "El recorrido de la sonda nasogástrica es la pista más rápida y fiable: Si asciende hacia el tórax, el estómago está herniado. Este dato también evita confundir la hernia con una malformación quística pulmonar.",
     "diferencial": [
       {
         "entidad": "Malformación congénita de la vía aérea pulmonar",
@@ -3159,7 +3159,7 @@
       "RM": "Define la relación con el parénquima, la extensión dural, la invasión de senos venosos y la vía de acceso quirúrgica."
     },
     "protocolo": "Cortes finos multiplanares de encéfalo con T1, T2, FLAIR y difusión, seguidos de T1 con contraste en axial, coronal y sagital; se añade venografía por resonancia si la lesión es parasagital o de la hoz para valorar permeabilidad del seno.",
-    "clasificacion": "Se gradúan histológicamente en tres grados: el grado I es benigno y el más frecuente, el grado II es atípico con mayor recurrencia y el grado III es anaplásico o maligno. La imagen no establece el grado, pero los bordes mal definidos, el edema desproporcionado, la restricción marcada a la difusión y la invasión parenquimatosa sugieren grados más altos.",
+    "clasificacion": "Se gradúan histológicamente en tres grados: El grado I es benigno y el más frecuente, el grado II es atípico con mayor recurrencia y el grado III es anaplásico o maligno. La imagen no establece el grado, pero los bordes mal definidos, el edema desproporcionado, la restricción marcada a la difusión y la invasión parenquimatosa sugieren grados más altos.",
     "errores": [
       "Interpretar la cola dural como signo específico de meningioma",
       "Clasificar como intraaxial una lesión con amplia base dural y edema prominente",
@@ -3195,7 +3195,7 @@
       "Efecto de masa, desviación de línea media y compromiso ventricular"
     ],
     "hallazgos": "Lesión intraaxial de sustancia blanca, mal delimitada, hipointensa en T1 e hiperintensa en T2 y FLAIR, con realce periférico grueso, irregular y nodular alrededor de un centro necrótico. Existe abundante señal anómala perilesional que combina edema vasogénico e infiltración tumoral, con importante efecto de masa. La perfusión muestra aumento del volumen sanguíneo cerebral en la porción sólida y es frecuente la hemorragia intratumoral.",
-    "perlas": "La porción que realza no representa todo el tumor: la infiltración se extiende por la señal anómala en FLAIR y más allá de ella, lo que explica la recurrencia local pese a resección aparentemente completa. Por eso la planificación quirúrgica y radioterápica se basa también en el volumen FLAIR y no solo en el realce.",
+    "perlas": "La porción que realza no representa todo el tumor: La infiltración se extiende por la señal anómala en FLAIR y más allá de ella, lo que explica la recurrencia local pese a resección aparentemente completa. Por eso la planificación quirúrgica y radioterápica se basa también en el volumen FLAIR y no solo en el realce.",
     "diferencial": [
       {
         "entidad": "Metástasis única",
@@ -3325,7 +3325,7 @@
       "Signos de herniación y compromiso de cisternas basales"
     ],
     "hallazgos": "Colección extraaxial en forma de semiluna, cóncava hacia el parénquima, que se extiende ampliamente por la convexidad y cruza las líneas de sutura sin atravesar los repliegues durales. En fase aguda es hiperdensa, en fase subaguda se vuelve isodensa respecto a la corteza y en fase crónica es hipodensa. La forma crónica puede mostrar membranas, tabiques y áreas hiperdensas por resangrado.",
-    "perlas": "El hematoma subdural isodenso es el gran punto ciego de la tomografía: se sospecha por borramiento de surcos, desplazamiento de la interfaz entre sustancia gris y blanca y asimetría ventricular, más que por la propia colección. En casos bilaterales, la ausencia de desviación de línea media puede enmascarar una compresión importante.",
+    "perlas": "El hematoma subdural isodenso es el gran punto ciego de la tomografía: Se sospecha por borramiento de surcos, desplazamiento de la interfaz entre sustancia gris y blanca y asimetría ventricular, más que por la propia colección. En casos bilaterales, la ausencia de desviación de línea media puede enmascarar una compresión importante.",
     "diferencial": [
       {
         "entidad": "Hematoma epidural",
@@ -3350,7 +3350,7 @@
       "Engrosamiento dural difuso por hipotensión intracraneal"
     ],
     "porModalidad": {
-      "TC": "Es la exploración inicial: define la extensión, la densidad, el efecto de masa y la necesidad de drenaje urgente.",
+      "TC": "Es la exploración inicial: Define la extensión, la densidad, el efecto de masa y la necesidad de drenaje urgente.",
       "RM": "Supera a la tomografía en colecciones isodensas y pequeñas, y permite datar mejor la hemorragia y detectar membranas."
     },
     "protocolo": "Adquisición helicoidal de cráneo sin contraste con cortes finos y revisión obligatoria en ventana intermedia amplia, que aumenta la detección de colecciones isodensas respecto a la ventana de parénquima estándar.",
@@ -3390,7 +3390,7 @@
       "Lesiones parenquimatosas asociadas por contragolpe"
     ],
     "hallazgos": "Colección extraaxial hiperdensa de morfología biconvexa o lenticular, de bordes bien definidos, limitada por las suturas craneales. Con frecuencia se acompaña de fractura en el hueso adyacente. La presencia de áreas hipodensas dentro de la colección hiperdensa indica sangre no coagulada y sangrado activo, un dato de mal pronóstico que obliga a una actitud urgente.",
-    "perlas": "La distinción clave con el hematoma subdural es anatómica: la duramadre está firmemente adherida a las suturas, por lo que el epidural las respeta pero sí puede cruzar los repliegues durales, mientras que el subdural cruza suturas pero no atraviesa la hoz ni el tentorio. Un volumen inicial pequeño puede crecer con rapidez, de modo que el control tomográfico precoz es obligado.",
+    "perlas": "La distinción clave con el hematoma subdural es anatómica: La duramadre está firmemente adherida a las suturas, por lo que el epidural las respeta pero sí puede cruzar los repliegues durales, mientras que el subdural cruza suturas pero no atraviesa la hoz ni el tentorio. Un volumen inicial pequeño puede crecer con rapidez, de modo que el control tomográfico precoz es obligado.",
     "diferencial": [
       {
         "entidad": "Hematoma subdural agudo",
@@ -3415,7 +3415,7 @@
       "Hemorragia extraaxial del vértex mal valorada en el plano axial"
     ],
     "porModalidad": {
-      "TC": "Es el método de elección en urgencias: cuantifica el volumen, muestra la fractura y valora el efecto de masa.",
+      "TC": "Es el método de elección en urgencias: Cuantifica el volumen, muestra la fractura y valora el efecto de masa.",
       "RM": "Aporta en casos subagudos o cuando se sospecha compromiso del seno venoso o de la fosa posterior."
     },
     "protocolo": "Tomografía sin contraste con cortes finos y reconstrucciones coronal y sagital, imprescindibles para el hematoma del vértex y de la fosa posterior; se añade angiotomografía o venotomografía si se sospecha lesión de seno venoso.",
@@ -3454,7 +3454,7 @@
       "Hematoma parenquimatoso asociado",
       "Patrón perimesencefálico, de mejor pronóstico"
     ],
-    "hallazgos": "Ocupación hiperdensa de los espacios subaracnoideos que normalmente son hipodensos, con relleno de cisternas basales, cisura interhemisférica y surcos de la convexidad. La distribución orienta al origen: el predominio en la cisura interhemisférica anterior sugiere aneurisma de la comunicante anterior y el predominio silviano sugiere aneurisma de la cerebral media. La sensibilidad de la tomografía es muy alta en las primeras horas y disminuye de forma progresiva con los días.",
+    "hallazgos": "Ocupación hiperdensa de los espacios subaracnoideos que normalmente son hipodensos, con relleno de cisternas basales, cisura interhemisférica y surcos de la convexidad. La distribución orienta al origen: El predominio en la cisura interhemisférica anterior sugiere aneurisma de la comunicante anterior y el predominio silviano sugiere aneurisma de la cerebral media. La sensibilidad de la tomografía es muy alta en las primeras horas y disminuye de forma progresiva con los días.",
     "perlas": "Una tomografía normal no descarta el diagnóstico cuando han pasado varios días desde el inicio del cuadro, porque la sangre se reabsorbe y deja de ser hiperdensa. En ese escenario la resonancia con FLAIR y secuencias de susceptibilidad, o el análisis del líquido cefalorraquídeo, resultan determinantes.",
     "diferencial": [
       {
@@ -3647,10 +3647,10 @@
       "Redondeamiento de las astas frontales y ampliación de las astas temporales",
       "Edema transependimario periventricular en fase aguda",
       "Nivel de la obstrucción según qué cavidades están dilatadas",
-      "Signos de causa subyacente: tumor, hemorragia, malformación o infección"
+      "Signos de causa subyacente: Tumor, hemorragia, malformación o infección"
     ],
-    "hallazgos": "Aumento del tamaño ventricular con astas temporales dilatadas y astas frontales redondeadas, junto con borramiento de los surcos de la convexidad si existe hipertensión. En la forma aguda aparece hipodensidad periventricular en tomografía o hiperintensidad en FLAIR por edema transependimario. El patrón de dilatación indica el nivel del bloqueo: la dilatación de ambos ventrículos laterales y del tercero con cuarto normal señala estenosis del acueducto.",
-    "perlas": "Diferenciar hidrocefalia de atrofia se apoya en la relación entre ventrículos y surcos: en la atrofia ambos aumentan de forma proporcional, mientras que en la hidrocefalia los ventrículos crecen y los surcos se comprimen. Las astas temporales dilatadas y el edema transependimario son los datos que más orientan hacia hidrocefalia activa.",
+    "hallazgos": "Aumento del tamaño ventricular con astas temporales dilatadas y astas frontales redondeadas, junto con borramiento de los surcos de la convexidad si existe hipertensión. En la forma aguda aparece hipodensidad periventricular en tomografía o hiperintensidad en FLAIR por edema transependimario. El patrón de dilatación indica el nivel del bloqueo: La dilatación de ambos ventrículos laterales y del tercero con cuarto normal señala estenosis del acueducto.",
+    "perlas": "Diferenciar hidrocefalia de atrofia se apoya en la relación entre ventrículos y surcos: En la atrofia ambos aumentan de forma proporcional, mientras que en la hidrocefalia los ventrículos crecen y los surcos se comprimen. Las astas temporales dilatadas y el edema transependimario son los datos que más orientan hacia hidrocefalia activa.",
     "diferencial": [
       {
         "entidad": "Atrofia cerebral",
@@ -3744,7 +3744,7 @@
       "RM": "Aporta el dato decisivo mediante la difusión y define con precisión la extensión, la afectación ventricular y la respuesta al tratamiento."
     },
     "protocolo": "Difusión con mapa de coeficiente aparente, T1 sin y con contraste, T2, FLAIR y secuencia de susceptibilidad; se recomienda incluir cortes de senos paranasales y mastoides para identificar el foco de origen.",
-    "clasificacion": "La evolución se describe en cuatro fases: cerebritis precoz, cerebritis tardía, absceso con cápsula precoz y absceso con cápsula tardía. El patrón de realce y la definición de la pared varían según la fase y condicionan la decisión entre tratamiento médico y drenaje.",
+    "clasificacion": "La evolución se describe en cuatro fases: Cerebritis precoz, cerebritis tardía, absceso con cápsula precoz y absceso con cápsula tardía. El patrón de realce y la definición de la pared varían según la fase y condicionan la decisión entre tratamiento médico y drenaje.",
     "errores": [
       "No solicitar difusión y confundir el absceso con un tumor necrótico",
       "Interpretar el edema extenso como signo de malignidad",
@@ -3900,12 +3900,12 @@
     "dificultad": "Intermedio",
     "esNormal": false,
     "descripcion": "Es la dilatación focal y permanente de la aorta abdominal que alcanza o supera los 3 cm de diámetro transverso máximo. Se asocia a aterosclerosis, tabaquismo, hipertensión y edad avanzada, y predomina en el segmento infrarrenal. Su importancia radica en el riesgo de rotura, que crece de forma marcada cuando el diámetro supera los 5.5 cm.",
-    "tecnica": "El ultrasonido abdominal es el método de tamizaje y seguimiento: se mide el diámetro anteroposterior de pared externa a pared externa en un plano perpendicular al eje del vaso. La angiotomografía con contraste yodado se usa para la planificación quirúrgica o endovascular y ante sospecha de complicación. En pacientes con contraindicación al yodo puede recurrirse a la angiorresonancia.",
+    "tecnica": "El ultrasonido abdominal es el método de tamizaje y seguimiento: Se mide el diámetro anteroposterior de pared externa a pared externa en un plano perpendicular al eje del vaso. La angiotomografía con contraste yodado se usa para la planificación quirúrgica o endovascular y ante sospecha de complicación. En pacientes con contraindicación al yodo puede recurrirse a la angiorresonancia.",
     "observar": [
       "Diámetro transverso máximo medido perpendicular al eje del vaso",
       "Extensión craneocaudal y relación con las arterias renales",
       "Presencia, grosor y morfología del trombo mural",
-      "Signos de rotura o inestabilidad: hematoma retroperitoneal, semiluna hiperdensa en el trombo",
+      "Signos de rotura o inestabilidad: Hematoma retroperitoneal, semiluna hiperdensa en el trombo",
       "Afectación de las arterias iliacas y calidad de los cuellos proximal y distal",
       "Calcificaciones parietales y su desplazamiento respecto al contorno"
     ],
@@ -3969,14 +3969,14 @@
     "tecnica": "La angiotomografía sincronizada con el electrocardiograma es el estudio de elección por su rapidez y cobertura completa desde el cuello hasta las arterias femorales. Se realiza primero una adquisición sin contraste para detectar hematoma intramural hiperdenso y luego una fase arterial. El ecocardiograma transesofágico es útil en el paciente inestable que no puede trasladarse.",
     "observar": [
       "Colgajo intimal como línea hipodensa que separa dos luces",
-      "Extensión proximal: afectación o no de la aorta ascendente",
+      "Extensión proximal: Afectación o no de la aorta ascendente",
       "Extensión distal y compromiso de troncos supraaórticos, renales y mesentéricos",
-      "Signos de complicación: derrame pericárdico, hemotórax, insuficiencia aórtica",
+      "Signos de complicación: Derrame pericárdico, hemotórax, insuficiencia aórtica",
       "Hematoma intramural hiperdenso en la serie simple",
       "Signos de malperfusión visceral o de miembros inferiores"
     ],
     "hallazgos": "Se observa una línea intimal fina que divide la luz en verdadera y falsa, con realce diferente entre ambas. La luz verdadera suele ser menor, de contorno redondeado, con realce más precoz y continuidad con el segmento aórtico no disecado; la falsa es mayor, de bordes angulados y con flujo más lento. El signo del pico y las telarañas de la media residual ayudan a identificar la luz falsa.",
-    "perlas": "La distinción entre afectación de la aorta ascendente y disección limitada a la descendente cambia por completo el manejo: la primera es quirúrgica urgente y la segunda suele tratarse médicamente, por lo que el informe debe declarar explícitamente el punto proximal de extensión.",
+    "perlas": "La distinción entre afectación de la aorta ascendente y disección limitada a la descendente cambia por completo el manejo: La primera es quirúrgica urgente y la segunda suele tratarse médicamente, por lo que el informe debe declarar explícitamente el punto proximal de extensión.",
     "diferencial": [
       {
         "entidad": "Hematoma intramural",
@@ -4071,7 +4071,7 @@
       "US": "El ultrasonido pulmonar detecta líneas B múltiples y el ecocardiograma cuantifica la función ventricular."
     },
     "protocolo": "Radiografía posteroanterior y lateral en bipedestación con inspiración máxima, distancia estándar y técnica de alto kilovoltaje. En estudios portátiles se registra la posición y la distancia para permitir comparaciones evolutivas. La comparación con estudios previos es parte esencial del protocolo.",
-    "clasificacion": "Radiológicamente se describe una progresión en tres etapas: redistribución vascular, edema intersticial y edema alveolar, que se correlaciona de forma aproximada con presiones capilares crecientes. Clínicamente se emplea la clasificación funcional que gradúa la limitación de la actividad de la clase I a la IV.",
+    "clasificacion": "Radiológicamente se describe una progresión en tres etapas: Redistribución vascular, edema intersticial y edema alveolar, que se correlaciona de forma aproximada con presiones capilares crecientes. Clínicamente se emplea la clasificación funcional que gradúa la limitación de la actividad de la clase I a la IV.",
     "errores": [
       "Diagnosticar cardiomegalia en una proyección portátil anteroposterior",
       "Confundir edema alveolar asimétrico con neumonía",
@@ -4098,14 +4098,14 @@
     "dificultad": "Básico",
     "esNormal": false,
     "descripcion": "Es la formación de un trombo dentro del sistema venoso profundo, con predominio en las venas de los miembros inferiores. Se favorece por estasis, lesión endotelial e hipercoagulabilidad, y se sospecha ante dolor, edema asimétrico y aumento de temperatura de la extremidad. Su principal riesgo es la embolia pulmonar.",
-    "tecnica": "El ultrasonido con compresión es la técnica de referencia: se aplica presión con el transductor en plano transverso cada uno o dos centímetros a lo largo del trayecto venoso. Se complementa con Doppler color y espectral para valorar el flujo, la fasicidad respiratoria y la respuesta a la compresión distal. Se explora desde la vena femoral común hasta las venas de la pantorrilla.",
+    "tecnica": "El ultrasonido con compresión es la técnica de referencia: Se aplica presión con el transductor en plano transverso cada uno o dos centímetros a lo largo del trayecto venoso. Se complementa con Doppler color y espectral para valorar el flujo, la fasicidad respiratoria y la respuesta a la compresión distal. Se explora desde la vena femoral común hasta las venas de la pantorrilla.",
     "observar": [
       "Ausencia de compresibilidad completa de la luz venosa",
       "Material ecogénico intraluminal y distensión de la vena",
       "Ausencia o defecto de llenado en el Doppler color",
       "Pérdida de la fasicidad respiratoria y de la respuesta al aumento distal",
       "Extensión proximal del trombo y presencia de extremo flotante",
-      "Signos indirectos: edema del tejido celular subcutáneo, quiste poplíteo"
+      "Signos indirectos: Edema del tejido celular subcutáneo, quiste poplíteo"
     ],
     "hallazgos": "La vena trombosada no colapsa al comprimirla, aparece dilatada y con contenido ecogénico de ecogenicidad variable según la antigüedad. El Doppler color muestra ausencia de relleno o flujo periférico alrededor del trombo. En la trombosis crónica la vena es pequeña, de paredes engrosadas, con material ecogénico retráctil y circulación colateral.",
     "perlas": "La compresión debe realizarse siempre en el plano transverso, porque en el plano longitudinal el vaso escapa lateralmente del campo y una vena permeable puede parecer incompresible, generando un falso positivo con consecuencias terapéuticas importantes.",
@@ -4171,7 +4171,7 @@
       "Desarrollo de circulación colateral y reconstitución distal",
       "Permeabilidad del lecho infrapoplíteo y del arco plantar",
       "Estado de injertos o endoprótesis previas",
-      "Signos de isquemia tisular: úlceras, gas, cambios óseos"
+      "Signos de isquemia tisular: Úlceras, gas, cambios óseos"
     ],
     "hallazgos": "Se aprecian placas ateromatosas que estrechan la luz de forma excéntrica o concéntrica, con oclusiones segmentarias que muestran ausencia de opacificación y reconstitución distal por colaterales. En el patrón del diabético predomina la afectación infrapoplítea con calcificación extensa de la media. Las curvas Doppler distales a una estenosis significativa se vuelven monofásicas y de ascenso lento.",
     "perlas": "La calcificación circunferencial densa, muy frecuente en el diabético y en el paciente con enfermedad renal crónica, produce artefacto de endurecimiento del haz que impide graduar la estenosis en tomografía; en ese escenario la información hemodinámica del Doppler o de las presiones segmentarias resulta más fiable que la imagen anatómica.",
@@ -4240,7 +4240,7 @@
       "Vena cava inferior dilatada con escaso colapso inspiratorio"
     ],
     "hallazgos": "Se observa un espacio libre de ecos que rodea el corazón y se separa del epicardio en sístole y diástole, con distribución habitualmente circunferencial. Los derrames organizados presentan ecos internos, bandas de fibrina o tabiques. En el taponamiento aparecen colapso de cavidades derechas, corazón oscilante y plétora de la vena cava inferior.",
-    "perlas": "El taponamiento cardiaco es un diagnóstico clínico y hemodinámico, no volumétrico: un derrame pequeño instaurado en minutos puede comprometer el llenado, mientras que uno crónico y voluminoso puede tolerarse bien porque el pericardio tuvo tiempo de distenderse.",
+    "perlas": "El taponamiento cardiaco es un diagnóstico clínico y hemodinámico, no volumétrico: Un derrame pequeño instaurado en minutos puede comprometer el llenado, mientras que uno crónico y voluminoso puede tolerarse bien porque el pericardio tuvo tiempo de distenderse.",
     "diferencial": [
       {
         "entidad": "Grasa epicárdica",
@@ -4372,7 +4372,7 @@
       "Estabilidad respecto a estudios previos"
     ],
     "hallazgos": "Se presenta como un nódulo sólido ovalado, de orientación paralela, bien circunscrito, homogéneamente hipoecoico y con refuerzo acústico posterior leve o transmisión sin cambios. En mamografía es una opacidad de bordes definidos que, al calcificarse con los años, adquiere el aspecto característico de palomita de maíz. En resonancia realza de forma progresiva y puede mostrar septos internos hipointensos que apoyan la benignidad.",
-    "perlas": "Los criterios ecográficos de benignidad no son absolutos: un carcinoma de tipo medular o mucinoso puede mostrarse circunscrito y ovalado, por lo que un nódulo nuevo o con crecimiento documentado en una paciente mayor de treinta y cinco años merece biopsia aunque parezca típico.",
+    "perlas": "Los criterios ecográficos de benignidad no son absolutos: Un carcinoma de tipo medular o mucinoso puede mostrarse circunscrito y ovalado, por lo que un nódulo nuevo o con crecimiento documentado en una paciente mayor de treinta y cinco años merece biopsia aunque parezca típico.",
     "diferencial": [
       {
         "entidad": "Quiste simple",
@@ -4467,7 +4467,7 @@
       "US": "Caracteriza la masa, valora la axila, mide la extensión y permite biopsia dirigida en tiempo real."
     },
     "protocolo": "Mamografía digital bilateral con proyecciones craneocaudal y oblicua mediolateral, más compresión focalizada y magnificación de la zona sospechosa. Ultrasonido dirigido con transductor lineal de alta frecuencia incluyendo exploración axilar sistemática. La resonancia dinámica con contraste se reserva para valorar extensión y respuesta a tratamiento neoadyuvante.",
-    "clasificacion": "El sistema BI-RADS gradúa la sospecha: la categoría 4 se subdivide en 4A, 4B y 4C con probabilidad creciente de malignidad, y la 5 indica hallazgo altamente sugestivo con más del noventa y cinco por ciento de probabilidad. La categoría 6 corresponde a malignidad ya confirmada por histología.",
+    "clasificacion": "El sistema BI-RADS gradúa la sospecha: La categoría 4 se subdivide en 4A, 4B y 4C con probabilidad creciente de malignidad, y la 5 indica hallazgo altamente sugestivo con más del noventa y cinco por ciento de probabilidad. La categoría 6 corresponde a malignidad ya confirmada por histología.",
     "errores": [
       "Descartar malignidad ante una mamografía negativa en mama densa",
       "No evaluar la axila en el mismo estudio ecográfico",
@@ -4496,15 +4496,15 @@
     "descripcion": "Son depósitos de calcio de menos de un milímetro cuya morfología y distribución sugieren un proceso maligno subyacente. Constituyen con frecuencia la única manifestación del carcinoma ductal in situ y por ello son el hallazgo clave del tamizaje mamográfico. Su análisis exige magnificación y una descripción sistemática de forma y agrupamiento.",
     "tecnica": "Se estudian con mamografía de magnificación en proyecciones craneocaudal y lateral estricta, que permite valorar la morfología individual y detectar sedimentación en calcificaciones de leche de calcio. La tomosíntesis ayuda a separar el hallazgo del tejido superpuesto. La biopsia estereotáxica con radiografía de las muestras confirma que las calcificaciones fueron extraídas.",
     "observar": [
-      "Morfología individual: pleomorfa, amorfa, gruesa heterogénea o lineal ramificada",
-      "Distribución: agrupada, lineal, segmentaria, regional o difusa",
+      "Morfología individual: Pleomorfa, amorfa, gruesa heterogénea o lineal ramificada",
+      "Distribución: Agrupada, lineal, segmentaria, regional o difusa",
       "Número de partículas por unidad de volumen",
       "Asociación con masa, distorsión o asimetría",
       "Cambio respecto a estudios previos en número o extensión",
       "Comportamiento en la proyección lateral estricta"
     ],
     "hallazgos": "Las calcificaciones de alta sospecha son finas pleomorfas, de tamaño y forma variables, o finas lineales y ramificadas que moldean la luz de un conducto. La distribución lineal o segmentaria refuerza la sospecha porque sigue el trayecto ductal. Las amorfas y las gruesas heterogéneas ocupan una categoría intermedia de sospecha y también requieren muestreo.",
-    "perlas": "La distribución tiene tanto o más peso que la morfología: un grupo de calcificaciones de aspecto poco alarmante pero con disposición segmentaria sigue el árbol ductal y eleva de manera significativa la sospecha, mientras que calcificaciones dispersas y bilaterales suelen ser benignas.",
+    "perlas": "La distribución tiene tanto o más peso que la morfología: Un grupo de calcificaciones de aspecto poco alarmante pero con disposición segmentaria sigue el árbol ductal y eleva de manera significativa la sospecha, mientras que calcificaciones dispersas y bilaterales suelen ser benignas.",
     "diferencial": [
       {
         "entidad": "Calcificaciones vasculares",
@@ -4566,8 +4566,8 @@
       "Engrosamiento mucoso circunferencial y su grosor",
       "Permeabilidad del complejo osteomeatal y del receso frontal",
       "Integridad de las paredes óseas y de la lámina papirácea",
-      "Signos de extensión orbitaria: celulitis, absceso subperióstico",
-      "Signos intracraneales: colecciones epidurales, trombosis de senos venosos"
+      "Signos de extensión orbitaria: Celulitis, absceso subperióstico",
+      "Signos intracraneales: Colecciones epidurales, trombosis de senos venosos"
     ],
     "hallazgos": "El hallazgo más característico es el nivel hidroaéreo en un seno con engrosamiento mucoso asociado, habitualmente en el seno maxilar. La obstrucción del complejo osteomeatal explica la afectación combinada de maxilar, etmoides anterior y frontal. Las paredes óseas se mantienen íntegras en el cuadro no complicado, sin esclerosis, que sugeriría cronicidad.",
     "perlas": "Los hallazgos de ocupación sinusal son muy frecuentes en tomografías realizadas por otros motivos y en cuadros virales banales, por lo que carecen de valor sin correlación clínica; el estudio debe centrarse en confirmar o excluir complicaciones y en definir la anatomía cuando se planea cirugía.",
@@ -4636,7 +4636,7 @@
       "Ganglios cervicales anómalos con calcificaciones o degeneración quística"
     ],
     "hallazgos": "El patrón de alta sospecha combina un nódulo sólido marcadamente hipoecoico, más alto que ancho, con márgenes irregulares o espiculados y microcalcificaciones puntiformes. La invasión de la cápsula tiroidea y los ganglios cervicales con hiperecogenicidad, calcificaciones o áreas quísticas refuerzan la sospecha. El componente espongiforme y la ecogenicidad conservada, en cambio, apuntan a benignidad.",
-    "perlas": "La decisión de puncionar depende del patrón ecográfico combinado con el tamaño, no del tamaño aislado: un nódulo pequeño con rasgos de alta sospecha o con ganglios patológicos merece estudio citológico, mientras que uno grande y espongiforme puede seguirse con controles.",
+    "perlas": "La decisión de puncionar depende del patrón ecográfico combinado con el tamaño, no del tamaño aislado: Un nódulo pequeño con rasgos de alta sospecha o con ganglios patológicos merece estudio citológico, mientras que uno grande y espongiforme puede seguirse con controles.",
     "diferencial": [
       {
         "entidad": "Nódulo coloide benigno",
@@ -4702,7 +4702,7 @@
       "Lito impactado en el infundíbulo o en el cuello vesicular que no se moviliza"
     ],
     "hallazgos": "Vesícula distendida con litiasis, pared engrosada y a menudo con aspecto estratificado o en capas por edema subseroso, con lámina de líquido perivesicular. El contenido puede mostrar barro biliar ecogénico sin sombra que forma nivel. En las formas complicadas se observan gas intramural con artefacto en cola de cometa en la colecistitis enfisematosa, membranas intraluminales desprendidas en la forma gangrenosa, o una colección organizada con defecto de la pared cuando existe perforación.",
-    "perlas": "El dato más útil no es un signo aislado sino la combinación de litiasis más Murphy ecográfico positivo, porque juntos alcanzan un valor predictivo positivo muy alto. El engrosamiento de la pared por sí solo es inespecífico: la hipoalbuminemia, la insuficiencia cardiaca, la hepatitis y la ascitis engruesan la pared sin que exista inflamación vesicular.",
+    "perlas": "El dato más útil no es un signo aislado sino la combinación de litiasis más Murphy ecográfico positivo, porque juntos alcanzan un valor predictivo positivo muy alto. El engrosamiento de la pared por sí solo es inespecífico: La hipoalbuminemia, la insuficiencia cardiaca, la hepatitis y la ascitis engruesan la pared sin que exista inflamación vesicular.",
     "diferencial": [
       {
         "entidad": "Cólico biliar simple",
@@ -4731,7 +4731,7 @@
       "Adenomiomatosis y colesterolosis, que engruesan la pared de forma crónica"
     ],
     "porModalidad": {
-      "US": "Método inicial de elección: detecta litos, mide la pared, valora el Murphy focal y el líquido perivesicular en tiempo real y sin radiación",
+      "US": "Método inicial de elección: Detecta litos, mide la pared, valora el Murphy focal y el líquido perivesicular en tiempo real y sin radiación",
       "TC": "Se reserva para sospecha de complicaciones y para el paciente con abdomen agudo indiferenciado; muestra bien el gas intramural, los abscesos y la perforación, pero pasa por alto muchos litos de colesterol",
       "RM": "La colangiorresonancia se usa cuando se sospecha coledocolitiasis asociada y para definir la anatomía biliar antes de la cirugía"
     },
@@ -4773,7 +4773,7 @@
       "Litiasis vesicular concomitante y estado de la pared vesicular"
     ],
     "hallazgos": "Se identifican imágenes hipointensas en T2, redondeadas u ovoides, situadas en la porción declive del colédoco distal y rodeadas por bilis hiperintensa, lo que produce el clásico signo del menisco o de la diana. Por encima del cálculo la vía biliar está dilatada y por debajo recupera su calibre. En el ultrasonido el lito aparece como foco ecogénico con sombra acústica dentro del conducto, aunque el gas duodenal limita con frecuencia la visualización del tercio distal.",
-    "perlas": "Un colédoco de calibre normal no descarta coledocolitiasis: hasta un tercio de los pacientes con litos en la vía biliar tienen un conducto no dilatado, sobre todo en el episodio agudo temprano. Por eso, ante enzimas colestásicas elevadas y ultrasonido no concluyente, la colangiorresonancia debe realizarse aunque el calibre del colédoco parezca normal.",
+    "perlas": "Un colédoco de calibre normal no descarta coledocolitiasis: Hasta un tercio de los pacientes con litos en la vía biliar tienen un conducto no dilatado, sobre todo en el episodio agudo temprano. Por eso, ante enzimas colestásicas elevadas y ultrasonido no concluyente, la colangiorresonancia debe realizarse aunque el calibre del colédoco parezca normal.",
     "diferencial": [
       {
         "entidad": "Colangiocarcinoma distal",
@@ -4802,7 +4802,7 @@
       "Barro biliar denso y coágulos, que crean defectos sin sombra ni bordes netos"
     ],
     "porModalidad": {
-      "US": "Primer estudio: valora litiasis vesicular y el calibre del colédoco, pero su sensibilidad para el lito distal es limitada por el gas intestinal",
+      "US": "Primer estudio: Valora litiasis vesicular y el calibre del colédoco, pero su sensibilidad para el lito distal es limitada por el gas intestinal",
       "TC": "Útil en urgencias para descartar complicaciones y masas; detecta solo los cálculos calcificados o de alta densidad",
       "RM": "La colangiorresonancia ofrece la mejor sensibilidad no invasiva y mapea toda la anatomía biliar antes de un procedimiento"
     },
@@ -4910,7 +4910,7 @@
       "Contorno hepático nodular u ondulado, mejor apreciado en la superficie anterior con transductor lineal",
       "Redistribución volumétrica con atrofia del lóbulo derecho y del segmento IV, e hipertrofia del lóbulo caudado y del segmento lateral izquierdo",
       "Ensanchamiento de las fisuras y de los espacios periportales",
-      "Signos de hipertensión portal: esplenomegalia, colaterales, recanalización de la vena umbilical y ascitis",
+      "Signos de hipertensión portal: Esplenomegalia, colaterales, recanalización de la vena umbilical y ascitis",
       "Nódulos hepáticos, con especial atención a los que muestran comportamiento vascular sospechoso",
       "Permeabilidad de la vena porta y presencia de trombo, distinguiendo el bland del tumoral"
     ],
@@ -4981,12 +4981,12 @@
       "Aumento difuso de la ecogenicidad hepática respecto a la corteza renal",
       "Atenuación del haz ultrasónico con mala definición del diafragma y de los segmentos profundos",
       "Pérdida de nitidez de las paredes de las ramas portales intrahepáticas",
-      "Áreas focales de respeto graso en localizaciones típicas: lecho vesicular, hilio y segmento IV anterior",
+      "Áreas focales de respeto graso en localizaciones típicas: Lecho vesicular, hilio y segmento IV anterior",
       "Áreas focales de infiltración grasa con bordes geográficos y sin efecto de masa",
       "Signos asociados de hepatopatía avanzada, como contorno nodular o esplenomegalia"
     ],
     "hallazgos": "El hígado aparece brillante, aumentado de tamaño y con atenuación posterior progresiva del sonido. En tomografía sin contraste la densidad hepática desciende, y una diferencia con el bazo mayor de 10 unidades Hounsfield en menos, o una densidad hepática por debajo de 40 unidades, apoya el diagnóstico. En resonancia el signo más específico es la caída de señal del parénquima en la secuencia fuera de fase respecto a la secuencia en fase, que refleja la coexistencia de grasa y agua dentro del mismo vóxel.",
-    "perlas": "Las áreas de respeto graso son la principal fuente de falsos positivos de lesión hepática: aparecen en sitios anatómicos predecibles, sobre todo adyacentes al lecho vesicular y en el segmento IV junto a la fisura del ligamento falciforme, tienen bordes geográficos, no desplazan vasos y no producen efecto de masa. Reconocer estos rasgos evita estudios y biopsias innecesarias.",
+    "perlas": "Las áreas de respeto graso son la principal fuente de falsos positivos de lesión hepática: Aparecen en sitios anatómicos predecibles, sobre todo adyacentes al lecho vesicular y en el segmento IV junto a la fisura del ligamento falciforme, tienen bordes geográficos, no desplazan vasos y no producen efecto de masa. Reconocer estos rasgos evita estudios y biopsias innecesarias.",
     "diferencial": [
       {
         "entidad": "Fibrosis hepática o cirrosis",
@@ -5056,7 +5056,7 @@
       "Trombo tumoral en vena porta o suprahepáticas, con realce arterial y expansión del vaso",
       "Restricción a la difusión, contenido graso intralesional y focos hemorrágicos"
     ],
-    "hallazgos": "La lesión típica muestra realce arterial intenso seguido de lavado y cápsula, sobre un hígado con cambios crónicos. En resonancia suele ser levemente hiperintensa en T2, restringe en difusión y puede contener grasa detectable en la secuencia fuera de fase, sobre todo en las lesiones bien diferenciadas. Las formas infiltrativas son más difíciles: producen una alteración de señal mal definida y permeativa, frecuentemente con trombo tumoral portal, y pueden pasar inadvertidas en un hígado ya heterogéneo.",
+    "hallazgos": "La lesión típica muestra realce arterial intenso seguido de lavado y cápsula, sobre un hígado con cambios crónicos. En resonancia suele ser levemente hiperintensa en T2, restringe en difusión y puede contener grasa detectable en la secuencia fuera de fase, sobre todo en las lesiones bien diferenciadas. Las formas infiltrativas son más difíciles: Producen una alteración de señal mal definida y permeativa, frecuentemente con trombo tumoral portal, y pueden pasar inadvertidas en un hígado ya heterogéneo.",
     "perlas": "El trombo portal con realce arterial y expansión del calibre del vaso es prácticamente diagnóstico de invasión tumoral y cambia por completo el estadio y las opciones terapéuticas. Ante una trombosis portal en un paciente cirrótico siempre debe buscarse realce interno del trombo y continuidad con una lesión parenquimatosa, porque el trombo blando no realza ni expande la vena de la misma forma.",
     "diferencial": [
       {
@@ -5128,7 +5128,7 @@
       "Volumen del futuro remanente hepático y cambios de esteatosis por quimioterapia"
     ],
     "hallazgos": "Lo más habitual son múltiples lesiones de tamaño variable, hipovasculares en fase portal, con realce en anillo periférico y centro menos realzado por necrosis. Las metástasis hipervasculares, procedentes de tumores neuroendocrinos, renales, tiroideos o melanoma, se ven mejor en fase arterial y pueden desaparecer visualmente en fase portal. En resonancia son moderadamente hiperintensas en T2, restringen a la difusión y quedan hipointensas en la fase hepatobiliar por ausencia de hepatocitos funcionantes. Las lesiones tratadas pueden calcificarse o producir retracción de la cápsula.",
-    "perlas": "Un patrón de realce en anillo periférico con centro hipodenso es altamente sugestivo de metástasis, pero conviene recordar el signo del halo o diana, ya que también puede aparecer en abscesos. La clave está en el contexto clínico: fiebre y leucocitosis orientan a absceso, mientras que un primario conocido y lesiones múltiples de distintos tamaños orientan a enfermedad metastásica.",
+    "perlas": "Un patrón de realce en anillo periférico con centro hipodenso es altamente sugestivo de metástasis, pero conviene recordar el signo del halo o diana, ya que también puede aparecer en abscesos. La clave está en el contexto clínico: Fiebre y leucocitosis orientan a absceso, mientras que un primario conocido y lesiones múltiples de distintos tamaños orientan a enfermedad metastásica.",
     "diferencial": [
       {
         "entidad": "Abscesos hepáticos piógenos",
@@ -5199,7 +5199,7 @@
       "Número de quistes y presencia de quistes renales que sugieran poliquistosis"
     ],
     "hallazgos": "Lesión anecoica de bordes netos con refuerzo posterior en ultrasonido. En tomografía muestra densidad de agua, entre 0 y 20 unidades Hounsfield, homogénea y sin realce tras el medio de contraste. En resonancia es marcadamente hiperintensa en T2 e hipointensa en T1, con señal similar a la del líquido cefalorraquídeo y sin realce interno ni parietal. La presencia de tabiques finos aislados es aceptable, pero los tabiques gruesos, los nódulos murales o el realce obligan a reconsiderar el diagnóstico.",
-    "perlas": "Un quiste que deja de ser simple deja de ser inocente: contenido ecogénico, tabiques gruesos, calcificaciones, nódulos murales o cualquier realce interno exigen descartar quiste hidatídico, absceso, quiste hemorrágico o neoplasia quística mucinosa. En un quiste verdaderamente simple, el ultrasonido con adecuada ganancia y Doppler basta para cerrar el diagnóstico y no se requiere seguimiento.",
+    "perlas": "Un quiste que deja de ser simple deja de ser inocente: Contenido ecogénico, tabiques gruesos, calcificaciones, nódulos murales o cualquier realce interno exigen descartar quiste hidatídico, absceso, quiste hemorrágico o neoplasia quística mucinosa. En un quiste verdaderamente simple, el ultrasonido con adecuada ganancia y Doppler basta para cerrar el diagnóstico y no se requiere seguimiento.",
     "diferencial": [
       {
         "entidad": "Quiste hidatídico",
@@ -5270,7 +5270,7 @@
       "Signos de complicación como vólvulo, obstrucción o sufrimiento de la pared"
     ],
     "hallazgos": "En la radiografía de tórax se puede ver una opacidad retrocardiaca con nivel hidroaéreo, que corresponde al estómago intratorácico. En el estudio baritado se observa la unión esofagogástrica desplazada en sentido craneal y una bolsa gástrica por encima del diafragma, con pliegues gástricos que cruzan el hiato. En la hernia paraesofágica pura la unión permanece en posición normal mientras el fundus asciende junto al esófago. La tomografía muestra separación de los pilares diafragmáticos y contenido gástrico, y a veces epiploico o de otras vísceras, dentro del tórax.",
-    "perlas": "La distinción entre hernia por deslizamiento y hernia paraesofágica no es académica sino quirúrgica: en la paraesofágica la unión esofagogástrica queda en su sitio y el fundus asciende a su lado, lo que crea riesgo de vólvulo y de estrangulación. Por eso el informe debe indicar siempre la posición de la unión esofagogástrica en relación con el diafragma y no limitarse a decir que existe hernia hiatal.",
+    "perlas": "La distinción entre hernia por deslizamiento y hernia paraesofágica no es académica sino quirúrgica: En la paraesofágica la unión esofagogástrica queda en su sitio y el fundus asciende a su lado, lo que crea riesgo de vólvulo y de estrangulación. Por eso el informe debe indicar siempre la posición de la unión esofagogástrica en relación con el diafragma y no limitarse a decir que existe hernia hiatal.",
     "diferencial": [
       {
         "entidad": "Divertículo epifrénico",
@@ -5412,7 +5412,7 @@
       "Trayectos fistulosos, abscesos, adenopatías mesentéricas y afectación perianal"
     ],
     "hallazgos": "Se observa engrosamiento parietal segmentario y asimétrico, típicamente de predominio en el borde mesentérico, con afectación salteada y segmentos sanos intercalados. En la fase activa la pared es hiperintensa en T2, restringe a la difusión y realza de forma intensa y estratificada, acompañada de proliferación fibrograsa y del signo del peine. En la enfermedad fibroestenótica predomina una pared de baja señal en T2 con realce tardío homogéneo, estenosis fija y dilatación proximal. Las complicaciones incluyen fístulas enteroentéricas, enterovesicales y perianales, así como abscesos y, rara vez, perforación libre.",
-    "perlas": "Distinguir inflamación activa de fibrosis cambia el tratamiento por completo: la actividad inflamatoria responde a terapia médica, mientras que una estenosis fibrosa establecida requiere dilatación o cirugía. La combinación de hiperintensidad en T2, restricción a la difusión y realce mural estratificado apoya la actividad, mientras que la baja señal en T2 con realce homogéneo tardío y ausencia de restricción sugiere componente fibrótico predominante.",
+    "perlas": "Distinguir inflamación activa de fibrosis cambia el tratamiento por completo: La actividad inflamatoria responde a terapia médica, mientras que una estenosis fibrosa establecida requiere dilatación o cirugía. La combinación de hiperintensidad en T2, restricción a la difusión y realce mural estratificado apoya la actividad, mientras que la baja señal en T2 con realce homogéneo tardío y ausencia de restricción sugiere componente fibrótico predominante.",
     "diferencial": [
       {
         "entidad": "Colitis ulcerosa",
@@ -5443,7 +5443,7 @@
     "porModalidad": {
       "RM": "Método preferente por su contraste tisular, valoración de actividad frente a fibrosis y ausencia de radiación en enfermedad crónica",
       "TC": "La enterografía por tomografía es rápida y de elección en urgencias ante sospecha de absceso, obstrucción o perforación",
-      "US": "Muy útil como seguimiento no invasivo: mide el grosor parietal, valora la hiperemia con Doppler y detecta abscesos superficiales"
+      "US": "Muy útil como seguimiento no invasivo: Mide el grosor parietal, valora la hiperemia con Doppler y detecta abscesos superficiales"
     },
     "protocolo": "Enterografía por resonancia con agente oral bifásico, antiespasmódico intravenoso y secuencias T2 de eco de espín rápido con y sin supresión grasa en planos coronal y axial, cine en tiempo real para valorar peristalsis, difusión con varios valores b y T1 con supresión grasa dinámica tras gadolinio, incluyendo fase entérica y fase tardía a los 7 minutos. Cuando existe enfermedad perianal se añade un estudio pélvico dedicado de alta resolución centrado en el canal anal.",
     "clasificacion": "La clasificación de Montreal describe la enfermedad según la edad al diagnóstico, con A1 por debajo de 16 años, A2 entre 17 y 40 y A3 por encima de 40; la localización, con L1 ileal, L2 colónica, L3 ileocolónica y L4 del tubo digestivo alto; y el comportamiento, con B1 inflamatorio no estenosante ni penetrante, B2 estenosante y B3 penetrante, añadiendo el modificador p para la enfermedad perianal. Para la afectación perianal se utiliza la clasificación de Parks, que ordena las fístulas en interesfinterianas, transesfinterianas, supraesfinterianas y extraesfinterianas, con o sin trayectos secundarios.",
@@ -5512,7 +5512,7 @@
       "Colitis infecciosa segmentaria en un colon con divertículos preexistentes"
     ],
     "porModalidad": {
-      "TC": "Es el método de referencia: confirma el diagnóstico, define la gravedad, detecta abscesos y guía el drenaje percutáneo",
+      "TC": "Es el método de referencia: Confirma el diagnóstico, define la gravedad, detecta abscesos y guía el drenaje percutáneo",
       "US": "Alternativa inicial en pacientes delgados y jóvenes; la compresión graduada localiza el punto de máximo dolor y muestra el divertículo inflamado",
       "RM": "Opción sin radiación en embarazadas y en el seguimiento de pacientes jóvenes con episodios recurrentes"
     },
@@ -5579,7 +5579,7 @@
       "US": "Muestra hidronefrosis y cálculos en pelvis renal y unión ureterovesical sin radiación; el artefacto de centelleo aumenta la sensibilidad para cálculos pequeños."
     },
     "protocolo": "Tomografía de abdomen y pelvis sin medio de contraste, cortes de 1 a 3 milímetros, paciente en decúbito supino y en apnea. Se reconstruye en planos coronal y sagital con ventana ósea y de partes blandas. Si se requiere valorar la anatomía de la vía urinaria puede añadirse una fase excretora diferida.",
-    "clasificacion": "La estratificación práctica se basa en el tamaño y la localización: cálculos menores de 5 milímetros tienen alta probabilidad de expulsión espontánea, los de 5 a 10 milímetros probabilidad intermedia y los mayores de 10 milímetros suelen requerir intervención. La densidad en unidades Hounsfield ayuda a predecir la respuesta a litotricia extracorpórea, con menor éxito por encima de 1000 unidades.",
+    "clasificacion": "La estratificación práctica se basa en el tamaño y la localización: Cálculos menores de 5 milímetros tienen alta probabilidad de expulsión espontánea, los de 5 a 10 milímetros probabilidad intermedia y los mayores de 10 milímetros suelen requerir intervención. La densidad en unidades Hounsfield ayuda a predecir la respuesta a litotricia extracorpórea, con menor éxito por encima de 1000 unidades.",
     "errores": [
       "Confundir un flebolito pélvico con un cálculo ureteral distal por no seguir el trayecto del uréter corte a corte",
       "Informar ausencia de litiasis en radiografía simple sin advertir que los cálculos de ácido úrico son radiolúcidos",
@@ -5644,8 +5644,8 @@
       "TC": "Es la modalidad de referencia para caracterizar la masa, cuantificar el realce y estadificar la extensión local, venosa y a distancia.",
       "US": "Detecta la masa y distingue lesiones sólidas de quísticas simples; el Doppler puede mostrar vascularización interna y ayuda a valorar el trombo en vena renal."
     },
-    "protocolo": "Tomografía multifásica con cortes de 2 a 3 milímetros: fase simple, fase corticomedular alrededor de los 30 a 40 segundos, fase nefrográfica cercana a los 90 a 100 segundos y fase excretora a los 8 a 10 minutos. Se administra contraste yodado intravenoso con inyector automático y se realizan reconstrucciones multiplanares para valorar el eje vascular.",
-    "clasificacion": "La estadificación se realiza con el sistema TNM: los estadios T1 y T2 se limitan al riñón y se separan por tamaño, T3 implica extensión a la grasa perirrenal o a las venas renal o cava, y T4 supone invasión más allá de la fascia de Gerota o de la glándula suprarrenal ipsilateral. Las lesiones quísticas se estratifican de forma complementaria con la clasificación de Bosniak.",
+    "protocolo": "Tomografía multifásica con cortes de 2 a 3 milímetros: Fase simple, fase corticomedular alrededor de los 30 a 40 segundos, fase nefrográfica cercana a los 90 a 100 segundos y fase excretora a los 8 a 10 minutos. Se administra contraste yodado intravenoso con inyector automático y se realizan reconstrucciones multiplanares para valorar el eje vascular.",
+    "clasificacion": "La estadificación se realiza con el sistema TNM: Los estadios T1 y T2 se limitan al riñón y se separan por tamaño, T3 implica extensión a la grasa perirrenal o a las venas renal o cava, y T4 supone invasión más allá de la fascia de Gerota o de la glándula suprarrenal ipsilateral. Las lesiones quísticas se estratifican de forma complementaria con la clasificación de Bosniak.",
     "errores": [
       "Interpretar el pseudorrealce de un quiste pequeño en fase con contraste como una masa sólida",
       "Omitir la valoración de la vena renal y la cava inferior en busca de trombo tumoral",
@@ -5682,7 +5682,7 @@
       "Atenuación cercana a la del agua sin realce tras el contraste"
     ],
     "hallazgos": "En ultrasonido se aprecia una lesión redondeada anecoica, de pared fina e imperceptible, con refuerzo acústico posterior y sin flujo interno. En tomografía se muestra homogéneamente hipodensa, con valores entre menos 10 y 20 unidades Hounsfield, sin realce tras el contraste. En resonancia presenta señal muy hipointensa en secuencias potenciadas en T1 y marcadamente hiperintensa en T2.",
-    "perlas": "Un quiste solo puede llamarse simple si cumple todos los criterios a la vez: anecoico, de pared imperceptible y con refuerzo posterior. La presencia de un solo elemento discordante, como un tabique grueso o un nódulo mural, obliga a reclasificarlo mediante estudio con contraste antes de darlo por benigno.",
+    "perlas": "Un quiste solo puede llamarse simple si cumple todos los criterios a la vez: Anecoico, de pared imperceptible y con refuerzo posterior. La presencia de un solo elemento discordante, como un tabique grueso o un nódulo mural, obliga a reclasificarlo mediante estudio con contraste antes de darlo por benigno.",
     "diferencial": [
       {
         "entidad": "Quiste complejo o hemorrágico",
@@ -5711,7 +5711,7 @@
       "US": "Diferencia con gran fiabilidad quiste de masa sólida, es económica, no usa radiación y permite valorar el flujo interno con Doppler."
     },
     "protocolo": "Ultrasonido renal con transductor convexo de 3 a 5 megahercios, exploración en decúbito supino y lateral, cortes longitudinales y transversales de ambos riñones. Se optimiza la ganancia para evitar ecos artefactuales de reverberación y se aplica Doppler color para descartar vascularización. Ante cualquier duda se completa con tomografía en fase simple y nefrográfica.",
-    "clasificacion": "La clasificación de Bosniak estratifica las lesiones quísticas renales por su riesgo de malignidad: la categoría I corresponde al quiste simple benigno, la II a quistes mínimamente complejos también benignos, la IIF requiere seguimiento por imagen, la III presenta riesgo intermedio y suele intervenirse, y la IV incluye componentes sólidos con realce y alta probabilidad de malignidad.",
+    "clasificacion": "La clasificación de Bosniak estratifica las lesiones quísticas renales por su riesgo de malignidad: La categoría I corresponde al quiste simple benigno, la II a quistes mínimamente complejos también benignos, la IIF requiere seguimiento por imagen, la III presenta riesgo intermedio y suele intervenirse, y la IV incluye componentes sólidos con realce y alta probabilidad de malignidad.",
     "errores": [
       "Etiquetar como simple un quiste con ecos internos por exceso de ganancia en el ultrasonido",
       "No completar el estudio cuando existen tabiques o calcificaciones visibles",
@@ -5773,7 +5773,7 @@
       "US": "Muestra una lesión intensamente hiperecogénica que sugiere el diagnóstico, aunque no es específica y siempre requiere confirmación."
     },
     "protocolo": "Tomografía renal con fase simple de cortes finos de 1 a 3 milímetros seguida de fase nefrográfica con contraste yodado. Se colocan regiones de interés pequeñas dentro de las áreas hipodensas evitando el promediado de volumen parcial. En resonancia se emplean secuencias potenciadas en T1 en fase y fase opuesta, T2 y secuencias con supresión grasa.",
-    "clasificacion": "El manejo se orienta principalmente por el tamaño: las lesiones menores de 4 centímetros suelen vigilarse, mientras que las mayores o las que contienen aneurismas superiores a 5 milímetros presentan mayor riesgo hemorrágico y se consideran candidatas a embolización o cirugía conservadora de nefronas.",
+    "clasificacion": "El manejo se orienta principalmente por el tamaño: Las lesiones menores de 4 centímetros suelen vigilarse, mientras que las mayores o las que contienen aneurismas superiores a 5 milímetros presentan mayor riesgo hemorrágico y se consideran candidatas a embolización o cirugía conservadora de nefronas.",
     "errores": [
       "Concluir angiomiolipoma ante una masa hiperecogénica en ultrasonido sin confirmar grasa por tomografía o resonancia",
       "Medir la atenuación con una región de interés demasiado amplia que promedia grasa y parénquima",
@@ -6008,7 +6008,7 @@
       "Compresión de estructuras vecinas como uréteres o vejiga"
     ],
     "hallazgos": "En ultrasonido se identifican nódulos redondeados, habitualmente hipoecogénicos y heterogéneos, con sombra acústica lateral y atenuación posterior en bandas. El Doppler demuestra un patrón vascular periférico circunferencial. En resonancia son marcadamente hipointensos en T2 respecto al miometrio, con bordes netos, y las formas degeneradas muestran áreas de señal alta o mixta.",
-    "perlas": "La localización es más determinante que el tamaño para explicar los síntomas: un mioma submucoso pequeño puede causar sangrado intenso e infertilidad, mientras que uno subseroso de gran tamaño puede resultar silente. Por eso el informe siempre debe precisar la relación con el endometrio y la serosa.",
+    "perlas": "La localización es más determinante que el tamaño para explicar los síntomas: Un mioma submucoso pequeño puede causar sangrado intenso e infertilidad, mientras que uno subseroso de gran tamaño puede resultar silente. Por eso el informe siempre debe precisar la relación con el endometrio y la serosa.",
     "diferencial": [
       {
         "entidad": "Adenomiosis",
@@ -6037,7 +6037,7 @@
       "US": "Es la técnica de elección inicial por su disponibilidad, resolución en el estudio transvaginal y capacidad de valorar vascularización."
     },
     "protocolo": "Ultrasonido pélvico con abordaje transabdominal con vejiga llena seguido de estudio transvaginal con vejiga vacía y transductor de alta frecuencia. Se realizan cortes sagitales y transversales del útero con medición de los tres diámetros y de cada mioma relevante, complementados con Doppler color. En resonancia se emplean secuencias T2 en los tres planos con estudio dinámico si se plantea embolización.",
-    "clasificacion": "La clasificación más difundida ordena los miomas del 0 al 8 según su relación con las capas uterinas: los tipos 0, 1 y 2 son submucosos con grado creciente de componente intramural, los tipos 3 a 5 son intramurales y subserosos, los tipos 6 y 7 son subserosos con distinto grado de pediculación y el tipo 8 corresponde a localizaciones especiales como la cervical.",
+    "clasificacion": "La clasificación más difundida ordena los miomas del 0 al 8 según su relación con las capas uterinas: Los tipos 0, 1 y 2 son submucosos con grado creciente de componente intramural, los tipos 3 a 5 son intramurales y subserosos, los tipos 6 y 7 son subserosos con distinto grado de pediculación y el tipo 8 corresponde a localizaciones especiales como la cervical.",
     "errores": [
       "Confundir una contracción miometrial transitoria con un mioma por no repetir la exploración",
       "Atribuir a un mioma subseroso pediculado un origen ovárico y errar la planificación quirúrgica",
@@ -6206,7 +6206,7 @@
       "Movilidad independiente de la masa respecto al ovario ipsilateral"
     ],
     "hallazgos": "El hallazgo más frecuente es una masa anexial heterogénea separada del ovario, con un anillo tubárico ecogénico que rodea un centro anecoico. El signo específico es la visualización de un saco gestacional extrauterino con saco vitelino o polo embrionario. La presencia de líquido libre ecogénico sugiere hemoperitoneo y, dentro del útero, puede observarse un pseudosaco de contorno único y localización central.",
-    "perlas": "La maniobra clave para distinguir la masa ectópica del cuerpo lúteo es comprobar su movilidad independiente respecto al ovario aplicando presión suave con el transductor: el cuerpo lúteo se desplaza junto al ovario, mientras que el saco tubárico se mueve por separado. El anillo tubárico también suele ser más ecogénico que el parénquima ovárico.",
+    "perlas": "La maniobra clave para distinguir la masa ectópica del cuerpo lúteo es comprobar su movilidad independiente respecto al ovario aplicando presión suave con el transductor: El cuerpo lúteo se desplaza junto al ovario, mientras que el saco tubárico se mueve por separado. El anillo tubárico también suele ser más ecogénico que el parénquima ovárico.",
     "diferencial": [
       {
         "entidad": "Cuerpo lúteo",
@@ -6232,7 +6232,7 @@
     ],
     "porModalidad": {
       "TC": "No es la técnica indicada, aunque puede detectar hemoperitoneo en una paciente inestable estudiada por otro motivo.",
-      "US": "Es el pilar diagnóstico: localiza la gestación, valora la vascularización y detecta el hemoperitoneo con gran rapidez."
+      "US": "Es el pilar diagnóstico: Localiza la gestación, valora la vascularización y detecta el hemoperitoneo con gran rapidez."
     },
     "protocolo": "Ultrasonido transvaginal con vejiga vacía y barrido sistemático del útero en planos sagital y transversal, seguido de exploración de ambos anexos y del fondo de saco. Se emplea Doppler color con baja velocidad y filtro bajo para detectar flujos lentos, y se aplica presión suave con el transductor para valorar la movilidad de la masa. El estudio se interpreta siempre junto a la determinación seriada de gonadotropina coriónica.",
     "clasificacion": "Se clasifica según su localización en tubárico, que incluye las variantes ampular, ístmica y fímbrica, e intersticial o cornual, junto a formas menos frecuentes como el cervical, el ovárico, el abdominal y el implantado sobre una cicatriz de cesárea. Cuando no se identifica la gestación se emplea el término de embarazo de localización desconocida, que obliga a seguimiento estrecho.",
@@ -6364,7 +6364,7 @@
     ],
     "porModalidad": {
       "TC": "No tiene indicación en el escroto agudo y su uso retrasa el tratamiento quirúrgico.",
-      "US": "Es la única técnica indicada: valora el flujo, identifica el remolino del cordón y estima la viabilidad del parénquima."
+      "US": "Es la única técnica indicada: Valora el flujo, identifica el remolino del cordón y estima la viabilidad del parénquima."
     },
     "protocolo": "Ultrasonido escrotal con transductor lineal de alta frecuencia, explorando primero el testículo sano para ajustar la ganancia Doppler y luego el sintomático en el mismo plano y con idénticos parámetros. Se emplea escala de velocidades baja y filtro de pared mínimo para detectar flujos lentos, complementado con Doppler espectral y estudio del cordón inguinal. La exploración debe realizarse con la máxima prontitud sin retrasar la consulta quirúrgica.",
     "clasificacion": "Se distinguen la torsión intravaginal, propia de adolescentes y asociada a la deformidad en badajo de campana, y la extravaginal, característica del período neonatal. Desde el punto de vista funcional se gradúa según el número de vueltas del cordón y el tiempo de evolución, factores que determinan directamente la probabilidad de salvamento del testículo.",

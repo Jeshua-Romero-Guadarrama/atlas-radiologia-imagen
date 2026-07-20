@@ -6,7 +6,7 @@
     "modalidad": "RX",
     "queEs": "Se pierde el borde nítido de una estructura de densidad agua (corazón, aorta, diafragma) porque una opacidad pulmonar contigua lo oculta. El contorno que normalmente se dibuja contra el aire pulmonar desaparece.",
     "porQueOcurre": "Dos estructuras de igual densidad radiológica en contacto anatómico directo dejan de generar interfase, por lo que no se produce el contraste necesario para ver el borde.",
-    "significado": "Permite localizar la lesión por lobulillo: si borra el borde cardiaco derecho está en el lóbulo medio, si borra el izquierdo en la língula, si borra el diafragma en los lóbulos inferiores.",
+    "significado": "Permite localizar la lesión por lobulillo: Si borra el borde cardiaco derecho está en el lóbulo medio, si borra el izquierdo en la língula, si borra el diafragma en los lóbulos inferiores.",
     "diferencial": [
       "Derrame pleural loculado adyacente",
       "Masa mediastínica de contacto",
@@ -26,14 +26,14 @@
     "modalidad": "RX",
     "queEs": "Dentro de una zona opaca de pulmón se distinguen estructuras tubulares ramificadas radiolúcidas, que corresponden a bronquios llenos de aire. Se aprecian como líneas oscuras arborizadas sobre un fondo blanco.",
     "porQueOcurre": "Los alvéolos se llenan de líquido, pus, sangre o células, mientras la vía aérea conductora permanece permeable y aireada, generando contraste entre bronquio y parénquima.",
-    "significado": "Indica que la opacidad es de origen alveolar y de localización intrapulmonar: neumonía, edema alveolar, hemorragia o carcinoma lepídico.",
+    "significado": "Indica que la opacidad es de origen alveolar y de localización intrapulmonar: Neumonía, edema alveolar, hemorragia o carcinoma lepídico.",
     "diferencial": [
       "Neumonía bacteriana",
       "Edema pulmonar alveolar",
       "Adenocarcinoma de crecimiento lepídico",
       "Linfoma pulmonar primario"
     ],
-    "comoRecordarlo": "Un árbol negro dibujado sobre nieve: el aire del bronquio sobrevive al ahogamiento del alvéolo.",
+    "comoRecordarlo": "Un árbol negro dibujado sobre nieve: El aire del bronquio sobrevive al ahogamiento del alvéolo.",
     "etiquetas": [
       "alveolar",
       "consolidación",
@@ -46,7 +46,7 @@
     "sistema": "Respiratorio",
     "modalidad": "RX",
     "queEs": "Opacidad periférica con forma de cuña o joroba, de base pleural ancha y vértice redondeado dirigido hacia el hilio. Suele asentar en las bases y contactar ampliamente con la pared torácica.",
-    "porQueOcurre": "Corresponde a un infarto pulmonar por oclusión de una rama arterial: el territorio distal se necrosa y se llena de hemorragia, respetando la forma piramidal del segmento irrigado.",
+    "porQueOcurre": "Corresponde a un infarto pulmonar por oclusión de una rama arterial: El territorio distal se necrosa y se llena de hemorragia, respetando la forma piramidal del segmento irrigado.",
     "significado": "Sugiere tromboembolia pulmonar con infarto pulmonar establecido.",
     "diferencial": [
       "Neumonía redonda periférica",
@@ -73,7 +73,7 @@
       "Atrapamiento aéreo por cuerpo extraño bronquial",
       "Síndrome de pulmón hiperlúcido unilateral"
     ],
-    "comoRecordarlo": "Una ventana limpia en el pulmón: donde no llega sangre, no hay sombra.",
+    "comoRecordarlo": "Una ventana limpia en el pulmón: Donde no llega sangre, no hay sombra.",
     "etiquetas": [
       "tromboembolia",
       "oligohemia",
@@ -105,7 +105,7 @@
     "nombre": "Signo de Golden (S invertida)",
     "sistema": "Respiratorio",
     "modalidad": "RX",
-    "queEs": "Atelectasia lobar cuya cisura desplazada no es una línea recta, sino que dibuja una S: cóncava en la periferia y convexa en la porción central, cerca del hilio.",
+    "queEs": "Atelectasia lobar cuya cisura desplazada no es una línea recta, sino que dibuja una S: Cóncava en la periferia y convexa en la porción central, cerca del hilio.",
     "porQueOcurre": "El lóbulo colapsado retrae la cisura hacia el hilio, pero una masa central voluminosa que ocluye el bronquio empuja esa porción en sentido contrario, invirtiendo localmente la curvatura.",
     "significado": "Atelectasia obstructiva por masa hiliar, altamente sugestiva de carcinoma broncogénico central.",
     "diferencial": [
@@ -113,7 +113,7 @@
       "Tumor carcinoide bronquial",
       "Tapón mucoso con masa asociada"
     ],
-    "comoRecordarlo": "La cisura escribe una S: la joroba central es el tumor que no deja que el lóbulo se retraiga del todo.",
+    "comoRecordarlo": "La cisura escribe una S: La joroba central es el tumor que no deja que el lóbulo se retraiga del todo.",
     "etiquetas": [
       "atelectasia",
       "masa-central",
@@ -133,7 +133,7 @@
       "Pliegue cutáneo simulador",
       "Neumoperitoneo con distensión subdiafragmática"
     ],
-    "comoRecordarlo": "El aire acostado no sube: se esconde en el rincón más bajo y lo vuelve un surco negro y largo.",
+    "comoRecordarlo": "El aire acostado no sube: Se esconde en el rincón más bajo y lo vuelve un surco negro y largo.",
     "etiquetas": [
       "neumotórax",
       "decúbito",
@@ -147,14 +147,14 @@
     "modalidad": "TC",
     "queEs": "Nódulos centrolobulillares de dos a cuatro milímetros conectados por estructuras lineales ramificadas, que respetan la periferia inmediata de la pleura. El conjunto recuerda a una rama con yemas florecientes.",
     "porQueOcurre": "Los bronquiolos terminales y respiratorios se rellenan de moco, pus o material inflamatorio y se dilatan, haciéndose visibles con su ramificación característica.",
-    "significado": "Enfermedad de la vía aérea pequeña: tuberculosis endobronquial activa, infección por micobacterias no tuberculosas, bronquiolitis infecciosa o aspiración crónica.",
+    "significado": "Enfermedad de la vía aérea pequeña: Tuberculosis endobronquial activa, infección por micobacterias no tuberculosas, bronquiolitis infecciosa o aspiración crónica.",
     "diferencial": [
       "Tuberculosis con diseminación endobronquial",
       "Panbronquiolitis difusa",
       "Fibrosis quística sobreinfectada",
       "Aspiración recurrente"
     ],
-    "comoRecordarlo": "Ramita con brotes en primavera: la vía aérea diminuta llena de moco se vuelve visible.",
+    "comoRecordarlo": "Ramita con brotes en primavera: La vía aérea diminuta llena de moco se vuelve visible.",
     "etiquetas": [
       "bronquiolos",
       "tuberculosis",
@@ -175,7 +175,7 @@
       "Granulomatosis con poliangeítis",
       "Adenocarcinoma con componente lepídico"
     ],
-    "comoRecordarlo": "Un nódulo con aureola: el hongo invade el vaso y la sangre se derrama alrededor.",
+    "comoRecordarlo": "Un nódulo con aureola: El hongo invade el vaso y la sangre se derrama alrededor.",
     "etiquetas": [
       "vidrio-deslustrado",
       "hongos",
@@ -196,7 +196,7 @@
       "Paracoccidioidomicosis",
       "Sarcoidosis"
     ],
-    "comoRecordarlo": "Un donut al revés: el anillo es lo blanco y el relleno es lo gris.",
+    "comoRecordarlo": "Un donut al revés: El anillo es lo blanco y el relleno es lo gris.",
     "etiquetas": [
       "neumonía-organizada",
       "anillo",
@@ -216,7 +216,7 @@
       "Masa mediastínica anterior",
       "Adenopatías paratraqueales"
     ],
-    "comoRecordarlo": "Una vela de barco desplegada al viento desde el mástil mediastínico: es normal, no es enfermedad.",
+    "comoRecordarlo": "Una vela de barco desplegada al viento desde el mástil mediastínico: Es normal, no es enfermedad.",
     "etiquetas": [
       "timo",
       "pediatría",
@@ -277,7 +277,7 @@
       "Cuerpo extraño aspirado",
       "Estenosis inflamatoria"
     ],
-    "comoRecordarlo": "La carretera termina de golpe: donde se acaba el aire, hay algo que lo tapa.",
+    "comoRecordarlo": "La carretera termina de golpe: Donde se acaba el aire, hay algo que lo tapa.",
     "etiquetas": [
       "obstrucción",
       "bronquio",
@@ -298,7 +298,7 @@
       "Hemorragia alveolar difusa",
       "Neumonía viral"
     ],
-    "comoRecordarlo": "Calle empedrada: los adoquines son los lobulillos y las juntas son los septos engrosados.",
+    "comoRecordarlo": "Calle empedrada: Los adoquines son los lobulillos y las juntas son los septos engrosados.",
     "etiquetas": [
       "intersticio",
       "vidrio-deslustrado",
@@ -319,7 +319,7 @@
       "Afectación pulmonar de artritis reumatoide",
       "Neumonitis por hipersensibilidad crónica"
     ],
-    "comoRecordarlo": "Celdillas de panal apiladas bajo la pleura: el pulmón ya no respira, solo queda estructura.",
+    "comoRecordarlo": "Celdillas de panal apiladas bajo la pleura: El pulmón ya no respira, solo queda estructura.",
     "etiquetas": [
       "fibrosis",
       "quistes",
@@ -331,7 +331,7 @@
     "nombre": "Signo de Rigler",
     "sistema": "Digestivo",
     "modalidad": "RX",
-    "queEs": "En radiografía simple de abdomen se distinguen ambas caras de la pared intestinal: la mucosa interna y la serosa externa aparecen delineadas como una línea blanca nítida.",
+    "queEs": "En radiografía simple de abdomen se distinguen ambas caras de la pared intestinal: La mucosa interna y la serosa externa aparecen delineadas como una línea blanca nítida.",
     "porQueOcurre": "Normalmente solo se ve la cara interna del asa porque el aire está dentro; cuando existe gas libre en la cavidad peritoneal, este rodea el asa por fuera y crea contraste también en la serosa.",
     "significado": "Neumoperitoneo, generalmente por perforación de víscera hueca. Requiere valoración quirúrgica urgente.",
     "diferencial": [
@@ -339,7 +339,7 @@
       "Neumoperitoneo posquirúrgico residual",
       "Neumatosis intestinal extensa"
     ],
-    "comoRecordarlo": "La pared del asa se ve por los dos lados: hay aire por dentro y por fuera.",
+    "comoRecordarlo": "La pared del asa se ve por los dos lados: Hay aire por dentro y por fuera.",
     "etiquetas": [
       "neumoperitoneo",
       "perforación",
@@ -359,7 +359,7 @@
       "Seudoobstrucción colónica",
       "Impactación fecal masiva"
     ],
-    "comoRecordarlo": "Un grano de café gigante en el abdomen, con su surco por el medio: el asa se dio la vuelta.",
+    "comoRecordarlo": "Un grano de café gigante en el abdomen, con su surco por el medio: El asa se dio la vuelta.",
     "etiquetas": [
       "vólvulo",
       "sigmoides",
@@ -379,7 +379,7 @@
       "Vólvulo por brida posquirúrgica",
       "Hernia interna con torsión"
     ],
-    "comoRecordarlo": "Los vasos se enrollan como un remolino de agua: donde gira el mesenterio, se estrangula el intestino.",
+    "comoRecordarlo": "Los vasos se enrollan como un remolino de agua: Donde gira el mesenterio, se estrangula el intestino.",
     "etiquetas": [
       "vólvulo",
       "mesenterio",
@@ -399,7 +399,7 @@
       "Linfoma intestinal como cabeza de invaginación",
       "Hematoma intramural"
     ],
-    "comoRecordarlo": "Una diana de tiro en el abdomen del niño: un asa se metió dentro de otra como un telescopio.",
+    "comoRecordarlo": "Una diana de tiro en el abdomen del niño: Un asa se metió dentro de otra como un telescopio.",
     "etiquetas": [
       "invaginación",
       "pediatría",
@@ -420,7 +420,7 @@
       "Malrotación con bandas de Ladd",
       "Membrana duodenal fenestrada"
     ],
-    "comoRecordarlo": "Dos burbujas arriba y nada abajo: el duodeno se cerró antes de dejar pasar el aire.",
+    "comoRecordarlo": "Dos burbujas arriba y nada abajo: El duodeno se cerró antes de dejar pasar el aire.",
     "etiquetas": [
       "neonato",
       "atresia",
@@ -440,7 +440,7 @@
       "Estenosis péptica",
       "Enfermedad de Chagas con afectación esofágica"
     ],
-    "comoRecordarlo": "El esófago se afila como un pico: el esfínter no se abre y todo se acumula detrás.",
+    "comoRecordarlo": "El esófago se afila como un pico: El esfínter no se abre y todo se acumula detrás.",
     "etiquetas": [
       "acalasia",
       "esófago",
@@ -461,7 +461,7 @@
       "Estenosis isquémica",
       "Enteritis por radiación"
     ],
-    "comoRecordarlo": "Una cuerda fina de contraste donde debería haber un asa ancha: la pared se cerró sobre sí misma.",
+    "comoRecordarlo": "Una cuerda fina de contraste donde debería haber un asa ancha: La pared se cerró sobre sí misma.",
     "etiquetas": [
       "crohn",
       "íleon",
@@ -481,7 +481,7 @@
       "Colitis isquémica cicatricial",
       "Estenosis por enfermedad inflamatoria intestinal"
     ],
-    "comoRecordarlo": "Un corazón de manzana comido por los lados: el tumor mordió la pared en toda la circunferencia.",
+    "comoRecordarlo": "Un corazón de manzana comido por los lados: El tumor mordió la pared en toda la circunferencia.",
     "etiquetas": [
       "cáncer",
       "colon",
@@ -501,7 +501,7 @@
       "Depósito por fármacos",
       "Hepatitis aguda en fase de resolución"
     ],
-    "comoRecordarlo": "El hígado brilla más que el riñón: la grasa refleja el sonido y apaga el fondo.",
+    "comoRecordarlo": "El hígado brilla más que el riñón: La grasa refleja el sonido y apaga el fondo.",
     "etiquetas": [
       "esteatosis",
       "hígado",
@@ -522,7 +522,7 @@
       "Isquemia mesentérica reperfundida",
       "Edema por hipoproteinemia"
     ],
-    "comoRecordarlo": "Un sándwich en la pared del intestino: dos capas densas con relleno de agua en medio.",
+    "comoRecordarlo": "Un sándwich en la pared del intestino: Dos capas densas con relleno de agua en medio.",
     "etiquetas": [
       "edema",
       "colitis",
@@ -542,7 +542,7 @@
       "Enterocolitis necrosante perforada",
       "Neumoperitoneo por barotrauma"
     ],
-    "comoRecordarlo": "Un balón ovalado con costura central: la costura es el ligamento falciforme dibujado por el aire.",
+    "comoRecordarlo": "Un balón ovalado con costura central: La costura es el ligamento falciforme dibujado por el aire.",
     "etiquetas": [
       "neumoperitoneo",
       "neonato",
@@ -563,7 +563,7 @@
       "Enfermedad pulmonar obstructiva con disección de gas",
       "Neumatosis por corticoides o quimioterapia"
     ],
-    "comoRecordarlo": "Burbujas atrapadas dentro de la pared, no en la luz: el intestino se está muriendo desde dentro.",
+    "comoRecordarlo": "Burbujas atrapadas dentro de la pared, no en la luz: El intestino se está muriendo desde dentro.",
     "etiquetas": [
       "isquemia",
       "gas-parietal",
@@ -584,7 +584,7 @@
       "Enteritis infecciosa",
       "Hemorragia intramural por anticoagulantes"
     ],
-    "comoRecordarlo": "Monedas apiladas dentro del asa: los pliegues del yeyuno cruzan la luz de lado a lado.",
+    "comoRecordarlo": "Monedas apiladas dentro del asa: Los pliegues del yeyuno cruzan la luz de lado a lado.",
     "etiquetas": [
       "obstrucción",
       "delgado",
@@ -605,7 +605,7 @@
       "Colangiocarcinoma",
       "Colangitis esclerosante"
     ],
-    "comoRecordarlo": "Dos tubos donde debería haber uno: la bilis dilatada acompaña a la porta como el aro de un anillo.",
+    "comoRecordarlo": "Dos tubos donde debería haber uno: La bilis dilatada acompaña a la porta como el aro de un anillo.",
     "etiquetas": [
       "vía-biliar",
       "obstrucción",
@@ -625,7 +625,7 @@
       "Calcificación parietal",
       "Hematocrito elevado con vasos densos"
     ],
-    "comoRecordarlo": "El vaso se ve como una cuerda densa: la sangre coagulada pesa más que la que fluye.",
+    "comoRecordarlo": "El vaso se ve como una cuerda densa: La sangre coagulada pesa más que la que fluye.",
     "etiquetas": [
       "trombosis",
       "hiperdenso",
@@ -645,7 +645,7 @@
       "Artefacto por adquisición precoz",
       "Hipoplasia del seno"
     ],
-    "comoRecordarlo": "Un triángulo con el centro apagado: las paredes brillan pero el coágulo se queda oscuro.",
+    "comoRecordarlo": "Un triángulo con el centro apagado: Las paredes brillan pero el coágulo se queda oscuro.",
     "etiquetas": [
       "trombosis",
       "senos-venosos",
@@ -665,7 +665,7 @@
       "Atresia pulmonar con comunicación interventricular",
       "Doble salida de ventrículo derecho"
     ],
-    "comoRecordarlo": "Una bota de campo: la punta levantada del ventrículo derecho y el hueco donde falta la pulmonar.",
+    "comoRecordarlo": "Una bota de campo: La punta levantada del ventrículo derecho y el hueco donde falta la pulmonar.",
     "etiquetas": [
       "cardiopatía-congénita",
       "cianótica",
@@ -685,7 +685,7 @@
       "Insuficiencia cardiaca global",
       "Anomalía de Ebstein"
     ],
-    "comoRecordarlo": "Un cántaro de agua: contorno liso y redondo, sin congestión pulmonar que lo acompañe.",
+    "comoRecordarlo": "Un cántaro de agua: Contorno liso y redondo, sin congestión pulmonar que lo acompañe.",
     "etiquetas": [
       "pericardio",
       "derrame",
@@ -697,7 +697,7 @@
     "nombre": "Signo del muñeco de nieve",
     "sistema": "Cardiovascular",
     "modalidad": "RX",
-    "queEs": "La silueta mediastínica presenta dos porciones redondeadas superpuestas: una superior ensanchada y otra inferior correspondiente al corazón, formando un ocho o figura de muñeco de nieve.",
+    "queEs": "La silueta mediastínica presenta dos porciones redondeadas superpuestas: Una superior ensanchada y otra inferior correspondiente al corazón, formando un ocho o figura de muñeco de nieve.",
     "porQueOcurre": "En el drenaje venoso pulmonar anómalo total supracardiaco, la vena vertical, la vena innominada y la vena cava superior dilatadas ensanchan el mediastino superior por encima del corazón agrandado.",
     "significado": "Drenaje venoso pulmonar anómalo total de tipo supracardiaco.",
     "diferencial": [
@@ -705,7 +705,7 @@
       "Masa mediastínica superior",
       "Ensanchamiento mediastínico vascular de otra causa"
     ],
-    "comoRecordarlo": "Un muñeco de nieve: la cabeza son las venas dilatadas y el cuerpo es el corazón.",
+    "comoRecordarlo": "Un muñeco de nieve: La cabeza son las venas dilatadas y el cuerpo es el corazón.",
     "etiquetas": [
       "congénita",
       "drenaje-anómalo",
@@ -726,7 +726,7 @@
       "Obstrucción de vena cava superior con colaterales",
       "Neurofibromatosis"
     ],
-    "comoRecordarlo": "Las costillas mordidas por dentro: las colaterales dilatadas cavan su propio surco.",
+    "comoRecordarlo": "Las costillas mordidas por dentro: Las colaterales dilatadas cavan su propio surco.",
     "etiquetas": [
       "coartación",
       "colaterales",
@@ -746,7 +746,7 @@
       "Aorta tortuosa del anciano",
       "Ductus arterioso persistente calcificado"
     ],
-    "comoRecordarlo": "Un tres dibujado en el borde de la aorta: una joroba antes, la muesca del estrechamiento y otra joroba después.",
+    "comoRecordarlo": "Un tres dibujado en el borde de la aorta: Una joroba antes, la muesca del estrechamiento y otra joroba después.",
     "etiquetas": [
       "coartación",
       "aorta",
@@ -767,7 +767,7 @@
       "Mixoma auricular voluminoso",
       "Miocardiopatía con disfunción diastólica"
     ],
-    "comoRecordarlo": "Dos arcos donde debería haber uno: la aurícula izquierda asoma detrás de la derecha.",
+    "comoRecordarlo": "Dos arcos donde debería haber uno: La aurícula izquierda asoma detrás de la derecha.",
     "etiquetas": [
       "aurícula-izquierda",
       "mitral",
@@ -807,7 +807,7 @@
       "Ensanchamiento mediastínico por otra causa",
       "Superposición de calcificación en proyección oblicua"
     ],
-    "comoRecordarlo": "El calcio se despegó del borde: entre la línea blanca y el contorno hay sangre que no debería estar ahí.",
+    "comoRecordarlo": "El calcio se despegó del borde: Entre la línea blanca y el contorno hay sangre que no debería estar ahí.",
     "etiquetas": [
       "disección",
       "aorta",
@@ -826,7 +826,7 @@
       "Artefacto de volumen parcial en un corte oblicuo",
       "Encefalitis herpética, que también afecta la ínsula pero suele ser bilateral y asimétrica"
     ],
-    "comoRecordarlo": "La ínsula es la primera en 'apagarse' cuando se ocluye la cerebral media: si la cinta insular se difumina, sospecha isquemia aunque el resto parezca normal.",
+    "comoRecordarlo": "La ínsula es la primera en 'apagarse' cuando se ocluye la cerebral media: Si la cinta insular se difumina, sospecha isquemia aunque el resto parezca normal.",
     "etiquetas": [
       "insula",
       "ictus",
@@ -848,7 +848,7 @@
       "Calcificación aterosclerótica de la pared arterial, que es más marcada y suele ser bilateral",
       "Hematocrito elevado, que hace densas todas las arterias por igual"
     ],
-    "comoRecordarlo": "El trombo se ve blanco dentro del vaso: una cerebral media más blanca que su gemela del otro lado delata el coágulo.",
+    "comoRecordarlo": "El trombo se ve blanco dentro del vaso: Una cerebral media más blanca que su gemela del otro lado delata el coágulo.",
     "etiquetas": [
       "cerebral media",
       "trombo",
@@ -870,7 +870,7 @@
       "Depósitos de hierro fisiológicos del envejecimiento, que no tienen el centro brillante",
       "Otras neurodegeneraciones con acúmulo de hierro"
     ],
-    "comoRecordarlo": "Ojo de tigre en el globo pálido: centro brillante, borde oscuro de hierro.",
+    "comoRecordarlo": "Ojo de tigre en el globo pálido: Centro brillante, borde oscuro de hierro.",
     "etiquetas": [
       "globo palido",
       "hierro",
@@ -884,7 +884,7 @@
     "nombre": "Signo del colibrí",
     "sistema": "Nervioso",
     "modalidad": "RM",
-    "queEs": "En el corte sagital medio, el mesencéfalo atrofiado adopta una silueta que recuerda la cabeza de un colibrí: el tegmento mesencefálico afinado forma el 'pico' y la protuberancia conservada forma el 'cuerpo'.",
+    "queEs": "En el corte sagital medio, el mesencéfalo atrofiado adopta una silueta que recuerda la cabeza de un colibrí: El tegmento mesencefálico afinado forma el 'pico' y la protuberancia conservada forma el 'cuerpo'.",
     "porQueOcurre": "La atrofia selectiva del tegmento del mesencéfalo, con relativa preservación de la protuberancia, produce ese contorno tan reconocible en el plano sagital.",
     "significado": "Es típico de la parálisis supranuclear progresiva, una enfermedad neurodegenerativa que se manifiesta con alteración de la mirada vertical y caídas.",
     "diferencial": [
@@ -905,7 +905,7 @@
     "nombre": "Signo del diente molar",
     "sistema": "Nervioso",
     "modalidad": "RM",
-    "queEs": "En el corte axial a la altura de la unión entre mesencéfalo y protuberancia, el conjunto aparece con una forma que recuerda a un diente molar: los pedúnculos cerebelosos superiores, engrosados y horizontalizados, forman las 'raíces', y la fosa interpeduncular profunda forma el hueco central.",
+    "queEs": "En el corte axial a la altura de la unión entre mesencéfalo y protuberancia, el conjunto aparece con una forma que recuerda a un diente molar: Los pedúnculos cerebelosos superiores, engrosados y horizontalizados, forman las 'raíces', y la fosa interpeduncular profunda forma el hueco central.",
     "porQueOcurre": "Se debe a la hipoplasia del vermis cerebeloso, con pedúnculos cerebelosos superiores anormalmente gruesos y orientados de forma perpendicular al tronco, y a una fosa interpeduncular más profunda de lo normal.",
     "significado": "Es el signo distintivo del síndrome de Joubert y de trastornos relacionados, malformaciones de la fosa posterior con hipoplasia del vermis.",
     "diferencial": [
@@ -933,7 +933,7 @@
       "Absceso cerebral, con anillo completo y restricción marcada en difusión del centro",
       "Glioma o metástasis, con anillo completo e irregular"
     ],
-    "comoRecordarlo": "Anillo abierto hacia la sustancia gris: pista de desmielinización, no de tumor.",
+    "comoRecordarlo": "Anillo abierto hacia la sustancia gris: Pista de desmielinización, no de tumor.",
     "etiquetas": [
       "desmielinizacion",
       "esclerosis multiple",
@@ -954,7 +954,7 @@
       "Lesiones isquémicas de pequeño vaso, que no siguen esa orientación perpendicular",
       "Migraña o vasculitis con lesiones de sustancia blanca"
     ],
-    "comoRecordarlo": "Los 'dedos' apuntan a los ventrículos como los rayos de una rueda: firma de la esclerosis múltiple.",
+    "comoRecordarlo": "Los 'dedos' apuntan a los ventrículos como los rayos de una rueda: Firma de la esclerosis múltiple.",
     "etiquetas": [
       "esclerosis multiple",
       "periventricular",
@@ -970,12 +970,12 @@
     "modalidad": "TC",
     "queEs": "Colección extraaxial con forma de semiluna o creciente que se extiende a lo largo de la convexidad del cráneo, entre este y la superficie cerebral, cruzando las suturas.",
     "porQueOcurre": "La sangre se acumula en el espacio subdural por rotura de las venas puente; como este espacio no está limitado por las suturas, la colección se extiende ampliamente adoptando forma cóncava hacia el cerebro.",
-    "significado": "Indica hematoma subdural. Su densidad orienta la antigüedad: hiperdenso en fase aguda, isodenso en la subaguda e hipodenso en la crónica.",
+    "significado": "Indica hematoma subdural. Su densidad orienta la antigüedad: Hiperdenso en fase aguda, isodenso en la subaguda e hipodenso en la crónica.",
     "diferencial": [
       "Hematoma epidural, que es biconvexo y no cruza las suturas",
       "Empiema subdural, con realce de la membrana y contexto infeccioso"
     ],
-    "comoRecordarlo": "Semiluna que cruza suturas: subdural. Lente que las respeta: epidural.",
+    "comoRecordarlo": "Semiluna que cruza suturas: Subdural. Lente que las respeta: Epidural.",
     "etiquetas": [
       "subdural",
       "hematoma",
@@ -996,7 +996,7 @@
       "Hematoma subdural, en semiluna y que cruza suturas",
       "Tumor extraaxial como un meningioma, sin el contexto traumático"
     ],
-    "comoRecordarlo": "Lente biconvexa que respeta las suturas y suele asociar fractura: epidural arterial.",
+    "comoRecordarlo": "Lente biconvexa que respeta las suturas y suele asociar fractura: Epidural arterial.",
     "etiquetas": [
       "epidural",
       "hematoma",
@@ -1018,7 +1018,7 @@
       "Variante posicional por desviación radial de la muñeca",
       "Laxitud ligamentaria generalizada, que suele ser bilateral y simétrica"
     ],
-    "comoRecordarlo": "El hueco entre escafoides y semilunar es como el diastema entre los dientes: si se abre demasiado, hay disociación escafolunar.",
+    "comoRecordarlo": "El hueco entre escafoides y semilunar es como el diastema entre los dientes: Si se abre demasiado, hay disociación escafolunar.",
     "etiquetas": [
       "escafolunar",
       "muñeca",
@@ -1033,14 +1033,14 @@
     "nombre": "Signo del cojinete graso del codo",
     "sistema": "Óseo",
     "modalidad": "RX",
-    "queEs": "Desplazamiento de las almohadillas de grasa del codo en la proyección lateral: la anterior se eleva formando una imagen en 'vela de barco' y la posterior, normalmente invisible, se hace visible por detrás del húmero distal.",
+    "queEs": "Desplazamiento de las almohadillas de grasa del codo en la proyección lateral: La anterior se eleva formando una imagen en 'vela de barco' y la posterior, normalmente invisible, se hace visible por detrás del húmero distal.",
     "porQueOcurre": "Un derrame o hemartros dentro de la cápsula articular empuja la grasa periarticular fuera de sus fosas, haciéndola visible o desplazándola.",
     "significado": "Indica derrame articular. En un adulto con traumatismo, un cojinete graso posterior visible sugiere fractura de la cabeza del radio aunque no se vea el trazo; en el niño, fractura supracondílea.",
     "diferencial": [
       "Almohadilla grasa anterior discretamente visible como variante normal",
       "Artritis inflamatoria con derrame no traumático"
     ],
-    "comoRecordarlo": "Cojinete graso posterior visible tras un golpe: hay fractura oculta hasta que se demuestre lo contrario.",
+    "comoRecordarlo": "Cojinete graso posterior visible tras un golpe: Hay fractura oculta hasta que se demuestre lo contrario.",
     "etiquetas": [
       "codo",
       "cojinete graso",
@@ -1062,7 +1062,7 @@
       "Reacción perióstica benigna, que es continua y lisa",
       "Osteomielitis agresiva, que puede producir reacciones parecidas"
     ],
-    "comoRecordarlo": "Un triángulo de hueso en el borde de la lesión anuncia agresividad: piensa en osteosarcoma.",
+    "comoRecordarlo": "Un triángulo de hueso en el borde de la lesión anuncia agresividad: Piensa en osteosarcoma.",
     "etiquetas": [
       "codman",
       "reaccion periostica",
@@ -1084,7 +1084,7 @@
       "Patrón en 'capas de cebolla' del sarcoma de Ewing",
       "Hemangioma óseo, con espículas más gruesas y ordenadas"
     ],
-    "comoRecordarlo": "Rayos de sol saliendo del hueso: crecimiento tumoral rápido, típicamente osteosarcoma.",
+    "comoRecordarlo": "Rayos de sol saliendo del hueso: Crecimiento tumoral rápido, típicamente osteosarcoma.",
     "etiquetas": [
       "sol naciente",
       "osteosarcoma",
@@ -1105,7 +1105,7 @@
       "Osteomielitis, que puede dar el mismo patrón y exige correlación clínica",
       "Osteosarcoma, que tiende más al patrón en sol naciente"
     ],
-    "comoRecordarlo": "Capas de cebolla alrededor del hueso, en un niño o adolescente: piensa en sarcoma de Ewing.",
+    "comoRecordarlo": "Capas de cebolla alrededor del hueso, en un niño o adolescente: Piensa en sarcoma de Ewing.",
     "etiquetas": [
       "piel de cebolla",
       "ewing",
@@ -1127,7 +1127,7 @@
       "Enfermedad de Paget, que aumenta el tamaño del cuerpo y engruesa las trabéculas",
       "Hemangioma esclerosante, más localizado"
     ],
-    "comoRecordarlo": "Una vértebra completamente blanca entre otras normales: metástasis, linfoma o Paget.",
+    "comoRecordarlo": "Una vértebra completamente blanca entre otras normales: Metástasis, linfoma o Paget.",
     "etiquetas": [
       "vertebra marfil",
       "esclerosis",
@@ -1149,7 +1149,7 @@
       "Fractura por compresión osteoporótica, con contexto y forma distintos",
       "Infección vertebral, que suele destruir también el disco"
     ],
-    "comoRecordarlo": "Vértebra aplanada como una moneda con discos conservados: en el niño, granuloma eosinófilo.",
+    "comoRecordarlo": "Vértebra aplanada como una moneda con discos conservados: En el niño, granuloma eosinófilo.",
     "etiquetas": [
       "vertebra plana",
       "granuloma eosinofilo",
@@ -1171,7 +1171,7 @@
       "Líneas de crecimiento detenido tras enfermedades de la infancia",
       "Osteopetrosis, con aumento generalizado de la densidad"
     ],
-    "comoRecordarlo": "Un hueso dibujado dentro de otro: repasa osteopetrosis y las líneas de detención del crecimiento.",
+    "comoRecordarlo": "Un hueso dibujado dentro de otro: Repasa osteopetrosis y las líneas de detención del crecimiento.",
     "etiquetas": [
       "hueso dentro del hueso",
       "osteopetrosis",
@@ -1192,7 +1192,7 @@
       "Avulsión de la cabeza del peroné (signo del arco)",
       "Fractura de la espina tibial en niños"
     ],
-    "comoRecordarlo": "Una escamita lateral en la tibia (Segond) es la punta del iceberg: casi siempre hay rotura del cruzado anterior.",
+    "comoRecordarlo": "Una escamita lateral en la tibia (Segond) es la punta del iceberg: Casi siempre hay rotura del cruzado anterior.",
     "etiquetas": [
       "segond",
       "rodilla",
@@ -1214,7 +1214,7 @@
       "Enfermedad de Paget, con engrosamiento cortical y trabecular",
       "Osteomalacia, con desmineralización difusa"
     ],
-    "comoRecordarlo": "Fémur proximal curvado como cayado de pastor: piensa en displasia fibrosa.",
+    "comoRecordarlo": "Fémur proximal curvado como cayado de pastor: Piensa en displasia fibrosa.",
     "etiquetas": [
       "baston de pastor",
       "displasia fibrosa",
@@ -1228,14 +1228,14 @@
     "nombre": "Signo de la doble línea",
     "sistema": "Óseo",
     "modalidad": "RM",
-    "queEs": "En las secuencias T2, el borde de una lesión de la cabeza femoral muestra dos líneas paralelas: una externa hipointensa (oscura) y otra interna hiperintensa (brillante).",
+    "queEs": "En las secuencias T2, el borde de una lesión de la cabeza femoral muestra dos líneas paralelas: Una externa hipointensa (oscura) y otra interna hiperintensa (brillante).",
     "porQueOcurre": "La línea oscura corresponde a la esclerosis reactiva del hueso, y la brillante al tejido de granulación hipervascular en la interfase entre el hueso necrótico y el viable.",
     "significado": "Es prácticamente diagnóstico de necrosis avascular (osteonecrosis) de la cabeza femoral.",
     "diferencial": [
       "Edema óseo transitorio de la cadera, sin la doble línea",
       "Infarto óseo en otras localizaciones, con el mismo mecanismo"
     ],
-    "comoRecordarlo": "Dos líneas paralelas, oscura fuera y brillante dentro, delimitan el hueso muerto: necrosis avascular.",
+    "comoRecordarlo": "Dos líneas paralelas, oscura fuera y brillante dentro, delimitan el hueso muerto: Necrosis avascular.",
     "etiquetas": [
       "doble linea",
       "necrosis avascular",
@@ -1279,7 +1279,7 @@
       "Calcificación ganglionar por tuberculosis previa, más central y grosera",
       "Sarcoidosis, en el contexto clínico adecuado"
     ],
-    "comoRecordarlo": "Ganglios hiliares con un anillo de calcio como cáscara de huevo: piensa en silicosis.",
+    "comoRecordarlo": "Ganglios hiliares con un anillo de calcio como cáscara de huevo: Piensa en silicosis.",
     "etiquetas": [
       "cascara de huevo",
       "silicosis",
@@ -1301,7 +1301,7 @@
       "Otras estructuras vasculares tubulares del pulmón derecho",
       "Malformación arteriovenosa pulmonar"
     ],
-    "comoRecordarlo": "Una hoja curva de cimitarra bajando hacia el diafragma derecho: drenaje venoso pulmonar anómalo.",
+    "comoRecordarlo": "Una hoja curva de cimitarra bajando hacia el diafragma derecho: Drenaje venoso pulmonar anómalo.",
     "etiquetas": [
       "cimitarra",
       "drenaje venoso anomalo",
@@ -1316,13 +1316,13 @@
     "sistema": "Mama",
     "modalidad": "US",
     "queEs": "Lesión con un centro ecogénico rodeado de un halo hipoecoico, que en conjunto recuerda una diana o un ojo de buey.",
-    "porQueOcurre": "El patrón depende de la lesión: en un ganglio intramamario normal el centro ecogénico es el hilio graso; en algunas lesiones malignas el halo corresponde al frente de invasión.",
-    "significado": "Debe interpretarse en contexto: en un ganglio intramamario con hilio graso es tranquilizador, pero un halo grueso e irregular alrededor de una masa obliga a descartar malignidad.",
+    "porQueOcurre": "El patrón depende de la lesión: En un ganglio intramamario normal el centro ecogénico es el hilio graso; en algunas lesiones malignas el halo corresponde al frente de invasión.",
+    "significado": "Debe interpretarse en contexto: En un ganglio intramamario con hilio graso es tranquilizador, pero un halo grueso e irregular alrededor de una masa obliga a descartar malignidad.",
     "diferencial": [
       "Ganglio intramamario normal, con hilio graso central",
       "Carcinoma con halo de invasión, de bordes irregulares"
     ],
-    "comoRecordarlo": "Diana en la mama: si el centro es grasa (hilio), tranquiliza; si el halo es grueso e irregular, preocupa.",
+    "comoRecordarlo": "Diana en la mama: Si el centro es grasa (hilio), tranquiliza; si el halo es grueso e irregular, preocupa.",
     "etiquetas": [
       "diana",
       "mama",
@@ -1344,7 +1344,7 @@
       "Torsión intermitente ya resuelta, con flujo conservado",
       "Orquiepididimitis, con aumento del flujo en lugar de ausencia"
     ],
-    "comoRecordarlo": "Un remolino en el cordón y sin flujo en el testículo: torsión, al quirófano.",
+    "comoRecordarlo": "Un remolino en el cordón y sin flujo en el testículo: Torsión, al quirófano.",
     "etiquetas": [
       "remolino",
       "torsion testicular",
@@ -1366,7 +1366,7 @@
       "Adenoma hepático, que no suele tener cicatriz central captante",
       "Carcinoma hepatocelular fibrolamelar, con cicatriz que no realza en fase tardía"
     ],
-    "comoRecordarlo": "Radios de rueda con eje central que capta tarde: hiperplasia nodular focal, benigna.",
+    "comoRecordarlo": "Radios de rueda con eje central que capta tarde: Hiperplasia nodular focal, benigna.",
     "etiquetas": [
       "rueda de carro",
       "hiperplasia nodular focal",
@@ -1387,7 +1387,7 @@
       "Cálculo impactado en la ampolla, con dilatación similar pero antecedentes distintos",
       "Pancreatitis crónica con estenosis"
     ],
-    "comoRecordarlo": "Dos conductos dilatados en paralelo apuntan a la cabeza del páncreas: descarta tumor.",
+    "comoRecordarlo": "Dos conductos dilatados en paralelo apuntan a la cabeza del páncreas: Descarta tumor.",
     "etiquetas": [
       "doble conducto",
       "pancreas",
@@ -1409,7 +1409,7 @@
       "Nódulo maligno sin halo o con halo incompleto e irregular",
       "Artefacto de refuerzo posterior mal interpretado"
     ],
-    "comoRecordarlo": "Halo fino y completo alrededor del nódulo: dato a favor de benignidad, aunque nunca por sí solo.",
+    "comoRecordarlo": "Halo fino y completo alrededor del nódulo: Dato a favor de benignidad, aunque nunca por sí solo.",
     "etiquetas": [
       "halo",
       "tiroides",
@@ -1426,12 +1426,12 @@
     "modalidad": "US",
     "queEs": "Múltiples ecos puntiformes móviles en el interior de la vejiga, que al agitarse recuerdan los copos de una bola de nieve.",
     "porQueOcurre": "Partículas en suspensión dentro de la orina, ya sean aire, cristales, detritos o material tras un procedimiento, reflejan el sonido y flotan al moverse cuando el paciente cambia de posición.",
-    "significado": "Su significado depende del contexto: puede ser cistitis, presencia de aire por infección por gérmenes formadores de gas o tras sondaje, o cristaluria. Requiere correlación clínica.",
+    "significado": "Su significado depende del contexto: Puede ser cistitis, presencia de aire por infección por gérmenes formadores de gas o tras sondaje, o cristaluria. Requiere correlación clínica.",
     "diferencial": [
       "Cistitis enfisematosa, con aire que asciende a la parte no declive",
       "Hematuria con coágulos, de ecos más groseros"
     ],
-    "comoRecordarlo": "Copos flotando en la vejiga: piensa en aire, cristales o detritos según el contexto.",
+    "comoRecordarlo": "Copos flotando en la vejiga: Piensa en aire, cristales o detritos según el contexto.",
     "etiquetas": [
       "tormenta de nieve",
       "vejiga",
@@ -1470,12 +1470,12 @@
     "modalidad": "RM",
     "queEs": "Lesión cerebral que tras el contraste realza en su periferia formando un anillo completo, con un centro que no capta.",
     "porQueOcurre": "El anillo marca la periferia vascularizada y con barrera hematoencefálica rota, mientras el centro corresponde a necrosis o pus que no capta contraste.",
-    "significado": "Tiene un diagnóstico diferencial amplio que conviene recordar: absceso, glioma de alto grado, metástasis, placa desmielinizante tumefactiva, infarto subagudo y linfoma en inmunodeprimidos.",
+    "significado": "Tiene un diagnóstico diferencial amplio que conviene recordar: Absceso, glioma de alto grado, metástasis, placa desmielinizante tumefactiva, infarto subagudo y linfoma en inmunodeprimidos.",
     "diferencial": [
       "Absceso, con centro que restringe intensamente en difusión",
       "Metástasis o glioma, con pared más gruesa e irregular"
     ],
-    "comoRecordarlo": "Anillo completo que capta: repasa la lista (absceso, tumor, metástasis, desmielinización, infarto); la difusión del centro ayuda a decidir.",
+    "comoRecordarlo": "Anillo completo que capta: Repasa la lista (absceso, tumor, metástasis, desmielinización, infarto); la difusión del centro ayuda a decidir.",
     "etiquetas": [
       "realce en anillo",
       "absceso",
@@ -1497,7 +1497,7 @@
       "Oclusión completa, sin ningún paso de contraste distal",
       "Hipoplasia congénita de la carótida, con calibre pequeño pero uniforme"
     ],
-    "comoRecordarlo": "Un hilo de contraste como cuerda tras la estenosis: suboclusión, no oclusión total.",
+    "comoRecordarlo": "Un hilo de contraste como cuerda tras la estenosis: Suboclusión, no oclusión total.",
     "etiquetas": [
       "signo de la cuerda",
       "carotida",
@@ -1518,7 +1518,7 @@
       "Trombo mural crónico, que es hipodenso y no en media luna hiperdensa",
       "Calcificación de la pared, más densa y periférica"
     ],
-    "comoRecordarlo": "Media luna densa en la pared del aneurisma: sangre fresca, rotura inminente.",
+    "comoRecordarlo": "Media luna densa en la pared del aneurisma: Sangre fresca, rotura inminente.",
     "etiquetas": [
       "media luna",
       "aneurisma",

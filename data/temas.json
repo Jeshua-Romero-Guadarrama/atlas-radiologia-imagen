@@ -1,7 +1,7 @@
 [
   {
     "codigo": "consolidacion-fracturas",
-    "titulo": "Consolidación de fracturas: cómo cura el hueso y cómo se ve",
+    "titulo": "Consolidación de fracturas: Cómo cura el hueso y cómo se ve",
     "sistema": "Óseo",
     "resumen": "Las fases biológicas de la reparación ósea, su traducción en la imagen y las complicaciones que hay que saber reconocer.",
     "secciones": [
@@ -9,50 +9,50 @@
         "encabezado": "Por qué el hueso es distinto",
         "parrafos": [
           "El hueso es uno de los pocos tejidos del cuerpo capaz de repararse restituyendo su estructura original en lugar de dejar una cicatriz. Cuando cura una herida en la piel queda tejido fibroso permanente; cuando cura una fractura correctamente, con el tiempo el hueso recupera su arquitectura, su trabeculado y su resistencia, hasta el punto de que puede llegar a ser imposible saber por dónde estuvo el trazo.",
-          "Ese proceso no es instantáneo ni uniforme: pasa por etapas sucesivas y solapadas, cada una con una traducción distinta en la imagen. Entender la biología es lo que permite interpretar correctamente una radiografía de control, porque lo que se ve depende directamente de la fase en la que se encuentra el paciente."
+          "Ese proceso no es instantáneo ni uniforme: Pasa por etapas sucesivas y solapadas, cada una con una traducción distinta en la imagen. Entender la biología es lo que permite interpretar correctamente una radiografía de control, porque lo que se ve depende directamente de la fase en la que se encuentra el paciente."
         ]
       },
       {
-        "encabezado": "Fase 1: inflamatoria (días 1 a 7)",
+        "encabezado": "Fase 1: Inflamatoria (días 1 a 7)",
         "parrafos": [
-          "La fractura rompe vasos sanguíneos del hueso, del periostio y de los tejidos vecinos, y se forma un hematoma entre los fragmentos. Ese coágulo, lejos de ser un desecho, funciona como el andamio inicial de la reparación: hacia él migran células inflamatorias que liberan factores de crecimiento y atraen a las células que formarán hueso nuevo.",
+          "La fractura rompe vasos sanguíneos del hueso, del periostio y de los tejidos vecinos, y se forma un hematoma entre los fragmentos. Ese coágulo, lejos de ser un desecho, funciona como el andamio inicial de la reparación: Hacia él migran células inflamatorias que liberan factores de crecimiento y atraen a las células que formarán hueso nuevo.",
           "En la imagen esta fase es casi muda. La radiografía muestra el trazo de fractura con máxima nitidez y aumento de volumen de las partes blandas por el edema y el hematoma, pero no hay ningún signo de reparación todavía. Es importante saberlo para no interpretar como 'mala evolución' un control precoz en el que no se ve callo."
         ]
       },
       {
-        "encabezado": "Fase 2: callo blando (semanas 2 a 3)",
+        "encabezado": "Fase 2: Callo blando (semanas 2 a 3)",
         "parrafos": [
           "El hematoma se reemplaza por tejido de granulación y luego por un callo de tejido fibroso y cartílago que une provisionalmente los fragmentos. Este callo blando da cierta estabilidad, pero es todavía muy poco resistente y no soporta carga.",
-          "Su característica clave para la imagen es que no está mineralizado, y todo lo que no tiene calcio es invisible en la radiografía. Por eso ocurre algo que sorprende al principio: durante estas semanas el trazo de fractura puede verse incluso más ancho y más marcado que al inicio, porque la reabsorción ósea en los extremos de los fragmentos elimina hueso antes de que aparezca hueso nuevo. Es un fenómeno normal, no un signo de fracaso."
+          "Su característica clave para la imagen es que no está mineralizado, y todo lo que no tiene calcio es invisible en la radiografía. Por eso ocurre algo que sorprende al principio: Durante estas semanas el trazo de fractura puede verse incluso más ancho y más marcado que al inicio, porque la reabsorción ósea en los extremos de los fragmentos elimina hueso antes de que aparezca hueso nuevo. Es un fenómeno normal, no un signo de fracaso."
         ]
       },
       {
-        "encabezado": "Fase 3: callo duro (semanas 4 a 12)",
+        "encabezado": "Fase 3: Callo duro (semanas 4 a 12)",
         "parrafos": [
           "El cartílago del callo blando se va sustituyendo por hueso mediante osificación endocondral, y en las zonas cercanas al periostio se forma hueso directamente. El callo se mineraliza progresivamente y adquiere resistencia mecánica.",
           "Esta es la fase en la que la radiografía por fin habla con claridad. Aparece el callo perióstico como un manguito de densidad creciente alrededor del trazo, la línea de fractura se va difuminando y pierde nitidez, y el callo termina cruzando de un fragmento al otro. El criterio radiológico habitual de consolidación es el puenteo del trazo por callo en al menos tres de las cuatro corticales valoradas en dos proyecciones ortogonales.",
-          "Este criterio de imagen no basta por sí solo: se combina siempre con la clínica, es decir, con la ausencia de dolor a la palpación del foco y de movilidad anómala entre los fragmentos."
+          "Este criterio de imagen no basta por sí solo: Se combina siempre con la clínica, es decir, con la ausencia de dolor a la palpación del foco y de movilidad anómala entre los fragmentos."
         ]
       },
       {
-        "encabezado": "Fase 4: remodelación (meses a años)",
+        "encabezado": "Fase 4: Remodelación (meses a años)",
         "parrafos": [
           "El callo, que inicialmente es hueso inmaduro y desorganizado, se reabsorbe en las zonas donde no hace falta y se refuerza donde recibe carga, siguiendo el principio de que el hueso se adapta a las fuerzas que soporta. El resultado es la recuperación progresiva del contorno y del canal medular.",
           "En la imagen se ve cómo el callo voluminoso se va afinando hasta acercarse al contorno original del hueso, mientras el trazo desaparece por completo. En los niños esta capacidad es tan notable que deformidades residuales considerables pueden corregirse solas con el crecimiento, algo que no ocurre en el adulto."
         ]
       },
       {
-        "encabezado": "Consolidación directa: cuando no hay callo",
+        "encabezado": "Consolidación directa: Cuando no hay callo",
         "parrafos": [
           "Todo lo anterior describe la consolidación indirecta o secundaria, que es la que ocurre cuando existe algo de micromovimiento entre los fragmentos, como sucede con un yeso, una férula o un clavo intramedular. Pero hay una segunda forma de curación completamente distinta.",
-          "Cuando la fijación es rígida y los fragmentos quedan comprimidos entre sí sin ningún movimiento, como al usar placas y tornillos a compresión, el hueso cura por consolidación directa o primaria: las unidades de remodelación cruzan el trazo de un fragmento al otro sin pasar por la fase de cartílago.",
-          "La consecuencia práctica es muy importante y explica muchos errores de interpretación: en la consolidación directa no se forma callo visible. Una fractura fijada con placa que cura perfectamente puede no mostrar nunca callo en la radiografía. Buscar callo en ese contexto y no encontrarlo no significa que la fractura vaya mal; el seguimiento se basa en el borramiento progresivo del trazo y en la ausencia de signos de fallo del material."
+          "Cuando la fijación es rígida y los fragmentos quedan comprimidos entre sí sin ningún movimiento, como al usar placas y tornillos a compresión, el hueso cura por consolidación directa o primaria: Las unidades de remodelación cruzan el trazo de un fragmento al otro sin pasar por la fase de cartílago.",
+          "La consecuencia práctica es muy importante y explica muchos errores de interpretación: En la consolidación directa no se forma callo visible. Una fractura fijada con placa que cura perfectamente puede no mostrar nunca callo en la radiografía. Buscar callo en ese contexto y no encontrarlo no significa que la fractura vaya mal; el seguimiento se basa en el borramiento progresivo del trazo y en la ausencia de signos de fallo del material."
         ]
       },
       {
         "encabezado": "Qué hace que una fractura cure bien o mal",
         "parrafos": [
-          "Los factores locales pesan mucho. La vascularización del foco es probablemente el más determinante: hay localizaciones con irrigación precaria, como el escafoides, el cuello femoral o la diáfisis tibial, donde las complicaciones son notablemente más frecuentes. También influyen el grado de estabilidad de la fijación, la interposición de partes blandas entre los fragmentos, la existencia de fractura abierta o de infección, y la conminución con pérdida de contacto óseo.",
+          "Los factores locales pesan mucho. La vascularización del foco es probablemente el más determinante: Hay localizaciones con irrigación precaria, como el escafoides, el cuello femoral o la diáfisis tibial, donde las complicaciones son notablemente más frecuentes. También influyen el grado de estabilidad de la fijación, la interposición de partes blandas entre los fragmentos, la existencia de fractura abierta o de infección, y la conminución con pérdida de contacto óseo.",
           "Entre los factores generales del paciente destacan la edad, el tabaquismo, la diabetes, la desnutrición, el déficit de vitamina D y el uso de corticoides o de algunos antiinflamatorios. El tabaco es especialmente relevante porque su efecto sobre la consolidación está bien establecido y además es modificable."
         ]
       },
@@ -60,7 +60,7 @@
         "encabezado": "Complicaciones que hay que reconocer",
         "parrafos": [
           "El retardo de consolidación es la fractura que no ha curado en el plazo esperado para su localización, pero que sigue mostrando actividad reparadora. Radiológicamente el trazo persiste visible con callo escaso o irregular, y todavía puede evolucionar favorablemente.",
-          "La seudoartrosis o falta de unión es el fracaso definitivo: la reparación se ha detenido y el hueso no va a curar sin intervención. La imagen es característica: el trazo persiste nítido, los extremos óseos se redondean y se rodean de un halo de esclerosis, el canal medular se cierra y no hay callo que puentee los fragmentos. En la variante atrófica los extremos están adelgazados y sin actividad; en la hipertrófica hay abundante callo desorganizado que no llega a unir, en forma de 'pata de elefante', y suele deberse a exceso de movilidad más que a falta de riego.",
+          "La seudoartrosis o falta de unión es el fracaso definitivo: La reparación se ha detenido y el hueso no va a curar sin intervención. La imagen es característica: El trazo persiste nítido, los extremos óseos se redondean y se rodean de un halo de esclerosis, el canal medular se cierra y no hay callo que puentee los fragmentos. En la variante atrófica los extremos están adelgazados y sin actividad; en la hipertrófica hay abundante callo desorganizado que no llega a unir, en forma de 'pata de elefante', y suele deberse a exceso de movilidad más que a falta de riego.",
           "La consolidación viciosa es la fractura que sí cura, pero en mala posición, con angulación, rotación o acortamiento residual. Puede alterar la biomecánica de la extremidad y favorecer artrosis a largo plazo.",
           "Otras complicaciones a vigilar son la osteonecrosis, sobre todo en las localizaciones de irrigación precaria ya mencionadas, la infección del foco de fractura, y en niños las lesiones de la fisis que pueden producir alteraciones del crecimiento."
         ]
@@ -68,17 +68,17 @@
       {
         "encabezado": "Cómo leer una radiografía de control",
         "parrafos": [
-          "El principio más útil es comparar siempre con los estudios previos del mismo paciente. Una imagen aislada dice mucho menos que una secuencia, porque lo que importa es la tendencia: si el callo aumenta de densidad y el trazo pierde nitidez, la evolución es favorable.",
-          "Conviene seguir un orden fijo: primero el trazo de fractura y su nitidez, después la alineación de los fragmentos comparada con el control anterior, luego la presencia, la densidad y el puenteo del callo, a continuación el estado del material de osteosíntesis si lo hay, y por último las partes blandas y los signos de infección.",
+          "El principio más útil es comparar siempre con los estudios previos del mismo paciente. Una imagen aislada dice mucho menos que una secuencia, porque lo que importa es la tendencia: Si el callo aumenta de densidad y el trazo pierde nitidez, la evolución es favorable.",
+          "Conviene seguir un orden fijo: Primero el trazo de fractura y su nitidez, después la alineación de los fragmentos comparada con el control anterior, luego la presencia, la densidad y el puenteo del callo, a continuación el estado del material de osteosíntesis si lo hay, y por último las partes blandas y los signos de infección.",
           "Y siempre en dos proyecciones ortogonales. Un callo puede parecer que puentea perfectamente en la proyección frontal y no hacerlo en absoluto en la lateral. Evaluar la consolidación con una sola proyección es una de las causas más frecuentes de error en el seguimiento de fracturas."
         ]
       }
     ],
     "puntosClave": [
-      "La reparación ósea pasa por cuatro fases: inflamatoria, callo blando, callo duro y remodelación.",
+      "La reparación ósea pasa por cuatro fases: Inflamatoria, callo blando, callo duro y remodelación.",
       "El callo blando no está mineralizado y por eso es invisible en radiografía; el trazo puede verse más ancho durante las primeras semanas, lo cual es normal.",
       "El criterio radiológico de consolidación es el puenteo del trazo por callo en tres de cuatro corticales, valorado en dos proyecciones, junto con la ausencia de dolor y de movilidad.",
-      "Con fijación rígida a compresión el hueso cura sin callo visible: su ausencia no indica mala evolución en ese contexto.",
+      "Con fijación rígida a compresión el hueso cura sin callo visible: Su ausencia no indica mala evolución en ese contexto.",
       "En la seudoartrosis el trazo persiste nítido, los extremos se esclerosan y se redondean, y el canal medular se cierra.",
       "Comparar siempre con los estudios previos y evaluar siempre en dos proyecciones ortogonales."
     ]
@@ -92,7 +92,7 @@
       {
         "encabezado": "Por qué hace falta un método",
         "parrafos": [
-          "La radiografía de tórax contiene una cantidad enorme de información superpuesta en una sola imagen plana. Sin un orden de lectura fijo, la mirada se va instintivamente hacia lo más llamativo y se queda ahí, dejando sin revisar regiones enteras. La mayoría de los hallazgos que se escapan no son sutiles: simplemente estaban en un sitio que nadie miró.",
+          "La radiografía de tórax contiene una cantidad enorme de información superpuesta en una sola imagen plana. Sin un orden de lectura fijo, la mirada se va instintivamente hacia lo más llamativo y se queda ahí, dejando sin revisar regiones enteras. La mayoría de los hallazgos que se escapan no son sutiles: Simplemente estaban en un sitio que nadie miró.",
           "Da igual qué método se use mientras sea siempre el mismo. La ventaja de repetir la misma secuencia en cada estudio es que revisar las zonas difíciles deja de depender de acordarse y pasa a ser automático."
         ]
       },
@@ -100,9 +100,9 @@
         "encabezado": "Primero, la calidad técnica",
         "parrafos": [
           "Antes de interpretar nada hay que saber si la imagen es válida, porque una placa mal hecha genera hallazgos falsos y esconde los verdaderos.",
-          "Rotación: las extremidades mediales de ambas clavículas deben quedar a la misma distancia de las apófisis espinosas. Si el paciente está rotado, un hemitórax parecerá más radiolúcido que el otro y los hilios cambiarán de aspecto.",
-          "Inspiración: deben verse entre 9 y 10 arcos costales posteriores por encima del diafragma. Una inspiración insuficiente comprime las bases, agranda la silueta cardiaca y simula opacidades y congestión que no existen.",
-          "Penetración: los cuerpos vertebrales dorsales deben intuirse a través de la silueta cardiaca. Si no se ven, la placa está poco penetrada y se perderán lesiones retrocardiacas; si se ven con excesiva nitidez, está sobrepenetrada y se perderán detalles del parénquima.",
+          "Rotación: Las extremidades mediales de ambas clavículas deben quedar a la misma distancia de las apófisis espinosas. Si el paciente está rotado, un hemitórax parecerá más radiolúcido que el otro y los hilios cambiarán de aspecto.",
+          "Inspiración: Deben verse entre 9 y 10 arcos costales posteriores por encima del diafragma. Una inspiración insuficiente comprime las bases, agranda la silueta cardiaca y simula opacidades y congestión que no existen.",
+          "Penetración: Los cuerpos vertebrales dorsales deben intuirse a través de la silueta cardiaca. Si no se ven, la placa está poco penetrada y se perderán lesiones retrocardiacas; si se ven con excesiva nitidez, está sobrepenetrada y se perderán detalles del parénquima.",
           "Y comprobar siempre la identificación del paciente, la fecha y los marcadores de lateralidad."
         ]
       },
@@ -110,22 +110,22 @@
         "encabezado": "Una secuencia de lectura",
         "parrafos": [
           "Un orden que funciona bien es ir de fuera hacia dentro, dejando el pulmón y el mediastino para el final, cuando ya se ha revisado todo lo demás.",
-          "Partes blandas y dispositivos: tejidos del cuello y la pared, mamas, enfisema subcutáneo, y la posición de tubos, catéteres, marcapasos y electrodos.",
-          "Estructuras óseas: costillas una por una, clavículas, escápulas, húmeros y columna dorsal, buscando fracturas y lesiones líticas o blásticas.",
-          "Diafragmas: el derecho suele estar algo más alto por el hígado. Revisar su contorno y descartar aire libre subdiafragmático, que en bipedestación indica perforación de víscera hueca.",
-          "Senos costofrénicos: deben ser agudos y estar libres. Su borramiento es el signo más precoz de derrame pleural.",
-          "Pleura: buscar la línea del neumotórax, engrosamientos y placas.",
-          "Campos pulmonares: comparar sistemáticamente ambos lados a la misma altura, por tercios, valorando opacidades, hiperlucencias y alteraciones de la trama.",
-          "Hilios: el izquierdo se sitúa normalmente entre uno y dos centímetros más alto que el derecho. Valorar tamaño, densidad y contorno.",
-          "Mediastino y corazón: anchura mediastínica, contornos cardiacos y índice cardiotorácico, que debe ser menor de 0.5 en proyección posteroanterior.",
-          "Vía aérea: tráquea centrada y carina visible."
+          "Partes blandas y dispositivos: Tejidos del cuello y la pared, mamas, enfisema subcutáneo, y la posición de tubos, catéteres, marcapasos y electrodos.",
+          "Estructuras óseas: Costillas una por una, clavículas, escápulas, húmeros y columna dorsal, buscando fracturas y lesiones líticas o blásticas.",
+          "Diafragmas: El derecho suele estar algo más alto por el hígado. Revisar su contorno y descartar aire libre subdiafragmático, que en bipedestación indica perforación de víscera hueca.",
+          "Senos costofrénicos: Deben ser agudos y estar libres. Su borramiento es el signo más precoz de derrame pleural.",
+          "Pleura: Buscar la línea del neumotórax, engrosamientos y placas.",
+          "Campos pulmonares: Comparar sistemáticamente ambos lados a la misma altura, por tercios, valorando opacidades, hiperlucencias y alteraciones de la trama.",
+          "Hilios: El izquierdo se sitúa normalmente entre uno y dos centímetros más alto que el derecho. Valorar tamaño, densidad y contorno.",
+          "Mediastino y corazón: Anchura mediastínica, contornos cardiacos y índice cardiotorácico, que debe ser menor de 0.5 en proyección posteroanterior.",
+          "Vía aérea: Tráquea centrada y carina visible."
         ]
       },
       {
         "encabezado": "Las zonas ciegas",
         "parrafos": [
-          "Hay regiones donde los hallazgos se esconden sistemáticamente, y merecen una segunda mirada deliberada al terminar la lectura: los vértices pulmonares, ocultos tras las clavículas y las primeras costillas; la región retrocardiaca, sobre todo la base izquierda detrás del corazón; las bases pulmonares por debajo de la cúpula diafragmática; la zona retrodiafragmática en general; el hueco supraclavicular; y las partes blandas del cuello y de la pared torácica.",
-          "En estas localizaciones la proyección lateral resulta especialmente valiosa: el seno costofrénico posterior es mucho más profundo que el lateral, de modo que un derrame pequeño puede ser evidente en la lateral y completamente invisible en la frontal."
+          "Hay regiones donde los hallazgos se esconden sistemáticamente, y merecen una segunda mirada deliberada al terminar la lectura: Los vértices pulmonares, ocultos tras las clavículas y las primeras costillas; la región retrocardiaca, sobre todo la base izquierda detrás del corazón; las bases pulmonares por debajo de la cúpula diafragmática; la zona retrodiafragmática en general; el hueco supraclavicular; y las partes blandas del cuello y de la pared torácica.",
+          "En estas localizaciones la proyección lateral resulta especialmente valiosa: El seno costofrénico posterior es mucho más profundo que el lateral, de modo que un derrame pequeño puede ser evidente en la lateral y completamente invisible en la frontal."
         ]
       },
       {
@@ -137,9 +137,9 @@
       }
     ],
     "puntosClave": [
-      "Comprobar siempre la técnica antes de interpretar: rotación, inspiración y penetración.",
+      "Comprobar siempre la técnica antes de interpretar: Rotación, inspiración y penetración.",
       "Usar una secuencia fija de lectura y repetirla en todos los estudios.",
-      "Revisar deliberadamente las zonas ciegas: vértices, retrocardiaca, bases y retrodiafragmática.",
+      "Revisar deliberadamente las zonas ciegas: Vértices, retrocardiaca, bases y retrodiafragmática.",
       "El signo de la silueta permite localizar una lesión en profundidad.",
       "El broncograma aéreo confirma que el proceso es alveolar."
     ]
@@ -154,13 +154,13 @@
         "encabezado": "Radiografía simple",
         "parrafos": [
           "Es rápida, barata, disponible en cualquier sitio y de dosis baja. Sigue siendo el primer estudio en traumatismos óseos, en patología torácica y en el abdomen agudo inicial.",
-          "Su limitación es que superpone todas las estructuras en una imagen plana y tiene poco contraste entre partes blandas: distingue bien aire, grasa, agua, hueso y metal, pero no diferencia entre sí los distintos órganos de densidad similar."
+          "Su limitación es que superpone todas las estructuras en una imagen plana y tiene poco contraste entre partes blandas: Distingue bien aire, grasa, agua, hueso y metal, pero no diferencia entre sí los distintos órganos de densidad similar."
         ]
       },
       {
         "encabezado": "Tomografía computarizada",
         "parrafos": [
-          "Elimina la superposición al obtener cortes, tiene excelente resolución espacial y es muy rápida, lo que la hace insustituible en la urgencia: politraumatismo, sospecha de hemorragia cerebral, abdomen agudo, tromboembolia pulmonar.",
+          "Elimina la superposición al obtener cortes, tiene excelente resolución espacial y es muy rápida, lo que la hace insustituible en la urgencia: Politraumatismo, sospecha de hemorragia cerebral, abdomen agudo, tromboembolia pulmonar.",
           "Su gran inconveniente es la dosis de radiación, considerablemente mayor que la de una radiografía, lo que obliga a justificar cada estudio, especialmente en niños y jóvenes. El contraste yodado añade además el riesgo de reacciones adversas y precisa valorar la función renal."
         ]
       },
@@ -168,14 +168,14 @@
         "encabezado": "Resonancia magnética",
         "parrafos": [
           "Ofrece el mejor contraste entre partes blandas de todas las modalidades y no emplea radiación ionizante. Es el estudio de elección en sistema nervioso central, médula espinal, articulaciones, partes blandas y pelvis.",
-          "A cambio es lenta, cara, menos disponible y exige que el paciente permanezca inmóvil en un espacio cerrado y ruidoso, lo que resulta difícil en niños, en pacientes claustrofóbicos o inestables. Además tiene contraindicaciones absolutas por el campo magnético: determinados dispositivos implantados y cuerpos extraños metálicos, sobre todo intraoculares."
+          "A cambio es lenta, cara, menos disponible y exige que el paciente permanezca inmóvil en un espacio cerrado y ruidoso, lo que resulta difícil en niños, en pacientes claustrofóbicos o inestables. Además tiene contraindicaciones absolutas por el campo magnético: Determinados dispositivos implantados y cuerpos extraños metálicos, sobre todo intraoculares."
         ]
       },
       {
         "encabezado": "Ultrasonido",
         "parrafos": [
           "No usa radiación, es portátil, permite explorar en tiempo real y en movimiento, y posibilita guiar procedimientos como punciones y drenajes. Es la primera opción en abdomen, tiroides, partes blandas superficiales, vascular, obstetricia y ginecología, y en pediatría.",
-          "Su punto débil es que depende mucho de quien lo realiza y de las condiciones del paciente: el aire y el hueso bloquean el sonido, por lo que el gas intestinal o la obesidad pueden limitar seriamente el estudio."
+          "Su punto débil es que depende mucho de quien lo realiza y de las condiciones del paciente: El aire y el hueso bloquean el sonido, por lo que el gas intestinal o la obesidad pueden limitar seriamente el estudio."
         ]
       },
       {
@@ -184,7 +184,7 @@
           "En la práctica las modalidades no compiten, se complementan. Ante un traumatismo de rodilla se empieza con radiografía para descartar fractura y, si persiste la sospecha de lesión interna, se continúa con resonancia para meniscos y ligamentos.",
           "En el dolor abdominal en el cuadrante superior derecho se empieza por ultrasonido, que es el mejor método para la vesícula; si se sospecha patología más compleja o una complicación, se pasa a tomografía.",
           "En la sospecha de ictus, la tomografía simple inmediata descarta hemorragia y decide si el paciente puede recibir trombólisis, y la resonancia con difusión confirma y delimita el infarto con mucha mayor precisión.",
-          "Y una regla general que ahorra estudios innecesarios: en pacientes jóvenes, en embarazadas y en niños, siempre que exista una alternativa sin radiación que responda a la pregunta clínica, esa es la que debe elegirse."
+          "Y una regla general que ahorra estudios innecesarios: En pacientes jóvenes, en embarazadas y en niños, siempre que exista una alternativa sin radiación que responda a la pregunta clínica, esa es la que debe elegirse."
         ]
       }
     ],
@@ -198,15 +198,15 @@
   },
   {
     "codigo": "fisica-rayos-x",
-    "titulo": "Física de los rayos X: cómo se produce la imagen",
+    "titulo": "Física de los rayos X: Cómo se produce la imagen",
     "sistema": "General",
-    "resumen": "Del filamento del tubo al detector: cómo nacen los rayos X, cómo interaccionan con el paciente y por qué la imagen tiene los grises que tiene.",
+    "resumen": "Del filamento del tubo al detector: Cómo nacen los rayos X, cómo interaccionan con el paciente y por qué la imagen tiene los grises que tiene.",
     "secciones": [
       {
         "encabezado": "Qué son los rayos X",
         "parrafos": [
           "Los rayos X son radiación electromagnética de longitud de onda muy corta y energía suficiente para arrancar electrones de los átomos que atraviesa. Esa capacidad de ionizar es la razón de su utilidad diagnóstica, porque les permite atravesar el cuerpo y llegar al detector, y también la razón de su riesgo biológico, porque las ionizaciones pueden dañar el ADN de las células.",
-          "A diferencia de la luz visible, los rayos X no se enfocan con lentes ni se reflejan de forma útil en el cuerpo. La imagen radiológica no es una fotografía: es un mapa de la radiación que consiguió atravesar al paciente. Donde el haz pasó con facilidad el detector recibe mucha señal y la imagen sale oscura; donde fue frenado, la imagen sale clara."
+          "A diferencia de la luz visible, los rayos X no se enfocan con lentes ni se reflejan de forma útil en el cuerpo. La imagen radiológica no es una fotografía: Es un mapa de la radiación que consiguió atravesar al paciente. Donde el haz pasó con facilidad el detector recibe mucha señal y la imagen sale oscura; donde fue frenado, la imagen sale clara."
         ]
       },
       {
@@ -214,7 +214,7 @@
         "parrafos": [
           "Dentro de una ampolla al vacío hay dos electrodos. El cátodo contiene un filamento que, al calentarse por el paso de corriente, emite electrones por efecto termoiónico. Ese número de electrones depende de la corriente aplicada y determina la cantidad de rayos X que se producirán, es decir, el parámetro que se conoce como miliamperios por segundo.",
           "Entre cátodo y ánodo se aplica una diferencia de potencial de decenas de miles de voltios, el kilovoltaje. Los electrones se aceleran violentamente hacia el ánodo y chocan contra un blanco metálico, habitualmente de tungsteno, escogido por su alto número atómico y su elevado punto de fusión.",
-          "El choque es enormemente ineficiente: la inmensa mayoría de la energía se convierte en calor y solo una fracción muy pequeña se transforma en rayos X. Por eso el ánodo suele ser giratorio, para repartir el calor sobre una pista amplia en lugar de concentrarlo en un punto, y por eso los equipos incorporan sistemas de refrigeración y límites de carga."
+          "El choque es enormemente ineficiente: La inmensa mayoría de la energía se convierte en calor y solo una fracción muy pequeña se transforma en rayos X. Por eso el ánodo suele ser giratorio, para repartir el calor sobre una pista amplia en lugar de concentrarlo en un punto, y por eso los equipos incorporan sistemas de refrigeración y límites de carga."
         ]
       },
       {
@@ -235,8 +235,8 @@
       {
         "encabezado": "Qué le pasa al haz dentro del paciente",
         "parrafos": [
-          "Parte de los fotones atraviesan el cuerpo sin interaccionar y son los que forman la imagen. Otra parte sufre efecto fotoeléctrico: el fotón es absorbido por completo al expulsar un electrón de una capa interna. La probabilidad de este efecto crece mucho con el número atómico del tejido y disminuye al aumentar la energía del fotón, y es lo que explica que el hueso, rico en calcio, y los medios de contraste yodados o baritados destaquen tanto. El efecto fotoeléctrico es el responsable del contraste, pero también deposita toda la energía en el paciente.",
-          "Una tercera parte sufre dispersión Compton: el fotón choca con un electrón poco ligado, lo expulsa y sale desviado con menos energía. Esta radiación dispersa viaja en cualquier dirección, no aporta información útil y degrada la imagen añadiendo un velo gris uniforme. Además es la principal fuente de exposición para el personal que permanece en la sala.",
+          "Parte de los fotones atraviesan el cuerpo sin interaccionar y son los que forman la imagen. Otra parte sufre efecto fotoeléctrico: El fotón es absorbido por completo al expulsar un electrón de una capa interna. La probabilidad de este efecto crece mucho con el número atómico del tejido y disminuye al aumentar la energía del fotón, y es lo que explica que el hueso, rico en calcio, y los medios de contraste yodados o baritados destaquen tanto. El efecto fotoeléctrico es el responsable del contraste, pero también deposita toda la energía en el paciente.",
+          "Una tercera parte sufre dispersión Compton: El fotón choca con un electrón poco ligado, lo expulsa y sale desviado con menos energía. Esta radiación dispersa viaja en cualquier dirección, no aporta información útil y degrada la imagen añadiendo un velo gris uniforme. Además es la principal fuente de exposición para el personal que permanece en la sala.",
           "Para reducir la llegada de radiación dispersa al detector se usan rejillas antidifusoras, formadas por láminas de plomo alineadas con el haz primario, y la colimación estricta del campo. La rejilla mejora el contraste, pero exige aumentar la técnica y por tanto la dosis, así que se reserva para regiones de espesor considerable."
         ]
       },
@@ -244,14 +244,14 @@
         "encabezado": "Del detector a la imagen",
         "parrafos": [
           "La radiografía clásica usaba película con pantallas de refuerzo. Hoy predomina la radiología digital, ya sea con placas de fósforo que almacenan la señal y se leen posteriormente, o con detectores planos que convierten la radiación en señal eléctrica de forma inmediata.",
-          "Lo digital aporta dos ventajas decisivas. La primera es el amplio rango dinámico: el detector responde bien a un abanico de exposiciones mucho mayor que la película, de modo que una imagen algo subexpuesta o sobreexpuesta puede seguir siendo diagnóstica tras ajustar el brillo y el contraste en la estación de trabajo. La segunda es el postprocesado y la posibilidad de almacenar, transmitir y comparar estudios con facilidad.",
-          "Esa misma tolerancia tiene un peligro conocido como deriva de dosis: como una técnica excesiva ya no produce una imagen visiblemente quemada, la tendencia natural es irradiar de más sin que nadie lo note. Por eso los sistemas digitales incorporan indicadores de exposición que hay que vigilar activamente."
+          "Lo digital aporta dos ventajas decisivas. La primera es el amplio rango dinámico: El detector responde bien a un abanico de exposiciones mucho mayor que la película, de modo que una imagen algo subexpuesta o sobreexpuesta puede seguir siendo diagnóstica tras ajustar el brillo y el contraste en la estación de trabajo. La segunda es el postprocesado y la posibilidad de almacenar, transmitir y comparar estudios con facilidad.",
+          "Esa misma tolerancia tiene un peligro conocido como deriva de dosis: Como una técnica excesiva ya no produce una imagen visiblemente quemada, la tendencia natural es irradiar de más sin que nadie lo note. Por eso los sistemas digitales incorporan indicadores de exposición que hay que vigilar activamente."
         ]
       },
       {
-        "encabezado": "Geometría: magnificación, distorsión y penumbra",
+        "encabezado": "Geometría: Magnificación, distorsión y penumbra",
         "parrafos": [
-          "El haz de rayos X es divergente, no paralelo, de modo que toda estructura se proyecta aumentada. Cuanto más lejos esté el objeto del detector y más cerca del foco, mayor será la magnificación. Este es el motivo por el que la radiografía de tórax se realiza de forma estándar en proyección posteroanterior y a distancia larga: así el corazón, que es anterior, queda pegado al detector y su tamaño se mide con fiabilidad. Una placa anteroposterior de cama agranda la silueta cardiaca y no permite valorar cardiomegalia con el mismo criterio.",
+          "El haz de rayos X es divergente, no paralelo, de modo que toda estructura se proyecta aumentada. Cuanto más lejos esté el objeto del detector y más cerca del foco, mayor será la magnificación. Este es el motivo por el que la radiografía de tórax se realiza de forma estándar en proyección posteroanterior y a distancia larga: Así el corazón, que es anterior, queda pegado al detector y su tamaño se mide con fiabilidad. Una placa anteroposterior de cama agranda la silueta cardiaca y no permite valorar cardiomegalia con el mismo criterio.",
           "El foco no es un punto matemático sino una pequeña superficie, y eso genera una zona de sombra parcial en los bordes llamada penumbra. Un foco más pequeño da imágenes más nítidas pero soporta menos carga térmica. La borrosidad también aumenta con la distancia objeto-detector y, sobre todo, con el movimiento del paciente, que sigue siendo la causa más frecuente de imágenes no diagnósticas."
         ]
       }
@@ -274,17 +274,17 @@
       {
         "encabezado": "Por qué importa",
         "parrafos": [
-          "La radiación ionizante puede dañar el material genético de las células. Ese daño se traduce en dos tipos de efectos. Los efectos deterministas aparecen solo por encima de un umbral de dosis y su gravedad crece con la dosis recibida: eritema cutáneo, caída del pelo, cataratas, radiodermitis. Son propios de procedimientos intervencionistas largos y prácticamente nunca de un estudio diagnóstico convencional.",
-          "Los efectos estocásticos, en cambio, no tienen umbral demostrado: cualquier dosis, por pequeña que sea, aumentaría la probabilidad de que aparezca un cáncer años después, aunque no su gravedad. Este es el modelo de trabajo que se asume en protección radiológica por prudencia, y es la razón de fondo por la que se intenta reducir cada exposición al mínimo necesario.",
-          "Conviene mantener la perspectiva: el riesgo individual de un estudio aislado es muy pequeño, y una exploración justificada casi siempre aporta más beneficio que riesgo. El problema no es la radiografía necesaria sino la acumulación de estudios innecesarios o repetidos."
+          "La radiación ionizante puede dañar el material genético de las células. Ese daño se traduce en dos tipos de efectos. Los efectos deterministas aparecen solo por encima de un umbral de dosis y su gravedad crece con la dosis recibida: Eritema cutáneo, caída del pelo, cataratas, radiodermitis. Son propios de procedimientos intervencionistas largos y prácticamente nunca de un estudio diagnóstico convencional.",
+          "Los efectos estocásticos, en cambio, no tienen umbral demostrado: Cualquier dosis, por pequeña que sea, aumentaría la probabilidad de que aparezca un cáncer años después, aunque no su gravedad. Este es el modelo de trabajo que se asume en protección radiológica por prudencia, y es la razón de fondo por la que se intenta reducir cada exposición al mínimo necesario.",
+          "Conviene mantener la perspectiva: El riesgo individual de un estudio aislado es muy pequeño, y una exploración justificada casi siempre aporta más beneficio que riesgo. El problema no es la radiografía necesaria sino la acumulación de estudios innecesarios o repetidos."
         ]
       },
       {
         "encabezado": "Los tres principios",
         "parrafos": [
-          "El primero es la justificación: ninguna exposición debe realizarse si no aporta un beneficio esperado superior al perjuicio. En la práctica esto significa que cada estudio debe responder a una pregunta clínica concreta y que su resultado debe poder cambiar la conducta. Repetir un estudio que ya existe y sigue siendo válido es una exposición injustificada.",
+          "El primero es la justificación: Ninguna exposición debe realizarse si no aporta un beneficio esperado superior al perjuicio. En la práctica esto significa que cada estudio debe responder a una pregunta clínica concreta y que su resultado debe poder cambiar la conducta. Repetir un estudio que ya existe y sigue siendo válido es una exposición injustificada.",
           "El segundo es la optimización, resumida en el criterio de mantener la dosis tan baja como sea razonablemente posible. No significa usar la dosis mínima imaginable, sino la mínima compatible con obtener una imagen diagnóstica, porque una imagen con demasiado ruido obliga a repetir y termina irradiando más.",
-          "El tercero es la limitación de dosis, que fija límites legales anuales para los trabajadores expuestos y para el público. Es importante entender que estos límites no se aplican a los pacientes: a un paciente no se le limita la dosis, se le justifica y se le optimiza cada exploración."
+          "El tercero es la limitación de dosis, que fija límites legales anuales para los trabajadores expuestos y para el público. Es importante entender que estos límites no se aplican a los pacientes: A un paciente no se le limita la dosis, se le justifica y se le optimiza cada exploración."
         ]
       },
       {
@@ -303,30 +303,30 @@
         ]
       },
       {
-        "encabezado": "Proteger al personal: tiempo, distancia y blindaje",
+        "encabezado": "Proteger al personal: Tiempo, distancia y blindaje",
         "parrafos": [
           "En el trabajo diario el riesgo del personal no proviene del haz directo, del que siempre hay que mantenerse fuera, sino de la radiación dispersa que genera el propio paciente al ser irradiado. De ahí que la clave sea la geometría.",
-          "La distancia es la medida más eficaz de todas, porque la intensidad disminuye con el cuadrado de la distancia a la fuente: duplicar la separación reduce la exposición a la cuarta parte. Dar dos pasos atrás protege más que cualquier delantal. El tiempo de permanencia junto al equipo en emisión debe ser el mínimo posible, y el blindaje incluye tanto las barreras estructurales y las mamparas de la sala como los equipos de protección individual.",
+          "La distancia es la medida más eficaz de todas, porque la intensidad disminuye con el cuadrado de la distancia a la fuente: Duplicar la separación reduce la exposición a la cuarta parte. Dar dos pasos atrás protege más que cualquier delantal. El tiempo de permanencia junto al equipo en emisión debe ser el mínimo posible, y el blindaje incluye tanto las barreras estructurales y las mamparas de la sala como los equipos de protección individual.",
           "En procedimientos con fluoroscopia se usa delantal plomado, protector tiroideo y gafas plomadas si la actividad lo justifica. En la mesa quirúrgica, la dispersión es mayor del lado por donde entra el haz, de modo que colocarse del lado del detector reduce apreciablemente la exposición. Los delantales deben guardarse colgados, nunca doblados, y revisarse periódicamente en busca de grietas."
         ]
       },
       {
         "encabezado": "Dosimetría y vigilancia",
         "parrafos": [
-          "El trabajador expuesto lleva un dosímetro personal en el tronco, bajo el delantal cuando se usa, y en algunos casos un segundo dosímetro sobre el delantal o dosímetros de muñeca y de cristalino. El dosímetro no protege: solo mide, y por eso debe llevarse siempre, no dejarse en la sala de exploración cuando no se usa y devolverse en los plazos establecidos.",
-          "La clasificación del personal, la vigilancia médica periódica, el control de calidad de los equipos y el registro de dosis forman parte del programa de protección radiológica del centro. Los resultados de la dosimetría deben revisarse: una lectura anómala suele indicar un hábito de trabajo corregible."
+          "El trabajador expuesto lleva un dosímetro personal en el tronco, bajo el delantal cuando se usa, y en algunos casos un segundo dosímetro sobre el delantal o dosímetros de muñeca y de cristalino. El dosímetro no protege: Solo mide, y por eso debe llevarse siempre, no dejarse en la sala de exploración cuando no se usa y devolverse en los plazos establecidos.",
+          "La clasificación del personal, la vigilancia médica periódica, el control de calidad de los equipos y el registro de dosis forman parte del programa de protección radiológica del centro. Los resultados de la dosimetría deben revisarse: Una lectura anómala suele indicar un hábito de trabajo corregible."
         ]
       },
       {
         "encabezado": "Embarazo y edad pediátrica",
         "parrafos": [
-          "Ante una mujer en edad fértil se pregunta siempre por la posibilidad de embarazo antes de irradiar el abdomen o la pelvis. Si existe embarazo, se valora si el estudio puede posponerse o sustituirse por ecografía o resonancia. Cuando la exploración es realmente necesaria para la salud de la madre no debe negarse: un estudio bien justificado y optimizado del que el feto queda fuera del campo directo supone una exposición muy baja.",
+          "Ante una mujer en edad fértil se pregunta siempre por la posibilidad de embarazo antes de irradiar el abdomen o la pelvis. Si existe embarazo, se valora si el estudio puede posponerse o sustituirse por ecografía o resonancia. Cuando la exploración es realmente necesaria para la salud de la madre no debe negarse: Un estudio bien justificado y optimizado del que el feto queda fuera del campo directo supone una exposición muy baja.",
           "Los niños son más sensibles a la radiación porque sus tejidos están en división activa y porque tienen por delante más años de vida para que un efecto tardío se manifieste. En ellos la reducción de parámetros según el peso y el tamaño, la colimación estricta, la inmovilización adecuada para evitar repeticiones y la preferencia por la ecografía son especialmente importantes."
         ]
       }
     ],
     "puntosClave": [
-      "Los efectos deterministas tienen umbral y los estocásticos se asumen sin umbral: de ahí la prudencia con toda exposición.",
+      "Los efectos deterministas tienen umbral y los estocásticos se asumen sin umbral: De ahí la prudencia con toda exposición.",
       "Los tres principios son justificación, optimización y limitación de dosis; los límites legales se aplican al personal, no a los pacientes.",
       "Justificar bien y colimar estrictamente protege más al paciente que cualquier accesorio plomado.",
       "Para el personal, la radiación dispersa del paciente es la fuente principal; la distancia es la protección más eficaz por la ley del cuadrado inverso.",
@@ -338,7 +338,7 @@
     "codigo": "como-funciona-tc",
     "titulo": "Cómo funciona la tomografía computarizada",
     "sistema": "General",
-    "resumen": "Del giro del tubo a la reconstrucción del corte: unidades Hounsfield, ventanas, fases de contraste y control de la dosis.",
+    "resumen": "Del giro del tubo a la reconstrucción del corte: Unidades Hounsfield, ventanas, fases de contraste y control de la dosis.",
     "secciones": [
       {
         "encabezado": "La idea básica",
@@ -360,23 +360,23 @@
         "parrafos": [
           "La atenuación de cada punto se expresa en una escala relativa donde el agua vale cero y el aire vale menos mil. Sobre esa escala, la grasa se sitúa en valores negativos moderados, las partes blandas y los órganos en unas pocas decenas positivas, la sangre coagulada algo por encima de la sangre circulante, y el hueso compacto y el metal en valores muy altos.",
           "Que la escala sea numérica y reproducible es una de las grandes ventajas de la tomografía frente a la radiografía simple, porque permite medir en lugar de estimar. Colocar una región de interés sobre una lesión y comprobar si sus valores corresponden a grasa, a líquido simple, a contenido proteico o a calcio orienta el diagnóstico de forma objetiva.",
-          "También permite valorar el realce: comparar los valores de una lesión antes y después de administrar contraste yodado cuantifica cuánta vascularización tiene, un dato clave para distinguir un quiste simple de una lesión sólida."
+          "También permite valorar el realce: Comparar los valores de una lesión antes y después de administrar contraste yodado cuantifica cuánta vascularización tiene, un dato clave para distinguir un quiste simple de una lesión sólida."
         ]
       },
       {
-        "encabezado": "Ventanas: la misma imagen, distintas lecturas",
+        "encabezado": "Ventanas: La misma imagen, distintas lecturas",
         "parrafos": [
-          "El ojo humano no distingue miles de niveles de gris simultáneamente, pero el estudio contiene un rango enorme de valores. Por eso la imagen se visualiza seleccionando un intervalo de la escala y repartiendo en él todos los grises disponibles, mediante dos parámetros: el nivel, que es el valor central, y la anchura, que es el rango que se representa.",
+          "El ojo humano no distingue miles de niveles de gris simultáneamente, pero el estudio contiene un rango enorme de valores. Por eso la imagen se visualiza seleccionando un intervalo de la escala y repartiendo en él todos los grises disponibles, mediante dos parámetros: El nivel, que es el valor central, y la anchura, que es el rango que se representa.",
           "De ahí nacen las ventanas de trabajo. La ventana de partes blandas es estrecha y muestra bien las diferencias sutiles entre órganos abdominales. La ventana de pulmón es muy amplia y desplazada hacia valores negativos, y es imprescindible para evaluar el parénquima. La ventana de hueso, amplia y desplazada hacia valores altos, muestra el trabeculado y las corticales. Existen además ventanas específicas, como la estrecha para el parénquima cerebral, que resalta la escasa diferencia entre sustancia gris y blanca.",
-          "La regla práctica es fundamental: un estudio nunca se lee en una sola ventana. Una fractura costal puede ser invisible en ventana de partes blandas y evidente en ventana ósea, y un neumotórax fino puede pasar desapercibido si no se mira en ventana pulmonar."
+          "La regla práctica es fundamental: Un estudio nunca se lee en una sola ventana. Una fractura costal puede ser invisible en ventana de partes blandas y evidente en ventana ósea, y un neumotórax fino puede pasar desapercibido si no se mira en ventana pulmonar."
         ]
       },
       {
         "encabezado": "Reconstrucciones y postproceso",
         "parrafos": [
-          "Los datos adquiridos se reconstruyen con distintos filtros o algoritmos según lo que se quiera ver: un filtro suave reduce el ruido y favorece la valoración de partes blandas, mientras que un filtro de alta resolución realza los bordes y es el adecuado para el pulmón y el hueso, a costa de una imagen más granulada.",
+          "Los datos adquiridos se reconstruyen con distintos filtros o algoritmos según lo que se quiera ver: Un filtro suave reduce el ruido y favorece la valoración de partes blandas, mientras que un filtro de alta resolución realza los bordes y es el adecuado para el pulmón y el hueso, a costa de una imagen más granulada.",
           "A partir del volumen se generan reconstrucciones multiplanares en cualquier orientación, proyecciones de máxima intensidad que resaltan las estructuras más densas y resultan útiles para vasos y para nódulos pulmonares, proyecciones de mínima intensidad para la vía aérea, y representaciones tridimensionales de volumen empleadas sobre todo en planificación quirúrgica y en trauma complejo.",
-          "El postproceso no crea información que no se adquirió: si la adquisición tuvo cortes gruesos o movimiento, las reconstrucciones heredarán esas limitaciones."
+          "El postproceso no crea información que no se adquirió: Si la adquisición tuvo cortes gruesos o movimiento, las reconstrucciones heredarán esas limitaciones."
         ]
       },
       {
@@ -405,7 +405,7 @@
     "puntosClave": [
       "La tomografía reconstruye la atenuación punto a punto a partir de proyecciones tomadas en muchos ángulos, eliminando la superposición.",
       "Las unidades Hounsfield permiten medir densidades de forma objetiva y valorar el realce tras el contraste.",
-      "Nunca se lee un estudio en una sola ventana: partes blandas, pulmón y hueso muestran hallazgos distintos.",
+      "Nunca se lee un estudio en una sola ventana: Partes blandas, pulmón y hueso muestran hallazgos distintos.",
       "La fase de contraste determina lo que se ve; se elige según la pregunta clínica y no por rutina.",
       "El pitch, la modulación de corriente, el kilovoltaje, la longitud explorada y el número de fases son las palancas para controlar la dosis.",
       "Los artefactos por metal, endurecimiento del haz y movimiento son frecuentes y hay que reconocerlos para no confundirlos con enfermedad."
@@ -418,7 +418,7 @@
     "resumen": "Qué ocurre con los protones dentro del imán y por qué cada secuencia muestra los tejidos de una manera distinta.",
     "secciones": [
       {
-        "encabezado": "El punto de partida: protones y campo magnético",
+        "encabezado": "El punto de partida: Protones y campo magnético",
         "parrafos": [
           "El cuerpo está compuesto en gran parte por agua y grasa, y por tanto es riquísimo en núcleos de hidrógeno, que son protones únicos. Cada protón se comporta como un pequeño imán que gira sobre sí mismo. En condiciones normales estos imanes diminutos apuntan en direcciones aleatorias y su efecto conjunto se anula.",
           "Al introducir al paciente en el campo magnético intenso del equipo, una pequeña proporción de los protones se alinea con ese campo, generando una magnetización neta orientada en su misma dirección. Además, los protones precesan, es decir, giran describiendo un cono alrededor de la dirección del campo, a una frecuencia que depende de la intensidad del campo. Esa frecuencia es la clave de todo el proceso."
@@ -427,12 +427,12 @@
       {
         "encabezado": "El pulso de radiofrecuencia y la señal",
         "parrafos": [
-          "Si se aplica una onda de radiofrecuencia exactamente a la frecuencia de precesión, los protones absorben energía: eso es la resonancia. El efecto es doble: la magnetización se aparta de su dirección original, inclinándose hacia el plano transversal, y los protones pasan a precesar de forma sincronizada.",
+          "Si se aplica una onda de radiofrecuencia exactamente a la frecuencia de precesión, los protones absorben energía: Eso es la resonancia. El efecto es doble: La magnetización se aparta de su dirección original, inclinándose hacia el plano transversal, y los protones pasan a precesar de forma sincronizada.",
           "Al interrumpir el pulso, el sistema vuelve al estado inicial y, al hacerlo, emite una señal de radiofrecuencia que las antenas del equipo detectan. Esa señal es la materia prima de la imagen, y su intensidad depende de la cantidad de protones presentes y de la rapidez con que cada tejido regresa al equilibrio."
         ]
       },
       {
-        "encabezado": "T1 y T2: dos relojes distintos",
+        "encabezado": "T1 y T2: Dos relojes distintos",
         "parrafos": [
           "La recuperación de la magnetización en la dirección del campo principal se llama relajación longitudinal y su constante de tiempo es el T1. Depende de la facilidad con que el protón cede energía al entorno molecular. La grasa tiene un T1 corto y se recupera rápido, por lo que aparece brillante en imágenes potenciadas en T1; el agua libre tiene un T1 largo y aparece oscura.",
           "La pérdida de sincronía entre los protones en el plano transversal se llama relajación transversal y su constante es el T2. Depende de la interacción entre los propios protones. Los líquidos mantienen la sincronía mucho tiempo y por eso aparecen muy brillantes en imágenes potenciadas en T2, mientras que los tejidos sólidos y densos la pierden rápido y aparecen oscuros.",
@@ -440,7 +440,7 @@
         ]
       },
       {
-        "encabezado": "Cómo se construye la imagen: gradientes",
+        "encabezado": "Cómo se construye la imagen: Gradientes",
         "parrafos": [
           "La señal que emite el paciente no lleva de por sí información sobre su procedencia. Para localizarla se superponen al campo principal unos campos adicionales que varían de forma controlada a lo largo del espacio, llamados gradientes. Al variar el campo, varía la frecuencia de precesión, de modo que la posición queda codificada en la frecuencia y en la fase de la señal.",
           "Un gradiente selecciona el corte, otro codifica la posición en una dirección mediante la frecuencia y un tercero la codifica en la otra dirección mediante la fase. La señal recogida se almacena en un espacio de datos que después se transforma matemáticamente en la imagen.",
@@ -450,7 +450,7 @@
       {
         "encabezado": "Las secuencias básicas y sus parámetros",
         "parrafos": [
-          "Una secuencia es una receta que combina pulsos y gradientes con tiempos determinados. Dos parámetros gobiernan el contraste: el tiempo de repetición entre pulsos sucesivos y el tiempo de eco, que es el momento en que se recoge la señal. Tiempos de repetición y de eco cortos producen una imagen potenciada en T1; tiempos largos, una imagen potenciada en T2; un tiempo de repetición largo con eco corto da una imagen dependiente sobre todo de la densidad de protones.",
+          "Una secuencia es una receta que combina pulsos y gradientes con tiempos determinados. Dos parámetros gobiernan el contraste: El tiempo de repetición entre pulsos sucesivos y el tiempo de eco, que es el momento en que se recoge la señal. Tiempos de repetición y de eco cortos producen una imagen potenciada en T1; tiempos largos, una imagen potenciada en T2; un tiempo de repetición largo con eco corto da una imagen dependiente sobre todo de la densidad de protones.",
           "Las familias más usadas son las secuencias de espín eco, que ofrecen buena calidad y son menos sensibles a las heterogeneidades del campo, y las de eco de gradiente, más rápidas y muy sensibles a los productos de degradación de la sangre y a los depósitos de hierro y calcio, lo que las hace útiles para detectar microhemorragias.",
           "Las técnicas de supresión permiten anular selectivamente la señal de un tejido. La supresión grasa resulta esencial para saber si una lesión brillante contiene grasa y para hacer visible el edema junto a estructuras adiposas. Las secuencias de inversión-recuperación con tiempos adecuados anulan la grasa o el líquido; entre estas últimas destaca la que suprime el líquido cefalorraquídeo, imprescindible para ver lesiones periventriculares y corticales del encéfalo."
         ]
@@ -458,14 +458,14 @@
       {
         "encabezado": "Secuencias funcionales",
         "parrafos": [
-          "La difusión mide la libertad de movimiento del agua en los tejidos. Cuando ese movimiento está restringido, la señal se mantiene alta. Esto ocurre en el infarto cerebral agudo por edema citotóxico, en el pus de los abscesos y en tumores muy celulares. Para evitar confusiones se interpreta siempre junto con el mapa de coeficiente de difusión aparente: la restricción verdadera es brillante en difusión y oscura en ese mapa.",
+          "La difusión mide la libertad de movimiento del agua en los tejidos. Cuando ese movimiento está restringido, la señal se mantiene alta. Esto ocurre en el infarto cerebral agudo por edema citotóxico, en el pus de los abscesos y en tumores muy celulares. Para evitar confusiones se interpreta siempre junto con el mapa de coeficiente de difusión aparente: La restricción verdadera es brillante en difusión y oscura en ese mapa.",
           "La perfusión evalúa el paso del contraste por la microcirculación y aporta información sobre vascularización y viabilidad tisular. La angiografía por resonancia permite estudiar los vasos con o sin contraste. La espectroscopia analiza la composición bioquímica de un volumen de tejido, y la resonancia funcional detecta cambios de oxigenación asociados a la actividad cerebral."
         ]
       },
       {
         "encabezado": "El contraste en resonancia",
         "parrafos": [
-          "El agente habitual es un compuesto de gadolinio, que no se ve directamente sino que acorta el T1 de los tejidos donde se acumula, haciéndolos brillar en las secuencias potenciadas en T1. Su comportamiento es análogo al del yodo en tomografía: informa sobre la vascularización y sobre la integridad de las barreras, y por eso una lesión que realza indica ruptura de la barrera hematoencefálica cuando se trata del encéfalo.",
+          "El agente habitual es un compuesto de gadolinio, que no se ve directamente sino que acorta el T1 de los tejidos donde se acumula, haciéndolos brillar en las secuencias potenciadas en T1. Su comportamiento es análogo al del yodo en tomografía: Informa sobre la vascularización y sobre la integridad de las barreras, y por eso una lesión que realza indica ruptura de la barrera hematoencefálica cuando se trata del encéfalo.",
           "Es un fármaco y como tal exige valorar la indicación, la función renal y los antecedentes de reacción. En pacientes con insuficiencia renal grave hay que extremar la prudencia por el riesgo de una complicación fibrosante sistémica descrita con algunos compuestos, hoy poco frecuente gracias al uso de agentes más estables y a la selección cuidadosa de los pacientes."
         ]
       },
@@ -480,7 +480,7 @@
     ],
     "puntosClave": [
       "La señal procede de los protones de hidrógeno que, alineados por el campo, absorben energía de un pulso de radiofrecuencia y la devuelven al relajarse.",
-      "T1 mide la recuperación longitudinal y T2 la pérdida de sincronía transversal: en T1 el líquido es oscuro y en T2 brillante.",
+      "T1 mide la recuperación longitudinal y T2 la pérdida de sincronía transversal: En T1 el líquido es oscuro y en T2 brillante.",
       "Los gradientes codifican la posición de la señal en el espacio y son los responsables del ruido del equipo.",
       "El tiempo de repetición y el tiempo de eco determinan la potenciación de la imagen.",
       "La difusión detecta restricción del movimiento del agua y debe leerse siempre junto al mapa de coeficiente de difusión aparente.",
@@ -507,13 +507,13 @@
         "parrafos": [
           "Dentro del transductor hay cristales piezoeléctricos, materiales que se deforman al aplicarles un voltaje y que generan un voltaje al ser deformados. Esa doble propiedad permite que el mismo elemento emita el pulso y detecte el eco de vuelta.",
           "Existe un compromiso permanente entre resolución y penetración. Las frecuencias altas dan imágenes muy detalladas pero se atenúan enseguida y solo alcanzan estructuras superficiales, por lo que se usan sondas lineales de alta frecuencia para tiroides, mama, partes blandas, músculo, tendón y vasos periféricos. Las frecuencias bajas penetran mucho más pero con menos detalle, y son las de las sondas convexas empleadas en abdomen y obstetricia. Las sondas sectoriales, de huella pequeña, se emplean en corazón y a través de ventanas estrechas como los espacios intercostales.",
-          "El gel acústico no es un detalle menor: el aire entre la sonda y la piel refleja prácticamente todo el sonido e impide cualquier exploración, de modo que el acoplamiento es imprescindible."
+          "El gel acústico no es un detalle menor: El aire entre la sonda y la piel refleja prácticamente todo el sonido e impide cualquier exploración, de modo que el acoplamiento es imprescindible."
         ]
       },
       {
         "encabezado": "El vocabulario de la ecografía",
         "parrafos": [
-          "Una estructura anecoica no genera ecos y se ve negra: es lo propio de los líquidos simples, como la orina de la vejiga, la bilis de la vesícula o el contenido de un quiste. Hipoecoico significa que genera menos ecos que el tejido de referencia, e hiperecoico que genera más, apareciendo brillante, como ocurre con la grasa, la fibrosis, el calcio o el gas. Isoecoico indica ecogenicidad similar al tejido vecino, lo que dificulta la detección de la lesión.",
+          "Una estructura anecoica no genera ecos y se ve negra: Es lo propio de los líquidos simples, como la orina de la vejiga, la bilis de la vesícula o el contenido de un quiste. Hipoecoico significa que genera menos ecos que el tejido de referencia, e hiperecoico que genera más, apareciendo brillante, como ocurre con la grasa, la fibrosis, el calcio o el gas. Isoecoico indica ecogenicidad similar al tejido vecino, lo que dificulta la detección de la lesión.",
           "También se describe la ecoestructura, que puede ser homogénea o heterogénea, y los fenómenos acústicos que acompañan a la lesión. El refuerzo acústico posterior es el aumento de brillo por detrás de una estructura que atenúa poco, típicamente un quiste, y apoya el diagnóstico de contenido líquido. La sombra acústica posterior es la ausencia de ecos por detrás de algo que refleja o absorbe casi todo el sonido, como un cálculo, una calcificación o el hueso."
         ]
       },
@@ -528,8 +528,8 @@
       {
         "encabezado": "El efecto Doppler",
         "parrafos": [
-          "Cuando el sonido se refleja en algo que se mueve, la frecuencia del eco cambia: aumenta si el objeto se acerca al transductor y disminuye si se aleja. Esa diferencia entre la frecuencia emitida y la recibida es el desplazamiento Doppler, y es proporcional a la velocidad del reflector, que en la práctica son los hematíes circulantes.",
-          "La relación depende también del ángulo entre el haz y la dirección del flujo. El desplazamiento es máximo cuando el haz es paralelo al vaso y desaparece cuando es perpendicular. Esta es la consecuencia práctica más importante de toda la técnica: un vaso perfectamente permeable explorado a noventa grados no muestra ninguna señal y puede interpretarse erróneamente como trombosado. Para medir velocidades hay que angular la sonda y corregir el ángulo, procurando trabajar por debajo de unos sesenta grados."
+          "Cuando el sonido se refleja en algo que se mueve, la frecuencia del eco cambia: Aumenta si el objeto se acerca al transductor y disminuye si se aleja. Esa diferencia entre la frecuencia emitida y la recibida es el desplazamiento Doppler, y es proporcional a la velocidad del reflector, que en la práctica son los hematíes circulantes.",
+          "La relación depende también del ángulo entre el haz y la dirección del flujo. El desplazamiento es máximo cuando el haz es paralelo al vaso y desaparece cuando es perpendicular. Esta es la consecuencia práctica más importante de toda la técnica: Un vaso perfectamente permeable explorado a noventa grados no muestra ninguna señal y puede interpretarse erróneamente como trombosado. Para medir velocidades hay que angular la sonda y corregir el ángulo, procurando trabajar por debajo de unos sesenta grados."
         ]
       },
       {
@@ -537,14 +537,14 @@
         "parrafos": [
           "El Doppler color superpone a la imagen un mapa de colores dentro de una caja seleccionable, donde el color indica el sentido del flujo respecto al transductor y la tonalidad orienta sobre la velocidad. Es la forma rápida de comprobar si hay flujo y en qué dirección.",
           "El Doppler pulsado toma una muestra en un punto concreto y representa la velocidad frente al tiempo, generando una curva espectral. Permite medir velocidades, calcular índices y analizar la morfología de la onda, que distingue el patrón arterial de alta resistencia del de baja resistencia y detecta alteraciones como la aceleración en una estenosis.",
-          "El Doppler potencia o energía no informa del sentido del flujo pero es mucho más sensible a flujos lentos y menos dependiente del ángulo, lo que lo hace muy útil para valorar la vascularización de órganos y de lesiones pequeñas. Un fenómeno a conocer es el aliasing: cuando la velocidad supera el límite que el equipo puede representar, el color o la curva se invierten de forma artificial, y se corrige subiendo la escala."
+          "El Doppler potencia o energía no informa del sentido del flujo pero es mucho más sensible a flujos lentos y menos dependiente del ángulo, lo que lo hace muy útil para valorar la vascularización de órganos y de lesiones pequeñas. Un fenómeno a conocer es el aliasing: Cuando la velocidad supera el límite que el equipo puede representar, el color o la curva se invierten de forma artificial, y se corrige subiendo la escala."
         ]
       },
       {
         "encabezado": "Aplicaciones y limitaciones",
         "parrafos": [
           "El ultrasonido es la primera técnica en abdomen y vía biliar, en aparato urinario, en tiroides y partes blandas superficiales, en obstetricia y ginecología, en el estudio vascular de miembros y troncos supraaórticos y, de forma general, en pediatría. También es la guía habitual para punciones, biopsias y drenajes, porque permite ver la aguja en tiempo real.",
-          "Sus limitaciones son intrínsecas. El aire y el hueso reflejan casi todo el sonido, de modo que el gas intestinal, el pulmón aireado y el cráneo del adulto crean barreras. La obesidad atenúa mucho el haz y degrada la imagen. Y sobre todo es una técnica dependiente del operador: la calidad y la fiabilidad del estudio dependen de quien lo realiza y de la sistemática con que lo haga.",
+          "Sus limitaciones son intrínsecas. El aire y el hueso reflejan casi todo el sonido, de modo que el gas intestinal, el pulmón aireado y el cráneo del adulto crean barreras. La obesidad atenúa mucho el haz y degrada la imagen. Y sobre todo es una técnica dependiente del operador: La calidad y la fiabilidad del estudio dependen de quien lo realiza y de la sistemática con que lo haga.",
           "A favor tiene que no utiliza radiación ionizante, que es portátil y repetible, y que permite explorar en movimiento y con maniobras dinámicas, algo que ninguna otra técnica ofrece con la misma facilidad. Aun así se aplica el criterio de emplear la mínima potencia y el mínimo tiempo necesarios, especialmente en obstetricia."
         ]
       }
@@ -553,7 +553,7 @@
       "La imagen se forma midiendo el tiempo de retorno y la amplitud de los ecos generados en las interfases entre tejidos.",
       "Frecuencia alta significa más resolución y menos penetración; frecuencia baja, lo contrario.",
       "El refuerzo acústico posterior sugiere contenido líquido y la sombra acústica indica cálculo, calcificación o hueso.",
-      "El desplazamiento Doppler depende del ángulo: un vaso explorado a noventa grados puede no mostrar señal aunque esté permeable.",
+      "El desplazamiento Doppler depende del ángulo: Un vaso explorado a noventa grados puede no mostrar señal aunque esté permeable.",
       "El Doppler color muestra dirección, el pulsado mide velocidades y el de potencia detecta mejor los flujos lentos.",
       "El aliasing aparece cuando se supera el límite de velocidad representable y se corrige ajustando la escala.",
       "El aire, el hueso y la obesidad limitan el estudio, que además depende mucho del operador."
@@ -561,32 +561,32 @@
   },
   {
     "codigo": "artefactos-imagen",
-    "titulo": "Artefactos: reconocerlos para no confundirlos con enfermedad",
+    "titulo": "Artefactos: Reconocerlos para no confundirlos con enfermedad",
     "sistema": "General",
     "resumen": "Los errores de imagen más frecuentes en cada modalidad, por qué se producen y cómo distinguirlos de un hallazgo real.",
     "secciones": [
       {
         "encabezado": "Qué es un artefacto y por qué importa",
         "parrafos": [
-          "Un artefacto es cualquier estructura que aparece en la imagen y no se corresponde con la anatomía o la patología del paciente. Puede deberse al equipo, a la técnica, al propio paciente o a la física de la modalidad empleada. No es un fallo excepcional: los artefactos están presentes en prácticamente todos los estudios, y saber convivir con ellos forma parte de la interpretación.",
+          "Un artefacto es cualquier estructura que aparece en la imagen y no se corresponde con la anatomía o la patología del paciente. Puede deberse al equipo, a la técnica, al propio paciente o a la física de la modalidad empleada. No es un fallo excepcional: Los artefactos están presentes en prácticamente todos los estudios, y saber convivir con ellos forma parte de la interpretación.",
           "Su relevancia es doble. Por un lado pueden simular enfermedad y llevar a pruebas innecesarias, a tratamientos o a alarma injustificada. Por otro pueden ocultar patología real, y ese es el escenario más peligroso porque no deja rastro visible del error.",
-          "Hay una regla general que resuelve muchas dudas: los hallazgos reales respetan la anatomía y se comportan de forma coherente al cambiar de proyección, de plano o de secuencia; los artefactos suelen cruzar límites anatómicos, cambiar o desaparecer al modificar la técnica y repetirse de forma idéntica en distintos pacientes."
+          "Hay una regla general que resuelve muchas dudas: Los hallazgos reales respetan la anatomía y se comportan de forma coherente al cambiar de proyección, de plano o de secuencia; los artefactos suelen cruzar límites anatómicos, cambiar o desaparecer al modificar la técnica y repetirse de forma idéntica en distintos pacientes."
         ]
       },
       {
         "encabezado": "Artefactos en radiografía simple",
         "parrafos": [
-          "Los más frecuentes son los superpuestos: pendientes, piercings, botones, cremalleras, electrodos, sondas, cabello recogido, pliegues cutáneos y sujeciones. Se reconocen porque sus bordes son demasiado nítidos y geométricos para ser anatómicos y porque no siguen ninguna estructura. Las trenzas y los pliegues mamarios pueden simular líneas pleurales o masas.",
-          "El movimiento produce borrosidad generalizada o duplicación de contornos. Los errores de posicionamiento y de técnica generan hallazgos falsos: la rotación crea asimetrías de densidad y aparente ensanchamiento mediastínico; la inspiración insuficiente amontona la trama basal, agranda el corazón y simula congestión o infiltrados.",
-          "La radiología digital tiene los suyos propios: procesado excesivo que crea halos oscuros alrededor de estructuras densas, líneas por errores del detector o de la rejilla, y superposición de imágenes por doble exposición del receptor. También hay pseudolesiones anatómicas clásicas, como las líneas de crecimiento que se confunden con fracturas, los huesos accesorios, la sombra del músculo esternocleidomastoideo en los vértices o la unión condrocostal calcificada simulando un nódulo."
+          "Los más frecuentes son los superpuestos: Pendientes, piercings, botones, cremalleras, electrodos, sondas, cabello recogido, pliegues cutáneos y sujeciones. Se reconocen porque sus bordes son demasiado nítidos y geométricos para ser anatómicos y porque no siguen ninguna estructura. Las trenzas y los pliegues mamarios pueden simular líneas pleurales o masas.",
+          "El movimiento produce borrosidad generalizada o duplicación de contornos. Los errores de posicionamiento y de técnica generan hallazgos falsos: La rotación crea asimetrías de densidad y aparente ensanchamiento mediastínico; la inspiración insuficiente amontona la trama basal, agranda el corazón y simula congestión o infiltrados.",
+          "La radiología digital tiene los suyos propios: Procesado excesivo que crea halos oscuros alrededor de estructuras densas, líneas por errores del detector o de la rejilla, y superposición de imágenes por doble exposición del receptor. También hay pseudolesiones anatómicas clásicas, como las líneas de crecimiento que se confunden con fracturas, los huesos accesorios, la sombra del músculo esternocleidomastoideo en los vértices o la unión condrocostal calcificada simulando un nódulo."
         ]
       },
       {
         "encabezado": "Artefactos en tomografía computarizada",
         "parrafos": [
-          "El artefacto metálico es el más llamativo: prótesis, material de osteosíntesis, clips y empastes generan bandas claras y oscuras que irradian del objeto y degradan por completo la región vecina. Los algoritmos de reducción ayudan, y a veces conviene revisar reconstrucciones con distintos filtros.",
+          "El artefacto metálico es el más llamativo: Prótesis, material de osteosíntesis, clips y empastes generan bandas claras y oscuras que irradian del objeto y degradan por completo la región vecina. Los algoritmos de reducción ayudan, y a veces conviene revisar reconstrucciones con distintos filtros.",
           "El endurecimiento del haz ocurre porque los fotones de menor energía se absorben antes, de modo que el haz se hace más penetrante al atravesar estructuras densas y aparecen bandas oscuras entre ellas. En la fosa posterior, entre los peñascos, esto produce las bandas que dificultan valorar el tronco encefálico.",
-          "El efecto de volumen parcial se produce cuando dentro de un mismo vóxel conviven tejidos de densidad muy distinta: el valor resultante es un promedio que no corresponde a ninguno de ellos y puede simular una lesión o difuminar un borde. Se corrige revisando cortes más finos y otros planos. El movimiento respiratorio o cardiaco produce contornos duplicados y bandas, y el ruido por técnica insuficiente en pacientes grandes genera un moteado que puede confundirse con patología parenquimatosa."
+          "El efecto de volumen parcial se produce cuando dentro de un mismo vóxel conviven tejidos de densidad muy distinta: El valor resultante es un promedio que no corresponde a ninguno de ellos y puede simular una lesión o difuminar un borde. Se corrige revisando cortes más finos y otros planos. El movimiento respiratorio o cardiaco produce contornos duplicados y bandas, y el ruido por técnica insuficiente en pacientes grandes genera un moteado que puede confundirse con patología parenquimatosa."
         ]
       },
       {
@@ -608,9 +608,9 @@
       {
         "encabezado": "Cómo confirmar que algo es un artefacto",
         "parrafos": [
-          "La primera maniobra es repetir o modificar la adquisición: girar la sonda, cambiar la proyección, ajustar la ventana, revisar otro plano o recurrir a otra secuencia. Lo real persiste; el artefacto suele cambiar o desaparecer.",
-          "La segunda es la coherencia anatómica: un hallazgo verdadero ocupa un territorio anatómico definido, tiene un efecto de masa proporcional a su tamaño y se acompaña de otros signos esperables. Un supuesto hallazgo que atraviesa la pared torácica, el aire y el hígado con la misma morfología no es una lesión.",
-          "La tercera es la correlación con el paciente: preguntar por objetos metálicos, revisar si hubo movimiento, comprobar la colocación de electrodos y confirmar que la clínica encaja. Muchos artefactos se explican en un segundo simplemente mirando al paciente."
+          "La primera maniobra es repetir o modificar la adquisición: Girar la sonda, cambiar la proyección, ajustar la ventana, revisar otro plano o recurrir a otra secuencia. Lo real persiste; el artefacto suele cambiar o desaparecer.",
+          "La segunda es la coherencia anatómica: Un hallazgo verdadero ocupa un territorio anatómico definido, tiene un efecto de masa proporcional a su tamaño y se acompaña de otros signos esperables. Un supuesto hallazgo que atraviesa la pared torácica, el aire y el hígado con la misma morfología no es una lesión.",
+          "La tercera es la correlación con el paciente: Preguntar por objetos metálicos, revisar si hubo movimiento, comprobar la colocación de electrodos y confirmar que la clínica encaja. Muchos artefactos se explican en un segundo simplemente mirando al paciente."
         ]
       }
     ],
@@ -626,14 +626,14 @@
   },
   {
     "codigo": "medios-contraste",
-    "titulo": "Medios de contraste: tipos, indicaciones y reacciones adversas",
+    "titulo": "Medios de contraste: Tipos, indicaciones y reacciones adversas",
     "sistema": "General",
     "resumen": "Qué contrastes existen, para qué sirven, a quién hay que valorar antes de administrarlos y cómo reconocer y tratar una reacción.",
     "secciones": [
       {
         "encabezado": "Para qué sirve un contraste",
         "parrafos": [
-          "Muchas estructuras del cuerpo tienen densidades o señales muy parecidas entre sí y resultan indistinguibles en la imagen. El medio de contraste modifica artificialmente esas propiedades en un compartimento concreto, de modo que se separe del resto. No aporta información anatómica nueva por sí mismo: la revela.",
+          "Muchas estructuras del cuerpo tienen densidades o señales muy parecidas entre sí y resultan indistinguibles en la imagen. El medio de contraste modifica artificialmente esas propiedades en un compartimento concreto, de modo que se separe del resto. No aporta información anatómica nueva por sí mismo: La revela.",
           "Los contrastes se clasifican por la modalidad en que se usan y por la vía de administración. En radiología convencional y tomografía se emplean compuestos yodados y de bario; en resonancia, compuestos de gadolinio; y en ultrasonido, microburbujas. Las vías incluyen la intravenosa, la oral, la rectal, la intraarticular y la administración directa en cavidades o conductos."
         ]
       },
@@ -642,7 +642,7 @@
         "parrafos": [
           "El yodo tiene un número atómico alto y atenúa mucho los rayos X, por lo que las estructuras que lo contienen aparecen brillantes. Se emplea sobre todo por vía intravenosa en tomografía para estudiar vasos, valorar la vascularización de los órganos y caracterizar lesiones, y también en estudios de la vía urinaria, en angiografía y en exploraciones de conductos.",
           "Los compuestos modernos son no iónicos y de baja osmolalidad, mucho mejor tolerados que los iónicos de alta osmolalidad, hoy reservados a usos muy concretos. La cantidad y la velocidad de inyección se ajustan al peso del paciente y al tipo de estudio, y en muchos casos se usa un inyector automático con sincronización según la llegada del contraste al vaso de interés.",
-          "Una precaución práctica muy frecuente es la extravasación: si el contraste se sale de la vena hacia los tejidos blandos se produce dolor, tumefacción y, en casos importantes, riesgo de compromiso cutáneo o compartimental. Se previene comprobando una vía permeable y de buen calibre y vigilando el inicio de la inyección."
+          "Una precaución práctica muy frecuente es la extravasación: Si el contraste se sale de la vena hacia los tejidos blandos se produce dolor, tumefacción y, en casos importantes, riesgo de compromiso cutáneo o compartimental. Se previene comprobando una vía permeable y de buen calibre y vigilando el inicio de la inyección."
         ]
       },
       {
@@ -662,15 +662,15 @@
         ]
       },
       {
-        "encabezado": "Valoración previa: a quién hay que mirar dos veces",
+        "encabezado": "Valoración previa: A quién hay que mirar dos veces",
         "parrafos": [
           "Antes de administrar contraste conviene revisar los antecedentes de reacción previa a medios de contraste, que es el factor de riesgo más importante para una nueva reacción; el asma y la atopia significativa; la función renal, sobre todo en pacientes con enfermedad renal conocida, diabetes, deshidratación o edad avanzada; y el hipertiroidismo o la patología tiroidea que pueda descompensarse con la carga de yodo.",
           "En pacientes con insuficiencia renal, el riesgo de deterioro tras contraste yodado se considera hoy menor de lo que se pensaba, pero sigue exigiendo valorar la indicación, asegurar una hidratación adecuada y evitar administraciones repetidas próximas en el tiempo. La conducta con determinados fármacos, como la metformina, se decide según los protocolos del centro y el grado de función renal.",
-          "Un dato importante: la alergia al marisco no es una contraindicación ni predice reacción al contraste yodado; se trata de una creencia extendida sin base real. Lo que importa es el antecedente de reacción a contraste y la historia alérgica general."
+          "Un dato importante: La alergia al marisco no es una contraindicación ni predice reacción al contraste yodado; se trata de una creencia extendida sin base real. Lo que importa es el antecedente de reacción a contraste y la historia alérgica general."
         ]
       },
       {
-        "encabezado": "Reacciones adversas: tipos y reconocimiento",
+        "encabezado": "Reacciones adversas: Tipos y reconocimiento",
         "parrafos": [
           "Las reacciones se dividen en dos grandes grupos. Las de tipo alérgico o de hipersensibilidad no dependen de la dosis y se manifiestan como urticaria, prurito, angioedema, broncoespasmo, hipotensión o, en el extremo, anafilaxia. Las de tipo fisiológico dependen de la dosis y de las propiedades del compuesto, y producen calor, sabor metálico, náuseas, vómitos, sensación de rubor o alteraciones vasovagales.",
           "Por su gravedad se clasifican en leves, que se resuelven solas y solo requieren observación; moderadas, que necesitan tratamiento pero no comprometen la vida de forma inmediata; y graves, con compromiso de la vía aérea, del estado circulatorio o del nivel de conciencia.",
@@ -687,18 +687,18 @@
       }
     ],
     "puntosClave": [
-      "El contraste no añade anatomía: separa estructuras que de otro modo serían indistinguibles.",
+      "El contraste no añade anatomía: Separa estructuras que de otro modo serían indistinguibles.",
       "El yodo se usa en radiografía y tomografía, el gadolinio en resonancia, el bario en tubo digestivo y las microburbujas en ultrasonido.",
       "Ante sospecha de perforación digestiva se usa contraste yodado hidrosoluble, nunca bario.",
       "El antecedente de reacción previa a contraste es el principal factor de riesgo; la alergia al marisco no lo es.",
       "Las reacciones pueden ser de tipo alérgico, independientes de la dosis, o fisiológicas, dependientes de la dosis.",
-      "La mayoría de las reacciones agudas ocurre en los primeros minutos: el paciente debe permanecer vigilado y con vía.",
+      "La mayoría de las reacciones agudas ocurre en los primeros minutos: El paciente debe permanecer vigilado y con vía.",
       "En anafilaxia el tratamiento es la adrenalina intramuscular; la reacción vasovagal cursa con bradicardia y se trata de otro modo."
     ]
   },
   {
     "codigo": "seguridad-resonancia",
-    "titulo": "Seguridad en resonancia magnética: contraindicaciones y riesgos",
+    "titulo": "Seguridad en resonancia magnética: Contraindicaciones y riesgos",
     "sistema": "General",
     "resumen": "Por qué la sala de resonancia es un entorno peligroso, cómo se organiza el control de acceso y qué hay que preguntar siempre antes de entrar.",
     "secciones": [
@@ -707,14 +707,14 @@
         "parrafos": [
           "La resonancia magnética no utiliza radiación ionizante, lo que a veces genera la falsa impresión de que es una técnica sin riesgos. En realidad es la modalidad con el entorno físico más peligroso de todo el servicio de imagen, porque el campo magnético es intenso, permanente y completamente invisible.",
           "El imán no se apaga entre pacientes. Está activo las veinticuatro horas del día, incluso con el equipo aparentemente apagado y sin corriente, porque es superconductor. Este es el concepto más importante de toda la seguridad en resonancia y el origen de la mayoría de los accidentes graves.",
-          "Los riesgos proceden de tres fuentes distintas: el campo magnético estático, los gradientes que se conmutan rápidamente y la energía de radiofrecuencia depositada en el paciente. Cada uno produce problemas de naturaleza diferente."
+          "Los riesgos proceden de tres fuentes distintas: El campo magnético estático, los gradientes que se conmutan rápidamente y la energía de radiofrecuencia depositada en el paciente. Cada uno produce problemas de naturaleza diferente."
         ]
       },
       {
         "encabezado": "El efecto proyectil",
         "parrafos": [
           "Cualquier objeto ferromagnético que se acerque al imán es atraído con una fuerza que crece de forma muy rápida al disminuir la distancia. A partir de cierto punto la atracción es irresistible y el objeto sale despedido hacia el centro del túnel a gran velocidad. Tijeras, pinzas, bombonas de oxígeno, sillas de ruedas, camillas, aspiradoras y herramientas han provocado accidentes graves y muertes.",
-          "El riesgo no depende de que el objeto sea metálico sino de que sea ferromagnético: el aluminio o el titanio no son atraídos, mientras que muchos aceros sí. Como no siempre es posible saberlo a simple vista, la norma es que nada entra en la sala sin haber sido verificado.",
+          "El riesgo no depende de que el objeto sea metálico sino de que sea ferromagnético: El aluminio o el titanio no son atraídos, mientras que muchos aceros sí. Como no siempre es posible saberlo a simple vista, la norma es que nada entra en la sala sin haber sido verificado.",
           "La prevención se basa en el control físico del acceso, el uso de material específicamente compatible dentro de la sala, el cribado de todo el que entra, incluidos acompañantes, personal de limpieza, celadores, técnicos de mantenimiento y personal de emergencias, y la señalización clara. La mayoría de los accidentes ocurre con personas que no pertenecen habitualmente al área."
         ]
       },
@@ -731,13 +731,13 @@
         "parrafos": [
           "El cuestionario previo debe indagar de forma sistemática por marcapasos y desfibriladores implantables, neuroestimuladores y estimuladores de médula, implantes cocleares, bombas de infusión, clips vasculares intracraneales, válvulas cardiacas y de derivación, expansores mamarios y dispositivos con componentes metálicos, prótesis articulares y material de osteosíntesis, stents y filtros, y cuerpos extraños metálicos.",
           "El caso más crítico es el fragmento metálico intraocular, propio de quienes han trabajado con metal sin protección ocular. Un fragmento en la órbita puede desplazarse y provocar una lesión ocular irreversible, por lo que ante la duda se realiza una radiografía de órbitas antes del estudio.",
-          "Los dispositivos cardiacos han dejado de ser una contraindicación absoluta universal: existen modelos diseñados para ser compatibles bajo condiciones definidas, pero exigen conocer el modelo exacto, seguir un protocolo específico y coordinarse con cardiología. La clave conceptual es que casi ningún implante es simplemente seguro o inseguro: lo es bajo unas condiciones concretas de campo y de secuencia, que hay que verificar en la documentación del fabricante antes del estudio."
+          "Los dispositivos cardiacos han dejado de ser una contraindicación absoluta universal: Existen modelos diseñados para ser compatibles bajo condiciones definidas, pero exigen conocer el modelo exacto, seguir un protocolo específico y coordinarse con cardiología. La clave conceptual es que casi ningún implante es simplemente seguro o inseguro: Lo es bajo unas condiciones concretas de campo y de secuencia, que hay que verificar en la documentación del fabricante antes del estudio."
         ]
       },
       {
         "encabezado": "Calentamiento, quemaduras y ruido",
         "parrafos": [
-          "La energía de radiofrecuencia depositada en el paciente se transforma en calor. El equipo limita automáticamente ese depósito, pero determinadas situaciones aumentan el riesgo local de quemadura: cables y electrodos formando bucles, materiales conductores en contacto directo con la piel, parches transdérmicos con lámina metálica, tatuajes con pigmentos metálicos y el contacto piel con piel que cierra un circuito.",
+          "La energía de radiofrecuencia depositada en el paciente se transforma en calor. El equipo limita automáticamente ese depósito, pero determinadas situaciones aumentan el riesgo local de quemadura: Cables y electrodos formando bucles, materiales conductores en contacto directo con la piel, parches transdérmicos con lámina metálica, tatuajes con pigmentos metálicos y el contacto piel con piel que cierra un circuito.",
           "Las medidas preventivas son colocar los cables rectos y sin lazos, interponer material aislante entre la piel y cualquier cable o pared del túnel, evitar el contacto entre extremidades y retirar los parches que corresponda según indicación.",
           "La conmutación de los gradientes genera un ruido intenso que obliga a usar protección auditiva en todos los pacientes, incluidos los sedados y los neonatos. Los gradientes pueden además provocar estimulación nerviosa periférica, percibida como contracciones o sensaciones desagradables, que no es peligrosa pero debe explicarse al paciente."
         ]
@@ -764,7 +764,7 @@
       "El efecto proyectil sobre objetos ferromagnéticos es la causa principal de accidentes graves; nada entra en la sala sin verificar.",
       "La instalación se organiza en zonas de acceso restringido y todo el que entra debe ser cribado, incluidos acompañantes y personal externo.",
       "El fragmento metálico intraocular es una contraindicación crítica; ante la duda se hace radiografía de órbitas.",
-      "Los implantes no son simplemente seguros o inseguros: lo son bajo condiciones concretas que deben verificarse.",
+      "Los implantes no son simplemente seguros o inseguros: Lo son bajo condiciones concretas que deben verificarse.",
       "Los cables en bucle y el contacto piel con piel pueden causar quemaduras; la protección auditiva es obligatoria.",
       "Ante una parada cardiorrespiratoria hay que sacar al paciente de la sala antes de reanimar."
     ]
@@ -778,7 +778,7 @@
       {
         "encabezado": "Qué aporta y qué no",
         "parrafos": [
-          "La radiografía simple de abdomen es rápida, accesible y de dosis moderada, pero su rendimiento diagnóstico es limitado porque casi todo el contenido abdominal tiene densidad de partes blandas y se superpone. Lo que la hace útil es su capacidad para detectar las cuatro densidades que sí contrastan: el gas, la grasa, el calcio y el metal.",
+          "La radiografía simple de abdomen es rápida, accesible y de dosis moderada, pero su rendimiento diagnóstico es limitado porque casi todo el contenido abdominal tiene densidad de partes blandas y se superpone. Lo que la hace útil es su capacidad para detectar las cuatro densidades que sí contrastan: El gas, la grasa, el calcio y el metal.",
           "Por eso conserva valor en la sospecha de obstrucción intestinal, en la sospecha de perforación, en la localización de cuerpos extraños y de dispositivos como sondas y catéteres, y en el seguimiento de algunos cuadros. En cambio no sirve para descartar la mayoría de los procesos abdominales, y una placa normal no excluye patología grave.",
           "En muchos escenarios la tomografía ha desplazado a la radiografía simple, y el ultrasonido es superior para vesícula, riñón y estructuras sólidas. Conviene tenerlo presente para no basar decisiones importantes en una radiografía que, por su propia física, no puede responder a la pregunta."
         ]
@@ -803,7 +803,7 @@
         "encabezado": "Buscar aire donde no debe estar",
         "parrafos": [
           "El neumoperitoneo indica perforación de víscera hueca y es un hallazgo con consecuencias inmediatas. En bipedestación se ve como una semiluna de gas bajo el hemidiafragma, más frecuentemente el derecho porque el izquierdo se confunde con la cámara gástrica. En decúbito supino hay signos más sutiles, como la visualización de ambas caras de la pared intestinal, el gas que dibuja el ligamento falciforme o la acumulación central de gas de morfología ovalada.",
-          "Hay que conocer una imitación clásica: la interposición de colon entre el hígado y el diafragma, que simula aire libre pero muestra en su interior las haustras y suele desplazarse con la posición.",
+          "Hay que conocer una imitación clásica: La interposición de colon entre el hígado y el diafragma, que simula aire libre pero muestra en su interior las haustras y suele desplazarse con la posición.",
           "Otras localizaciones anómalas del gas son la neumatosis intestinal, con burbujas en la propia pared del asa; el gas en la vía biliar, que dibuja ramas centrales en el hígado y suele indicar comunicación con el tubo digestivo; el gas en la vena porta, que se dispone hacia la periferia hepática y es un signo de alarma; y el gas en tejidos blandos o retroperitoneal, sugestivo de infección o perforación retroperitoneal."
         ]
       },
@@ -818,16 +818,16 @@
       {
         "encabezado": "Un orden de lectura",
         "parrafos": [
-          "Una secuencia que funciona es empezar por comprobar la identificación, la proyección, la posición del paciente y que el estudio incluya desde las cúpulas diafragmáticas hasta las sínfisis del pubis. A continuación revisar el patrón de gas: cantidad, distribución, calibre y presencia de gas en recto.",
+          "Una secuencia que funciona es empezar por comprobar la identificación, la proyección, la posición del paciente y que el estudio incluya desde las cúpulas diafragmáticas hasta las sínfisis del pubis. A continuación revisar el patrón de gas: Cantidad, distribución, calibre y presencia de gas en recto.",
           "Después buscar gas extraluminal en todas sus formas. Luego valorar las siluetas de los órganos sólidos, hígado, bazo y riñones, cuyo contorno se aprecia gracias a la grasa que los rodea, y las líneas grasas de los flancos, cuyo borramiento sugiere líquido o inflamación.",
-          "Finalmente revisar las calcificaciones, los cuerpos extraños y los dispositivos, y terminar siempre por el esqueleto visible: columna lumbar, sacro, articulaciones sacroilíacas, pelvis, caderas y las últimas costillas, donde con frecuencia aparecen hallazgos que explican el dolor o que constituyen un hallazgo relevante independiente."
+          "Finalmente revisar las calcificaciones, los cuerpos extraños y los dispositivos, y terminar siempre por el esqueleto visible: Columna lumbar, sacro, articulaciones sacroilíacas, pelvis, caderas y las últimas costillas, donde con frecuencia aparecen hallazgos que explican el dolor o que constituyen un hallazgo relevante independiente."
         ]
       },
       {
         "encabezado": "Errores frecuentes",
         "parrafos": [
           "El primero es interpretar una placa en supino como si permitiera descartar aire libre. El segundo es no incluir el hemiabdomen inferior o las cúpulas diafragmáticas por un encuadre incorrecto, lo que deja fuera hallazgos decisivos.",
-          "El tercero es olvidar el esqueleto, donde se detectan fracturas, lesiones líticas y alteraciones degenerativas relevantes. El cuarto es sobreinterpretar el patrón de gas: la cantidad de gas intestinal varía enormemente entre personas y con las circunstancias, de modo que la valoración debe integrarse siempre con la clínica.",
+          "El tercero es olvidar el esqueleto, donde se detectan fracturas, lesiones líticas y alteraciones degenerativas relevantes. El cuarto es sobreinterpretar el patrón de gas: La cantidad de gas intestinal varía enormemente entre personas y con las circunstancias, de modo que la valoración debe integrarse siempre con la clínica.",
           "Y el más importante de todos es asumir que una radiografía normal descarta enfermedad. En un paciente con dolor abdominal significativo, una placa sin hallazgos obliga a seguir estudiando, no a detenerse."
         ]
       }
@@ -851,7 +851,7 @@
       {
         "encabezado": "Por qué la tomografía simple sigue siendo la primera prueba",
         "parrafos": [
-          "En la urgencia neurológica la tomografía sin contraste es la exploración inicial porque es rápida, está disponible en casi cualquier centro, admite pacientes inestables y monitorizados y responde con enorme fiabilidad a la pregunta más urgente de todas: si hay sangre y si hay un efecto de masa que amenace la vida.",
+          "En la urgencia neurológica la tomografía sin contraste es la exploración inicial porque es rápida, está disponible en casi cualquier centro, admite pacientes inestables y monitorizados y responde con enorme fiabilidad a la pregunta más urgente de todas: Si hay sangre y si hay un efecto de masa que amenace la vida.",
           "Sus limitaciones también deben conocerse. Detecta mal el infarto isquémico en las primeras horas, valora con dificultad la fosa posterior por los artefactos óseos, y es poco sensible para lesiones pequeñas de la sustancia blanca, para la patología medular y para muchas lesiones tumorales sin contraste. Cuando la pregunta clínica va más allá de sangre, masa e hidrocefalia, la resonancia es superior."
         ]
       },
@@ -864,11 +864,11 @@
         ]
       },
       {
-        "encabezado": "Sangre: dónde está determina qué es",
+        "encabezado": "Sangre: Dónde está determina qué es",
         "parrafos": [
           "El hematoma epidural se sitúa entre el hueso y la duramadre, tiene forma biconvexa o de lente, no cruza las suturas porque la duramadre está adherida a ellas, sí puede cruzar la línea media y se asocia con frecuencia a fractura y a lesión de la arteria meníngea media. Su evolución puede ser muy rápida.",
           "El hematoma subdural se sitúa entre la duramadre y la aracnoides, adopta forma de semiluna que se adapta a la convexidad, cruza suturas pero no cruza la línea media porque la hoz lo detiene, y es característico del anciano y del paciente anticoagulado, en quienes puede aparecer tras traumatismos mínimos u olvidados.",
-          "La hemorragia subaracnoidea ocupa los surcos y las cisternas, que en lugar de verse oscuros aparecen densos. Su causa más frecuente en ausencia de traumatismo es la rotura de un aneurisma, y obliga a estudio vascular. La hemorragia intraparenquimatosa se localiza dentro del cerebro, y su ubicación orienta: los ganglios basales y el tálamo sugieren origen hipertensivo, mientras que las localizaciones lobares en el anciano sugieren angiopatía amiloide. La hemorragia intraventricular puede acompañar a cualquiera de las anteriores y añade riesgo de hidrocefalia."
+          "La hemorragia subaracnoidea ocupa los surcos y las cisternas, que en lugar de verse oscuros aparecen densos. Su causa más frecuente en ausencia de traumatismo es la rotura de un aneurisma, y obliga a estudio vascular. La hemorragia intraparenquimatosa se localiza dentro del cerebro, y su ubicación orienta: Los ganglios basales y el tálamo sugieren origen hipertensivo, mientras que las localizaciones lobares en el anciano sugieren angiopatía amiloide. La hemorragia intraventricular puede acompañar a cualquiera de las anteriores y añade riesgo de hidrocefalia."
         ]
       },
       {
@@ -882,7 +882,7 @@
       {
         "encabezado": "El infarto isquémico precoz",
         "parrafos": [
-          "En las primeras horas la tomografía simple puede ser normal, y eso no descarta un ictus. Sin embargo existen signos precoces que hay que buscar activamente: la pérdida de diferenciación entre sustancia gris y blanca, con borramiento del ribete insular y de los límites de los ganglios basales; el borramiento de los surcos por edema incipiente; y la hiperdensidad de una arteria, que traduce el trombo dentro de la luz.",
+          "En las primeras horas la tomografía simple puede ser normal, y eso no descarta un ictus. Sin embargo existen signos precoces que hay que buscar activamente: La pérdida de diferenciación entre sustancia gris y blanca, con borramiento del ribete insular y de los límites de los ganglios basales; el borramiento de los surcos por edema incipiente; y la hiperdensidad de una arteria, que traduce el trombo dentro de la luz.",
           "Con las horas la zona infartada se hace claramente hipodensa, respeta un territorio vascular y se acompaña de efecto de masa creciente, que alcanza su máximo hacia el tercer o cuarto día. La transformación hemorrágica puede aparecer en la evolución.",
           "El papel principal de la tomografía simple en el ictus agudo es descartar hemorragia y valorar la extensión de los cambios precoces, porque de ello depende la decisión terapéutica urgente."
         ]
@@ -905,7 +905,7 @@
       }
     ],
     "puntosClave": [
-      "La tomografía simple responde rápido a la pregunta urgente: si hay sangre, efecto de masa o hidrocefalia.",
+      "La tomografía simple responde rápido a la pregunta urgente: Si hay sangre, efecto de masa o hidrocefalia.",
       "La sangre aguda es hiperdensa y va perdiendo densidad con los días hasta hacerse isodensa y luego hipodensa.",
       "El epidural es biconvexo y no cruza suturas; el subdural es en semiluna, cruza suturas y no cruza la línea media.",
       "Hay que revisar siempre varias ventanas, incluida una intermedia para detectar colecciones subdurales finas.",
@@ -924,14 +924,14 @@
         "encabezado": "Qué es el intersticio",
         "parrafos": [
           "El intersticio pulmonar es el armazón de tejido conectivo que sostiene el pulmón. Se describe en tres compartimentos que ayudan a entender lo que se ve en la imagen. El intersticio axial o broncovascular acompaña a bronquios y arterias desde el hilio hacia la periferia. El intersticio periférico o subpleural incluye la pleura y los tabiques interlobulillares que dividen el pulmón en lobulillos. El intersticio intralobulillar es la fina malla que rodea a los alvéolos.",
-          "La unidad anatómica clave para interpretar la tomografía de alta resolución es el lobulillo pulmonar secundario: una pequeña porción de pulmón de aproximadamente uno a dos centímetros, delimitada por tabiques, con una arteriola y un bronquiolo en el centro y venas y linfáticos en la periferia. Muchas enfermedades tienen predilección por una parte concreta de ese lobulillo, y ahí reside el valor diagnóstico del patrón.",
-          "Frente a la afectación intersticial está la del espacio aéreo, en la que los alvéolos se llenan de líquido, pus, sangre o células. Distinguir ambos comportamientos es el primer paso: el relleno alveolar produce opacidades algodonosas, mal definidas, confluentes y con broncograma aéreo, mientras que el patrón intersticial dibuja líneas, redes y pequeños nódulos."
+          "La unidad anatómica clave para interpretar la tomografía de alta resolución es el lobulillo pulmonar secundario: Una pequeña porción de pulmón de aproximadamente uno a dos centímetros, delimitada por tabiques, con una arteriola y un bronquiolo en el centro y venas y linfáticos en la periferia. Muchas enfermedades tienen predilección por una parte concreta de ese lobulillo, y ahí reside el valor diagnóstico del patrón.",
+          "Frente a la afectación intersticial está la del espacio aéreo, en la que los alvéolos se llenan de líquido, pus, sangre o células. Distinguir ambos comportamientos es el primer paso: El relleno alveolar produce opacidades algodonosas, mal definidas, confluentes y con broncograma aéreo, mientras que el patrón intersticial dibuja líneas, redes y pequeños nódulos."
         ]
       },
       {
         "encabezado": "El patrón lineal o reticular",
         "parrafos": [
-          "Consiste en líneas finas que forman una red. En la radiografía simple sus manifestaciones clásicas son las líneas de Kerley: las líneas B son cortas, perpendiculares a la pleura y localizadas en las bases, y corresponden a tabiques interlobulillares engrosados; las líneas A son más largas y se dirigen hacia el hilio.",
+          "Consiste en líneas finas que forman una red. En la radiografía simple sus manifestaciones clásicas son las líneas de Kerley: Las líneas B son cortas, perpendiculares a la pleura y localizadas en las bases, y corresponden a tabiques interlobulillares engrosados; las líneas A son más largas y se dirigen hacia el hilio.",
           "El engrosamiento de los tabiques puede ser liso, nodular o irregular, y esa distinción es muy orientadora. El engrosamiento liso y simétrico sugiere edema intersticial por insuficiencia cardiaca, y suele acompañarse de redistribución vascular, cardiomegalia, derrame pleural y engrosamiento peribronquial. El engrosamiento nodular apunta a diseminación linfática de un tumor o a sarcoidosis. El engrosamiento irregular con distorsión sugiere fibrosis.",
           "Cuando la retícula es gruesa y se acompaña de pérdida de volumen, bronquiectasias por tracción y distorsión de la arquitectura, se está ante fibrosis establecida. El panal de abeja, formado por quistes de paredes compartidas agrupados en varias capas y de predominio subpleural, es su expresión más avanzada y tiene un peso diagnóstico importante."
         ]
@@ -956,8 +956,8 @@
         "encabezado": "Patrón quístico y de baja atenuación",
         "parrafos": [
           "Hay que distinguir con cuidado los espacios aéreos anómalos. El enfisema es una destrucción del parénquima sin pared definida, con distribución característica según el tipo, centrolobulillar de predominio en campos superiores en el relacionado con el tabaco, panlobulillar y basal en el asociado a déficit enzimático.",
-          "Los quistes verdaderos tienen pared fina y bien definida. Su distribución y su forma orientan: quistes de paredes finas y distribución difusa en una mujer joven sugieren un proceso concreto, mientras que quistes de morfología irregular con predominio en lóbulos inferiores y asociados a nódulos apuntan a otro. Las bronquiectasias son dilataciones bronquiales irreversibles que se reconocen porque el bronquio supera el calibre de la arteria acompañante y porque no se afinan hacia la periferia.",
-          "El patrón en mosaico consiste en áreas alternantes de mayor y menor atenuación. Su causa puede ser vascular, por defectos de perfusión, o de la vía aérea, por atrapamiento aéreo. Las series en espiración son decisivas: si las zonas hipodensas no aumentan de densidad al espirar, hay atrapamiento y el origen es de la pequeña vía aérea."
+          "Los quistes verdaderos tienen pared fina y bien definida. Su distribución y su forma orientan: Quistes de paredes finas y distribución difusa en una mujer joven sugieren un proceso concreto, mientras que quistes de morfología irregular con predominio en lóbulos inferiores y asociados a nódulos apuntan a otro. Las bronquiectasias son dilataciones bronquiales irreversibles que se reconocen porque el bronquio supera el calibre de la arteria acompañante y porque no se afinan hacia la periferia.",
+          "El patrón en mosaico consiste en áreas alternantes de mayor y menor atenuación. Su causa puede ser vascular, por defectos de perfusión, o de la vía aérea, por atrapamiento aéreo. Las series en espiración son decisivas: Si las zonas hipodensas no aumentan de densidad al espirar, hay atrapamiento y el origen es de la pequeña vía aérea."
         ]
       },
       {
@@ -965,13 +965,13 @@
         "parrafos": [
           "Además del tipo de patrón, importa mucho dónde se localiza. La distribución de predominio en campos superiores es propia de la sarcoidosis, la silicosis, la tuberculosis y la histiocitosis. El predominio en campos inferiores y subpleural, con gradiente anteroposterior, es característico de la fibrosis pulmonar idiopática y de la afectación pulmonar de algunas conectivopatías.",
           "La distribución peribroncovascular central orienta a sarcoidosis o linfangitis, mientras que la subpleural periférica con respeto de la zona inmediatamente adyacente a la pleura sugiere otros procesos. La simetría, la presencia de adenopatías, el derrame pleural, el tamaño cardiaco y los cambios en el tiempo completan la interpretación.",
-          "En la práctica el diagnóstico rara vez sale de la imagen aislada: se construye combinando el patrón dominante, su distribución, los hallazgos asociados, la evolución temporal y los datos clínicos, laboratoriales y funcionales del paciente."
+          "En la práctica el diagnóstico rara vez sale de la imagen aislada: Se construye combinando el patrón dominante, su distribución, los hallazgos asociados, la evolución temporal y los datos clínicos, laboratoriales y funcionales del paciente."
         ]
       },
       {
         "encabezado": "Radiografía frente a tomografía de alta resolución",
         "parrafos": [
-          "La radiografía simple sigue siendo el primer estudio y puede orientar mucho, sobre todo cuando existe un estudio previo con el que comparar. Sin embargo tiene una sensibilidad limitada: una enfermedad intersticial puede cursar con radiografía prácticamente normal, especialmente en fases iniciales.",
+          "La radiografía simple sigue siendo el primer estudio y puede orientar mucho, sobre todo cuando existe un estudio previo con el que comparar. Sin embargo tiene una sensibilidad limitada: Una enfermedad intersticial puede cursar con radiografía prácticamente normal, especialmente en fases iniciales.",
           "La tomografía de alta resolución utiliza cortes finos y un filtro de reconstrucción que realza los bordes, lo que permite visualizar el lobulillo secundario y caracterizar el patrón. Suele completarse con series en decúbito prono, que distinguen la afectación posterior real de la simple atelectasia dependiente por gravedad, y con series en espiración para detectar atrapamiento aéreo.",
           "Su lectura exige recorrer el pulmón de vértices a bases valorando patrón, distribución axial y craneocaudal, hallazgos asociados en pleura, mediastino y vía aérea, y comparación con estudios previos, porque la evolución en el tiempo es a menudo el dato más informativo."
         ]
@@ -989,7 +989,7 @@
   },
   {
     "codigo": "atelectasia",
-    "titulo": "Atelectasia: tipos y signos indirectos",
+    "titulo": "Atelectasia: Tipos y signos indirectos",
     "sistema": "Respiratorio",
     "resumen": "Cómo reconocer la pérdida de volumen pulmonar, distinguir sus mecanismos y localizar el lóbulo afectado.",
     "secciones": [
@@ -997,7 +997,7 @@
         "encabezado": "Qué es y por qué se confunde",
         "parrafos": [
           "La atelectasia es la pérdida de volumen de una parte del pulmón por colapso alveolar. En la imagen produce una opacidad, y ahí empieza la confusión, porque la neumonía, el derrame y la masa también producen opacidades. La diferencia esencial es que la atelectasia se acompaña siempre de signos de pérdida de volumen, mientras que la neumonía mantiene el volumen y una masa o un derrame lo aumentan y desplazan las estructuras en sentido contrario.",
-          "Distinguirlas tiene consecuencias prácticas inmediatas: una atelectasia lobar en un adulto fumador obliga a descartar una obstrucción bronquial tumoral, mientras que una atelectasia laminar postoperatoria es un hallazgo banal que se resuelve con fisioterapia respiratoria."
+          "Distinguirlas tiene consecuencias prácticas inmediatas: Una atelectasia lobar en un adulto fumador obliga a descartar una obstrucción bronquial tumoral, mientras que una atelectasia laminar postoperatoria es un hallazgo banal que se resuelve con fisioterapia respiratoria."
         ]
       },
       {
@@ -1029,7 +1029,7 @@
         "parrafos": [
           "Cada lóbulo se colapsa siguiendo un patrón previsible. El lóbulo superior derecho se retrae hacia arriba y hacia el mediastino, elevando la cisura menor y el hilio. El lóbulo medio borra el borde derecho del corazón y en la proyección lateral aparece como una banda triangular entre las cisuras. El lóbulo inferior derecho se colapsa hacia abajo y medialmente, borra el hemidiafragma y se manifiesta como una opacidad triangular retrocardiaca con descenso del hilio.",
           "El lóbulo superior izquierdo se colapsa hacia delante, produciendo un velamiento difuso del hemitórax izquierdo que es más denso arriba y que borra el borde cardiaco izquierdo; en la lateral se ve como una banda anterior. El lóbulo inferior izquierdo se esconde detrás del corazón y produce una opacidad triangular con borramiento del hemidiafragma, un hallazgo fácil de pasar por alto si la placa está poco penetrada.",
-          "El signo de la silueta es la herramienta clave para localizar: el borramiento del borde cardiaco derecho corresponde al lóbulo medio, el del borde izquierdo a la língula y el de los hemidiafragmas a los lóbulos inferiores. La proyección lateral resuelve muchas dudas."
+          "El signo de la silueta es la herramienta clave para localizar: El borramiento del borde cardiaco derecho corresponde al lóbulo medio, el del borde izquierdo a la língula y el de los hemidiafragmas a los lóbulos inferiores. La proyección lateral resuelve muchas dudas."
         ]
       },
       {
@@ -1069,7 +1069,7 @@
         "encabezado": "Dolor en el cuadrante superior derecho",
         "parrafos": [
           "La primera prueba es el ultrasonido, porque es superior a cualquier otra para la vesícula y la vía biliar. En la colecistitis aguda se buscan cálculos, engrosamiento de la pared vesicular, distensión de la vesícula, líquido perivesicular y dolor selectivo a la presión con el transductor sobre la vesícula, un signo con buen rendimiento cuando se explora correctamente.",
-          "La dilatación de la vía biliar orienta a obstrucción y obliga a buscar la causa: coledocolitiasis, tumor periampular o compresión extrínseca. Cuando el ultrasonido no visualiza el colédoco distal, se recurre a colangiorresonancia o a tomografía según el contexto.",
+          "La dilatación de la vía biliar orienta a obstrucción y obliga a buscar la causa: Coledocolitiasis, tumor periampular o compresión extrínseca. Cuando el ultrasonido no visualiza el colédoco distal, se recurre a colangiorresonancia o a tomografía según el contexto.",
           "Las complicaciones que hay que reconocer son la colecistitis gangrenosa, con pared irregular, membranas intraluminales y ausencia de realce en tomografía; la enfisematosa, con gas en la pared; y la perforación con colección perivesicular. También hay que recordar que un dolor en esa localización puede corresponder a patología hepática, a un cuadro pulmonar basal derecho o a un problema duodenal o pancreático."
         ]
       },
@@ -1077,31 +1077,31 @@
         "encabezado": "Dolor en fosa iliaca derecha",
         "parrafos": [
           "En la apendicitis los hallazgos característicos son un apéndice dilatado por encima del calibre normal, con pared engrosada, no compresible, con aumento de la ecogenicidad y de la densidad de la grasa periapendicular, y a menudo un apendicolito. Puede haber líquido libre localizado y engrosamiento del ciego.",
-          "En niños, adolescentes y adultos delgados el ultrasonido con compresión gradual es la primera opción y evita radiación. Cuando no es concluyente, sobre todo en adultos con abundante grasa o con presentación atípica, la tomografía con contraste ofrece un rendimiento muy alto y además detecta las complicaciones: perforación, absceso, plastrón y peritonitis.",
-          "El diagnóstico diferencial es amplio y hay que tenerlo presente: adenitis mesentérica, ileítis y enfermedad inflamatoria intestinal, diverticulitis del colon derecho, patología ginecológica en la mujer, cólico ureteral derecho y torsión de un apéndice epiploico."
+          "En niños, adolescentes y adultos delgados el ultrasonido con compresión gradual es la primera opción y evita radiación. Cuando no es concluyente, sobre todo en adultos con abundante grasa o con presentación atípica, la tomografía con contraste ofrece un rendimiento muy alto y además detecta las complicaciones: Perforación, absceso, plastrón y peritonitis.",
+          "El diagnóstico diferencial es amplio y hay que tenerlo presente: Adenitis mesentérica, ileítis y enfermedad inflamatoria intestinal, diverticulitis del colon derecho, patología ginecológica en la mujer, cólico ureteral derecho y torsión de un apéndice epiploico."
         ]
       },
       {
         "encabezado": "Dolor en fosa iliaca izquierda y colon",
         "parrafos": [
           "La causa más habitual en el adulto de mediana edad y en el anciano es la diverticulitis. La tomografía muestra divertículos, engrosamiento segmentario de la pared colónica y, sobre todo, inflamación de la grasa pericolónica, que es el hallazgo que confirma que el divertículo está complicado.",
-          "El valor añadido de la tomografía es que estadifica: distingue la diverticulitis no complicada, que suele tratarse médicamente, de la complicada con absceso, perforación con gas extraluminal, fístula u obstrucción, que puede requerir drenaje o cirugía.",
+          "El valor añadido de la tomografía es que estadifica: Distingue la diverticulitis no complicada, que suele tratarse médicamente, de la complicada con absceso, perforación con gas extraluminal, fístula u obstrucción, que puede requerir drenaje o cirugía.",
           "Otras causas de dolor en esa localización son la colitis de cualquier origen, incluida la isquémica, que muestra engrosamiento segmentario de un territorio vascular; el vólvulo de sigma, con una imagen característica de asa muy dilatada en la radiografía; y el cólico ureteral izquierdo."
         ]
       },
       {
         "encabezado": "Obstrucción intestinal",
         "parrafos": [
-          "La radiografía simple puede sugerir la obstrucción, pero la tomografía es la que aporta la información que cambia el manejo: confirma la obstrucción, localiza el punto de transición entre el asa dilatada y la colapsada, identifica la causa y detecta el sufrimiento intestinal.",
+          "La radiografía simple puede sugerir la obstrucción, pero la tomografía es la que aporta la información que cambia el manejo: Confirma la obstrucción, localiza el punto de transición entre el asa dilatada y la colapsada, identifica la causa y detecta el sufrimiento intestinal.",
           "Las causas más frecuentes de obstrucción de delgado son las adherencias postquirúrgicas y las hernias, mientras que en el colon predominan el tumor, el vólvulo y la diverticulitis estenosante. Buscar sistemáticamente los orificios herniarios es obligado, porque una hernia incarcerada es fácil de pasar por alto y tiene tratamiento quirúrgico inmediato.",
-          "Los signos de compromiso vascular del asa son los que confieren urgencia: ausencia o disminución del realce de la pared, engrosamiento parietal, neumatosis, gas portal, líquido libre y congestión del mesenterio. En la obstrucción en asa cerrada, en la que un segmento queda ocluido en dos puntos, el riesgo de isquemia es alto y su reconocimiento es prioritario."
+          "Los signos de compromiso vascular del asa son los que confieren urgencia: Ausencia o disminución del realce de la pared, engrosamiento parietal, neumatosis, gas portal, líquido libre y congestión del mesenterio. En la obstrucción en asa cerrada, en la que un segmento queda ocluido en dos puntos, el riesgo de isquemia es alto y su reconocimiento es prioritario."
         ]
       },
       {
         "encabezado": "Perforación y peritonitis",
         "parrafos": [
           "El hallazgo clave es el gas extraluminal. La tomografía es mucho más sensible que la radiografía y detecta burbujas mínimas, especialmente si se revisa en ventana pulmonar, algo que conviene hacer siempre en un abdomen agudo.",
-          "La localización del gas orienta al origen: el gas en el espacio perihepático y en la vecindad del estómago y el duodeno sugiere perforación de úlcera; el gas retroperitoneal alrededor del duodeno o del colon apunta a una perforación en ese compartimento; y el gas pericolónico junto a divertículos indica perforación diverticular.",
+          "La localización del gas orienta al origen: El gas en el espacio perihepático y en la vecindad del estómago y el duodeno sugiere perforación de úlcera; el gas retroperitoneal alrededor del duodeno o del colon apunta a una perforación en ese compartimento; y el gas pericolónico junto a divertículos indica perforación diverticular.",
           "Se completa buscando líquido libre, colecciones organizadas con realce de pared que indican absceso, engrosamiento y realce del peritoneo, y la solución de continuidad de la pared cuando es visible. La cantidad de gas no guarda relación directa con la gravedad, de modo que una perforación pequeña puede ser tan urgente como una grande."
         ]
       },
@@ -1110,7 +1110,7 @@
         "parrafos": [
           "El aneurisma de aorta abdominal roto es una emergencia que puede simular un cólico renal. La imagen muestra un aneurisma con hematoma retroperitoneal, y en el paciente inestable la sospecha clínica basta para actuar. La isquemia mesentérica aguda debe sospecharse ante un dolor desproporcionado a la exploración, y su estudio requiere una fase arterial dirigida; los hallazgos pueden ser sutiles al principio y muy graves después.",
           "El cólico ureteral se estudia con tomografía sin contraste de baja dosis, que detecta prácticamente todos los cálculos y los signos indirectos de obstrucción, como la dilatación pieloureteral y la trabeculación de la grasa perirrenal. En pacientes jóvenes y en embarazadas se prefiere iniciar con ultrasonido.",
-          "No hay que olvidar las causas extraabdominales que se presentan como dolor abdominal: neumonía de lóbulos inferiores, infarto de miocardio de cara inferior, patología de la pared abdominal y cuadros metabólicos. Una radiografía de tórax y una valoración clínica cuidadosa evitan estudios abdominales interminables que no encuentran nada."
+          "No hay que olvidar las causas extraabdominales que se presentan como dolor abdominal: Neumonía de lóbulos inferiores, infarto de miocardio de cara inferior, patología de la pared abdominal y cuadros metabólicos. Una radiografía de tórax y una valoración clínica cuidadosa evitan estudios abdominales interminables que no encuentran nada."
         ]
       }
     ],
@@ -1126,16 +1126,16 @@
   },
   {
     "codigo": "tce-imagen",
-    "titulo": "Traumatismo craneoencefálico: qué buscar y en qué orden",
+    "titulo": "Traumatismo craneoencefálico: Qué buscar y en qué orden",
     "sistema": "Nervioso",
     "resumen": "Indicaciones de la tomografía urgente en el traumatismo craneal, lesiones a identificar y signos que exigen actuación inmediata.",
     "secciones": [
       {
         "encabezado": "A quién se estudia",
         "parrafos": [
-          "No todo traumatismo craneal requiere tomografía. Las reglas de decisión clínica ampliamente utilizadas seleccionan a los pacientes con mayor probabilidad de lesión intracraneal significativa, y su objetivo es doble: no dejar sin estudiar a quien lo necesita y evitar irradiar a quien no.",
+          "No todo traumatismo craneal requiere tomografía. Las reglas de decisión clínica ampliamente utilizadas seleccionan a los pacientes con mayor probabilidad de lesión intracraneal significativa, y su objetivo es doble: No dejar sin estudiar a quien lo necesita y evitar irradiar a quien no.",
           "Los criterios que habitualmente indican estudio urgente incluyen la disminución del nivel de conciencia o su deterioro progresivo, la focalidad neurológica, la sospecha de fractura abierta, deprimida o de base del cráneo, la crisis convulsiva postraumática, los vómitos repetidos, la amnesia significativa del episodio, la edad avanzada, el tratamiento anticoagulante o antiagregante y el mecanismo de alta energía.",
-          "El anticoagulado merece atención especial: puede desarrollar un hematoma clínicamente relevante tras un traumatismo aparentemente banal y con una exploración inicial normal, y su deterioro puede ser tardío. En el niño, las reglas específicas ponderan la edad, el mecanismo y los signos de fractura, y priorizan la observación frente a la irradiación cuando el riesgo es bajo."
+          "El anticoagulado merece atención especial: Puede desarrollar un hematoma clínicamente relevante tras un traumatismo aparentemente banal y con una exploración inicial normal, y su deterioro puede ser tardío. En el niño, las reglas específicas ponderan la edad, el mecanismo y los signos de fractura, y priorizan la observación frente a la irradiación cuando el riesgo es bajo."
         ]
       },
       {
@@ -1159,7 +1159,7 @@
         "parrafos": [
           "Las fracturas se valoran en ventana ósea y en reconstrucciones finas. Hay que distinguirlas de las suturas, que son bilaterales, simétricas, con bordes escleróticos y de trayecto conocido, y de los surcos vasculares, que tienen bordes corticales y ramificación regular.",
           "La fractura deprimida importa cuando el fragmento se hunde más allá del grosor de la tabla, porque aumenta el riesgo de lesión parenquimatosa, de infección y de epilepsia postraumática. Las fracturas que atraviesan el trayecto de un seno venoso dural obligan a valorar trombosis o laceración, y las que cruzan el canal carotídeo, a considerar lesión vascular.",
-          "La fractura de base del cráneo puede ser difícil de ver directamente, y a menudo se sospecha por signos indirectos: ocupación de los senos paranasales o de las celdillas mastoideas por líquido, neumoencéfalo, líquido en el oído medio y los signos clínicos clásicos de equimosis periorbitaria y retroauricular, y fístula de líquido cefalorraquídeo."
+          "La fractura de base del cráneo puede ser difícil de ver directamente, y a menudo se sospecha por signos indirectos: Ocupación de los senos paranasales o de las celdillas mastoideas por líquido, neumoencéfalo, líquido en el oído medio y los signos clínicos clásicos de equimosis periorbitaria y retroauricular, y fístula de líquido cefalorraquídeo."
         ]
       },
       {
@@ -1173,7 +1173,7 @@
       {
         "encabezado": "Un orden de lectura para el trauma",
         "parrafos": [
-          "Un esquema útil comienza por fuera: cuero cabelludo y partes blandas, buscando la tumefacción que señala el impacto; después ventana ósea completa, incluyendo bóveda, base, senos, mastoides y macizo facial cuando corresponda.",
+          "Un esquema útil comienza por fuera: Cuero cabelludo y partes blandas, buscando la tumefacción que señala el impacto; después ventana ósea completa, incluyendo bóveda, base, senos, mastoides y macizo facial cuando corresponda.",
           "A continuación los espacios extraaxiales, recorriendo la convexidad de vértice a base y revisando hoz y tentorio; luego los espacios subaracnoideos y el sistema ventricular; después el parénquima comparando hemisferios y prestando atención a las localizaciones típicas de contusión; y finalmente la valoración de línea media, cisternas y signos de herniación.",
           "Al terminar conviene una segunda pasada en ventana intermedia para las colecciones subdurales finas, y valorar si procede completar el estudio con angiotomografía cuando hay fracturas que cruzan estructuras vasculares, o con estudio de la columna cervical, que debe considerarse siempre en el traumatismo craneal significativo."
         ]
@@ -1181,7 +1181,7 @@
       {
         "encabezado": "Seguimiento y errores frecuentes",
         "parrafos": [
-          "Repetir la tomografía está indicado ante deterioro neurológico, ante lesiones que se sabe que progresan, como las contusiones, y en pacientes anticoagulados según protocolo. La comparación con el estudio previo es lo que da valor al control: lo importante no es solo lo que hay, sino cómo evoluciona.",
+          "Repetir la tomografía está indicado ante deterioro neurológico, ante lesiones que se sabe que progresan, como las contusiones, y en pacientes anticoagulados según protocolo. La comparación con el estudio previo es lo que da valor al control: Lo importante no es solo lo que hay, sino cómo evoluciona.",
           "Los errores más habituales son leer solo en ventana de parénquima y pasar por alto una fractura o un subdural fino; atribuir a artefacto una lesión real de fosa posterior; olvidar la columna cervical; y dar por descartada una lesión axonal difusa por una tomografía normal.",
           "Conviene recordar también que el estado clínico manda sobre la imagen. Un paciente que se deteriora exige actuación inmediata aunque el estudio inicial fuera normal, porque las lesiones evolucionan y la ventana temporal para intervenir puede ser corta."
         ]
@@ -1199,7 +1199,7 @@
   },
   {
     "codigo": "ictus-imagen",
-    "titulo": "Ictus: el papel de la imagen y la ventana terapéutica",
+    "titulo": "Ictus: El papel de la imagen y la ventana terapéutica",
     "sistema": "Nervioso",
     "resumen": "Cómo la imagen decide el tratamiento del ictus agudo, qué se busca en cada técnica y por qué el tiempo es determinante.",
     "secciones": [
@@ -1207,14 +1207,14 @@
         "encabezado": "Por qué la imagen es urgente",
         "parrafos": [
           "En el ictus isquémico, el tejido cerebral privado de flujo muere con rapidez, aunque no de forma uniforme. En el centro del territorio afectado hay un núcleo ya irreversiblemente dañado, y a su alrededor una zona de tejido hipoperfundido pero todavía viable, que se mantiene gracias a la circulación colateral. Esa zona es lo que el tratamiento intenta salvar, y desaparece con el tiempo.",
-          "La imagen tiene tres misiones en la fase aguda: descartar hemorragia, porque cambia radicalmente el tratamiento; estimar cuánto tejido está ya perdido y cuánto puede recuperarse; e identificar si hay una oclusión de gran vaso susceptible de tratamiento endovascular.",
+          "La imagen tiene tres misiones en la fase aguda: Descartar hemorragia, porque cambia radicalmente el tratamiento; estimar cuánto tejido está ya perdido y cuánto puede recuperarse; e identificar si hay una oclusión de gran vaso susceptible de tratamiento endovascular.",
           "Todo el proceso está sometido a una presión de tiempo enorme. Los circuitos asistenciales de código ictus existen precisamente para acortar el intervalo entre la llegada del paciente y el inicio del tratamiento, y la imagen es el paso que no puede saltarse pero tampoco demorarse."
         ]
       },
       {
-        "encabezado": "La tomografía simple: primer paso",
+        "encabezado": "La tomografía simple: Primer paso",
         "parrafos": [
-          "Es la exploración inicial en casi todos los centros porque es inmediata y responde a la pregunta esencial: si hay sangre. Una hemorragia contraindica la trombólisis, de modo que sin este dato no puede iniciarse el tratamiento.",
+          "Es la exploración inicial en casi todos los centros porque es inmediata y responde a la pregunta esencial: Si hay sangre. Una hemorragia contraindica la trombólisis, de modo que sin este dato no puede iniciarse el tratamiento.",
           "En el infarto de pocas horas, la tomografía simple puede ser normal. Los signos precoces que se buscan activamente son la pérdida de diferenciación entre sustancia gris y blanca, con borramiento del ribete insular y de los contornos de los ganglios basales; el borramiento de los surcos por edema incipiente; y la hiperdensidad de la arteria ocluida, que representa el trombo.",
           "La extensión de estos cambios precoces se cuantifica con escalas semicuantitativas que puntúan la afectación de distintas regiones del territorio de la arteria cerebral media. Una extensión muy amplia de daño ya establecido indica que hay poco que salvar y aumenta el riesgo de complicaciones hemorrágicas del tratamiento."
         ]
@@ -1223,40 +1223,40 @@
         "encabezado": "Angiotomografía y estudio de perfusión",
         "parrafos": [
           "La angiotomografía se realiza a continuación en la mayoría de los protocolos y muestra el árbol arterial desde el arco aórtico hasta la circulación intracraneal. Su objetivo es localizar la oclusión, ya que la presencia de una oclusión proximal de gran vaso es el criterio que abre la puerta al tratamiento endovascular mediante trombectomía mecánica.",
-          "Además permite valorar la circulación colateral, que es un factor pronóstico relevante: un paciente con buenas colaterales conserva tejido viable durante más tiempo. También detecta disecciones, estenosis carotídeas y otras alteraciones que orientan la causa del ictus.",
-          "El estudio de perfusión aporta mapas del flujo, del volumen sanguíneo y de los tiempos de tránsito, y permite estimar el núcleo infartado y el tejido en riesgo. Su utilidad principal está en los pacientes que llegan fuera de las ventanas convencionales o con hora de inicio desconocida, incluidos los que despiertan con los síntomas: si la imagen demuestra un núcleo pequeño y una zona en riesgo amplia, el tratamiento puede seguir siendo beneficioso."
+          "Además permite valorar la circulación colateral, que es un factor pronóstico relevante: Un paciente con buenas colaterales conserva tejido viable durante más tiempo. También detecta disecciones, estenosis carotídeas y otras alteraciones que orientan la causa del ictus.",
+          "El estudio de perfusión aporta mapas del flujo, del volumen sanguíneo y de los tiempos de tránsito, y permite estimar el núcleo infartado y el tejido en riesgo. Su utilidad principal está en los pacientes que llegan fuera de las ventanas convencionales o con hora de inicio desconocida, incluidos los que despiertan con los síntomas: Si la imagen demuestra un núcleo pequeño y una zona en riesgo amplia, el tratamiento puede seguir siendo beneficioso."
         ]
       },
       {
         "encabezado": "La resonancia en el ictus",
         "parrafos": [
-          "La secuencia de difusión es la técnica más sensible y precoz para detectar el infarto isquémico: la lesión se hace visible en cuestión de minutos, mucho antes que en la tomografía. La restricción se manifiesta como hiperseñal en difusión con descenso en el mapa de coeficiente de difusión aparente, y esa combinación es la que confirma isquemia aguda.",
+          "La secuencia de difusión es la técnica más sensible y precoz para detectar el infarto isquémico: La lesión se hace visible en cuestión de minutos, mucho antes que en la tomografía. La restricción se manifiesta como hiperseñal en difusión con descenso en el mapa de coeficiente de difusión aparente, y esa combinación es la que confirma isquemia aguda.",
           "La combinación de difusión positiva con una secuencia de supresión de líquido todavía sin cambios sugiere que la lesión es muy reciente, un dato empleado para seleccionar pacientes con hora de inicio desconocida.",
-          "La resonancia también detecta hemorragia con secuencias sensibles a productos hemáticos, valora los vasos y permite identificar infartos pequeños o de fosa posterior que la tomografía no muestra. Su limitación es logística: es más lenta, menos disponible y más difícil en pacientes agitados o inestables, motivo por el cual la tomografía sigue siendo la puerta de entrada en la mayoría de los centros."
+          "La resonancia también detecta hemorragia con secuencias sensibles a productos hemáticos, valora los vasos y permite identificar infartos pequeños o de fosa posterior que la tomografía no muestra. Su limitación es logística: Es más lenta, menos disponible y más difícil en pacientes agitados o inestables, motivo por el cual la tomografía sigue siendo la puerta de entrada en la mayoría de los centros."
         ]
       },
       {
         "encabezado": "Ventanas terapéuticas",
         "parrafos": [
           "La trombólisis intravenosa se administra dentro de un intervalo estrecho desde el inicio de los síntomas, tradicionalmente unas pocas horas, y su beneficio disminuye conforme pasa el tiempo. La trombectomía mecánica dispone de una ventana más amplia para oclusiones de gran vaso, y en pacientes seleccionados mediante criterios de imagen puede extenderse considerablemente.",
-          "Los plazos concretos y los criterios de selección varían según los protocolos vigentes y la evidencia disponible, por lo que lo importante no es memorizar cifras sino entender el principio: el tratamiento se decide combinando el tiempo transcurrido, la clínica y la imagen, y cuanto más tarde se actúa, más peso adquiere la imagen para demostrar que todavía hay tejido salvable.",
-          "De ahí la idea central que se repite en todos los circuitos: cada minuto de retraso supone pérdida de neuronas. La organización del proceso, la comunicación entre servicios y la rapidez de la interpretación forman parte del tratamiento."
+          "Los plazos concretos y los criterios de selección varían según los protocolos vigentes y la evidencia disponible, por lo que lo importante no es memorizar cifras sino entender el principio: El tratamiento se decide combinando el tiempo transcurrido, la clínica y la imagen, y cuanto más tarde se actúa, más peso adquiere la imagen para demostrar que todavía hay tejido salvable.",
+          "De ahí la idea central que se repite en todos los circuitos: Cada minuto de retraso supone pérdida de neuronas. La organización del proceso, la comunicación entre servicios y la rapidez de la interpretación forman parte del tratamiento."
         ]
       },
       {
         "encabezado": "El ictus hemorrágico",
         "parrafos": [
-          "La hemorragia intraparenquimatosa se identifica de inmediato en la tomografía simple como un foco hiperdenso. Su localización orienta la causa: los ganglios basales, el tálamo, la protuberancia y el cerebelo sugieren origen hipertensivo, mientras que las hemorragias lobares en pacientes de edad avanzada apuntan a angiopatía amiloide, y las de localización atípica en pacientes jóvenes obligan a descartar malformación vascular, tumor o trombosis venosa.",
+          "La hemorragia intraparenquimatosa se identifica de inmediato en la tomografía simple como un foco hiperdenso. Su localización orienta la causa: Los ganglios basales, el tálamo, la protuberancia y el cerebelo sugieren origen hipertensivo, mientras que las hemorragias lobares en pacientes de edad avanzada apuntan a angiopatía amiloide, y las de localización atípica en pacientes jóvenes obligan a descartar malformación vascular, tumor o trombosis venosa.",
           "Hay que valorar el volumen, la extensión intraventricular, el efecto de masa y la hidrocefalia. Existen signos que predicen el crecimiento del hematoma, como la presencia de focos de contraste dentro de él en la angiotomografía, y su detección influye en la vigilancia y el manejo.",
-          "La hemorragia subaracnoidea espontánea tiene otro camino: la tomografía simple es muy sensible en las primeras horas, pero pierde sensibilidad con el paso de los días, de modo que ante alta sospecha clínica con estudio normal se recurre a otras pruebas. Confirmada la hemorragia, se realiza estudio vascular para localizar el aneurisma."
+          "La hemorragia subaracnoidea espontánea tiene otro camino: La tomografía simple es muy sensible en las primeras horas, pero pierde sensibilidad con el paso de los días, de modo que ante alta sospecha clínica con estudio normal se recurre a otras pruebas. Confirmada la hemorragia, se realiza estudio vascular para localizar el aneurisma."
         ]
       },
       {
         "encabezado": "Imitadores y errores",
         "parrafos": [
-          "Varios cuadros pueden simular un ictus: crisis epilépticas con déficit postcrítico, migraña con aura, hipoglucemia, tumores, infecciones del sistema nervioso y trastornos funcionales. La imagen ayuda a diferenciarlos, y la difusión es especialmente útil porque muestra el infarto cuando existe.",
+          "Varios cuadros pueden simular un ictus: Crisis epilépticas con déficit postcrítico, migraña con aura, hipoglucemia, tumores, infecciones del sistema nervioso y trastornos funcionales. La imagen ayuda a diferenciarlos, y la difusión es especialmente útil porque muestra el infarto cuando existe.",
           "Entre los errores frecuentes están interpretar como normal una tomografía con signos precoces sutiles; no revisar la fosa posterior, donde los infartos son difíciles de ver y clínicamente graves; olvidar la trombosis venosa cerebral, que produce infartos que no respetan territorios arteriales y a menudo con componente hemorrágico; y no considerar la disección arterial en un paciente joven con cervicalgia y déficit.",
-          "Por último, un principio que resume la actitud correcta: una imagen normal en un paciente con déficit neurológico agudo no descarta el ictus. La decisión terapéutica se toma con la clínica en la mano y la imagen como apoyo, nunca al revés."
+          "Por último, un principio que resume la actitud correcta: Una imagen normal en un paciente con déficit neurológico agudo no descarta el ictus. La decisión terapéutica se toma con la clínica en la mano y la imagen como apoyo, nunca al revés."
         ]
       }
     ],
@@ -1266,22 +1266,22 @@
       "La angiotomografía localiza la oclusión y valora la circulación colateral, clave para la trombectomía.",
       "La difusión es la técnica más precoz y sensible para el infarto y se interpreta junto al mapa de coeficiente de difusión aparente.",
       "Los estudios de perfusión permiten seleccionar pacientes fuera de ventana o con hora de inicio desconocida.",
-      "La localización de una hemorragia orienta su causa: profunda sugiere hipertensiva, lobar en el anciano sugiere angiopatía amiloide.",
+      "La localización de una hemorragia orienta su causa: Profunda sugiere hipertensiva, lobar en el anciano sugiere angiopatía amiloide.",
       "Una imagen normal no descarta ictus; la decisión se toma integrando clínica e imagen y con máxima rapidez."
     ]
   },
   {
     "codigo": "lesiones-oseas-agresividad",
-    "titulo": "Lesiones óseas: cómo distinguir benigno de agresivo",
+    "titulo": "Lesiones óseas: Cómo distinguir benigno de agresivo",
     "sistema": "Óseo",
     "resumen": "Los criterios radiológicos que permiten estimar la agresividad de una lesión ósea y orientar el diagnóstico diferencial.",
     "secciones": [
       {
         "encabezado": "El planteamiento",
         "parrafos": [
-          "Ante una lesión ósea la pregunta no suele ser cuál es el diagnóstico exacto, sino algo mucho más útil en la práctica: si se comporta como una lesión de crecimiento lento y bien tolerada por el hueso o como una lesión agresiva que el hueso no consigue contener. Esa distinción determina si el paciente necesita seguimiento, biopsia o derivación urgente.",
+          "Ante una lesión ósea la pregunta no suele ser cuál es el diagnóstico exacto, sino algo mucho más útil en la práctica: Si se comporta como una lesión de crecimiento lento y bien tolerada por el hueso o como una lesión agresiva que el hueso no consigue contener. Esa distinción determina si el paciente necesita seguimiento, biopsia o derivación urgente.",
           "La radiografía simple sigue siendo la exploración fundamental para esta valoración, por delante de técnicas más sofisticadas. Es la que mejor muestra el patrón de destrucción, los bordes, la reacción perióstica y la matriz. La tomografía precisa la cortical, la matriz mineralizada y la extensión; la resonancia define la extensión medular y la afectación de partes blandas, y es la que se usa para estadificar; la gammagrafía valora la existencia de otras lesiones.",
-          "Antes de todo eso hay dos datos clínicos que condicionan la interpretación: la edad del paciente y la localización de la lesión. Muchas lesiones óseas tienen una edad y un lugar típicos, hasta el punto de que la combinación de ambos reduce el diagnóstico diferencial más que cualquier otro criterio."
+          "Antes de todo eso hay dos datos clínicos que condicionan la interpretación: La edad del paciente y la localización de la lesión. Muchas lesiones óseas tienen una edad y un lugar típicos, hasta el punto de que la combinación de ambos reduce el diagnóstico diferencial más que cualquier otro criterio."
         ]
       },
       {
@@ -1328,14 +1328,14 @@
         "encabezado": "Edad, localización y multiplicidad",
         "parrafos": [
           "La edad es un filtro potente. En niños y adolescentes predominan los tumores óseos primarios y las lesiones del desarrollo. En adultos mayores de la edad media de la vida, ante una lesión ósea destructiva lo más probable con diferencia es la metástasis o el mieloma, y por eso la búsqueda de un tumor primario y el estudio analítico forman parte del abordaje.",
-          "La localización también orienta mucho: importa el hueso concreto, y dentro de él si la lesión asienta en la epífisis, la metáfisis o la diáfisis, y si es central, excéntrica, cortical o yuxtacortical. Muchas entidades tienen preferencias tan constantes que la localización se considera parte del diagnóstico.",
-          "La multiplicidad cambia el planteamiento: ante lesiones múltiples en el adulto, las metástasis y el mieloma encabezan el diferencial. Por último, existen lesiones de comportamiento inequívocamente benigno y aspecto tan característico que no requieren estudio adicional ni seguimiento, y reconocerlas evita biopsias y angustia innecesarias."
+          "La localización también orienta mucho: Importa el hueso concreto, y dentro de él si la lesión asienta en la epífisis, la metáfisis o la diáfisis, y si es central, excéntrica, cortical o yuxtacortical. Muchas entidades tienen preferencias tan constantes que la localización se considera parte del diagnóstico.",
+          "La multiplicidad cambia el planteamiento: Ante lesiones múltiples en el adulto, las metástasis y el mieloma encabezan el diferencial. Por último, existen lesiones de comportamiento inequívocamente benigno y aspecto tan característico que no requieren estudio adicional ni seguimiento, y reconocerlas evita biopsias y angustia innecesarias."
         ]
       },
       {
         "encabezado": "Cómo se resume el juicio",
         "parrafos": [
-          "En la práctica se construye una impresión combinando cinco elementos: patrón de destrucción, zona de transición, reacción perióstica, integridad cortical con o sin masa de partes blandas, y matriz. A ello se suman edad, localización y multiplicidad.",
+          "En la práctica se construye una impresión combinando cinco elementos: Patrón de destrucción, zona de transición, reacción perióstica, integridad cortical con o sin masa de partes blandas, y matriz. A ello se suman edad, localización y multiplicidad.",
           "Cuando todos los criterios apuntan a lentitud, la conducta puede limitarse a la observación. Cuando aparecen signos de agresividad, o cuando los criterios son discordantes, la lesión debe estudiarse en profundidad y valorarse por un equipo especializado antes de cualquier intervención, porque una biopsia mal planificada puede comprometer el tratamiento posterior.",
           "El informe debe describir estos elementos de forma explícita en lugar de limitarse a una etiqueta diagnóstica, porque son ellos los que permiten a quien recibe el informe entender el razonamiento y tomar decisiones."
         ]
@@ -1343,7 +1343,7 @@
     ],
     "puntosClave": [
       "La radiografía simple sigue siendo la mejor exploración para valorar la agresividad de una lesión ósea.",
-      "La zona de transición es el criterio aislado más útil: estrecha sugiere lentitud, amplia sugiere agresividad.",
+      "La zona de transición es el criterio aislado más útil: Estrecha sugiere lentitud, amplia sugiere agresividad.",
       "El patrón geográfico indica crecimiento lento; el apolillado y el permeativo, crecimiento rápido.",
       "La reacción perióstica sólida sugiere benignidad; la laminada, espiculada o el triángulo de Codman sugieren agresividad.",
       "La destrucción cortical y la masa de partes blandas son signos de agresividad de primer orden.",
@@ -1353,7 +1353,7 @@
   },
   {
     "codigo": "fracturas-nino",
-    "titulo": "Fracturas en el niño: lo que las hace diferentes",
+    "titulo": "Fracturas en el niño: Lo que las hace diferentes",
     "sistema": "Óseo",
     "resumen": "Por qué el hueso inmaduro se rompe de otra manera, los patrones propios de la infancia y las lesiones de la fisis.",
     "secciones": [
@@ -1368,7 +1368,7 @@
       {
         "encabezado": "Patrones propios de la infancia",
         "parrafos": [
-          "La fractura en rodete o en torus se produce por compresión axial en la unión entre metáfisis y diáfisis: la cortical se abomba localmente sin llegar a romperse por completo. Es muy frecuente en el radio distal tras una caída sobre la mano, y su hallazgo puede ser tan sutil como una irregularidad mínima del contorno cortical, que se detecta siguiendo con la mirada toda la línea de la cortical en ambas proyecciones.",
+          "La fractura en rodete o en torus se produce por compresión axial en la unión entre metáfisis y diáfisis: La cortical se abomba localmente sin llegar a romperse por completo. Es muy frecuente en el radio distal tras una caída sobre la mano, y su hallazgo puede ser tan sutil como una irregularidad mínima del contorno cortical, que se detecta siguiendo con la mirada toda la línea de la cortical en ambas proyecciones.",
           "La fractura en tallo verde es una fractura incompleta en la que la cortical del lado convexo se rompe y la del lado cóncavo se mantiene, como ocurre al doblar una rama fresca. Suele acompañarse de angulación.",
           "La deformidad plástica consiste en una angulación del hueso sin línea de fractura visible, por deformación más allá del límite elástico. Es especialmente difícil de reconocer porque no hay trazo, y el diagnóstico se basa en comparar la curvatura del hueso con la esperada y, si es preciso, con el lado contrario. Es típica del cúbito y del peroné."
         ]
@@ -1419,7 +1419,7 @@
       "Las fracturas en rodete, en tallo verde y la deformidad plástica son exclusivas del hueso inmaduro y pueden ser muy sutiles.",
       "En el niño, un mecanismo que en el adulto causaría esguince suele lesionar la fisis.",
       "La clasificación de Salter-Harris ordena las lesiones fisarias; el riesgo de alteración del crecimiento aumenta con el tipo.",
-      "Los núcleos de osificación normales simulan fracturas: los bordes lisos y corticales indican normalidad.",
+      "Los núcleos de osificación normales simulan fracturas: Los bordes lisos y corticales indican normalidad.",
       "En el codo, la almohadilla grasa posterior visible tras un traumatismo implica fractura aunque no se vea el trazo.",
       "Determinados patrones obligan a considerar lesión infligida y a activar el protocolo correspondiente."
     ]
@@ -1435,13 +1435,13 @@
         "parrafos": [
           "Se llama nódulo pulmonar a una opacidad redondeada, de límites más o menos definidos, rodeada de parénquima aireado y de tamaño limitado; por encima de ese límite se habla de masa, y esa distinción importa porque la probabilidad de malignidad aumenta claramente con el tamaño.",
           "Los nódulos son un hallazgo muy frecuente, sobre todo desde la generalización de la tomografía, y la mayoría de los pequeños son benignos. El problema clínico consiste en identificar la minoría que corresponde a un cáncer en fase precoz sin someter a los demás pacientes a estudios y procedimientos innecesarios.",
-          "El planteamiento se basa en tres pilares: las características del nódulo en la imagen, el riesgo del paciente y la comparación con estudios previos. Este último es el más infravalorado y a menudo el más resolutivo: encontrar el mismo nódulo idéntico en una exploración de años atrás puede cerrar el caso en un minuto."
+          "El planteamiento se basa en tres pilares: Las características del nódulo en la imagen, el riesgo del paciente y la comparación con estudios previos. Este último es el más infravalorado y a menudo el más resolutivo: Encontrar el mismo nódulo idéntico en una exploración de años atrás puede cerrar el caso en un minuto."
         ]
       },
       {
         "encabezado": "Rasgos que orientan a benignidad",
         "parrafos": [
-          "La calcificación es el signo más fiable, pero solo cuando adopta un patrón benigno: difusa y completa, central, laminada concéntrica o en palomitas de maíz, esta última típica del hamartoma. En cambio la calcificación excéntrica, punteada o amorfa no descarta malignidad, porque un tumor puede englobar una calcificación granulomatosa previa.",
+          "La calcificación es el signo más fiable, pero solo cuando adopta un patrón benigno: Difusa y completa, central, laminada concéntrica o en palomitas de maíz, esta última típica del hamartoma. En cambio la calcificación excéntrica, punteada o amorfa no descarta malignidad, porque un tumor puede englobar una calcificación granulomatosa previa.",
           "La presencia de grasa dentro del nódulo es muy sugestiva de hamartoma. Los bordes lisos y bien definidos, la morfología perfectamente redondeada y la localización subpleural o perifisural con forma triangular o lenticular, propia de ganglios intrapulmonares, también apuntan a benignidad.",
           "El criterio decisivo es la estabilidad temporal. Un nódulo sólido que no cambia de tamaño durante un periodo prolongado de seguimiento se considera benigno. Este criterio es menos aplicable a los nódulos con componente en vidrio deslustrado, que pueden crecer muy lentamente y requieren periodos de vigilancia más largos."
         ]
@@ -1450,7 +1450,7 @@
         "encabezado": "Rasgos que orientan a malignidad",
         "parrafos": [
           "Los bordes espiculados, con prolongaciones radiadas hacia el parénquima, y el contorno lobulado, que traduce un crecimiento a distinta velocidad en distintas zonas, son los rasgos morfológicos más asociados a malignidad. La retracción pleural adyacente y la existencia de broncograma aéreo o de burbujas dentro del nódulo también son sugestivas.",
-          "El tamaño importa mucho: la probabilidad de malignidad crece de forma continua con el diámetro y, mejor aún, con el volumen. La localización en lóbulos superiores se asocia a mayor riesgo en el contexto del tabaquismo.",
+          "El tamaño importa mucho: La probabilidad de malignidad crece de forma continua con el diámetro y, mejor aún, con el volumen. La localización en lóbulos superiores se asocia a mayor riesgo en el contexto del tabaquismo.",
           "La densidad tiene un valor peculiar y a veces contraintuitivo. Los nódulos puramente en vidrio deslustrado que persisten, y sobre todo los nódulos en parte sólidos, es decir, con un componente sólido dentro de un halo en vidrio, tienen una probabilidad elevada de corresponder a lesiones de la estirpe adenocarcinomatosa, aunque su crecimiento sea muy lento. El componente sólido es el que mejor se correlaciona con invasión, y por eso se mide y se vigila específicamente."
         ]
       },
@@ -1473,7 +1473,7 @@
       {
         "encabezado": "El seguimiento",
         "parrafos": [
-          "El seguimiento con tomografía de baja dosis es la conducta habitual en nódulos de bajo riesgo. La lógica es sencilla: la mayoría de los nódulos pequeños son benignos, y observar su comportamiento en el tiempo aporta más información que cualquier característica aislada.",
+          "El seguimiento con tomografía de baja dosis es la conducta habitual en nódulos de bajo riesgo. La lógica es sencilla: La mayoría de los nódulos pequeños son benignos, y observar su comportamiento en el tiempo aporta más información que cualquier característica aislada.",
           "Los intervalos y la duración del control se establecen según guías que combinan el tamaño, la densidad, la multiplicidad y el riesgo del paciente. En términos generales, cuanto más pequeño y de menor riesgo es el nódulo, más largo es el intervalo y más corta la vigilancia; los nódulos subsólidos requieren periodos de seguimiento más prolongados por su crecimiento lento.",
           "El concepto clave es el tiempo de duplicación del volumen. Los tumores sólidos malignos suelen duplicar su volumen dentro de un rango característico; un crecimiento mucho más rápido sugiere proceso inflamatorio o infeccioso, y la estabilidad prolongada sugiere benignidad. Como el volumen crece con el cubo del diámetro, un aumento de diámetro aparentemente pequeño puede representar un crecimiento volumétrico considerable, lo que justifica el uso de medidas volumétricas."
         ]
@@ -1483,7 +1483,7 @@
         "parrafos": [
           "Cuando los nódulos son múltiples el planteamiento cambia. Un patrón de nódulos numerosos, de bordes definidos y distribución periférica y basal en un paciente con cáncer conocido sugiere metástasis. Los nódulos centrolobulillares con árbol en brote orientan a proceso infeccioso de la vía aérea. Los granulomas calcificados dispersos son un hallazgo residual frecuente y sin significado.",
           "En los programas de cribado de cáncer de pulmón con tomografía de baja dosis dirigidos a población de riesgo, la detección de nódulos es constante y se gestiona mediante sistemas estructurados de categorización que asignan a cada hallazgo una conducta determinada. Este enfoque estandarizado reduce la variabilidad y evita tanto el exceso como el defecto de intervención.",
-          "En todos los casos la comunicación es parte del proceso: el informe debe indicar con claridad el tamaño, la densidad, la localización precisa que permita reencontrar el nódulo, la comparación con estudios previos y una recomendación de conducta explícita."
+          "En todos los casos la comunicación es parte del proceso: El informe debe indicar con claridad el tamaño, la densidad, la localización precisa que permita reencontrar el nódulo, la comparación con estudios previos y una recomendación de conducta explícita."
         ]
       }
     ],
@@ -1499,7 +1499,7 @@
   },
   {
     "codigo": "tamizaje-mama",
-    "titulo": "Tamizaje de cáncer de mama: fundamentos y lectura",
+    "titulo": "Tamizaje de cáncer de mama: Fundamentos y lectura",
     "sistema": "Mama",
     "resumen": "Por qué funciona la mamografía de cribado, cómo se realiza y se lee, y qué significan los hallazgos y las categorías del informe.",
     "secciones": [
@@ -1508,13 +1508,13 @@
         "parrafos": [
           "El cribado consiste en aplicar una prueba a personas sin síntomas con el objetivo de detectar la enfermedad en una fase en la que el tratamiento es más eficaz. Para que un programa de cribado tenga sentido, la enfermedad debe ser frecuente y grave, debe existir una fase preclínica detectable, la prueba debe ser aceptable y segura, y el tratamiento precoz debe mejorar el pronóstico.",
           "El cáncer de mama cumple estos criterios y la mamografía es la prueba de referencia. Su beneficio es la reducción de la mortalidad en la población cribada, sostenida por décadas de experiencia en programas poblacionales.",
-          "También tiene inconvenientes que conviene conocer y explicar: falsos positivos que generan ansiedad y estudios adicionales, falsos negativos que dan falsa seguridad, y el sobrediagnóstico, es decir, la detección de lesiones que nunca habrían causado problemas en la vida de la paciente. Un programa bien diseñado busca el equilibrio, y los rangos de edad y los intervalos entre exploraciones se establecen según ese balance en cada sistema de salud."
+          "También tiene inconvenientes que conviene conocer y explicar: Falsos positivos que generan ansiedad y estudios adicionales, falsos negativos que dan falsa seguridad, y el sobrediagnóstico, es decir, la detección de lesiones que nunca habrían causado problemas en la vida de la paciente. Un programa bien diseñado busca el equilibrio, y los rangos de edad y los intervalos entre exploraciones se establecen según ese balance en cada sistema de salud."
         ]
       },
       {
         "encabezado": "La técnica mamográfica",
         "parrafos": [
-          "La mamografía utiliza rayos X de baja energía y equipos dedicados, diseñados para maximizar el contraste entre tejidos de densidad muy parecida. La compresión de la mama es imprescindible: reduce el grosor y por tanto la dosis y la radiación dispersa, separa las estructuras superpuestas, inmoviliza y homogeneiza el espesor. Explicar bien su necesidad mejora la colaboración de la paciente.",
+          "La mamografía utiliza rayos X de baja energía y equipos dedicados, diseñados para maximizar el contraste entre tejidos de densidad muy parecida. La compresión de la mama es imprescindible: Reduce el grosor y por tanto la dosis y la radiación dispersa, separa las estructuras superpuestas, inmoviliza y homogeneiza el espesor. Explicar bien su necesidad mejora la colaboración de la paciente.",
           "Las proyecciones estándar son la craneocaudal y la oblicua mediolateral. La oblicua es la más informativa porque incluye la mayor cantidad de tejido, y su calidad se comprueba verificando que se visualice el músculo pectoral hasta el nivel adecuado, que el pliegue inframamario esté incluido y que el pezón quede de perfil. Cuando un hallazgo requiere aclaración se recurre a proyecciones adicionales, a la compresión localizada y a la magnificación.",
           "La mamografía digital con tomosíntesis obtiene múltiples proyecciones a distintos ángulos y reconstruye planos, lo que reduce el efecto de la superposición del tejido. Mejora la detección de lesiones en mamas densas y disminuye las rellamadas por falsas imágenes de superposición."
         ]
@@ -1523,16 +1523,16 @@
         "encabezado": "La densidad mamaria",
         "parrafos": [
           "La mama contiene tejido fibroglandular, que atenúa más y aparece blanco, y tejido adiposo, que aparece oscuro. La proporción entre ambos define la densidad mamaria, que se describe en categorías que van desde la mama fundamentalmente grasa hasta la extremadamente densa.",
-          "La densidad importa por dos motivos. El primero es técnico: el tejido denso puede enmascarar una lesión, porque un tumor tiene una densidad similar a la del tejido glandular; es el llamado efecto de enmascaramiento, que reduce la sensibilidad de la mamografía. El segundo es que la densidad elevada se asocia por sí misma a un riesgo algo mayor de cáncer.",
+          "La densidad importa por dos motivos. El primero es técnico: El tejido denso puede enmascarar una lesión, porque un tumor tiene una densidad similar a la del tejido glandular; es el llamado efecto de enmascaramiento, que reduce la sensibilidad de la mamografía. El segundo es que la densidad elevada se asocia por sí misma a un riesgo algo mayor de cáncer.",
           "Por eso la densidad se comunica en el informe y, en determinadas situaciones y según los protocolos vigentes, puede justificar la incorporación de técnicas complementarias como el ultrasonido o la resonancia en mujeres con riesgo aumentado."
         ]
       },
       {
-        "encabezado": "Qué se busca: los hallazgos",
+        "encabezado": "Qué se busca: Los hallazgos",
         "parrafos": [
           "Las masas se describen por su forma, que puede ser redonda, oval o irregular; por sus márgenes, que pueden ser circunscritos, microlobulados, oscurecidos, indistintos o espiculados; y por su densidad respecto al tejido. La combinación de forma irregular con márgenes espiculados es la más sospechosa, mientras que una masa oval con márgenes circunscritos suele corresponder a un proceso benigno.",
           "Las calcificaciones son el otro gran grupo. Las de morfología típicamente benigna incluyen las vasculares, las cutáneas, las de tipo palomita de maíz propias del fibroadenoma involucionado, las de leche cálcica y las redondeadas dispersas. Las sospechosas son las amorfas, las groseras heterogéneas, las pleomorfas finas y, sobre todo, las lineales o ramificadas finas, que reflejan el molde de un conducto ocupado.",
-          "La distribución de las calcificaciones añade información: la difusa y bilateral es tranquilizadora, mientras que la agrupada, lineal o segmentaria es sospechosa porque sugiere que siguen el trayecto de un sistema ductal. Además de masas y calcificaciones se valoran las distorsiones de la arquitectura, las asimetrías, la retracción cutánea o del pezón, el engrosamiento de la piel y los ganglios axilares."
+          "La distribución de las calcificaciones añade información: La difusa y bilateral es tranquilizadora, mientras que la agrupada, lineal o segmentaria es sospechosa porque sugiere que siguen el trayecto de un sistema ductal. Además de masas y calcificaciones se valoran las distorsiones de la arquitectura, las asimetrías, la retracción cutánea o del pezón, el engrosamiento de la piel y los ganglios axilares."
         ]
       },
       {
@@ -1540,7 +1540,7 @@
         "parrafos": [
           "Los informes de imagen mamaria se estructuran mediante un sistema estandarizado de categorías que asocia cada nivel de sospecha a una conducta recomendada. La categoría cero indica que el estudio es incompleto y se necesitan proyecciones adicionales, otra técnica o comparación con estudios previos.",
           "La categoría uno corresponde a un estudio normal y la dos a hallazgos inequívocamente benignos; ambas devuelven a la paciente al cribado habitual. La categoría tres identifica hallazgos con probabilidad de malignidad muy baja y propone un seguimiento a corto plazo en lugar de una biopsia.",
-          "Las categorías cuatro y cinco indican sospecha suficiente para obtener tejido, con grados crecientes de probabilidad, y la categoría seis se reserva para lesiones ya confirmadas histológicamente. El valor de este sistema es que elimina ambigüedades: cada categoría lleva asociada una recomendación concreta, lo que hace el informe accionable y comparable entre profesionales y centros."
+          "Las categorías cuatro y cinco indican sospecha suficiente para obtener tejido, con grados crecientes de probabilidad, y la categoría seis se reserva para lesiones ya confirmadas histológicamente. El valor de este sistema es que elimina ambigüedades: Cada categoría lleva asociada una recomendación concreta, lo que hace el informe accionable y comparable entre profesionales y centros."
         ]
       },
       {
@@ -1562,7 +1562,7 @@
     ],
     "puntosClave": [
       "El cribado mamográfico reduce la mortalidad, a costa de falsos positivos, falsos negativos y sobrediagnóstico.",
-      "La compresión es imprescindible: reduce dosis y superposición y mejora el contraste.",
+      "La compresión es imprescindible: Reduce dosis y superposición y mejora el contraste.",
       "La mama densa enmascara lesiones y se asocia a un riesgo algo mayor, por lo que se informa siempre.",
       "Los márgenes espiculados y la forma irregular son los rasgos más sospechosos en una masa.",
       "Las calcificaciones pleomorfas finas y las lineales o ramificadas, con distribución agrupada o segmentaria, son sospechosas.",
@@ -1573,9 +1573,9 @@
   },
   {
     "codigo": "informe-radiologico",
-    "titulo": "El informe radiológico: cómo se estructura y qué debe decir",
+    "titulo": "El informe radiológico: Cómo se estructura y qué debe decir",
     "sistema": "General",
-    "resumen": "El informe como producto final del estudio: su estructura, su lenguaje, sus errores frecuentes y la comunicación de hallazgos críticos.",
+    "resumen": "El informe como producto final del estudio: Su estructura, su lenguaje, sus errores frecuentes y la comunicación de hallazgos críticos.",
     "secciones": [
       {
         "encabezado": "El informe es el estudio",
@@ -1594,9 +1594,9 @@
         ]
       },
       {
-        "encabezado": "Hallazgos: describir con precisión",
+        "encabezado": "Hallazgos: Describir con precisión",
         "parrafos": [
-          "El cuerpo del informe describe lo observado siguiendo un orden constante, habitualmente por órganos o por sistemas, empezando por lo relacionado con la pregunta clínica. La descripción debe ser lo bastante concreta para que otro profesional pueda encontrar el hallazgo: localización precisa, incluyendo el lado, el segmento o el lóbulo y el número de corte o de imagen cuando ayude; tamaño en las medidas adecuadas; morfología, márgenes, densidad o señal; y comportamiento tras el contraste.",
+          "El cuerpo del informe describe lo observado siguiendo un orden constante, habitualmente por órganos o por sistemas, empezando por lo relacionado con la pregunta clínica. La descripción debe ser lo bastante concreta para que otro profesional pueda encontrar el hallazgo: Localización precisa, incluyendo el lado, el segmento o el lóbulo y el número de corte o de imagen cuando ayude; tamaño en las medidas adecuadas; morfología, márgenes, densidad o señal; y comportamiento tras el contraste.",
           "Conviene describir también lo relevante que es normal cuando su normalidad responde a la pregunta clínica, porque un silencio puede interpretarse de muchas maneras. En cambio, enumerar exhaustivamente todo lo normal produce informes largos que diluyen lo importante.",
           "Los hallazgos incidentales sin relevancia deben mencionarse con proporción, indicando cuando corresponda que no requieren seguimiento. Convertir cada variante anatómica en una alarma genera pruebas innecesarias, ansiedad y coste, un fenómeno bien conocido y evitable con una redacción cuidadosa."
         ]
@@ -1605,7 +1605,7 @@
         "encabezado": "La conclusión",
         "parrafos": [
           "Es la parte que más se lee y a menudo la única. Debe ser breve, jerarquizada y responder explícitamente a la pregunta clínica. Lo más importante va primero, y no debe introducir hallazgos que no aparezcan en el cuerpo del informe.",
-          "Cuando el diagnóstico es claro, la conclusión debe afirmarlo. Cuando no lo es, debe ofrecer un diagnóstico diferencial ordenado por probabilidad, indicando qué dato apoyaría cada opción, y proponer el siguiente paso: una técnica complementaria, un control en un plazo determinado o una correlación clínica o analítica concreta.",
+          "Cuando el diagnóstico es claro, la conclusión debe afirmarlo. Cuando no lo es, debe ofrecer un diagnóstico diferencial ordenado por probabilidad, indicando qué dato apoyaría cada opción, y proponer el siguiente paso: Una técnica complementaria, un control en un plazo determinado o una correlación clínica o analítica concreta.",
           "Las recomendaciones deben ser específicas y accionables. Recomendar correlación clínica sin decir con qué es una fórmula vacía; en cambio, indicar que se sugiere control con una técnica concreta en un plazo concreto orienta de verdad la conducta."
         ]
       },
@@ -1613,7 +1613,7 @@
         "encabezado": "El lenguaje",
         "parrafos": [
           "El informe debe emplear terminología estandarizada, evitando expresiones ambiguas que cada lector interpreta de forma distinta. Términos como posible, probable o sugestivo transmiten grados de certeza muy diferentes según quien los lea, de modo que conviene usarlos de forma consciente y coherente.",
-          "Hay expresiones que deberían desaparecer por vacías o engañosas: no se aprecian alteraciones significativas sin especificar qué se ha valorado; se recomienda valorar clínicamente sin más; o descripciones que no se traducen en ninguna conclusión. También conviene evitar el abuso de abreviaturas no universales.",
+          "Hay expresiones que deberían desaparecer por vacías o engañosas: No se aprecian alteraciones significativas sin especificar qué se ha valorado; se recomienda valorar clínicamente sin más; o descripciones que no se traducen en ninguna conclusión. También conviene evitar el abuso de abreviaturas no universales.",
           "El tono debe ser objetivo y descriptivo, sin juicios sobre la indicación del estudio ni comentarios sobre otros profesionales. Si la exploración solicitada no era la adecuada para la pregunta, lo correcto es indicar qué técnica respondería mejor, no criticar la petición."
         ]
       },
@@ -1622,13 +1622,13 @@
         "parrafos": [
           "En muchas áreas se han desarrollado sistemas de informe estructurado que estandarizan el contenido y, en algunos casos, categorizan el nivel de sospecha asociándolo a una conducta. Su ventaja es que reducen la variabilidad, aseguran que no se omitan elementos esenciales, facilitan la comparación entre estudios y profesionales y permiten explotar la información de forma agregada.",
           "Las plantillas por órgano o por indicación cumplen una función parecida en la práctica diaria, sobre todo en estudios complejos con muchos elementos que valorar, como la estadificación oncológica o los estudios musculoesqueléticos.",
-          "Su riesgo es la automatización acrítica: rellenar una plantilla sin mirar puede generar informes internamente coherentes pero falsos. La plantilla es una ayuda para no olvidar, no un sustituto de la interpretación."
+          "Su riesgo es la automatización acrítica: Rellenar una plantilla sin mirar puede generar informes internamente coherentes pero falsos. La plantilla es una ayuda para no olvidar, no un sustituto de la interpretación."
         ]
       },
       {
         "encabezado": "Hallazgos críticos y comunicación",
         "parrafos": [
-          "Determinados hallazgos exigen comunicación directa e inmediata al responsable del paciente, sin esperar a que alguien lea el informe. Son aquellos que pueden requerir una actuación urgente: neumotórax a tensión, aire libre intraperitoneal, hemorragia activa, disección o rotura aórtica, hemorragia intracraneal con efecto de masa, isquemia mesentérica, embolia pulmonar con repercusión, y la posición peligrosa de un dispositivo, entre otros.",
+          "Determinados hallazgos exigen comunicación directa e inmediata al responsable del paciente, sin esperar a que alguien lea el informe. Son aquellos que pueden requerir una actuación urgente: Neumotórax a tensión, aire libre intraperitoneal, hemorragia activa, disección o rotura aórtica, hemorragia intracraneal con efecto de masa, isquemia mesentérica, embolia pulmonar con repercusión, y la posición peligrosa de un dispositivo, entre otros.",
           "La comunicación debe hacerse a la persona que puede actuar, confirmarse que se ha recibido y dejarse registrada en el propio informe, indicando a quién, cuándo y por qué medio se comunicó. Los centros suelen disponer de una política escrita que define qué hallazgos entran en esta categoría y qué plazos se aplican.",
           "También existen hallazgos no urgentes pero relevantes, como un nódulo que requiere seguimiento, que se pierden con facilidad si el paciente cambia de circuito asistencial. Señalarlos de forma destacada en la conclusión y, cuando existan, activar los sistemas de seguimiento del centro forma parte de la responsabilidad del informe."
         ]
@@ -1643,9 +1643,9 @@
       }
     ],
     "puntosClave": [
-      "Para el clínico, el informe es el estudio: si no comunica, el trabajo no llega.",
+      "Para el clínico, el informe es el estudio: Si no comunica, el trabajo no llega.",
       "La estructura habitual incluye identificación, indicación, técnica, comparación, hallazgos y conclusión.",
-      "La descripción debe permitir reencontrar el hallazgo: localización precisa, tamaño, morfología y comportamiento con contraste.",
+      "La descripción debe permitir reencontrar el hallazgo: Localización precisa, tamaño, morfología y comportamiento con contraste.",
       "La conclusión debe ser breve, jerarquizada, responder a la pregunta clínica y no introducir hallazgos nuevos.",
       "Las recomendaciones han de ser específicas y accionables, con técnica y plazo concretos.",
       "Los informes estructurados reducen variabilidad, pero no sustituyen la interpretación.",

@@ -32,7 +32,7 @@
         "implicacion": "El peor pronóstico para el crecimiento; con frecuencia es un diagnóstico retrospectivo."
       }
     ],
-    "comoUsarla": "Localizar la fisis en las dos proyecciones y seguir el trazo: comprobar si toca metáfisis, epífisis o ambas, y comparar la anchura fisaria con el lado sano.",
+    "comoUsarla": "Localizar la fisis en las dos proyecciones y seguir el trazo: Comprobar si toca metáfisis, epífisis o ambas, y comparar la anchura fisaria con el lado sano.",
     "limitaciones": "Los tipos I y V pueden pasar desapercibidos en radiografía simple; no predice por sí sola el cierre fisario prematuro, que exige seguimiento clínico y radiológico.",
     "etiquetas": [
       "pediatría",
@@ -271,7 +271,7 @@
     "grados": [
       {
         "grado": "A",
-        "criterio": "Anillo pélvico estable: fracturas por avulsión o de ala ilíaca sin afectar la continuidad del anillo.",
+        "criterio": "Anillo pélvico estable: Fracturas por avulsión o de ala ilíaca sin afectar la continuidad del anillo.",
         "implicacion": "Manejo conservador."
       },
       {
@@ -553,7 +553,7 @@
       },
       {
         "grado": "V",
-        "criterio": "Espondiloptosis: la vértebra pierde por completo el contacto y desciende por delante de la inferior.",
+        "criterio": "Espondiloptosis: La vértebra pierde por completo el contacto y desciende por delante de la inferior.",
         "implicacion": "Deformidad grave con riesgo neurológico."
       }
     ],
@@ -918,7 +918,7 @@
         "implicacion": "Si es posible, puede evitarse la imagen; si no lo es, se indica estudio."
       }
     ],
-    "comoUsarla": "Se aplica de forma secuencial: primero descartar alto riesgo, después confirmar un factor de bajo riesgo y por último comprobar la rotación activa.",
+    "comoUsarla": "Se aplica de forma secuencial: Primero descartar alto riesgo, después confirmar un factor de bajo riesgo y por último comprobar la rotación activa.",
     "limitaciones": "No es aplicable en pacientes con alteración del nivel de conciencia, inestabilidad hemodinámica, edad pediátrica pequeña o déficit neurológico establecido.",
     "etiquetas": [
       "cervical",
@@ -1175,7 +1175,7 @@
         "implicacion": "Peor pronóstico y mayor riesgo de transformación hemorrágica."
       }
     ],
-    "comoUsarla": "Se parte de 10 puntos y se resta uno por cada una de las diez regiones con hipodensidad precoz, valoradas en dos cortes axiales: el de los ganglios basales y el supraganglionar.",
+    "comoUsarla": "Se parte de 10 puntos y se resta uno por cada una de las diez regiones con hipodensidad precoz, valoradas en dos cortes axiales: El de los ganglios basales y el supraganglionar.",
     "limitaciones": "Solo es aplicable al territorio de la arteria cerebral media y su concordancia entre observadores es limitada en las fases muy precoces.",
     "etiquetas": [
       "ictus",
@@ -1305,17 +1305,17 @@
     "grados": [
       {
         "grado": "I",
-        "criterio": "Encefalopatía leve: hiperalerta, tono normal o levemente aumentado, reflejos vivos y sin convulsiones.",
+        "criterio": "Encefalopatía leve: Hiperalerta, tono normal o levemente aumentado, reflejos vivos y sin convulsiones.",
         "implicacion": "Suele recuperarse sin secuelas."
       },
       {
         "grado": "II",
-        "criterio": "Encefalopatía moderada: letargia, hipotonía, reflejos débiles y convulsiones frecuentes.",
+        "criterio": "Encefalopatía moderada: Letargia, hipotonía, reflejos débiles y convulsiones frecuentes.",
         "implicacion": "Indicación de hipotermia; riesgo intermedio de secuelas."
       },
       {
         "grado": "III",
-        "criterio": "Encefalopatía grave: estupor o coma, flacidez, ausencia de reflejos primitivos y trazado electroencefalográfico muy alterado.",
+        "criterio": "Encefalopatía grave: Estupor o coma, flacidez, ausencia de reflejos primitivos y trazado electroencefalográfico muy alterado.",
         "implicacion": "Alto riesgo de muerte o de discapacidad grave."
       }
     ],
@@ -2006,7 +2006,7 @@
         "implicacion": "Punción si mide 10 mm o más; seguimiento desde 5 mm."
       }
     ],
-    "comoUsarla": "Se suman puntos en cinco categorías: composición, ecogenicidad, forma, márgenes y focos ecogénicos; solo la última permite sumar varios descriptores.",
+    "comoUsarla": "Se suman puntos en cinco categorías: Composición, ecogenicidad, forma, márgenes y focos ecogénicos; solo la última permite sumar varios descriptores.",
     "limitaciones": "Los nódulos foliculares pueden mostrar rasgos ecográficos tranquilizadores pese a ser malignos, y la valoración de márgenes y focos ecogénicos es dependiente del explorador.",
     "etiquetas": [
       "tiroides",
@@ -2108,7 +2108,7 @@
         "implicacion": "Repetir la exploración."
       }
     ],
-    "comoUsarla": "Se valoran los rasgos mayores: tamaño, realce arterial no periférico, lavado en fase portal o tardía, cápsula y crecimiento umbral; su combinación determina la categoría.",
+    "comoUsarla": "Se valoran los rasgos mayores: Tamaño, realce arterial no periférico, lavado en fase portal o tardía, cápsula y crecimiento umbral; su combinación determina la categoría.",
     "limitaciones": "Solo se aplica a población de riesgo, es decir cirrosis, hepatitis B crónica o antecedente de hepatocarcinoma, y no debe usarse en hígado sano ni en cirrosis de causa vascular congénita.",
     "etiquetas": [
       "hígado",
@@ -2846,7 +2846,7 @@
         "implicacion": "Comportamiento intermedio."
       }
     ],
-    "comoUsarla": "Aunque es histológica, orienta la búsqueda radiológica: en el tipo difuso hay que valorar cuidadosamente el peritoneo y la ascitis, y en el intestinal el hígado.",
+    "comoUsarla": "Aunque es histológica, orienta la búsqueda radiológica: En el tipo difuso hay que valorar cuidadosamente el peritoneo y la ascitis, y en el intestinal el hígado.",
     "limitaciones": "No sustituye a la estadificación TNM ni a los marcadores moleculares actuales, que guían el tratamiento sistémico.",
     "etiquetas": [
       "estómago",
@@ -3026,7 +3026,7 @@
         "implicacion": "Es la base del pronóstico y de la elección terapéutica."
       }
     ],
-    "comoUsarla": "El prefijo indica el método de estadificación: c para la clínica y radiológica, p para la patológica e y para la posterior a tratamiento neoadyuvante.",
+    "comoUsarla": "El prefijo indica el método de estadificación: C para la clínica y radiológica, p para la patológica e y para la posterior a tratamiento neoadyuvante.",
     "limitaciones": "Los criterios exactos de cada categoría cambian según la localización tumoral y la edición vigente, por lo que siempre debe indicarse la versión utilizada.",
     "etiquetas": [
       "oncología",
@@ -3048,7 +3048,7 @@
       },
       {
         "grado": "II",
-        "criterio": "Inicio puberal: botón mamario en la niña, aumento del volumen testicular en el niño y vello escaso.",
+        "criterio": "Inicio puberal: Botón mamario en la niña, aumento del volumen testicular en el niño y vello escaso.",
         "implicacion": "Marca el comienzo del brote de crecimiento."
       },
       {
