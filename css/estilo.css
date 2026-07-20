@@ -165,9 +165,9 @@ body {
   stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;
   flex: none; vertical-align: -0.22em;
 }
-.marca-texto { display: flex; flex-direction: column; line-height: 1.15; }
-.marca-texto strong { font-size: 1.08rem; font-weight: 700; letter-spacing: -0.015em; }
-.marca-texto small { font-size: 0.74rem; color: var(--tinta-3); font-weight: 500; }
+.marca-texto { display: flex; flex-direction: column; justify-content: center; line-height: 1.2; }
+.marca-texto strong { font-size: clamp(0.95rem, 3.4vw, 1.1rem); font-weight: 700; letter-spacing: -0.015em; white-space: nowrap; }
+.marca-texto small { font-size: 0.74rem; color: var(--tinta-3); font-weight: 500; white-space: nowrap; }
 
 .boton-tema {
   border: 1px solid var(--borde);
@@ -276,6 +276,16 @@ body {
 .encabezado-vista { padding: 0.5rem 0 1.5rem; }
 .encabezado-vista h1 { font-size: clamp(1.5rem, 3.5vw, 2rem); font-weight: 800; letter-spacing: -0.025em; }
 .encabezado-vista p { color: var(--tinta-2); margin-top: 0.35rem; max-width: 680px; }
+.nota-unidades {
+  display: flex; align-items: flex-start; gap: 0.5rem;
+  margin-top: 0.8rem !important;
+  padding: 0.6rem 0.9rem;
+  background: var(--tc-suave);
+  border-radius: var(--r-sm);
+  font-size: 0.85rem;
+}
+.nota-unidades .ico { color: var(--tc); flex: none; margin-top: 0.1rem; }
+:root[data-tema="oscuro"] .nota-unidades .ico { color: #7cc7e8; }
 
 /* ---------- Buscador ---------- */
 .buscador { margin-bottom: 1.75rem; }
