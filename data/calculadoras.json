@@ -2378,5 +2378,267 @@
       }
     ],
     "notas": "Esta versión simplificada se basa solo en el grado de estenosis. El sistema completo añade modificadores para la calidad del estudio, los stents, los injertos y la carga total de placa, y distingue las categorías 4A y 4B según la extensión. La categoría orienta el manejo, siempre en el contexto clínico."
+  },
+  {
+    "codigo": "volumen-hepatico-estandar-peso",
+    "nombre": "Volumen hepático estándar (por peso corporal)",
+    "categoria": "Volumetría",
+    "modalidad": "TC",
+    "tipo": "formula",
+    "descripcion": "Estima el volumen hepático teórico que corresponde a un paciente según su peso. Se usa en la planificación de la resección hepática y del trasplante de donante vivo, para calcular qué proporción del hígado se puede extraer con seguridad.",
+    "campos": [
+      {
+        "id": "peso",
+        "etiqueta": "Peso corporal (kg)",
+        "unidad": "kg",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "resultados": [
+      {
+        "etiqueta": "Volumen hepático estándar",
+        "formula": "18.51 * peso + 191.8",
+        "unidad": "mL",
+        "decimales": 0
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "true",
+        "texto": "Volumen hepático teórico de referencia para este paciente. Sirve para calcular el porcentaje del hígado que representa un injerto o el remanente tras una resección.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Volumen hepático estándar (mL) = 18,51 × peso (kg) + 191,8",
+    "notas": "Es un valor de referencia poblacional, no una medición del hígado real del paciente. El volumen medido en la imagen puede diferir por enfermedad hepática. La proporción entre el volumen del injerto y este valor guía las decisiones en cirugía hepática y trasplante."
+  },
+  {
+    "codigo": "volumen-hepatico-estandar-bsa",
+    "nombre": "Volumen hepático estándar (por superficie corporal)",
+    "categoria": "Volumetría",
+    "modalidad": "TC",
+    "tipo": "formula",
+    "descripcion": "Alternativa a la estimación por peso: calcula el volumen hepático teórico a partir de la superficie corporal, que puede obtenerse con la calculadora de superficie corporal de esta misma sección.",
+    "campos": [
+      {
+        "id": "bsa",
+        "etiqueta": "Superficie corporal (m²)",
+        "unidad": "m²",
+        "min": 0,
+        "paso": 0.01
+      }
+    ],
+    "resultados": [
+      {
+        "etiqueta": "Volumen hepático estándar",
+        "formula": "706.2 * bsa + 2.4",
+        "unidad": "mL",
+        "decimales": 0
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "true",
+        "texto": "Volumen hepático teórico de referencia según la superficie corporal.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Volumen hepático estándar (mL) = 706,2 × superficie corporal (m²) + 2,4",
+    "notas": "Da resultados muy parecidos a la fórmula por peso. Como esa, es un valor de referencia poblacional para planificar resecciones y trasplantes, no una medición directa del hígado."
+  },
+  {
+    "codigo": "indice-haller",
+    "nombre": "Índice de Haller (pectus excavatum)",
+    "categoria": "Tórax",
+    "modalidad": "TC",
+    "tipo": "formula",
+    "descripcion": "Cuantifica la gravedad del pectus excavatum (tórax hundido) comparando el ancho del tórax con la profundidad a la que está deprimido el esternón. Es la medida que orienta la indicación quirúrgica.",
+    "campos": [
+      {
+        "id": "transverso",
+        "etiqueta": "Diámetro transverso interno del tórax (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "ap",
+        "etiqueta": "Distancia esternón–columna en el punto más hundido (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "resultados": [
+      {
+        "etiqueta": "Índice de Haller",
+        "formula": "transverso / ap",
+        "unidad": "",
+        "decimales": 2
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 > 3.25",
+        "texto": "Mayor de 3,25: pectus excavatum grave. Suele considerarse criterio para valorar corrección quirúrgica.",
+        "nivel": "alto"
+      },
+      {
+        "si": "r0 > 3.2",
+        "texto": "Cercano a 3,25: deformidad moderada a grave, límite quirúrgico.",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Deformidad leve a moderada. Un tórax normal ronda un índice de 2,5.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Índice = diámetro transverso interno del tórax / distancia mínima entre el esternón y la columna",
+    "notas": "Ambas medidas se toman en el corte axial donde el esternón está más deprimido. Un tórax normal tiene un índice en torno a 2,5. El valor mayor de 3,25 es el umbral clásico para considerar la cirugía, siempre junto con la clínica y la función cardiopulmonar."
+  },
+  {
+    "codigo": "relacion-arteria-pulmonar-aorta",
+    "nombre": "Relación arteria pulmonar / aorta",
+    "categoria": "Vascular",
+    "modalidad": "TC",
+    "tipo": "formula",
+    "descripcion": "Compara el diámetro del tronco de la arteria pulmonar con el de la aorta ascendente. Una arteria pulmonar dilatada respecto a la aorta es un signo indirecto de hipertensión pulmonar.",
+    "campos": [
+      {
+        "id": "pulmonar",
+        "etiqueta": "Diámetro del tronco de la arteria pulmonar (mm)",
+        "unidad": "mm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "aorta",
+        "etiqueta": "Diámetro de la aorta ascendente (mm)",
+        "unidad": "mm",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "resultados": [
+      {
+        "etiqueta": "Relación pulmonar / aorta",
+        "formula": "pulmonar / aorta",
+        "unidad": "",
+        "decimales": 2
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 > 1",
+        "texto": "Mayor de 1: arteria pulmonar dilatada respecto a la aorta, hallazgo que sugiere hipertensión pulmonar.",
+        "nivel": "alto"
+      },
+      {
+        "si": "true",
+        "texto": "Relación normal (1 o menos).",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Relación = diámetro del tronco de la arteria pulmonar / diámetro de la aorta ascendente, en el mismo corte axial",
+    "notas": "Ambos diámetros se miden en el corte axial a la altura de la bifurcación pulmonar. Es un signo indirecto y de apoyo: el diagnóstico de hipertensión pulmonar exige confirmación con ecocardiografía o cateterismo."
+  },
+  {
+    "codigo": "relacion-vd-vi",
+    "nombre": "Relación ventrículo derecho / izquierdo",
+    "categoria": "Vascular",
+    "modalidad": "TC",
+    "tipo": "formula",
+    "descripcion": "Compara el diámetro del ventrículo derecho con el del izquierdo en la angiotomografía. En la tromboembolia pulmonar, un ventrículo derecho dilatado indica sobrecarga y peor pronóstico.",
+    "campos": [
+      {
+        "id": "vd",
+        "etiqueta": "Diámetro del ventrículo derecho (mm)",
+        "unidad": "mm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "vi",
+        "etiqueta": "Diámetro del ventrículo izquierdo (mm)",
+        "unidad": "mm",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "resultados": [
+      {
+        "etiqueta": "Relación VD / VI",
+        "formula": "vd / vi",
+        "unidad": "",
+        "decimales": 2
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 > 1",
+        "texto": "Mayor de 1: dilatación del ventrículo derecho. En la tromboembolia pulmonar indica sobrecarga derecha y se asocia a peor pronóstico.",
+        "nivel": "alto"
+      },
+      {
+        "si": "true",
+        "texto": "Relación normal (1 o menos).",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Relación = diámetro máximo del ventrículo derecho / diámetro máximo del ventrículo izquierdo",
+    "notas": "Los diámetros se miden en el plano axial o en una reconstrucción de cuatro cámaras, de pared interna a tabique. Es un marcador de gravedad en la tromboembolia pulmonar aguda que ayuda a estratificar el riesgo."
+  },
+  {
+    "codigo": "indice-tamano-aortico",
+    "nombre": "Índice de tamaño aórtico",
+    "categoria": "Vascular",
+    "modalidad": "TC",
+    "tipo": "formula",
+    "descripcion": "Ajusta el diámetro de la aorta al tamaño corporal del paciente dividiéndolo por la superficie corporal. Mejora la estimación del riesgo de complicaciones en los aneurismas, sobre todo en pacientes de constitución pequeña.",
+    "campos": [
+      {
+        "id": "diametro",
+        "etiqueta": "Diámetro aórtico máximo (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "bsa",
+        "etiqueta": "Superficie corporal (m²)",
+        "unidad": "m²",
+        "min": 0,
+        "paso": 0.01
+      }
+    ],
+    "resultados": [
+      {
+        "etiqueta": "Índice de tamaño aórtico",
+        "formula": "diametro / bsa",
+        "unidad": "cm/m²",
+        "decimales": 2
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 >= 4.25",
+        "texto": "4,25 cm/m² o más: riesgo alto de complicaciones (disección o rotura).",
+        "nivel": "alto"
+      },
+      {
+        "si": "r0 >= 2.75",
+        "texto": "Entre 2,75 y 4,24 cm/m²: riesgo moderado; vigilancia estrecha.",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Menor de 2,75 cm/m²: riesgo bajo.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Índice = diámetro aórtico máximo (cm) / superficie corporal (m²)",
+    "notas": "Es especialmente útil cuando el diámetro absoluto puede infravalorar el riesgo en personas de talla pequeña. Se emplea sobre todo en válvula aórtica bicúspide y enfermedades del tejido conectivo. La superficie corporal se obtiene con la calculadora de Mosteller de esta sección."
   }
 ]
