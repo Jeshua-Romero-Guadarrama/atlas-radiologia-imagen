@@ -3679,7 +3679,7 @@
       "RM": "Identifica la causa obstructiva, muestra membranas y estenosis del acueducto y evalúa el flujo del líquido cefalorraquídeo."
     },
     "protocolo": "Tomografía sin contraste con cortes finos y reconstrucciones coronal y sagital; en resonancia se emplean secuencias sagitales de alta resolución potenciadas en T2 del acueducto y del cuarto ventrículo, junto con estudios de flujo cuando se plantea una ventriculostomía.",
-    "clasificacion": "Se divide en obstructiva o no comunicante, con bloqueo dentro del sistema ventricular, y comunicante, por alteración de la reabsorción. El índice de Evans, que relaciona la anchura máxima de las astas frontales con el diámetro biparietal interno, se considera aumentado por encima de 0,3.",
+    "clasificacion": "Se divide en obstructiva o no comunicante, con bloqueo dentro del sistema ventricular, y comunicante, por alteración de la reabsorción. El índice de Evans, que relaciona la anchura máxima de las astas frontales con el diámetro biparietal interno, se considera aumentado por encima de 0.3.",
     "errores": [
       "Confundir atrofia con hidrocefalia al valorar solo el tamaño ventricular",
       "No buscar la causa obstructiva y quedarse en la descripción de la ventriculomegalia",
@@ -3899,7 +3899,7 @@
     "region": "Abdomen",
     "dificultad": "Intermedio",
     "esNormal": false,
-    "descripcion": "Es la dilatación focal y permanente de la aorta abdominal que alcanza o supera los 3 cm de diámetro transverso máximo. Se asocia a aterosclerosis, tabaquismo, hipertensión y edad avanzada, y predomina en el segmento infrarrenal. Su importancia radica en el riesgo de rotura, que crece de forma marcada cuando el diámetro supera los 5,5 cm.",
+    "descripcion": "Es la dilatación focal y permanente de la aorta abdominal que alcanza o supera los 3 cm de diámetro transverso máximo. Se asocia a aterosclerosis, tabaquismo, hipertensión y edad avanzada, y predomina en el segmento infrarrenal. Su importancia radica en el riesgo de rotura, que crece de forma marcada cuando el diámetro supera los 5.5 cm.",
     "tecnica": "El ultrasonido abdominal es el método de tamizaje y seguimiento: se mide el diámetro anteroposterior de pared externa a pared externa en un plano perpendicular al eje del vaso. La angiotomografía con contraste yodado se usa para la planificación quirúrgica o endovascular y ante sospecha de complicación. En pacientes con contraindicación al yodo puede recurrirse a la angiorresonancia.",
     "observar": [
       "Diámetro transverso máximo medido perpendicular al eje del vaso",
@@ -3939,7 +3939,7 @@
       "US": "Permite tamizaje y seguimiento sin radiación ni contraste, con buena reproducibilidad del diámetro anteroposterior."
     },
     "protocolo": "Angiotomografía abdominopélvica con cortes finos, fase arterial mediante seguimiento de bolo en aorta y fase tardía si se sospecha fuga. Ante sospecha de rotura se añade una serie sin contraste para identificar sangre hiperdensa. Se reconstruyen planos multiplanares y perpendiculares al eje del vaso para las mediciones.",
-    "clasificacion": "Se clasifica por morfología en fusiforme o sacular y por localización en suprarrenal, yuxtarrenal e infrarrenal, siendo esta última la más frecuente. El umbral de reparación electiva se sitia habitualmente en 5,5 cm en varones y algo menor en mujeres, o ante un crecimiento rápido documentado.",
+    "clasificacion": "Se clasifica por morfología en fusiforme o sacular y por localización en suprarrenal, yuxtarrenal e infrarrenal, siendo esta última la más frecuente. El umbral de reparación electiva se sitia habitualmente en 5.5 cm en varones y algo menor en mujeres, o ante un crecimiento rápido documentado.",
     "errores": [
       "Medir en cortes oblicuos y sobreestimar el diámetro",
       "Medir solo la luz permeable ignorando el trombo mural",
@@ -4034,7 +4034,7 @@
     "descripcion": "Es el síndrome en el que el corazón no logra mantener un gasto adecuado, con aumento de las presiones de llenado y congestión venosa pulmonar y sistémica. Se manifiesta con disnea de esfuerzo, ortopnea, disnea paroxística nocturna y edema periférico. La radiografía de tórax es la primera herramienta para valorar el grado de congestión y descartar otras causas de disnea.",
     "tecnica": "Se prefiere la radiografía posteroanterior en bipedestación e inspiración profunda, complementada con proyección lateral. En el paciente encamado la proyección anteroposterior portátil magnifica la silueta cardiaca y redistribuye el flujo por gravedad, lo que obliga a interpretar con cautela. El ecocardiograma cuantifica la fracción de eyección y define la causa.",
     "observar": [
-      "Índice cardiotorácico mayor de 0,5 en proyección posteroanterior",
+      "Índice cardiotorácico mayor de 0.5 en proyección posteroanterior",
       "Redistribución del flujo hacia los lóbulos superiores",
       "Líneas B de Kerley en las bases y engrosamiento peribroncovascular",
       "Derrame pleural, con frecuencia bilateral y de predominio derecho",
@@ -5341,7 +5341,7 @@
       "Ausencia de burbuja gástrica en la radiografía simple de tórax"
     ],
     "hallazgos": "El esófago aparece dilatado, con retención de contenido y un estrechamiento distal corto, simétrico y de contornos lisos que produce el clásico aspecto en pico de pájaro. La radiografía de tórax puede mostrar ensanchamiento mediastínico con una línea paraesofágica desplazada, nivel hidroaéreo en el mediastino y ausencia de la cámara gástrica. En los casos evolucionados el esófago se alarga y se torna tortuoso, adoptando morfología sigmoidea. La tomografía muestra dilatación con pared esofágica fina y no debe evidenciar masa ni engrosamiento asimétrico.",
-    "perlas": "El hallazgo que obliga a descartar pseudoacalasia es un estrechamiento distal asimétrico, irregular o de más de 3,5 cm de longitud, sobre todo en pacientes mayores de 60 años, con síntomas de corta evolución y pérdida de peso importante. En ese escenario la endoscopia con biopsias y la tomografía son imprescindibles, ya que un adenocarcinoma del cardias puede imitar por completo el patrón de acalasia.",
+    "perlas": "El hallazgo que obliga a descartar pseudoacalasia es un estrechamiento distal asimétrico, irregular o de más de 3.5 cm de longitud, sobre todo en pacientes mayores de 60 años, con síntomas de corta evolución y pérdida de peso importante. En ese escenario la endoscopia con biopsias y la tomografía son imprescindibles, ya que un adenocarcinoma del cardias puede imitar por completo el patrón de acalasia.",
     "diferencial": [
       {
         "entidad": "Pseudoacalasia tumoral",
@@ -5402,7 +5402,7 @@
     "dificultad": "Avanzado",
     "esNormal": false,
     "descripcion": "Es una enfermedad inflamatoria intestinal crónica de causa desconocida que puede afectar cualquier segmento del tubo digestivo, desde la boca hasta el ano. Se caracteriza por inflamación transmural, distribución segmentaria y salteada, y una marcada tendencia a la formación de estenosis, fístulas y abscesos. El íleon terminal es la localización más frecuente y su curso alterna brotes con periodos de remisión.",
-    "tecnica": "La enterografía por resonancia es el estudio de elección en pacientes jóvenes por su ausencia de radiación y su capacidad de distinguir inflamación activa de fibrosis. Requiere ayuno de 4 a 6 horas y la ingesta de un agente oral hiperosmolar bifásico, habitualmente entre 1 y 1,5 litros, durante los 45 a 60 minutos previos, para lograr distensión luminal adecuada. Se administra un antiespasmódico intravenoso para reducir el peristaltismo antes de las secuencias con contraste.",
+    "tecnica": "La enterografía por resonancia es el estudio de elección en pacientes jóvenes por su ausencia de radiación y su capacidad de distinguir inflamación activa de fibrosis. Requiere ayuno de 4 a 6 horas y la ingesta de un agente oral hiperosmolar bifásico, habitualmente entre 1 y 1.5 litros, durante los 45 a 60 minutos previos, para lograr distensión luminal adecuada. Se administra un antiespasmódico intravenoso para reducir el peristaltismo antes de las secuencias con contraste.",
     "observar": [
       "Engrosamiento de la pared intestinal por encima de 3 mm en un asa bien distendida",
       "Realce mural intenso, con patrón estratificado en la fase activa",

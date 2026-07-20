@@ -117,7 +117,7 @@
           "Pleura: buscar la línea del neumotórax, engrosamientos y placas.",
           "Campos pulmonares: comparar sistemáticamente ambos lados a la misma altura, por tercios, valorando opacidades, hiperlucencias y alteraciones de la trama.",
           "Hilios: el izquierdo se sitúa normalmente entre uno y dos centímetros más alto que el derecho. Valorar tamaño, densidad y contorno.",
-          "Mediastino y corazón: anchura mediastínica, contornos cardiacos y índice cardiotorácico, que debe ser menor de 0,5 en proyección posteroanterior.",
+          "Mediastino y corazón: anchura mediastínica, contornos cardiacos y índice cardiotorácico, que debe ser menor de 0.5 en proyección posteroanterior.",
           "Vía aérea: tráquea centrada y carina visible."
         ]
       },

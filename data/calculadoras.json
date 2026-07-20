@@ -71,7 +71,7 @@
         "nivel": "normal"
       }
     ],
-    "formulaTexto": "Volumen = 0,524 × largo × ancho × espesor; Índice = largo × ancho × espesor; Peso ≈ volumen × 1,05",
+    "formulaTexto": "Volumen = 0.524 × largo × ancho × espesor; Índice = largo × ancho × espesor; Peso ≈ volumen × 1.05",
     "notas": "El modelo elipsoide subestima o sobreestima el volumen en bazos de morfología muy irregular o con lesiones focales voluminosas. Los umbrales son orientativos y varían con la talla y la superficie corporal; en niños deben ajustarse por edad. La segmentación volumétrica es el método de referencia cuando se requiere precisión."
   },
   {
@@ -142,8 +142,8 @@
         "nivel": "normal"
       }
     ],
-    "formulaTexto": "Volumen = 0,524 × craneocaudal × transversal × anteroposterior; Densidad de PSA = PSA / volumen",
-    "notas": "El valor de 0,15 ng/mL/cm³ es el punto de corte más difundido, pero no es absoluto y su rendimiento depende de la población estudiada. La prostatitis, la instrumentación reciente y algunos fármacos alteran el PSA. La medición elipsoide tiende a diferir de la segmentación manual en próstatas grandes o con lóbulo medio prominente."
+    "formulaTexto": "Volumen = 0.524 × craneocaudal × transversal × anteroposterior; Densidad de PSA = PSA / volumen",
+    "notas": "El valor de 0.15 ng/mL/cm³ es el punto de corte más difundido, pero no es absoluto y su rendimiento depende de la población estudiada. La prostatitis, la instrumentación reciente y algunos fármacos alteran el PSA. La medición elipsoide tiende a diferir de la segmentación manual en próstatas grandes o con lóbulo medio prominente."
   },
   {
     "codigo": "volumen-tiroideo",
@@ -223,7 +223,7 @@
         "nivel": "normal"
       }
     ],
-    "formulaTexto": "Volumen lobar = 0,524 × longitud × anchura × espesor; Volumen total = lóbulo derecho + lóbulo izquierdo",
+    "formulaTexto": "Volumen lobar = 0.524 × longitud × anchura × espesor; Volumen total = lóbulo derecho + lóbulo izquierdo",
     "notas": "El istmo no se incluye en el cálculo salvo que esté claramente engrosado. Los límites superiores de normalidad difieren entre poblaciones y entre series pediátricas y de adultos, por lo que no se aplican umbrales fijos. La reproducibilidad depende del operador y de la correcta orientación de los planos."
   },
   {
@@ -271,7 +271,7 @@
         "nivel": "normal"
       }
     ],
-    "formulaTexto": "Volumen = 0,524 × longitud × anchura × espesor",
+    "formulaTexto": "Volumen = 0.524 × longitud × anchura × espesor",
     "notas": "En la poliquistosis renal autosómica dominante el volumen debe ajustarse a la talla y valorarse de forma longitudinal; el modelo elipsoide es aceptable pero la segmentación es más exacta en riñones muy deformados. Las mediciones deben tomarse en planos ortogonales verdaderos para evitar sobreestimación."
   },
   {
@@ -324,7 +324,7 @@
         "nivel": "normal"
       }
     ],
-    "formulaTexto": "Volumen = 0,524 × diámetro 1 × diámetro 2 × diámetro 3",
+    "formulaTexto": "Volumen = 0.524 × diámetro 1 × diámetro 2 × diámetro 3",
     "notas": "El umbral de 10 mL corresponde al criterio ecográfico clásico de ovario poliquístico y no es aplicable a la infancia, la posmenopausia ni a ovarios con quistes dominantes o cuerpo lúteo, que deben excluirse de la medición. El volumen varía a lo largo del ciclo menstrual y con la estimulación hormonal."
   },
   {
@@ -382,8 +382,8 @@
         "nivel": "normal"
       }
     ],
-    "formulaTexto": "Volumen = 0,524 × longitudinal × transversal × anteroposterior",
-    "notas": "Los umbrales de residuo son orientativos y deben interpretarse junto con la clínica y con mediciones repetidas, ya que un valor aislado tiene escaso valor. La medición debe realizarse inmediatamente tras la micción. En vejigas muy distendidas o de forma irregular el modelo elipsoide pierde exactitud; algunos autores emplean coeficientes distintos de 0,524."
+    "formulaTexto": "Volumen = 0.524 × longitudinal × transversal × anteroposterior",
+    "notas": "Los umbrales de residuo son orientativos y deben interpretarse junto con la clínica y con mediciones repetidas, ya que un valor aislado tiene escaso valor. La medición debe realizarse inmediatamente tras la micción. En vejigas muy distendidas o de forma irregular el modelo elipsoide pierde exactitud; algunos autores emplean coeficientes distintos de 0.524."
   },
   {
     "codigo": "volumen-lesion-elipsoide",
@@ -436,7 +436,7 @@
         "nivel": "normal"
       }
     ],
-    "formulaTexto": "Volumen = π/6 × d1 × d2 × d3 ≈ 0,524 × d1 × d2 × d3",
+    "formulaTexto": "Volumen = π/6 × d1 × d2 × d3 ≈ 0.524 × d1 × d2 × d3",
     "notas": "La exactitud disminuye en lesiones espiculadas, lobuladas o infiltrativas. Para el seguimiento conviene mantener la misma técnica, el mismo plano de medición y, si es posible, el mismo observador. Los criterios de respuesta tumoral más difundidos se basan en diámetros y no en volumen."
   },
   {
@@ -505,7 +505,7 @@
         "nivel": "normal"
       }
     ],
-    "formulaTexto": "Cambio (%) = (volumen actual − volumen previo) / volumen previo × 100; Tiempo de duplicación = intervalo × ln 2 / ln (volumen actual / volumen previo)",
+    "formulaTexto": "Cambio (%) = (volumen actual - volumen previo) / volumen previo × 100; Tiempo de duplicación = intervalo × ln 2 / ln (volumen actual / volumen previo)",
     "notas": "El tiempo de duplicación solo tiene sentido cuando la lesión crece; con volumen estable o decreciente el resultado no es interpretable. Una parte del cambio medido corresponde a la variabilidad intraobservador e interobservador, especialmente en lesiones pequeñas. Los umbrales indicados son orientativos y no sustituyen a los criterios formales de respuesta empleados en cada protocolo."
   },
   {
@@ -564,7 +564,7 @@
         "nivel": "alto"
       }
     ],
-    "formulaTexto": "Lavado absoluto (%) = (portal − tardía) / (portal − basal) × 100; Lavado relativo (%) = (portal − tardía) / portal × 100",
+    "formulaTexto": "Lavado absoluto (%) = (portal - tardía) / (portal - basal) × 100; Lavado relativo (%) = (portal - tardía) / portal × 100",
     "notas": "El lavado relativo se emplea cuando no se dispone de adquisición sin contraste. Una atenuación basal igual o inferior a 10 UH ya es diagnóstica de adenoma rico en lípidos y hace innecesario el cálculo. El feocromocitoma y algunas metástasis hipervasculares pueden mostrar lavados solapados con los del adenoma, por lo que el resultado debe integrarse con la clínica y el estudio bioquímico. Las regiones de interés deben colocarse de forma equivalente en las tres fases, evitando áreas necróticas o calcificadas."
   },
   {
@@ -630,7 +630,7 @@
         "nivel": "alto"
       }
     ],
-    "formulaTexto": "Índice de caída (%) = (señal en fase − señal en fase opuesta) / señal en fase × 100",
+    "formulaTexto": "Índice de caída (%) = (señal en fase - señal en fase opuesta) / señal en fase × 100",
     "notas": "El bazo se emplea como referencia interna porque no contiene grasa; el hígado no es adecuado si existe esteatosis. La presencia de hierro o de hemorragia puede alterar la señal y generar resultados engañosos. Un adenoma pobre en lípidos puede no mostrar caída significativa, por lo que un resultado negativo no excluye el diagnóstico y suele requerirse estudio con lavado en TC."
   },
   {
@@ -682,7 +682,7 @@
         "nivel": "normal"
       }
     ],
-    "formulaTexto": "Fracción grasa (%) = (señal en fase − señal en fase opuesta) / (2 × señal en fase) × 100",
+    "formulaTexto": "Fracción grasa (%) = (señal en fase - señal en fase opuesta) / (2 × señal en fase) × 100",
     "notas": "Este cálculo de doble eco no corrige los efectos del T2*, del hierro ni del espectro multipico de la grasa, por lo que subestima la fracción grasa en presencia de sobrecarga férrica y no es válido cuando la fracción supera aproximadamente el 50 %. La fracción de grasa por densidad protónica obtenida con secuencias multieco dedicadas es el método cuantitativo de referencia. Las regiones de interés deben evitar vasos, vía biliar y artefactos de borde."
   },
   {
@@ -760,7 +760,7 @@
         "nivel": "normal"
       }
     ],
-    "formulaTexto": "Collins: % = 4,2 + 4,7 × (A + B + C), siendo A, B y C las distancias interpleurales en cm; Light: % = [1 − (diámetro del pulmón / diámetro del hemitórax)³] × 100",
+    "formulaTexto": "Collins: % = 4.2 + 4.7 × (A + B + C), siendo A, B y C las distancias interpleurales en cm; Light: % = [1 - (diámetro del pulmón / diámetro del hemitórax)³] × 100",
     "notas": "Ambos métodos se validaron en radiografía posteroanterior en bipedestación y pierden fiabilidad en decúbito supino o en proyecciones portátiles. La decisión terapéutica no debe basarse solo en el porcentaje calculado, sino sobre todo en la situación clínica, la presencia de disnea y los antecedentes respiratorios. En caso de sospecha de neumotórax a tensión el tratamiento es inmediato y no requiere cuantificación."
   },
   {
@@ -830,7 +830,7 @@
         "nivel": "normal"
       }
     ],
-    "formulaTexto": "IR = (VSM − VTD) / VSM; IP = (VSM − VTD) / velocidad media; S/D = VSM / VTD",
+    "formulaTexto": "IR = (VSM - VTD) / VSM; IP = (VSM - VTD) / velocidad media; S/D = VSM / VTD",
     "notas": "Los umbrales indicados corresponden a la valoración de arterias intrarrenales en adultos y no son extrapolables a la circulación obstétrica, cerebral fetal ni a la infancia, donde se emplean curvas de referencia propias por edad gestacional. Los índices son independientes del ángulo de insonación, pero se ven afectados por la frecuencia cardiaca, la presión arterial y la compresión con el transductor. Debe promediarse el resultado de varias ondas consecutivas de buena calidad."
   },
   {
@@ -894,7 +894,7 @@
         "nivel": "normal"
       }
     ],
-    "formulaTexto": "NASCET (%) = (1 − luz residual / diámetro distal normal) × 100; ECST (%) = (1 − luz residual / diámetro del vaso en la estenosis) × 100",
+    "formulaTexto": "NASCET (%) = (1 - luz residual / diámetro distal normal) × 100; ECST (%) = (1 - luz residual / diámetro del vaso en la estenosis) × 100",
     "notas": "Para un mismo vaso el método ECST proporciona porcentajes más altos que NASCET, por lo que siempre debe indicarse el criterio empleado. El cálculo no es válido cuando existe oclusión completa o seudooclusión con colapso distal del vaso. Las decisiones terapéuticas dependen además de la sintomatología, la morfología de la placa y el riesgo quirúrgico individual."
   },
   {
@@ -1011,17 +1011,17 @@
     "interpretacion": [
       {
         "si": "total >= 7",
-        "texto": "TR5: altamente sospechoso. Punción si mide 1 cm o más; seguimiento ecográfico si mide 0,5 cm o más.",
+        "texto": "TR5: altamente sospechoso. Punción si mide 1 cm o más; seguimiento ecográfico si mide 0.5 cm o más.",
         "nivel": "alto"
       },
       {
         "si": "total >= 4",
-        "texto": "TR4: moderadamente sospechoso. Punción si mide 1,5 cm o más; seguimiento si mide 1 cm o más.",
+        "texto": "TR4: moderadamente sospechoso. Punción si mide 1.5 cm o más; seguimiento si mide 1 cm o más.",
         "nivel": "medio"
       },
       {
         "si": "total >= 3",
-        "texto": "TR3: levemente sospechoso. Punción si mide 2,5 cm o más; seguimiento si mide 1,5 cm o más.",
+        "texto": "TR3: levemente sospechoso. Punción si mide 2.5 cm o más; seguimiento si mide 1.5 cm o más.",
         "nivel": "medio"
       },
       {
@@ -1878,12 +1878,12 @@
     "interpretacion": [
       {
         "si": "r0 > 0.5",
-        "texto": "Índice mayor de 0,5: cardiomegalia en la proyección posteroanterior.",
+        "texto": "Índice mayor de 0.5: cardiomegalia en la proyección posteroanterior.",
         "nivel": "alto"
       },
       {
         "si": "true",
-        "texto": "Índice dentro de límites normales (0,5 o menos).",
+        "texto": "Índice dentro de límites normales (0.5 o menos).",
         "nivel": "normal"
       }
     ],
@@ -1924,12 +1924,12 @@
     "interpretacion": [
       {
         "si": "r0 > 0.3",
-        "texto": "Índice mayor de 0,3: ventriculomegalia. En el contexto clínico adecuado apoya el diagnóstico de hidrocefalia.",
+        "texto": "Índice mayor de 0.3: ventriculomegalia. En el contexto clínico adecuado apoya el diagnóstico de hidrocefalia.",
         "nivel": "alto"
       },
       {
         "si": "true",
-        "texto": "Tamaño ventricular dentro de límites normales (0,3 o menos).",
+        "texto": "Tamaño ventricular dentro de límites normales (0.3 o menos).",
         "nivel": "normal"
       }
     ],
@@ -1970,32 +1970,32 @@
     "interpretacion": [
       {
         "si": "r0 > 1.4",
-        "texto": "Mayor de 1,4: arterias no compresibles por calcificación de la media. El índice no es valorable; usar otras pruebas.",
+        "texto": "Mayor de 1.4: arterias no compresibles por calcificación de la media. El índice no es valorable; usar otras pruebas.",
         "nivel": "medio"
       },
       {
         "si": "r0 < 0.4",
-        "texto": "Menor de 0,4: enfermedad arterial periférica grave (isquemia crítica).",
+        "texto": "Menor de 0.4: enfermedad arterial periférica grave (isquemia crítica).",
         "nivel": "alto"
       },
       {
         "si": "r0 < 0.9",
-        "texto": "Menor de 0,9: enfermedad arterial periférica.",
+        "texto": "Menor de 0.9: enfermedad arterial periférica.",
         "nivel": "alto"
       },
       {
         "si": "r0 < 1.0",
-        "texto": "Entre 0,9 y 1,0: valor límite, a vigilar.",
+        "texto": "Entre 0.9 y 1.0: valor límite, a vigilar.",
         "nivel": "medio"
       },
       {
         "si": "true",
-        "texto": "Entre 1,0 y 1,4: índice normal.",
+        "texto": "Entre 1.0 y 1.4: índice normal.",
         "nivel": "normal"
       }
     ],
     "formulaTexto": "Índice = presión sistólica del tobillo / presión sistólica braquial más alta",
-    "notas": "Se calcula un índice para cada pierna usando la presión más alta de sus arterias (pedia o tibial posterior). Valores muy altos, por encima de 1,4, indican arterias rígidas y calcificadas, frecuentes en diabetes e insuficiencia renal, y obligan a recurrir a otras pruebas."
+    "notas": "Se calcula un índice para cada pierna usando la presión más alta de sus arterias (pedia o tibial posterior). Valores muy altos, por encima de 1.4, indican arterias rígidas y calcificadas, frecuentes en diabetes e insuficiencia renal, y obligan a recurrir a otras pruebas."
   },
   {
     "codigo": "esteatosis-higado-bazo-tc",
@@ -2020,7 +2020,7 @@
     ],
     "resultados": [
       {
-        "etiqueta": "Diferencia hígado − bazo",
+        "etiqueta": "Diferencia hígado - bazo",
         "formula": "higado - bazo",
         "unidad": "UH",
         "decimales": 0
@@ -2038,7 +2038,7 @@
         "nivel": "normal"
       }
     ],
-    "formulaTexto": "Diferencia = atenuación del hígado − atenuación del bazo (en TC sin contraste)",
+    "formulaTexto": "Diferencia = atenuación del hígado - atenuación del bazo (en TC sin contraste)",
     "notas": "Solo es válido en tomografía SIN contraste, porque el realce altera las densidades. El hígado normal es algo más denso que el bazo. Los depósitos de hierro, el edema o los fármacos como la amiodarona pueden aumentar la densidad hepática y enmascarar la grasa."
   },
   {
@@ -2068,12 +2068,12 @@
     "interpretacion": [
       {
         "si": "true",
-        "texto": "Edad gestacional estimada. Válida para longitudes cráneo-caudales de entre 2 y 9,5 cm.",
+        "texto": "Edad gestacional estimada. Válida para longitudes cráneo-caudales de entre 2 y 9.5 cm.",
         "nivel": "normal"
       }
     ],
-    "formulaTexto": "Edad gestacional (semanas) ≈ longitud cráneo-caudal (cm) + 6,5",
-    "notas": "Es una regla clínica aproximada, fiable para longitudes de entre 2 y 9,5 cm. Una vez establecida la fecha con la longitud cráneo-caudal del primer trimestre, no se modifica con mediciones posteriores. Fuera de ese rango deben usarse tablas biométricas específicas."
+    "formulaTexto": "Edad gestacional (semanas) ≈ longitud cráneo-caudal (cm) + 6.5",
+    "notas": "Es una regla clínica aproximada, fiable para longitudes de entre 2 y 9.5 cm. Una vez establecida la fecha con la longitud cráneo-caudal del primer trimestre, no se modifica con mediciones posteriores. Fuera de ese rango deben usarse tablas biométricas específicas."
   },
   {
     "codigo": "edad-gestacional-saco",
@@ -2162,7 +2162,7 @@
         "nivel": "alto"
       }
     ],
-    "formulaTexto": "Fracción de eyección (%) = (volumen diastólico final − volumen sistólico final) / volumen diastólico final × 100",
+    "formulaTexto": "Fracción de eyección (%) = (volumen diastólico final - volumen sistólico final) / volumen diastólico final × 100",
     "notas": "Los volúmenes se obtienen habitualmente por el método de Simpson biplano en ecocardiografía. Los umbrales pueden variar ligeramente entre guías. La fracción de eyección no refleja toda la función cardiaca: puede ser normal en la insuficiencia cardiaca con función conservada."
   },
   {
@@ -2216,7 +2216,7 @@
     "preguntas": [
       {
         "id": "radio",
-        "etiqueta": "R — Radio (diámetro máximo del tumor)",
+        "etiqueta": "Radio del tumor, componente R (diámetro máximo)",
         "opciones": [
           {
             "texto": "4 cm o menos",
@@ -2234,7 +2234,7 @@
       },
       {
         "id": "exofitico",
-        "etiqueta": "E — Componente exofítico o endofítico",
+        "etiqueta": "Componente exofítico o endofítico (E)",
         "opciones": [
           {
             "texto": "Al menos el 50 % exofítico",
@@ -2252,7 +2252,7 @@
       },
       {
         "id": "cercania",
-        "etiqueta": "N — Cercanía al sistema colector o al seno renal",
+        "etiqueta": "Cercanía al sistema colector o al seno renal (N)",
         "opciones": [
           {
             "texto": "7 mm o más",
@@ -2270,7 +2270,7 @@
       },
       {
         "id": "localizacion",
-        "etiqueta": "L — Localización respecto a las líneas polares",
+        "etiqueta": "Localización respecto a las líneas polares (L)",
         "opciones": [
           {
             "texto": "Totalmente por encima o por debajo de las líneas polares",
@@ -2319,27 +2319,27 @@
         "etiqueta": "Estenosis coronaria máxima",
         "opciones": [
           {
-            "texto": "0 % — sin placa ni estenosis",
+            "texto": "0 %, sin placa ni estenosis",
             "puntos": 0
           },
           {
-            "texto": "1 a 24 % — mínima",
+            "texto": "1 a 24 %, mínima",
             "puntos": 1
           },
           {
-            "texto": "25 a 49 % — leve",
+            "texto": "25 a 49 %, leve",
             "puntos": 2
           },
           {
-            "texto": "50 a 69 % — moderada",
+            "texto": "50 a 69 %, moderada",
             "puntos": 3
           },
           {
-            "texto": "70 a 99 % — grave",
+            "texto": "70 a 99 %, grave",
             "puntos": 4
           },
           {
-            "texto": "100 % — oclusión total",
+            "texto": "100 %, oclusión total",
             "puntos": 5
           }
         ]
@@ -2410,7 +2410,7 @@
         "nivel": "normal"
       }
     ],
-    "formulaTexto": "Volumen hepático estándar (mL) = 18,51 × peso (kg) + 191,8",
+    "formulaTexto": "Volumen hepático estándar (mL) = 18.51 × peso (kg) + 191.8",
     "notas": "Es un valor de referencia poblacional, no una medición del hígado real del paciente. El volumen medido en la imagen puede diferir por enfermedad hepática. La proporción entre el volumen del injerto y este valor guía las decisiones en cirugía hepática y trasplante."
   },
   {
@@ -2444,7 +2444,7 @@
         "nivel": "normal"
       }
     ],
-    "formulaTexto": "Volumen hepático estándar (mL) = 706,2 × superficie corporal (m²) + 2,4",
+    "formulaTexto": "Volumen hepático estándar (mL) = 706.2 × superficie corporal (m²) + 2.4",
     "notas": "Da resultados muy parecidos a la fórmula por peso. Como esa, es un valor de referencia poblacional para planificar resecciones y trasplantes, no una medición directa del hígado."
   },
   {
@@ -2464,7 +2464,7 @@
       },
       {
         "id": "ap",
-        "etiqueta": "Distancia esternón–columna en el punto más hundido (cm)",
+        "etiqueta": "Distancia entre el esternón y la columna en el punto más hundido (cm)",
         "unidad": "cm",
         "min": 0,
         "paso": 0.1
@@ -2481,22 +2481,22 @@
     "interpretacion": [
       {
         "si": "r0 > 3.25",
-        "texto": "Mayor de 3,25: pectus excavatum grave. Suele considerarse criterio para valorar corrección quirúrgica.",
+        "texto": "Mayor de 3.25: pectus excavatum grave. Suele considerarse criterio para valorar corrección quirúrgica.",
         "nivel": "alto"
       },
       {
         "si": "r0 > 3.2",
-        "texto": "Cercano a 3,25: deformidad moderada a grave, límite quirúrgico.",
+        "texto": "Cercano a 3.25: deformidad moderada a grave, límite quirúrgico.",
         "nivel": "medio"
       },
       {
         "si": "true",
-        "texto": "Deformidad leve a moderada. Un tórax normal ronda un índice de 2,5.",
+        "texto": "Deformidad leve a moderada. Un tórax normal ronda un índice de 2.5.",
         "nivel": "normal"
       }
     ],
     "formulaTexto": "Índice = diámetro transverso interno del tórax / distancia mínima entre el esternón y la columna",
-    "notas": "Ambas medidas se toman en el corte axial donde el esternón está más deprimido. Un tórax normal tiene un índice en torno a 2,5. El valor mayor de 3,25 es el umbral clásico para considerar la cirugía, siempre junto con la clínica y la función cardiopulmonar."
+    "notas": "Ambas medidas se toman en el corte axial donde el esternón está más deprimido. Un tórax normal tiene un índice en torno a 2.5. El valor mayor de 3.25 es el umbral clásico para considerar la cirugía, siempre junto con la clínica y la función cardiopulmonar."
   },
   {
     "codigo": "relacion-arteria-pulmonar-aorta",
@@ -2624,17 +2624,17 @@
     "interpretacion": [
       {
         "si": "r0 >= 4.25",
-        "texto": "4,25 cm/m² o más: riesgo alto de complicaciones (disección o rotura).",
+        "texto": "4.25 cm/m² o más: riesgo alto de complicaciones (disección o rotura).",
         "nivel": "alto"
       },
       {
         "si": "r0 >= 2.75",
-        "texto": "Entre 2,75 y 4,24 cm/m²: riesgo moderado; vigilancia estrecha.",
+        "texto": "Entre 2.75 y 4.24 cm/m²: riesgo moderado; vigilancia estrecha.",
         "nivel": "medio"
       },
       {
         "si": "true",
-        "texto": "Menor de 2,75 cm/m²: riesgo bajo.",
+        "texto": "Menor de 2.75 cm/m²: riesgo bajo.",
         "nivel": "normal"
       }
     ],

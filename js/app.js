@@ -188,7 +188,7 @@ function pintarPaginacion(vista, info) {
   const desde = info.inicio + 1;
   const hasta = info.inicio + info.items.length;
 
-  let html = `<span class="pag-info">${desde}–${hasta} de ${info.total}</span><div class="pag-botones">`;
+  let html = `<span class="pag-info">${desde} a ${hasta} de ${info.total}</span><div class="pag-botones">`;
   html += `<button class="pag-btn pag-flecha" data-ir="${actual - 1}" ${actual === 1 ? "disabled" : ""} aria-label="Anterior">${ico("anterior")}</button>`;
   numerosVisibles(actual, info.paginas).forEach((n) => {
     if (n === "…") html += `<span class="pag-elipsis">…</span>`;
@@ -690,7 +690,7 @@ function calcular(calc) {
       const valor = evaluarExpresion(res.formula, variables);
       variables["r" + i] = valor;
       const texto = valor === null || Number.isNaN(valor)
-        ? "—"
+        ? "n/d"
         : Number(valor).toFixed(res.decimales !== undefined ? res.decimales : 2);
       return `<div class="calc-resultado">
                 <span class="calc-resultado-etiqueta">${escapar(res.etiqueta)}</span>

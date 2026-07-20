@@ -21,7 +21,7 @@ async function main() {
   for (const nombre of ["fichas", "glosario", "temas", "signos", "clasificaciones"]) {
     const ruta = path.join(CARPETA_DATOS, `${nombre}.json`);
     if (!fs.existsSync(ruta)) {
-      console.log(`  – ${nombre}: sin archivo, se omite`);
+      console.log(`  · ${nombre}: sin archivo, se omite`);
       continue;
     }
     let documentos = JSON.parse(fs.readFileSync(ruta, "utf8"));

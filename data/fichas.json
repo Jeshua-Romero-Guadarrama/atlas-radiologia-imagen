@@ -1305,12 +1305,12 @@
     "dificultad": "Básico",
     "esNormal": true,
     "descripcion": "El estudio radiológico más solicitado del mundo y la base de toda la radiología. Dominar el tórax normal es imprescindible, porque solo se puede reconocer lo patológico cuando se tiene muy claro cómo se ve lo normal.",
-    "tecnica": "Paciente de pie, con el pecho contra el receptor y el haz entrando por la espalda (posteroanterior), en inspiración profunda y con una distancia foco-receptor de 1,80 m para minimizar la magnificación del corazón.",
+    "tecnica": "Paciente de pie, con el pecho contra el receptor y el haz entrando por la espalda (posteroanterior), en inspiración profunda y con una distancia foco-receptor de 1.80 m para minimizar la magnificación del corazón.",
     "observar": [
       "Calidad técnica: clavículas simétricas respecto a las apófisis espinosas (sin rotación), 9-10 arcos costales posteriores visibles (inspiración adecuada) y vértebras dorsales apenas visibles tras el corazón (penetración correcta)",
       "Campos pulmonares: comparar simétricamente ambos lados buscando opacidades o zonas hiperlúcidas",
       "Hilios pulmonares: el izquierdo se sitúa algo más alto que el derecho",
-      "Silueta cardiaca: el índice cardiotorácico debe ser menor de 0,5 en esta proyección",
+      "Silueta cardiaca: el índice cardiotorácico debe ser menor de 0.5 en esta proyección",
       "Ángulos costofrénicos agudos y libres; si están borrados, sospechar derrame pleural",
       "Hemidiafragmas curvos, con el derecho ligeramente más alto por el hígado",
       "Estructuras óseas, partes blandas y ausencia de aire libre subdiafragmático"
@@ -1343,7 +1343,7 @@
       },
       {
         "entidad": "Cardiomegalia y congestión",
-        "comoDistinguir": "El índice cardiotorácico supera 0,5 en una proyección posteroanterior técnicamente correcta, con redistribución vascular hacia los vértices y líneas septales."
+        "comoDistinguir": "El índice cardiotorácico supera 0.5 en una proyección posteroanterior técnicamente correcta, con redistribución vascular hacia los vértices y líneas septales."
       },
       {
         "entidad": "Neumotórax",
@@ -1366,8 +1366,8 @@
       "US": "Excelente a pie de cama para derrame, consolidación subpleural, neumotórax y para guiar toracocentesis, sin radiación.",
       "RM": "Papel limitado en pulmón, pero útil en tumores de la pared torácica, del vértice y del mediastino y en la valoración de estructuras vasculares sin radiación."
     },
-    "protocolo": "El paciente se coloca de pie, con la cara anterior del tórax contra el receptor y el haz entrando por la espalda, hombros rotados hacia delante y dorso de las manos en las caderas para desplazar las escápulas fuera de los campos pulmonares. La exposición se realiza en inspiración profunda mantenida, con una distancia foco-receptor de aproximadamente 1,80 metros para minimizar la magnificación cardiaca, alta energía y tiempo corto para reducir el borrado por movimiento. Se complementa con una proyección lateral izquierda con los brazos elevados. Cuando el paciente no puede incorporarse se realiza en decúbito o semisentado, y el informe debe indicarlo.",
-    "clasificacion": "No existe una única escala para el tórax normal, pero sí criterios de calidad técnica que deben verificarse siempre: ausencia de rotación comprobada por la simetría de las clavículas respecto a las apófisis espinosas, inspiración adecuada con nueve o diez arcos costales posteriores visibles, penetración correcta con los cuerpos vertebrales dorsales apenas insinuados tras la silueta cardiaca y ausencia de artefactos. Sobre esa base se aplican después mediciones estandarizadas como el índice cardiotorácico, que en la proyección posteroanterior debe ser inferior a 0,5. En seguimiento de enfermedades difusas se emplean escalas semicuantitativas de extensión por zonas.",
+    "protocolo": "El paciente se coloca de pie, con la cara anterior del tórax contra el receptor y el haz entrando por la espalda, hombros rotados hacia delante y dorso de las manos en las caderas para desplazar las escápulas fuera de los campos pulmonares. La exposición se realiza en inspiración profunda mantenida, con una distancia foco-receptor de aproximadamente 1.80 metros para minimizar la magnificación cardiaca, alta energía y tiempo corto para reducir el borrado por movimiento. Se complementa con una proyección lateral izquierda con los brazos elevados. Cuando el paciente no puede incorporarse se realiza en decúbito o semisentado, y el informe debe indicarlo.",
+    "clasificacion": "No existe una única escala para el tórax normal, pero sí criterios de calidad técnica que deben verificarse siempre: ausencia de rotación comprobada por la simetría de las clavículas respecto a las apófisis espinosas, inspiración adecuada con nueve o diez arcos costales posteriores visibles, penetración correcta con los cuerpos vertebrales dorsales apenas insinuados tras la silueta cardiaca y ausencia de artefactos. Sobre esa base se aplican después mediciones estandarizadas como el índice cardiotorácico, que en la proyección posteroanterior debe ser inferior a 0.5. En seguimiento de enfermedades difusas se emplean escalas semicuantitativas de extensión por zonas.",
     "errores": [
       "Informar sin comprobar antes la calidad técnica, ya que la rotación, la hipoinspiración o la penetración inadecuada crean hallazgos falsos.",
       "No revisar las zonas ciegas: vértices, región retrocardiaca, senos costofrénicos posteriores, región subdiafragmática y partes blandas del cuello y de los hombros.",
@@ -2012,7 +2012,7 @@
     "descripcion": "Estudio no invasivo que valora las arterias carótidas combinando la imagen en escala de grises con el análisis del flujo mediante efecto Doppler. Es fundamental en la prevención del ictus, ya que detecta placas de ateroma y estenosis.",
     "tecnica": "Transductor lineal de alta frecuencia, con el paciente en decúbito supino y la cabeza girada hacia el lado contrario. Se recorren la carótida común, la bifurcación y las ramas interna y externa.",
     "observar": [
-      "Complejo íntima-media: su engrosamiento por encima de 0,9 mm es un marcador precoz de aterosclerosis",
+      "Complejo íntima-media: su engrosamiento por encima de 0.9 mm es un marcador precoz de aterosclerosis",
       "Placas de ateroma: describir su ecogenicidad, superficie (lisa o irregular) y si presentan calcificación con sombra acústica",
       "Grado de estenosis, estimado por la reducción del calibre y sobre todo por el aumento de las velocidades de flujo",
       "Espectro Doppler: la carótida interna muestra flujo de baja resistencia con abundante flujo diastólico, mientras la externa tiene alta resistencia",
