@@ -1785,5 +1785,598 @@
       }
     ],
     "notas": "El grado de dilatación varía con el estado de hidratación, el llenado vesical y el momento del estudio, por lo que conviene repetir la exploración en condiciones estandarizadas. En el neonato se recomienda evitar la ecografía en las primeras horas de vida por el riesgo de infravalorar la dilatación. La graduación describe el hallazgo, pero no confirma por sí sola la existencia de obstrucción."
+  },
+  {
+    "codigo": "volumen-hematoma-abc2",
+    "nombre": "Volumen de hematoma intracerebral (ABC/2)",
+    "categoria": "Volumetría",
+    "modalidad": "TC",
+    "tipo": "formula",
+    "descripcion": "Estima de forma rápida el volumen de una hemorragia intracerebral en la tomografía. Es un método de cabecera muy usado porque el volumen es un factor pronóstico de primer orden.",
+    "campos": [
+      {
+        "id": "a",
+        "etiqueta": "Diámetro mayor A (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "b",
+        "etiqueta": "Diámetro perpendicular B (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "c",
+        "etiqueta": "Extensión craneocaudal C (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "resultados": [
+      {
+        "etiqueta": "Volumen aproximado",
+        "formula": "a * b * c / 2",
+        "unidad": "mL",
+        "decimales": 1
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 >= 30",
+        "texto": "Hematoma voluminoso (30 mL o más): se asocia a peor pronóstico funcional y mayor mortalidad.",
+        "nivel": "alto"
+      },
+      {
+        "si": "r0 >= 10",
+        "texto": "Hematoma de volumen intermedio. Correlaciona con la localización y la clínica.",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Hematoma de pequeño volumen (menos de 10 mL).",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Volumen (mL) = A × B × C / 2, con los tres diámetros en cm",
+    "notas": "A es el diámetro mayor del hematoma en el corte donde es más grande; B el perpendicular a A; C la extensión craneocaudal, estimada como el número de cortes en que aparece por el grosor de corte. La fórmula asume una forma elipsoidal y pierde precisión en hematomas irregulares o con extensión intraventricular."
+  },
+  {
+    "codigo": "indice-cardiotoracico",
+    "nombre": "Índice cardiotorácico",
+    "categoria": "Vascular",
+    "modalidad": "RX",
+    "tipo": "formula",
+    "descripcion": "Relaciona el ancho de la silueta cardiaca con el ancho del tórax en la radiografía posteroanterior. Es la forma clásica de objetivar la cardiomegalia.",
+    "campos": [
+      {
+        "id": "cardiaco",
+        "etiqueta": "Diámetro cardiaco máximo (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "toracico",
+        "etiqueta": "Diámetro torácico interno máximo (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "resultados": [
+      {
+        "etiqueta": "Índice cardiotorácico",
+        "formula": "cardiaco / toracico",
+        "unidad": "",
+        "decimales": 2
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 > 0.5",
+        "texto": "Índice mayor de 0,5: cardiomegalia en la proyección posteroanterior.",
+        "nivel": "alto"
+      },
+      {
+        "si": "true",
+        "texto": "Índice dentro de límites normales (0,5 o menos).",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Índice = diámetro cardiaco máximo / diámetro torácico interno máximo",
+    "notas": "Solo es válido en la radiografía posteroanterior realizada en inspiración adecuada y bipedestación. En proyección anteroposterior, en decúbito o en inspiración insuficiente la silueta cardiaca se magnifica y el índice deja de ser fiable."
+  },
+  {
+    "codigo": "indice-evans",
+    "nombre": "Índice de Evans (ventriculomegalia)",
+    "categoria": "Volumetría",
+    "modalidad": "TC",
+    "tipo": "formula",
+    "descripcion": "Cuantifica el tamaño ventricular en relación con el cráneo. Se emplea en el estudio de la hidrocefalia, en especial la hidrocefalia crónica del adulto.",
+    "campos": [
+      {
+        "id": "astas",
+        "etiqueta": "Anchura máxima de las astas frontales (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "craneo",
+        "etiqueta": "Diámetro interno máximo del cráneo (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "resultados": [
+      {
+        "etiqueta": "Índice de Evans",
+        "formula": "astas / craneo",
+        "unidad": "",
+        "decimales": 2
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 > 0.3",
+        "texto": "Índice mayor de 0,3: ventriculomegalia. En el contexto clínico adecuado apoya el diagnóstico de hidrocefalia.",
+        "nivel": "alto"
+      },
+      {
+        "si": "true",
+        "texto": "Tamaño ventricular dentro de límites normales (0,3 o menos).",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Índice = anchura máxima de las astas frontales / diámetro interno máximo del cráneo, en el mismo corte axial",
+    "notas": "Ambas medidas se toman en el corte axial donde las astas frontales son más anchas. Un índice elevado indica ventriculomegalia, pero no distingue por sí solo entre hidrocefalia y atrofia; hay que valorar los surcos, el cuerpo calloso y la clínica."
+  },
+  {
+    "codigo": "indice-tobillo-brazo",
+    "nombre": "Índice tobillo-brazo",
+    "categoria": "Vascular",
+    "modalidad": "US",
+    "tipo": "formula",
+    "descripcion": "Compara la presión sistólica del tobillo con la del brazo para detectar y graduar la enfermedad arterial periférica de las extremidades inferiores.",
+    "campos": [
+      {
+        "id": "tobillo",
+        "etiqueta": "Presión sistólica del tobillo (mmHg)",
+        "unidad": "mmHg",
+        "min": 0,
+        "paso": 1
+      },
+      {
+        "id": "brazo",
+        "etiqueta": "Presión sistólica del brazo más alta (mmHg)",
+        "unidad": "mmHg",
+        "min": 0,
+        "paso": 1
+      }
+    ],
+    "resultados": [
+      {
+        "etiqueta": "Índice tobillo-brazo",
+        "formula": "tobillo / brazo",
+        "unidad": "",
+        "decimales": 2
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 > 1.4",
+        "texto": "Mayor de 1,4: arterias no compresibles por calcificación de la media. El índice no es valorable; usar otras pruebas.",
+        "nivel": "medio"
+      },
+      {
+        "si": "r0 < 0.4",
+        "texto": "Menor de 0,4: enfermedad arterial periférica grave (isquemia crítica).",
+        "nivel": "alto"
+      },
+      {
+        "si": "r0 < 0.9",
+        "texto": "Menor de 0,9: enfermedad arterial periférica.",
+        "nivel": "alto"
+      },
+      {
+        "si": "r0 < 1.0",
+        "texto": "Entre 0,9 y 1,0: valor límite, a vigilar.",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Entre 1,0 y 1,4: índice normal.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Índice = presión sistólica del tobillo / presión sistólica braquial más alta",
+    "notas": "Se calcula un índice para cada pierna usando la presión más alta de sus arterias (pedia o tibial posterior). Valores muy altos, por encima de 1,4, indican arterias rígidas y calcificadas, frecuentes en diabetes e insuficiencia renal, y obligan a recurrir a otras pruebas."
+  },
+  {
+    "codigo": "esteatosis-higado-bazo-tc",
+    "nombre": "Esteatosis hepática por diferencia hígado-bazo (TC)",
+    "categoria": "Contraste",
+    "modalidad": "TC",
+    "tipo": "formula",
+    "descripcion": "Estima la presencia de hígado graso midiendo la atenuación hepática y comparándola con la del bazo en una tomografía sin contraste.",
+    "campos": [
+      {
+        "id": "higado",
+        "etiqueta": "Atenuación del hígado (UH)",
+        "unidad": "UH",
+        "paso": 1
+      },
+      {
+        "id": "bazo",
+        "etiqueta": "Atenuación del bazo (UH)",
+        "unidad": "UH",
+        "paso": 1
+      }
+    ],
+    "resultados": [
+      {
+        "etiqueta": "Diferencia hígado − bazo",
+        "formula": "higado - bazo",
+        "unidad": "UH",
+        "decimales": 0
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "higado < 40 || r0 <= -10",
+        "texto": "Sugiere esteatosis hepática: hígado con atenuación menor de 40 UH o al menos 10 UH por debajo del bazo.",
+        "nivel": "alto"
+      },
+      {
+        "si": "true",
+        "texto": "Atenuación hepática dentro de límites normales.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Diferencia = atenuación del hígado − atenuación del bazo (en TC sin contraste)",
+    "notas": "Solo es válido en tomografía SIN contraste, porque el realce altera las densidades. El hígado normal es algo más denso que el bazo. Los depósitos de hierro, el edema o los fármacos como la amiodarona pueden aumentar la densidad hepática y enmascarar la grasa."
+  },
+  {
+    "codigo": "edad-gestacional-crl",
+    "nombre": "Edad gestacional por longitud cráneo-caudal",
+    "categoria": "Volumetría",
+    "modalidad": "US",
+    "tipo": "formula",
+    "descripcion": "Estima la edad gestacional en el primer trimestre a partir de la longitud cráneo-caudal del embrión, la medida más fiable para datar el embarazo en esa etapa.",
+    "campos": [
+      {
+        "id": "crl",
+        "etiqueta": "Longitud cráneo-caudal (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "resultados": [
+      {
+        "etiqueta": "Edad gestacional aproximada",
+        "formula": "crl + 6.5",
+        "unidad": "semanas",
+        "decimales": 1
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "true",
+        "texto": "Edad gestacional estimada. Válida para longitudes cráneo-caudales de entre 2 y 9,5 cm.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Edad gestacional (semanas) ≈ longitud cráneo-caudal (cm) + 6,5",
+    "notas": "Es una regla clínica aproximada, fiable para longitudes de entre 2 y 9,5 cm. Una vez establecida la fecha con la longitud cráneo-caudal del primer trimestre, no se modifica con mediciones posteriores. Fuera de ese rango deben usarse tablas biométricas específicas."
+  },
+  {
+    "codigo": "edad-gestacional-saco",
+    "nombre": "Edad gestacional por diámetro del saco gestacional",
+    "categoria": "Volumetría",
+    "modalidad": "US",
+    "tipo": "formula",
+    "descripcion": "Aproxima la edad gestacional muy temprana a partir del diámetro medio del saco gestacional, cuando aún no se identifica el embrión.",
+    "campos": [
+      {
+        "id": "msd",
+        "etiqueta": "Diámetro medio del saco (mm)",
+        "unidad": "mm",
+        "min": 0,
+        "paso": 1
+      }
+    ],
+    "resultados": [
+      {
+        "etiqueta": "Edad gestacional aproximada",
+        "formula": "(msd + 30) / 7",
+        "unidad": "semanas",
+        "decimales": 1
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "true",
+        "texto": "Estimación de la edad gestacional muy temprana a partir del saco.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Edad gestacional (días) ≈ diámetro medio del saco (mm) + 30",
+    "notas": "El diámetro medio del saco es el promedio de sus tres diámetros ortogonales. Es una aproximación grosera de las primeras semanas; en cuanto se identifica el embrión, la longitud cráneo-caudal es mucho más precisa y debe preferirse."
+  },
+  {
+    "codigo": "fraccion-eyeccion",
+    "nombre": "Fracción de eyección del ventrículo izquierdo",
+    "categoria": "Vascular",
+    "modalidad": "US",
+    "tipo": "formula",
+    "descripcion": "Calcula el porcentaje de sangre que expulsa el ventrículo izquierdo en cada latido, a partir de sus volúmenes al final de la diástole y de la sístole.",
+    "campos": [
+      {
+        "id": "vdf",
+        "etiqueta": "Volumen diastólico final (mL)",
+        "unidad": "mL",
+        "min": 0,
+        "paso": 1
+      },
+      {
+        "id": "vsf",
+        "etiqueta": "Volumen sistólico final (mL)",
+        "unidad": "mL",
+        "min": 0,
+        "paso": 1
+      }
+    ],
+    "resultados": [
+      {
+        "etiqueta": "Fracción de eyección",
+        "formula": "((vdf - vsf) / vdf) * 100",
+        "unidad": "%",
+        "decimales": 0
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 >= 55",
+        "texto": "Función sistólica normal (55 % o más).",
+        "nivel": "normal"
+      },
+      {
+        "si": "r0 >= 40",
+        "texto": "Disfunción sistólica ligera (40 a 54 %).",
+        "nivel": "medio"
+      },
+      {
+        "si": "r0 >= 30",
+        "texto": "Disfunción sistólica moderada (30 a 39 %).",
+        "nivel": "alto"
+      },
+      {
+        "si": "true",
+        "texto": "Disfunción sistólica grave (menos de 30 %).",
+        "nivel": "alto"
+      }
+    ],
+    "formulaTexto": "Fracción de eyección (%) = (volumen diastólico final − volumen sistólico final) / volumen diastólico final × 100",
+    "notas": "Los volúmenes se obtienen habitualmente por el método de Simpson biplano en ecocardiografía. Los umbrales pueden variar ligeramente entre guías. La fracción de eyección no refleja toda la función cardiaca: puede ser normal en la insuficiencia cardiaca con función conservada."
+  },
+  {
+    "codigo": "superficie-corporal-mosteller",
+    "nombre": "Superficie corporal (fórmula de Mosteller)",
+    "categoria": "Volumetría",
+    "modalidad": "Varias",
+    "tipo": "formula",
+    "descripcion": "Calcula la superficie corporal, necesaria para indexar mediciones de imagen como el diámetro de la aorta o los volúmenes cardiacos respecto al tamaño del paciente.",
+    "campos": [
+      {
+        "id": "peso",
+        "etiqueta": "Peso (kg)",
+        "unidad": "kg",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "talla",
+        "etiqueta": "Talla (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "resultados": [
+      {
+        "etiqueta": "Superficie corporal",
+        "formula": "Math.sqrt(peso * talla / 3600)",
+        "unidad": "m²",
+        "decimales": 2
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "true",
+        "texto": "Superficie corporal estimada. Sirve para indexar medidas de imagen (por ejemplo, el diámetro aórtico o los volúmenes cardiacos) respecto al tamaño del paciente.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Superficie (m²) = raíz cuadrada de (peso en kg × talla en cm / 3600)",
+    "notas": "La indexación por superficie corporal permite comparar mediciones entre pacientes de distinta constitución. Existen otras fórmulas (Du Bois, Haycock) con resultados muy similares."
+  },
+  {
+    "codigo": "renal-nephrometry",
+    "nombre": "Puntuación nefrométrica RENAL",
+    "categoria": "Puntuación",
+    "modalidad": "TC",
+    "tipo": "puntuacion",
+    "descripcion": "Cuantifica la complejidad anatómica de una masa renal para estimar el riesgo quirúrgico y orientar el tipo de cirugía. Suma cuatro componentes que dan un total de 4 a 12 puntos.",
+    "preguntas": [
+      {
+        "id": "radio",
+        "etiqueta": "R — Radio (diámetro máximo del tumor)",
+        "opciones": [
+          {
+            "texto": "4 cm o menos",
+            "puntos": 1
+          },
+          {
+            "texto": "Más de 4 y menos de 7 cm",
+            "puntos": 2
+          },
+          {
+            "texto": "7 cm o más",
+            "puntos": 3
+          }
+        ]
+      },
+      {
+        "id": "exofitico",
+        "etiqueta": "E — Componente exofítico o endofítico",
+        "opciones": [
+          {
+            "texto": "Al menos el 50 % exofítico",
+            "puntos": 1
+          },
+          {
+            "texto": "Menos del 50 % exofítico",
+            "puntos": 2
+          },
+          {
+            "texto": "Completamente endofítico",
+            "puntos": 3
+          }
+        ]
+      },
+      {
+        "id": "cercania",
+        "etiqueta": "N — Cercanía al sistema colector o al seno renal",
+        "opciones": [
+          {
+            "texto": "7 mm o más",
+            "puntos": 1
+          },
+          {
+            "texto": "Más de 4 y menos de 7 mm",
+            "puntos": 2
+          },
+          {
+            "texto": "4 mm o menos",
+            "puntos": 3
+          }
+        ]
+      },
+      {
+        "id": "localizacion",
+        "etiqueta": "L — Localización respecto a las líneas polares",
+        "opciones": [
+          {
+            "texto": "Totalmente por encima o por debajo de las líneas polares",
+            "puntos": 1
+          },
+          {
+            "texto": "Cruza una línea polar",
+            "puntos": 2
+          },
+          {
+            "texto": "Cruza la línea media del riñón o se sitúa entre las líneas polares",
+            "puntos": 3
+          }
+        ]
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "total >= 10",
+        "texto": "Complejidad alta (10 a 12 puntos): mayor dificultad quirúrgica y más riesgo de complicaciones.",
+        "nivel": "alto"
+      },
+      {
+        "si": "total >= 7",
+        "texto": "Complejidad moderada (7 a 9 puntos).",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Complejidad baja (4 a 6 puntos): favorable para cirugía conservadora de nefronas.",
+        "nivel": "normal"
+      }
+    ],
+    "notas": "Al total se le añade el sufijo 'a', 'p' o 'x' según la masa sea anterior, posterior o indeterminada; ese sufijo es descriptivo y no suma puntos. La puntuación orienta, pero la decisión quirúrgica depende también de la función renal, la experiencia del cirujano y las características del paciente."
+  },
+  {
+    "codigo": "cad-rads-estenosis",
+    "nombre": "CAD-RADS por grado de estenosis coronaria",
+    "categoria": "Puntuación",
+    "modalidad": "TC",
+    "tipo": "puntuacion",
+    "descripcion": "Asigna la categoría CAD-RADS según el grado máximo de estenosis coronaria observado en la angiotomografía, para estandarizar el informe y orientar el manejo.",
+    "preguntas": [
+      {
+        "id": "estenosis",
+        "etiqueta": "Estenosis coronaria máxima",
+        "opciones": [
+          {
+            "texto": "0 % — sin placa ni estenosis",
+            "puntos": 0
+          },
+          {
+            "texto": "1 a 24 % — mínima",
+            "puntos": 1
+          },
+          {
+            "texto": "25 a 49 % — leve",
+            "puntos": 2
+          },
+          {
+            "texto": "50 a 69 % — moderada",
+            "puntos": 3
+          },
+          {
+            "texto": "70 a 99 % — grave",
+            "puntos": 4
+          },
+          {
+            "texto": "100 % — oclusión total",
+            "puntos": 5
+          }
+        ]
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "total >= 5",
+        "texto": "CAD-RADS 5: oclusión total de un vaso coronario.",
+        "nivel": "alto"
+      },
+      {
+        "si": "total >= 4",
+        "texto": "CAD-RADS 4: enfermedad grave. Suele requerir valoración funcional o coronariografía invasiva.",
+        "nivel": "alto"
+      },
+      {
+        "si": "total >= 3",
+        "texto": "CAD-RADS 3: estenosis moderada. Puede requerir estudio funcional de isquemia.",
+        "nivel": "medio"
+      },
+      {
+        "si": "total >= 2",
+        "texto": "CAD-RADS 2: enfermedad leve, sin estenosis obstructiva.",
+        "nivel": "medio"
+      },
+      {
+        "si": "total >= 1",
+        "texto": "CAD-RADS 1: placa mínima sin estenosis significativa.",
+        "nivel": "normal"
+      },
+      {
+        "si": "true",
+        "texto": "CAD-RADS 0: ausencia de enfermedad coronaria detectable.",
+        "nivel": "normal"
+      }
+    ],
+    "notas": "Esta versión simplificada se basa solo en el grado de estenosis. El sistema completo añade modificadores para la calidad del estudio, los stents, los injertos y la carga total de placa, y distingue las categorías 4A y 4B según la extensión. La categoría orienta el manejo, siempre en el contexto clínico."
   }
 ]
