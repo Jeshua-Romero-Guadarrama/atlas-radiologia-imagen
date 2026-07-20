@@ -107,6 +107,32 @@ async function cargarDatos() {
   ocultarSiVacio("signos", SIGNOS);
   ocultarSiVacio("clasificaciones", CLASIFICACIONES);
   ocultarSiVacio("calculadoras", CALCULADORAS);
+
+  pintarMetricas();
+}
+
+/* Tarjetas-resumen de la portada del catálogo */
+function pintarMetricas() {
+  const cont = document.getElementById("metricas");
+  if (!cont) return;
+  const sistemas = new Set(FICHAS.map((f) => f.sistema)).size;
+  const datos = [
+    ["🗂️", FICHAS.length, "fichas"],
+    ["🫀", sistemas, "sistemas"],
+    ["🔬", SIGNOS.length, "signos"],
+    ["📐", CLASIFICACIONES.length, "clasificaciones"],
+    ["🧮", CALCULADORAS.length, "calculadoras"],
+    ["📖", GLOSARIO.length, "términos"],
+  ];
+  cont.innerHTML = datos
+    .map(([ic, n, t]) => `<span class="metrica">${ic} <strong>${n}</strong> ${t}</span>`)
+    .join("");
+}
+
+// Clase de color según la modalidad de imagen
+function claseModalidad(mod) {
+  const m = { RX: "mod-rx", TC: "mod-tc", RM: "mod-rm", US: "mod-us" };
+  return m[mod] || "";
 }
 
 /* ============================================================
@@ -190,7 +216,7 @@ function pintarGaleria() {
       <div class="tarjeta-cuerpo">
         <div class="insignias">
           <span class="insignia">${escapar(ficha.sistema)}</span>
-          <span class="insignia modalidad">${escapar(ficha.modalidad)}</span>
+          <span class="insignia modalidad ${claseModalidad(ficha.modalidad)}">${escapar(ficha.modalidad)}</span>
           <span class="insignia nivel ${(ficha.dificultad || "").toLowerCase()}">${escapar(ficha.dificultad || "")}</span>
         </div>
         <h3>${escapar(ficha.titulo)}</h3>
@@ -213,7 +239,7 @@ function abrirFicha(ficha) {
 
   document.getElementById("modal-insignias").innerHTML =
     `<span class="insignia">${escapar(ficha.sistema)}</span>
-     <span class="insignia modalidad">${escapar(ficha.modalidad)}</span>
+     <span class="insignia modalidad ${claseModalidad(ficha.modalidad)}">${escapar(ficha.modalidad)}</span>
      <span class="insignia">${escapar(ficha.region)}</span>
      <span class="insignia nivel ${(ficha.dificultad || "").toLowerCase()}">${escapar(ficha.dificultad || "")}</span>`;
   document.getElementById("modal-titulo").textContent = ficha.titulo;
@@ -348,7 +374,7 @@ function pintarSignos() {
     t.innerHTML = `
       <div class="insignias">
         <span class="insignia">${escapar(signo.sistema)}</span>
-        <span class="insignia modalidad">${escapar(signo.modalidad)}</span>
+        <span class="insignia modalidad ${claseModalidad(signo.modalidad)}">${escapar(signo.modalidad)}</span>
       </div>
       <h3>${escapar(signo.nombre)}</h3>
       <p>${escapar((signo.queEs || "").slice(0, 130))}…</p>`;
@@ -360,7 +386,7 @@ function pintarSignos() {
 function abrirSigno(signo) {
   document.getElementById("signo-insignias").innerHTML =
     `<span class="insignia">${escapar(signo.sistema)}</span>
-     <span class="insignia modalidad">${escapar(signo.modalidad)}</span>`;
+     <span class="insignia modalidad ${claseModalidad(signo.modalidad)}">${escapar(signo.modalidad)}</span>`;
   document.getElementById("signo-nombre").textContent = signo.nombre;
   document.getElementById("signo-quees").textContent = signo.queEs || "";
   document.getElementById("signo-porque").textContent = signo.porQueOcurre || "";
@@ -403,7 +429,7 @@ function pintarClasificaciones() {
     t.innerHTML = `
       <div class="insignias">
         <span class="insignia">${escapar(clas.sistema)}</span>
-        <span class="insignia modalidad">${escapar(clas.modalidad)}</span>
+        <span class="insignia modalidad ${claseModalidad(clas.modalidad)}">${escapar(clas.modalidad)}</span>
         <span class="insignia nivel">${(clas.grados || []).length} grados</span>
       </div>
       <h3>${escapar(clas.nombre)}</h3>
@@ -416,7 +442,7 @@ function pintarClasificaciones() {
 function abrirClasificacion(clas) {
   document.getElementById("clas-insignias").innerHTML =
     `<span class="insignia">${escapar(clas.sistema)}</span>
-     <span class="insignia modalidad">${escapar(clas.modalidad)}</span>`;
+     <span class="insignia modalidad ${claseModalidad(clas.modalidad)}">${escapar(clas.modalidad)}</span>`;
   document.getElementById("clas-nombre").textContent = clas.nombre;
   document.getElementById("clas-paraque").textContent = clas.paraQue || "";
   document.getElementById("clas-comousarla").textContent = clas.comoUsarla || "";
@@ -485,7 +511,7 @@ function pintarCalculadoras() {
     t.innerHTML = `
       <div class="insignias">
         <span class="insignia">${escapar(calc.categoria)}</span>
-        <span class="insignia modalidad">${escapar(calc.modalidad)}</span>
+        <span class="insignia modalidad ${claseModalidad(calc.modalidad)}">${escapar(calc.modalidad)}</span>
       </div>
       <h3>${escapar(calc.nombre)}</h3>
       <p>${escapar((calc.descripcion || "").slice(0, 120))}…</p>`;
@@ -497,7 +523,7 @@ function pintarCalculadoras() {
 function abrirCalculadora(calc) {
   document.getElementById("calc-insignias").innerHTML =
     `<span class="insignia">${escapar(calc.categoria)}</span>
-     <span class="insignia modalidad">${escapar(calc.modalidad)}</span>`;
+     <span class="insignia modalidad ${claseModalidad(calc.modalidad)}">${escapar(calc.modalidad)}</span>`;
   document.getElementById("calc-nombre").textContent = calc.nombre;
   document.getElementById("calc-descripcion").textContent = calc.descripcion || "";
 
@@ -647,6 +673,8 @@ function mostrarPregunta() {
   document.getElementById("quiz-numero").textContent =
     `Pregunta ${indicePregunta + 1} de ${preguntasQuiz.length}`;
   document.getElementById("quiz-puntos").textContent = puntos;
+  const barra = document.getElementById("quiz-barra-relleno");
+  if (barra) barra.style.width = `${(indicePregunta / preguntasQuiz.length) * 100}%`;
 
   const imagen = document.getElementById("quiz-imagen");
   imagen.src = correcta.imagen;
@@ -697,6 +725,8 @@ function siguientePregunta() {
   if (indicePregunta < preguntasQuiz.length) {
     mostrarPregunta();
   } else {
+    const barra = document.getElementById("quiz-barra-relleno");
+    if (barra) barra.style.width = "100%";
     document.getElementById("quiz-pregunta").classList.add("oculta");
     document.getElementById("quiz-final").classList.remove("oculta");
     const mensaje =
@@ -715,6 +745,34 @@ document.getElementById("campo-busqueda").addEventListener("input", pintarGaleri
 document.getElementById("busqueda-glosario").addEventListener("input", pintarGlosario);
 
 /* ============================================================
+   Interacciones de la interfaz
+   ============================================================ */
+
+// Conmutador de tema claro / oscuro
+const botonTema = document.getElementById("conmutar-tema");
+if (botonTema) {
+  botonTema.addEventListener("click", () => {
+    const actual = document.documentElement.dataset.tema === "oscuro" ? "claro" : "oscuro";
+    document.documentElement.dataset.tema = actual;
+    try { localStorage.setItem("tema", actual); } catch {}
+    const meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute("content", actual === "oscuro" ? "#0b1220" : "#0e7490");
+  });
+}
+
+// Barra de progreso de lectura y botón de volver arriba
+const barraScroll = document.getElementById("barra-scroll");
+const irArriba = document.getElementById("ir-arriba");
+function alDesplazar() {
+  const alto = document.documentElement.scrollHeight - window.innerHeight;
+  const pct = alto > 0 ? (window.scrollY / alto) * 100 : 0;
+  if (barraScroll) barraScroll.style.width = pct + "%";
+  if (irArriba) irArriba.classList.toggle("visible", window.scrollY > 500);
+}
+window.addEventListener("scroll", alDesplazar, { passive: true });
+if (irArriba) irArriba.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+
+/* ============================================================
    Arranque
    ============================================================ */
 (async () => {
@@ -726,4 +784,5 @@ document.getElementById("busqueda-glosario").addEventListener("input", pintarGlo
   pintarSignos();
   pintarClasificaciones();
   pintarCalculadoras();
+  alDesplazar();
 })();

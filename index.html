@@ -3,39 +3,68 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0e7490">
   <title>Atlas de Radiología e Imagen</title>
   <link rel="stylesheet" href="css/estilo.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🩻</text></svg>">
+  <script>
+    // Aplica el tema guardado antes de pintar, para evitar el parpadeo inicial.
+    (function () {
+      try {
+        var t = localStorage.getItem("tema");
+        if (!t) t = matchMedia("(prefers-color-scheme: dark)").matches ? "oscuro" : "claro";
+        document.documentElement.dataset.tema = t;
+      } catch (e) { document.documentElement.dataset.tema = "claro"; }
+    })();
+  </script>
 </head>
 <body>
 
+  <div class="barra-progreso" id="barra-scroll"></div>
+
   <header class="cabecera">
-    <div class="cabecera-contenido">
-      <h1>🩻 Atlas de Radiología e Imagen</h1>
-      <p class="lema">Catálogo de imagenología por sistemas del cuerpo</p>
+    <div class="cabecera-superior">
+      <a class="marca" href="#" aria-label="Inicio">
+        <span class="marca-icono">🩻</span>
+        <span class="marca-texto">
+          <strong>Atlas de Radiología</strong>
+          <small>e Imagen · catálogo de estudio</small>
+        </span>
+      </a>
+      <button id="conmutar-tema" class="boton-tema" aria-label="Cambiar tema" title="Cambiar tema claro/oscuro">
+        <span class="icono-sol">☀️</span><span class="icono-luna">🌙</span>
+      </button>
     </div>
-    <nav class="pestanas">
-      <button class="pestana activa" data-vista="catalogo">📚 Catálogo</button>
-      <button class="pestana" data-vista="signos">🔬 Signos</button>
-      <button class="pestana" data-vista="clasificaciones">📐 Clasificaciones</button>
-      <button class="pestana" data-vista="calculadoras">🧮 Calculadoras</button>
-      <button class="pestana" data-vista="temas">📘 Temas</button>
-      <button class="pestana" data-vista="glosario">📖 Glosario</button>
-      <button class="pestana" data-vista="estudio">🎯 Modo estudio</button>
+    <nav class="pestanas" id="pestanas" aria-label="Secciones">
+      <button class="pestana activa" data-vista="catalogo"><span class="pestana-icono">📚</span>Catálogo</button>
+      <button class="pestana" data-vista="signos"><span class="pestana-icono">🔬</span>Signos</button>
+      <button class="pestana" data-vista="clasificaciones"><span class="pestana-icono">📐</span>Clasificaciones</button>
+      <button class="pestana" data-vista="calculadoras"><span class="pestana-icono">🧮</span>Calculadoras</button>
+      <button class="pestana" data-vista="temas"><span class="pestana-icono">📘</span>Temas</button>
+      <button class="pestana" data-vista="glosario"><span class="pestana-icono">📖</span>Glosario</button>
+      <button class="pestana" data-vista="estudio"><span class="pestana-icono">🎯</span>Modo estudio</button>
     </nav>
   </header>
 
   <!-- ============ VISTA: CATÁLOGO ============ -->
   <main id="vista-catalogo" class="vista">
+    <section class="portada">
+      <h1 class="portada-titulo">Explora la imagen médica por sistemas</h1>
+      <p class="portada-lema">Busca un estudio o un hallazgo, compáralo con casos reales y aprende qué observar en cada modalidad.</p>
+      <div id="metricas" class="metricas"></div>
+    </section>
     <section class="buscador">
-      <input type="search" id="campo-busqueda" placeholder="Buscar... (ej. fractura, tórax, neumotórax, sombra acústica)" autocomplete="off">
+      <div class="campo-busqueda-envoltorio">
+        <span class="icono-busqueda" aria-hidden="true">🔍</span>
+        <input type="search" id="campo-busqueda" placeholder="Buscar por nombre, sistema, hallazgo o palabra clave…" autocomplete="off">
+      </div>
       <div class="filtros">
         <div class="grupo-filtro">
-          <span class="etiqueta-filtro">Sistema:</span>
+          <span class="etiqueta-filtro">Sistema</span>
           <div id="filtros-sistema" class="chips"></div>
         </div>
         <div class="grupo-filtro">
-          <span class="etiqueta-filtro">Modalidad:</span>
+          <span class="etiqueta-filtro">Modalidad</span>
           <div id="filtros-modalidad" class="chips"></div>
         </div>
       </div>
@@ -46,8 +75,15 @@
 
   <!-- ============ VISTA: SIGNOS RADIOLÓGICOS ============ -->
   <main id="vista-signos" class="vista oculta">
+    <section class="encabezado-vista">
+      <h1>🔬 Signos radiológicos</h1>
+      <p>Signos con nombre propio, con su base fisiopatológica, su significado y un truco para recordarlos.</p>
+    </section>
     <section class="buscador">
-      <input type="search" id="busqueda-signos" placeholder="Buscar signo... (ej. silueta, broncograma, Hampton)" autocomplete="off">
+      <div class="campo-busqueda-envoltorio">
+        <span class="icono-busqueda" aria-hidden="true">🔍</span>
+        <input type="search" id="busqueda-signos" placeholder="Buscar signo… (ej. silueta, broncograma, Hampton)" autocomplete="off">
+      </div>
       <p id="contador-signos" class="contador"></p>
     </section>
     <section id="lista-signos" class="galeria-texto"></section>
@@ -55,8 +91,15 @@
 
   <!-- ============ VISTA: CLASIFICACIONES ============ -->
   <main id="vista-clasificaciones" class="vista oculta">
+    <section class="encabezado-vista">
+      <h1>📐 Clasificaciones y escalas</h1>
+      <p>Sistemas de graduación con sus criterios, sus grados y su implicación clínica.</p>
+    </section>
     <section class="buscador">
-      <input type="search" id="busqueda-clasificaciones" placeholder="Buscar clasificación... (ej. Salter-Harris, BI-RADS, Cobb)" autocomplete="off">
+      <div class="campo-busqueda-envoltorio">
+        <span class="icono-busqueda" aria-hidden="true">🔍</span>
+        <input type="search" id="busqueda-clasificaciones" placeholder="Buscar clasificación… (ej. Salter-Harris, BI-RADS, Cobb)" autocomplete="off">
+      </div>
       <p id="contador-clasificaciones" class="contador"></p>
     </section>
     <section id="lista-clasificaciones" class="galeria-texto"></section>
@@ -64,8 +107,15 @@
 
   <!-- ============ VISTA: CALCULADORAS ============ -->
   <main id="vista-calculadoras" class="vista oculta">
+    <section class="encabezado-vista">
+      <h1>🧮 Calculadoras</h1>
+      <p>Volumetría, lavado de contraste, índices Doppler y escalas de puntuación. Escribe los datos y obtén el resultado con su interpretación.</p>
+    </section>
     <section class="buscador">
-      <input type="search" id="busqueda-calculadoras" placeholder="Buscar calculadora... (ej. volumen, bazo, próstata, ASPECTS)" autocomplete="off">
+      <div class="campo-busqueda-envoltorio">
+        <span class="icono-busqueda" aria-hidden="true">🔍</span>
+        <input type="search" id="busqueda-calculadoras" placeholder="Buscar calculadora… (ej. volumen, bazo, próstata, ASPECTS)" autocomplete="off">
+      </div>
       <p id="contador-calculadoras" class="contador"></p>
     </section>
     <section id="lista-calculadoras" class="galeria-texto"></section>
@@ -136,13 +186,24 @@
 
   <!-- ============ VISTA: TEMAS ============ -->
   <main id="vista-temas" class="vista oculta">
+    <section class="encabezado-vista">
+      <h1>📘 Temas de estudio</h1>
+      <p>Artículos en profundidad sobre fundamentos, técnica e interpretación.</p>
+    </section>
     <section id="lista-temas" class="temas"></section>
   </main>
 
   <!-- ============ VISTA: GLOSARIO ============ -->
   <main id="vista-glosario" class="vista oculta">
+    <section class="encabezado-vista">
+      <h1>📖 Glosario</h1>
+      <p>Terminología esencial de imagenología, organizada por categoría.</p>
+    </section>
     <section class="buscador">
-      <input type="search" id="busqueda-glosario" placeholder="Buscar término... (ej. radiolúcido, hiperdenso, anecoico, ALARA)" autocomplete="off">
+      <div class="campo-busqueda-envoltorio">
+        <span class="icono-busqueda" aria-hidden="true">🔍</span>
+        <input type="search" id="busqueda-glosario" placeholder="Buscar término… (ej. radiolúcido, hiperdenso, anecoico, ALARA)" autocomplete="off">
+      </div>
     </section>
     <section id="lista-glosario" class="glosario"></section>
   </main>
@@ -151,12 +212,17 @@
   <main id="vista-estudio" class="vista oculta">
     <section class="quiz-panel">
       <div id="quiz-inicio">
-        <h2>🎯 ¿Qué estás viendo?</h2>
+        <div class="quiz-hero-icono">🎯</div>
+        <h2>¿Qué estás viendo?</h2>
         <p>Te muestro una imagen del catálogo y tienes que identificar qué estudio o hallazgo es. Ideal para repasar antes de un examen.</p>
         <button id="boton-empezar" class="boton-primario">Empezar quiz</button>
       </div>
       <div id="quiz-pregunta" class="oculta">
-        <p class="quiz-progreso"><span id="quiz-numero"></span> · Aciertos: <span id="quiz-puntos">0</span></p>
+        <div class="quiz-cabecera">
+          <span id="quiz-numero" class="quiz-numero"></span>
+          <span class="quiz-marcador">Aciertos <strong id="quiz-puntos">0</strong></span>
+        </div>
+        <div class="quiz-barra"><div id="quiz-barra-relleno" class="quiz-barra-relleno"></div></div>
         <div class="quiz-imagen-marco">
           <img id="quiz-imagen" alt="Imagen del quiz">
         </div>
@@ -166,7 +232,8 @@
         <button id="boton-siguiente" class="boton-primario oculta">Siguiente →</button>
       </div>
       <div id="quiz-final" class="oculta">
-        <h2>🏁 ¡Terminaste!</h2>
+        <div class="quiz-hero-icono">🏁</div>
+        <h2>¡Terminaste!</h2>
         <p id="quiz-resultado-final" class="quiz-resultado"></p>
         <button id="boton-reiniciar" class="boton-primario">Jugar otra vez</button>
       </div>
@@ -259,6 +326,8 @@
     <p>Imágenes de Wikimedia Commons con licencia libre, almacenadas localmente en esta aplicación · Material de estudio: no sustituye la formación académica ni la valoración de un profesional.</p>
     <p id="estado-origen" class="estado-origen"></p>
   </footer>
+
+  <button id="ir-arriba" class="ir-arriba" aria-label="Volver arriba" title="Volver arriba">↑</button>
 
   <script src="js/app.js"></script>
 </body>
