@@ -574,6 +574,9 @@ function evaluarExpresion(expresion, variables) {
   }
 }
 
+// Frase de la última calculadora resuelta, lista para copiar al informe
+let ultimoResumenInforme = "";
+
 function pintarCalculadoras() {
   const consulta = normalizar(document.getElementById("busqueda-calculadoras").value);
   const lista = CALCULADORAS.filter((c) =>
@@ -710,6 +713,22 @@ function calcular(calc) {
   } else {
     interp.classList.add("oculta");
   }
+
+  // Frase lista para pegar en un informe radiológico
+  const partes = [];
+  if (calc.tipo === "puntuacion") {
+    partes.push("Puntuación total " + variables.total);
+  } else {
+    (calc.resultados || []).forEach((res, i) => {
+      const v = variables["r" + i];
+      const texto = v === null || Number.isNaN(v)
+        ? "n/d"
+        : Number(v).toFixed(res.decimales !== undefined ? res.decimales : 2);
+      partes.push(res.etiqueta + " " + texto + (res.unidad ? " " + res.unidad : ""));
+    });
+  }
+  ultimoResumenInforme = calc.nombre + ". " + partes.join(", ") + "." + (regla ? " " + regla.texto : "");
+
   salida.classList.remove("oculta");
 }
 
@@ -720,6 +739,29 @@ function cerrarCalculadora() {
 document.getElementById("cerrar-calculadora").addEventListener("click", cerrarCalculadora);
 document.querySelector("[data-cierra-calculadora]").addEventListener("click", cerrarCalculadora);
 document.getElementById("busqueda-calculadoras").addEventListener("input", () => { PAGINA.calculadoras = 1; pintarCalculadoras(); });
+
+// Copiar el resultado como frase lista para el informe
+const botonCopiar = document.getElementById("calc-copiar");
+if (botonCopiar) {
+  botonCopiar.addEventListener("click", async () => {
+    if (!ultimoResumenInforme) return;
+    try {
+      await navigator.clipboard.writeText(ultimoResumenInforme);
+    } catch {
+      const ta = document.createElement("textarea");
+      ta.value = ultimoResumenInforme;
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand("copy"); } catch {}
+      document.body.removeChild(ta);
+    }
+    const span = botonCopiar.querySelector("span");
+    const original = span.textContent;
+    span.textContent = "Copiado";
+    botonCopiar.classList.add("copiado");
+    setTimeout(() => { span.textContent = original; botonCopiar.classList.remove("copiado"); }, 1600);
+  });
+}
 
 /* ============================================================
    Glosario

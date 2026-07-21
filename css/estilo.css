@@ -760,6 +760,23 @@ body {
 :root[data-tema="oscuro"] .calc-resultado-valor { color: var(--marca-400); }
 .calc-resultado-valor small { font-size: 0.78rem; font-weight: 600; opacity: 0.7; }
 
+.calc-copiar {
+  margin-top: 0.9rem;
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  background: var(--superficie);
+  color: var(--marca-500);
+  border: 1.5px solid color-mix(in srgb, var(--marca-500) 35%, transparent);
+  padding: 0.5rem 1rem;
+  border-radius: var(--r-sm);
+  font-size: 0.88rem; font-weight: 600; font-family: inherit;
+  cursor: pointer;
+  transition: all 0.18s var(--paso);
+}
+.calc-copiar .ico { width: 16px; height: 16px; }
+.calc-copiar:hover { background: var(--marca-grad); color: #fff; border-color: transparent; transform: translateY(-1px); }
+.calc-copiar.copiado { background: var(--exito-suave); color: var(--exito); border-color: var(--exito); }
+:root[data-tema="oscuro"] .calc-copiar { color: var(--marca-400); }
+
 .calc-interpretacion { margin-top: 0.9rem; padding: 0.7rem 1rem; border-radius: var(--r-sm); font-size: 0.94rem; font-weight: 600; }
 .calc-interpretacion.nivel-normal { background: var(--exito-suave); color: var(--exito); }
 .calc-interpretacion.nivel-medio { background: var(--alerta-suave); color: var(--alerta); }
