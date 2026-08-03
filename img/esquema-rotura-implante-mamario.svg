@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img"
+     aria-label="Esquema comparativo de la integridad de un implante mamario. A la izquierda el implante íntegro, con la cubierta aplicada sobre la cápsula fibrosa y un pliegue radial normal. En el centro la rotura intracapsular, con la cubierta colapsada que flota dentro de la silicona y produce el signo del lingüini, con la cápsula íntegra. A la derecha la rotura extracapsular, con solución de continuidad de la cápsula y silicona libre en el parénquima mamario">
+  <defs>
+    <linearGradient id="tejido" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f1f5f9"/>
+      <stop offset="0.45" stop-color="#dbe3ec"/>
+      <stop offset="1" stop-color="#aab6c6"/>
+    </linearGradient>
+    <linearGradient id="fondo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111c30"/>
+      <stop offset="1" stop-color="#0a1120"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="600" fill="url(#fondo)"/>
+
+  <text x="450" y="44" text-anchor="middle" fill="#f1f5f9"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="27" font-weight="600">
+    Rotura de implante mamario
+  </text>
+  <text x="450" y="70" text-anchor="middle" fill="#93a3b8"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15">
+    La cápsula fibrosa es la frontera que separa la rotura intracapsular de la extracapsular
+  </text>
+
+  <!-- ================= Leyenda ================= -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#93a3b8">
+    <line x1="60" y1="92" x2="82" y2="92" stroke="#f59e0b" stroke-width="2.4"/>
+    <text x="90" y="97">Cápsula fibrosa</text>
+    <line x1="220" y1="92" x2="242" y2="92" stroke="#8494a8" stroke-width="2.4"/>
+    <text x="250" y="97">Cubierta del implante</text>
+    <rect x="415" y="86" width="20" height="12" rx="2" fill="url(#tejido)" stroke="#8494a8" stroke-width="1.1"/>
+    <text x="443" y="97">Silicona</text>
+    <line x1="528" y1="92" x2="550" y2="92" stroke="#f87171" stroke-width="3.4" stroke-linecap="round"/>
+    <text x="558" y="97">Hallazgo de rotura</text>
+  </g>
+
+  <!-- ================= Panel A. Implante íntegro ================= -->
+  <g>
+    <rect x="15" y="180" width="270" height="250" rx="36" fill="url(#tejido)" opacity="0.12"/>
+    <rect x="15" y="180" width="270" height="250" rx="36" fill="none" stroke="#46566e" stroke-width="1.3"/>
+    <text x="25" y="202" fill="#6f8098"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Parénquima mamario</text>
+
+    <ellipse cx="150" cy="305" rx="100" ry="86" fill="none" stroke="#f59e0b" stroke-width="2.2"/>
+    <ellipse cx="150" cy="305" rx="93" ry="79" fill="url(#tejido)" opacity="0.78"/>
+    <ellipse cx="150" cy="305" rx="93" ry="79" fill="none" stroke="#8494a8" stroke-width="2.2"/>
+
+    <!-- Pliegue radial normal, invaginación que mantiene contacto con la periferia -->
+    <path d="M150,384 C158,366 142,356 151,340" fill="none" stroke="#8494a8"
+          stroke-width="2.2" stroke-linecap="round"/>
+
+    <line x1="150" y1="394" x2="150" y2="442" stroke="#93a3b8" stroke-width="1"/>
+    <text x="150" y="458" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">
+      Pliegue radial normal
+    </text>
+
+    <text x="150" y="500" text-anchor="middle" fill="#f1f5f9"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="600">
+      Implante íntegro
+    </text>
+    <text x="150" y="526" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5">
+      La cubierta se mantiene aplicada
+    </text>
+    <text x="150" y="548" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5">
+      sobre la cápsula fibrosa
+    </text>
+  </g>
+
+  <!-- ================= Panel B. Rotura intracapsular ================= -->
+  <g>
+    <rect x="315" y="180" width="270" height="250" rx="36" fill="url(#tejido)" opacity="0.12"/>
+    <rect x="315" y="180" width="270" height="250" rx="36" fill="none" stroke="#46566e" stroke-width="1.3"/>
+    <text x="325" y="202" fill="#6f8098"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Parénquima mamario</text>
+
+    <ellipse cx="450" cy="305" rx="100" ry="86" fill="url(#tejido)" opacity="0.78"/>
+    <ellipse cx="450" cy="305" rx="100" ry="86" fill="none" stroke="#f59e0b" stroke-width="2.2"/>
+
+    <!-- Cubierta colapsada que flota en la silicona -->
+    <g fill="none" stroke="#f87171" stroke-width="3.2" stroke-linecap="round">
+      <path d="M372,262 C400,246 430,276 460,258 C486,242 512,268 528,258"/>
+      <path d="M366,300 C398,282 424,314 456,296 C486,280 512,308 534,296"/>
+      <path d="M372,340 C402,322 430,352 460,334 C488,318 514,344 528,334"/>
+      <path d="M394,374 C418,360 442,382 468,366"/>
+    </g>
+
+    <line x1="450" y1="394" x2="450" y2="442" stroke="#93a3b8" stroke-width="1"/>
+    <text x="450" y="458" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">
+      Signo del lingüini
+    </text>
+
+    <text x="450" y="500" text-anchor="middle" fill="#f1f5f9"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="600">
+      Rotura intracapsular
+    </text>
+    <text x="450" y="526" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5">
+      La cubierta colapsa y flota
+    </text>
+    <text x="450" y="548" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5">
+      dentro de la silicona contenida
+    </text>
+  </g>
+
+  <!-- ================= Panel C. Rotura extracapsular ================= -->
+  <g>
+    <rect x="615" y="180" width="270" height="250" rx="36" fill="url(#tejido)" opacity="0.12"/>
+    <rect x="615" y="180" width="270" height="250" rx="36" fill="none" stroke="#46566e" stroke-width="1.3"/>
+    <text x="625" y="202" fill="#6f8098"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Parénquima mamario</text>
+
+    <!-- Cubierta rota -->
+    <path d="M661,328 A93,79 0 1 0 661,282 Z" fill="url(#tejido)" opacity="0.78"/>
+    <path d="M661,328 A93,79 0 1 0 661,282" fill="none" stroke="#8494a8" stroke-width="2.2"/>
+    <!-- Cápsula fibrosa con solución de continuidad -->
+    <path d="M654,330 A100,86 0 1 0 654,280" fill="none" stroke="#f59e0b" stroke-width="2.2"/>
+
+    <!-- Silicona libre en el parénquima -->
+    <g fill="#f87171" fill-opacity="0.45" stroke="#f87171" stroke-width="1.4">
+      <ellipse cx="656" cy="306" rx="15" ry="12"/>
+      <ellipse cx="626" cy="304" rx="22" ry="16"/>
+      <ellipse cx="638" cy="264" rx="16" ry="12"/>
+      <ellipse cx="634" cy="348" rx="18" ry="14"/>
+    </g>
+
+    <polyline points="632,364 640,410 690,442" fill="none" stroke="#93a3b8" stroke-width="1"/>
+    <text x="750" y="458" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">
+      Silicona fuera de la cápsula
+    </text>
+
+    <text x="750" y="500" text-anchor="middle" fill="#f1f5f9"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="600">
+      Rotura extracapsular
+    </text>
+    <text x="750" y="526" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5">
+      La silicona escapa al parénquima
+    </text>
+    <text x="750" y="548" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5">
+      y puede alcanzar los ganglios axilares
+    </text>
+  </g>
+
+  <text x="450" y="582" text-anchor="middle" fill="#5b6b82"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">
+    Esquema didáctico en corte transversal del implante. La resonancia con saturación selectiva es la técnica más fiable.
+  </text>
+</svg>

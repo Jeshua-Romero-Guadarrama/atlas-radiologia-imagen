@@ -1,0 +1,118 @@
+/*
+ * Cabecera, íconos y pestañas.
+ * Agrupa lo que queda fijo en la parte superior de la página, que es la marca, el conmutador de tema y la navegación entre las siete secciones.
+ */
+
+/* ============================================================
+   Cabecera
+   ============================================================ */
+.cabecera {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: color-mix(in srgb, var(--superficie) 82%, transparent);
+  backdrop-filter: saturate(180%) blur(16px);
+  -webkit-backdrop-filter: saturate(180%) blur(16px);
+  border-bottom: 1px solid var(--borde);
+  transition: transform 0.35s var(--paso);
+}
+/* Retirada durante la lectura: El menú lateral aparta la cabecera con una transformación
+   y no con display, porque así la animación es suave y reversible al volver arriba. */
+.cabecera.retirada { transform: translateY(-100%); }
+.cabecera-superior {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0.85rem 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.marca { display: flex; align-items: center; gap: 0.7rem; text-decoration: none; color: inherit; }
+.marca-icono {
+  width: 44px; height: 44px;
+  display: grid; place-items: center;
+  background: var(--marca-grad);
+  border-radius: 13px;
+  box-shadow: var(--sombra-marca);
+}
+.marca-icono .ico-logo { width: 24px; height: 24px; stroke: #fff; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+/* ---------- Íconos SVG ---------- */
+.ico {
+  width: 1.15em; height: 1.15em;
+  stroke: currentColor; fill: none;
+  stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;
+  flex: none; vertical-align: -0.22em;
+}
+.marca-texto { display: flex; flex-direction: column; justify-content: center; line-height: 1.2; }
+.marca-texto strong { font-size: clamp(0.95rem, 3.4vw, 1.1rem); font-weight: 700; letter-spacing: -0.015em; white-space: nowrap; }
+.marca-texto small { font-size: 0.74rem; color: var(--tinta-3); font-weight: 500; white-space: nowrap; }
+
+.boton-tema {
+  border: 1px solid var(--borde);
+  background: var(--superficie-2);
+  width: 42px; height: 42px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  display: grid; place-items: center;
+  transition: transform 0.2s var(--paso), border-color 0.2s, background 0.2s;
+  position: relative;
+}
+.boton-tema:hover { transform: translateY(-1px) rotate(-8deg); border-color: var(--marca-400); color: var(--marca-tinta); }
+.boton-tema:active { transform: translateY(0) scale(0.94); }
+.boton-tema .ico { width: 20px; height: 20px; }
+.boton-tema .icono-luna { display: none; }
+/* El ícono refleja el tema en pantalla por las dos vías del tema oscuro: la
+   preferencia del sistema cuando no hay data-tema y la elección manual cuando
+   lo hay. El :where deja ganar a data-tema="claro". */
+:root[data-tema="oscuro"] .boton-tema .icono-sol { display: none; }
+:root[data-tema="oscuro"] .boton-tema .icono-luna { display: block; }
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-tema="claro"])) .boton-tema .icono-sol { display: none; }
+  :root:where(:not([data-tema="claro"])) .boton-tema .icono-luna { display: block; }
+}
+.pestana .ico { width: 17px; height: 17px; }
+
+/* Navegación en pestañas */
+.pestanas {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 0.75rem 0.5rem;
+  display: flex;
+  gap: 0.25rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.pestanas::-webkit-scrollbar { display: none; }
+.pestana {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: transparent;
+  color: var(--tinta-2);
+  border: none;
+  padding: 0.55rem 0.95rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  white-space: nowrap;
+  position: relative;
+  transition: color 0.2s, background 0.2s;
+}
+.pestana-icono { font-size: 1rem; }
+.pestana:hover { color: var(--tinta); background: var(--superficie-2); }
+.pestana:active { background: color-mix(in srgb, var(--marca-500) 16%, transparent); }
+.pestana.activa { color: var(--marca-tinta); background: color-mix(in srgb, var(--marca-500) 12%, transparent); }
+.pestana.activa::after {
+  content: "";
+  position: absolute;
+  left: 22%; right: 22%; bottom: -0.5rem;
+  height: 3px; border-radius: 3px 3px 0 0;
+  background: var(--marca-grad);
+}
+

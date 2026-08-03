@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img"
+     aria-label="Esquema de los grados de espondilolistesis en proyección lateral. Se representan dos cuerpos vertebrales y el disco entre ellos. El diámetro anteroposterior del cuerpo inferior se divide en cuartos y el grado depende de cuánto se desplaza hacia adelante el cuerpo superior, desde el primer grado, de hasta un cuarto, hasta el cuarto grado, de más de tres cuartos">
+  <defs>
+    <linearGradient id="hueso" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1f5f9"/>
+      <stop offset="0.45" stop-color="#dbe3ec"/>
+      <stop offset="1" stop-color="#aab6c6"/>
+    </linearGradient>
+    <linearGradient id="fondo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111c30"/>
+      <stop offset="1" stop-color="#0a1120"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="600" fill="url(#fondo)"/>
+
+  <text x="450" y="44" text-anchor="middle" fill="#f1f5f9"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="27" font-weight="600">
+    Grados de la espondilolistesis
+  </text>
+  <text x="450" y="70" text-anchor="middle" fill="#93a3b8"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15">
+    El deslizamiento se expresa en cuartos del diámetro anteroposterior del cuerpo subyacente
+  </text>
+
+  <!-- ================= Leyenda ================= -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#93a3b8">
+    <line x1="150" y1="92" x2="172" y2="92" stroke="#38bdf8" stroke-width="1.6" stroke-dasharray="6 5"/>
+    <text x="180" y="97">Muro posterior del cuerpo inferior y sus cuartos</text>
+    <line x1="520" y1="92" x2="542" y2="92" stroke="#f87171" stroke-width="3"/>
+    <text x="550" y="97">Magnitud del deslizamiento</text>
+  </g>
+
+  <!-- ================= Grado 1 ================= -->
+  <g>
+    <line x1="180" y1="168" x2="180" y2="312" stroke="#38bdf8" stroke-width="1.5"
+          stroke-dasharray="6 5" opacity="0.8"/>
+    <rect x="80" y="246" width="100" height="46" rx="7" fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <rect x="70" y="236" width="100" height="10" fill="#8494a8" opacity="0.45"/>
+    <rect x="68" y="190" width="100" height="46" rx="7" fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <g stroke="#38bdf8" stroke-width="1.4" opacity="0.9">
+      <line x1="105" y1="292" x2="105" y2="302"/>
+      <line x1="130" y1="292" x2="130" y2="302"/>
+      <line x1="155" y1="292" x2="155" y2="302"/>
+    </g>
+    <g stroke="#f87171" stroke-width="3">
+      <line x1="168" y1="180" x2="180" y2="180"/>
+      <line x1="168" y1="174" x2="168" y2="186"/>
+      <line x1="180" y1="174" x2="180" y2="186"/>
+    </g>
+
+    <g stroke="#38bdf8" stroke-width="1.4">
+      <line x1="80" y1="310" x2="180" y2="310"/>
+      <line x1="80" y1="304" x2="80" y2="316"/>
+      <line x1="180" y1="304" x2="180" y2="316"/>
+    </g>
+    <text x="130" y="332" text-anchor="middle" fill="#7dd3fc"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">
+      Diámetro anteroposterior
+    </text>
+
+    <text x="130" y="368" text-anchor="middle" fill="#f1f5f9"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="600">
+      Grado 1
+    </text>
+    <text x="130" y="392" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">
+      Hasta un cuarto
+    </text>
+  </g>
+
+  <!-- ================= Grado 2 ================= -->
+  <g>
+    <line x1="410" y1="168" x2="410" y2="312" stroke="#38bdf8" stroke-width="1.5"
+          stroke-dasharray="6 5" opacity="0.8"/>
+    <rect x="310" y="246" width="100" height="46" rx="7" fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <rect x="286" y="236" width="100" height="10" fill="#8494a8" opacity="0.45"/>
+    <rect x="273" y="190" width="100" height="46" rx="7" fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <g stroke="#38bdf8" stroke-width="1.4" opacity="0.9">
+      <line x1="335" y1="292" x2="335" y2="302"/>
+      <line x1="360" y1="292" x2="360" y2="302"/>
+      <line x1="385" y1="292" x2="385" y2="302"/>
+    </g>
+    <g stroke="#f87171" stroke-width="3">
+      <line x1="373" y1="180" x2="410" y2="180"/>
+      <line x1="373" y1="174" x2="373" y2="186"/>
+      <line x1="410" y1="174" x2="410" y2="186"/>
+    </g>
+
+    <text x="360" y="368" text-anchor="middle" fill="#f1f5f9"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="600">
+      Grado 2
+    </text>
+    <text x="360" y="392" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">
+      De un cuarto a la mitad
+    </text>
+  </g>
+
+  <!-- ================= Grado 3 ================= -->
+  <g>
+    <line x1="640" y1="168" x2="640" y2="312" stroke="#38bdf8" stroke-width="1.5"
+          stroke-dasharray="6 5" opacity="0.8"/>
+    <rect x="540" y="246" width="100" height="46" rx="7" fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <rect x="509" y="236" width="100" height="10" fill="#8494a8" opacity="0.45"/>
+    <rect x="478" y="190" width="100" height="46" rx="7" fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <g stroke="#38bdf8" stroke-width="1.4" opacity="0.9">
+      <line x1="565" y1="292" x2="565" y2="302"/>
+      <line x1="590" y1="292" x2="590" y2="302"/>
+      <line x1="615" y1="292" x2="615" y2="302"/>
+    </g>
+    <g stroke="#f87171" stroke-width="3">
+      <line x1="578" y1="180" x2="640" y2="180"/>
+      <line x1="578" y1="174" x2="578" y2="186"/>
+      <line x1="640" y1="174" x2="640" y2="186"/>
+    </g>
+
+    <text x="590" y="368" text-anchor="middle" fill="#f1f5f9"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="600">
+      Grado 3
+    </text>
+    <text x="590" y="392" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">
+      De la mitad a tres cuartos
+    </text>
+  </g>
+
+  <!-- ================= Grado 4 ================= -->
+  <g>
+    <line x1="870" y1="168" x2="870" y2="312" stroke="#38bdf8" stroke-width="1.5"
+          stroke-dasharray="6 5" opacity="0.8"/>
+    <rect x="770" y="246" width="100" height="46" rx="7" fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <rect x="732" y="236" width="100" height="10" fill="#8494a8" opacity="0.45"/>
+    <rect x="683" y="190" width="100" height="46" rx="7" fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <g stroke="#38bdf8" stroke-width="1.4" opacity="0.9">
+      <line x1="795" y1="292" x2="795" y2="302"/>
+      <line x1="820" y1="292" x2="820" y2="302"/>
+      <line x1="845" y1="292" x2="845" y2="302"/>
+    </g>
+    <g stroke="#f87171" stroke-width="3">
+      <line x1="783" y1="180" x2="870" y2="180"/>
+      <line x1="783" y1="174" x2="783" y2="186"/>
+      <line x1="870" y1="174" x2="870" y2="186"/>
+    </g>
+
+    <text x="820" y="368" text-anchor="middle" fill="#f1f5f9"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="600">
+      Grado 4
+    </text>
+    <text x="820" y="392" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">
+      Más de tres cuartos
+    </text>
+  </g>
+
+  <!-- ================= Explicación ================= -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="450" y="452" fill="#f1f5f9" font-size="14">
+      El escalón del muro posterior es el dato que se busca en la proyección lateral.
+    </text>
+    <text x="450" y="486" fill="#93a3b8" font-size="13.5">
+      En la forma ístmica hay un defecto de la porción interarticular, visible en la proyección oblicua.
+    </text>
+    <text x="450" y="512" fill="#93a3b8" font-size="13.5">
+      En la forma degenerativa no existe ese defecto y predominan la artrosis facetaria y la pérdida de altura del disco.
+    </text>
+  </g>
+
+  <text x="450" y="570" text-anchor="middle" fill="#5b6b82"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">
+    Esquema didáctico. Se dibujan solo los cuerpos vertebrales y el disco, con la cara anterior a la izquierda.
+  </text>
+</svg>

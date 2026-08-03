@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Doble theme-color con media para que el primer pintado del navegador
+       acompañe al tema del sistema cuando no hay tema elegido a mano. -->
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#0e7490">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0b1220">
+  <title>Atlas de Radiología e Imagen: signos radiológicos, clasificaciones y calculadoras por sistemas</title>
+<!-- SEO: generado, no editar a mano -->
+  <meta name="description" content="Atlas de imagenología organizado por sistemas del cuerpo. Fichas con imagen real y qué observar en cada estudio, signos radiológicos con su base fisiopatológica, clasificaciones con sus criterios, calculadoras con interpretación automática y modo de repaso.">
+  <meta name="keywords" content="signos radiologicos, atlas de radiologia, clasificaciones radiologicas, interpretacion de radiografia, tomografia computarizada, resonancia magnetica, ultrasonido diagnostico, signo de la silueta, broncograma aereo, salter harris, bosniak, bi rads, diagnostico por imagen, imagenologia medica, casos radiologicos">
+  <meta name="author" content="Jeshua Romero Guadarrama">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <link rel="canonical" href="https://jeshua-romero-guadarrama.github.io/atlas-radiologia-imagen/">
+  <link rel="manifest" href="manifest.webmanifest">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Atlas de Radiología e Imagen">
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:title" content="Atlas de Radiología e Imagen: signos radiológicos, clasificaciones y calculadoras por sistemas">
+  <meta property="og:description" content="Atlas de imagenología organizado por sistemas del cuerpo. Fichas con imagen real y qué observar en cada estudio, signos radiológicos con su base fisiopatológica, clasificaciones con sus criterios, calculadoras con interpretación automática y modo de repaso.">
+  <meta property="og:url" content="https://jeshua-romero-guadarrama.github.io/atlas-radiologia-imagen/">
+  <meta property="og:image" content="https://jeshua-romero-guadarrama.github.io/atlas-radiologia-imagen/portada.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Atlas de Radiología e Imagen: signos radiológicos, clasificaciones y calculadoras por sistemas">
+  <meta name="twitter:description" content="Atlas de imagenología organizado por sistemas del cuerpo. Fichas con imagen real y qué observar en cada estudio, signos radiológicos con su base fisiopatológica, clasificaciones con sus criterios, calculadoras con interpretación automática y modo de repaso.">
+  <meta name="twitter:image" content="https://jeshua-romero-guadarrama.github.io/atlas-radiologia-imagen/portada.svg">
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Atlas de Radiología e Imagen","alternateName":"Atlas de Radiología e Imagen: signos radiológicos, clasificaciones y calculadoras por sistemas","description":"Atlas de imagenología organizado por sistemas del cuerpo. Fichas con imagen real y qué observar en cada estudio, signos radiológicos con su base fisiopatológica, clasificaciones con sus criterios, calculadoras con interpretación automática y modo de repaso.","url":"https://jeshua-romero-guadarrama.github.io/atlas-radiologia-imagen/","inLanguage":"es-MX","author":{"@type":"Person","name":"Jeshua Romero Guadarrama"},"publisher":{"@type":"Person","name":"Jeshua Romero Guadarrama"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://jeshua-romero-guadarrama.github.io/atlas-radiologia-imagen/?q={search_term_string}"},"query-input":"required name=search_term_string"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"LearningResource","name":"Atlas de Radiología e Imagen: signos radiológicos, clasificaciones y calculadoras por sistemas","description":"Atlas de imagenología organizado por sistemas del cuerpo. Fichas con imagen real y qué observar en cada estudio, signos radiológicos con su base fisiopatológica, clasificaciones con sus criterios, calculadoras con interpretación automática y modo de repaso.","url":"https://jeshua-romero-guadarrama.github.io/atlas-radiologia-imagen/","inLanguage":"es-MX","educationalLevel":"Licenciatura y posgrado en ciencias de la salud","about":"Radiología e imagenología diagnóstica","teaches":["Signos radiológicos","Clasificaciones radiológicas","Interpretación de radiografía, tomografía, resonancia y ultrasonido","Volumetría y cálculos de imagen"],"audience":{"@type":"EducationalAudience","educationalRole":"student"},"isAccessibleForFree":true,"author":{"@type":"Person","name":"Jeshua Romero Guadarrama"},"license":"https://opensource.org/licenses/MIT"}</script>
+<!-- SEO: fin -->
+  <!-- Las hojas se enlazan en el orden en que estaban escritas dentro de la hoja única, de modo que la cascada se resuelve igual que antes. -->
+  <!-- Las hojas van numeradas por su orden de cascada, de modo que el nombre ya dice quién puede ajustar a quién. -->
+  <link rel="stylesheet" href="css/1-base.css">
+  <link rel="stylesheet" href="css/2-cabecera.css">
+  <link rel="stylesheet" href="css/3-contenido.css">
+  <link rel="stylesheet" href="css/4-tarjetas.css">
+  <link rel="stylesheet" href="css/5-modales.css">
+  <link rel="stylesheet" href="css/6-temas-quiz-calculadoras.css">
+  <link rel="stylesheet" href="css/7-interfaz.css">
+  <link rel="stylesheet" href="css/8-impresion.css" media="print">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect width='24' height='24' rx='6' fill='%230e7490'/><g fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M6 8V7a1 1 0 0 1 1-1h1M16 6h1a1 1 0 0 1 1 1v1M18 16v1a1 1 0 0 1-1 1h-1M8 18H7a1 1 0 0 1-1-1v-1M8 12h8M12 8v8'/></g></svg>">
+  <script>
+    // Aplica el tema guardado antes de pintar, para evitar el parpadeo inicial.
+    // Sin valor guardado no se fija data-tema: los tokens siguen entonces la
+    // preferencia del sistema y el estado "sistema" queda representado por la
+    // ausencia del atributo.
+    (function () {
+      try {
+        var t = localStorage.getItem("tema");
+        if (t === "claro" || t === "oscuro") document.documentElement.dataset.tema = t;
+      } catch (e) { /* sin almacenamiento se sigue el sistema */ }
+    })();
+  </script>
+</head>
+<body>
+
+  <a class="saltar-al-contenido" id="saltar-al-contenido" href="#">Saltar al contenido</a>
+
+  <div class="barra-progreso" id="barra-scroll"></div>
+
+  <div class="aurora" aria-hidden="true">
+    <span class="aurora-blob b1"></span>
+    <span class="aurora-blob b2"></span>
+    <span class="aurora-blob b3"></span>
+  </div>
+
+  <!-- Biblioteca de íconos (SVG de línea, sin dependencias externas) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="ico-logo" viewBox="0 0 24 24"><path d="M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2M7 12h10M12 7v10"/></symbol>
+    <symbol id="ico-catalogo" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></symbol>
+    <symbol id="ico-signos" viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></symbol>
+    <symbol id="ico-clasificaciones" viewBox="0 0 24 24"><rect x="3" y="13" width="4" height="8" rx="1"/><rect x="10" y="8" width="4" height="13" rx="1"/><rect x="17" y="3" width="4" height="18" rx="1"/></symbol>
+    <symbol id="ico-calculadoras" viewBox="0 0 24 24"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="11" x2="8.01" y2="11"/><line x1="12" y1="11" x2="12.01" y2="11"/><line x1="16" y1="11" x2="16.01" y2="11"/><line x1="8" y1="15" x2="8.01" y2="15"/><line x1="12" y1="15" x2="12.01" y2="15"/><line x1="16" y1="15" x2="16.01" y2="15"/><line x1="8" y1="18" x2="12" y2="18"/></symbol>
+    <symbol id="ico-temas" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></symbol>
+    <symbol id="ico-glosario" viewBox="0 0 24 24"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3H3Z"/></symbol>
+    <symbol id="ico-estudio" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></symbol>
+    <symbol id="ico-buscar" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></symbol>
+    <symbol id="ico-tecnica" viewBox="0 0 24 24"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></symbol>
+    <symbol id="ico-observar" viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></symbol>
+    <symbol id="ico-hallazgos" viewBox="0 0 24 24"><path d="M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2"/><circle cx="11.5" cy="11.5" r="2.5"/><path d="m14 14 2 2"/></symbol>
+    <symbol id="ico-modalidad" viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5Z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></symbol>
+    <symbol id="ico-diferencial" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></symbol>
+    <symbol id="ico-simuladores" viewBox="0 0 24 24"><rect x="8" y="8" width="13" height="13" rx="2"/><path d="M5 16a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2"/></symbol>
+    <symbol id="ico-clasificacion" viewBox="0 0 24 24"><path d="M21.3 8.7 8.7 21.3a1 1 0 0 1-1.4 0l-4.6-4.6a1 1 0 0 1 0-1.4L15.3 2.7a1 1 0 0 1 1.4 0l4.6 4.6a1 1 0 0 1 0 1.4Z"/><path d="m7.5 10.5 2 2M10.5 7.5l2 2M13.5 4.5l2 2M4.5 13.5l2 2"/></symbol>
+    <symbol id="ico-protocolo" viewBox="0 0 24 24"><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M9 12h6M9 16h6"/></symbol>
+    <symbol id="ico-errores" viewBox="0 0 24 24"><path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></symbol>
+    <symbol id="ico-perla" viewBox="0 0 24 24"><path d="M9 18h6M10 22h4"/><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></symbol>
+    <symbol id="ico-tema" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></symbol>
+    <symbol id="ico-clave" viewBox="0 0 24 24"><circle cx="7.5" cy="15.5" r="5.5"/><path d="m21 2-9.6 9.6"/><path d="m15.5 7.5 3 3L22 7l-3-3"/></symbol>
+    <symbol id="ico-porque" viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></symbol>
+    <symbol id="ico-significado" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></symbol>
+    <symbol id="ico-formula" viewBox="0 0 24 24"><path d="M21.3 8.7 8.7 21.3a1 1 0 0 1-1.4 0l-4.6-4.6a1 1 0 0 1 0-1.4L15.3 2.7a1 1 0 0 1 1.4 0l4.6 4.6a1 1 0 0 1 0 1.4Z"/><path d="m7.5 10.5 2 2M10.5 7.5l2 2M13.5 4.5l2 2M4.5 13.5l2 2"/></symbol>
+    <symbol id="ico-ejemplo" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M10 8.5 16 12l-6 3.5Z"/></symbol>
+    <symbol id="ico-umbral" viewBox="0 0 24 24"><path d="M4 4v16M20 4v16"/><path d="M7 12h10"/><path d="m9.5 9.5-2.5 2.5 2.5 2.5"/><path d="m14.5 9.5 2.5 2.5-2.5 2.5"/></symbol>
+    <symbol id="ico-bandera" viewBox="0 0 24 24"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1Z"/><line x1="4" y1="22" x2="4" y2="15"/></symbol>
+    <symbol id="ico-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="ico-equis" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+    <symbol id="ico-corazon" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/></symbol>
+    <symbol id="ico-flecha-arriba" viewBox="0 0 24 24"><path d="m18 15-6-6-6 6"/></symbol>
+    <symbol id="ico-anterior" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></symbol>
+    <symbol id="ico-siguiente" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+  </svg>
+
+  <header class="cabecera">
+    <div class="cabecera-superior">
+      <a class="marca" href="#" aria-label="Inicio">
+        <span class="marca-icono"><svg class="ico-logo"><use href="#ico-logo"/></svg></span>
+        <span class="marca-texto">
+          <strong>Atlas de Radiología e Imagen</strong>
+          <small>Catálogo de estudio por sistemas</small>
+        </span>
+      </a>
+      <button id="conmutar-tema" class="boton-tema" aria-label="Cambiar tema" title="Cambiar tema claro/oscuro">
+        <svg class="ico icono-sol" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        <svg class="ico icono-luna" viewBox="0 0 24 24"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+      </button>
+    </div>
+    <nav class="pestanas" id="pestanas" aria-label="Secciones">
+      <button class="pestana activa" data-vista="catalogo"><svg class="ico"><use href="#ico-catalogo"/></svg>Catálogo</button>
+      <button class="pestana" data-vista="signos"><svg class="ico"><use href="#ico-signos"/></svg>Signos</button>
+      <button class="pestana" data-vista="clasificaciones"><svg class="ico"><use href="#ico-clasificaciones"/></svg>Clasificaciones</button>
+      <button class="pestana" data-vista="calculadoras"><svg class="ico"><use href="#ico-calculadoras"/></svg>Calculadoras</button>
+      <button class="pestana" data-vista="temas"><svg class="ico"><use href="#ico-temas"/></svg>Temas</button>
+      <button class="pestana" data-vista="glosario"><svg class="ico"><use href="#ico-glosario"/></svg>Glosario</button>
+      <button class="pestana" data-vista="estudio"><svg class="ico"><use href="#ico-estudio"/></svg>Modo estudio</button>
+    </nav>
+  </header>
+
+  <!-- ============ VISTA: CATÁLOGO ============ -->
+  <main id="vista-catalogo" class="vista">
+    <section class="portada">
+      <h1 class="portada-titulo">Explora la imagen médica por sistemas</h1>
+      <p class="portada-lema">Busca un estudio o un hallazgo, compáralo con casos reales y aprende qué observar en cada modalidad.</p>
+      <div id="metricas" class="metricas"></div>
+    </section>
+    <section class="buscador" role="search">
+      <div class="campo-busqueda-envoltorio">
+        <span class="icono-busqueda" aria-hidden="true"><svg class="ico"><use href="#ico-buscar"/></svg></span>
+        <input type="search" id="campo-busqueda" aria-label="Buscar en el catálogo" placeholder="Buscar por nombre, sistema, hallazgo o palabra clave…" autocomplete="off">
+      </div>
+      <div class="filtros">
+        <div class="grupo-filtro">
+          <span class="etiqueta-filtro" id="etiqueta-filtros-sistema">Sistema</span>
+          <div id="filtros-sistema" class="chips" role="group" aria-labelledby="etiqueta-filtros-sistema"></div>
+        </div>
+        <div class="grupo-filtro">
+          <span class="etiqueta-filtro" id="etiqueta-filtros-modalidad">Modalidad</span>
+          <div id="filtros-modalidad" class="chips" role="group" aria-labelledby="etiqueta-filtros-modalidad"></div>
+        </div>
+        <div class="grupo-filtro">
+          <span class="etiqueta-filtro" id="etiqueta-filtros-tipo-caso">Tipo</span>
+          <div id="filtros-tipo-caso" class="chips" role="group" aria-labelledby="etiqueta-filtros-tipo-caso"></div>
+        </div>
+      </div>
+      <p id="contador-resultados" class="contador" aria-live="polite"></p>
+    </section>
+    <section id="galeria" class="galeria"></section>
+    <nav id="pag-catalogo" class="paginacion" aria-label="Paginación"></nav>
+  </main>
+
+  <!-- ============ VISTA: SIGNOS RADIOLÓGICOS ============ -->
+  <main id="vista-signos" class="vista oculta" hidden>
+    <section class="encabezado-vista">
+      <h1><svg class="ico"><use href="#ico-signos"/></svg> Signos radiológicos</h1>
+      <p>Signos con nombre propio, con su base fisiopatológica, su significado y un truco para recordarlos.</p>
+    </section>
+    <section class="buscador" role="search">
+      <div class="campo-busqueda-envoltorio">
+        <span class="icono-busqueda" aria-hidden="true"><svg class="ico"><use href="#ico-buscar"/></svg></span>
+        <input type="search" id="busqueda-signos" aria-label="Buscar signo radiológico" placeholder="Buscar signo… (ej. silueta, broncograma, Hampton)" autocomplete="off">
+      </div>
+      <div class="filtros">
+        <div class="grupo-filtro">
+          <span class="etiqueta-filtro" id="etiqueta-filtros-signos-sistema">Sistema</span>
+          <div id="filtros-signos-sistema" class="chips" role="group" aria-labelledby="etiqueta-filtros-signos-sistema"></div>
+        </div>
+        <div class="grupo-filtro">
+          <span class="etiqueta-filtro" id="etiqueta-filtros-signos-modalidad">Modalidad</span>
+          <div id="filtros-signos-modalidad" class="chips" role="group" aria-labelledby="etiqueta-filtros-signos-modalidad"></div>
+        </div>
+        <div class="grupo-filtro">
+          <span class="etiqueta-filtro" id="etiqueta-filtros-signos-tipo">Tipo</span>
+          <div id="filtros-signos-tipo" class="chips" role="group" aria-labelledby="etiqueta-filtros-signos-tipo"></div>
+        </div>
+      </div>
+      <p id="contador-signos" class="contador"></p>
+    </section>
+    <section id="lista-signos" class="galeria-texto"></section>
+    <nav id="pag-signos" class="paginacion" aria-label="Paginación"></nav>
+  </main>
+
+  <!-- ============ VISTA: CLASIFICACIONES ============ -->
+  <main id="vista-clasificaciones" class="vista oculta" hidden>
+    <section class="encabezado-vista">
+      <h1><svg class="ico"><use href="#ico-clasificaciones"/></svg> Clasificaciones y escalas</h1>
+      <p>Sistemas de graduación con sus criterios, sus grados y su implicación clínica.</p>
+    </section>
+    <section class="buscador" role="search">
+      <div class="campo-busqueda-envoltorio">
+        <span class="icono-busqueda" aria-hidden="true"><svg class="ico"><use href="#ico-buscar"/></svg></span>
+        <input type="search" id="busqueda-clasificaciones" aria-label="Buscar clasificación o escala" placeholder="Buscar clasificación… (ej. Salter-Harris, BI-RADS, Cobb)" autocomplete="off">
+      </div>
+      <div class="filtros">
+        <div class="grupo-filtro">
+          <span class="etiqueta-filtro" id="etiqueta-filtros-clasificaciones-sistema">Sistema</span>
+          <div id="filtros-clasificaciones-sistema" class="chips" role="group" aria-labelledby="etiqueta-filtros-clasificaciones-sistema"></div>
+        </div>
+        <div class="grupo-filtro">
+          <span class="etiqueta-filtro" id="etiqueta-filtros-clasificaciones-modalidad">Modalidad</span>
+          <div id="filtros-clasificaciones-modalidad" class="chips" role="group" aria-labelledby="etiqueta-filtros-clasificaciones-modalidad"></div>
+        </div>
+        <div class="grupo-filtro">
+          <span class="etiqueta-filtro" id="etiqueta-filtros-clasificaciones-tipo">Tipo</span>
+          <div id="filtros-clasificaciones-tipo" class="chips" role="group" aria-labelledby="etiqueta-filtros-clasificaciones-tipo"></div>
+        </div>
+      </div>
+      <p id="contador-clasificaciones" class="contador"></p>
+    </section>
+    <section id="lista-clasificaciones" class="galeria-texto"></section>
+    <nav id="pag-clasificaciones" class="paginacion" aria-label="Paginación"></nav>
+  </main>
+
+  <!-- ============ VISTA: CALCULADORAS ============ -->
+  <main id="vista-calculadoras" class="vista oculta" hidden>
+    <section class="encabezado-vista">
+      <h1><svg class="ico"><use href="#ico-calculadoras"/></svg> Calculadoras</h1>
+      <p>Volumetría, lavado de contraste, índices Doppler y escalas de puntuación. Escribe los datos y obtén el resultado con su interpretación.</p>
+      <p class="nota-unidades"><svg class="ico"><use href="#ico-modalidad"/></svg> Las fórmulas son estándares internacionales y emplean unidades métricas como los centímetros, los mililitros, las unidades Hounsfield y los milímetros de mercurio, de modo que resultan igual de válidas en México que en cualquier otro país.</p>
+    </section>
+    <section class="buscador" role="search">
+      <div class="campo-busqueda-envoltorio">
+        <span class="icono-busqueda" aria-hidden="true"><svg class="ico"><use href="#ico-buscar"/></svg></span>
+        <input type="search" id="busqueda-calculadoras" aria-label="Buscar calculadora" placeholder="Buscar calculadora… (ej. volumen, bazo, próstata, ASPECTS)" autocomplete="off">
+      </div>
+      <div class="filtros">
+        <div class="grupo-filtro">
+          <span class="etiqueta-filtro" id="etiqueta-filtros-calculadoras-sistema">Sistema</span>
+          <div id="filtros-calculadoras-sistema" class="chips" role="group" aria-labelledby="etiqueta-filtros-calculadoras-sistema"></div>
+        </div>
+        <div class="grupo-filtro">
+          <span class="etiqueta-filtro" id="etiqueta-filtros-calculadoras-modalidad">Modalidad</span>
+          <div id="filtros-calculadoras-modalidad" class="chips" role="group" aria-labelledby="etiqueta-filtros-calculadoras-modalidad"></div>
+        </div>
+        <div class="grupo-filtro">
+          <span class="etiqueta-filtro" id="etiqueta-filtros-calculadoras-tipo">Tipo</span>
+          <div id="filtros-calculadoras-tipo" class="chips" role="group" aria-labelledby="etiqueta-filtros-calculadoras-tipo"></div>
+        </div>
+      </div>
+      <p id="contador-calculadoras" class="contador"></p>
+    </section>
+    <section id="lista-calculadoras" class="galeria-texto"></section>
+    <nav id="pag-calculadoras" class="paginacion" aria-label="Paginación"></nav>
+  </main>
+
+  <!-- ============ MODAL: CALCULADORA ============ -->
+  <div id="modal-calculadora" class="modal oculta">
+    <div class="modal-fondo" data-cierra-calculadora></div>
+    <article class="modal-tarjeta">
+      <button id="cerrar-calculadora" class="cerrar" aria-label="Cerrar">✕</button>
+      <div class="modal-cuerpo">
+        <div id="calc-insignias" class="insignias"></div>
+        <h2 id="calc-nombre"></h2>
+        <p id="calc-descripcion"></p>
+        <form id="calc-formulario" class="calc-formulario"></form>
+        <div class="calc-acciones">
+          <button id="calc-ejemplo" class="calc-ejemplo oculta" type="button">
+            <svg class="ico"><use href="#ico-ejemplo"/></svg>
+            <span>Ver ejemplo</span>
+          </button>
+        </div>
+        <div id="calc-salida" class="calc-salida oculta" aria-live="polite">
+          <div id="calc-resultados" aria-live="polite" aria-atomic="true"></div>
+          <div id="calc-escala" class="calc-escala oculta"></div>
+          <p id="calc-interpretacion" class="calc-interpretacion"></p>
+          <button id="calc-copiar" class="calc-copiar" type="button">
+            <svg class="ico" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2"/></svg>
+            <span>Copiar para el informe</span>
+          </button>
+        </div>
+        <div id="calc-formula-seccion" class="calc-formula">
+          <h3><svg class="ico"><use href="#ico-formula"/></svg> Fórmula</h3>
+          <p id="calc-formula"></p>
+        </div>
+        <div id="calc-notas-seccion" class="bloque-error">
+          <h3><svg class="ico"><use href="#ico-errores"/></svg> Ten en cuenta</h3>
+          <p id="calc-notas"></p>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <!-- ============ MODAL: SIGNO ============ -->
+  <div id="modal-signo" class="modal oculta">
+    <div class="modal-fondo" data-cierra-signo></div>
+    <article class="modal-tarjeta">
+      <button id="cerrar-signo" class="cerrar" aria-label="Cerrar">✕</button>
+      <div class="modal-cuerpo">
+        <div id="signo-insignias" class="insignias"></div>
+        <h2 id="signo-nombre"></h2>
+        <h3><svg class="ico"><use href="#ico-observar"/></svg> ¿Qué es?</h3><p id="signo-quees"></p>
+        <h3><svg class="ico"><use href="#ico-porque"/></svg> ¿Por qué ocurre?</h3><p id="signo-porque"></p>
+        <h3><svg class="ico"><use href="#ico-significado"/></svg> ¿Qué significa?</h3><p id="signo-significado"></p>
+        <div id="signo-dif-seccion"><h3><svg class="ico"><use href="#ico-diferencial"/></svg> También puede deberse a</h3><ul id="signo-diferencial"></ul></div>
+        <div class="bloque-perla"><h3><svg class="ico"><use href="#ico-perla"/></svg> ¿Cómo recordarlo?</h3><p id="signo-recordar"></p></div>
+      </div>
+    </article>
+  </div>
+
+  <!-- ============ MODAL: CLASIFICACIÓN ============ -->
+  <div id="modal-clasificacion" class="modal oculta">
+    <div class="modal-fondo" data-cierra-clasificacion></div>
+    <article class="modal-tarjeta">
+      <button id="cerrar-clasificacion" class="cerrar" aria-label="Cerrar">✕</button>
+      <div class="modal-cuerpo">
+        <div id="clas-insignias" class="insignias"></div>
+        <h2 id="clas-nombre"></h2>
+        <h3><svg class="ico"><use href="#ico-significado"/></svg> Para qué sirve</h3><p id="clas-paraque"></p>
+        <h3><svg class="ico"><use href="#ico-clasificaciones"/></svg> Grados</h3>
+        <div class="tabla-envoltorio"><table class="tabla-grados">
+          <thead><tr><th>Grado</th><th>Criterio radiológico</th><th>Implicación</th></tr></thead>
+          <tbody id="clas-grados"></tbody>
+        </table></div>
+        <h3><svg class="ico"><use href="#ico-tecnica"/></svg> ¿Cómo se aplica?</h3><p id="clas-comousarla"></p>
+        <div id="clas-lim-seccion"><h3><svg class="ico"><use href="#ico-errores"/></svg> Limitaciones</h3><p id="clas-limitaciones"></p></div>
+      </div>
+    </article>
+  </div>
+
+  <!-- ============ VISTA: TEMAS ============ -->
+  <main id="vista-temas" class="vista oculta" hidden>
+    <section class="encabezado-vista">
+      <h1><svg class="ico"><use href="#ico-temas"/></svg> Temas de estudio</h1>
+      <p>Artículos en profundidad sobre fundamentos, técnica e interpretación.</p>
+    </section>
+    <section class="buscador" role="search">
+      <div class="campo-busqueda-envoltorio">
+        <span class="icono-busqueda" aria-hidden="true"><svg class="ico"><use href="#ico-buscar"/></svg></span>
+        <input type="search" id="busqueda-temas" aria-label="Buscar tema de estudio" placeholder="Buscar tema… (ej. contraste, atelectasia, dosis, informe)" autocomplete="off">
+      </div>
+      <div class="filtros">
+        <div class="grupo-filtro">
+          <span class="etiqueta-filtro" id="etiqueta-filtros-temas-sistema">Sistema</span>
+          <div id="filtros-temas-sistema" class="chips" role="group" aria-labelledby="etiqueta-filtros-temas-sistema"></div>
+        </div>
+        <div class="grupo-filtro">
+          <span class="etiqueta-filtro" id="etiqueta-filtros-temas-modalidad">Modalidad</span>
+          <div id="filtros-temas-modalidad" class="chips" role="group" aria-labelledby="etiqueta-filtros-temas-modalidad"></div>
+        </div>
+        <div class="grupo-filtro">
+          <span class="etiqueta-filtro" id="etiqueta-filtros-temas-tipo">Tipo</span>
+          <div id="filtros-temas-tipo" class="chips" role="group" aria-labelledby="etiqueta-filtros-temas-tipo"></div>
+        </div>
+      </div>
+      <p id="contador-temas" class="contador"></p>
+    </section>
+    <section id="lista-temas" class="temas"></section>
+    <nav id="pag-temas" class="paginacion" aria-label="Paginación"></nav>
+  </main>
+
+  <!-- ============ VISTA: GLOSARIO ============ -->
+  <main id="vista-glosario" class="vista oculta" hidden>
+    <section class="encabezado-vista">
+      <h1><svg class="ico"><use href="#ico-glosario"/></svg> Glosario</h1>
+      <p>Terminología esencial de imagenología, organizada por categoría.</p>
+    </section>
+    <section class="buscador" role="search">
+      <div class="campo-busqueda-envoltorio">
+        <span class="icono-busqueda" aria-hidden="true"><svg class="ico"><use href="#ico-buscar"/></svg></span>
+        <input type="search" id="busqueda-glosario" aria-label="Buscar término del glosario" placeholder="Buscar término… (ej. radiolúcido, hiperdenso, anecoico, ALARA)" autocomplete="off">
+      </div>
+      <div class="filtros">
+        <div class="grupo-filtro">
+          <span class="etiqueta-filtro" id="etiqueta-filtros-glosario-categoria">Categoría</span>
+          <div id="filtros-glosario-categoria" class="chips" role="group" aria-labelledby="etiqueta-filtros-glosario-categoria"></div>
+        </div>
+        <div class="grupo-filtro">
+          <span class="etiqueta-filtro" id="etiqueta-filtros-glosario-inicial">Inicial</span>
+          <div id="filtros-glosario-inicial" class="chips" role="group" aria-labelledby="etiqueta-filtros-glosario-inicial"></div>
+        </div>
+      </div>
+      <p id="contador-glosario" class="contador"></p>
+    </section>
+    <section id="lista-glosario" class="glosario"></section>
+    <nav id="pag-glosario" class="paginacion" aria-label="Paginación"></nav>
+  </main>
+
+  <!-- ============ VISTA: MODO ESTUDIO ============ -->
+  <main id="vista-estudio" class="vista oculta" hidden>
+    <section class="quiz-panel">
+      <div id="quiz-inicio">
+        <div class="quiz-hero-icono"><svg class="ico" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
+        <h2>¿Qué estás viendo?</h2>
+        <p>Te muestro una imagen del catálogo y tienes que identificar qué estudio o hallazgo es. Ideal para repasar antes de un examen.</p>
+        <button id="boton-empezar" class="boton-primario">Empezar quiz</button>
+      </div>
+      <div id="quiz-pregunta" class="oculta">
+        <div class="quiz-cabecera">
+          <span id="quiz-numero" class="quiz-numero"></span>
+          <span class="quiz-marcador">Aciertos <strong id="quiz-puntos">0</strong></span>
+        </div>
+        <div class="quiz-barra"><div id="quiz-barra-relleno" class="quiz-barra-relleno"></div></div>
+        <div class="quiz-imagen-marco">
+          <img id="quiz-imagen" alt="Imagen del quiz">
+        </div>
+        <p class="quiz-instruccion">¿Qué estás viendo?</p>
+        <div id="quiz-opciones" class="quiz-opciones"></div>
+        <div id="quiz-retro" class="quiz-retro oculta" aria-live="polite"></div>
+        <button id="boton-siguiente" class="boton-primario oculta">Siguiente →</button>
+      </div>
+      <div id="quiz-final" class="oculta">
+        <div class="quiz-hero-icono"><svg class="ico" viewBox="0 0 24 24"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1Z"/><line x1="4" y1="22" x2="4" y2="15"/></svg></div>
+        <h2>¡Terminaste!</h2>
+        <p id="quiz-resultado-final" class="quiz-resultado" aria-live="polite"></p>
+        <button id="boton-reiniciar" class="boton-primario">Jugar otra vez</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ MODAL: FICHA DETALLADA ============ -->
+  <div id="modal" class="modal oculta">
+    <div class="modal-fondo"></div>
+    <!-- Navegación entre fichas sin cerrar la ventana: Recorre la lista filtrada que estaba
+         en pantalla, también con las flechas del teclado. Los botones van fuera de la tarjeta
+         para no desplazarse con su contenido. -->
+    <button id="modal-anterior" class="modal-nav anterior" aria-label="Ficha anterior">
+      <svg class="ico"><use href="#ico-anterior"/></svg>
+    </button>
+    <button id="modal-siguiente" class="modal-nav siguiente" aria-label="Ficha siguiente">
+      <svg class="ico"><use href="#ico-siguiente"/></svg>
+    </button>
+    <article class="modal-tarjeta">
+      <button id="cerrar-modal" class="cerrar" aria-label="Cerrar">✕</button>
+      <div class="modal-imagen-marco">
+        <img id="modal-imagen" alt="">
+      </div>
+      <div class="modal-cuerpo">
+        <div id="modal-insignias" class="insignias"></div>
+        <h2 id="modal-titulo"></h2>
+        <p id="modal-descripcion"></p>
+        <div id="modal-tecnica-seccion">
+          <h3><svg class="ico"><use href="#ico-tecnica"/></svg> Técnica</h3>
+          <p id="modal-tecnica"></p>
+        </div>
+        <div id="modal-observar-seccion">
+          <h3><svg class="ico"><use href="#ico-observar"/></svg> ¿Qué observar?</h3>
+          <ul id="modal-observar"></ul>
+        </div>
+        <div id="modal-hallazgos-seccion">
+          <h3><svg class="ico"><use href="#ico-hallazgos"/></svg> Hallazgos en esta imagen</h3>
+          <p id="modal-hallazgos"></p>
+        </div>
+        <div id="modal-modalidad-seccion">
+          <h3><svg class="ico"><use href="#ico-modalidad"/></svg> ¿Qué aporta cada modalidad?</h3>
+          <dl id="modal-modalidad" class="lista-modalidad"></dl>
+        </div>
+        <div id="modal-diferencial-seccion">
+          <h3><svg class="ico"><use href="#ico-diferencial"/></svg> Diagnóstico diferencial</h3>
+          <div class="tabla-envoltorio"><table class="tabla-diferencial">
+            <thead><tr><th>Entidad</th><th>¿Cómo distinguirla?</th></tr></thead>
+            <tbody id="modal-diferencial"></tbody>
+          </table></div>
+        </div>
+        <div id="modal-simuladores-seccion">
+          <h3><svg class="ico"><use href="#ico-simuladores"/></svg> Simuladores</h3>
+          <ul id="modal-simuladores"></ul>
+        </div>
+        <div id="modal-clasificacion-seccion">
+          <h3><svg class="ico"><use href="#ico-clasificacion"/></svg> Clasificación</h3>
+          <p id="modal-clasificacion"></p>
+        </div>
+        <div id="modal-protocolo-seccion">
+          <h3><svg class="ico"><use href="#ico-protocolo"/></svg> Protocolo</h3>
+          <p id="modal-protocolo"></p>
+        </div>
+        <div id="modal-errores-seccion" class="bloque-error">
+          <h3><svg class="ico"><use href="#ico-errores"/></svg> Errores frecuentes</h3>
+          <ul id="modal-errores"></ul>
+        </div>
+        <div id="modal-perlas-seccion" class="bloque-perla">
+          <h3><svg class="ico"><use href="#ico-perla"/></svg> Perla</h3>
+          <p id="modal-perlas"></p>
+        </div>
+        <div id="modal-tema-seccion">
+          <h3><svg class="ico"><use href="#ico-tema"/></svg> Tema relacionado</h3>
+          <button id="modal-tema-boton" class="boton-enlace"></button>
+        </div>
+        <p id="modal-credito" class="credito"></p>
+      </div>
+    </article>
+  </div>
+
+  <!-- ============ MODAL: TEMA ============ -->
+  <div id="modal-tema" class="modal oculta">
+    <div class="modal-fondo" data-cierra-tema></div>
+    <article class="modal-tarjeta">
+      <button id="cerrar-tema" class="cerrar" aria-label="Cerrar">✕</button>
+      <div class="modal-cuerpo">
+        <div class="insignias"><span id="tema-sistema" class="insignia"></span></div>
+        <h2 id="tema-titulo"></h2>
+        <p id="tema-resumen" class="tema-resumen"></p>
+        <div id="tema-secciones"></div>
+        <div class="bloque-clave">
+          <h3><svg class="ico"><use href="#ico-clave"/></svg> Puntos clave</h3>
+          <ul id="tema-puntos"></ul>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <!-- Región de estado permanente: Existe desde el primer pintado con recorte
+       accesible, de modo que ningún anuncio de cambio de vista se pierde. -->
+  <div id="region-estado" class="solo-lector" role="status"></div>
+
+  <footer class="pie">
+    <p>Imágenes de Wikimedia Commons con licencia libre, almacenadas localmente en esta aplicación · Material de estudio: No sustituye la formación académica ni la valoración de un profesional.</p>
+    <p id="estado-origen" class="estado-origen"></p>
+  </footer>
+
+  <button id="ir-arriba" class="ir-arriba" aria-label="Volver arriba" title="Volver arriba">↑</button>
+
+  <!-- Menú lateral: Sustituye a la cabecera cuando esta se retira durante la lectura. El panel se rellena leyendo las pestañas reales del documento. -->
+  <button id="boton-menu-lateral" class="boton-menu-lateral" aria-label="Abrir el menú de secciones" title="Menú de secciones" aria-expanded="false" aria-controls="menu-lateral">
+    <svg class="ico" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+  </button>
+  <div id="menu-lateral-fondo" class="menu-lateral-fondo"></div>
+  <nav id="menu-lateral" class="menu-lateral" aria-label="Menú de secciones">
+    <div class="menu-lateral-cabecera">
+      <p class="menu-lateral-titulo">Secciones</p>
+      <button id="cerrar-menu-lateral" class="menu-lateral-cerrar" aria-label="Cerrar el menú">✕</button>
+    </div>
+    <div id="menu-lateral-lista" class="menu-lateral-lista"></div>
+  </nav>
+
+  <!--
+    Único punto de entrada del código, como módulo de JavaScript.
+    El grafo de importaciones sustituye al antiguo listado de scripts en orden manual, de modo que el navegador resuelve las dependencias por su cuenta y cada archivo declara las suyas.
+    La aplicación se sirve siempre desde un servidor, según documenta el README, porque los módulos y fetch no funcionan con el protocolo de archivo local.
+  -->
+  <script type="module" src="js/main.js"></script>
+
+</body>
+</html>

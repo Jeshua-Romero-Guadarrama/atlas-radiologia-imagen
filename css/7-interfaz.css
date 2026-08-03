@@ -1,0 +1,371 @@
+/*
+ * Interfaz y diseño adaptable.
+ * Junta el pie, el fondo aurora, el color de acento por sistema, la paginación, los cargadores esqueleto, el menú lateral y las reglas responsivas.
+ * Se carga en penúltimo lugar, antes de la hoja de impresión, porque sus reglas responsivas ajustan lo definido en las hojas anteriores.
+ */
+
+/* ============================================================
+   Pie y utilidades flotantes
+   ============================================================ */
+.pie {
+  text-align: center;
+  padding: 1.75rem 1.25rem;
+  font-size: 0.8rem;
+  color: var(--tinta-3);
+  border-top: 1px solid var(--borde);
+  background: var(--superficie);
+}
+.pie p { max-width: 760px; margin: 0 auto; }
+.estado-origen { margin-top: 0.5rem; opacity: 0.7; font-size: 0.72rem; font-variant-numeric: tabular-nums; }
+
+.ir-arriba {
+  position: fixed;
+  bottom: 1.5rem; right: 1.5rem;
+  z-index: 90;
+  width: 46px; height: 46px;
+  border-radius: 50%;
+  border: 1px solid var(--borde);
+  background: var(--superficie);
+  color: var(--marca-tinta);
+  font-size: 1.2rem; font-weight: 700;
+  cursor: pointer;
+  box-shadow: var(--sombra-md);
+  opacity: 0; visibility: hidden; transform: translateY(12px);
+  transition: all 0.3s var(--paso);
+}
+.ir-arriba.visible { opacity: 1; visibility: visible; transform: none; }
+.ir-arriba:hover { background: var(--marca-grad); color: #fff; border-color: transparent; transform: translateY(-3px); box-shadow: var(--sombra-marca); }
+
+/* ============================================================
+   Fondo aurora (degradados suaves en movimiento)
+   ============================================================ */
+.aurora { position: fixed; inset: 0; z-index: -1; overflow: hidden; pointer-events: none; }
+/* La opacidad de cada mancha sale de los tokens de base.css, de modo que el tema
+   oscuro la atenúa por sus dos vías sin duplicar estas reglas. */
+.aurora-blob { position: absolute; border-radius: 50%; filter: blur(80px); opacity: var(--aurora-1); will-change: transform; }
+.aurora-blob.b1 { width: 46vw; height: 46vw; top: -14vw; right: -10vw; background: radial-gradient(circle, #0891b2, transparent 68%); animation: flotar1 24s ease-in-out infinite; }
+.aurora-blob.b2 { width: 40vw; height: 40vw; bottom: -12vw; left: -12vw; background: radial-gradient(circle, #6d28d9, transparent 68%); opacity: var(--aurora-2); animation: flotar2 30s ease-in-out infinite; }
+.aurora-blob.b3 { width: 32vw; height: 32vw; top: 32%; left: 44%; background: radial-gradient(circle, #0e7490, transparent 70%); opacity: var(--aurora-3); animation: flotar3 27s ease-in-out infinite; }
+@keyframes flotar1 { 0%, 100% { transform: translate(0, 0) scale(1); } 50% { transform: translate(-4vw, 5vw) scale(1.1); } }
+@keyframes flotar2 { 0%, 100% { transform: translate(0, 0) scale(1); } 50% { transform: translate(5vw, -4vw) scale(1.08); } }
+@keyframes flotar3 { 0%, 100% { transform: translate(0, 0) scale(1); } 50% { transform: translate(-6vw, -3vw) scale(0.92); } }
+
+/* ============================================================
+   Color de acento por familia anatómico funcional
+   ------------------------------------------------------------
+   La clase la genera claseSistema() en el JavaScript, con el
+   patrón sis-<slug>.
+
+   El problema: Diez sistemas con diez colores dejaban pares a una
+   distancia perceptual de 1.3 con daltonismo, es decir, colores
+   indistinguibles para buena parte de quienes estudian con esto.
+
+   La solución es no codificar el sistema con el color, sino la
+   FAMILIA ANATÓMICO FUNCIONAL, que además agrupa lo que se estudia
+   junto:
+
+     teal     tórax               respiratorio y cardiovascular
+     violeta  neuro               nervioso y cabeza y cuello
+     magenta  abdomen y pelvis    digestivo, urinario, reproductor y mama
+     ámbar    estructural         óseo y endocrino
+
+   Dentro de cada familia, el sistema se distingue por dos vías que
+   no dependen del color: la insignia lleva siempre su nombre
+   escrito y el borde superior de la tarjeta cambia de trazo.
+
+   Los cuatro tonos están comprobados a todos los pares y en los
+   dos temas con la revisión paleta del arnés, que también lee
+   paleta.config.json de la raíz:
+
+     node revisiones/paleta.js "#007a5f, #4348c4, #870d49, #9c520f" --fondo "#ffffff"
+     node revisiones/paleta.js "#52dcc4, #a8a4ff, #ee68a3, #e4a53c" --fondo "#131c2e"
+
+   Peor separación con visión normal 17.4 en claro (abdomen contra
+   estructural) y 18.9 en oscuro (neuro contra abdomen), y con
+   daltonismo 9.7 en claro y 10.9 en oscuro (tórax contra abdomen,
+   en deuteranopia ambas). Contraste como texto sobre la
+   superficie: 5.32, 7.09, 9.62 y 5.79 a 1 en claro; 10.05, 7.64,
+   5.79 y 7.90 a 1 en oscuro; sobre el fondo de su propia insignia
+   ningún tono baja de 4.64 en claro ni de 5.08 en oscuro. Los
+   umbrales exigidos quedan en paleta.config.json; si un tono se
+   ajusta hay que volver a medir.
+   ============================================================ */
+:root {
+  --fam-torax: #007a5f;
+  --fam-neuro: #4348c4;
+  --fam-abdomen: #870d49;
+  --fam-estructural: #9c520f;
+}
+
+/* Los mismos pasos claros por los dos caminos del tema oscuro: la
+   preferencia del sistema cuando no hay data-tema, y la elección
+   manual cuando lo hay. El :where deja ganar a data-tema="claro". */
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-tema="claro"])) {
+    --fam-torax: #52dcc4;
+    --fam-neuro: #a8a4ff;
+    --fam-abdomen: #ee68a3;
+    --fam-estructural: #e4a53c;
+  }
+}
+
+:root[data-tema="oscuro"] {
+  --fam-torax: #52dcc4;
+  --fam-neuro: #a8a4ff;
+  --fam-abdomen: #ee68a3;
+  --fam-estructural: #e4a53c;
+}
+
+.sis-respiratorio { --acento-sis: var(--fam-torax); }
+.sis-cardiovascular { --acento-sis: var(--fam-torax); }
+.sis-nervioso { --acento-sis: var(--fam-neuro); }
+.sis-cabeza-y-cuello { --acento-sis: var(--fam-neuro); }
+.sis-digestivo { --acento-sis: var(--fam-abdomen); }
+.sis-urinario { --acento-sis: var(--fam-abdomen); }
+.sis-reproductor { --acento-sis: var(--fam-abdomen); }
+.sis-mama { --acento-sis: var(--fam-abdomen); }
+.sis-oseo { --acento-sis: var(--fam-estructural); }
+.sis-endocrino { --acento-sis: var(--fam-estructural); }
+
+.tarjeta[class*="sis-"], .tarjeta-texto[class*="sis-"] { border-top: 3px solid var(--acento-sis, var(--marca-400)); }
+
+/* Trazo del borde superior por sistema dentro de la familia, para que dos
+   sistemas hermanos no dependan del color: el primero de cada familia
+   conserva el trazo continuo y los demás cambian de patrón. Los selectores
+   repiten la clase de tarjeta para igualar la especificidad de la regla del
+   borde y ganar por orden de aparición. */
+.tarjeta.sis-cardiovascular, .tarjeta-texto.sis-cardiovascular,
+.tarjeta.sis-cabeza-y-cuello, .tarjeta-texto.sis-cabeza-y-cuello,
+.tarjeta.sis-urinario, .tarjeta-texto.sis-urinario,
+.tarjeta.sis-endocrino, .tarjeta-texto.sis-endocrino { border-top-style: dashed; }
+.tarjeta.sis-reproductor, .tarjeta-texto.sis-reproductor { border-top-style: dotted; }
+.tarjeta.sis-mama, .tarjeta-texto.sis-mama { border-top-style: double; border-top-width: 4px; }
+
+.insignia.sistema {
+  background: color-mix(in srgb, var(--acento-sis, var(--marca-tinta)) 10%, transparent);
+  color: var(--acento-sis, var(--marca-tinta));
+  border: none;
+}
+
+/* ============================================================
+   Paginación
+   ============================================================ */
+.paginacion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+.paginacion:empty { display: none; }
+.pag-info { font-size: 0.82rem; color: var(--tinta-3); font-variant-numeric: tabular-nums; }
+.pag-botones { display: flex; align-items: center; gap: 0.3rem; margin-left: auto; }
+.pag-btn {
+  min-width: 38px; height: 38px;
+  padding: 0 0.6rem;
+  border: 1px solid var(--borde);
+  background: var(--superficie);
+  color: var(--tinta-2);
+  border-radius: 10px;
+  font-size: 0.9rem; font-weight: 600; font-family: inherit;
+  cursor: pointer;
+  display: inline-flex; align-items: center; justify-content: center;
+  transition: all 0.18s var(--paso);
+}
+.pag-btn:hover:not(:disabled):not(.activo) { border-color: var(--marca-400); color: var(--marca-tinta); transform: translateY(-1px); }
+.pag-btn:active:not(:disabled):not(.activo) { transform: translateY(0) scale(0.95); }
+.pag-btn.activo { background: var(--marca-grad); border-color: transparent; color: #fff; box-shadow: var(--sombra-marca); cursor: default; }
+.pag-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.pag-flecha .ico { width: 18px; height: 18px; }
+.pag-elipsis { color: var(--tinta-3); padding: 0 0.2rem; align-self: flex-end; }
+
+/* ============================================================
+   Cargadores esqueleto
+   ============================================================ */
+.esqueleto {
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: var(--r-lg);
+  overflow: hidden;
+}
+.esqueleto-img { aspect-ratio: 4 / 3; background: var(--superficie-3); }
+.esqueleto-cuerpo { padding: 0.95rem 1.05rem 1.1rem; display: flex; flex-direction: column; gap: 0.55rem; }
+.esqueleto-linea { height: 12px; border-radius: 6px; background: var(--superficie-3); }
+.esqueleto-linea.corta { width: 45%; }
+.esqueleto-linea.media { width: 75%; }
+.esqueleto::after, .esqueleto-img::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--tinta) 6%, transparent), transparent);
+  transform: translateX(-100%);
+  animation: brillo 1.4s infinite;
+}
+.esqueleto { position: relative; }
+@keyframes brillo { 100% { transform: translateX(100%); } }
+
+/* ============================================================
+   Menú lateral
+   ============================================================ */
+/* Botón flotante y panel que sustituyen a la cabecera cuando esta se retira durante la
+   lectura. El botón vive en el borde izquierdo a media altura para no chocar con el botón
+   de volver arriba, que ocupa la esquina inferior derecha, ni con la barra de progreso,
+   que corre pegada al borde superior. La regla global de menos movimiento vuelve
+   instantáneas estas transiciones, de modo que con esa preferencia no hay animación. */
+.boton-menu-lateral {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translate(-110%, -50%);
+  z-index: 110;
+  min-width: 46px;
+  min-height: 46px;
+  border: 1px solid var(--borde);
+  border-left: none;
+  border-radius: 0 12px 12px 0;
+  background: var(--superficie);
+  color: var(--marca-tinta);
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  box-shadow: var(--sombra-md);
+  visibility: hidden;
+  transition: transform 0.3s var(--paso), visibility 0.3s, background 0.2s, color 0.2s;
+}
+.boton-menu-lateral.visible { visibility: visible; transform: translate(0, -50%); }
+.boton-menu-lateral:hover { background: var(--marca-grad); color: #fff; border-color: transparent; }
+.boton-menu-lateral .ico { width: 20px; height: 20px; }
+
+/* El fondo atenuado recoge el clic fuera del panel, para que cerrar no active por
+   accidente lo que quede debajo. */
+.menu-lateral-fondo {
+  position: fixed;
+  inset: 0;
+  z-index: 115;
+  background: color-mix(in srgb, var(--tinta) 25%, transparent);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+.menu-lateral-fondo.abierto { opacity: 1; visibility: visible; }
+
+/* El ancho del panel se limita para que en escritorio nunca cubra todo el contenido,
+   mientras que en pantallas estrechas puede tomar casi todo el ancho. */
+.menu-lateral {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 120;
+  width: min(320px, 86vw);
+  background: var(--superficie);
+  border-right: 1px solid var(--borde);
+  box-shadow: var(--sombra-lg);
+  padding: 1rem 0.85rem 1.25rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(-105%);
+  visibility: hidden;
+  transition: transform 0.3s var(--paso), visibility 0.3s;
+}
+.menu-lateral.abierto { transform: none; visibility: visible; }
+
+.menu-lateral-cabecera {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0 0.35rem 0.6rem;
+  border-bottom: 1px solid var(--borde);
+  margin-bottom: 0.5rem;
+}
+.menu-lateral-titulo {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--tinta-3);
+}
+.menu-lateral-cerrar {
+  min-width: 44px;
+  min-height: 44px;
+  border: 1px solid var(--borde);
+  background: var(--superficie-2);
+  color: var(--tinta-2);
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  transition: border-color 0.2s, color 0.2s;
+}
+.menu-lateral-cerrar:hover { border-color: var(--marca-400); color: var(--marca-tinta); }
+.menu-lateral-cerrar:active { transform: scale(0.94); }
+
+.menu-lateral-lista { display: flex; flex-direction: column; gap: 0.25rem; }
+/* Las opciones repiten el lenguaje visual de las pestañas y garantizan un blanco táctil
+   de al menos 44 píxeles de alto. */
+.menu-lateral-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  min-height: 44px;
+  padding: 0.55rem 0.8rem;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  color: var(--tinta-2);
+  font-size: 0.95rem;
+  font-weight: 600;
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: color 0.2s, background 0.2s;
+}
+.menu-lateral-item .ico { width: 18px; height: 18px; }
+.menu-lateral-item:hover { color: var(--tinta); background: var(--superficie-2); }
+.menu-lateral-item.activa { color: var(--marca-tinta); background: color-mix(in srgb, var(--marca-500) 12%, transparent); }
+.menu-lateral-item:active { background: color-mix(in srgb, var(--marca-500) 16%, transparent); }
+
+/* ============================================================
+   Responsivo
+   ------------------------------------------------------------
+   Los ajustes de pantalla estrecha viven juntos en lugar de
+   repartirse por las hojas anteriores, porque tocan componentes
+   de varias de ellas y leerlos de corrido es la única forma de
+   ver la página estrecha completa.
+   ============================================================ */
+@media (max-width: 640px) {
+  .cabecera-superior { padding: 0.7rem 1rem; }
+  .marca-texto small { display: none; }
+  .marca-texto strong { font-size: 1rem; }
+  .vista { padding: 1.25rem 1rem 3.5rem; }
+  .galeria { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 0.85rem; }
+  .galeria-texto, .temas, .glosario { grid-template-columns: 1fr; }
+  .tarjeta h3 { font-size: 0.92rem; }
+  .etiqueta-filtro { min-width: 100%; margin-bottom: -0.2rem; }
+  .modal { padding: 0; align-items: flex-end; }
+  .modal-tarjeta { max-height: 94vh; border-radius: var(--r-xl) var(--r-xl) 0 0; }
+  .modal-imagen-marco { border-radius: var(--r-xl) var(--r-xl) 0 0; }
+  .modal-cuerpo { padding: 1.25rem 1.25rem 2rem; }
+  .quiz-panel { padding: 1.75rem 1.25rem; }
+  .ir-arriba { bottom: 1rem; right: 1rem; }
+  .paginacion { justify-content: center; }
+  .pag-info { width: 100%; text-align: center; order: 2; }
+  .pag-botones { margin: 0 auto; }
+  .pag-btn { min-width: 34px; height: 34px; }
+}
+
+/* En pantalla táctil los blancos suben al mínimo recomendado de 44 píxeles,
+   porque un dedo no tiene la precisión de un puntero. */
+@media (pointer: coarse) {
+  .chip { min-height: 44px; padding-top: 0.5rem; padding-bottom: 0.5rem; }
+  .pag-btn { min-width: 44px; min-height: 44px; }
+}
+
+/* Respeta la preferencia de menos movimiento */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+  .aurora { display: none; }
+}
+

@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img"
+     aria-label="Esquema comparativo de la distribución de la neumonía en proyección lateral del pulmón derecho. A la izquierda la bronconeumonía, con opacidades parcheadas alrededor de los bronquios que cruzan las cisuras. A la derecha la neumonía lobar, con una consolidación homogénea del lóbulo inferior que se detiene en la cisura mayor y contiene broncograma aéreo">
+  <defs>
+    <linearGradient id="tejido" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f1f5f9"/>
+      <stop offset="0.45" stop-color="#dbe3ec"/>
+      <stop offset="1" stop-color="#aab6c6"/>
+    </linearGradient>
+    <linearGradient id="fondo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111c30"/>
+      <stop offset="1" stop-color="#0a1120"/>
+    </linearGradient>
+    <clipPath id="pulmonLateral">
+      <path d="M240,176 C204,178 176,204 166,244 C156,288 158,346 170,392
+               C178,424 198,442 230,446 L286,446 C314,440 328,418 332,384
+               C338,336 334,274 322,236 C310,198 278,174 240,176 Z"/>
+    </clipPath>
+  </defs>
+
+  <rect width="900" height="600" fill="url(#fondo)"/>
+
+  <text x="450" y="44" text-anchor="middle" fill="#f1f5f9"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="27" font-weight="600">
+    Bronconeumonía frente a neumonía lobar
+  </text>
+  <text x="450" y="70" text-anchor="middle" fill="#93a3b8"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15">
+    Lo que separa a las dos formas es la distribución del relleno alveolar, no su densidad
+  </text>
+
+  <!-- ================= Leyenda ================= -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#93a3b8">
+    <rect x="96" y="86" width="20" height="12" rx="2" fill="#f87171" fill-opacity="0.32"
+          stroke="#f87171" stroke-width="1.2"/>
+    <text x="124" y="97">Consolidación</text>
+    <line x1="250" y1="92" x2="272" y2="92" stroke="#f59e0b" stroke-width="2.2"/>
+    <text x="280" y="97">Cisuras</text>
+    <line x1="370" y1="92" x2="392" y2="92" stroke="#cbd5e1" stroke-width="2.6"/>
+    <text x="400" y="97">Árbol bronquial</text>
+    <rect x="535" y="86" width="22" height="12" rx="2" fill="#f87171" fill-opacity="0.32"/>
+    <line x1="537" y1="92" x2="555" y2="92" stroke="#0f1a2c" stroke-width="2.6"/>
+    <text x="565" y="97">Broncograma aéreo</text>
+  </g>
+
+  <!-- ================= Panel A. Bronconeumonía ================= -->
+  <g>
+    <path d="M240,176 C204,178 176,204 166,244 C156,288 158,346 170,392
+             C178,424 198,442 230,446 L286,446 C314,440 328,418 332,384
+             C338,336 334,274 322,236 C310,198 278,174 240,176 Z"
+          fill="#152238" stroke="#8494a8" stroke-width="1.7"/>
+
+    <g clip-path="url(#pulmonLateral)">
+      <!-- Opacidades parcheadas de distribución lobulillar -->
+      <g fill="#f87171" fill-opacity="0.34" stroke="#f87171" stroke-width="1" stroke-opacity="0.7">
+        <ellipse cx="226" cy="246" rx="26" ry="19"/>
+        <ellipse cx="196" cy="292" rx="19" ry="15"/>
+        <ellipse cx="252" cy="316" rx="24" ry="18"/>
+        <ellipse cx="214" cy="364" rx="22" ry="17"/>
+        <ellipse cx="292" cy="272" rx="20" ry="16"/>
+        <ellipse cx="300" cy="352" rx="24" ry="19"/>
+        <ellipse cx="278" cy="410" rx="26" ry="18"/>
+        <ellipse cx="186" cy="398" rx="17" ry="13"/>
+        <ellipse cx="246" cy="200" rx="16" ry="12"/>
+      </g>
+      <!-- Nódulos centrolobulillares en la periferia de las manchas -->
+      <g fill="#f87171" fill-opacity="0.75">
+        <circle cx="176" cy="264" r="3.2"/>
+        <circle cx="304" cy="220" r="3.2"/>
+        <circle cx="318" cy="304" r="3.2"/>
+        <circle cx="188" cy="336" r="3.2"/>
+        <circle cx="242" cy="430" r="3.2"/>
+        <circle cx="310" cy="418" r="3.2"/>
+        <circle cx="264" cy="376" r="3.2"/>
+        <circle cx="222" cy="216" r="3.2"/>
+      </g>
+      <!-- Árbol bronquial -->
+      <g fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+        <path d="M300,196 L272,286" stroke-width="4.4"/>
+        <path d="M272,286 L240,256 L218,232" stroke-width="3"/>
+        <path d="M272,286 L238,330 L214,360" stroke-width="3"/>
+        <path d="M272,286 L288,340 L296,392" stroke-width="3"/>
+      </g>
+      <!-- Cisuras -->
+      <g fill="none" stroke="#f59e0b" stroke-width="2.2" opacity="0.95">
+        <path d="M322,240 C288,300 244,368 198,434"/>
+        <path d="M264,334 C232,328 196,322 160,318"/>
+      </g>
+    </g>
+
+    <text x="250" y="466" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">
+      Las manchas cruzan las cisuras y dejan pulmón sano entre ellas
+    </text>
+
+    <text x="250" y="500" text-anchor="middle" fill="#f1f5f9"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="600">
+      Bronconeumonía
+    </text>
+    <text x="250" y="526" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">
+      Opacidades parcheadas alrededor de los bronquios
+    </text>
+    <text x="250" y="548" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">
+      con broncograma escaso o ausente
+    </text>
+  </g>
+
+  <!-- ================= Panel B. Neumonía lobar ================= -->
+  <g transform="translate(400,0)">
+    <path d="M240,176 C204,178 176,204 166,244 C156,288 158,346 170,392
+             C178,424 198,442 230,446 L286,446 C314,440 328,418 332,384
+             C338,336 334,274 322,236 C310,198 278,174 240,176 Z"
+          fill="#152238" stroke="#8494a8" stroke-width="1.7"/>
+
+    <g clip-path="url(#pulmonLateral)">
+      <!-- Consolidación del lóbulo inferior, limitada por la cisura mayor -->
+      <path d="M322,240 C288,300 244,368 198,434 L198,470 L360,470 L360,230 Z"
+            fill="#f87171" fill-opacity="0.34"/>
+      <!-- Broncograma aéreo -->
+      <g fill="none" stroke="#0f1a2c" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M280,300 L292,340 L300,388" stroke-width="3.4"/>
+        <path d="M292,340 L316,354" stroke-width="2.4"/>
+        <path d="M300,388 L282,414" stroke-width="2.4"/>
+        <path d="M286,320 L308,318" stroke-width="2.4"/>
+      </g>
+      <!-- Árbol bronquial -->
+      <g fill="none" stroke="#cbd5e1" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+        <path d="M300,196 L272,286" stroke-width="4.4"/>
+        <path d="M272,286 L240,256 L218,232" stroke-width="3"/>
+        <path d="M272,286 L238,330 L214,360" stroke-width="3"/>
+      </g>
+      <!-- Cisuras -->
+      <g fill="none" stroke="#f59e0b" stroke-width="2.2" opacity="0.95">
+        <path d="M322,240 C288,300 244,368 198,434"/>
+        <path d="M264,334 C232,328 196,322 160,318"/>
+      </g>
+    </g>
+
+    <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">
+      <text x="250" y="222" text-anchor="middle" fill="#93a3b8">Superior</text>
+      <text x="200" y="378" text-anchor="middle" fill="#93a3b8">Medio</text>
+      <text x="264" y="430" text-anchor="middle" fill="#f1f5f9">Inferior</text>
+    </g>
+
+    <text x="250" y="466" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">
+      El relleno alveolar se detiene en el límite cisural
+    </text>
+
+    <text x="250" y="500" text-anchor="middle" fill="#f1f5f9"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="600">
+      Neumonía lobar
+    </text>
+    <text x="250" y="526" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">
+      Consolidación homogénea de un lóbulo completo
+    </text>
+    <text x="250" y="548" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">
+      con broncograma aéreo visible
+    </text>
+  </g>
+
+  <text x="450" y="582" text-anchor="middle" fill="#5b6b82"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">
+    Esquema didáctico en proyección lateral del pulmón derecho, con la cara anterior a la izquierda de cada panel.
+  </text>
+</svg>

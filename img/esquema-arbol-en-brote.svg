@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img"
+     aria-label="Esquema del lobulillo pulmonar secundario. A la izquierda el lobulillo normal, con el bronquiolo y la arteriola centrolobulillares en el centro y los septos interlobulillares en la periferia. A la derecha el patrón de árbol en brote, con los bronquiolos centrolobulillares rellenos que forman micronódulos ramificados agrupados y separados de la pleura">
+  <defs>
+    <linearGradient id="tejido" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f1f5f9"/>
+      <stop offset="0.45" stop-color="#dbe3ec"/>
+      <stop offset="1" stop-color="#aab6c6"/>
+    </linearGradient>
+    <linearGradient id="fondo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111c30"/>
+      <stop offset="1" stop-color="#0a1120"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="600" fill="url(#fondo)"/>
+
+  <text x="450" y="44" text-anchor="middle" fill="#f1f5f9"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="27" font-weight="600">
+    Patrón de árbol en brote
+  </text>
+  <text x="450" y="70" text-anchor="middle" fill="#93a3b8"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15">
+    El lobulillo pulmonar secundario explica por qué los nódulos quedan en el centro y respetan la pleura
+  </text>
+
+  <!-- ================= Leyenda ================= -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#93a3b8">
+    <rect x="150" y="86" width="20" height="12" rx="3" fill="url(#tejido)" stroke="#f59e0b" stroke-width="1.4"/>
+    <text x="178" y="97">Pleura</text>
+    <line x1="270" y1="92" x2="292" y2="92" stroke="#8494a8" stroke-width="2"/>
+    <text x="300" y="97">Septo interlobulillar</text>
+    <line x1="470" y1="92" x2="492" y2="92" stroke="#f87171" stroke-width="5" stroke-linecap="round"/>
+    <text x="500" y="97">Bronquiolo relleno de secreciones</text>
+  </g>
+
+  <!-- ================= Panel A. Lobulillo normal ================= -->
+  <g>
+    <rect x="84" y="172" width="13" height="266" rx="5" fill="url(#tejido)"
+          stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="90" y="162" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Pleura</text>
+
+    <polygon points="368,305 309,407 191,407 132,305 191,203 309,203"
+             fill="#152238" stroke="#8494a8" stroke-width="1.8"/>
+    <line x1="250" y1="203" x2="250" y2="184" stroke="#8494a8" stroke-width="1"/>
+    <text x="250" y="176" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Septo interlobulillar</text>
+
+    <!-- Arteriola centrolobulillar -->
+    <g fill="none" stroke="#6f8098" stroke-width="2" stroke-linecap="round">
+      <path d="M368,318 L310,314"/>
+      <path d="M310,314 L278,294"/>
+      <path d="M310,314 L280,336"/>
+    </g>
+    <!-- Bronquiolo centrolobulillar de pared fina -->
+    <g fill="none" stroke="#cbd5e1" stroke-width="2.6" stroke-linecap="round" opacity="0.9">
+      <path d="M368,306 L306,304"/>
+      <path d="M306,304 L268,278 L246,268"/>
+      <path d="M306,304 L270,328 L248,342"/>
+      <path d="M268,278 L262,258"/>
+      <path d="M270,328 L266,350"/>
+    </g>
+
+    <polyline points="300,318 288,360 270,446" fill="none" stroke="#93a3b8" stroke-width="1"/>
+    <text x="250" y="464" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">
+      Bronquiolo y arteriola centrolobulillares
+    </text>
+
+    <text x="250" y="500" text-anchor="middle" fill="#f1f5f9"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="600">
+      Lobulillo normal
+    </text>
+    <text x="250" y="526" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">
+      El bronquiolo tiene la pared tan fina
+    </text>
+    <text x="250" y="548" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">
+      que la tomografía no lo distingue
+    </text>
+  </g>
+
+  <!-- ================= Panel B. Árbol en brote ================= -->
+  <g transform="translate(400,0)">
+    <rect x="84" y="172" width="13" height="266" rx="5" fill="url(#tejido)"
+          stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="90" y="162" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Pleura</text>
+
+    <polygon points="368,305 309,407 191,407 132,305 191,203 309,203"
+             fill="#152238" stroke="#8494a8" stroke-width="1.8"/>
+    <line x1="250" y1="203" x2="250" y2="184" stroke="#8494a8" stroke-width="1"/>
+    <text x="250" y="176" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Septo interlobulillar</text>
+
+    <g fill="none" stroke="#6f8098" stroke-width="2" stroke-linecap="round">
+      <path d="M368,318 L310,314"/>
+      <path d="M310,314 L278,294"/>
+      <path d="M310,314 L280,336"/>
+    </g>
+    <!-- Bronquiolos rellenos, ramas y brotes -->
+    <g fill="none" stroke="#f87171" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M368,306 L306,304"/>
+      <path d="M306,304 L268,278 L246,268"/>
+      <path d="M306,304 L270,328 L248,342"/>
+      <path d="M268,278 L262,258"/>
+      <path d="M270,328 L266,350"/>
+    </g>
+    <g fill="#f87171">
+      <circle cx="246" cy="268" r="6.5"/>
+      <circle cx="262" cy="258" r="6.5"/>
+      <circle cx="248" cy="342" r="6.5"/>
+      <circle cx="266" cy="350" r="6.5"/>
+    </g>
+
+    <!-- Separación de la pleura -->
+    <line x1="98" y1="305" x2="228" y2="305" stroke="#38bdf8" stroke-width="1.6"
+          stroke-dasharray="7 6" opacity="0.85"/>
+    <line x1="98" y1="298" x2="98" y2="312" stroke="#38bdf8" stroke-width="1.6"/>
+    <line x1="228" y1="298" x2="228" y2="312" stroke="#38bdf8" stroke-width="1.6"/>
+    <text x="163" y="294" text-anchor="middle" fill="#7dd3fc"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">
+      Sin contacto pleural
+    </text>
+
+    <polyline points="256,356 246,400 236,446" fill="none" stroke="#93a3b8" stroke-width="1"/>
+    <text x="250" y="464" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">
+      Bronquiolos rellenos con brotes en su extremo
+    </text>
+
+    <text x="250" y="500" text-anchor="middle" fill="#f1f5f9"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="600">
+      Árbol en brote
+    </text>
+    <text x="250" y="526" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">
+      El relleno hace visible la vía aérea pequeña
+    </text>
+    <text x="250" y="548" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">
+      como micronódulos ramificados agrupados
+    </text>
+  </g>
+
+  <text x="450" y="582" text-anchor="middle" fill="#5b6b82"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">
+    Esquema didáctico. Los nódulos ocupan el centro del lobulillo y quedan a unos milímetros de la superficie pleural.
+  </text>
+</svg>

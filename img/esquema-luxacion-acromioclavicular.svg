@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img"
+     aria-label="Esquema de los grados de la luxación acromioclavicular. En el grado uno los ligamentos están distendidos y la clavícula mantiene su nivel. En el grado dos se rompen los ligamentos acromioclaviculares y la clavícula asciende poco. En el grado tres se rompen también los coracoclaviculares, la clavícula asciende de forma clara y la distancia coracoclavicular aumenta">
+  <defs>
+    <linearGradient id="hueso" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f1f5f9"/>
+      <stop offset="0.45" stop-color="#dbe3ec"/>
+      <stop offset="1" stop-color="#aab6c6"/>
+    </linearGradient>
+    <linearGradient id="fondo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111c30"/>
+      <stop offset="1" stop-color="#0a1120"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="600" fill="url(#fondo)"/>
+
+  <text x="450" y="44" text-anchor="middle" fill="#f1f5f9"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="27" font-weight="600">
+    Luxación acromioclavicular
+  </text>
+  <text x="450" y="70" text-anchor="middle" fill="#93a3b8"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15">
+    El grado depende del ascenso de la clavícula y del estado de los ligamentos que la sostienen
+  </text>
+
+  <!-- ================= Leyenda ================= -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#93a3b8">
+    <line x1="148" y1="102" x2="170" y2="102" stroke="#f59e0b" stroke-width="5" stroke-linecap="round"/>
+    <text x="178" y="107">Ligamento íntegro</text>
+    <line x1="360" y1="102" x2="370" y2="102" stroke="#f87171" stroke-width="5" stroke-linecap="round"/>
+    <line x1="380" y1="102" x2="390" y2="102" stroke="#f87171" stroke-width="5" stroke-linecap="round"/>
+    <text x="398" y="107">Ligamento roto</text>
+    <line x1="560" y1="94" x2="560" y2="110" stroke="#38bdf8" stroke-width="1.6"/>
+    <line x1="554" y1="94" x2="566" y2="94" stroke="#38bdf8" stroke-width="1.6"/>
+    <line x1="554" y1="110" x2="566" y2="110" stroke="#38bdf8" stroke-width="1.6"/>
+    <text x="576" y="107">Distancia coracoclavicular</text>
+  </g>
+
+  <!-- Línea de referencia del nivel del acromion, común a los tres esquemas -->
+  <line x1="26" y1="224" x2="880" y2="224" stroke="#38bdf8" stroke-width="1.6"
+        stroke-dasharray="7 7" opacity="0.6"/>
+  <text x="26" y="210" fill="#7dd3fc"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">
+    Nivel del borde superior del acromion
+  </text>
+
+  <!-- ================= Grado I ================= -->
+  <g transform="translate(100,-26)">
+    <path d="M52,400 C46,366 52,338 70,326 C90,312 112,318 122,332 L110,348
+             C102,338 90,336 82,346 C74,356 74,378 76,400 Z"
+          fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <path d="M140,250 L226,246 L230,286 L142,290 Z"
+          fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <path d="M0,252 C40,244 84,244 126,250 L128,282 C84,288 40,288 0,286 Z"
+          fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+
+    <line x1="60" y1="284" x2="72" y2="328" stroke="#f59e0b" stroke-width="5" stroke-linecap="round"/>
+    <line x1="94" y1="286" x2="108" y2="334" stroke="#f59e0b" stroke-width="5" stroke-linecap="round"/>
+    <line x1="112" y1="246" x2="150" y2="243" stroke="#f59e0b" stroke-width="5" stroke-linecap="round"/>
+
+    <g stroke="#38bdf8" stroke-width="1.5">
+      <line x1="34" y1="284" x2="34" y2="328"/>
+      <line x1="28" y1="284" x2="40" y2="284"/>
+      <line x1="28" y1="328" x2="40" y2="328"/>
+    </g>
+
+    <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#4a5769">
+      <text x="62" y="272" text-anchor="middle">Clavícula</text>
+      <text x="184" y="272" text-anchor="middle">Acromion</text>
+    </g>
+    <line x1="86" y1="402" x2="86" y2="414" stroke="#93a3b8" stroke-width="1"/>
+    <text x="86" y="430" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">Coracoides</text>
+
+    <text x="115" y="484" text-anchor="middle" fill="#f1f5f9"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="600">
+      Grado I
+    </text>
+    <text x="115" y="510" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5">
+      Ligamentos distendidos
+    </text>
+    <text x="115" y="530" text-anchor="middle" fill="#6f8098"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">
+      Sin ascenso de la clavícula
+    </text>
+  </g>
+
+  <!-- ================= Grado II ================= -->
+  <g transform="translate(375,-26)">
+    <path d="M52,400 C46,366 52,338 70,326 C90,312 112,318 122,332 L110,348
+             C102,338 90,336 82,346 C74,356 74,378 76,400 Z"
+          fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <path d="M140,250 L226,246 L230,286 L142,290 Z"
+          fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <path d="M0,234 C40,226 84,226 126,232 L128,264 C84,270 40,270 0,268 Z"
+          fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+
+    <line x1="60" y1="266" x2="72" y2="328" stroke="#f59e0b" stroke-width="5" stroke-linecap="round"/>
+    <line x1="94" y1="268" x2="108" y2="334" stroke="#f59e0b" stroke-width="5" stroke-linecap="round"/>
+    <line x1="113" y1="229" x2="126" y2="231" stroke="#f87171" stroke-width="5" stroke-linecap="round"/>
+    <line x1="140" y1="244" x2="152" y2="242" stroke="#f87171" stroke-width="5" stroke-linecap="round"/>
+
+    <g stroke="#38bdf8" stroke-width="1.5">
+      <line x1="34" y1="266" x2="34" y2="328"/>
+      <line x1="28" y1="266" x2="40" y2="266"/>
+      <line x1="28" y1="328" x2="40" y2="328"/>
+    </g>
+
+    <text x="115" y="484" text-anchor="middle" fill="#f1f5f9"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="600">
+      Grado II
+    </text>
+    <text x="115" y="510" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5">
+      Rotura acromioclavicular
+    </text>
+    <text x="115" y="530" text-anchor="middle" fill="#6f8098"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">
+      Ascenso leve de la clavícula
+    </text>
+  </g>
+
+  <!-- ================= Grado III ================= -->
+  <g transform="translate(650,-26)">
+    <path d="M52,400 C46,366 52,338 70,326 C90,312 112,318 122,332 L110,348
+             C102,338 90,336 82,346 C74,356 74,378 76,400 Z"
+          fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <path d="M140,250 L226,246 L230,286 L142,290 Z"
+          fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <path d="M0,204 C40,196 84,196 126,202 L128,234 C84,240 40,240 0,238 Z"
+          fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+
+    <line x1="60" y1="236" x2="64" y2="268" stroke="#f87171" stroke-width="5" stroke-linecap="round"/>
+    <line x1="68" y1="298" x2="72" y2="328" stroke="#f87171" stroke-width="5" stroke-linecap="round"/>
+    <line x1="94" y1="238" x2="99" y2="270" stroke="#f87171" stroke-width="5" stroke-linecap="round"/>
+    <line x1="103" y1="302" x2="108" y2="334" stroke="#f87171" stroke-width="5" stroke-linecap="round"/>
+    <line x1="113" y1="199" x2="126" y2="201" stroke="#f87171" stroke-width="5" stroke-linecap="round"/>
+    <line x1="140" y1="244" x2="152" y2="242" stroke="#f87171" stroke-width="5" stroke-linecap="round"/>
+
+    <g stroke="#38bdf8" stroke-width="1.5">
+      <line x1="34" y1="236" x2="34" y2="328"/>
+      <line x1="28" y1="236" x2="40" y2="236"/>
+      <line x1="28" y1="328" x2="40" y2="328"/>
+    </g>
+
+    <text x="115" y="484" text-anchor="middle" fill="#f1f5f9"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="600">
+      Grado III
+    </text>
+    <text x="115" y="510" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5">
+      Rotura de los dos grupos
+    </text>
+    <text x="115" y="530" text-anchor="middle" fill="#6f8098"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">
+      Ascenso claro de la clavícula
+    </text>
+  </g>
+
+  <text x="450" y="574" text-anchor="middle" fill="#5b6b82"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">
+    Esquema didáctico. La comparación con el hombro sano es más fiable que cualquier medida aislada.
+  </text>
+</svg>

@@ -1,0 +1,155 @@
+/*
+ * Tarjetas de las rejillas.
+ * Contiene la galería de fichas con imagen, las insignias y las tarjetas de solo texto que usan signos, clasificaciones y calculadoras.
+ */
+
+/* ============================================================
+   Galería de fichas
+   ============================================================ */
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.25rem;
+}
+.tarjeta {
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: var(--r-lg);
+  overflow: hidden;
+  box-shadow: var(--sombra-sm);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.28s var(--paso), box-shadow 0.28s var(--paso), border-color 0.28s;
+  animation: aparecer 0.5s var(--paso) both;
+}
+.tarjeta:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--sombra-lg);
+  border-color: color-mix(in srgb, var(--marca-400) 45%, var(--borde));
+}
+.tarjeta-marco {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  background: radial-gradient(circle at 50% 40%, #16263a, #060b14);
+}
+.tarjeta-imagen {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s var(--paso);
+}
+.tarjeta:hover .tarjeta-imagen { transform: scale(1.06); }
+.tarjeta-marco::after {
+  content: "";
+  position: absolute; inset: 0;
+  background: linear-gradient(to top, rgba(4, 10, 20, 0.5), transparent 45%);
+  opacity: 0.85;
+}
+.etiqueta-estado {
+  position: absolute;
+  top: 0.7rem; left: 0.7rem;
+  z-index: 2;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  color: #fff;
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+.etiqueta-estado.normal { background: rgba(21, 128, 61, 0.85); }
+.etiqueta-estado.patologico { background: rgba(180, 83, 9, 0.9); }
+
+.tarjeta-cuerpo { padding: 0.95rem 1.05rem 1.1rem; flex: 1; display: flex; flex-direction: column; gap: 0.55rem; }
+.tarjeta h3 { font-size: 1.02rem; line-height: 1.3; font-weight: 700; letter-spacing: -0.01em; }
+.tarjeta-resumen { font-size: 0.85rem; color: var(--tinta-2); flex: 1; }
+
+/* Insignias */
+.insignias { display: flex; gap: 0.4rem; flex-wrap: wrap; align-items: center; }
+.insignia {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  padding: 0.18rem 0.6rem;
+  border-radius: 7px;
+  background: var(--superficie-3);
+  color: var(--tinta-2);
+  border: 1px solid var(--borde-2);
+}
+.insignia.modalidad { border: none; background: var(--rx-suave); color: var(--rx); }
+.insignia.mod-rx { background: var(--rx-suave); color: var(--rx); }
+.insignia.mod-tc { background: var(--tc-suave); color: var(--tc); }
+.insignia.mod-rm { background: var(--rm-suave); color: var(--rm); }
+.insignia.mod-us { background: var(--us-suave); color: var(--us); }
+.insignia.categoria { background: var(--info-suave); color: var(--info); border: none; }
+.insignia.nivel { text-transform: uppercase; font-size: 0.64rem; }
+.insignia.nivel.básico { background: var(--us-suave); color: var(--us); border: none; }
+.insignia.nivel.intermedio { background: var(--alerta-suave); color: var(--alerta); border: none; }
+.insignia.nivel.avanzado { background: var(--peligro-suave); color: var(--peligro); border: none; }
+
+.sin-resultados {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 4rem 1rem;
+  color: var(--tinta-3);
+}
+.emoji-grande { font-size: 3rem; margin-bottom: 0.5rem; }
+.emoji-grande .ico { width: 46px; height: 46px; color: var(--tinta-3); stroke-width: 1.6; }
+
+/* Salida rápida del estado vacío: Un solo botón devuelve el buscador y los chips a su estado inicial. */
+.boton-limpiar {
+  display: inline-flex; align-items: center; gap: 0.45rem;
+  margin-top: 1.1rem;
+  background: color-mix(in srgb, var(--marca-500) 12%, transparent);
+  color: var(--marca-tinta);
+  border: 1px solid color-mix(in srgb, var(--marca-500) 35%, transparent);
+  padding: 0.55rem 1.05rem;
+  border-radius: var(--r-sm);
+  font-size: 0.88rem; font-weight: 600; font-family: inherit;
+  cursor: pointer;
+  transition: all 0.2s var(--paso);
+}
+.boton-limpiar:hover { background: var(--marca-grad); color: #fff; border-color: transparent; transform: translateY(-1px); box-shadow: var(--sombra-marca); }
+.boton-limpiar:active { transform: translateY(0) scale(0.98); box-shadow: none; }
+
+/* Coincidencias de la búsqueda realzadas en las tarjetas. El realce usa la marca en vez del
+   amarillo del navegador, porque ese amarillo ignora el tema oscuro y pelea con los acentos. */
+.tarjeta mark, .tarjeta-texto mark, .tema-tarjeta mark, .termino mark {
+  background: color-mix(in srgb, var(--marca-400) 26%, transparent);
+  color: inherit;
+  border-radius: 3px;
+  padding: 0 0.1em;
+}
+
+/* ============================================================
+   Tarjetas de solo texto (signos, clasificaciones, calculadoras)
+   ============================================================ */
+.galeria-texto { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
+.tarjeta-texto {
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: var(--r-md);
+  padding: 1.1rem 1.25rem;
+  box-shadow: var(--sombra-sm);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.25s var(--paso), box-shadow 0.25s var(--paso), border-color 0.25s;
+  animation: aparecer 0.5s var(--paso) both;
+}
+.tarjeta-texto::before {
+  content: "";
+  position: absolute; left: 0; top: 0; bottom: 0;
+  width: 4px; background: var(--marca-grad);
+  transform: scaleY(0); transform-origin: top;
+  transition: transform 0.3s var(--paso);
+}
+.tarjeta-texto:hover { transform: translateY(-4px); box-shadow: var(--sombra-lg); border-color: color-mix(in srgb, var(--marca-400) 40%, var(--borde)); }
+.tarjeta-texto:hover::before { transform: scaleY(1); }
+.tarjeta-texto h3 { font-size: 1.02rem; margin: 0.55rem 0 0.4rem; font-weight: 700; letter-spacing: -0.01em; }
+.tarjeta-texto p { font-size: 0.86rem; color: var(--tinta-2); }
+

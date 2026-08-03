@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img"
+     aria-label="Esquema en proyección lateral del quinto metacarpiano. A la izquierda el hueso normal, con el eje del cuello alineado con el de la diáfisis. A la derecha la fractura del cuello, con basculación palmar de la cabeza y medición del ángulo de angulación entre el eje de la diáfisis y el eje del fragmento distal">
+  <defs>
+    <linearGradient id="hueso" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1f5f9"/>
+      <stop offset="0.45" stop-color="#dbe3ec"/>
+      <stop offset="1" stop-color="#aab6c6"/>
+    </linearGradient>
+    <linearGradient id="fondo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111c30"/>
+      <stop offset="1" stop-color="#0a1120"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="600" fill="url(#fondo)"/>
+
+  <text x="450" y="44" text-anchor="middle" fill="#f1f5f9"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="27" font-weight="600">
+    Fractura del cuello del quinto metacarpiano
+  </text>
+  <text x="450" y="70" text-anchor="middle" fill="#93a3b8"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15">
+    La angulación se mide en la proyección lateral, entre el eje de la diáfisis y el del fragmento distal
+  </text>
+
+  <!-- ================= Leyenda ================= -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#93a3b8">
+    <line x1="180" y1="104" x2="202" y2="104" stroke="#38bdf8" stroke-width="1.8" stroke-dasharray="7 6"/>
+    <text x="210" y="109">Ejes del hueso</text>
+    <path d="M368,110 A16,16 0 0 1 384,94" fill="none" stroke="#f59e0b" stroke-width="2.4"/>
+    <text x="394" y="109">Ángulo medido</text>
+    <line x1="580" y1="104" x2="602" y2="104" stroke="#f87171" stroke-width="4.5" stroke-linecap="round"/>
+    <text x="610" y="109">Trazo de fractura</text>
+  </g>
+
+  <!-- ================= Panel A. Metacarpiano normal ================= -->
+  <g transform="translate(60,0)">
+    <text x="14" y="186" fill="#6f8098"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">Dorso</text>
+    <text x="14" y="398" fill="#6f8098"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">Palma</text>
+
+    <path d="M0,222 L20,228 L22,274 L0,282 Z" fill="url(#hueso)" stroke="#8494a8" stroke-width="1.5"/>
+    <path d="M22,234 C70,228 150,228 208,236 L212,266 C150,274 70,274 24,268 Z"
+          fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <ellipse cx="230" cy="251" rx="24" ry="21" fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <path d="M256,240 C290,236 320,236 348,240 L348,262 C320,266 290,266 256,262 Z"
+          fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+
+    <line x1="16" y1="251" x2="356" y2="251" stroke="#38bdf8" stroke-width="1.8" stroke-dasharray="7 6"/>
+
+    <text x="180" y="466" text-anchor="middle" fill="#f1f5f9"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="600">
+      Metacarpiano normal
+    </text>
+    <text x="180" y="492" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5">
+      El eje del cuello continúa el de la diáfisis
+    </text>
+    <text x="180" y="512" text-anchor="middle" fill="#6f8098"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">
+      La angulación es nula
+    </text>
+  </g>
+
+  <!-- ================= Panel B. Fractura del cuello ================= -->
+  <g transform="translate(460,0)">
+    <path d="M0,222 L20,228 L22,274 L0,282 Z" fill="url(#hueso)" stroke="#8494a8" stroke-width="1.5"/>
+    <path d="M22,234 C70,228 150,228 204,236 L208,266 C150,274 70,274 24,268 Z"
+          fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+
+    <g transform="rotate(40 212 251)">
+      <ellipse cx="230" cy="251" rx="24" ry="21" fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+      <path d="M256,240 C290,236 320,236 344,240 L344,262 C320,266 290,266 256,262 Z"
+            fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    </g>
+
+    <!-- Ejes -->
+    <line x1="16" y1="251" x2="300" y2="251" stroke="#38bdf8" stroke-width="1.8" stroke-dasharray="7 6"/>
+    <line x1="212" y1="251" x2="326" y2="347" stroke="#38bdf8" stroke-width="1.8" stroke-dasharray="7 6"/>
+
+    <!-- Arco del ángulo -->
+    <path d="M282,251 A70,70 0 0 1 265.6,296" fill="none" stroke="#f59e0b" stroke-width="2.6"/>
+
+    <!-- Trazo de fractura en el cuello -->
+    <path d="M202,232 L212,242 L204,250 L214,260" fill="none" stroke="#f87171"
+          stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <line x1="212" y1="322" x2="268" y2="284" stroke="#f59e0b" stroke-width="1.2" opacity="0.8"/>
+    <text x="150" y="334" text-anchor="middle" fill="#f1f5f9"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600">
+      Ángulo de angulación
+    </text>
+    <text x="150" y="352" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">
+      medido en el cuello
+    </text>
+
+    <text x="180" y="466" text-anchor="middle" fill="#f1f5f9"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="600">
+      Fractura del cuello
+    </text>
+    <text x="180" y="492" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5">
+      La cabeza bascula hacia la palma
+    </text>
+    <text x="180" y="512" text-anchor="middle" fill="#6f8098"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">
+      El ángulo se abre entre los dos ejes
+    </text>
+  </g>
+
+  <text x="450" y="556" text-anchor="middle" fill="#5b6b82"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">
+    Proyección lateral. El dorso de la mano queda arriba y la palma abajo.
+  </text>
+  <text x="450" y="576" text-anchor="middle" fill="#5b6b82"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">
+    Esquema didáctico. La indicación quirúrgica depende más de la rotación y del acortamiento que de los grados medidos.
+  </text>
+</svg>

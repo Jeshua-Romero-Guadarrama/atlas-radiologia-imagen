@@ -1,0 +1,26 @@
+{
+  "name": "Atlas de Radiología e Imagen: signos radiológicos, clasificaciones y calculadoras por sistemas",
+  "short_name": "Atlas de Radiología",
+  "description": "Atlas de imagenología organizado por sistemas del cuerpo. Fichas con imagen real y qué observar en cada estudio, signos radiológicos con su base fisiopatológica, clasificaciones con sus criterios, calculadoras con interpretación automática y modo de repaso.",
+  "lang": "es-MX",
+  "dir": "ltr",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#eef2f7",
+  "theme_color": "#0e7490",
+  "categories": [
+    "education",
+    "medical",
+    "books"
+  ],
+  "icons": [
+    {
+      "src": "portada.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+/*
+ * Ventanas de detalle.
+ * Recoge el fondo, la tarjeta y los bloques destacados de las cinco ventanas, además de las tablas y las listas que aparecen dentro de ellas.
+ */
+
+/* ============================================================
+   Modales
+   ============================================================ */
+.modal { position: fixed; inset: 0; z-index: 150; display: flex; align-items: center; justify-content: center; padding: 1rem; }
+.modal-fondo {
+  position: absolute; inset: 0;
+  background: rgba(8, 16, 28, 0.62);
+  backdrop-filter: blur(6px);
+  animation: fundido 0.25s ease;
+}
+@keyframes fundido { from { opacity: 0; } to { opacity: 1; } }
+.modal-tarjeta {
+  position: relative;
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: var(--r-xl);
+  max-width: 780px;
+  width: 100%;
+  max-height: 92vh;
+  overflow-y: auto;
+  box-shadow: var(--sombra-lg);
+  animation: surgir 0.4s var(--paso);
+}
+@keyframes surgir {
+  from { opacity: 0; transform: translateY(24px) scale(0.98); }
+  to { opacity: 1; transform: none; }
+}
+.cerrar {
+  position: absolute;
+  top: 0.85rem; right: 0.85rem;
+  z-index: 3;
+  background: color-mix(in srgb, var(--superficie) 70%, transparent);
+  backdrop-filter: blur(8px);
+  color: var(--tinta);
+  border: 1px solid var(--borde);
+  width: 38px; height: 38px;
+  border-radius: 50%;
+  font-size: 0.95rem;
+  cursor: pointer;
+  display: grid; place-items: center;
+  transition: transform 0.2s var(--paso), background 0.2s;
+}
+.cerrar:hover { transform: rotate(90deg); background: var(--peligro-suave); color: var(--peligro); border-color: var(--peligro); }
+.cerrar:active { transform: rotate(90deg) scale(0.9); }
+
+/* Navegación entre fichas. Los botones viven fuera de la tarjeta desplazable para quedarse
+   fijos a media altura de la ventana mientras el contenido se desplaza por debajo. */
+.modal-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+  width: 42px; height: 42px;
+  border-radius: 50%;
+  display: grid; place-items: center;
+  background: color-mix(in srgb, var(--superficie) 82%, transparent);
+  backdrop-filter: blur(8px);
+  color: var(--tinta);
+  border: 1px solid var(--borde);
+  cursor: pointer;
+  transition: transform 0.2s var(--paso), background 0.2s, opacity 0.2s;
+}
+.modal-nav.anterior { left: 0.6rem; }
+.modal-nav.siguiente { right: 0.6rem; }
+.modal-nav:hover:not(:disabled) { background: var(--marca-grad); color: #fff; border-color: transparent; transform: translateY(-50%) scale(1.08); }
+.modal-nav:active:not(:disabled) { transform: translateY(-50%) scale(0.94); }
+/* El extremo de la lista deja el botón visible pero apagado, porque desaparecer y reaparecer
+   movería el resto de controles bajo el puntero. */
+.modal-nav:disabled { opacity: 0.35; cursor: default; }
+.modal-nav .ico { width: 20px; height: 20px; }
+
+.modal-imagen-marco {
+  background: radial-gradient(circle at 50% 30%, #16263a, #05090f);
+  text-align: center;
+  border-radius: var(--r-xl) var(--r-xl) 0 0;
+  overflow: hidden;
+}
+.modal-imagen-marco img { max-width: 100%; max-height: 48vh; object-fit: contain; display: inline-block; }
+
+.modal-cuerpo { padding: 1.5rem 1.75rem 2rem; display: flex; flex-direction: column; gap: 0.5rem; }
+.modal-cuerpo h2 { font-size: 1.5rem; font-weight: 800; letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 0.2rem; }
+/* El encabezado se dispone en fila para que el ícono que lo acompaña quede alineado con el texto. */
+.modal-cuerpo > h3 {
+  font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--tinta-3); font-weight: 700;
+  margin-top: 1.1rem; padding-bottom: 0.15rem;
+  display: flex; align-items: center; gap: 0.5rem;
+}
+.modal-cuerpo > h3 .ico { color: var(--marca-tinta); }
+.modal-cuerpo > p { color: var(--tinta); font-size: 0.96rem; }
+.modal-cuerpo ul { padding-left: 1.25rem; font-size: 0.94rem; }
+.modal-cuerpo li { margin-bottom: 0.35rem; }
+.modal-cuerpo li::marker { color: var(--marca-400); }
+.modal-insignias { margin-bottom: 0.3rem; }
+.credito {
+  font-size: 0.76rem; color: var(--tinta-3);
+  border-top: 1px solid var(--borde); padding-top: 0.85rem; margin-top: 1rem;
+}
+
+/* Bloques destacados */
+.bloque-perla, .bloque-error, .bloque-clave {
+  border-radius: var(--r-md);
+  padding: 0.95rem 1.15rem;
+  margin-top: 1rem;
+}
+.bloque-perla h3, .bloque-error h3, .bloque-clave h3 {
+  font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.05em;
+  font-weight: 700; margin-bottom: 0.35rem;
+  display: flex; align-items: center; gap: 0.5rem;
+}
+/* El ícono de cada bloque hereda el color de alerta, peligro o información de su encabezado. */
+.bloque-perla { background: var(--alerta-suave); border-left: 3px solid #f59e0b; }
+.bloque-perla h3 { color: var(--alerta); }
+.bloque-perla h3 .ico { color: var(--alerta); }
+.bloque-error { background: var(--peligro-suave); border-left: 3px solid var(--peligro); }
+.bloque-error h3 { color: var(--peligro); }
+.bloque-error h3 .ico { color: var(--peligro); }
+.bloque-clave { background: var(--info-suave); border-left: 3px solid var(--info); }
+.bloque-clave h3 { color: var(--info); }
+.bloque-clave h3 .ico { color: var(--info); }
+
+.boton-enlace {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  background: color-mix(in srgb, var(--marca-500) 12%, transparent);
+  color: var(--marca-tinta);
+  border: 1px solid color-mix(in srgb, var(--marca-500) 35%, transparent);
+  padding: 0.55rem 1.05rem;
+  border-radius: var(--r-sm);
+  font-size: 0.9rem; font-weight: 600; font-family: inherit;
+  cursor: pointer; margin-top: 0.5rem;
+  transition: all 0.2s var(--paso);
+}
+.boton-enlace:hover { background: var(--marca-grad); color: #fff; border-color: transparent; transform: translateY(-1px); box-shadow: var(--sombra-marca); }
+.boton-enlace:active { transform: translateY(0) scale(0.98); box-shadow: none; }
+
+/* Lista de modalidades */
+.lista-modalidad { display: grid; gap: 0.5rem; margin-top: 0.4rem; }
+.lista-modalidad dt {
+  display: inline-block;
+  font-weight: 700; font-size: 0.72rem; letter-spacing: 0.03em;
+  color: #fff; background: var(--tc); padding: 0.12rem 0.55rem; border-radius: 6px;
+  margin-bottom: 0.15rem;
+}
+.lista-modalidad dd { margin: 0 0 0.35rem; font-size: 0.93rem; color: var(--tinta); }
+
+/* Tablas */
+.tabla-envoltorio { overflow-x: auto; margin-top: 0.5rem; border: 1px solid var(--borde); border-radius: var(--r-md); }
+.tabla-grados, .tabla-diferencial { width: 100%; border-collapse: collapse; font-size: 0.88rem; min-width: 440px; }
+.tabla-grados thead th, .tabla-diferencial thead th {
+  background: var(--superficie-3);
+  color: var(--tinta-2);
+  text-align: left; padding: 0.6rem 0.8rem;
+  font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.04em; font-weight: 700;
+  position: sticky; top: 0;
+}
+.tabla-grados td, .tabla-diferencial td {
+  padding: 0.6rem 0.8rem; border-top: 1px solid var(--borde); vertical-align: top; color: var(--tinta);
+}
+.tabla-grados tbody tr:nth-child(odd), .tabla-diferencial tbody tr:nth-child(odd) { background: var(--superficie-2); }
+.tabla-grados tbody tr:hover, .tabla-diferencial tbody tr:hover { background: color-mix(in srgb, var(--marca-400) 8%, transparent); }
+

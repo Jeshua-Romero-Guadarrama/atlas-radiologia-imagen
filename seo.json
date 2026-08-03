@@ -1,0 +1,202 @@
+{
+  "url": "https://jeshua-romero-guadarrama.github.io/atlas-radiologia-imagen",
+  "titulo": "Atlas de Radiología e Imagen",
+  "tituloCorto": "Atlas de Radiología",
+  "tituloLargo": "Atlas de Radiología e Imagen: signos radiológicos, clasificaciones y calculadoras por sistemas",
+  "descripcion": "Atlas de imagenología organizado por sistemas del cuerpo. Fichas con imagen real y qué observar en cada estudio, signos radiológicos con su base fisiopatológica, clasificaciones con sus criterios, calculadoras con interpretación automática y modo de repaso.",
+  "idioma": "es-MX",
+  "autor": "Jeshua Romero Guadarrama",
+  "color": "#0e7490",
+  "colorSecundario": "#0891b2",
+  "colorFondo": "#eef2f7",
+  "materia": "Radiología e imagenología diagnóstica",
+  "nivelEducativo": "Licenciatura y posgrado en ciencias de la salud",
+  "licencia": "https://opensource.org/licenses/MIT",
+  "categorias": [
+    "education",
+    "medical",
+    "books"
+  ],
+  "temas": [
+    "Signos radiológicos",
+    "Clasificaciones radiológicas",
+    "Interpretación de radiografía, tomografía, resonancia y ultrasonido",
+    "Volumetría y cálculos de imagen"
+  ],
+  "palabras": [
+    "signos radiologicos",
+    "atlas de radiologia",
+    "clasificaciones radiologicas",
+    "interpretacion de radiografia",
+    "tomografia computarizada",
+    "resonancia magnetica",
+    "ultrasonido diagnostico",
+    "signo de la silueta",
+    "broncograma aereo",
+    "salter harris",
+    "bosniak",
+    "bi rads",
+    "diagnostico por imagen",
+    "imagenologia medica",
+    "casos radiologicos"
+  ],
+  "colecciones": [
+    {
+      "archivo": "fichas",
+      "ruta": "casos",
+      "titulo": "titulo",
+      "descripcion": "descripcion",
+      "etiqueta": "Ficha del catálogo",
+      "etiquetaPlural": "Catálogo de imagen",
+      "descripcionSeccion": "Fichas de estudios y hallazgos por sistemas del cuerpo, con la técnica, qué observar, los hallazgos, el diagnóstico diferencial, los simuladores y la perla clínica.",
+      "datos": [
+        "sistema",
+        "modalidad",
+        "region",
+        "dificultad"
+      ],
+      "etiquetas": {
+        "sistema": "Sistema",
+        "modalidad": "Modalidad",
+        "region": "Región",
+        "dificultad": "Dificultad",
+        "tecnica": "Técnica",
+        "observar": "Qué observar",
+        "hallazgos": "Hallazgos",
+        "perlas": "Perlas",
+        "diferencial": "Diagnóstico diferencial",
+        "simuladores": "Simuladores",
+        "porModalidad": "Por modalidad",
+        "protocolo": "Protocolo",
+        "clasificacion": "Clasificación",
+        "errores": "Errores frecuentes",
+        "imagen": "Imagen",
+        "etiquetas": "Etiquetas"
+      },
+      "ocultos": [
+        "codigo",
+        "titulo",
+        "descripcion",
+        "esNormal",
+        "credito",
+        "temaRelacionado"
+      ]
+    },
+    {
+      "archivo": "signos",
+      "ruta": "signos",
+      "titulo": "nombre",
+      "descripcion": "queEs",
+      "etiqueta": "Signo radiológico",
+      "etiquetaPlural": "Signos radiológicos",
+      "descripcionSeccion": "Signos radiológicos con nombre propio, con su base fisiopatológica, su significado clínico y el truco para recordarlos.",
+      "datos": [
+        "tipo",
+        "sistema",
+        "modalidad"
+      ],
+      "etiquetas": {
+        "tipo": "Tipo",
+        "sistema": "Sistema",
+        "modalidad": "Modalidad",
+        "porQueOcurre": "Por qué ocurre",
+        "significado": "Significado",
+        "diferencial": "Diagnóstico diferencial",
+        "comoRecordarlo": "Cómo recordarlo",
+        "etiquetas": "Etiquetas"
+      },
+      "ocultos": [
+        "codigo",
+        "nombre",
+        "queEs"
+      ]
+    },
+    {
+      "archivo": "clasificaciones",
+      "ruta": "clasificaciones",
+      "titulo": "nombre",
+      "descripcion": "paraQue",
+      "etiqueta": "Clasificación radiológica",
+      "etiquetaPlural": "Clasificaciones y escalas",
+      "descripcionSeccion": "Sistemas de graduación y escalas con sus criterios radiológicos, sus grados y su implicación clínica.",
+      "datos": [
+        "tipo",
+        "sistema",
+        "modalidad"
+      ],
+      "etiquetas": {
+        "tipo": "Tipo",
+        "sistema": "Sistema",
+        "modalidad": "Modalidad",
+        "grados": "Grados",
+        "comoUsarla": "Cómo usarla",
+        "limitaciones": "Limitaciones",
+        "etiquetas": "Etiquetas"
+      },
+      "ocultos": [
+        "codigo",
+        "nombre",
+        "paraQue"
+      ]
+    },
+    {
+      "archivo": "calculadoras",
+      "ruta": "calculadoras",
+      "titulo": "nombre",
+      "descripcion": "descripcion",
+      "etiqueta": "Calculadora",
+      "etiquetaPlural": "Calculadoras",
+      "descripcionSeccion": "Fórmulas, volumetrías, índices e escalas de puntuación con su interpretación automática y su frase lista para el informe.",
+      "datos": [
+        "sistema",
+        "categoria",
+        "modalidad"
+      ],
+      "etiquetas": {
+        "sistema": "Sistema",
+        "categoria": "Categoría",
+        "modalidad": "Modalidad",
+        "campos": "Variables que utiliza",
+        "preguntas": "Qué puntúa",
+        "resultados": "Qué calcula",
+        "interpretacion": "Interpretación",
+        "formulaTexto": "Fórmula",
+        "notas": "Notas"
+      },
+      "ocultos": [
+        "codigo",
+        "nombre",
+        "descripcion",
+        "tipo",
+        "ejemplo",
+        "base"
+      ]
+    },
+    {
+      "archivo": "temas",
+      "ruta": "temas",
+      "titulo": "titulo",
+      "descripcion": "resumen",
+      "etiqueta": "Tema de estudio",
+      "etiquetaPlural": "Temas de estudio",
+      "descripcionSeccion": "Artículos en profundidad sobre fundamentos, técnica e interpretación de la imagen médica.",
+      "datos": [
+        "sistema",
+        "modalidad",
+        "tipo"
+      ],
+      "etiquetas": {
+        "sistema": "Sistema",
+        "modalidad": "Modalidad",
+        "tipo": "Tipo",
+        "secciones": "Secciones",
+        "puntosClave": "Puntos clave"
+      },
+      "ocultos": [
+        "codigo",
+        "titulo",
+        "resumen"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img"
+     aria-label="Esquema dorsal del mediopié. A la izquierda la alineación normal, con el borde medial del segundo metatarsiano en línea con la cuña intermedia y el del cuarto metatarsiano en línea con el cuboides. A la derecha la lesión de Lisfranc, con diástasis entre las bases del primer y del segundo metatarsiano, desplazamiento lateral y fragmento de avulsión">
+  <defs>
+    <linearGradient id="hueso" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f1f5f9"/>
+      <stop offset="0.45" stop-color="#dbe3ec"/>
+      <stop offset="1" stop-color="#aab6c6"/>
+    </linearGradient>
+    <linearGradient id="fondo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111c30"/>
+      <stop offset="1" stop-color="#0a1120"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="600" fill="url(#fondo)"/>
+
+  <text x="450" y="44" text-anchor="middle" fill="#f1f5f9"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="27" font-weight="600">
+    Articulación de Lisfranc
+  </text>
+  <text x="450" y="70" text-anchor="middle" fill="#93a3b8"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15">
+    Vista dorsal del mediopié con las dos líneas de alineación que siempre hay que comprobar
+  </text>
+
+  <!-- ================= Leyenda ================= -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#93a3b8">
+    <line x1="120" y1="102" x2="142" y2="102" stroke="#38bdf8" stroke-width="1.8" stroke-dasharray="7 6"/>
+    <text x="150" y="107">Línea de alineación normal</text>
+    <rect x="360" y="96" width="20" height="13" rx="3" fill="#f87171" opacity="0.18"
+          stroke="#f87171" stroke-width="1.2"/>
+    <text x="388" y="107">Pérdida de la congruencia</text>
+    <rect x="600" y="97" width="13" height="9" rx="2" fill="#f87171"/>
+    <text x="621" y="107">Fragmento de avulsión</text>
+  </g>
+
+  <!-- ================= Panel A. Alineación normal ================= -->
+  <g transform="translate(115,0)">
+    <!-- Metatarsianos -->
+    <path d="M40,168 L80,168 L76,282 L84,290 L84,320 L34,320 L34,290 L44,282 Z"
+          fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <path d="M92,172 L116,172 L114,282 L122,290 L122,336 L88,336 L88,290 L94,282 Z"
+          fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <path d="M128,176 L150,176 L150,282 L154,290 L154,326 L126,326 L126,290 L128,282 Z"
+          fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <path d="M162,180 L182,180 L184,282 L186,290 L186,320 L158,320 L158,290 L162,282 Z"
+          fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <path d="M194,184 L214,184 L218,282 L226,290 L232,318 L192,320 L190,290 L192,282 Z"
+          fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+
+    <!-- Cuñas, cuboides y navicular -->
+    <path d="M34,326 L84,326 L84,384 L34,384 Z" fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <path d="M88,342 L124,342 L124,384 L88,384 Z" fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <path d="M128,332 L154,332 L154,384 L128,384 Z" fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <path d="M158,326 L228,326 L232,392 L158,392 Z" fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <path d="M34,390 L154,390 L152,426 L36,426 Z" fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+
+    <!-- Líneas de alineación -->
+    <line x1="88" y1="252" x2="88" y2="398" stroke="#0a1120" stroke-width="6" opacity="0.9"/>
+    <line x1="88" y1="252" x2="88" y2="398" stroke="#38bdf8" stroke-width="2.2" stroke-dasharray="7 6"/>
+    <line x1="158" y1="252" x2="158" y2="402" stroke="#0a1120" stroke-width="6" opacity="0.9"/>
+    <line x1="158" y1="252" x2="158" y2="402" stroke="#38bdf8" stroke-width="2.2" stroke-dasharray="7 6"/>
+
+    <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#4a5769"
+       text-anchor="middle">
+      <text x="58" y="234">1</text>
+      <text x="104" y="234">2</text>
+      <text x="139" y="234">3</text>
+      <text x="172" y="234">4</text>
+      <text x="204" y="234">5</text>
+    </g>
+    <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" fill="#4a5769"
+       text-anchor="middle">
+      <text x="59" y="360">C1</text>
+      <text x="106" y="368">C2</text>
+      <text x="141" y="362">C3</text>
+      <text x="194" y="364">Cuboides</text>
+      <text x="94" y="412">Navicular</text>
+    </g>
+
+    <text x="132" y="472" text-anchor="middle" fill="#f1f5f9"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="600">
+      Alineación normal
+    </text>
+    <text x="132" y="498" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5">
+      El borde medial del segundo metatarsiano
+    </text>
+    <text x="132" y="518" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5">
+      continúa con el de la cuña intermedia
+    </text>
+  </g>
+
+  <!-- ================= Panel B. Lesión de Lisfranc ================= -->
+  <g transform="translate(540,0)">
+    <!-- Primer metatarsiano en su sitio -->
+    <path d="M40,168 L80,168 L76,282 L84,290 L84,320 L34,320 L34,290 L44,282 Z"
+          fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <!-- Metatarsianos segundo a quinto desplazados hacia fuera -->
+    <g transform="translate(16,0)">
+      <path d="M92,172 L116,172 L114,282 L122,290 L122,336 L88,336 L88,290 L94,282 Z"
+            fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+      <path d="M128,176 L150,176 L150,282 L154,290 L154,326 L126,326 L126,290 L128,282 Z"
+            fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+      <path d="M162,180 L182,180 L184,282 L186,290 L186,320 L158,320 L158,290 L162,282 Z"
+            fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+      <path d="M194,184 L214,184 L218,282 L226,290 L232,318 L192,320 L190,290 L192,282 Z"
+            fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+      <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#4a5769"
+         text-anchor="middle">
+        <text x="104" y="234">2</text>
+        <text x="139" y="234">3</text>
+        <text x="172" y="234">4</text>
+        <text x="204" y="234">5</text>
+      </g>
+    </g>
+
+    <!-- Cuñas, cuboides y navicular en su sitio -->
+    <path d="M34,326 L84,326 L84,384 L34,384 Z" fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <path d="M88,342 L124,342 L124,384 L88,384 Z" fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <path d="M128,332 L154,332 L154,384 L128,384 Z" fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <path d="M158,326 L228,326 L232,392 L158,392 Z" fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+    <path d="M34,390 L154,390 L152,426 L36,426 Z" fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+
+    <!-- Líneas de alineación, ahora incumplidas -->
+    <line x1="88" y1="252" x2="88" y2="398" stroke="#0a1120" stroke-width="6" opacity="0.9"/>
+    <line x1="88" y1="252" x2="88" y2="398" stroke="#38bdf8" stroke-width="2.2" stroke-dasharray="7 6"/>
+    <line x1="158" y1="252" x2="158" y2="402" stroke="#0a1120" stroke-width="6" opacity="0.9"/>
+    <line x1="158" y1="252" x2="158" y2="402" stroke="#38bdf8" stroke-width="2.2" stroke-dasharray="7 6"/>
+
+    <!-- Diástasis entre la primera y la segunda base -->
+    <rect x="82" y="284" width="24" height="56" rx="5" fill="#f87171" opacity="0.18"
+          stroke="#f87171" stroke-width="1.3"/>
+    <!-- Fragmento de avulsión -->
+    <rect x="88" y="300" width="13" height="9" rx="2" fill="#f87171"
+          stroke="#fca5a5" stroke-width="0.9"/>
+
+    <!-- Desalineación del cuarto metatarsiano -->
+    <rect x="154" y="284" width="24" height="40" rx="5" fill="#f87171" opacity="0.18"
+          stroke="#f87171" stroke-width="1.3"/>
+
+    <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#4a5769"
+       text-anchor="middle">
+      <text x="58" y="234">1</text>
+    </g>
+
+    <text x="132" y="472" text-anchor="middle" fill="#f1f5f9"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="600">
+      Lesión de Lisfranc
+    </text>
+    <text x="132" y="498" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5">
+      Diástasis entre las dos primeras bases
+    </text>
+    <text x="132" y="518" text-anchor="middle" fill="#93a3b8"
+          font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5">
+      con desplazamiento lateral y fragmento óseo
+    </text>
+  </g>
+
+  <text x="450" y="566" text-anchor="middle" fill="#5b6b82"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">
+    C1, C2 y C3 corresponden a las cuñas medial, intermedia y lateral. Los números indican los metatarsianos.
+  </text>
+  <text x="450" y="584" text-anchor="middle" fill="#5b6b82"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">
+    Esquema didáctico. Con radiografías dudosas conviene repetir el estudio en carga o pasar a tomografía.
+  </text>
+</svg>

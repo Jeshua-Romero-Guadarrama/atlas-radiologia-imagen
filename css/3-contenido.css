@@ -1,0 +1,134 @@
+/*
+ * Armazón del contenido.
+ * Cubre el ancho de las vistas, la portada del catálogo, los encabezados de las secciones y el bloque de buscador con sus chips de filtro.
+ */
+
+/* ============================================================
+   Contenido
+   ============================================================ */
+.vista {
+  width: 100%;
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 1.75rem 1.25rem 4rem;
+  flex: 1;
+  animation: aparecer 0.45s var(--paso);
+}
+@keyframes aparecer {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+
+/* Portada del catálogo */
+.portada { text-align: center; padding: 1.5rem 0 2rem; }
+.portada-titulo {
+  font-size: clamp(1.7rem, 4vw, 2.5rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  /* El relleno inferior evita que el degradado recortado al texto ampute
+     los trazos descendentes (la g y la y); el margen negativo lo compensa. */
+  padding-bottom: 0.12em;
+  margin-bottom: -0.12em;
+  /* El degradado usa la tinta intensa y la tinta de marca, que en el tema claro
+     coinciden con la tinta y con la marca 500, de modo que el tema oscuro lo
+     ajusta desde los tokens sin duplicar esta regla. */
+  background: linear-gradient(120deg, var(--tinta-intensa), var(--marca-tinta));
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.portada-lema { color: var(--tinta-2); max-width: 620px; margin: 0.7rem auto 0; font-size: 1.02rem; }
+
+.metricas { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.6rem; margin-top: 1.4rem; }
+.metrica {
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: 999px;
+  padding: 0.4rem 0.95rem;
+  font-size: 0.82rem;
+  color: var(--tinta-2);
+  box-shadow: var(--sombra-sm);
+  display: inline-flex; align-items: center; gap: 0.4rem;
+}
+.metrica strong { color: var(--marca-tinta); font-weight: 700; font-variant-numeric: tabular-nums; }
+.metrica .ico { width: 15px; height: 15px; color: var(--marca-tinta); }
+
+/* Encabezado de vistas secundarias */
+.encabezado-vista { padding: 0.5rem 0 1.5rem; }
+.encabezado-vista h1 { font-size: clamp(1.5rem, 3.5vw, 2rem); font-weight: 800; letter-spacing: -0.025em; }
+.encabezado-vista p { color: var(--tinta-2); margin-top: 0.35rem; max-width: 62rem; }
+.nota-unidades {
+  display: flex; align-items: flex-start; gap: 0.5rem;
+  margin-top: 0.8rem !important;
+  padding: 0.6rem 0.9rem;
+  background: var(--tc-suave);
+  border-radius: var(--r-sm);
+  font-size: 0.85rem;
+}
+.nota-unidades .ico { color: var(--tc-tinta); flex: none; margin-top: 0.1rem; }
+
+/* ---------- Buscador ---------- */
+.buscador { margin-bottom: 1.75rem; }
+.campo-busqueda-envoltorio { position: relative; }
+.icono-busqueda {
+  position: absolute;
+  left: 1.05rem; top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  opacity: 0.6;
+  pointer-events: none;
+}
+/*
+ * Los buscadores se estilan por su envoltorio y no nombrando uno por uno sus identificadores.
+ * La razón es que antes esta regla llevaba una lista de identificadores escrita a mano, motivo por el cual la pestaña de temas se publicó con su buscador sin ningún estilo en cuanto se añadió.
+ * De este modo, una pestaña nueva queda estilizada sin tocar la hoja de estilo.
+ */
+.campo-busqueda-envoltorio input[type="search"] {
+  width: 100%;
+  padding: 0.95rem 1.1rem 0.95rem 2.8rem;
+  font-size: 1.02rem;
+  font-family: inherit;
+  color: var(--tinta);
+  border: 1.5px solid var(--borde);
+  border-radius: var(--r-lg);
+  background: var(--superficie);
+  /* El outline se retira porque el foco de este campo ya se ve: el borde cambia
+     de color y aparece el anillo de sombra de la regla de abajo. */
+  outline: none;
+  box-shadow: var(--sombra-sm);
+  transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
+}
+.campo-busqueda-envoltorio input[type="search"]::placeholder { color: var(--tinta-3); }
+.campo-busqueda-envoltorio input[type="search"]:focus {
+  border-color: var(--marca-400);
+  box-shadow: 0 0 0 4px var(--anillo);
+}
+
+.filtros { margin-top: 1rem; display: flex; flex-direction: column; gap: 0.65rem; }
+.grupo-filtro { display: flex; align-items: center; gap: 0.7rem; flex-wrap: wrap; }
+.etiqueta-filtro {
+  font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em;
+  color: var(--tinta-3); min-width: 74px;
+}
+.chips { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+.chip {
+  border: 1.5px solid var(--borde);
+  background: var(--superficie);
+  color: var(--tinta-2);
+  padding: 0.32rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.83rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.18s var(--paso);
+}
+.chip:hover { border-color: var(--marca-400); color: var(--marca-tinta); transform: translateY(-1px); }
+.chip:active { transform: translateY(0) scale(0.97); }
+.chip.activo { background: var(--marca-grad); border-color: transparent; color: #fff; box-shadow: var(--sombra-marca); }
+/* El recuento del chip hereda el color del propio chip y solo baja de intensidad, de modo que
+   funciona igual sobre el fondo normal y sobre el degradado del chip activo. */
+.chip-cuenta { opacity: 0.65; font-weight: 500; font-size: 0.78em; }
+
+.contador { margin-top: 0.9rem; font-size: 0.83rem; color: var(--tinta-3); font-weight: 500; }
+

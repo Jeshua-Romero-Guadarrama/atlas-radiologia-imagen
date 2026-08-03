@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img"
+     aria-label="Esquema de la base del quinto metatarsiano con las tres zonas de fractura. La zona uno corresponde a la avulsión de la tuberosidad, la zona dos a la unión metafisodiafisaria o fractura de Jones, situada a la altura de la articulación entre el cuarto y el quinto metatarsianos, y la zona tres a la diáfisis proximal, propia de las fracturas por estrés">
+  <defs>
+    <linearGradient id="hueso" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1f5f9"/>
+      <stop offset="0.45" stop-color="#dbe3ec"/>
+      <stop offset="1" stop-color="#aab6c6"/>
+    </linearGradient>
+    <linearGradient id="fondo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111c30"/>
+      <stop offset="1" stop-color="#0a1120"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="600" fill="url(#fondo)"/>
+
+  <text x="450" y="44" text-anchor="middle" fill="#f1f5f9"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="27" font-weight="600">
+    Fracturas de la base del quinto metatarsiano
+  </text>
+  <text x="450" y="70" text-anchor="middle" fill="#93a3b8"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15">
+    Unos milímetros separan una lesión de buen pronóstico de otra que consolida mal
+  </text>
+
+  <!-- ================= Leyenda ================= -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" fill="#93a3b8">
+    <line x1="200" y1="92" x2="222" y2="92" stroke="#f87171" stroke-width="5" stroke-linecap="round"/>
+    <text x="230" y="97">Trazo de fractura</text>
+    <line x1="380" y1="92" x2="402" y2="92" stroke="#f59e0b" stroke-width="2" stroke-dasharray="5 4"/>
+    <text x="410" y="97">Referencia articular</text>
+    <circle cx="570" cy="92" r="9" fill="none" stroke="#f59e0b" stroke-width="1.6"/>
+    <text x="586" y="97">Número de zona</text>
+  </g>
+
+  <!-- ================= Cuboides ================= -->
+  <path d="M120,252 L200,248 C212,258 208,300 200,318 L124,326 C110,300 110,270 120,252 Z"
+        fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+  <text x="158" y="292" text-anchor="middle" fill="#16233a"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">Cuboides</text>
+
+  <!-- ================= Cuarto metatarsiano ================= -->
+  <path d="M700,196 L712,210 L700,224 L712,238 L700,252 L396,256
+           C372,254 356,240 360,222 C366,204 390,192 420,196 Z"
+        fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+  <text x="560" y="230" text-anchor="middle" fill="#16233a"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">Cuarto metatarsiano</text>
+
+  <!-- ================= Quinto metatarsiano ================= -->
+  <path d="M700,296 L712,310 L700,324 L712,338 L700,352 L400,348
+           C366,344 334,356 316,378 C300,398 272,408 248,396
+           C226,384 218,356 210,330 C200,300 206,270 232,256
+           C262,240 306,246 330,262 C350,276 380,292 420,296 Z"
+        fill="url(#hueso)" stroke="#8494a8" stroke-width="1.6"/>
+  <text x="600" y="328" text-anchor="middle" fill="#16233a"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">Quinto metatarsiano</text>
+
+  <!-- Referencia de la articulación entre el cuarto y el quinto -->
+  <line x1="410" y1="258" x2="410" y2="292" stroke="#f59e0b" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="428" y="278" fill="#f59e0b"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">
+    Articulación entre el cuarto y el quinto metatarsianos
+  </text>
+
+  <!-- ================= Trazos de fractura ================= -->
+  <g fill="none" stroke="#f87171" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M222,340 L240,352 L262,348 L286,368"/>
+    <path d="M406,294 L396,312 L408,330 L392,350"/>
+    <path d="M492,296 L482,314 L494,332 L480,350"/>
+  </g>
+
+  <!-- ================= Números de zona ================= -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600">
+    <line x1="252" y1="380" x2="252" y2="418" stroke="#f59e0b" stroke-width="1.2"/>
+    <circle cx="252" cy="432" r="14" fill="#111c30" stroke="#f59e0b" stroke-width="1.8"/>
+    <text x="252" y="437" text-anchor="middle" fill="#f59e0b">1</text>
+
+    <line x1="400" y1="352" x2="400" y2="418" stroke="#f59e0b" stroke-width="1.2"/>
+    <circle cx="400" cy="432" r="14" fill="#111c30" stroke="#f59e0b" stroke-width="1.8"/>
+    <text x="400" y="437" text-anchor="middle" fill="#f59e0b">2</text>
+
+    <line x1="488" y1="352" x2="488" y2="418" stroke="#f59e0b" stroke-width="1.2"/>
+    <circle cx="488" cy="432" r="14" fill="#111c30" stroke="#f59e0b" stroke-width="1.8"/>
+    <text x="488" y="437" text-anchor="middle" fill="#f59e0b">3</text>
+  </g>
+
+  <!-- ================= Explicación de las zonas ================= -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" fill="#93a3b8">
+    <circle cx="180" cy="484" r="11" fill="#111c30" stroke="#f59e0b" stroke-width="1.6"/>
+    <text x="180" y="489" text-anchor="middle" fill="#f59e0b" font-size="13" font-weight="600">1</text>
+    <text x="202" y="489" fill="#f1f5f9" font-weight="600">Avulsión de la tuberosidad.</text>
+    <text x="460" y="489">Transversal, extraarticular y de buen pronóstico</text>
+
+    <circle cx="180" cy="518" r="11" fill="#111c30" stroke="#f59e0b" stroke-width="1.6"/>
+    <text x="180" y="523" text-anchor="middle" fill="#f59e0b" font-size="13" font-weight="600">2</text>
+    <text x="202" y="523" fill="#f1f5f9" font-weight="600">Unión metafisodiafisaria.</text>
+    <text x="460" y="523">Fractura de Jones, de vascularización pobre y consolidación lenta</text>
+
+    <circle cx="180" cy="552" r="11" fill="#111c30" stroke="#f59e0b" stroke-width="1.6"/>
+    <text x="180" y="557" text-anchor="middle" fill="#f59e0b" font-size="13" font-weight="600">3</text>
+    <text x="202" y="557" fill="#f1f5f9" font-weight="600">Diáfisis proximal.</text>
+    <text x="460" y="557">Por estrés, con el riesgo más alto de seudoartrosis</text>
+  </g>
+
+  <text x="450" y="584" text-anchor="middle" fill="#5b6b82"
+        font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">
+    Esquema didáctico. En el niño la apófisis de crecimiento corre paralela al eje del hueso y no debe confundirse con una avulsión.
+  </text>
+</svg>

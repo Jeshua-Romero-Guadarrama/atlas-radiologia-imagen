@@ -1,0 +1,3512 @@
+[
+  {
+    "codigo": "volumen-esplenico-indice",
+    "nombre": "Volumen esplénico e índice esplénico",
+    "sistema": "Digestivo",
+    "categoria": "Volumetría",
+    "modalidad": "Varias",
+    "tipo": "formula",
+    "descripcion": "Estima el volumen del bazo a partir de sus tres diámetros ortogonales aplicando el modelo elipsoide. Se emplea para objetivar esplenomegalia en TC, RM o ecografía y para vigilar cambios en enfermedades hematológicas, hepatopatía crónica o hipertensión portal. El índice esplénico es el producto simple de los tres ejes y sirve como medida rápida comparable entre estudios.",
+    "campos": [
+      {
+        "id": "largo",
+        "etiqueta": "Longitud craneocaudal (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1,
+        "referencia": "Normal hasta 12 cm"
+      },
+      {
+        "id": "ancho",
+        "etiqueta": "Anchura transversal (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "espesor",
+        "etiqueta": "Espesor anteroposterior (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "ejemplo": {
+      "largo": 12.5,
+      "ancho": 8,
+      "espesor": 4.6
+    },
+    "resultados": [
+      {
+        "etiqueta": "Volumen esplénico",
+        "formula": "0.524 * largo * ancho * espesor",
+        "unidad": "cm³",
+        "decimales": 1
+      },
+      {
+        "etiqueta": "Índice esplénico",
+        "formula": "largo * ancho * espesor",
+        "unidad": "cm³",
+        "decimales": 1
+      },
+      {
+        "etiqueta": "Peso estimado del bazo",
+        "formula": "0.524 * largo * ancho * espesor * 1.05",
+        "unidad": "g",
+        "decimales": 1
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 > 1000",
+        "texto": "Esplenomegalia masiva",
+        "nivel": "alto"
+      },
+      {
+        "si": "r0 > 500",
+        "texto": "Esplenomegalia moderada a grave",
+        "nivel": "alto"
+      },
+      {
+        "si": "r0 > 314",
+        "texto": "Esplenomegalia leve",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Volumen esplénico dentro de límites habituales",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Volumen = 0.524 × largo × ancho × espesor; Índice = largo × ancho × espesor; Peso ≈ volumen × 1.05",
+    "notas": "El modelo elipsoide subestima o sobreestima el volumen en bazos de morfología muy irregular o con lesiones focales voluminosas. Los umbrales son orientativos y varían con la talla y la superficie corporal; en niños deben ajustarse por edad. La segmentación volumétrica es el método de referencia cuando se requiere precisión."
+  },
+  {
+    "codigo": "volumen-prostatico-densidad-psa",
+    "nombre": "Volumen prostático y densidad de PSA",
+    "sistema": "Reproductor",
+    "categoria": "Volumetría",
+    "modalidad": "Varias",
+    "tipo": "formula",
+    "descripcion": "Calcula el volumen de la próstata mediante el modelo elipsoide y la densidad de PSA, definida como el cociente entre el PSA sérico y ese volumen. Es una herramienta habitual en RM multiparamétrica y ecografía transrectal para estratificar el riesgo de cáncer clínicamente significativo y para valorar el crecimiento prostático benigno.",
+    "campos": [
+      {
+        "id": "largo",
+        "etiqueta": "Diámetro craneocaudal (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "ancho",
+        "etiqueta": "Diámetro transversal (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "espesor",
+        "etiqueta": "Diámetro anteroposterior (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "psa",
+        "etiqueta": "PSA sérico total (ng/mL)",
+        "unidad": "ng/mL",
+        "min": 0,
+        "paso": 0.01,
+        "referencia": "Normal hasta 4 ng/mL"
+      }
+    ],
+    "ejemplo": {
+      "largo": 4.5,
+      "ancho": 5,
+      "espesor": 3.8,
+      "psa": 6.2
+    },
+    "resultados": [
+      {
+        "etiqueta": "Volumen prostático",
+        "formula": "0.524 * largo * ancho * espesor",
+        "unidad": "cm³",
+        "decimales": 1
+      },
+      {
+        "etiqueta": "Densidad de PSA",
+        "formula": "psa / (0.524 * largo * ancho * espesor)",
+        "unidad": "ng/mL/cm³",
+        "decimales": 3
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r1 >= 0.15",
+        "texto": "Densidad de PSA elevada (mayor probabilidad de cáncer clínicamente significativo)",
+        "nivel": "alto"
+      },
+      {
+        "si": "r1 >= 0.10",
+        "texto": "Densidad de PSA intermedia (valorar en conjunto con la RM y el contexto clínico)",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Densidad de PSA baja",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Volumen = 0.524 × craneocaudal × transversal × anteroposterior; Densidad de PSA = PSA / volumen",
+    "notas": "El valor de 0.15 ng/mL/cm³ es el punto de corte más difundido, pero no es absoluto y su rendimiento depende de la población estudiada. La prostatitis, la instrumentación reciente y algunos fármacos alteran el PSA. La medición elipsoide tiende a diferir de la segmentación manual en próstatas grandes o con lóbulo medio prominente."
+  },
+  {
+    "codigo": "volumen-tiroideo",
+    "nombre": "Volumen tiroideo",
+    "sistema": "Endocrino",
+    "categoria": "Volumetría",
+    "modalidad": "US",
+    "tipo": "formula",
+    "descripcion": "Determina el volumen de cada lóbulo tiroideo por el modelo elipsoide y su suma como volumen glandular total. Se utiliza en el seguimiento del bocio, en la planificación de tratamiento con yodo radiactivo y en el control de la tiroiditis crónica.",
+    "campos": [
+      {
+        "id": "largoder",
+        "etiqueta": "Lóbulo derecho: Longitud (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "anchoder",
+        "etiqueta": "Lóbulo derecho: Anchura (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "espesorder",
+        "etiqueta": "Lóbulo derecho: Espesor (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "largoizq",
+        "etiqueta": "Lóbulo izquierdo: Longitud (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "anchoizq",
+        "etiqueta": "Lóbulo izquierdo: Anchura (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "espesorizq",
+        "etiqueta": "Lóbulo izquierdo: Espesor (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "ejemplo": {
+      "largoder": 4.5,
+      "anchoder": 1.8,
+      "espesorder": 1.6,
+      "largoizq": 4.3,
+      "anchoizq": 1.7,
+      "espesorizq": 1.5
+    },
+    "resultados": [
+      {
+        "etiqueta": "Volumen lóbulo derecho",
+        "formula": "0.524 * largoder * anchoder * espesorder",
+        "unidad": "mL",
+        "decimales": 2
+      },
+      {
+        "etiqueta": "Volumen lóbulo izquierdo",
+        "formula": "0.524 * largoizq * anchoizq * espesorizq",
+        "unidad": "mL",
+        "decimales": 2
+      },
+      {
+        "etiqueta": "Volumen tiroideo total",
+        "formula": "0.524 * largoder * anchoder * espesorder + 0.524 * largoizq * anchoizq * espesorizq",
+        "unidad": "mL",
+        "decimales": 2
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "true",
+        "texto": "Volumen tiroideo total calculado. Interpretar según sexo, edad, talla e ingesta de yodo de la población de referencia",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Volumen lobar = 0.524 × longitud × anchura × espesor; Volumen total = lóbulo derecho + lóbulo izquierdo",
+    "notas": "El istmo no se incluye en el cálculo salvo que esté claramente engrosado. Los límites superiores de normalidad difieren entre poblaciones y entre series pediátricas y de adultos, por lo que no se aplican umbrales fijos. La reproducibilidad depende del operador y de la correcta orientación de los planos."
+  },
+  {
+    "codigo": "volumen-renal",
+    "nombre": "Volumen renal",
+    "sistema": "Urinario",
+    "categoria": "Volumetría",
+    "modalidad": "Varias",
+    "tipo": "formula",
+    "descripcion": "Calcula el volumen de un riñón mediante el modelo elipsoide a partir de sus tres diámetros. Resulta útil en la valoración de donantes vivos, en el seguimiento de la poliquistosis renal y en el estudio de asimetrías o atrofia renal.",
+    "campos": [
+      {
+        "id": "largo",
+        "etiqueta": "Longitud craneocaudal (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1,
+        "referencia": "Normal de 9 a 12 cm"
+      },
+      {
+        "id": "ancho",
+        "etiqueta": "Anchura transversal (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "espesor",
+        "etiqueta": "Espesor anteroposterior (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "ejemplo": {
+      "largo": 11,
+      "ancho": 5.5,
+      "espesor": 4.5
+    },
+    "resultados": [
+      {
+        "etiqueta": "Volumen renal",
+        "formula": "0.524 * largo * ancho * espesor",
+        "unidad": "cm³",
+        "decimales": 1
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "true",
+        "texto": "Volumen renal estimado por modelo elipsoide",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Volumen = 0.524 × longitud × anchura × espesor",
+    "notas": "En la poliquistosis renal autosómica dominante el volumen debe ajustarse a la talla y valorarse de forma longitudinal; el modelo elipsoide es aceptable pero la segmentación es más exacta en riñones muy deformados. Las mediciones deben tomarse en planos ortogonales verdaderos para evitar sobreestimación."
+  },
+  {
+    "codigo": "volumen-ovarico",
+    "nombre": "Volumen ovárico",
+    "sistema": "Reproductor",
+    "categoria": "Volumetría",
+    "modalidad": "Varias",
+    "tipo": "formula",
+    "descripcion": "Estima el volumen de un ovario aplicando el modelo elipsoide a sus tres diámetros. Se usa en la caracterización de masas anexiales, en la valoración de la reserva ovárica y en el estudio de la morfología ovárica poliquística.",
+    "campos": [
+      {
+        "id": "largo",
+        "etiqueta": "Diámetro máximo (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "ancho",
+        "etiqueta": "Diámetro perpendicular (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "espesor",
+        "etiqueta": "Tercer diámetro ortogonal (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "ejemplo": {
+      "largo": 3.2,
+      "ancho": 2.2,
+      "espesor": 1.8
+    },
+    "resultados": [
+      {
+        "etiqueta": "Volumen ovárico",
+        "formula": "0.524 * largo * ancho * espesor",
+        "unidad": "mL",
+        "decimales": 2
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 > 10",
+        "texto": "Volumen ovárico aumentado respecto al criterio ecográfico habitual de morfología ovárica poliquística",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Volumen ovárico dentro de límites habituales para edad reproductiva",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Volumen = 0.524 × diámetro 1 × diámetro 2 × diámetro 3",
+    "notas": "El umbral de 10 mL corresponde al criterio ecográfico clásico de ovario poliquístico y no es aplicable a la infancia, la posmenopausia ni a ovarios con quistes dominantes o cuerpo lúteo, que deben excluirse de la medición. El volumen varía a lo largo del ciclo menstrual y con la estimulación hormonal."
+  },
+  {
+    "codigo": "volumen-vesical-residuo",
+    "nombre": "Volumen vesical y residuo posmiccional",
+    "sistema": "Urinario",
+    "categoria": "Volumetría",
+    "modalidad": "US",
+    "tipo": "formula",
+    "descripcion": "Calcula el volumen de la vejiga por el modelo elipsoide, tanto en repleción como tras la micción. El residuo posmiccional es un parámetro clave en la evaluación de la obstrucción del tracto urinario inferior, la vejiga neurógena y el seguimiento del crecimiento prostático benigno.",
+    "campos": [
+      {
+        "id": "largo",
+        "etiqueta": "Diámetro longitudinal (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "ancho",
+        "etiqueta": "Diámetro transversal (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "espesor",
+        "etiqueta": "Diámetro anteroposterior (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "ejemplo": {
+      "largo": 7,
+      "ancho": 6,
+      "espesor": 5
+    },
+    "resultados": [
+      {
+        "etiqueta": "Volumen vesical",
+        "formula": "0.524 * largo * ancho * espesor",
+        "unidad": "mL",
+        "decimales": 1
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 > 200",
+        "texto": "Si corresponde a medición posmiccional, residuo marcadamente elevado",
+        "nivel": "alto"
+      },
+      {
+        "si": "r0 > 100",
+        "texto": "Si corresponde a medición posmiccional, residuo significativo",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Volumen calculado. Si corresponde a medición posmiccional, residuo no significativo",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Volumen = 0.524 × longitudinal × transversal × anteroposterior",
+    "notas": "Los umbrales de residuo son orientativos y deben interpretarse junto con la clínica y con mediciones repetidas, ya que un valor aislado tiene escaso valor. La medición debe realizarse inmediatamente tras la micción. En vejigas muy distendidas o de forma irregular el modelo elipsoide pierde exactitud; algunos autores emplean coeficientes distintos de 0.524."
+  },
+  {
+    "codigo": "volumen-lesion-elipsoide",
+    "nombre": "Volumen de lesión por modelo elipsoide",
+    "sistema": "General",
+    "categoria": "Volumetría",
+    "modalidad": "Varias",
+    "tipo": "formula",
+    "descripcion": "Estima el volumen de cualquier lesión focal a partir de tres diámetros ortogonales, asumiendo una forma elipsoidal. Es una aproximación rápida y reproducible para cuantificar nódulos, masas o colecciones cuando no se dispone de segmentación volumétrica.",
+    "campos": [
+      {
+        "id": "diametro1",
+        "etiqueta": "Diámetro mayor (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "diametro2",
+        "etiqueta": "Diámetro perpendicular en el mismo plano (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "diametro3",
+        "etiqueta": "Diámetro en el plano ortogonal (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "ejemplo": {
+      "diametro1": 3.4,
+      "diametro2": 2.8,
+      "diametro3": 2.5
+    },
+    "resultados": [
+      {
+        "etiqueta": "Volumen de la lesión",
+        "formula": "0.524 * diametro1 * diametro2 * diametro3",
+        "unidad": "cm³",
+        "decimales": 2
+      },
+      {
+        "etiqueta": "Diámetro medio",
+        "formula": "(diametro1 + diametro2 + diametro3) / 3",
+        "unidad": "cm",
+        "decimales": 2
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "true",
+        "texto": "Volumen estimado asumiendo geometría elipsoidal",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Volumen = π/6 × d1 × d2 × d3 ≈ 0.524 × d1 × d2 × d3",
+    "notas": "La exactitud disminuye en lesiones espiculadas, lobuladas o infiltrativas. Para el seguimiento conviene mantener la misma técnica, el mismo plano de medición y, si es posible, el mismo observador. Los criterios de respuesta tumoral más difundidos se basan en diámetros y no en volumen."
+  },
+  {
+    "codigo": "cambio-porcentual-volumen",
+    "nombre": "Cambio porcentual de volumen entre estudios",
+    "sistema": "General",
+    "categoria": "Seguimiento",
+    "modalidad": "Varias",
+    "tipo": "formula",
+    "descripcion": "Compara el volumen de una lesión o de un órgano entre dos estudios y expresa la variación en porcentaje. Permite objetivar crecimiento o regresión en el seguimiento por imagen y estimar de forma aproximada el tiempo de duplicación cuando se conoce el intervalo entre exploraciones.",
+    "campos": [
+      {
+        "id": "volumeninicial",
+        "etiqueta": "Volumen en el estudio previo (cm³)",
+        "unidad": "cm³",
+        "min": 0,
+        "paso": 0.01
+      },
+      {
+        "id": "volumenactual",
+        "etiqueta": "Volumen en el estudio actual (cm³)",
+        "unidad": "cm³",
+        "min": 0,
+        "paso": 0.01
+      },
+      {
+        "id": "intervalo",
+        "etiqueta": "Intervalo entre estudios (días)",
+        "unidad": "días",
+        "min": 0,
+        "paso": 1
+      }
+    ],
+    "ejemplo": {
+      "volumeninicial": 12.5,
+      "volumenactual": 18.4,
+      "intervalo": 180
+    },
+    "resultados": [
+      {
+        "etiqueta": "Cambio porcentual de volumen",
+        "formula": "((volumenactual - volumeninicial) / volumeninicial) * 100",
+        "unidad": "%",
+        "decimales": 1
+      },
+      {
+        "etiqueta": "Tiempo de duplicación volumétrica",
+        "formula": "(intervalo * Math.log(2)) / Math.log(volumenactual / volumeninicial)",
+        "unidad": "días",
+        "decimales": 0
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 >= 25",
+        "texto": "Aumento significativo del volumen",
+        "nivel": "alto"
+      },
+      {
+        "si": "r0 > 0",
+        "texto": "Aumento leve del volumen",
+        "nivel": "medio"
+      },
+      {
+        "si": "r0 <= -25",
+        "texto": "Reducción significativa del volumen",
+        "nivel": "normal"
+      },
+      {
+        "si": "true",
+        "texto": "Volumen estable o con variación mínima",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Cambio (%) = (volumen actual - volumen previo) / volumen previo × 100; Tiempo de duplicación = intervalo × ln 2 / ln (volumen actual / volumen previo)",
+    "notas": "El tiempo de duplicación solo tiene sentido cuando la lesión crece; con volumen estable o decreciente el resultado no es interpretable. Una parte del cambio medido corresponde a la variabilidad intraobservador e interobservador, especialmente en lesiones pequeñas. Los umbrales indicados son orientativos y no sustituyen a los criterios formales de respuesta empleados en cada protocolo."
+  },
+  {
+    "codigo": "lavado-contraste-suprarrenal",
+    "nombre": "Lavado de contraste suprarrenal en TC",
+    "sistema": "Endocrino",
+    "categoria": "Contraste",
+    "modalidad": "TC",
+    "tipo": "formula",
+    "descripcion": "Calcula el lavado absoluto y relativo de contraste de un nódulo suprarrenal mediante TC con adquisición sin contraste, en fase portal y en fase tardía. Un lavado rápido apoya el diagnóstico de adenoma, mientras que un lavado lento sugiere una lesión no adenomatosa que requiere estudio adicional.",
+    "campos": [
+      {
+        "id": "basal",
+        "etiqueta": "Atenuación sin contraste (UH)",
+        "unidad": "UH",
+        "min": -100,
+        "paso": 1,
+        "referencia": "Con 10 UH o menos ya es adenoma rico en grasa"
+      },
+      {
+        "id": "portal",
+        "etiqueta": "Atenuación en fase portal, aproximadamente 60 s (UH)",
+        "unidad": "UH",
+        "min": -100,
+        "paso": 1
+      },
+      {
+        "id": "tardia",
+        "etiqueta": "Atenuación en fase tardía, 15 min (UH)",
+        "unidad": "UH",
+        "min": -100,
+        "paso": 1
+      }
+    ],
+    "ejemplo": {
+      "basal": 14,
+      "portal": 78,
+      "tardia": 32
+    },
+    "resultados": [
+      {
+        "etiqueta": "Lavado absoluto",
+        "formula": "((portal - tardia) / (portal - basal)) * 100",
+        "unidad": "%",
+        "decimales": 1
+      },
+      {
+        "etiqueta": "Lavado relativo",
+        "formula": "((portal - tardia) / portal) * 100",
+        "unidad": "%",
+        "decimales": 1
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 >= 60 || r1 >= 40",
+        "texto": "Patrón de lavado compatible con adenoma suprarrenal",
+        "nivel": "normal"
+      },
+      {
+        "si": "true",
+        "texto": "Lavado insuficiente para adenoma (considerar lesión no adenomatosa y valorar estudio complementario)",
+        "nivel": "alto"
+      }
+    ],
+    "formulaTexto": "Lavado absoluto (%) = (portal - tardía) / (portal - basal) × 100; Lavado relativo (%) = (portal - tardía) / portal × 100",
+    "notas": "El lavado relativo se emplea cuando no se dispone de adquisición sin contraste. Una atenuación basal igual o inferior a 10 UH ya es diagnóstica de adenoma rico en lípidos y hace innecesario el cálculo. El feocromocitoma y algunas metástasis hipervasculares pueden mostrar lavados solapados con los del adenoma, por lo que el resultado debe integrarse con la clínica y el estudio bioquímico. Las regiones de interés deben colocarse de forma equivalente en las tres fases, evitando áreas necróticas o calcificadas."
+  },
+  {
+    "codigo": "desplazamiento-quimico-suprarrenal",
+    "nombre": "Desplazamiento químico suprarrenal en RM",
+    "sistema": "Endocrino",
+    "categoria": "Contraste",
+    "modalidad": "RM",
+    "tipo": "formula",
+    "descripcion": "Cuantifica la caída de señal de un nódulo suprarrenal entre las secuencias en fase y en fase opuesta, que refleja la presencia de lípidos intracelulares. Es la técnica de elección para caracterizar el adenoma rico en lípidos sin necesidad de contraste intravenoso.",
+    "campos": [
+      {
+        "id": "sifase",
+        "etiqueta": "Señal de la lesión en fase",
+        "unidad": "u.a.",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "sofase",
+        "etiqueta": "Señal de la lesión en fase opuesta",
+        "unidad": "u.a.",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "bazoifase",
+        "etiqueta": "Señal del bazo en fase",
+        "unidad": "u.a.",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "bazoofase",
+        "etiqueta": "Señal del bazo en fase opuesta",
+        "unidad": "u.a.",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "ejemplo": {
+      "sifase": 180,
+      "sofase": 96,
+      "bazoifase": 150,
+      "bazoofase": 148
+    },
+    "resultados": [
+      {
+        "etiqueta": "Índice de caída de señal",
+        "formula": "((sifase - sofase) / sifase) * 100",
+        "unidad": "%",
+        "decimales": 1
+      },
+      {
+        "etiqueta": "Índice suprarrenal-bazo",
+        "formula": "(1 - ((sofase / bazoofase) / (sifase / bazoifase))) * 100",
+        "unidad": "%",
+        "decimales": 1
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 >= 16.5",
+        "texto": "Caída de señal significativa en fase opuesta, compatible con adenoma rico en lípidos",
+        "nivel": "normal"
+      },
+      {
+        "si": "true",
+        "texto": "Sin caída significativa de señal (no se confirma adenoma rico en lípidos y conviene valorar caracterización adicional)",
+        "nivel": "alto"
+      }
+    ],
+    "formulaTexto": "Índice de caída (%) = (señal en fase - señal en fase opuesta) / señal en fase × 100",
+    "notas": "El bazo se emplea como referencia interna porque no contiene grasa; el hígado no es adecuado si existe esteatosis. La presencia de hierro o de hemorragia puede alterar la señal y generar resultados engañosos. Un adenoma pobre en lípidos puede no mostrar caída significativa, por lo que un resultado negativo no excluye el diagnóstico y suele requerirse estudio con lavado en TC."
+  },
+  {
+    "codigo": "fraccion-grasa-hepatica-rm",
+    "nombre": "Fracción grasa hepática por desplazamiento químico en RM",
+    "sistema": "Digestivo",
+    "categoria": "Contraste",
+    "modalidad": "RM",
+    "tipo": "formula",
+    "descripcion": "Estima el contenido graso del hígado a partir de las señales en fase y en fase opuesta obtenidas con secuencias eco de gradiente de doble eco. Se emplea para detectar y graduar de forma no invasiva la esteatosis hepática y para seguir su evolución con el tratamiento.",
+    "campos": [
+      {
+        "id": "enfase",
+        "etiqueta": "Señal hepática en fase",
+        "unidad": "u.a.",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "fueradefase",
+        "etiqueta": "Señal hepática en fase opuesta",
+        "unidad": "u.a.",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "ejemplo": {
+      "enfase": 320,
+      "fueradefase": 250
+    },
+    "resultados": [
+      {
+        "etiqueta": "Fracción grasa estimada",
+        "formula": "((enfase - fueradefase) / (2 * enfase)) * 100",
+        "unidad": "%",
+        "decimales": 1
+      },
+      {
+        "etiqueta": "Caída de señal en fase opuesta",
+        "formula": "((enfase - fueradefase) / enfase) * 100",
+        "unidad": "%",
+        "decimales": 1
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 >= 5",
+        "texto": "Contenido graso hepático por encima del umbral habitual de esteatosis",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Contenido graso hepático dentro de límites normales",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Fracción grasa (%) = (señal en fase - señal en fase opuesta) / (2 × señal en fase) × 100",
+    "notas": "Este cálculo de doble eco no corrige los efectos del T2*, del hierro ni del espectro multipico de la grasa, por lo que subestima la fracción grasa en presencia de sobrecarga férrica y no es válido cuando la fracción supera aproximadamente el 50 %. La fracción de grasa por densidad protónica obtenida con secuencias multieco dedicadas es el método cuantitativo de referencia. Las regiones de interés deben evitar vasos, vía biliar y artefactos de borde."
+  },
+  {
+    "codigo": "porcentaje-neumotorax",
+    "nombre": "Porcentaje de neumotórax",
+    "sistema": "Respiratorio",
+    "categoria": "Volumetría",
+    "modalidad": "RX",
+    "tipo": "formula",
+    "descripcion": "Estima el tamaño de un neumotórax en la radiografía de tórax mediante dos aproximaciones clásicas: El método de Collins, basado en distancias interpleurales, y el método de Light, basado en el cociente de los diámetros del hemitórax y del pulmón colapsado. Ayuda a orientar la decisión entre observación y drenaje.",
+    "campos": [
+      {
+        "id": "apice",
+        "etiqueta": "Collins: Distancia interpleural en el ápice (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "mitadsuperior",
+        "etiqueta": "Collins: Distancia interpleural en el punto medio de la mitad superior (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "mitadinferior",
+        "etiqueta": "Collins: Distancia interpleural en el punto medio de la mitad inferior (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "diametrohemitorax",
+        "etiqueta": "Light: Diámetro del hemitórax (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "diametropulmon",
+        "etiqueta": "Light: Diámetro del pulmón colapsado (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "ejemplo": {
+      "apice": 2.5,
+      "mitadsuperior": 2,
+      "mitadinferior": 1.5,
+      "diametrohemitorax": 12,
+      "diametropulmon": 10
+    },
+    "resultados": [
+      {
+        "etiqueta": "Neumotórax por método de Collins",
+        "formula": "4.2 + 4.7 * (apice + mitadsuperior + mitadinferior)",
+        "unidad": "%",
+        "decimales": 1
+      },
+      {
+        "etiqueta": "Neumotórax por método de Light",
+        "formula": "(1 - Math.pow(diametropulmon / diametrohemitorax, 3)) * 100",
+        "unidad": "%",
+        "decimales": 1
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 >= 50 || r1 >= 50",
+        "texto": "Neumotórax de gran tamaño",
+        "nivel": "alto"
+      },
+      {
+        "si": "r0 >= 20 || r1 >= 20",
+        "texto": "Neumotórax de tamaño moderado",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Neumotórax de pequeño tamaño",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Collins: % = 4.2 + 4.7 × (A + B + C), siendo A, B y C las distancias interpleurales en cm; Light: % = [1 - (diámetro del pulmón / diámetro del hemitórax)³] × 100",
+    "notas": "Ambos métodos se validaron en radiografía posteroanterior en bipedestación y pierden fiabilidad en decúbito supino o en proyecciones portátiles. La decisión terapéutica no debe basarse solo en el porcentaje calculado, sino sobre todo en la situación clínica, la presencia de disnea y los antecedentes respiratorios. En caso de sospecha de neumotórax a tensión el tratamiento es inmediato y no requiere cuantificación."
+  },
+  {
+    "codigo": "indices-doppler-ri-ip",
+    "nombre": "Índice de resistencia e índice de pulsatilidad Doppler",
+    "sistema": "Cardiovascular",
+    "categoria": "Doppler",
+    "modalidad": "US",
+    "tipo": "formula",
+    "descripcion": "Calcula los índices semicuantitativos de la onda espectral Doppler a partir de las velocidades sistólica máxima, telediastólica y media. Se aplican en el estudio de la vascularización renal, hepática, obstétrica y de trasplantes como marcadores de resistencia del lecho distal.",
+    "campos": [
+      {
+        "id": "vsm",
+        "etiqueta": "Velocidad sistólica máxima (cm/s)",
+        "unidad": "cm/s",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "vtd",
+        "etiqueta": "Velocidad telediastólica (cm/s)",
+        "unidad": "cm/s",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "vmedia",
+        "etiqueta": "Velocidad media a lo largo del ciclo (cm/s)",
+        "unidad": "cm/s",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "ejemplo": {
+      "vsm": 45,
+      "vtd": 14,
+      "vmedia": 24
+    },
+    "resultados": [
+      {
+        "etiqueta": "Índice de resistencia",
+        "formula": "(vsm - vtd) / vsm",
+        "unidad": "",
+        "decimales": 2
+      },
+      {
+        "etiqueta": "Índice de pulsatilidad",
+        "formula": "(vsm - vtd) / vmedia",
+        "unidad": "",
+        "decimales": 2
+      },
+      {
+        "etiqueta": "Cociente sístole/diástole",
+        "formula": "vsm / vtd",
+        "unidad": "",
+        "decimales": 2
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 >= 0.80",
+        "texto": "Índice de resistencia marcadamente elevado",
+        "nivel": "alto"
+      },
+      {
+        "si": "r0 >= 0.70",
+        "texto": "Índice de resistencia elevado para un lecho renal adulto",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Índice de resistencia dentro de límites habituales para arteria renal en adulto",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "IR = (VSM - VTD) / VSM; IP = (VSM - VTD) / velocidad media; S/D = VSM / VTD",
+    "notas": "Los umbrales indicados corresponden a la valoración de arterias intrarrenales en adultos y no son extrapolables a la circulación obstétrica, cerebral fetal ni a la infancia, donde se emplean curvas de referencia propias por edad gestacional. Los índices son independientes del ángulo de insonación, pero se ven afectados por la frecuencia cardiaca, la presión arterial y la compresión con el transductor. Debe promediarse el resultado de varias ondas consecutivas de buena calidad."
+  },
+  {
+    "codigo": "estenosis-carotidea-nascet-ecst",
+    "nombre": "Estenosis carotídea por NASCET y por ECST",
+    "sistema": "Cardiovascular",
+    "categoria": "Vascular",
+    "modalidad": "Varias",
+    "tipo": "formula",
+    "descripcion": "Cuantifica el grado de estenosis de la carótida interna con los dos métodos angiográficos clásicos. NASCET compara la luz residual con el diámetro de la carótida interna distal normal, mientras que ECST la compara con el diámetro estimado del bulbo en el punto de máxima estenosis. Su cálculo orienta la indicación de revascularización.",
+    "campos": [
+      {
+        "id": "luzresidual",
+        "etiqueta": "Diámetro de la luz residual en la estenosis (mm)",
+        "unidad": "mm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "distalnormal",
+        "etiqueta": "Diámetro de la carótida interna distal normal (mm)",
+        "unidad": "mm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "bulbooriginal",
+        "etiqueta": "Diámetro estimado del vaso en el punto de la estenosis (mm)",
+        "unidad": "mm",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "ejemplo": {
+      "luzresidual": 1.4,
+      "distalnormal": 5,
+      "bulbooriginal": 8.5
+    },
+    "resultados": [
+      {
+        "etiqueta": "Estenosis por NASCET",
+        "formula": "(1 - (luzresidual / distalnormal)) * 100",
+        "unidad": "%",
+        "decimales": 1
+      },
+      {
+        "etiqueta": "Estenosis por ECST",
+        "formula": "(1 - (luzresidual / bulbooriginal)) * 100",
+        "unidad": "%",
+        "decimales": 1
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 >= 70",
+        "texto": "Estenosis grave según criterio NASCET",
+        "nivel": "alto"
+      },
+      {
+        "si": "r0 >= 50",
+        "texto": "Estenosis moderada según criterio NASCET",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Estenosis leve según criterio NASCET",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "NASCET (%) = (1 - luz residual / diámetro distal normal) × 100; ECST (%) = (1 - luz residual / diámetro del vaso en la estenosis) × 100",
+    "notas": "Para un mismo vaso el método ECST proporciona porcentajes más altos que NASCET, por lo que siempre debe indicarse el criterio empleado. El cálculo no es válido cuando existe oclusión completa o seudooclusión con colapso distal del vaso. Las decisiones terapéuticas dependen además de la sintomatología, la morfología de la placa y el riesgo quirúrgico individual."
+  },
+  {
+    "codigo": "ti-rads-nodulo-tiroideo",
+    "nombre": "TI-RADS para nódulo tiroideo",
+    "sistema": "Endocrino",
+    "categoria": "Puntuación",
+    "modalidad": "US",
+    "tipo": "puntuacion",
+    "descripcion": "Sistema de estratificación de riesgo que asigna puntos a cinco rasgos ecográficos del nódulo tiroideo y los suma para obtener una categoría de TR1 a TR5. Sirve para decidir si corresponde punción aspirativa con aguja fina o seguimiento ecográfico, según la categoría y el tamaño máximo del nódulo. Se aplica a nódulos detectados en ecografía tiroidea en pacientes adultos.",
+    "preguntas": [
+      {
+        "id": "composicion",
+        "etiqueta": "Composición",
+        "opciones": [
+          {
+            "texto": "Quística o casi completamente quística",
+            "puntos": 0
+          },
+          {
+            "texto": "Espongiforme",
+            "puntos": 0
+          },
+          {
+            "texto": "Mixta quística y sólida",
+            "puntos": 1
+          },
+          {
+            "texto": "Sólida o casi completamente sólida",
+            "puntos": 2
+          }
+        ]
+      },
+      {
+        "id": "ecogenicidad",
+        "etiqueta": "Ecogenicidad",
+        "opciones": [
+          {
+            "texto": "Anecoica",
+            "puntos": 0
+          },
+          {
+            "texto": "Hiperecoica o isoecoica",
+            "puntos": 1
+          },
+          {
+            "texto": "Hipoecoica",
+            "puntos": 2
+          },
+          {
+            "texto": "Muy hipoecoica (más oscura que el músculo prelaríngeo)",
+            "puntos": 3
+          }
+        ]
+      },
+      {
+        "id": "forma",
+        "etiqueta": "Forma",
+        "opciones": [
+          {
+            "texto": "Más ancho que alto",
+            "puntos": 0
+          },
+          {
+            "texto": "Más alto que ancho (en el plano axial)",
+            "puntos": 3
+          }
+        ]
+      },
+      {
+        "id": "margenes",
+        "etiqueta": "Márgenes",
+        "opciones": [
+          {
+            "texto": "Lisos",
+            "puntos": 0
+          },
+          {
+            "texto": "Mal definidos",
+            "puntos": 0
+          },
+          {
+            "texto": "Lobulados o irregulares",
+            "puntos": 2
+          },
+          {
+            "texto": "Extensión extratiroidea",
+            "puntos": 3
+          }
+        ]
+      },
+      {
+        "id": "focos",
+        "etiqueta": "Focos ecogénicos",
+        "opciones": [
+          {
+            "texto": "Ninguno o artefactos en cola de cometa grandes",
+            "puntos": 0
+          },
+          {
+            "texto": "Macrocalcificaciones",
+            "puntos": 1
+          },
+          {
+            "texto": "Calcificación periférica en anillo",
+            "puntos": 2
+          },
+          {
+            "texto": "Focos ecogénicos puntiformes",
+            "puntos": 3
+          }
+        ]
+      }
+    ],
+    "ejemplo": {
+      "composicion": 3,
+      "ecogenicidad": 2,
+      "forma": 0,
+      "margenes": 0,
+      "focos": 1
+    },
+    "interpretacion": [
+      {
+        "si": "total >= 7",
+        "texto": "TR5: Altamente sospechoso. Punción si mide 1 cm o más; seguimiento ecográfico si mide 0.5 cm o más.",
+        "nivel": "alto"
+      },
+      {
+        "si": "total >= 4",
+        "texto": "TR4: Moderadamente sospechoso. Punción si mide 1.5 cm o más; seguimiento si mide 1 cm o más.",
+        "nivel": "medio"
+      },
+      {
+        "si": "total >= 3",
+        "texto": "TR3: Levemente sospechoso. Punción si mide 2.5 cm o más; seguimiento si mide 1.5 cm o más.",
+        "nivel": "medio"
+      },
+      {
+        "si": "total >= 1",
+        "texto": "TR2: No sospechoso. No se recomienda punción ni seguimiento por criterios ecográficos.",
+        "nivel": "normal"
+      },
+      {
+        "si": "true",
+        "texto": "TR1: Benigno. No requiere punción ni seguimiento.",
+        "nivel": "normal"
+      }
+    ],
+    "notas": "Los focos ecogénicos puntiformes deben distinguirse de los artefactos en cola de cometa de los nódulos coloides. En nódulos con varios rasgos de una misma categoría se suman todos los que apliquen dentro de focos ecogénicos y márgenes. El sistema no sustituye el juicio clínico ni se aplica a ganglios cervicales ni a nódulos en niños."
+  },
+  {
+    "codigo": "aspects-ictus-acm",
+    "nombre": "ASPECTS para ictus de arteria cerebral media",
+    "sistema": "Nervioso",
+    "categoria": "Puntuación",
+    "modalidad": "TC",
+    "tipo": "puntuacion",
+    "base": 10,
+    "descripcion": "Puntuación topográfica que cuantifica la extensión de los cambios isquémicos precoces en el territorio de la arteria cerebral media sobre TC craneal sin contraste. Se parte de 10 puntos y se resta un punto por cada una de las diez regiones que muestre hipodensidad o pérdida de la diferenciación entre sustancia gris y blanca. Se emplea en la valoración urgente del ictus isquémico para apoyar decisiones de tratamiento de reperfusión.",
+    "preguntas": [
+      {
+        "id": "caudado",
+        "etiqueta": "Núcleo caudado",
+        "opciones": [
+          {
+            "texto": "Normal",
+            "puntos": 0
+          },
+          {
+            "texto": "Afectado",
+            "puntos": -1
+          }
+        ]
+      },
+      {
+        "id": "lenticular",
+        "etiqueta": "Núcleo lenticular",
+        "opciones": [
+          {
+            "texto": "Normal",
+            "puntos": 0
+          },
+          {
+            "texto": "Afectado",
+            "puntos": -1
+          }
+        ]
+      },
+      {
+        "id": "capsulainterna",
+        "etiqueta": "Cápsula interna",
+        "opciones": [
+          {
+            "texto": "Normal",
+            "puntos": 0
+          },
+          {
+            "texto": "Afectada",
+            "puntos": -1
+          }
+        ]
+      },
+      {
+        "id": "insula",
+        "etiqueta": "Cinta insular",
+        "opciones": [
+          {
+            "texto": "Normal",
+            "puntos": 0
+          },
+          {
+            "texto": "Afectada",
+            "puntos": -1
+          }
+        ]
+      },
+      {
+        "id": "m1",
+        "etiqueta": "M1: Corteza frontal anterior (nivel ganglionar)",
+        "opciones": [
+          {
+            "texto": "Normal",
+            "puntos": 0
+          },
+          {
+            "texto": "Afectada",
+            "puntos": -1
+          }
+        ]
+      },
+      {
+        "id": "m2",
+        "etiqueta": "M2: Corteza temporal lateral a la ínsula (nivel ganglionar)",
+        "opciones": [
+          {
+            "texto": "Normal",
+            "puntos": 0
+          },
+          {
+            "texto": "Afectada",
+            "puntos": -1
+          }
+        ]
+      },
+      {
+        "id": "m3",
+        "etiqueta": "M3: Corteza temporal posterior (nivel ganglionar)",
+        "opciones": [
+          {
+            "texto": "Normal",
+            "puntos": 0
+          },
+          {
+            "texto": "Afectada",
+            "puntos": -1
+          }
+        ]
+      },
+      {
+        "id": "m4",
+        "etiqueta": "M4: Corteza anterior superior a M1 (nivel supraganglionar)",
+        "opciones": [
+          {
+            "texto": "Normal",
+            "puntos": 0
+          },
+          {
+            "texto": "Afectada",
+            "puntos": -1
+          }
+        ]
+      },
+      {
+        "id": "m5",
+        "etiqueta": "M5: Corteza lateral superior a M2 (nivel supraganglionar)",
+        "opciones": [
+          {
+            "texto": "Normal",
+            "puntos": 0
+          },
+          {
+            "texto": "Afectada",
+            "puntos": -1
+          }
+        ]
+      },
+      {
+        "id": "m6",
+        "etiqueta": "M6: Corteza posterior superior a M3 (nivel supraganglionar)",
+        "opciones": [
+          {
+            "texto": "Normal",
+            "puntos": 0
+          },
+          {
+            "texto": "Afectada",
+            "puntos": -1
+          }
+        ]
+      }
+    ],
+    "ejemplo": {
+      "caudado": 0,
+      "lenticular": 1,
+      "capsulainterna": 0,
+      "insula": 1,
+      "m1": 1,
+      "m2": 1,
+      "m3": 0,
+      "m4": 0,
+      "m5": 0,
+      "m6": 0
+    },
+    "interpretacion": [
+      {
+        "si": "total >= 8",
+        "texto": "Cambios isquémicos precoces escasos o ausentes. Suele asociarse a mejor pronóstico funcional tras la reperfusión.",
+        "nivel": "normal"
+      },
+      {
+        "si": "total >= 6",
+        "texto": "Afectación intermedia del territorio de la arteria cerebral media. Requiere valoración individualizada del riesgo y beneficio del tratamiento.",
+        "nivel": "medio"
+      },
+      {
+        "si": "total >= 1",
+        "texto": "Cambios isquémicos precoces extensos. Peor pronóstico funcional y mayor riesgo de transformación hemorrágica.",
+        "nivel": "alto"
+      },
+      {
+        "si": "true",
+        "texto": "Afectación difusa de todo el territorio evaluado (0 puntos). Pronóstico muy desfavorable.",
+        "nivel": "alto"
+      }
+    ],
+    "notas": "El total parte de 10 puntos y se resta 1 por cada región afectada. Se aplica solo al territorio de la arteria cerebral media y en la fase precoz del ictus; no valora circulación posterior ni territorio de la arteria cerebral anterior. La concordancia entre observadores mejora usando cortes en los dos niveles axiales estandarizados y ventana adecuada."
+  },
+  {
+    "codigo": "fisher-modificada-hsa",
+    "nombre": "Escala de Fisher modificada para hemorragia subaracnoidea",
+    "sistema": "Nervioso",
+    "categoria": "Puntuación",
+    "modalidad": "TC",
+    "tipo": "puntuacion",
+    "descripcion": "Gradación de la hemorragia subaracnoidea aneurismática en TC sin contraste según el grosor del sangrado cisternal y la presencia de sangre intraventricular. Su finalidad es estimar el riesgo de vasoespasmo e isquemia cerebral tardía. Se aplica en el estudio inicial tras el diagnóstico de hemorragia subaracnoidea.",
+    "preguntas": [
+      {
+        "id": "patron",
+        "etiqueta": "Patrón de sangrado en la TC",
+        "opciones": [
+          {
+            "texto": "Sin hemorragia subaracnoidea ni hemorragia intraventricular",
+            "puntos": 0
+          },
+          {
+            "texto": "Hemorragia subaracnoidea fina o difusa, sin sangre intraventricular en ambos ventrículos laterales",
+            "puntos": 1
+          },
+          {
+            "texto": "Hemorragia subaracnoidea fina o difusa, con sangre intraventricular en ambos ventrículos laterales",
+            "puntos": 2
+          },
+          {
+            "texto": "Hemorragia subaracnoidea gruesa (cisternas rellenas), sin sangre intraventricular en ambos ventrículos laterales",
+            "puntos": 3
+          },
+          {
+            "texto": "Hemorragia subaracnoidea gruesa, con sangre intraventricular en ambos ventrículos laterales",
+            "puntos": 4
+          }
+        ]
+      }
+    ],
+    "ejemplo": {
+      "patron": 3
+    },
+    "interpretacion": [
+      {
+        "si": "total >= 4",
+        "texto": "Grado 4: Riesgo alto de vasoespasmo e isquemia cerebral tardía.",
+        "nivel": "alto"
+      },
+      {
+        "si": "total >= 3",
+        "texto": "Grado 3: Riesgo alto de vasoespasmo.",
+        "nivel": "alto"
+      },
+      {
+        "si": "total >= 2",
+        "texto": "Grado 2: Riesgo moderado de vasoespasmo.",
+        "nivel": "medio"
+      },
+      {
+        "si": "total >= 1",
+        "texto": "Grado 1: Riesgo bajo de vasoespasmo.",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Grado 0: No se identifica hemorragia subaracnoidea ni intraventricular. Riesgo muy bajo de vasoespasmo.",
+        "nivel": "normal"
+      }
+    ],
+    "notas": "Se considera hemorragia gruesa cuando la sangre rellena por completo las cisternas o las fisuras. La sensibilidad de la TC disminuye a medida que pasan los días desde el sangrado, por lo que la gradación debe basarse en el estudio inicial. Es una escala radiológica y no valora el estado clínico del paciente."
+  },
+  {
+    "codigo": "indice-gravedad-tomografica-modificado-pancreatitis",
+    "nombre": "Índice de gravedad tomográfica modificado de la pancreatitis",
+    "sistema": "Digestivo",
+    "categoria": "Puntuación",
+    "modalidad": "TC",
+    "tipo": "puntuacion",
+    "descripcion": "Puntuación que valora la gravedad de la pancreatitis aguda en TC con contraste combinando el grado de inflamación pancreática y peripancreática, la extensión de la necrosis glandular y la presencia de complicaciones fuera del páncreas. Se correlaciona con la estancia hospitalaria, la necesidad de intervención y la morbilidad. Se recomienda realizar el estudio pasadas al menos 48 a 72 horas del inicio del cuadro.",
+    "preguntas": [
+      {
+        "id": "inflamacion",
+        "etiqueta": "Inflamación pancreática",
+        "opciones": [
+          {
+            "texto": "Páncreas normal",
+            "puntos": 0
+          },
+          {
+            "texto": "Alteraciones intrínsecas del páncreas con o sin cambios inflamatorios de la grasa peripancreática",
+            "puntos": 2
+          },
+          {
+            "texto": "Colección líquida peripancreática o necrosis de la grasa peripancreática",
+            "puntos": 4
+          }
+        ]
+      },
+      {
+        "id": "necrosis",
+        "etiqueta": "Necrosis pancreática",
+        "opciones": [
+          {
+            "texto": "Ausente",
+            "puntos": 0
+          },
+          {
+            "texto": "Igual o menor del 30 por ciento de la glándula",
+            "puntos": 2
+          },
+          {
+            "texto": "Mayor del 30 por ciento de la glándula",
+            "puntos": 4
+          }
+        ]
+      },
+      {
+        "id": "extrapancreaticas",
+        "etiqueta": "Complicaciones extrapancreáticas",
+        "opciones": [
+          {
+            "texto": "Ausentes",
+            "puntos": 0
+          },
+          {
+            "texto": "Presentes (derrame pleural, ascitis, complicaciones vasculares, complicaciones digestivas o afectación de otros órganos)",
+            "puntos": 2
+          }
+        ]
+      }
+    ],
+    "ejemplo": {
+      "inflamacion": 1,
+      "necrosis": 1,
+      "extrapancreaticas": 0
+    },
+    "interpretacion": [
+      {
+        "si": "total >= 8",
+        "texto": "Pancreatitis grave (8 a 10 puntos). Alta probabilidad de complicaciones, intervención y estancia prolongada.",
+        "nivel": "alto"
+      },
+      {
+        "si": "total >= 4",
+        "texto": "Pancreatitis moderada (4 a 6 puntos). Riesgo intermedio de complicaciones.",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Pancreatitis leve (0 a 2 puntos). Riesgo bajo de complicaciones.",
+        "nivel": "normal"
+      }
+    ],
+    "notas": "La necrosis puede infravalorarse en las primeras 24 a 48 horas, por lo que una TC muy precoz puede subestimar la gravedad. Requiere administración de contraste intravenoso, valorando la función renal. El índice complementa, pero no sustituye, a los criterios clínicos y analíticos de gravedad."
+  },
+  {
+    "codigo": "lund-mackay-senos-paranasales",
+    "nombre": "Puntuación de Lund-Mackay para senos paranasales",
+    "sistema": "Cabeza y cuello",
+    "categoria": "Puntuación",
+    "modalidad": "TC",
+    "tipo": "puntuacion",
+    "descripcion": "Sistema de gradación de la afectación inflamatoria de los senos paranasales en TC, que puntúa la opacificación de cinco grupos sinusales en cada lado y el estado del complejo osteomeatal. El total oscila entre 0 y 24 puntos. Se utiliza en la valoración de la rinosinusitis crónica y en el seguimiento tras tratamiento médico o quirúrgico.",
+    "preguntas": [
+      {
+        "id": "maxilarder",
+        "etiqueta": "Seno maxilar derecho",
+        "opciones": [
+          {
+            "texto": "Sin opacificación",
+            "puntos": 0
+          },
+          {
+            "texto": "Opacificación parcial",
+            "puntos": 1
+          },
+          {
+            "texto": "Opacificación total",
+            "puntos": 2
+          }
+        ]
+      },
+      {
+        "id": "maxilarizq",
+        "etiqueta": "Seno maxilar izquierdo",
+        "opciones": [
+          {
+            "texto": "Sin opacificación",
+            "puntos": 0
+          },
+          {
+            "texto": "Opacificación parcial",
+            "puntos": 1
+          },
+          {
+            "texto": "Opacificación total",
+            "puntos": 2
+          }
+        ]
+      },
+      {
+        "id": "etmoidalanteriorder",
+        "etiqueta": "Celdillas etmoidales anteriores derechas",
+        "opciones": [
+          {
+            "texto": "Sin opacificación",
+            "puntos": 0
+          },
+          {
+            "texto": "Opacificación parcial",
+            "puntos": 1
+          },
+          {
+            "texto": "Opacificación total",
+            "puntos": 2
+          }
+        ]
+      },
+      {
+        "id": "etmoidalanteriorizq",
+        "etiqueta": "Celdillas etmoidales anteriores izquierdas",
+        "opciones": [
+          {
+            "texto": "Sin opacificación",
+            "puntos": 0
+          },
+          {
+            "texto": "Opacificación parcial",
+            "puntos": 1
+          },
+          {
+            "texto": "Opacificación total",
+            "puntos": 2
+          }
+        ]
+      },
+      {
+        "id": "etmoidalposteriorder",
+        "etiqueta": "Celdillas etmoidales posteriores derechas",
+        "opciones": [
+          {
+            "texto": "Sin opacificación",
+            "puntos": 0
+          },
+          {
+            "texto": "Opacificación parcial",
+            "puntos": 1
+          },
+          {
+            "texto": "Opacificación total",
+            "puntos": 2
+          }
+        ]
+      },
+      {
+        "id": "etmoidalposteriorizq",
+        "etiqueta": "Celdillas etmoidales posteriores izquierdas",
+        "opciones": [
+          {
+            "texto": "Sin opacificación",
+            "puntos": 0
+          },
+          {
+            "texto": "Opacificación parcial",
+            "puntos": 1
+          },
+          {
+            "texto": "Opacificación total",
+            "puntos": 2
+          }
+        ]
+      },
+      {
+        "id": "esfenoidalder",
+        "etiqueta": "Seno esfenoidal derecho",
+        "opciones": [
+          {
+            "texto": "Sin opacificación",
+            "puntos": 0
+          },
+          {
+            "texto": "Opacificación parcial",
+            "puntos": 1
+          },
+          {
+            "texto": "Opacificación total",
+            "puntos": 2
+          }
+        ]
+      },
+      {
+        "id": "esfenoidalizq",
+        "etiqueta": "Seno esfenoidal izquierdo",
+        "opciones": [
+          {
+            "texto": "Sin opacificación",
+            "puntos": 0
+          },
+          {
+            "texto": "Opacificación parcial",
+            "puntos": 1
+          },
+          {
+            "texto": "Opacificación total",
+            "puntos": 2
+          }
+        ]
+      },
+      {
+        "id": "frontalder",
+        "etiqueta": "Seno frontal derecho",
+        "opciones": [
+          {
+            "texto": "Sin opacificación",
+            "puntos": 0
+          },
+          {
+            "texto": "Opacificación parcial",
+            "puntos": 1
+          },
+          {
+            "texto": "Opacificación total",
+            "puntos": 2
+          }
+        ]
+      },
+      {
+        "id": "frontalizq",
+        "etiqueta": "Seno frontal izquierdo",
+        "opciones": [
+          {
+            "texto": "Sin opacificación",
+            "puntos": 0
+          },
+          {
+            "texto": "Opacificación parcial",
+            "puntos": 1
+          },
+          {
+            "texto": "Opacificación total",
+            "puntos": 2
+          }
+        ]
+      },
+      {
+        "id": "osteomeatalder",
+        "etiqueta": "Complejo osteomeatal derecho",
+        "opciones": [
+          {
+            "texto": "No obstruido",
+            "puntos": 0
+          },
+          {
+            "texto": "Obstruido",
+            "puntos": 2
+          }
+        ]
+      },
+      {
+        "id": "osteomeatalizq",
+        "etiqueta": "Complejo osteomeatal izquierdo",
+        "opciones": [
+          {
+            "texto": "No obstruido",
+            "puntos": 0
+          },
+          {
+            "texto": "Obstruido",
+            "puntos": 2
+          }
+        ]
+      }
+    ],
+    "ejemplo": {
+      "maxilarder": 1,
+      "maxilarizq": 1,
+      "etmoidalanteriorder": 1,
+      "etmoidalanteriorizq": 1,
+      "etmoidalposteriorder": 0,
+      "etmoidalposteriorizq": 0,
+      "esfenoidalder": 0,
+      "esfenoidalizq": 0,
+      "frontalder": 0,
+      "frontalizq": 0,
+      "osteomeatalder": 1,
+      "osteomeatalizq": 0
+    },
+    "interpretacion": [
+      {
+        "si": "total >= 12",
+        "texto": "Afectación inflamatoria extensa de los senos paranasales.",
+        "nivel": "alto"
+      },
+      {
+        "si": "total >= 5",
+        "texto": "Afectación inflamatoria moderada de los senos paranasales.",
+        "nivel": "medio"
+      },
+      {
+        "si": "total >= 1",
+        "texto": "Afectación inflamatoria leve.",
+        "nivel": "normal"
+      },
+      {
+        "si": "true",
+        "texto": "Senos paranasales sin opacificación y complejos osteomeatales permeables (0 puntos).",
+        "nivel": "normal"
+      }
+    ],
+    "notas": "El complejo osteomeatal se puntúa solo como 0 o 2, sin valor intermedio. La puntuación mide extensión radiológica y se correlaciona de forma limitada con la intensidad de los síntomas. Pueden observarse puntuaciones bajas en personas asintomáticas, por lo que el resultado debe interpretarse junto con la clínica."
+  },
+  {
+    "codigo": "hunt-hess-hsa",
+    "nombre": "Escala de Hunt y Hess para hemorragia subaracnoidea",
+    "sistema": "Nervioso",
+    "categoria": "Puntuación",
+    "modalidad": "Varias",
+    "tipo": "puntuacion",
+    "descripcion": "Escala clínica que gradúa la gravedad de la hemorragia subaracnoidea aneurismática según el nivel de conciencia, la cefalea, la rigidez de nuca y los déficits neurológicos. Sirve para estimar el pronóstico y orientar el momento del tratamiento del aneurisma. Se emplea junto con las escalas radiológicas en la valoración inicial del paciente.",
+    "preguntas": [
+      {
+        "id": "grado",
+        "etiqueta": "Estado clínico del paciente",
+        "opciones": [
+          {
+            "texto": "Asintomático o cefalea leve con ligera rigidez de nuca",
+            "puntos": 1
+          },
+          {
+            "texto": "Cefalea moderada o intensa y rigidez de nuca, sin déficit neurológico salvo parálisis de un par craneal",
+            "puntos": 2
+          },
+          {
+            "texto": "Somnolencia, confusión o déficit neurológico focal leve",
+            "puntos": 3
+          },
+          {
+            "texto": "Estupor, hemiparesia moderada o grave, posible rigidez de descerebración precoz y trastornos vegetativos",
+            "puntos": 4
+          },
+          {
+            "texto": "Coma profundo, rigidez de descerebración, aspecto moribundo",
+            "puntos": 5
+          }
+        ]
+      }
+    ],
+    "ejemplo": {
+      "grado": 1
+    },
+    "interpretacion": [
+      {
+        "si": "total >= 5",
+        "texto": "Grado V: Situación crítica con pronóstico muy desfavorable.",
+        "nivel": "alto"
+      },
+      {
+        "si": "total >= 4",
+        "texto": "Grado IV: Alteración grave del nivel de conciencia y pronóstico desfavorable.",
+        "nivel": "alto"
+      },
+      {
+        "si": "total >= 3",
+        "texto": "Grado III: Afectación neurológica moderada y pronóstico intermedio.",
+        "nivel": "medio"
+      },
+      {
+        "si": "total >= 2",
+        "texto": "Grado II: Buen pronóstico relativo, con mortalidad baja.",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Grado I: Mejor pronóstico dentro de la hemorragia subaracnoidea aneurismática.",
+        "nivel": "normal"
+      }
+    ],
+    "notas": "Algunas versiones añaden un grado a la puntuación en presencia de enfermedad sistémica grave o de vasoespasmo arterial marcado. La valoración puede verse alterada por la sedación, la intubación o las crisis comiciales. Es una escala clínica, no radiológica, y debe combinarse con la información de imagen."
+  },
+  {
+    "codigo": "bosniak-quiste-renal",
+    "nombre": "Clasificación de Bosniak para quiste renal",
+    "sistema": "Urinario",
+    "categoria": "Puntuación",
+    "modalidad": "TC",
+    "tipo": "puntuacion",
+    "descripcion": "Sistema que clasifica las lesiones quísticas renales en categorías según sus características en estudios con contraste, principalmente el grosor y la irregularidad de la pared y los tabiques, las calcificaciones y la presencia de realce. Cada categoría se asocia a una probabilidad distinta de malignidad y a una conducta recomendada. Se utiliza para decidir entre alta, seguimiento o valoración quirúrgica.",
+    "preguntas": [
+      {
+        "id": "categoria",
+        "etiqueta": "Características de la lesión quística",
+        "opciones": [
+          {
+            "texto": "Quiste simple: Contenido homogéneo de densidad líquida, pared imperceptible, sin tabiques, calcificaciones ni realce",
+            "puntos": 1
+          },
+          {
+            "texto": "Pocos tabiques finos, calcificaciones finas en pared o tabiques, o lesión hiperdensa homogénea menor de 3 cm sin realce",
+            "puntos": 2
+          },
+          {
+            "texto": "Múltiples tabiques finos, engrosamiento mínimo de pared o tabiques, calcificaciones gruesas o nodulares, o lesión hiperdensa intrarrenal mayor de 3 cm, sin realce medible",
+            "puntos": 3
+          },
+          {
+            "texto": "Paredes o tabiques engrosados e irregulares con realce medible, sin nódulo sólido con realce",
+            "puntos": 4
+          },
+          {
+            "texto": "Componente sólido con realce, independiente de la pared o los tabiques",
+            "puntos": 5
+          }
+        ]
+      }
+    ],
+    "ejemplo": {
+      "categoria": 2
+    },
+    "interpretacion": [
+      {
+        "si": "total >= 5",
+        "texto": "Bosniak IV: Lesión quística claramente maligna en la mayoría de los casos. Manejo quirúrgico.",
+        "nivel": "alto"
+      },
+      {
+        "si": "total >= 4",
+        "texto": "Bosniak III: Lesión indeterminada con riesgo de malignidad en torno a la mitad de los casos. Suele requerir cirugía o, en casos seleccionados, seguimiento estrecho o ablación.",
+        "nivel": "alto"
+      },
+      {
+        "si": "total >= 3",
+        "texto": "Bosniak IIF: Probablemente benigna, pero requiere seguimiento con imagen para confirmar estabilidad.",
+        "nivel": "medio"
+      },
+      {
+        "si": "total >= 2",
+        "texto": "Bosniak II: Quiste benigno con rasgos mínimos. No precisa seguimiento.",
+        "nivel": "normal"
+      },
+      {
+        "si": "true",
+        "texto": "Bosniak I: Quiste simple benigno. No precisa seguimiento ni tratamiento.",
+        "nivel": "normal"
+      }
+    ],
+    "notas": "La clasificación exige un estudio con contraste y técnica adecuada; en TC el realce debe ser medible en unidades Hounsfield comparando fases. La resonancia magnética tiende a mostrar más tabiques y puede elevar la categoría respecto a la TC. La ecografía y la TC sin contraste no permiten aplicar el sistema de forma fiable. Existe una versión actualizada del sistema con definiciones más estrictas de cada hallazgo."
+  },
+  {
+    "codigo": "hidronefrosis-sfu",
+    "nombre": "Grado de hidronefrosis de la Society for Fetal Urology",
+    "sistema": "Urinario",
+    "categoria": "Puntuación",
+    "modalidad": "US",
+    "tipo": "puntuacion",
+    "descripcion": "Gradación ecográfica de la dilatación del sistema colector renal en el feto y en el lactante, basada en el grado de dilatación de la pelvis y los cálices y en el estado del parénquima renal. Va del grado 0 al grado 4 y orienta la necesidad de seguimiento o de estudios adicionales. Se emplea en el control de la hidronefrosis detectada en la etapa prenatal o neonatal.",
+    "preguntas": [
+      {
+        "id": "grado",
+        "etiqueta": "Hallazgos ecográficos del sistema colector",
+        "opciones": [
+          {
+            "texto": "Sin dilatación del sistema colector",
+            "puntos": 0
+          },
+          {
+            "texto": "Dilatación de la pelvis renal únicamente, sin dilatación calicial",
+            "puntos": 1
+          },
+          {
+            "texto": "Dilatación de la pelvis renal y de algunos cálices, sin dilatación de todos ellos",
+            "puntos": 2
+          },
+          {
+            "texto": "Dilatación de la pelvis y de todos los cálices, de forma uniforme, con parénquima renal conservado",
+            "puntos": 3
+          },
+          {
+            "texto": "Dilatación de la pelvis y de todos los cálices con adelgazamiento del parénquima renal",
+            "puntos": 4
+          }
+        ]
+      }
+    ],
+    "ejemplo": {
+      "grado": 2
+    },
+    "interpretacion": [
+      {
+        "si": "total >= 4",
+        "texto": "Grado 4: Hidronefrosis grave con adelgazamiento parenquimatoso. Requiere valoración urológica y estudios complementarios.",
+        "nivel": "alto"
+      },
+      {
+        "si": "total >= 3",
+        "texto": "Grado 3: Hidronefrosis moderada a grave. Precisa seguimiento estrecho y valoración urológica.",
+        "nivel": "alto"
+      },
+      {
+        "si": "total >= 2",
+        "texto": "Grado 2: Hidronefrosis leve a moderada. Requiere seguimiento ecográfico.",
+        "nivel": "medio"
+      },
+      {
+        "si": "total >= 1",
+        "texto": "Grado 1: Dilatación leve limitada a la pelvis renal. Suele resolverse (se recomienda control).",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Grado 0: Sin dilatación del sistema colector.",
+        "nivel": "normal"
+      }
+    ],
+    "notas": "El grado de dilatación varía con el estado de hidratación, el llenado vesical y el momento del estudio, por lo que conviene repetir la exploración en condiciones estandarizadas. En el neonato se recomienda evitar la ecografía en las primeras horas de vida por el riesgo de infravalorar la dilatación. La graduación describe el hallazgo, pero no confirma por sí sola la existencia de obstrucción."
+  },
+  {
+    "codigo": "volumen-hematoma-abc2",
+    "nombre": "Volumen de hematoma intracerebral (ABC/2)",
+    "sistema": "Nervioso",
+    "categoria": "Volumetría",
+    "modalidad": "TC",
+    "tipo": "formula",
+    "descripcion": "Estima de forma rápida el volumen de una hemorragia intracerebral en la tomografía. Es un método de cabecera muy usado porque el volumen es un factor pronóstico de primer orden.",
+    "campos": [
+      {
+        "id": "a",
+        "etiqueta": "Diámetro mayor A (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "b",
+        "etiqueta": "Diámetro perpendicular B (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "c",
+        "etiqueta": "Extensión craneocaudal C (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "ejemplo": {
+      "a": 4.5,
+      "b": 3.2,
+      "c": 3.5
+    },
+    "resultados": [
+      {
+        "etiqueta": "Volumen aproximado",
+        "formula": "a * b * c / 2",
+        "unidad": "mL",
+        "decimales": 1
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 >= 30",
+        "texto": "Hematoma voluminoso (30 mL o más): Se asocia a peor pronóstico funcional y mayor mortalidad.",
+        "nivel": "alto"
+      },
+      {
+        "si": "r0 >= 10",
+        "texto": "Hematoma de volumen intermedio. Correlaciona con la localización y la clínica.",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Hematoma de pequeño volumen (menos de 10 mL).",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Volumen (mL) = A × B × C / 2, con los tres diámetros en cm",
+    "notas": "A es el diámetro mayor del hematoma en el corte donde es más grande; B el perpendicular a A; C la extensión craneocaudal, estimada como el número de cortes en que aparece por el grosor de corte. La fórmula asume una forma elipsoidal y pierde precisión en hematomas irregulares o con extensión intraventricular."
+  },
+  {
+    "codigo": "indice-cardiotoracico",
+    "nombre": "Índice cardiotorácico",
+    "sistema": "Cardiovascular",
+    "categoria": "Vascular",
+    "modalidad": "RX",
+    "tipo": "formula",
+    "descripcion": "Relaciona el ancho de la silueta cardiaca con el ancho del tórax en la radiografía posteroanterior. Es la forma clásica de objetivar la cardiomegalia.",
+    "campos": [
+      {
+        "id": "cardiaco",
+        "etiqueta": "Diámetro cardiaco máximo (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "toracico",
+        "etiqueta": "Diámetro torácico interno máximo (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "ejemplo": {
+      "cardiaco": 15.6,
+      "toracico": 29.8
+    },
+    "resultados": [
+      {
+        "etiqueta": "Índice cardiotorácico",
+        "formula": "cardiaco / toracico",
+        "unidad": "",
+        "decimales": 2
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 > 0.5",
+        "texto": "Índice mayor de 0.5: Cardiomegalia en la proyección posteroanterior.",
+        "nivel": "alto"
+      },
+      {
+        "si": "true",
+        "texto": "Índice dentro de límites normales (0.5 o menos).",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Índice = diámetro cardiaco máximo / diámetro torácico interno máximo",
+    "notas": "Solo es válido en la radiografía posteroanterior realizada en inspiración adecuada y bipedestación. En proyección anteroposterior, en decúbito o en inspiración insuficiente la silueta cardiaca se magnifica y el índice deja de ser fiable."
+  },
+  {
+    "codigo": "indice-evans",
+    "nombre": "Índice de Evans (ventriculomegalia)",
+    "sistema": "Nervioso",
+    "categoria": "Volumetría",
+    "modalidad": "TC",
+    "tipo": "formula",
+    "descripcion": "Cuantifica el tamaño ventricular en relación con el cráneo. Se emplea en el estudio de la hidrocefalia, en especial la hidrocefalia crónica del adulto.",
+    "campos": [
+      {
+        "id": "astas",
+        "etiqueta": "Anchura máxima de las astas frontales (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "craneo",
+        "etiqueta": "Diámetro interno máximo del cráneo (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "ejemplo": {
+      "astas": 4.2,
+      "craneo": 13.5
+    },
+    "resultados": [
+      {
+        "etiqueta": "Índice de Evans",
+        "formula": "astas / craneo",
+        "unidad": "",
+        "decimales": 2
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 > 0.3",
+        "texto": "Índice mayor de 0.3: Ventriculomegalia. En el contexto clínico adecuado apoya el diagnóstico de hidrocefalia.",
+        "nivel": "alto"
+      },
+      {
+        "si": "true",
+        "texto": "Tamaño ventricular dentro de límites normales (0.3 o menos).",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Índice = anchura máxima de las astas frontales / diámetro interno máximo del cráneo, en el mismo corte axial",
+    "notas": "Ambas medidas se toman en el corte axial donde las astas frontales son más anchas. Un índice elevado indica ventriculomegalia, pero no distingue por sí solo entre hidrocefalia y atrofia; hay que valorar los surcos, el cuerpo calloso y la clínica."
+  },
+  {
+    "codigo": "indice-tobillo-brazo",
+    "nombre": "Índice tobillo-brazo",
+    "sistema": "Cardiovascular",
+    "categoria": "Vascular",
+    "modalidad": "US",
+    "tipo": "formula",
+    "descripcion": "Compara la presión sistólica del tobillo con la del brazo para detectar y graduar la enfermedad arterial periférica de las extremidades inferiores.",
+    "campos": [
+      {
+        "id": "tobillo",
+        "etiqueta": "Presión sistólica del tobillo (mmHg)",
+        "unidad": "mmHg",
+        "min": 0,
+        "paso": 1
+      },
+      {
+        "id": "brazo",
+        "etiqueta": "Presión sistólica del brazo más alta (mmHg)",
+        "unidad": "mmHg",
+        "min": 0,
+        "paso": 1
+      }
+    ],
+    "ejemplo": {
+      "tobillo": 105,
+      "brazo": 140
+    },
+    "resultados": [
+      {
+        "etiqueta": "Índice tobillo-brazo",
+        "formula": "tobillo / brazo",
+        "unidad": "",
+        "decimales": 2
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 > 1.4",
+        "texto": "Mayor de 1.4: Arterias no compresibles por calcificación de la media. El índice no es valorable (usar otras pruebas).",
+        "nivel": "medio"
+      },
+      {
+        "si": "r0 < 0.4",
+        "texto": "Menor de 0.4: Enfermedad arterial periférica grave (isquemia crítica).",
+        "nivel": "alto"
+      },
+      {
+        "si": "r0 < 0.9",
+        "texto": "Menor de 0.9: Enfermedad arterial periférica.",
+        "nivel": "alto"
+      },
+      {
+        "si": "r0 < 1.0",
+        "texto": "Entre 0.9 y 1.0: Valor límite, a vigilar.",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Entre 1.0 y 1.4: Índice normal.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Índice = presión sistólica del tobillo / presión sistólica braquial más alta",
+    "notas": "Se calcula un índice para cada pierna usando la presión más alta de sus arterias (pedia o tibial posterior). Valores muy altos, por encima de 1.4, indican arterias rígidas y calcificadas, frecuentes en diabetes e insuficiencia renal, y obligan a recurrir a otras pruebas."
+  },
+  {
+    "codigo": "esteatosis-higado-bazo-tc",
+    "nombre": "Esteatosis hepática por diferencia hígado-bazo (TC)",
+    "sistema": "Digestivo",
+    "categoria": "Contraste",
+    "modalidad": "TC",
+    "tipo": "formula",
+    "descripcion": "Estima la presencia de hígado graso midiendo la atenuación hepática y comparándola con la del bazo en una tomografía sin contraste.",
+    "campos": [
+      {
+        "id": "higado",
+        "etiqueta": "Atenuación del hígado (UH)",
+        "unidad": "UH",
+        "paso": 1,
+        "referencia": "Normal de 50 a 65 UH"
+      },
+      {
+        "id": "bazo",
+        "etiqueta": "Atenuación del bazo (UH)",
+        "unidad": "UH",
+        "paso": 1,
+        "referencia": "Habitual de 40 a 60 UH"
+      }
+    ],
+    "ejemplo": {
+      "higado": 32,
+      "bazo": 50
+    },
+    "resultados": [
+      {
+        "etiqueta": "Diferencia hígado - bazo",
+        "formula": "higado - bazo",
+        "unidad": "UH",
+        "decimales": 0
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "higado < 40 || r0 <= -10",
+        "texto": "Sugiere esteatosis hepática: Hígado con atenuación menor de 40 UH o al menos 10 UH por debajo del bazo.",
+        "nivel": "alto"
+      },
+      {
+        "si": "true",
+        "texto": "Atenuación hepática dentro de límites normales.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Diferencia = atenuación del hígado - atenuación del bazo (en TC sin contraste)",
+    "notas": "Solo es válido en tomografía SIN contraste, porque el realce altera las densidades. El hígado normal es algo más denso que el bazo. Los depósitos de hierro, el edema o los fármacos como la amiodarona pueden aumentar la densidad hepática y enmascarar la grasa."
+  },
+  {
+    "codigo": "edad-gestacional-crl",
+    "nombre": "Edad gestacional por longitud cráneo-caudal",
+    "sistema": "Reproductor",
+    "categoria": "Volumetría",
+    "modalidad": "US",
+    "tipo": "formula",
+    "descripcion": "Estima la edad gestacional en el primer trimestre a partir de la longitud cráneo-caudal del embrión, la medida más fiable para datar el embarazo en esa etapa.",
+    "campos": [
+      {
+        "id": "crl",
+        "etiqueta": "Longitud cráneo-caudal (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1,
+        "referencia": "Fórmula válida de 2 a 9.5 cm"
+      }
+    ],
+    "ejemplo": {
+      "crl": 4.2
+    },
+    "resultados": [
+      {
+        "etiqueta": "Edad gestacional aproximada",
+        "formula": "crl + 6.5",
+        "unidad": "semanas",
+        "decimales": 1
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "true",
+        "texto": "Edad gestacional estimada. Válida para longitudes cráneo-caudales de entre 2 y 9.5 cm.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Edad gestacional (semanas) ≈ longitud cráneo-caudal (cm) + 6.5",
+    "notas": "Es una regla clínica aproximada, fiable para longitudes de entre 2 y 9.5 cm. Una vez establecida la fecha con la longitud cráneo-caudal del primer trimestre, no se modifica con mediciones posteriores. Fuera de ese rango deben usarse tablas biométricas específicas."
+  },
+  {
+    "codigo": "edad-gestacional-saco",
+    "nombre": "Edad gestacional por diámetro del saco gestacional",
+    "sistema": "Reproductor",
+    "categoria": "Volumetría",
+    "modalidad": "US",
+    "tipo": "formula",
+    "descripcion": "Aproxima la edad gestacional muy temprana a partir del diámetro medio del saco gestacional, cuando aún no se identifica el embrión.",
+    "campos": [
+      {
+        "id": "msd",
+        "etiqueta": "Diámetro medio del saco (mm)",
+        "unidad": "mm",
+        "min": 0,
+        "paso": 1
+      }
+    ],
+    "ejemplo": {
+      "msd": 18
+    },
+    "resultados": [
+      {
+        "etiqueta": "Edad gestacional aproximada",
+        "formula": "(msd + 30) / 7",
+        "unidad": "semanas",
+        "decimales": 1
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "true",
+        "texto": "Estimación de la edad gestacional muy temprana a partir del saco.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Edad gestacional (días) ≈ diámetro medio del saco (mm) + 30",
+    "notas": "El diámetro medio del saco es el promedio de sus tres diámetros ortogonales. Es una aproximación grosera de las primeras semanas; en cuanto se identifica el embrión, la longitud cráneo-caudal es mucho más precisa y debe preferirse."
+  },
+  {
+    "codigo": "fraccion-eyeccion",
+    "nombre": "Fracción de eyección del ventrículo izquierdo",
+    "sistema": "Cardiovascular",
+    "categoria": "Vascular",
+    "modalidad": "US",
+    "tipo": "formula",
+    "descripcion": "Calcula el porcentaje de sangre que expulsa el ventrículo izquierdo en cada latido, a partir de sus volúmenes al final de la diástole y de la sístole.",
+    "campos": [
+      {
+        "id": "vdf",
+        "etiqueta": "Volumen diastólico final (mL)",
+        "unidad": "mL",
+        "min": 0,
+        "paso": 1
+      },
+      {
+        "id": "vsf",
+        "etiqueta": "Volumen sistólico final (mL)",
+        "unidad": "mL",
+        "min": 0,
+        "paso": 1
+      }
+    ],
+    "ejemplo": {
+      "vdf": 120,
+      "vsf": 45
+    },
+    "resultados": [
+      {
+        "etiqueta": "Fracción de eyección",
+        "formula": "((vdf - vsf) / vdf) * 100",
+        "unidad": "%",
+        "decimales": 0
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 >= 55",
+        "texto": "Función sistólica normal (55 % o más).",
+        "nivel": "normal"
+      },
+      {
+        "si": "r0 >= 40",
+        "texto": "Disfunción sistólica ligera (40 a 54 %).",
+        "nivel": "medio"
+      },
+      {
+        "si": "r0 >= 30",
+        "texto": "Disfunción sistólica moderada (30 a 39 %).",
+        "nivel": "alto"
+      },
+      {
+        "si": "true",
+        "texto": "Disfunción sistólica grave (menos de 30 %).",
+        "nivel": "alto"
+      }
+    ],
+    "formulaTexto": "Fracción de eyección (%) = (volumen diastólico final - volumen sistólico final) / volumen diastólico final × 100",
+    "notas": "Los volúmenes se obtienen habitualmente por el método de Simpson biplano en ecocardiografía. Los umbrales pueden variar ligeramente entre guías. La fracción de eyección no refleja toda la función cardiaca: Puede ser normal en la insuficiencia cardiaca con función conservada."
+  },
+  {
+    "codigo": "superficie-corporal-mosteller",
+    "nombre": "Superficie corporal (fórmula de Mosteller)",
+    "sistema": "General",
+    "categoria": "Volumetría",
+    "modalidad": "Varias",
+    "tipo": "formula",
+    "descripcion": "Calcula la superficie corporal, necesaria para indexar mediciones de imagen como el diámetro de la aorta o los volúmenes cardiacos respecto al tamaño del paciente.",
+    "campos": [
+      {
+        "id": "peso",
+        "etiqueta": "Peso (kg)",
+        "unidad": "kg",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "talla",
+        "etiqueta": "Talla (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "ejemplo": {
+      "peso": 70,
+      "talla": 170
+    },
+    "resultados": [
+      {
+        "etiqueta": "Superficie corporal",
+        "formula": "Math.sqrt(peso * talla / 3600)",
+        "unidad": "m²",
+        "decimales": 2
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "true",
+        "texto": "Superficie corporal estimada. Sirve para indexar medidas de imagen (por ejemplo, el diámetro aórtico o los volúmenes cardiacos) respecto al tamaño del paciente.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Superficie (m²) = raíz cuadrada de (peso en kg × talla en cm / 3600)",
+    "notas": "La indexación por superficie corporal permite comparar mediciones entre pacientes de distinta constitución. Existen otras fórmulas (Du Bois, Haycock) con resultados muy similares."
+  },
+  {
+    "codigo": "renal-nephrometry",
+    "nombre": "Puntuación nefrométrica RENAL",
+    "sistema": "Urinario",
+    "categoria": "Puntuación",
+    "modalidad": "TC",
+    "tipo": "puntuacion",
+    "descripcion": "Cuantifica la complejidad anatómica de una masa renal para estimar el riesgo quirúrgico y orientar el tipo de cirugía. Suma cuatro componentes que dan un total de 4 a 12 puntos.",
+    "preguntas": [
+      {
+        "id": "radio",
+        "etiqueta": "Radio del tumor, componente R (diámetro máximo)",
+        "opciones": [
+          {
+            "texto": "4 cm o menos",
+            "puntos": 1
+          },
+          {
+            "texto": "Más de 4 y menos de 7 cm",
+            "puntos": 2
+          },
+          {
+            "texto": "7 cm o más",
+            "puntos": 3
+          }
+        ]
+      },
+      {
+        "id": "exofitico",
+        "etiqueta": "Componente exofítico o endofítico (E)",
+        "opciones": [
+          {
+            "texto": "Al menos el 50 % exofítico",
+            "puntos": 1
+          },
+          {
+            "texto": "Menos del 50 % exofítico",
+            "puntos": 2
+          },
+          {
+            "texto": "Completamente endofítico",
+            "puntos": 3
+          }
+        ]
+      },
+      {
+        "id": "cercania",
+        "etiqueta": "Cercanía al sistema colector o al seno renal (N)",
+        "opciones": [
+          {
+            "texto": "7 mm o más",
+            "puntos": 1
+          },
+          {
+            "texto": "Más de 4 y menos de 7 mm",
+            "puntos": 2
+          },
+          {
+            "texto": "4 mm o menos",
+            "puntos": 3
+          }
+        ]
+      },
+      {
+        "id": "localizacion",
+        "etiqueta": "Localización respecto a las líneas polares (L)",
+        "opciones": [
+          {
+            "texto": "Totalmente por encima o por debajo de las líneas polares",
+            "puntos": 1
+          },
+          {
+            "texto": "Cruza una línea polar",
+            "puntos": 2
+          },
+          {
+            "texto": "Cruza la línea media del riñón o se sitúa entre las líneas polares",
+            "puntos": 3
+          }
+        ]
+      }
+    ],
+    "ejemplo": {
+      "radio": 1,
+      "exofitico": 1,
+      "cercania": 1,
+      "localizacion": 1
+    },
+    "interpretacion": [
+      {
+        "si": "total >= 10",
+        "texto": "Complejidad alta (10 a 12 puntos): Mayor dificultad quirúrgica y más riesgo de complicaciones.",
+        "nivel": "alto"
+      },
+      {
+        "si": "total >= 7",
+        "texto": "Complejidad moderada (7 a 9 puntos).",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Complejidad baja (4 a 6 puntos): Favorable para cirugía conservadora de nefronas.",
+        "nivel": "normal"
+      }
+    ],
+    "notas": "Al total se le añade el sufijo 'a', 'p' o 'x' según la masa sea anterior, posterior o indeterminada; ese sufijo es descriptivo y no suma puntos. La puntuación orienta, pero la decisión quirúrgica depende también de la función renal, la experiencia del cirujano y las características del paciente."
+  },
+  {
+    "codigo": "cad-rads-estenosis",
+    "nombre": "CAD-RADS por grado de estenosis coronaria",
+    "sistema": "Cardiovascular",
+    "categoria": "Puntuación",
+    "modalidad": "TC",
+    "tipo": "puntuacion",
+    "descripcion": "Asigna la categoría CAD-RADS según el grado máximo de estenosis coronaria observado en la angiotomografía, para estandarizar el informe y orientar el manejo.",
+    "preguntas": [
+      {
+        "id": "estenosis",
+        "etiqueta": "Estenosis coronaria máxima",
+        "opciones": [
+          {
+            "texto": "0 %, sin placa ni estenosis",
+            "puntos": 0
+          },
+          {
+            "texto": "1 a 24 %, mínima",
+            "puntos": 1
+          },
+          {
+            "texto": "25 a 49 %, leve",
+            "puntos": 2
+          },
+          {
+            "texto": "50 a 69 %, moderada",
+            "puntos": 3
+          },
+          {
+            "texto": "70 a 99 %, grave",
+            "puntos": 4
+          },
+          {
+            "texto": "100 %, oclusión total",
+            "puntos": 5
+          }
+        ]
+      }
+    ],
+    "ejemplo": {
+      "estenosis": 3
+    },
+    "interpretacion": [
+      {
+        "si": "total >= 5",
+        "texto": "CAD-RADS 5: Oclusión total de un vaso coronario.",
+        "nivel": "alto"
+      },
+      {
+        "si": "total >= 4",
+        "texto": "CAD-RADS 4: Enfermedad grave. Suele requerir valoración funcional o coronariografía invasiva.",
+        "nivel": "alto"
+      },
+      {
+        "si": "total >= 3",
+        "texto": "CAD-RADS 3: Estenosis moderada. Puede requerir estudio funcional de isquemia.",
+        "nivel": "medio"
+      },
+      {
+        "si": "total >= 2",
+        "texto": "CAD-RADS 2: Enfermedad leve, sin estenosis obstructiva.",
+        "nivel": "medio"
+      },
+      {
+        "si": "total >= 1",
+        "texto": "CAD-RADS 1: Placa mínima sin estenosis significativa.",
+        "nivel": "normal"
+      },
+      {
+        "si": "true",
+        "texto": "CAD-RADS 0: Ausencia de enfermedad coronaria detectable.",
+        "nivel": "normal"
+      }
+    ],
+    "notas": "Esta versión simplificada se basa solo en el grado de estenosis. El sistema completo añade modificadores para la calidad del estudio, los stents, los injertos y la carga total de placa, y distingue las categorías 4A y 4B según la extensión. La categoría orienta el manejo, siempre en el contexto clínico."
+  },
+  {
+    "codigo": "volumen-hepatico-estandar-peso",
+    "nombre": "Volumen hepático estándar (por peso corporal)",
+    "sistema": "Digestivo",
+    "categoria": "Volumetría",
+    "modalidad": "TC",
+    "tipo": "formula",
+    "descripcion": "Estima el volumen hepático teórico que corresponde a un paciente según su peso. Se usa en la planificación de la resección hepática y del trasplante de donante vivo, para calcular qué proporción del hígado se puede extraer con seguridad.",
+    "campos": [
+      {
+        "id": "peso",
+        "etiqueta": "Peso corporal (kg)",
+        "unidad": "kg",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "ejemplo": {
+      "peso": 70
+    },
+    "resultados": [
+      {
+        "etiqueta": "Volumen hepático estándar",
+        "formula": "18.51 * peso + 191.8",
+        "unidad": "mL",
+        "decimales": 0
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "true",
+        "texto": "Volumen hepático teórico de referencia para este paciente. Sirve para calcular el porcentaje del hígado que representa un injerto o el remanente tras una resección.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Volumen hepático estándar (mL) = 18.51 × peso (kg) + 191.8",
+    "notas": "Es un valor de referencia poblacional, no una medición del hígado real del paciente. El volumen medido en la imagen puede diferir por enfermedad hepática. La proporción entre el volumen del injerto y este valor guía las decisiones en cirugía hepática y trasplante."
+  },
+  {
+    "codigo": "volumen-hepatico-estandar-bsa",
+    "nombre": "Volumen hepático estándar (por superficie corporal)",
+    "sistema": "Digestivo",
+    "categoria": "Volumetría",
+    "modalidad": "TC",
+    "tipo": "formula",
+    "descripcion": "Alternativa a la estimación por peso: Calcula el volumen hepático teórico a partir de la superficie corporal, que puede obtenerse con la calculadora de superficie corporal de esta misma sección.",
+    "campos": [
+      {
+        "id": "bsa",
+        "etiqueta": "Superficie corporal (m²)",
+        "unidad": "m²",
+        "min": 0,
+        "paso": 0.01,
+        "referencia": "Adulto habitual entre 1.6 y 2.0 m²"
+      }
+    ],
+    "ejemplo": {
+      "bsa": 1.82
+    },
+    "resultados": [
+      {
+        "etiqueta": "Volumen hepático estándar",
+        "formula": "706.2 * bsa + 2.4",
+        "unidad": "mL",
+        "decimales": 0
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "true",
+        "texto": "Volumen hepático teórico de referencia según la superficie corporal.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Volumen hepático estándar (mL) = 706.2 × superficie corporal (m²) + 2.4",
+    "notas": "Da resultados muy parecidos a la fórmula por peso. Como esa, es un valor de referencia poblacional para planificar resecciones y trasplantes, no una medición directa del hígado."
+  },
+  {
+    "codigo": "indice-haller",
+    "nombre": "Índice de Haller (pectus excavatum)",
+    "sistema": "Respiratorio",
+    "categoria": "Tórax",
+    "modalidad": "TC",
+    "tipo": "formula",
+    "descripcion": "Cuantifica la gravedad del pectus excavatum (tórax hundido) comparando el ancho del tórax con la profundidad a la que está deprimido el esternón. Es la medida que orienta la indicación quirúrgica.",
+    "campos": [
+      {
+        "id": "transverso",
+        "etiqueta": "Diámetro transverso interno del tórax (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "ap",
+        "etiqueta": "Distancia entre el esternón y la columna en el punto más hundido (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "ejemplo": {
+      "transverso": 26.5,
+      "ap": 7.2
+    },
+    "resultados": [
+      {
+        "etiqueta": "Índice de Haller",
+        "formula": "transverso / ap",
+        "unidad": "",
+        "decimales": 2
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 > 3.25",
+        "texto": "Mayor de 3.25: Pectus excavatum grave. Suele considerarse criterio para valorar corrección quirúrgica.",
+        "nivel": "alto"
+      },
+      {
+        "si": "r0 > 3.2",
+        "texto": "Cercano a 3.25: Deformidad moderada a grave, límite quirúrgico.",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Deformidad leve a moderada. Un tórax normal ronda un índice de 2.5.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Índice = diámetro transverso interno del tórax / distancia mínima entre el esternón y la columna",
+    "notas": "Ambas medidas se toman en el corte axial donde el esternón está más deprimido. Un tórax normal tiene un índice en torno a 2.5. El valor mayor de 3.25 es el umbral clásico para considerar la cirugía, siempre junto con la clínica y la función cardiopulmonar."
+  },
+  {
+    "codigo": "relacion-arteria-pulmonar-aorta",
+    "nombre": "Relación arteria pulmonar / aorta",
+    "sistema": "Cardiovascular",
+    "categoria": "Vascular",
+    "modalidad": "TC",
+    "tipo": "formula",
+    "descripcion": "Compara el diámetro del tronco de la arteria pulmonar con el de la aorta ascendente. Una arteria pulmonar dilatada respecto a la aorta es un signo indirecto de hipertensión pulmonar.",
+    "campos": [
+      {
+        "id": "pulmonar",
+        "etiqueta": "Diámetro del tronco de la arteria pulmonar (mm)",
+        "unidad": "mm",
+        "min": 0,
+        "paso": 0.1,
+        "referencia": "Normal hasta 29 mm"
+      },
+      {
+        "id": "aorta",
+        "etiqueta": "Diámetro de la aorta ascendente (mm)",
+        "unidad": "mm",
+        "min": 0,
+        "paso": 0.1,
+        "referencia": "Normal hasta 40 mm"
+      }
+    ],
+    "ejemplo": {
+      "pulmonar": 30,
+      "aorta": 32
+    },
+    "resultados": [
+      {
+        "etiqueta": "Relación pulmonar / aorta",
+        "formula": "pulmonar / aorta",
+        "unidad": "",
+        "decimales": 2
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 > 1",
+        "texto": "Mayor de 1: Arteria pulmonar dilatada respecto a la aorta, hallazgo que sugiere hipertensión pulmonar.",
+        "nivel": "alto"
+      },
+      {
+        "si": "true",
+        "texto": "Relación normal (1 o menos).",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Relación = diámetro del tronco de la arteria pulmonar / diámetro de la aorta ascendente, en el mismo corte axial",
+    "notas": "Ambos diámetros se miden en el corte axial a la altura de la bifurcación pulmonar. Es un signo indirecto y de apoyo: El diagnóstico de hipertensión pulmonar exige confirmación con ecocardiografía o cateterismo."
+  },
+  {
+    "codigo": "relacion-vd-vi",
+    "nombre": "Relación ventrículo derecho / izquierdo",
+    "sistema": "Cardiovascular",
+    "categoria": "Vascular",
+    "modalidad": "TC",
+    "tipo": "formula",
+    "descripcion": "Compara el diámetro del ventrículo derecho con el del izquierdo en la angiotomografía. En la tromboembolia pulmonar, un ventrículo derecho dilatado indica sobrecarga y peor pronóstico.",
+    "campos": [
+      {
+        "id": "vd",
+        "etiqueta": "Diámetro del ventrículo derecho (mm)",
+        "unidad": "mm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "vi",
+        "etiqueta": "Diámetro del ventrículo izquierdo (mm)",
+        "unidad": "mm",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "ejemplo": {
+      "vd": 44,
+      "vi": 40
+    },
+    "resultados": [
+      {
+        "etiqueta": "Relación VD / VI",
+        "formula": "vd / vi",
+        "unidad": "",
+        "decimales": 2
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 > 1",
+        "texto": "Mayor de 1: Dilatación del ventrículo derecho. En la tromboembolia pulmonar indica sobrecarga derecha y se asocia a peor pronóstico.",
+        "nivel": "alto"
+      },
+      {
+        "si": "true",
+        "texto": "Relación normal (1 o menos).",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Relación = diámetro máximo del ventrículo derecho / diámetro máximo del ventrículo izquierdo",
+    "notas": "Los diámetros se miden en el plano axial o en una reconstrucción de cuatro cámaras, de pared interna a tabique. Es un marcador de gravedad en la tromboembolia pulmonar aguda que ayuda a estratificar el riesgo."
+  },
+  {
+    "codigo": "indice-tamano-aortico",
+    "nombre": "Índice de tamaño aórtico",
+    "sistema": "Cardiovascular",
+    "categoria": "Vascular",
+    "modalidad": "TC",
+    "tipo": "formula",
+    "descripcion": "Ajusta el diámetro de la aorta al tamaño corporal del paciente dividiéndolo por la superficie corporal. Mejora la estimación del riesgo de complicaciones en los aneurismas, sobre todo en pacientes de constitución pequeña.",
+    "campos": [
+      {
+        "id": "diametro",
+        "etiqueta": "Diámetro aórtico máximo (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "bsa",
+        "etiqueta": "Superficie corporal (m²)",
+        "unidad": "m²",
+        "min": 0,
+        "paso": 0.01,
+        "referencia": "Adulto habitual entre 1.6 y 2.0 m²"
+      }
+    ],
+    "ejemplo": {
+      "diametro": 5.4,
+      "bsa": 1.85
+    },
+    "resultados": [
+      {
+        "etiqueta": "Índice de tamaño aórtico",
+        "formula": "diametro / bsa",
+        "unidad": "cm/m²",
+        "decimales": 2
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 >= 4.25",
+        "texto": "4.25 cm/m² o más: Riesgo alto de complicaciones (disección o rotura).",
+        "nivel": "alto"
+      },
+      {
+        "si": "r0 >= 2.75",
+        "texto": "Entre 2.75 y 4.24 cm/m²: Riesgo moderado (vigilancia estrecha).",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Menor de 2.75 cm/m²: Riesgo bajo.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Índice = diámetro aórtico máximo (cm) / superficie corporal (m²)",
+    "notas": "Es especialmente útil cuando el diámetro absoluto puede infravalorar el riesgo en personas de talla pequeña. Se emplea sobre todo en válvula aórtica bicúspide y enfermedades del tejido conectivo. La superficie corporal se obtiene con la calculadora de Mosteller de esta sección."
+  },
+  {
+    "codigo": "angulo-calloso",
+    "nombre": "Ángulo calloso (hidrocefalia normotensiva)",
+    "sistema": "Nervioso",
+    "categoria": "Neuro",
+    "modalidad": "RM",
+    "tipo": "formula",
+    "descripcion": "El ángulo calloso ayuda a distinguir la hidrocefalia normotensiva de la atrofia cerebral, dos cuadros que comparten ventriculomegalia pero requieren manejos muy distintos. En la hidrocefalia normotensiva el cuerpo calloso se angula de forma más aguda que en la atrofia.",
+    "campos": [
+      {
+        "id": "angulo",
+        "etiqueta": "Ángulo calloso medido (grados)",
+        "unidad": "grados",
+        "min": 0,
+        "paso": 1,
+        "referencia": "Normal por encima de 100 grados"
+      }
+    ],
+    "ejemplo": {
+      "angulo": 82
+    },
+    "resultados": [
+      {
+        "etiqueta": "Ángulo calloso",
+        "formula": "angulo",
+        "unidad": "grados",
+        "decimales": 0
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "angulo < 90",
+        "texto": "Por debajo de 90 grados, un valor que apoya el diagnóstico de hidrocefalia normotensiva cuando coincide con la clínica compatible.",
+        "nivel": "alto"
+      },
+      {
+        "si": "angulo <= 100",
+        "texto": "Entre 90 y 100 grados, una zona indeterminada que obliga a valorar el resto de los signos de imagen junto con la evolución clínica.",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Por encima de 100 grados, un valor que va en contra de la hidrocefalia normotensiva y orienta más hacia atrofia u otras causas de ventriculomegalia.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Ángulo formado por los bordes internos de ambos ventrículos laterales, medido en un plano coronal perpendicular a la línea que une las comisuras anterior y posterior, a la altura de la comisura posterior",
+    "notas": "La medición debe hacerse siempre en el mismo plano coronal y a la misma altura, porque el ángulo varía mucho según el corte elegido. Es un dato de apoyo que nunca sustituye a la valoración clínica completa ni al resto de los signos de hidrocefalia."
+  },
+  {
+    "codigo": "t2-cardiaco-hierro",
+    "nombre": "T2* cardiaco y sobrecarga de hierro miocárdico",
+    "sistema": "Cardiovascular",
+    "categoria": "Cardiaco",
+    "modalidad": "RM",
+    "tipo": "formula",
+    "descripcion": "El T2* cardiaco cuantifica el hierro depositado en el miocardio, algo fundamental en pacientes politransfundidos, como los que padecen talasemia mayor. Un T2* bajo refleja mucho hierro y anticipa el riesgo de insuficiencia cardiaca y arritmias, de manera que guía el tratamiento quelante.",
+    "campos": [
+      {
+        "id": "t2",
+        "etiqueta": "T2* cardiaco medido (ms)",
+        "unidad": "ms",
+        "min": 0,
+        "paso": 0.1,
+        "referencia": "Normal 20 ms o más"
+      }
+    ],
+    "ejemplo": {
+      "t2": 14
+    },
+    "resultados": [
+      {
+        "etiqueta": "T2* cardiaco",
+        "formula": "t2",
+        "unidad": "ms",
+        "decimales": 1
+      },
+      {
+        "etiqueta": "Hierro miocárdico estimado",
+        "formula": "45 * Math.pow(t2, -1.22)",
+        "unidad": "mg/g",
+        "decimales": 2
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "t2 < 10",
+        "texto": "Por debajo de 10 ms, lo que indica una sobrecarga de hierro miocárdico grave con riesgo alto de insuficiencia cardiaca y arritmias, y aconseja intensificar la quelación.",
+        "nivel": "alto"
+      },
+      {
+        "si": "t2 < 20",
+        "texto": "Entre 10 y 20 ms, un rango que corresponde a sobrecarga de hierro miocárdico de leve a moderada.",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Igual o mayor de 20 ms, un valor que sitúa el depósito de hierro miocárdico dentro de los límites normales.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Hierro miocárdico (mg/g de peso seco) = 45 × T2* elevado a la potencia -1.22",
+    "notas": "El T2* se mide en una región de interés del tabique interventricular medio para evitar los artefactos del pulmón y las venas cardiacas. Complementa la valoración del hierro hepático y la ferritina, ya que el corazón y el hígado acumulan y liberan hierro a ritmos distintos."
+  },
+  {
+    "codigo": "indice-insall-salvati",
+    "nombre": "Índice de Insall-Salvati (altura rotuliana)",
+    "sistema": "Óseo",
+    "categoria": "Musculoesquelético",
+    "modalidad": "RX",
+    "tipo": "formula",
+    "descripcion": "Relaciona la longitud del tendón rotuliano con la de la rótula para determinar la altura que ocupa esta en la tróclea femoral. Sirve para reconocer la rótula alta, que predispone a inestabilidad femoropatelar, y la rótula baja, propia de la fibrosis posquirúrgica o postraumática.",
+    "campos": [
+      {
+        "id": "tendon",
+        "etiqueta": "Longitud del tendón rotuliano (mm)",
+        "unidad": "mm",
+        "min": 0,
+        "paso": 1
+      },
+      {
+        "id": "rotula",
+        "etiqueta": "Longitud mayor de la rótula (mm)",
+        "unidad": "mm",
+        "min": 0,
+        "paso": 1
+      }
+    ],
+    "ejemplo": {
+      "tendon": 54,
+      "rotula": 42
+    },
+    "resultados": [
+      {
+        "etiqueta": "Índice de Insall-Salvati",
+        "formula": "tendon / rotula",
+        "unidad": "",
+        "decimales": 2
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 > 1.2",
+        "texto": "Por encima de 1.2, cifra que corresponde a rótula alta (se asocia con inestabilidad femoropatelar y con dolor anterior de rodilla).",
+        "nivel": "alto"
+      },
+      {
+        "si": "r0 < 0.8",
+        "texto": "Por debajo de 0.8, cifra que corresponde a rótula baja (aparece sobre todo tras cirugía de rodilla, traumatismo o inmovilización prolongada).",
+        "nivel": "alto"
+      },
+      {
+        "si": "true",
+        "texto": "Entre 0.8 y 1.2, un rango que sitúa la altura rotuliana dentro de la normalidad.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Índice = longitud del tendón rotuliano / longitud mayor de la rótula",
+    "notas": "Se mide en la radiografía lateral de rodilla con unos 30 grados de flexión. La longitud del tendón va desde su inserción en el polo inferior de la rótula hasta la tuberosidad tibial, y la de la rótula corresponde a su diámetro mayor en el mismo plano. La ventaja de este índice es que apenas depende del grado de flexión, aunque pierde fiabilidad cuando la rótula tiene una forma anómala o el tendón está engrosado."
+  },
+  {
+    "codigo": "indice-acetabular",
+    "nombre": "Índice acetabular (displasia del desarrollo de la cadera)",
+    "sistema": "Óseo",
+    "categoria": "Musculoesquelético",
+    "modalidad": "RX",
+    "tipo": "formula",
+    "descripcion": "Mide la inclinación del techo acetabular respecto a la línea de Hilgenreiner en la radiografía anteroposterior de pelvis. Es la medida de referencia para valorar la cobertura ósea de la cadera en el lactante y en el niño pequeño, cuando la cabeza femoral todavía no está osificada.",
+    "campos": [
+      {
+        "id": "angulo",
+        "etiqueta": "Índice acetabular medido (grados)",
+        "unidad": "grados",
+        "min": 0,
+        "paso": 1
+      }
+    ],
+    "ejemplo": {
+      "angulo": 33
+    },
+    "resultados": [
+      {
+        "etiqueta": "Índice acetabular",
+        "formula": "angulo",
+        "unidad": "grados",
+        "decimales": 0
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "angulo > 30",
+        "texto": "Por encima de 30 grados, un valor anormal a cualquier edad que apoya el diagnóstico de displasia acetabular.",
+        "nivel": "alto"
+      },
+      {
+        "si": "angulo >= 25",
+        "texto": "Entre 25 y 30 grados, una zona que depende de la edad, ya que resulta aceptable en el recién nacido y se considera anormal a partir del año de vida.",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Por debajo de 25 grados, un valor dentro de lo esperado a cualquier edad una vez pasado el periodo neonatal.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Ángulo entre la línea de Hilgenreiner, que une ambos cartílagos trirradiados, y la línea que va del cartílago trirradiado al borde lateral del techo acetabular",
+    "notas": "El valor normal desciende de forma progresiva durante los primeros años de vida, de modo que siempre se interpreta junto con la edad del paciente y comparando ambas caderas, porque una diferencia mantenida entre lados tiene valor aunque las dos cifras estén dentro del rango. La radiografía debe estar centrada y sin rotación, ya que la báscula pélvica modifica el ángulo. Antes de los tres o cuatro meses la ecografía es la técnica de elección."
+  },
+  {
+    "codigo": "angulo-centro-borde",
+    "nombre": "Ángulo del centro al borde (Wiberg)",
+    "sistema": "Óseo",
+    "categoria": "Musculoesquelético",
+    "modalidad": "RX",
+    "tipo": "formula",
+    "descripcion": "Cuantifica la cobertura lateral de la cabeza femoral por el acetábulo en el niño mayor y en el adulto. Un ángulo pequeño indica displasia acetabular, causa frecuente de dolor de cadera y de artrosis precoz en el adulto joven.",
+    "campos": [
+      {
+        "id": "angulo",
+        "etiqueta": "Ángulo del centro al borde (grados)",
+        "unidad": "grados",
+        "min": 0,
+        "paso": 1,
+        "referencia": "Normal por encima de 25 grados en el adulto"
+      }
+    ],
+    "ejemplo": {
+      "angulo": 18
+    },
+    "resultados": [
+      {
+        "etiqueta": "Ángulo del centro al borde",
+        "formula": "angulo",
+        "unidad": "grados",
+        "decimales": 0
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "angulo < 20",
+        "texto": "Por debajo de 20 grados, un valor que indica displasia acetabular con cobertura insuficiente de la cabeza femoral.",
+        "nivel": "alto"
+      },
+      {
+        "si": "angulo > 40",
+        "texto": "Por encima de 40 grados, lo que refleja una cobertura excesiva del acetábulo (es el hallazgo del choque femoroacetabular de tipo pinza).",
+        "nivel": "medio"
+      },
+      {
+        "si": "angulo <= 25",
+        "texto": "Entre 20 y 25 grados, una zona límite que obliga a valorar el resto de los signos de displasia junto con la clínica del paciente.",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Entre 25 y 40 grados, una cobertura acetabular dentro de la normalidad.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Ángulo formado por una línea vertical trazada desde el centro de la cabeza femoral y la línea que une ese centro con el borde lateral del acetábulo, en radiografía anteroposterior de pelvis",
+    "notas": "Se mide con la pelvis centrada y sin rotación, porque la inclinación pélvica cambia el resultado. No es fiable en el niño pequeño, ya que el centro de la cabeza femoral necesita estar osificado para poder situarlo. El punto lateral de referencia es el reborde óseo del acetábulo y no el labrum, que no se ve en la radiografía."
+  },
+  {
+    "codigo": "relacion-torg",
+    "nombre": "Relación de Torg (estenosis del canal cervical)",
+    "sistema": "Óseo",
+    "categoria": "Musculoesquelético",
+    "modalidad": "RX",
+    "tipo": "formula",
+    "descripcion": "Compara el diámetro sagital del canal cervical con el del cuerpo vertebral del mismo nivel, de manera que el resultado no depende de la magnificación de la radiografía. Se emplea para detectar el canal cervical estrecho de origen constitucional, que aumenta el riesgo de lesión medular en los deportes de contacto.",
+    "campos": [
+      {
+        "id": "canal",
+        "etiqueta": "Diámetro sagital del canal (mm)",
+        "unidad": "mm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "cuerpo",
+        "etiqueta": "Diámetro sagital del cuerpo vertebral (mm)",
+        "unidad": "mm",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "ejemplo": {
+      "canal": 13.5,
+      "cuerpo": 18
+    },
+    "resultados": [
+      {
+        "etiqueta": "Relación de Torg",
+        "formula": "canal / cuerpo",
+        "unidad": "",
+        "decimales": 2
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 <= 0.8",
+        "texto": "Igual o menor de 0.8, cifra que define el canal cervical estrecho (su valor predictivo positivo en deportistas es bajo, así que no basta por sí sola para apartar a nadie de la competición).",
+        "nivel": "alto"
+      },
+      {
+        "si": "true",
+        "texto": "Por encima de 0.8, un canal cervical de amplitud normal.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Relación = diámetro sagital del canal / diámetro sagital del cuerpo vertebral, ambos medidos en el mismo nivel",
+    "notas": "El diámetro del canal se mide en la radiografía lateral de columna cervical, desde la cara posterior del cuerpo vertebral hasta la línea espinolaminar, y el del cuerpo en su punto medio. La relación suele calcularse entre C3 y C6. Al ser un cociente entre dos medidas de la misma imagen no le afecta la distancia del tubo, pero un cuerpo vertebral grande, frecuente en deportistas, da una relación baja sin que exista estenosis real, de modo que conviene confirmar el diámetro absoluto del canal y el estado de la médula con tomografía o resonancia."
+  },
+  {
+    "codigo": "indice-liquido-amniotico",
+    "nombre": "Índice de líquido amniótico",
+    "sistema": "Reproductor",
+    "categoria": "Volumetría",
+    "modalidad": "US",
+    "tipo": "formula",
+    "descripcion": "Suma la mayor bolsa vertical de líquido libre de cordón y de partes fetales en cada uno de los cuatro cuadrantes del útero. Es la forma más extendida de cuantificar el líquido amniótico a partir del segundo trimestre y forma parte del perfil biofísico fetal.",
+    "campos": [
+      {
+        "id": "supder",
+        "etiqueta": "Cuadrante superior derecho (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "supizq",
+        "etiqueta": "Cuadrante superior izquierdo (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "infder",
+        "etiqueta": "Cuadrante inferior derecho (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "infizq",
+        "etiqueta": "Cuadrante inferior izquierdo (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "ejemplo": {
+      "supder": 4.2,
+      "supizq": 3.8,
+      "infder": 3.1,
+      "infizq": 2.9
+    },
+    "resultados": [
+      {
+        "etiqueta": "Índice de líquido amniótico",
+        "formula": "supder + supizq + infder + infizq",
+        "unidad": "cm",
+        "decimales": 1
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 < 5",
+        "texto": "Por debajo de 5 cm, cifra que define el oligohidramnios y obliga a descartar rotura de membranas, insuficiencia placentaria y malformación del aparato urinario fetal.",
+        "nivel": "alto"
+      },
+      {
+        "si": "r0 > 24",
+        "texto": "Por encima de 24 cm, lo que corresponde a polihidramnios y hace revisar la diabetes materna y las malformaciones digestivas o neurológicas que dificultan la deglución fetal.",
+        "nivel": "alto"
+      },
+      {
+        "si": "r0 < 8",
+        "texto": "Entre 5 y 8 cm, un volumen en el límite bajo que aconseja controlar la evolución con más frecuencia.",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Entre 8 y 24 cm, un volumen de líquido amniótico normal.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Índice = suma de la bolsa vertical máxima de los cuatro cuadrantes uterinos",
+    "notas": "El útero se divide en cuatro cuadrantes tomando la línea media y el ombligo como referencias. Cada bolsa se mide en sentido estrictamente vertical, con el transductor perpendicular al suelo, sin incluir cordón umbilical ni partes fetales y sin comprimir el abdomen. Los límites del rango normal varían algo entre guías, y algunas sitúan el polihidramnios en 25 cm. En el embarazo gemelar el índice no se aplica, ya que se valora la bolsa máxima de cada saco por separado."
+  },
+  {
+    "codigo": "peso-fetal-estimado",
+    "nombre": "Peso fetal estimado por biometría",
+    "sistema": "Reproductor",
+    "categoria": "Volumetría",
+    "modalidad": "US",
+    "tipo": "formula",
+    "descripcion": "Estima el peso del feto a partir de las cuatro medidas biométricas habituales, que son el diámetro biparietal, la circunferencia cefálica, la circunferencia abdominal y la longitud del fémur. Es la base del seguimiento del crecimiento fetal y de la sospecha de restricción del crecimiento o de macrosomía.",
+    "campos": [
+      {
+        "id": "dbp",
+        "etiqueta": "Diámetro biparietal (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "cc",
+        "etiqueta": "Circunferencia cefálica (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "ca",
+        "etiqueta": "Circunferencia abdominal (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      },
+      {
+        "id": "lf",
+        "etiqueta": "Longitud del fémur (cm)",
+        "unidad": "cm",
+        "min": 0,
+        "paso": 0.1
+      }
+    ],
+    "ejemplo": {
+      "dbp": 9.4,
+      "cc": 34,
+      "ca": 34,
+      "lf": 7.3
+    },
+    "resultados": [
+      {
+        "etiqueta": "Peso fetal estimado",
+        "formula": "Math.pow(10, 1.3596 + 0.0064 * cc + 0.0424 * ca + 0.174 * lf + 0.00061 * dbp * ca - 0.00386 * ca * lf)",
+        "unidad": "g",
+        "decimales": 0
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 >= 4000",
+        "texto": "4000 g o más, un peso que entra en el rango de la macrosomía fetal y obliga a valorar la vía del parto y el riesgo de distocia de hombros.",
+        "nivel": "alto"
+      },
+      {
+        "si": "r0 < 2500",
+        "texto": "Por debajo de 2500 g, lo que corresponde a bajo peso si el parto ocurriera ahora (en un feto pretérmino puede tratarse de un peso adecuado para su edad gestacional).",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Entre 2500 y 4000 g, un peso estimado dentro del rango habitual del feto a término.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "log10(peso en gramos) = 1.3596 + 0.0064 × CC + 0.0424 × CA + 0.174 × LF + 0.00061 × DBP × CA - 0.00386 × CA × LF, con todas las medidas en centímetros",
+    "notas": "El error de la estimación ronda el 10 % en la mayoría de las series y crece en los extremos de peso, en el oligohidramnios y cuando la pared abdominal materna es gruesa. El valor absoluto importa menos que el percentil que ocupa para la edad gestacional, que es lo que define la restricción del crecimiento, de modo que conviene situar el resultado en una curva de referencia. Repetir la medición antes de dos semanas no permite valorar de forma fiable la velocidad de crecimiento, porque el error del método supera al cambio esperado."
+  },
+  {
+    "codigo": "fraccion-acortamiento-vi",
+    "nombre": "Fracción de acortamiento del ventrículo izquierdo",
+    "sistema": "Cardiovascular",
+    "categoria": "Cardiaco",
+    "modalidad": "US",
+    "tipo": "formula",
+    "descripcion": "Mide el porcentaje en que se reduce el diámetro del ventrículo izquierdo entre la diástole y la sístole. Es una estimación rápida de la función sistólica que se obtiene en modo M y resulta especialmente útil en pediatría.",
+    "campos": [
+      {
+        "id": "ddf",
+        "etiqueta": "Diámetro diastólico final del ventrículo izquierdo (mm)",
+        "unidad": "mm",
+        "min": 0,
+        "paso": 1
+      },
+      {
+        "id": "dsf",
+        "etiqueta": "Diámetro sistólico final del ventrículo izquierdo (mm)",
+        "unidad": "mm",
+        "min": 0,
+        "paso": 1
+      }
+    ],
+    "ejemplo": {
+      "ddf": 48,
+      "dsf": 32
+    },
+    "resultados": [
+      {
+        "etiqueta": "Fracción de acortamiento",
+        "formula": "((ddf - dsf) / ddf) * 100",
+        "unidad": "%",
+        "decimales": 1
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "r0 < 25",
+        "texto": "Por debajo de 25 %, un valor que indica disfunción sistólica del ventrículo izquierdo.",
+        "nivel": "alto"
+      },
+      {
+        "si": "r0 > 45",
+        "texto": "Por encima de 45 %, un patrón hiperdinámico propio de la anemia, la fiebre, la sepsis y otros estados de gasto cardiaco elevado.",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Entre 25 y 45 %, una función sistólica dentro de la normalidad.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Fracción de acortamiento (%) = (diámetro diastólico final - diámetro sistólico final) / diámetro diastólico final × 100",
+    "notas": "Los diámetros se toman en eje largo o eje corto paraesternal, justo por debajo de los velos mitrales y de forma perpendicular al eje del ventrículo. La medida solo refleja el acortamiento de un segmento basal, así que deja de ser fiable cuando hay alteraciones segmentarias de la contractilidad, bloqueo de rama o movimiento septal paradójico, y en esos casos conviene recurrir a la fracción de eyección por el método de Simpson. Los límites del rango normal varían ligeramente entre guías."
+  },
+  {
+    "codigo": "angulo-bohler",
+    "nombre": "Ángulo de Böhler (calcáneo)",
+    "sistema": "Óseo",
+    "categoria": "Musculoesquelético",
+    "modalidad": "RX",
+    "tipo": "formula",
+    "descripcion": "Valora el hundimiento de la faceta articular posterior del calcáneo en la radiografía lateral del pie. Su disminución es el signo más útil para reconocer una fractura de calcáneo con depresión articular, que con frecuencia pasa desapercibida en una lectura rápida.",
+    "campos": [
+      {
+        "id": "angulo",
+        "etiqueta": "Ángulo de Böhler medido (grados)",
+        "unidad": "grados",
+        "min": 0,
+        "paso": 1,
+        "referencia": "Normal entre 20 y 40 grados"
+      }
+    ],
+    "ejemplo": {
+      "angulo": 12
+    },
+    "resultados": [
+      {
+        "etiqueta": "Ángulo de Böhler",
+        "formula": "angulo",
+        "unidad": "grados",
+        "decimales": 0
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "angulo < 20",
+        "texto": "Por debajo de 20 grados, un aplanamiento que indica hundimiento de la faceta articular posterior y apoya la fractura de calcáneo con depresión.",
+        "nivel": "alto"
+      },
+      {
+        "si": "angulo > 40",
+        "texto": "Por encima de 40 grados, un valor poco habitual que conviene comprobar revisando el trazado de las líneas y comparando con el pie contralateral.",
+        "nivel": "medio"
+      },
+      {
+        "si": "angulo < 25",
+        "texto": "Entre 20 y 25 grados, una zona límite que obliga a comparar con el pie sano y a pasar a la tomografía si la sospecha clínica es alta.",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Entre 25 y 40 grados, un ángulo dentro de la normalidad.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Ángulo formado por la línea que une el punto más alto de la apófisis anterior del calcáneo con el punto más alto de la faceta articular posterior, y la línea que va de ese punto al más alto de la tuberosidad posterior",
+    "notas": "El ángulo de Gissane completa la valoración y suele situarse entre 120 y 145 grados, de manera que su aumento también sugiere hundimiento articular. Existe bastante variabilidad entre personas sanas, así que la comparación con el pie contralateral resulta muy útil. Ante una fractura de calcáneo conviene explorar además la columna lumbar, porque el mecanismo de caída de pie se asocia con fracturas vertebrales por compresión."
+  },
+  {
+    "codigo": "angulo-cobb",
+    "nombre": "Ángulo de Cobb (escoliosis)",
+    "sistema": "Óseo",
+    "categoria": "Musculoesquelético",
+    "modalidad": "RX",
+    "tipo": "formula",
+    "descripcion": "Mide la angulación de una curva escoliótica entre las vértebras más inclinadas de sus extremos. Es la medida estándar para diagnosticar la escoliosis, graduar su magnitud y seguir su evolución durante el crecimiento.",
+    "campos": [
+      {
+        "id": "angulo",
+        "etiqueta": "Ángulo de Cobb medido (grados)",
+        "unidad": "grados",
+        "min": 0,
+        "paso": 1,
+        "referencia": "Se habla de escoliosis a partir de 10 grados"
+      }
+    ],
+    "ejemplo": {
+      "angulo": 32
+    },
+    "resultados": [
+      {
+        "etiqueta": "Ángulo de Cobb",
+        "formula": "angulo",
+        "unidad": "grados",
+        "decimales": 0
+      }
+    ],
+    "interpretacion": [
+      {
+        "si": "angulo >= 40",
+        "texto": "40 grados o más, una curva grave en la que suele plantearse el tratamiento quirúrgico, sobre todo si el paciente sigue creciendo.",
+        "nivel": "alto"
+      },
+      {
+        "si": "angulo >= 25",
+        "texto": "Entre 25 y 40 grados, una curva moderada que en el paciente en crecimiento es indicación habitual de corsé.",
+        "nivel": "medio"
+      },
+      {
+        "si": "angulo >= 10",
+        "texto": "Entre 10 y 25 grados, una curva leve que ya cumple el criterio de escoliosis y se sigue con controles periódicos.",
+        "nivel": "medio"
+      },
+      {
+        "si": "true",
+        "texto": "Por debajo de 10 grados, una asimetría que no cumple el criterio de escoliosis.",
+        "nivel": "normal"
+      }
+    ],
+    "formulaTexto": "Ángulo entre la perpendicular al platillo superior de la vértebra más inclinada del extremo superior de la curva y la perpendicular al platillo inferior de la vértebra más inclinada del extremo inferior",
+    "notas": "La medición se hace siempre en la misma proyección, en bipedestación y con la misma técnica, porque la posición cambia el resultado. El error entre observadores ronda los 5 grados, de modo que solo se considera progresión real un aumento mayor que ese margen. Conviene dejar registrado qué vértebras se eligieron como límite de la curva para que el control siguiente use las mismas."
+  }
+]
